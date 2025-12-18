@@ -1,0 +1,137 @@
+name: "Thermics Spells III"
+id: "wizard-thermics-spells-iii"
+id_appendix: "III"
+
+offensive:
+  - name: "Explosion"
+    id: "Explosion"
+    tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]4/8/12 MP[/section]"
+    description: >
+      A fiery detonation that deals more damage near the center.
+    effect: >
+      Center: [section:clr-roll]3d6[/section] Fire
+      [br]1–2m: [section:clr-roll]2d6[/section] Fire
+      [br]3–4m: [section:clr-roll]1d6[/section] Fire
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+  - name: "Fireball II"
+    id: "FireballII"
+    tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]4/8/12 MP[/section]"
+    description: >
+      An exploding ball of fire that damages all creatures in the radius.
+    effect: >
+      [section:clr-roll]4d6[/section] Fire
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+  - name: "Hailstorm"
+    id: "Hailstorm"
+    tags: ["TIER III", "Air / Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]6 MP[/section]"
+    description: >
+      Summons a localized magical hailstorm.
+    effect: >
+      [section:clr-roll]2d6[/section] Air, [section:clr-roll]2d6[/section] Ice
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+  - name: "Thermal Beam III"
+    id: "ThermalBeamIII"
+    tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "Matrix Crystal (optional)"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      The wizard lashes the target with a beam of fire or ice.
+      [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Fire / Ice[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]2d8[/section] Fire / Ice
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+  - name: "Thermal Bolt III"
+    id: "ThermalBoltIII"
+    tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      A bolt of fire or ice mana.
+    effect: >
+      [section:clr-roll]2d10[/section] Fire / Ice
+
+
+defensive:
+  - name: "Thermal Barrier III"
+    id: "ThermalBarrierIII"
+    tags: ["TIER III", "Fire / Ice", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d12[/section] Protection
+      [br][i]Barrier is [url:status#resistant]resistant[/url] against Fire / Ice[/i]
+
+
+utility:
+  - name: "Blizzard"
+    id: "Blizzard"
+    tags: ["TIER III", "Air / Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      The wizard creates a localized magical blizzard.
+    effect: >
+      Creatures in the zone are [url:status#Chilled]Chilled[/url].
+    saved: >
+      [url:status#Slowed]Slowed[/url].
+    saved10: >
+      No effect.
+
+  - name: "Sparkstream III"
+    id: "SparkstreamIII"
+    tags: ["TIER III", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]3 MP[/section]"
+    description: >
+      The wizard sends an unrelenting stream of sparks at a target, causing burns at the end of the target's turn while maintained. Requires line of sight.
+    effect: >
+      [url:status#Burning]Burning 3[/url].
+    saved: >
+      [url:status#Burning]Burning 2[/url].
+    saved10: >
+      [url:status#Burning]Burning 1[/url].
+
+
+ritual: []
