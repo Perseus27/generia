@@ -16,6 +16,7 @@ Thumbs.db
 
 # General
 local_startup.bat
+main.sublime-workspace
 
 # Local Testing
 docs/data/test/

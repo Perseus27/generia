@@ -29,12 +29,18 @@ title: Druid Spells
     <li><a href="#RitualIV">Ritual</a></li>
     <br>
     <h4>Tier X</h4>
+    <li><a href="#LivingArrows">Living Arows (Ranger)</a></li>
+    <li><a href="#SummonBeast">Summon Beast (Wildkeeper)</a></li>
     <br>
     <h4>See also:</h4>
     <li><a href="../what-is-a-druid">What is a Druid?</a></li>
   </div>
 </template>
 
+# Druid Spells
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/druid/druid-spells.bb') }}
+{{ spells('data/spells/druid/druid-spells-i.yaml') }}
+{{ spells('data/spells/druid/druid-spells-ii.yaml') }}
+{{ spells('data/spells/druid/druid-spells-iii.yaml') }}
+{{ spells('data/spells/druid/druid-spells-iv.yaml') }}
+{{ spells('data/spells/druid/druid-spells-x.yaml') }}
