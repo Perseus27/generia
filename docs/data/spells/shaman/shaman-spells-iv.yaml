@@ -33,7 +33,7 @@ offensive:
 defensive:
   - name: "Mighty Stonewall"
     id: "MightyStonewall"
-    tags: ["TIER IV", "Summoning (Stone)", "Active / Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    tags: ["TIER IV", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -45,7 +45,7 @@ defensive:
 
   - name: "Mighty Wind Ward"
     id: "MightyWindWard"
-    tags: ["TIER IV", "Summoning (Air)", "Active / Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER IV", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

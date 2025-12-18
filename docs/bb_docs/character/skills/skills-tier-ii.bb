@@ -295,7 +295,7 @@ Gains [url:status#Regeneration]Regeneration 2[/url] while [url:def#Concentration
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Defensive
+[br]Defensive
 [br]Range: Weapon
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]1 EN[/section]

@@ -20,7 +20,7 @@ offensive:
 defensive:
   - name: "Barkskin"
     id: "Barkskin"
-    tags: ["TIER I", "Flora", "Active / Defensive", "Range: 16m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER I", "Flora", "Defensive", "Range: 16m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

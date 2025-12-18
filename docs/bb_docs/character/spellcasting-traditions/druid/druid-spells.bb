@@ -21,7 +21,7 @@ TIER I
 [container:spell][h2|Barkskin]Barkskin[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Flora
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 16m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -229,7 +229,7 @@ TIER II
 [container:spell][h2|ThornMantle]Thorn Mantle[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Defensive
+[br]Defensive
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-exper]EXPERTISE 2/3[/section]
 [br]Staff Spell
@@ -246,7 +246,7 @@ TIER II
 [container:spell][h2|RootWall]Root Wall[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br][section:clr-control]CONTROL[/section]
 [br][section:clr-terrain]TERRAIN[/section]
@@ -514,7 +514,7 @@ TIER III
 [container:spell][h2|ThornrootWall]Thornroot Wall[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Flora
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br][section:clr-control]CONTROL[/section]
 [br]Terrain

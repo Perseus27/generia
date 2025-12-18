@@ -31,7 +31,7 @@ offensive:
 defensive:
   - name: "Stonewall"
     id: "Stonewall"
-    tags: ["TIER II", "Summoning (Stone)", "Active / Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    tags: ["TIER II", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -43,7 +43,7 @@ defensive:
 
   - name: "Wind Ward"
     id: "WindWard"
-    tags: ["TIER II", "Summoning (Air)", "Active / Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER II", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

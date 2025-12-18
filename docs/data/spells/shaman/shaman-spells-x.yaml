@@ -6,18 +6,18 @@ is_exclusive: True
 exclusive:
   - subheader:
     is_subheader: True
-    name: "Elementarist"
-    id: "Elementarist"
+    name: "Elementalist"
+    id: "Elementalist"
 
   - name: "Elemental Field"
     id: "ElementalField"
-    tags: ["TIER X", "Elementarist", "Summoning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
+    tags: ["TIER X", "Elementalist", "Summoning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
       - "[section:clr-mp]6/4/2 MP[/section]"
     description: >
-      Place a field of elemental energy; the effect depends on the chosen element and applies to all creatures in the area.
+      Place a field of elemental energy. The effect depends on the chosen element and applies to all creatures in the area.
     effect: >
       [b]Water:[/b]
       [br][url:status#Regeneration]Regeneration 1[/url] at turn start.

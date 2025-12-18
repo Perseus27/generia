@@ -50,7 +50,7 @@ TIER I
 [container:spell][h2|TensileShieldI]Tensile Shield I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Water
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 20m
 [br]UPCAST 3
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -70,7 +70,7 @@ TIER I
 [container:spell][h2|WaterVeil]Water Veil[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Water
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -228,7 +228,7 @@ TIER II
 [container:spell][h2|TensileShieldII]Tensile Shield II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Water
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 20m
 [br]UPCAST 3
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -477,7 +477,7 @@ TIER III
 [container:spell][h2|TensileShieldIII]Tensile Shield III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Water
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 20m
 [br]UPCAST 3
 [br][section:clr-conc]CONCENTRATION[/section]

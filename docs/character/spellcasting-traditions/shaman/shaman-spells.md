@@ -29,12 +29,17 @@ title: Shaman Spells
     <li><a href="#RitualIV">Ritual</a></li>
     <br>
     <h4>Tier X</h4>
+    <li><a href="#ElementalField">Elemental Field (Elementalist)</a></li>
+    <li><a href="#InnerWorld">Inner World (Monk)</a></li>
     <br>
     <h4>See also:</h4>
     <li><a href="../what-is-a-shaman">What is a Shaman?</a></li>
   </div>
 </template>
 
+# Shaman Spells
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/shaman/shaman-spells.bb') }}
+{{ spells('data/spells/shaman/shaman-spells-i.yaml') }}
+{{ spells('data/spells/shaman/shaman-spells-ii.yaml') }}
+{{ spells('data/spells/shaman/shaman-spells-iii.yaml') }}
+{{ spells('data/spells/shaman/shaman-spells-x.yaml') }}

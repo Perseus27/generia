@@ -35,6 +35,7 @@ title: Nox Spells
   </div>
 </template>
 
+# Nox Spells
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/nox/nox-spells.bb') }}
+{{ spells('data/spells/nox/nox-spells-i.yaml') }}
+{{ spells('data/spells/nox/nox-spells-ii.yaml') }}

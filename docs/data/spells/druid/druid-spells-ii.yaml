@@ -56,7 +56,7 @@ offensive:
 defensive:
   - name: "Thorn Mantle"
     id: "ThornMantle"
-    tags: ["TIER II", "Flora", "Active / Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Staff Spell"]
+    tags: ["TIER II", "Flora", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -69,7 +69,7 @@ defensive:
 
   - name: "Root Wall"
     id: "RootWall"
-    tags: ["TIER II", "Flora", "Active / Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    tags: ["TIER II", "Flora", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

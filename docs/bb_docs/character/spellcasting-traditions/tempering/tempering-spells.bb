@@ -22,7 +22,7 @@ TIER I
 [container:spell][h2|BonesOfSteel]Bones of Steel[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Body
-[br]Active / Defensive
+[br]Defensive
 [br]Duration: 1 Phase
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -41,7 +41,7 @@ TIER I
 [container:spell][h2|SkinOfBronze]Skin of Bronze[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Body
-[br]Active / Defensive
+[br]Defensive
 [br]Duration: 1 Phase
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]

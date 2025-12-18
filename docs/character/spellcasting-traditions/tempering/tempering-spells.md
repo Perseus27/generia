@@ -35,6 +35,7 @@ title: Tempering Spells
   </div>
 </template>
 
+# Tempering Spells
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/tempering/tempering-spells.bb') }}
+{{ spells('data/spells/tempering/tempering-spells-i.yaml') }}
+{{ spells('data/spells/tempering/tempering-spells-ii.yaml') }}
