@@ -1,0 +1,103 @@
+name: "Nox Spells II"
+id: "nox-spells-ii"
+id_appendix: "II"
+
+offensive:
+  - name: "Shadow Coating"
+    id: "ShadowCoating"
+    tags: ["TIER II", "Nox", "Offensive", "Reaction"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Coat an equipped weapon in shadow until the end of this turn.
+    effect: >
+      Damage type is converted to [url:dmgtype#Shadow]Shadow[/url].
+
+defensive:
+  - name: "Night Mist"
+    id: "NightMist"
+    tags: ["TIER II", "Nox", "Defensive", "Reaction"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      For a brief moment you become mist-like, resisting physical blows.
+    effect: >
+      Gain [url:status#Resistant]Resistant: Physical[/url] until end of turn.
+
+utility:
+  - name: "Darkness"
+    id: "Darkness"
+    tags: ["TIER II", "Nox", "Utility", "Range: 12m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Plunge an area into absolute darkness.
+    effect: >
+      The area is in absolute darkness.
+
+  - name: "Noxian Bargain"
+    id: "NoxianBargain"
+    tags: ["TIER II", "Nox", "Utility"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-value][b]1d4[/b][/section] [section:clr-mp]MP[/section]"
+    description: >
+      Haggle with the Goddess of Shadow to receive a minor boon.
+    effect: >
+      Gain [[section:clr-value]Night[/section]] or [[section:clr-value]Shadow[/section]] Nox Points (NP).
+
+  - name: "Shadow Step"
+    id: "ShadowStep"
+    tags: ["TIER II", "Nox", "Shadow", "Utility", "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Sink into the shadows and reappear on a free square in line of sight (or fresh memory) that is adjacent to terrain or a creature.
+    effect: >
+      Teleport to the chosen square.
+
+  - name: "Substitution"
+    id: "Substitution"
+    tags: ["TIER II", "Nox", "Utility", "Reaction", "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Instantly teleport to the location of a conjured shadow. The shadow is destroyed in the process.
+    effect: >
+      Teleport.
+
+  - name: "Wings of Night"
+    id: "WingsOfNight"
+    tags: ["TIER II", "Nox", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Shadowy wings sprout from your back, lifting you from the ground.
+    effect: >
+      [url:status#Levitating]Levitating 2[/url] with MS = [section:clr-attr]DEX-MOD[/section] × [section:clr-value]2[/section].
+
+  - name: "Form of Dread"
+    id: "FormOfDread"
+    tags: ["TIER II", "Nox", "Utility", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-value]Shadow[/section] vs [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      You appear to each creature in range as the embodiment of its worst fear. Each target perceives a different form; you don’t know which.
+    effect: >
+      Creatures in the area become [url:status#Frightened]Frightened[/url].
+    saved: "No effect."

@@ -1,0 +1,125 @@
+name: "Nox Spells I"
+id: "nox-spells-i"
+id_appendix: "I"
+
+offensive:
+  - name: "Shadow Strike"
+    id: "ShadowStrike"
+    tags: ["TIER I", "Nox", "Offensive", "Range: Weapon"]
+    type:
+      - "[section:clr-attack]BASIC ATTACK[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Make a [url:def#BasicAttack]basic attack[/url], coating the weapon in shadow.
+    effect: >
+      Damage type is converted to [url:dmgtype#Shadow]Shadow[/url].
+
+defensive:
+  - name: "Blur"
+    id: "Blur"
+    tags: ["TIER I", "Nox", "Defensive", "Reaction"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Your outline (or that of a summoned shadow) blurs, aiding evasion.
+    effect: >
+      [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]Dodge[/url] roll.
+
+utility:
+  - name: "Shadow Summoning"
+    id: "ShadowSummoning"
+    tags: ["TIER I", "Nox", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Animate your own shadow or a stolen shadow.
+      [br]The shadow uses the original creature’s stat block except WL/[section:clr-en]EN[/section]/[section:clr-mp]MP[/section].
+    effect: >
+      An animated shadow manifests next to the caster.
+
+  - name: "Shadow Run"
+    id: "ShadowRun"
+    tags: ["TIER I", "Nox", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Take a Movement Action while merging with nearby shadows. MS is doubled while moving along terrain.
+    effect: >
+      Basic attacks triggered by [i]Opportunist[/i] have [url:core#Disadvantage]Disadvantage 2[/url].
+
+  - name: "Shadow Cloak"
+    id: "ShadowCloak"
+    tags: ["TIER I", "Nox", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Wrap a creature in shadow to slip from sight.
+    effect: >
+      Target gains [url:status#Hidden]Hidden 1[/url].
+
+  - name: "Shadow Knives"
+    id: "ShadowKnives"
+    tags: ["TIER I", "Nox", "Utility"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Conjure throwing knives of shadow. They vanish when stowed, dropped, or after dealing damage.
+    effect: >
+      Conjure [[section:clr-attr]PER-MOD[/section]] throwing knives.
+      [br]Each knife deals [section:clr-roll]2d4[/section] + [section:clr-attr]STR-MOD[/section] [url:dmgtype#Shadow]Shadow[/url] on hit.
+
+  - name: "Terror"
+    id: "Terror"
+    tags: ["TIER I", "Nox", "Utility", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-value]Shadow[/section] vs [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Manifest a target’s worst fear as a shadowy apparition only it can perceive.
+    effect: >
+      Target becomes [url:status#Frightened]Frightened[/url].
+    saved: "No effect."
+
+ritual:
+  - name: "Prayer to Nox"
+    id: "PrayerToNox"
+    tags: ["TIER I", "Nox", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "Cast: Variable"
+    description: >
+      Petitions Nox for an effect related to her domains:
+      [br]Elemental: [i]Shadow[/i]
+      [br]Conceptual: [i]Night, Darkness, Stealth, Secrets, Speed, Crime, Fear[/i]
+    effect: >
+      Effect, duration, and any costs are negotiable.
+      [br]Enables [url:/generia/rules/magic/freecasting]Freecasting[/url].
+
+  - name: "Shadow Thief"
+    id: "ShadowThief"
+    tags: ["TIER I", "Nox", "Ritual"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cast_time: "5 seconds"
+    cost:
+      - "[section:clr-mp]—[/section]"
+    description: >
+      Attempt to steal a creature’s shadow by touching it.
+      [br]Roll a [section:clr-attr]PER[/section]+[[section:clr-value]Shadow[/section]] check and exceed the creature’s level. If the creature notices the attempt, the ritual immediately fails.
+      [br][i]Once per creature per day (resets at midnight).[/i]
+    effect: >
+      On success, the creature’s shadow is stolen and can be used as a pseudo-familiar (see Shadow Summoning).
+    saved: "No effect."
