@@ -20,7 +20,7 @@ offensive:
 defensive:
   - name: "Bones of Steel"
     id: "BonesOfSteel"
-    tags: ["TIER I", "Body", "Active / Defensive", "Duration: 1 Phase"]
+    tags: ["TIER I", "Body", "Defensive", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -37,7 +37,7 @@ defensive:
 
   - name: "Skin of Bronze"
     id: "SkinOfBronze"
-    tags: ["TIER I", "Body", "Active / Defensive", "Duration: 1 Phase"]
+    tags: ["TIER I", "Body", "Defensive", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

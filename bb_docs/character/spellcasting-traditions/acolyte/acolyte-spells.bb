@@ -59,7 +59,7 @@ TIER I
 [container:spell][h2|RadiantShield]Radiant Shield[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Sol
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 20m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -213,7 +213,7 @@ TIER II
 [container:spell][h2|ArmorOfSol]Armor of Sol[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Sol
-[br]Active / Defensive
+[br]Defensive
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]

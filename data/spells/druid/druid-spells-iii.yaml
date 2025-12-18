@@ -20,7 +20,7 @@ offensive:
 defensive:
   - name: "Thornroot Wall"
     id: "ThornrootWall"
-    tags: ["TIER III", "Flora", "Active / Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "Terrain", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    tags: ["TIER III", "Flora", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "Terrain", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

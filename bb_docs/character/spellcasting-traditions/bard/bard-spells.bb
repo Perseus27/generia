@@ -40,7 +40,7 @@ TIER I
 [container:spell][h2|VerseOfLove]Verse of Love[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-control]CONTROL[/section]
 [br]Varieté
@@ -58,7 +58,7 @@ TIER I
 [container:spell][h2|VerseOfSteadiness]Verse of Steadiness[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -76,7 +76,7 @@ TIER I
 [container:spell][h2|MelodyOfTyranny]Melody of Tyranny[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-control]CONTROL[/section]
@@ -224,7 +224,7 @@ TIER I
 [container:spell][h2|VerseOfSlumber]Verse of Slumber[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-control]CONTROL[/section]
@@ -357,7 +357,7 @@ TIER II
 [container:spell][h2|StanzaOfLove]Stanza of Love[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-control]CONTROL[/section]
 [br]Varieté
@@ -377,7 +377,7 @@ TIER II
 [container:spell][h2|StanzaOfSteadiness]Stanza of Steadiness[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -397,7 +397,7 @@ TIER II
 [container:spell][h2|SongOfTyranny]Song of Tyranny[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-control]CONTROL[/section]
@@ -557,7 +557,7 @@ TIER II
 [container:spell][h2|StanzaOfSlumber]Stanza of Slumber[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-control]CONTROL[/section]
@@ -617,7 +617,7 @@ TIER III
 [container:spell][h2|PoemOfLove]Poem of Love[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-control]CONTROL[/section]
 [br]Varieté
@@ -637,7 +637,7 @@ TIER III
 [container:spell][h2|PoemOfSteadiness]Poem of Steadiness[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -657,7 +657,7 @@ TIER III
 [container:spell][h2|SonataOfTyranny]Sonata of Tyranny[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-control]CONTROL[/section]
@@ -817,7 +817,7 @@ TIER III
 [container:spell][h2|PoemOfSlumber]Poem of Slumber[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 4m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-control]CONTROL[/section]
@@ -841,7 +841,7 @@ TIER III
 [container:spell][h2|MostlyHarmless]Mostly Harmless[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Charlatan[/i]
 [br]Cacophony
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-control]CONTROL[/section]

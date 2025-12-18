@@ -54,7 +54,7 @@ TIER I
 [container:spell][h2|ArcaneShieldI]Arcane Shield I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Active / Defensive
+[br]Defensive
 [br]UPCAST 5
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -70,7 +70,7 @@ TIER I
 [container:spell][h2|CounterShot]Counter Shot[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -249,7 +249,7 @@ TIER II
 [container:spell][h2|ArcaneShieldII]Arcane Shield II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Active / Defensive
+[br]Defensive
 [br]UPCAST 5
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -295,7 +295,7 @@ TIER II
 [container:spell][h2|ProjectileShield]Projectile Shield[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br]Radius: 4m
 [br]UPCAST 3
@@ -530,7 +530,7 @@ TIER III
 [container:spell][h2|ArcaneShieldIII]Arcane Shield III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Active / Defensive
+[br]Defensive
 [br]UPCAST 5
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]

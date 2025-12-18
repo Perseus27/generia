@@ -266,7 +266,7 @@ TIER II
 [container:spell][h2|StaticMantle]Static Mantle[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Lightning
-[br]Active / Defensive
+[br]Defensive
 [br]Radius: 2m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-zone]ZONE[/section]

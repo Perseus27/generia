@@ -33,7 +33,7 @@ TIER I
 [container:spell][h2|LowStonewall]Low Stonewall[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Summoning (Stone)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br][section:clr-control]CONTROL[/section]
 [/container][container:spell-columncenter]
@@ -48,7 +48,7 @@ TIER I
 [container:spell][h2|LesserWindWard]Lesser Wind Ward[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Summoning (Air)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-field]FIELD[/section]
@@ -266,7 +266,7 @@ TIER II
 [container:spell][h2|Stonewall]Stonewall[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Summoning (Stone)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br][section:clr-control]CONTROL[/section]
 [/container][container:spell-columncenter]
@@ -281,7 +281,7 @@ TIER II
 [container:spell][h2|WindWard]Wind Ward[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Summoning (Air)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-field]FIELD[/section]
@@ -484,7 +484,7 @@ TIER III
 [container:spell][h2|HighStonewall]High Stonewall[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Summoning (Stone)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br][section:clr-control]CONTROL[/section]
 [/container][container:spell-columncenter]
@@ -499,7 +499,7 @@ TIER III
 [container:spell][h2|GreaterWindWard]Greater Wind Ward[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Summoning (Air)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-field]FIELD[/section]
@@ -704,7 +704,7 @@ TIER IV
 [container:spell][h2|MightyStonewall]Mighty Stonewall[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Summoning (Stone)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 12m
 [br][section:clr-control]CONTROL[/section]
 [/container][container:spell-columncenter]
@@ -719,7 +719,7 @@ TIER IV
 [container:spell][h2|MightyWindWard]Mighty Wind Ward[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Summoning (Air)
-[br]Active / Defensive
+[br]Defensive
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-field]FIELD[/section]
