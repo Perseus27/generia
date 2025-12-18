@@ -38,6 +38,6 @@ title: Acolyte Spells
   </div>
 </template>
 
-
+# Acolyte Spells
 
 {{ bb_from_file('bb_docs/character/spellcasting-traditions/acolyte/acolyte-spells.bb') }}
