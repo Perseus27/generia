@@ -205,5 +205,3 @@ utility:
       Creatures in the area are [url:status#Silenced]Silenced[/url] and become [url:status#Unconscious]Unconscious[/url].
     saved: >
       Prevents Unconsciousness.
-
-ritual: []

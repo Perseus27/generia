@@ -166,5 +166,3 @@ utility:
       Let the air carry you so you hover above the ground.
     effect: >
       [url:status#Levitating]Levitating 1/2/3[/url] (MS = [section:clr-attr]INT[/section] + [section:clr-value]Air[/section]).
-
-ritual: []
