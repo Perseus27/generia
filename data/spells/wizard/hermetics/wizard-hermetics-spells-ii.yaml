@@ -114,9 +114,11 @@ utility:
 
   - name: "Chameleon Field"
     id: "ChameleonField"
-    tags: ["TIER II", "Light", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]", "MATERIAL: Matrix Crystal"]
+    tags: ["TIER II", "Light", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Matrix Crystal"
     cost:
       - "[section:clr-mpcost]4 MP[/section]"
     description: >

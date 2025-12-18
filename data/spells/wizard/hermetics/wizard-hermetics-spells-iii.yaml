@@ -133,6 +133,3 @@ utility:
     effect: >
       Creatures and objects are teleported.
       [br][i]Effect does not occur if either square is currently occupied.[/i]
-
-
-ritual: []
