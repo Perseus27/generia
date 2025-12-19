@@ -61,7 +61,7 @@ content:
     name: Moon Dancer
     id: MoonDancer
 
-  - name: Luna’s Protective Hand
+  - name: "Luna's Protective Hand"
     id: LunasProtectiveHand
     sp-cost: 10
     requirements: [url:class3#MoonDancer]Moon Dancer[/url]

@@ -58,7 +58,7 @@ content:
     name: Moon Warden
     id: MoonWarden
 
-  - name: Luna’s Guiding Hand
+  - name: "Luna's Guiding Hand"
     id: LunasGuidingHand
     sp-cost: 10
     requirements: [url:class2#MoonWarden]Moon Warden[/url]
@@ -135,7 +135,7 @@ content:
     sp-cost: 10
     requirements: [url:class2#SunEnvoy]Sun Envoy[/url]
     description: >
-      Sol damage spells inflict [url:status#Blinded]Blinded 1[/url] if they penetrate [url:values#MD]MD[/url] and an additional stack if a damage die [url:core#Explosion]explodes[/url].
+      Offensive Sol spells inflict [url:status#Blinded]Blinded 1[/url] on [url:def#Hit]hit[/url] and an additional stack if a damage die [url:core#Explosion]explodes[/url].
 
   - subheader:
     is_subheader: True
@@ -160,18 +160,6 @@ content:
     requirements: [url:class2#Siren]Siren[/url]
     description: >
       When the Siren successfully applies a [url:status]status effect[/url] to any creature that is able to move, she may, as a [url:def#Reaction]Reaction[/url], force it to move up to [section:clr-value]3m[/section] toward her.
-
-  - subheader:
-    is_subheader: True
-    name: Herald of Nox
-    id: HeraldofNox
-
-  - name: Shadow Conclave
-    id: ShadowConclave
-    sp-cost: 20
-    requirements: [url:class2#HeraldofNox]Herald of Nox[/url]
-    description: >
-      Summoned shadows require no [url:def#Concentration]Concentration[/url] while in darkness.
 
   - subheader:
     is_subheader: True
@@ -202,12 +190,12 @@ content:
     name: Treewarden
     id: Treewarden
 
-  - name: Wildgrowth: Permanence
+  - name: "Wildgrowth: Permanence"
     id: WildgrowthPermanence
     sp-cost: 10
     requirements: [url:class2#Treewarden]Treewarden[/url]
     description: >
-      [i]Wildgrowth[/i] rituals now create permanent plants. Their lifespan equals that of a normal plant of the species.
+      [i][url:druidS#Wildgrowth]Wildgrowth[/url][/i] now creates permanent plants. Their lifespan equals that of a normal plant of the species.
 
   - subheader:
     is_subheader: True
