@@ -11,7 +11,7 @@ content:
   - name: Edge Alignment
     id: EdgeAlignment
     sp-cost: 10
-    requirements: [url:class2#Slasher]Slasher[/url]
+    requirements: "[url:class2#Slasher]Slasher[/url]"
     description: >
       On each attack with [url:weapons#SlashingWeaponsCommon]slashing weapons[/url], you may reroll [section:clr-value]one[/section] damage die [section:clr-value]once[/section].
 
@@ -23,6 +23,6 @@ content:
   - name: Bloodlust
     id: Bloodlust
     sp-cost: 20
-    requirements: [url:class2#Berserker]Berserker[/url]
+    requirements: "[url:class2#Berserker]Berserker[/url]"
     description: >
       [url:core#Advantage]Advantage 1[/url] on [url:def#BasicAttack]basic attack[/url] rolls against wounded targets.
