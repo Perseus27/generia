@@ -148,9 +148,9 @@ class Character_Renderer:
 
     def format_perks(self):
         all_perks = self.yaml_input.get("perks")
-        special_perks_bb = self.build_list_from_list(all_perks.get("special"))
-        combat_perks_bb = self.build_list_from_list(all_perks.get("combat"))
-        magic_perks_bb = self.build_list_from_list(all_perks.get("magic"))
+        special_perks_bb = self.build_list_with_autolink(all_perks.get("special"), "perk")
+        combat_perks_bb = self.build_list_with_autolink(all_perks.get("combat"), "perk")
+        magic_perks_bb = self.build_list_with_autolink(all_perks.get("magic"), "perk")
         perks_formatted = {"special" : self.BB_HELPER.process(special_perks_bb), "combat" : self.BB_HELPER.process(combat_perks_bb), "magic" : self.BB_HELPER.process(magic_perks_bb)}
         return perks_formatted
 
@@ -313,7 +313,7 @@ class Character_Renderer:
                 else:
                     to_link = x
                 if link_type == "perk":
-                    pass
+                    link = Autolinker().link_perk(to_link)
                 elif link_type == "skill":
                     pass
                 elif link_type == "spell":
