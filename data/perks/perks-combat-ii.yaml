@@ -1,0 +1,17 @@
+name: "Combat Perks II"
+id: "perks-combat-ii"
+prefix: "perksC"
+
+content:
+  - name: Armor Familiarity II
+    id: ArmorFamiliarityII
+    sp-cost: 20
+    requirements: Armor Familiarity I
+    description: >
+      Encumbrance of [url:armor#HeavyArmor]heavy armor[/url] is further reduced by [section:clr-value]1[/section] per piece.
+  - name: Butcher
+    id: Butcher
+    sp-cost: 20
+    requirements: –
+    description: >
+      If you inflict [url:status#Bleeding]Bleeding[/url] on a target that is already bleeding, the target immediately takes the original Bleeding damage again. The effect remains.

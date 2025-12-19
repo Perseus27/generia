@@ -1,0 +1,11 @@
+name: "Magic Perks I"
+id: "magic-combat-i"
+prefix: "perksM"
+
+content:
+  - name: Arcane Artillery
+    id: ArcaneArtillery
+    sp-cost: 10
+    requirements: –
+    description: >
+      The MP cost of all [url:def#PA]PA[/url] spells is reduced by [section:clr-value]1[/section].
