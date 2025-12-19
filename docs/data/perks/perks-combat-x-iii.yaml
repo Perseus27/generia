@@ -1,6 +1,7 @@
 name: "Combat Perks X III"
 id: "perks-combat-x-iii"
 prefix: "perksXC"
+is_exclusive: True
 
 content:
   - subheader:

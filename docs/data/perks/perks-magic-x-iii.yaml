@@ -1,6 +1,7 @@
 name: "Magic Perks X III"
 id: "perks-magic-x-iii"
 prefix: "perksXM"
+is_exclusive: True
 
 content:
   - subheader:
