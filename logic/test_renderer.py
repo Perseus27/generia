@@ -23,4 +23,4 @@ class Test_Renderer:
         return pathlib.Path.cwd() / "docs" / "data" / "test" / "test.yaml"
     
     def autolink_test(self, x):
-        return Autolinker().link_spells(x)
+        return Autolinker().link_spell(x)

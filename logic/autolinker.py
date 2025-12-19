@@ -14,14 +14,14 @@ class Autolinker:
             for path in sorted(self.SPELL_DIR.rglob("*.yaml"))
         ]
 
-    def link_spells(self, x):
+    def link_spell(self, x):
         for y in self.spell_yamls:
             prefix = y.get("prefix")
             for subcat in self.get_all_spells_from_file(y):
                 for i in subcat:
                     if i.get("name") == x:
                         return f"{prefix}#{i.get('id')}"
-        return "SpellLinkError"
+        return False
     
     def get_all_spells_from_file(self, f):
         all = [f.get("offensive", False), 

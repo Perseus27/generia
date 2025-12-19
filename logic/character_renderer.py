@@ -1,4 +1,5 @@
 from bb_renderer import BB_Renderer
+from autolinker import Autolinker
 
 class Character_Renderer:
     
@@ -131,25 +132,25 @@ class Character_Renderer:
 
     def format_proficiencies(self):
         all_proficiencies = self.yaml_input.get("proficiencies")
-        magic = self.build_list_from_array(all_proficiencies.get("magic"))
-        weapons = self.build_list_from_array(all_proficiencies.get("weapons"))
-        civilian = self.build_list_from_array(all_proficiencies.get("civilian"))
+        magic = self.build_list_from_list(all_proficiencies.get("magic"))
+        weapons = self.build_list_from_list(all_proficiencies.get("weapons"))
+        civilian = self.build_list_from_list(all_proficiencies.get("civilian"))
         proficiencies_formatted = {"magic" : self.BB_HELPER.process(magic), "weapons" : self.BB_HELPER.process(weapons), "civilian" : self.BB_HELPER.process(civilian)}
         return proficiencies_formatted
     
     def format_actions(self):
         all_actions = self.yaml_input.get("actions")
-        skills = self.build_list_from_array(all_actions.get("skills"))
-        spells = self.build_list_from_array(all_actions.get("spells"))
-        rituals = self.build_list_from_array(all_actions.get("rituals"))
+        skills = self.build_list_from_list(all_actions.get("skills"))
+        spells = self.build_list_with_autolink(all_actions.get("spells"), "spell")
+        rituals = self.build_list_with_autolink(all_actions.get("rituals"), "spell")
         actions_formatted = {"skills" : self.BB_HELPER.process(skills), "spells" : self.BB_HELPER.process(spells), "rituals" : self.BB_HELPER.process(rituals)}
         return actions_formatted
 
     def format_perks(self):
         all_perks = self.yaml_input.get("perks")
-        special_perks_bb = self.build_list_from_array(all_perks.get("special"))
-        combat_perks_bb = self.build_list_from_array(all_perks.get("combat"))
-        magic_perks_bb = self.build_list_from_array(all_perks.get("magic"))
+        special_perks_bb = self.build_list_from_list(all_perks.get("special"))
+        combat_perks_bb = self.build_list_from_list(all_perks.get("combat"))
+        magic_perks_bb = self.build_list_from_list(all_perks.get("magic"))
         perks_formatted = {"special" : self.BB_HELPER.process(special_perks_bb), "combat" : self.BB_HELPER.process(combat_perks_bb), "magic" : self.BB_HELPER.process(magic_perks_bb)}
         return perks_formatted
 
@@ -257,13 +258,23 @@ class Character_Renderer:
         self.html_output = result
 
 
-    def build_list_from_array(self, input_array):
+    def build_list_from_list(self, input_list, autolink = False):
         list_start = "[ul]"
         list_end = "[/ul]"
         result = list_start
-        if len(input_array):
-            for x in input_array:
-                result += "[li]"+x+"[/li]"
+        if len(input_list):
+            for x in input_list:
+                link = False
+                if autolink == "perk":
+                    pass
+                elif autolink == "skill":
+                    pass
+                elif autolink == "spell":
+                    link = Autolinker().link_spell(x)
+                if link:
+                    result += "[li][url:"+link+"]"+x+"[/url][/li]"
+                else:
+                    result += "[li]"+x+"[/li]"
         else:
             result += "[li][/li]"
         result += list_end
@@ -287,5 +298,36 @@ class Character_Renderer:
                 result += "[/li]"
         else:
             result += "[li][/li]"
+        result += list_end
+        return result
+    
+
+    def build_list_with_autolink(self, input_list, link_type):
+        list_start = "[ul]"
+        list_end = "[/ul]"
+        result = list_start
+        if len(input_list):
+            for x in input_list:
+                if isinstance(x, list):
+                    to_link = x[0]
+                else:
+                    to_link = x
+                if link_type == "perk":
+                    pass
+                elif link_type == "skill":
+                    pass
+                elif link_type == "spell":
+                    link = Autolinker().link_spell(to_link)
+                if isinstance(x, list):
+                    if link:
+                        result += f"[li][url:{link}]{x[0]}[/url] {x[1]}[/li]"
+                    else:
+                        result += f"{x[0]} {x[1]}"
+                else:
+                    if link:
+                        result += f"[li][url:{link}]{x}[/url][/li]"
+                    else:
+                        result += f"[li]{x}[/li]"
+
         result += list_end
         return result
