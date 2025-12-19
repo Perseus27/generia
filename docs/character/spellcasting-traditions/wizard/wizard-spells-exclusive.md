@@ -19,6 +19,6 @@ title: Wizard Spells - Exclusive
   </div>
 </template>
 
-
+# Wizard Spells – Exclusive
 
 {{ spells('data/spells/wizard/wizard-spells-x.yaml') }}

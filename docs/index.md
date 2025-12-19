@@ -1,3 +1,3 @@
 # Generia TTRPG System
 
-Welcome!
+{{ bb_from_file('bb_docs/navigation/home-links.bb') }}

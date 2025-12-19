@@ -41,6 +41,7 @@ class BB_Renderer:
             'noxS'      :   '/generia/character/spellcasting-traditions/nox/nox-spells',
             'shamanS'   :   '/generia/character/spellcasting-traditions/shaman/shaman-spells',
             'sorcererS' :   '/generia/character/spellcasting-traditions/sorcerer/sorcerer-spells',
+            'temperedS' :   '/generia/character/spellcasting-traditions/tempering/tempering-spells',
             'hermetics' :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-hermetics',
             'kinetics'  :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-kinetics',
             'meteorics' :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-meteorics',
