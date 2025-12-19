@@ -1,3 +1,28 @@
 name: "Combat Perks X II"
 id: "perks-combat-x-ii"
 prefix: "perksXC"
+
+content:
+  - subheader:
+    is_subheader: True
+    name: Slasher
+    id: Slasher
+
+  - name: Edge Alignment
+    id: EdgeAlignment
+    sp-cost: 10
+    requirements: [url:class2#Slasher]Slasher[/url]
+    description: >
+      On each attack with [url:weapons#SlashingWeaponsCommon]slashing weapons[/url], you may reroll [section:clr-value]one[/section] damage die [section:clr-value]once[/section].
+
+  - subheader:
+    is_subheader: True
+    name: Berserker
+    id: Berserker
+
+  - name: Bloodlust
+    id: Bloodlust
+    sp-cost: 20
+    requirements: [url:class2#Berserker]Berserker[/url]
+    description: >
+      [url:core#Advantage]Advantage 1[/url] on [url:def#BasicAttack]basic attack[/url] rolls against wounded targets.
