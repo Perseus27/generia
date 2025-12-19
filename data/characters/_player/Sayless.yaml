@@ -17,12 +17,12 @@ notes: >
   [br]REST 1
 
 attributes:
-  CON: ["5", "2"]
-  STR: ["6", "3"]
-  DEX: ["8", "[section:clr-bonus]5[/section]"]
-  INT: ["5", "2"]
-  WIL: ["4", "2"]
-  PER: ["6", "3"]
+  CON: [5, 2]
+  STR: [6, 3]
+  DEX: [8, "[section:clr-bonus]5[/section]"]
+  INT: [5, 2]
+  WIL: [4, 2]
+  PER: [6, 3]
 values:
   EN: 15
   MP: 10
@@ -70,12 +70,12 @@ actions:
     - "[url:skills1#AimedStrike]Aimed Strike[/url]"
     - "[url:skills1#Counter]Counter[/url]"
   spells:
-    - "[url:noxS#ShadowStrike]Shadow Strike[/url]"
-    - "[url:noxS#ShadowCloak]Shadow Cloak[/url]"
-    - "[url:noxS#ShadowSummoning]Shadow Summoning[/url]"
-    - "[url:noxS#ShadowRun]Shadow Run[/url]"
-    - "[url:noxS#Terror]Terror [section:clr-dc]13[/section][/url]"
-    - "[url:noxS#Blur]Blur[/url]"
+    - Shadow Strike
+    - Shadow Cloak
+    - Shadow Summoning
+    - Shadow Run
+    - [Terror, "[section:clr-dc]13[/section]"]
+    - Blur
   rituals: 
     - ""
 proficiencies:
