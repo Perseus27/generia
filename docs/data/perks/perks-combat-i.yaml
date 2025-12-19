@@ -1,0 +1,23 @@
+name: "Combat Perks I"
+id: "perks-combat-i"
+prefix: "perksC"
+
+content:
+  - name: Armor Familiarity I
+    id: ArmorFamiliarityI
+    sp-cost: 10
+    requirements: –
+    description: >
+      Encumbrance of [url:armor#HeavyArmor]heavy armor[/url] is reduced by [section:clr-value]1[/section] per piece.
+  - name: Blood Avenger
+    id: BloodAvenger
+    sp-cost: 10
+    requirements: –
+    description: >
+      [section:clr-value]+2[/section] to [url:def#BasicAttack]basic attack[/url] rolls for each wound you have suffered.
+  - name: Cavalry
+    id: Cavalry
+    sp-cost: 10
+    requirements: –
+    description: >
+      Negates penalties from mounted combat when using weapons with the [i]Cavalry[/i] tag.

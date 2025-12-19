@@ -1,0 +1,11 @@
+name: "Magic Perks II"
+id: "magic-combat-ii"
+prefix: "perksM"
+
+content:
+  name: Astral Body II
+  id: AstralBodyII
+  sp-cost: 20
+  requirements: Astral Body I
+  description: >
+    Further increase maximum [url:values#MP]Mana Points[/url] ([section:clr-mp]MP[/section]) by [section:clr-value]5[/section] and [url:values#MPR]MP Regeneration[/url] (MPR) by [section:clr-value]1[/section].
