@@ -20,7 +20,7 @@ class Autolinker:
             for subcat in self.get_all_spells_from_file(y):
                 for i in subcat:
                     if i.get("name") == x:
-                        return f"{prefix}#{i.get("id")}"
+                        return f"{prefix}#{i.get('id')}"
         return "SpellLinkError"
     
     def get_all_spells_from_file(self, f):
