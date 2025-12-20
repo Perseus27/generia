@@ -1,7 +1,7 @@
 name: "Acolyte"
 id: "class-acolyte"
 
-info: >
+spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/acolyte/what-is-an-acolyte]What is an Acolyte?[/url]
 
 description: >
@@ -29,7 +29,7 @@ proficiencies:
   magic:
     - ["Acolyte: Beginner", 10 SP]
   weapons:
-    - ["Blunt or Slashing or Stabbing Weapons: Beginner", 10 SP]
+    - ["Blunt [i]or[/i] Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
 
 skills:
   - []
@@ -41,7 +41,7 @@ spells:
   - [Purify, 4 SP]
 
 starter_set:
-  - Mace or Bastard Sword or Spear
+  - "Mace [i]or[/i] Bastard Sword [i]or[/i] Spear"
   - Acolyte Amulet+2
   - Padded Armor
   - Weapon Belt
