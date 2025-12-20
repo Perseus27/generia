@@ -1,0 +1,37 @@
+name: "Assassin"
+id: "class-assassin"
+
+description: >
+  A shadowy assassin. Their considerable mobility makes them a feared opponent.
+
+prerequisites:
+  - Nox
+
+subclasses:
+  - Shadow
+
+perks:
+  combat:
+    - ["Opportunist", "10 SP"]
+  magic:
+    - ["Withering Shadows", "10 SP, X"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - ["Nox: Intermediate", "20 SP"]
+  - ["Shadow Step", "8 SP"]
+  - ["Noxian Bargain", "8 SP"]
+  - ["Terror", "4 SP"]
+
+starter_set:
+  - []

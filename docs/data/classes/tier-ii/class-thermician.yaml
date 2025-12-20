@@ -1,0 +1,38 @@
+name: "Thermician"
+id: "class-thermician"
+
+description: >
+  Thermicians are Wizards who specialize in fire and ice spells.
+
+prerequisites:
+  - Wizard
+
+subclasses:
+  - Magister
+  - Magus
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Practiced Thermician", "20 SP, X"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - ["Thermics: Intermediate", "20 SP"]
+  - ["Ice Shrapnel", "4 SP"]
+  - ["Fireball I", "8 SP"]
+  - ["Frost Lance I", "8 SP"]
+
+starter_set:
+  - []

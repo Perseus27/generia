@@ -1,0 +1,39 @@
+name: "Stabber"
+id: "class-stabber"
+
+description: >
+  Stabbers are experts with stabbing weapons of all kinds.
+
+prerequisites:
+  - Fighter
+  - Stabbing: Beginner
+
+subclasses:
+  - Champion
+  - Templar
+
+perks:
+  combat:
+    - ["Spearhead", "10 SP, X"]
+    - ["Opportunist", "10 SP"]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - ["Stabbing: Intermediate", "20 SP"]
+
+skills:
+  - ["Counter", "4 SP"]
+  - ["Multistrike", "8 SP"]
+  - ["Disarm", "8 SP"]
+
+spells:
+  - []
+
+starter_set:
+  - []

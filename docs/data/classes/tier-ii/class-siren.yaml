@@ -1,0 +1,37 @@
+name: "Siren"
+id: "class-siren"
+
+description: >
+  Sirens influence both creatures and plants with ancient magic and control the battlefield with their beguiling voices.
+
+prerequisites:
+  - Bard
+  - Druid
+
+subclasses:
+  - Banshee
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Seduction", "10 SP, X"]
+    - ["Focus I", "10 SP"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - ["Bard: Intermediate", "20 SP"]
+  - ["Druid: Intermediate", "20 SP"]
+
+starter_set:
+  - []

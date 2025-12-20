@@ -1,0 +1,38 @@
+name: "War Dancer"
+id: "class-war-dancer"
+
+description: >
+  War Dancers specialize in polearms and dominate the battlefield with elegant precision and considerable reach.
+
+prerequisites:
+  - Fighter
+  - Slashing or Stabbing: Beginner
+
+subclasses:
+  - Moon Dancer
+
+perks:
+  combat:
+    - ["Zone of Control", "10 SP, X"]
+    - ["Opportunist", "10 SP"]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - ["Slashing or Stabbing Weapons: Intermediate", "20 SP"]
+
+skills:
+  - ["Swift Parry", "4 SP"]
+  - ["Counter", "4 SP"]
+  - ["Whirl", "12 SP"]
+
+spells:
+  - []
+
+starter_set:
+  - []
