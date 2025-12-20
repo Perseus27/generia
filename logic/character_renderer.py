@@ -140,7 +140,7 @@ class Character_Renderer:
     
     def format_actions(self):
         all_actions = self.yaml_input.get("actions")
-        skills = self.build_list_from_list(all_actions.get("skills"))
+        skills = self.build_list_with_autolink(all_actions.get("skills"), "skill")
         spells = self.build_list_with_autolink(all_actions.get("spells"), "spell")
         rituals = self.build_list_with_autolink(all_actions.get("rituals"), "spell")
         actions_formatted = {"skills" : self.BB_HELPER.process(skills), "spells" : self.BB_HELPER.process(spells), "rituals" : self.BB_HELPER.process(rituals)}
@@ -315,7 +315,7 @@ class Character_Renderer:
                 if link_type == "perk":
                     link = Autolinker().link_perk(to_link)
                 elif link_type == "skill":
-                    pass
+                    link = Autolinker().link_skill(to_link)
                 elif link_type == "spell":
                     link = Autolinker().link_spell(to_link)
                 if isinstance(x, list):

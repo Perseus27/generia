@@ -13,6 +13,10 @@ class Autolinker:
             yaml.safe_load(path.read_text(encoding="utf-8"))
             for path in sorted(self.PERK_DIR.rglob("*.yaml"))
         ]
+        self.skill_yamls = [
+            yaml.safe_load(path.read_text(encoding="utf-8"))
+            for path in sorted(self.SKILL_DIR.rglob("*.yaml"))
+        ]
         self.spell_yamls = [
             yaml.safe_load(path.read_text(encoding="utf-8"))
             for path in sorted(self.SPELL_DIR.rglob("*.yaml"))
@@ -26,6 +30,15 @@ class Autolinker:
                     return f"{prefix}#{p.get('id')}"
         return False
 
+    def link_skill(self, x):
+        for y in self.skill_yamls:
+            prefix = y.get("prefix")
+            for subcat in self.get_all_skills_from_file(y):
+                for i in subcat:
+                    if i.get("name") == x or x in i.get("alias", []):
+                        return f"{prefix}#{i.get('id')}"
+        return False
+
     def link_spell(self, x):
         for y in self.spell_yamls:
             prefix = y.get("prefix")
@@ -37,6 +50,15 @@ class Autolinker:
     
     def get_all_perks_from_file(self, f):
         return f.get("content", [])
+    
+    def get_all_skills_from_file(self, f):
+        all = [f.get("offensive", False), 
+                  f.get("utility", False), 
+                  f.get("reaction", False),
+                  f.get("tier2", False),
+                  f.get("tier3", False)]
+        result = [x for x in all if x]
+        return result
     
     def get_all_spells_from_file(self, f):
         all = [f.get("offensive", False), 
