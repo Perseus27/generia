@@ -47,6 +47,11 @@ def define_env(env):
         return Creature_Renderer(yaml_content, autolinker).get_output()
     
     @env.macro
+    def class_main(path: str):
+        yaml_content = _read_yaml(path)
+        return Class_Renderer(yaml_content, autolinker).get_output_main()
+    
+    @env.macro
     def class_card(path: str):
         yaml_content = _read_yaml(path)
         return Class_Renderer(yaml_content, autolinker).get_output_card()
