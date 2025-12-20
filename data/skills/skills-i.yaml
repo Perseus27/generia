@@ -1,0 +1,34 @@
+name: "Skills Tier I"
+id: "skills-i"
+prefix: "skills1"
+
+offensive:
+  - name: Careful Shot
+    id: CarefulShot
+    tags: [Tier I, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url], [url:core#Eased]eased[/url] by [[section:clr-attr]PER-MOD[/section]].
+
+
+utility:
+  - name: Feint
+    id: Feint
+    tags: [Tier I, Utility, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    type:
+      - "Check [section:clr-value]Proficiency[/section] vs [section:clr-attr]PER[/section]"
+    description: >
+      Baits the target into a hasty defense, giving it [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] if it fails the check.
+
+
+reaction:
+  - name: Aimed Shot
+    id: AimedShot
+    tags: [Tier I, Reaction]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      The next [url:def#RangedAttack]ranged attack[/url] within this turn targets a specific hit zone, but has [url:core#Disadvantage]Disadvantage 1[/url] when targeting arms or legs and [url:core#Disadvantage]Disadvantage 2[/url] when targeting the head. 

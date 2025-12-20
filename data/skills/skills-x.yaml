@@ -1,0 +1,35 @@
+name: "Skills Tier X"
+id: "skills-x"
+prefix: "skillsX"
+
+tier1:
+  - subheader:
+    is_subheader: True
+    name: Field Archer
+    id: FieldArcher
+
+  - name: Mighty Shot
+    id: MightyShot
+    tags: [Tier X, "[url:class2/class-field-archer]Field Archer[/url]", Offensive, "Range: Weapon", "SP Cost: 10"]
+    cost:
+      - "[section:clr-encost]1/2/34/5 EN[/section]"
+      - "[url:def#MovementAction]Movement Action[/url]"
+    description: >
+      Uses both the attack and movement actions to execute a [url:def#RangedAttack]ranged attack[/url], [url:core#Hindered]hindered[/url] by 4/6/8/10/12.
+      [br]Damage dealt is doubled, up to a limit of [[section:clr-attr]STR-MOD[/section] * 2/4/6/8/10].
+      [br][i]Requires ranged weapon with DR greater than [section:clr-value]0[/section].[/i]
+
+  - subheader:
+    is_subheader: True
+    name: Shieldbearer
+    id: Shieldbearer
+
+  - name: Protect
+    id: Protect
+    tags: [Tier X, "[url:class2/class-shieldbearer]Shieldbearer[/url]", Reaction, "Range: Weapon", "SP Cost: 10"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Blocks an attack targeting an ally.
+      [br]If the ally is not in melee range, the user may perform a [url:def#MovementAction]movement action[/url] in their direction first, for an additional cost of [section:clr-encost]1 EN[/section].
+      [br][i]Requires a shield.[/i]
