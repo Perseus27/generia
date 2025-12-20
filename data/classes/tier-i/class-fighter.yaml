@@ -1,9 +1,6 @@
 name: "Fighter"
 id: "class-fighter"
 
-info: >
-  Fighters excel with diverse weaponry and battlefield tactics.
-
 description: >
   Fighters can handle a variety of weapon groups and are trained in the arts of war. Their versatility makes them valuable in any adventuring party.
 
@@ -35,7 +32,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - ["Blunt or Slashing or Stabbing Weapons: Beginner", 10 SP]
+    - ["Blunt [i]or[/i] Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
     - ["Defensive Weapons: Beginner", 10 SP]
 
 skills:
@@ -48,8 +45,8 @@ spells:
   - []
 
 starter_set:
-  - Broadsword or Mace or Smallsword or War Spear
-  - Roundshield or Buckler
+  - "Broadsword [i]or[/i] Mace [i]or[/i] Rapier [i]or[/i] Spear"
+  - "Roundshield [i]or[/i] Buckler"
   - Leather Helmet
   - Leather Armor
   - Leather Gauntlets
