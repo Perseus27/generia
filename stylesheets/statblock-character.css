@@ -1,5 +1,5 @@
 .chara-block {
-	background: rgba(180,180,180,0.1);
+	background: rgba(180,180,180,0.05);
     padding: 8px;
     margin-top: 2em;
     border: 2px solid var(--md-default-fg-color--lighter);
