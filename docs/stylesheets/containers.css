@@ -1,5 +1,5 @@
 .spell {
-	background: rgba(180,180,180,0.1);
+	background: rgba(180,180,180,0.05);
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
@@ -37,7 +37,7 @@
 
 
 .skill {
-	background: rgba(180,180,180,0.1);
+	background: rgba(180,180,180,0.05);
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
@@ -71,7 +71,7 @@
 
 
 .perk {
-	background: rgba(180,180,180,0.1);
+	background: rgba(180,180,180,0.05);
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
@@ -88,7 +88,7 @@
 
 
 .orgblock {	
-	background: rgba(180,180,180,0.1);
+	background: rgba(180,180,180,0.05);
 	border-style: dashed;
 	border-width: 1px;
 	border-color: black;
@@ -115,7 +115,7 @@
 }
 
 .statusblock {	
-	background: rgba(180,180,180,0.1);
+	background: rgba(180,180,180,0.05);
 	border-style: dashed;
 	border-width: 1px;
 	border-color: black;
@@ -149,7 +149,7 @@
 }
 
 .home-linkblock {
-	background: rgba(180,180,180,0.1);
+	background: rgba(180,180,180,0.05);
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
@@ -165,4 +165,45 @@
 }
 .home-linkblock h4 {
 	margin-top: 0px;
+}
+
+
+.class-main h2 {
+	margin-top: 0;
+	font-weight: bold;
+}
+.class-main-caster-info {
+
+}
+.class-main-info {
+	background: rgba(180,180,180,0.05);
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 8px;
+	margin-top: 1rem;
+}
+.class-main-subinfo {
+	font-size: 0.6rem;
+}
+
+.class-main-body {
+	width: 100%;
+}
+.class-main-body li {
+	margin-bottom: 0 !important;
+}
+
+.class-main-body-category {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 0.55rem;
+}
+.class-main-sub50 {
+	width: 50%;
+}
+.class-main-sub33 {
+	width: 33%;
 }

@@ -23,27 +23,32 @@ class Class_Renderer:
         prof_civilian = proficiencies.get("civilian")
         starter_set = c.get("starter_set", [])
         # class header
-        result = f"[h1]{c.get('name')}[/h1]"
+        result = f"[container:class-main]"
+        result += f"[h1]{c.get('name')}[/h1]"
         # spellcaster info
         if caster_info:
             result += f"[container:class-main-caster-info]{caster_info}[/container]"
-        # description
-        result += f"[container:class-main-description]{c.get('description')}[/container]"
         # info
         result += f"[container:class-main-info]"
+        ## description
+        result += f"[h2]Description[/h2]"
+        result += f"[container:class-main-description]{c.get('description')}[/container]"
         ## prerequisites
+        result += f"[container:class-main-subinfo]"
         result += f"[h4]Prerequisites[/h4]"
         result += f"{self.format_list_comma(c.get('prerequisites'), to_link='class')}"
         ## subclasses
         result += f"[h4]Subclasses[/h4]"
         result += f"{self.format_list_comma(c.get('subclasses'), to_link='class')}"
+        result += f"[/container]"
         # close info
-        result += "[/container]"
+        result += f"[/container]"
+        result += f"[hr]"
         # body
         result += f"[container:class-main-body]"
         ## perks
-        result += f"[container:class-main-perks]"
-        result += f"[h3]Perks[/h3]"
+        result += f"[h2]Perks[/h2]"
+        result += f"[container:class-main-body-category]"
         ### combat
         result += f"[container:class-main-sub50]"
         result += f"[h4]Combat[/h4]"
@@ -53,27 +58,29 @@ class Class_Renderer:
         result += f"[container:class-main-sub50]"
         result += f"[h4]Magic[/h4]"
         result += f"{self.build_ul_li_with_autolink(perks.get('magic'), 'perk')}"
-        result += "[/container]"
+        result += f"[/container]"
         ## close perks
-        result += "[/container]"
+        result += f"[/container]"
+        result += f"[hr]"
         ## actions
-        result += f"[container:class-main-actions]"
-        result += f"[h3]Actions[/h3]"
+        result += f"[h2]Actions[/h2]"
+        result += f"[container:class-main-body-category]"
         ### skills
         result += f"[container:class-main-sub50]"
         result += f"[h4]Skills[/h4]"
         result += f"{self.build_ul_li_with_autolink(actions.get('skills'), 'skill')}"
-        result += "[/container]"
+        result += f"[/container]"
         ### spells
         result += f"[container:class-main-sub50]"
         result += f"[h4]Spells[/h4]"
         result += f"{self.build_ul_li_with_autolink(actions.get('spells'), 'spell')}"
-        result += "[/container]"
+        result += f"[/container]"
         ## close actions
-        result += "[/container]"
+        result += f"[/container]"
+        result += f"[hr]"
         ## proficiencies
-        result += f"[container:class-main-proficiencies]"
-        result += f"[h3]Proficiencies[/h3]"
+        result += f"[h2]Proficiencies[/h2]"
+        result += f"[container:class-main-body-category]"
         ### weapon
         if len(prof_civilian):
             result += f"[container:class-main-sub33]"
@@ -81,7 +88,7 @@ class Class_Renderer:
             result += f"[container:class-main-sub50]"
         result += f"[h4]Weapons[/h4]"
         result += f"{self.build_ul_li(proficiencies.get('weapons'))}"
-        result += "[/container]"
+        result += f"[/container]"
         ### spellcasting
         if len(prof_civilian):
             result += f"[container:class-main-sub33]"
@@ -89,23 +96,27 @@ class Class_Renderer:
             result += f"[container:class-main-sub50]"
         result += f"[h4]Spellcasting[/h4]"
         result += f"{self.build_ul_li(proficiencies.get('magic'))}"
-        result += "[/container]"
+        result += f"[/container]"
         ### civilian?
         if len(prof_civilian):
             result += f"[container:class-main-sub33]"
             result += f"[h4]Civilian[/h4]"
             result += f"{self.build_ul_li(proficiencies.get('civilian'))}"
-            result += "[/container]"
+            result += f"[/container]"
         ## close proficiencies
-        result += "[/container]"
+        result += f"[/container]"
+        result += f"[hr]"
         # close body
-        result += "[/container]"
+        result += f"[/container]"
         # STARTER SET ???
         if len(starter_set):
+            result += f"[hr]"
             result += f"[container:class-main-starter]"
             result += f"[h2]Starter Set[/h2]"
             result += f"{self.build_ul_li(starter_set)}"
-            result += "[/container]"
+            result += f"[/container]"
+        # close class-main
+        result += f"[/container]"
         return result
         
 
