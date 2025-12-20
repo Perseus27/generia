@@ -71,7 +71,7 @@ class Spell_Renderer:
         # check for cast time
         cast_time = spell.get("cast_time", False)
         if cast_time:
-            columncenter += f"[br][b]Cast:[/b] {cast_time}"
+            columncenter += f"[br][b]Cast Time:[/b] {cast_time}"
         columncenter +=  f"[br]{spell.get('description', 'DESCRIPTION ERROR')}"
         columncenter += f"[/container]"
         ### right column
