@@ -24,9 +24,9 @@ class Class_Renderer:
         # info
         result += f"[container:class-card-info]"
         # prerequisites
-        result += f"[h4]Prerequisites[/h4]{self.format_list_comma(c.get('prerequisites'), to_link="class")}"
+        result += f"[h4]Prerequisites[/h4]{self.format_list_comma(c.get('prerequisites'), to_link='class')}"
         # subclasses
-        result += f"[h4]Subclasses[/h4]{self.format_list_comma(c.get('subclasses'), to_link="class")}"
+        result += f"[h4]Subclasses[/h4]{self.format_list_comma(c.get('subclasses'), to_link='class')}"
         # close info
         result += "[/container]"
         return result
