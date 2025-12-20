@@ -1,0 +1,38 @@
+name: "Wildkeeper"
+id: "class-wildkeeper"
+
+description: >
+  Wildkeepers are druids devoted to the animal kingdom. They fight alongside summoned beasts.
+
+prerequisites:
+  - Druid
+
+subclasses:
+  - Ranger
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - ["Druid: Intermediate", "20 SP"]
+  - ["Summon Beast", "20 SP, X"]
+  - ["Barkskin", "4 SP"]
+  - ["Panic", "8 SP"]
+  - ["Soulbond", "8 SP"]
+
+starter_set:
+  - []

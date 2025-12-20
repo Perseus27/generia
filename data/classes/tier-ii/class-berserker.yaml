@@ -1,0 +1,36 @@
+name: "Berserker"
+id: "class-berserker"
+
+description: >
+  Berserkers are marauders who give themselves over to a bloodrage and unleash frenzied attacks that wreck enemy ranks.
+
+prerequisites:
+  - Marauder
+
+subclasses: []
+
+perks:
+  combat:
+    - ["Bloodlust", "20 SP, X"]
+    - ["Blood Avenger", "10 SP"]
+    - ["Opportunist", "10 SP"]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - ["Daredevil", "8 SP"]
+  - ["Whirl", "12 SP"]
+
+spells:
+  - []
+
+starter_set:
+  - []

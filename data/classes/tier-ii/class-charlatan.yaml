@@ -1,0 +1,33 @@
+name: "Charlatan"
+id: "class-charlatan"
+
+description: >
+
+
+prerequisites:
+  - None
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - []
+
+starter_set:
+  - []
