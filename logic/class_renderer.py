@@ -128,7 +128,7 @@ class Class_Renderer:
         # body
         result += f"[container:class-card-body]"
         # description
-        result += f"[container:class-card-description]{c.get('description')}[/container]"
+        result += f"[container:class-card-description][h4]Description[/h4]{c.get('description')}[/container]"
         # info
         result += f"[container:class-card-info]"
         # prerequisites
@@ -136,7 +136,11 @@ class Class_Renderer:
         # subclasses
         result += f"[h4]Subclasses[/h4]{self.format_list_comma(c.get('subclasses'), to_link='class')}"
         # close info
-        result += "[/container]"
+        result += f"[/container]"
+        # close body
+        result += f"[/container]"
+        #close card
+        result += f"[/container]"
         return result
     
 
