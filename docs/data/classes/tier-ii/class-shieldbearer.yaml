@@ -1,0 +1,39 @@
+name: "Shieldbearer"
+id: "class-shieldbearer"
+
+description: >
+  Shieldbearers are stalwart defenders who protect less-armored party members and draw enemy attention.
+
+prerequisites:
+  - Fighter
+  - Defensive: Beginner
+
+subclasses:
+  - Champion
+  - Templar
+
+perks:
+  combat:
+    - ["Armor Familiarity I", "10 SP"]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - ["Defensive: Intermediate", "20 SP"]
+
+skills:
+  - ["Protect", "10 SP, X"]
+  - ["Stance: Block", "12 SP"]
+  - ["Steady Block", "4 SP"]
+  - ["Shield Bash", "4 SP"]
+
+spells:
+  - []
+
+starter_set:
+  - []

@@ -1,0 +1,36 @@
+name: "Therianthrope"
+id: "class-therianthrope"
+
+description: >
+  Lorem Ipsum
+
+prerequisites:
+  - Druide
+
+subclasses: []
+
+perks:
+  combat:
+    - ["Opportunist", "10 SP"]
+  magic:
+    - ["Second Nature", "10 SP, X"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - ["Charge", "4 SP"]
+  - ["Feint", "4 SP"]
+  - ["Shove", "4 SP"]
+
+spells:
+  - ["Druid: Intermediate", "20 SP"]
+  - ["Theriomorphosis: Hybrid", "8 SP"]
+
+starter_set:
+  - []

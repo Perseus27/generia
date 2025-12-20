@@ -1,0 +1,38 @@
+name: "Kinetician"
+id: "class-kinetician"
+
+description: >
+  Kineticians are Wizards who specialize in stone and water spells.
+
+prerequisites:
+  - Wizard
+
+subclasses:
+  - Magister
+  - Magus
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Practiced Kinetician", "20 SP, X"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - ["Kinetics: Intermediate", "20 SP"]
+  - ["Tensile Shield I", "4 SP"]
+  - ["Satellites", "8 SP"]
+  - ["Earthquake", "8 SP"]
+
+starter_set:
+  - []

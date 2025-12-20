@@ -1,0 +1,39 @@
+name: "Slasher"
+id: "class-slasher"
+
+description: >
+  Slashers are experts in slashing weapons of all kinds.
+
+prerequisites:
+  - Fighter
+  - Slashing: Beginner
+
+subclasses:
+  - Champion
+  - Templar
+
+perks:
+  combat:
+    - ["Edge Alignment", "10 SP, X"]
+    - ["Opportunist", "10 SP"]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - ["Slashing: Intermediate", "20 SP"]
+
+skills:
+  - ["Counter", "4 SP"]
+  - ["Mighty Strike", "8 SP"]
+  - ["Disarm", "8 SP"]
+
+spells:
+  - []
+
+starter_set:
+  - []

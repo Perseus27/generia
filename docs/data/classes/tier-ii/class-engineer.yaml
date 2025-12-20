@@ -1,0 +1,33 @@
+name: "Engineer"
+id: "class-engineer"
+
+description: >
+
+
+prerequisites:
+  - None
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - []
+
+starter_set:
+  - []
