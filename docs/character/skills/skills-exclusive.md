@@ -2,4 +2,6 @@
 title: Skills – Exclusive
 ---
 
-{{ bb_from_file('bb_docs/character/skills/skills-exclusive.bb') }}
+# Skills – Exclusive
+
+{{ skills('data/skills/skills-x.yaml') }}

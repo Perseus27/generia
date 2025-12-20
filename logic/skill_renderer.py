@@ -65,7 +65,7 @@ class Skill_Renderer:
             columnright += f"[container:skill-type]{self.format_list_br(skill_type)}[/container]"
         cost = skill.get("cost", False)
         if cost:
-            columnright += f"[container:skill-cost]{self.format_list_br(cost)}[/container]"
+            columnright += f"[container:skill-cost][b]Cost:[/b] {self.format_list_br(cost)}[/container]"
         if skill_type or cost:
             columnright += f"[hr]"
         columnright += f"{skill.get('description', 'DESCRIPTION ERROR')}"
