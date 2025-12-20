@@ -132,9 +132,9 @@ class Class_Renderer:
         # info
         result += f"[container:class-card-info]"
         # prerequisites
-        result += f"[h4]Prerequisites[/h4]{self.format_list_comma(c.get('prerequisites'), to_link='class')}"
+        result += f"[h4]Prerequisites[/h4]{self.format_list_comma(c.get('prerequisites'), to_link='class-overview')}"
         # subclasses
-        result += f"[h4]Subclasses[/h4]{self.format_list_comma(c.get('subclasses'), to_link='class')}"
+        result += f"[h4]Subclasses[/h4]{self.format_list_comma(c.get('subclasses'), to_link='class-overview')}"
         # close info
         result += f"[/container]"
         # close body
@@ -176,6 +176,8 @@ class Class_Renderer:
                 link = False
                 if to_link == "class":
                     link = self.autolinker.link_class(i)
+                elif to_link == "class-overview":
+                    link = self.autolinker.link_class(i, overview=True)
                 if link:
                     result += f"[url:{link}]{i}[/url]"
                 else:

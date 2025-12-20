@@ -32,10 +32,13 @@ class Autolinker:
             for path in sorted(self.TAG_DIR.rglob("*.yaml"))
         ]
 
-    def link_class(self, x):
+    def link_class(self, x, overview=False):
         for c in self.class_yamls:
             if c.get("name") == x or x in c.get("alias", []):
-                return f"{c.get('prefix')}/{c.get('id')}"
+                if overview:
+                    return f"/generia/character/classes/classes-overview#{c.get('id')}"
+                else:
+                    return f"{c.get('prefix')}/{c.get('id')}"
         return False
     
     def link_perk(self, x):
