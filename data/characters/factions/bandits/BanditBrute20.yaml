@@ -1,0 +1,97 @@
+name: Bandit – Brute 20
+id: Brute20
+info:
+  species: [Human, Orc]
+  level: 20
+  size: Medium
+  classes: [Marauder, Berserker]
+  tags: [–]
+notes: >
+  [br]135 SP Base
+  [br]+40 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [9, 4]
+  STR: [11, 5]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [7, 3]
+  PER: [5, 3]
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: 6
+armor:
+  head: 2
+  torso: 6
+  arms: 4
+  legs: 3
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+    - name: "Shovel+1"
+      damage: "2d8+8"
+      hit: "Hit+8, Block+15|9"
+    - name: "Brass Knuckles"
+      damage: "1d8+7"
+      hit: "Hit+7, Block+12|9"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+9|9"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Chainmail"
+    - name: "Chain Gauntlets"
+    - name: "Leather Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - Whirl
+    - Mighty Strike
+    - Daredevil
+    - Charge
+    - Leg Sweep
+    - Shove
+    - Swing
+    - Feint
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Slashing: Intermediate"
+    - "[i]Axes 6[/i]"
+    - "Natural: Intermediate"
+    - "[i]Primitive 3[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Survival 1[/i]"
+perks:
+  special:
+    - Pursuit Hunter
+    - Stalwart
+  
+  combat:
+    - Bloodlust
+    - Blood Avenger
+    - Conditioned I
+    - Goliath
+    - Grapple Expert
+    - Opportunist
+    - Pugilist
+    - Sprinter
+  
+  magic:
+    - ""

@@ -4,64 +4,66 @@ info:
   species: Human
   level: 15
   size: Medium
-  classes: [Fighter]
+  classes: [Fighter, Slasher]
   tags: [–]
 notes: >
   [br]100 SP Base
-  [br]+40 Bonus
+  [br]+30 Bonus
   [br]REST 2
 
 attributes:
   CON: [8, 4]
-  STR: [8, 4]
-  DEX: [7, 3]
-  INT: [5, 2]
-  WIL: [5, 2]
-  PER: [5, 2]
+  STR: [9, 4]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [4, 2]
 values:
   EN: 25
   MP: 5
   MPR: 1
-  WL: 5
+  WL: 4
   WT: 7
   TN: 4
   MS: 6
 armor:
-  head: 2
+  head: 3
   torso: 7
-  arms: 3
-  legs: 3
-  md: 1
+  arms: 4
+  legs: 4
+  md: 3
   enc: 0
 inventory:
   weapons:
     - name: "Longsword+2"
-      damage: "2d8+5|2"
-      hit: "Hit+10, Block+13|6"
-    - name: "Roundshield"
-      damage: "1d6+6"
-      hit: "Hit+2, Block+8|8"
+      damage: "2d8+6|4"
+      hit: "Hit+9, Block+13|8"
     - name: "Knife"
       damage: "2d6"
-      hit: "Hit+6, Block+8|6"
+      hit: "Hit+4, Block+8|8"
   armor:
-    - name: "Leather Helmet"
+    - name: "Chain Helmet"
     - name: "Chainmail+1"
-    - name: "Leather Gauntlets"
-    - name: "Leather Greaves"
-    - name: "Amulet +1"
+    - name: "Chain Gauntlets"
+    - name: "Chain Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
   misc:
     - name: "Adventurer's Pack I"
 actions:
   skills:
+    - "Stance: Attack"
+    - Whirl
     - Mordhau
+    - Mighty Strike
+    - Aimed Strike
     - Charge
     - Swing
     - Feint
     - Counter
     - Leg Sweep
     - Shove
-    - Aimed Strike
+    - Disarm
   spells:
     - ""
   rituals: 
@@ -71,19 +73,20 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Intermediate"
-    - "[i]Swords 7[/i]"
-    - "Defensive: Intermediate"
+    - "[i]Swords 5[/i]"
+    - "Defensive: Beginner"
   civilian:
-    - "[i]Athletics 3[/i]"
+    - "[i]Athletics 2[/i]"
     - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 3[/i]"
+    - "[i]Warfare 2[/i]"
 perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
   
   combat:
-    - Conditioned II
+    - Edge Alignment
+    - Conditioned I
     - Forerunner
     - Opportunist
   

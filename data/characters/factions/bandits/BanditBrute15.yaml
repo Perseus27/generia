@@ -1,5 +1,5 @@
-name: Bandit – Brute (Club) 15
-id: BruteClub15
+name: Bandit – Brute 15
+id: Brute15
 info:
   species: [Human, Orc]
   level: 15
@@ -7,48 +7,49 @@ info:
   classes: [Marauder, Berserker]
   tags: [–]
 notes: >
-  [br]60 SP Base
-  [br]+40 Bonus
+  [br]105 SP Base
+  [br]+30 Bonus
   [br]REST 1
 
 attributes:
-  CON: [8, 4]
+  CON: [7, 3]
   STR: [9, 4]
-  DEX: [5, 2]
+  DEX: [7, 3]
   INT: [3, 1]
-  WIL: [5, 2]
+  WIL: [7, 3]
   PER: [5, 2]
 values:
-  EN: 20
+  EN: 25
   MP: 5
-  MPR: 1
+  MPR: 2
   WL: 5
-  WT: 8
-  TN: 3
-  MS: 4
+  WT: 7
+  TN: 4
+  MS: 6
 armor:
-  head: 0
+  head: 2
   torso: 5
-  arms: 4
+  arms: 3
   legs: 3
-  md: 1
+  md: 2
   enc: 0
 inventory:
   weapons:
-    - name: "Great Mace"
-      damage: "2d8+7"
-      hit: "Hit+7, Block+13|7"
-    - name: "Fist"
-      damage: "1d6+5"
-      hit: "Hit+5, Block+11|3"
+    - name: "Shovel"
+      damage: "2d8+6"
+      hit: "Hit+6, Block+12|7"
+    - name: "Brass Knuckles"
+      damage: "1d8+6"
+      hit: "Hit+5, Block+9|7"
     - name: "Knife"
       damage: "2d6"
-      hit: "Hit+4, Block+9|7"
+      hit: "Hit+2, Block+7|7"
   armor:
-    - name: "Leather Armor-1"
+    - name: "Leather Helmet"
+    - name: "Leather Armor"
     - name: "Leather Gauntlets"
-    - name: "Leather Greaves-1"
-    - name: "Amulet+1"
+    - name: "Leather Greaves"
+    - name: "Amulet+2"
   misc:
     - name: "Adventurer's Pack I"
 actions:
@@ -69,8 +70,8 @@ proficiencies:
   magic:
     - ""
   weapons:
-    - "Blunt: Intermediate"
-    - "[i]Clubs 5[/i]"
+    - "Slashing: Intermediate"
+    - "[i]Axes 5[/i]"
     - "Natural: Beginner"
     - "[i]Primitive 2[/i]"
   civilian:
@@ -84,7 +85,10 @@ perks:
   combat:
     - Bloodlust
     - Blood Avenger
+    - Conditioned I
+    - Goliath
     - Opportunist
+    - Pugilist
     - Sprinter
   
   magic:
