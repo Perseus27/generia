@@ -4,84 +4,99 @@ info:
   species: [Felis, Human]
   level: 20
   size: Medium
-  classes: [Nox, Fighter]
+  classes: [Nox, Fighter, Assassin, Duelist]
   tags: [–]
 notes: >
-  [br]85 SP Base
-  [br]+60 Bonus
-  [br]REST 0
+  [br]140 SP Base
+  [br]+40 Bonus
+  [br]REST 2
 
 attributes:
-  CON: [4, 2]
+  CON: [7, 3]
   STR: [6, 3]
-  DEX: [10, 5]
-  INT: [7, 3]
+  DEX: [11, 5]
+  INT: [5, 2]
   WIL: [5, 2]
-  PER: [8, 4]
+  PER: [10, 5]
 values:
-  EN: 10
-  MP: 20
-  MPR: 3
-  WL: 6
-  WT: 5
+  EN: 15
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 7
   TN: 3
-  MS: 6
+  MS: 8
 armor:
-  head: 0
-  torso: 3
-  arms: 1
-  legs: 0
-  md: 1
+  head: 2
+  torso: 5
+  arms: 3
+  legs: 2
+  md: 4
   enc: 0
 inventory:
   weapons:
-    - name: "Smallsword"
-      damage: "2d6+3"
-      hit: "Hit+14, Block+8|4"
+    - name: "Rapier+1"
+      damage: "2d6+2"
+      hit: "Hit+11, Block+10|6"
     - name: "Dagger"
       damage: "2d6"
-      hit: "Hit+14, Block+8|4"
+      hit: "Hit+11, Block+10|6"
     - name: "Throwing Knife"
-      damage: "2d4+4"
-      hit: "Hit+12"
+      damage: "2d4+2"
+      hit: "Hit+9"
     - name: "Knife"
       damage: "2d6"
-      hit: "Hit+12, Block+8|4"
+      hit: "Hit+9, Block+10|6"
   armor:
-    - name: "Padded Armor-1"
-    - name: "Cloth Gauntlets"
-    - name: "Noxian Ring +3"
+    - name: "Leather Helmet"
+    - name: "Leather Armor"
+    - name: "Leather Gauntlets"
+    - name: "Padded Greaves"
+    - name: "Amulet+2"
+    - name: "Noxian Ring+1"
+    - name: "Ring+1"
   misc:
-    - name: "Adventurer's Pack I"
+    - name: "Adventurer's Pack II"
 actions:
   skills:
+    - Double Strike
+    - Aimed Strike
     - Charge
     - Feint
     - Leg Sweep
     - Shove
+    - Swift Parry
+    - Counter
+    - Disarm
+    - Pocket Sand
   spells:
     - Shadow Strike
+    - Shadow Coating
     - Shadow Cloak
     - Shadow Knives
     - Shadow Summoning
+    - [Terror, "[section:clr-dc]15[/section]"]
+    - Shadow Step
+    - Shadow Run
     - Blur
+    - Noxian Bargain
   rituals: 
     - Prayer to Nox
 proficiencies:
   magic:
-    - "Nox: Advanced"
+    - "Nox: Intermediate"
     - "[i]Night 5[/i]"
   weapons:
     - "Stabbing: Advanced"
-    - "[i]Swords 6[/i]"
-    - "[i]Daggers 6[/i]"
+    - "[i]Swords 4[/i]"
+    - "[i]Daggers 4[/i]"
     - "Ranged: Beginner"
     - "Defensive: Beginner"
   civilian:
     - "[i]Monster Lore 1[/i]"
     - "[i]Rites 1[/i]"
-    - "[i]Stealing 4[/i]"
-    - "[i]Stealth 5[/i]"
+    - "[i]Stealing 2[/i]"
+    - "[i]Stealth 3[/i]"
     - "[i]Warfare 2[/i]"
 perks:
   special:
@@ -89,7 +104,8 @@ perks:
     - Tradition [i]Stealth[/i]
   
   combat:
+    - Lone Fighter
     - Opportunist
   
   magic:
-    - ""
+    - Withering Shadow

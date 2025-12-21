@@ -4,7 +4,7 @@ info:
   species: [Alb, Elf]
   level: 20
   size: Medium
-  classes: [Wizard, Thermician]
+  classes: [Wizard, Thermician, Hermetician]
   tags: [–]
 notes: >
   [br]130 SP Base
@@ -12,70 +12,75 @@ notes: >
   [br]REST 2
 
 attributes:
-  CON: [4, 2]
-  STR: [3, 1]
+  CON: [6, 3]
+  STR: [4, 2]
   DEX: [4, 2]
-  INT: [10, 5]
-  WIL: [8, 4]
-  PER: [7, 3]
+  INT: [12, 6]
+  WIL: [9, 4]
+  PER: [8, 4]
 values:
   EN: 10
   MP: 25
   MPR: 4
-  WL: 6
-  WT: 5
+  WL: 5
+  WT: 6
   TN: 3
   MS: 4
 armor:
   head: 1
-  torso: 3
-  arms: 1
-  legs: 1
-  md: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 5
   enc: 0
 inventory:
   weapons:
     - name: "Wizard Staff"
       damage: "2d8"
-      hit: "Hit+4, Block+7|3"
+      hit: "Hit+2, Block+5|5"
     - name: "Knife"
       damage: "2d6"
-      hit: "Hit+4, Block+7|3"
+      hit: "Hit+2, Block+5|5"
   armor:
     - name: "Wizard Hat"
-    - name: "Cloth Armor"
-    - name: "Cloth Gauntlets"
-    - name: "Cloth Greaves"
-    - name: "Amulet +4"
+    - name: "Leather Armor+1"
+    - name: "Padded Gauntlets+1"
+    - name: "Padded Greaves+1"
+    - name: "Amulet+3"
+    - name: "2× Ring+1"
   misc:
-    - name: "Adventurer's Pack I"
+    - name: "Adventurer's Pack II"
 actions:
   skills:
     - ""
   spells:
-    - [Fireball III, "[section:clr-sa]+8[/section]"]
-    - [Frost Lance III, "[section:clr-pa]+6[/section]"]
-    - [Thermal Beam IV, "[section:clr-sa]+8[/section]"]
-    - [Thermal Bolt IV, "[section:clr-pa]+8[/section]"]
-    - [Mana Beam III, "[section:clr-sa]+7[/section]"]
-    - [Ice Shrapnel, "[section:clr-sa]+6[/section]"]
-    - [Sparkstream III, "[section:clr-dc]18[/section]"]
-    - [Arcane Barrier III, "[section:clr-sd]+9[/section]"]
+    - [Fireball I, "[section:clr-sa]+10[/section]"]
+    - [Frost Lance I, "[section:clr-pa]+10[/section]"]
+    - [Thermal Beam II, "[section:clr-sa]+10[/section]"]
+    - [Thermal Bolt II, "[section:clr-pa]+10[/section]"]
+    - [Mana Beam I, "[section:clr-sa]+8[/section]"]
+    - [Ice Shrapnel, "[section:clr-sa]+10[/section]"]
+    - [Sparkstream I, "[section:clr-dc]20[/section]"]
+    - [Countershot, "[section:clr-sd]+12[/section]"]
+    - [Arcane Barrier I, "[section:clr-sd]+12[/section]"]
+    - [Counterspell, "+8"]
+    - [Dimension Step, "([section:clr-value]14m[/section])"]
   rituals: 
     - Hermetic Manipulation
     - Thermic Manipulation
 proficiencies:
   magic:
-    - "Thermics: Advanced"
+    - "Thermics: Intermediate"
     - "[i]Fire 4[/i]"
-    - "Hermetics: Advanced"
-    - "[i]Arcane 3[/i]"
+    - "[i]Ice 4[/i]"
+    - "Hermetics: Intermediate"
+    - "[i]Arcane 2[/i]"
   weapons:
     - ""
   civilian:
-    - "[i]Arcana 5[/i]"
-    - "[i]Arithmetics 1[/i]"
-    - "[i]History 1[/i]"
+    - "[i]Arcana 4[/i]"
+    - "[i]Arithmetics 2[/i]"
+    - "[i]History 2[/i]"
 perks:
   special:
     - Arcane Flow
@@ -86,4 +91,7 @@ perks:
   
   magic:
     - Practiced Thermician
+    - Practiced Hermetician
+    - Astral Body I
     - Battle Meditation
+    - Focus I

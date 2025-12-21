@@ -35,12 +35,12 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Smallsword"
+    - name: "Rapier"
       damage: "2d6+1"
-      hit: "Hit+10, Block+4|4"
+      hit: "Hit+10, Block+8|4"
     - name: "Dagger"
       damage: "2d6"
-      hit: "Hit+10, Block+4|4"
+      hit: "Hit+10, Block+8|4"
     - name: "Throwing Knife"
       damage: "2d4+2"
       hit: "Hit+8"
@@ -50,7 +50,7 @@ inventory:
   armor:
     - name: "Padded Armor-1"
     - name: "Cloth Gauntlets"
-    - name: "Noxian Ring +1"
+    - name: "Noxian Ring+1"
   misc:
     - name: "Adventurer's Pack I"
 actions:
