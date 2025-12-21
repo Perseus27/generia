@@ -264,8 +264,7 @@ class Creature_Renderer:
                     if list_flag:
                         result += f"{first_part} {second_part}"
                     else:
-                        result += i
-                    
+                        result += i                    
             else:
                 result += i
         return result
