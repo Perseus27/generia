@@ -235,9 +235,9 @@ class Creature_Renderer:
                     elif subitem == "hit":
                         result += f"[br]  [section:clr-hit]{x.get(subitem)}[/section]"
                     elif subitem == "skills":
-                        result += f"[br]  {self.format_list_comma(x.get(subitem), "skill")}"
+                        result += f"[br]  {self.format_list_comma(x.get(subitem), 'skill')}"
                     elif subitem == "perks":
-                        result += f"[br]  {self.format_list_comma(x.get(subitem), "perk")}"
+                        result += f"[br]  {self.format_list_comma(x.get(subitem), 'perk')}"
                     else:
                         result += "[br]  "+x.get(subitem)
                 result += "[/container]"
