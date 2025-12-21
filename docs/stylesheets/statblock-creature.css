@@ -64,6 +64,8 @@
     width: 100%;
   }
 }
+.creature-content-loot li {
+    font-size: 0.5rem;}
 
 
 .creature-block ul {

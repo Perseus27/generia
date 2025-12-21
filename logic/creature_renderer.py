@@ -230,8 +230,12 @@ class Creature_Renderer:
                         result += "[section:creature-action-name]"+x.get(subitem)+"[/section]"
                     elif subitem == "type":
                         result += "[br][section:creature-action-type]"+x.get(subitem)+"[/section]"
+                    elif subitem == "damage":
+                        result += f"[br]  [section:clr-roll]{x.get(subitem)}[/section]"
+                    elif subitem == "hit":
+                        result += f"[br]  [section:clr-hit]{x.get(subitem)}[/section]"
                     else:
-                        result += "[br]"+x.get(subitem)
+                        result += "[br]  "+x.get(subitem)
                 result += "[/container]"
         return result
 
