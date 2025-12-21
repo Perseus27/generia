@@ -234,6 +234,10 @@ class Creature_Renderer:
                         result += f"[br]  [section:clr-roll]{x.get(subitem)}[/section]"
                     elif subitem == "hit":
                         result += f"[br]  [section:clr-hit]{x.get(subitem)}[/section]"
+                    elif subitem == "skills":
+                        result += f"[br]  {self.format_list_comma(x.get(subitem), "skill")}"
+                    elif subitem == "perks":
+                        result += f"[br]  {self.format_list_comma(x.get(subitem), "perk")}"
                     else:
                         result += "[br]  "+x.get(subitem)
                 result += "[/container]"
@@ -259,6 +263,10 @@ class Creature_Renderer:
                     link = self.autolinker.link_class(i)
                 elif to_link == "tag":
                     link = self.autolinker.link_tag(i)
+                elif to_link == "skill":
+                    link = self.autolinker.link_skill(i)
+                elif to_link == "perk":
+                    link = self.autolinker.link_perk(i)
                 if link:
                     if list_flag:
                         result += f"[url:{link}]{first_part}[/url] {second_part}"
