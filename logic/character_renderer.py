@@ -98,12 +98,16 @@ class Character_Renderer:
     def format_info(self):
         i = self.yaml_input.get("info", {})
         species = i.get("species")
+        if isinstance(species, list):
+            species = self.format_list_comma(i.get("species"), to_link="perk")
+        else:
+            species = f"[url:{self.autolinker.link_tag(species)}]{species}[/url]"
         size = i.get("size")
         class_list = self.format_list_comma(i.get("classes"), to_link="class")
         tag_list = self.format_list_comma(i.get("tags"), to_link="tag")
         info_bb = f"""
 [table][tr][td][b]Species:[/b][/td]
-[td][url:{self.autolinker.link_perk(species)}]{species}[/url][/td]
+[td]{species}[/td]
 [/tr]
 [tr][td][b]Level:[/b][/td]
 [td]{i.get("level")}[/td]
@@ -298,7 +302,12 @@ class Character_Renderer:
                         first = False
                     else:
                         result += "[br]  "
-                    result += x.get(subitem)
+                    if subitem == "damage":
+                        result += f"[section:clr-roll]{x.get(subitem)}[/section]"
+                    elif subitem == "hit":
+                        result += f"[section:clr-hit]{x.get(subitem)}[/section]"
+                    else:
+                        result += x.get(subitem)
                 result += "[/li]"
         else:
             result += "[li][/li]"
@@ -348,6 +357,8 @@ class Character_Renderer:
                 link = False
                 if to_link == "class":
                     link = self.autolinker.link_class(i)
+                elif to_link == "perk":
+                    link = self.autolinker.link_perk(i)
                 elif to_link == "tag":
                     link = self.autolinker.link_tag(i)
                 if link:
