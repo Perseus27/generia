@@ -345,14 +345,20 @@ class Character_Renderer:
         result += list_end
         return result
 
-    def format_list_comma(self, list, to_link=False):
+    def format_list_comma(self, input_list, to_link=False):
         result = ""
         first = True
-        for i in list:
+        for i in input_list:
+            list_flag = False
             if first:
                 first = False
             else:
                 result += ", "
+            if isinstance(i, list):
+                first_part = i[0]
+                second_part = i[1]
+                i = first_part
+                list_flag = True
             if to_link:
                 link = False
                 if to_link == "class":
@@ -362,9 +368,15 @@ class Character_Renderer:
                 elif to_link == "tag":
                     link = self.autolinker.link_tag(i)
                 if link:
-                    result += f"[url:{link}]{i}[/url]"
+                    if list_flag:
+                        result += f"[url:{link}]{first_part}[/url] {second_part}"
+                    else:
+                        result += f"[url:{link}]{i}[/url]"
                 else:
-                    result += i
+                    if list_flag:
+                        result += f"{first_part} {second_part}"
+                    else:
+                        result += i
             else:
                 result += i
         return result
