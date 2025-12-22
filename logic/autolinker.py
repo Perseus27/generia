@@ -36,7 +36,7 @@ class Autolinker:
         for c in self.class_yamls:
             if c.get("name") == x or x in c.get("alias", []):
                 if overview:
-                    return f"/generia/character/classes/class-overview#{c.get('id')}"
+                    return f"#{c.get('id')}"
                 else:
                     return f"{c.get('prefix')}/{c.get('id')}"
         return False
