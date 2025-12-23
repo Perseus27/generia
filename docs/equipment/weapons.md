@@ -17,34 +17,34 @@ title: Weapons
 
 ---
 ## Blunt
-{{ table('data/tables/weapons/BluntWeaponsCommon.yaml') }}
-{{ table('data/tables/weapons/BluntWeaponsRare.yaml') }}
+{{ table('data/tables/weapons/weapons-blunt-common.yaml') }}
+{{ table('data/tables/weapons/weapons-blunt-rare.yaml') }}
 
 ---
 ## Slashing
-{{ table('data/tables/weapons/SlashingWeaponsCommon.yaml') }}
-{{ table('data/tables/weapons/SlashingWeaponsRare.yaml') }}
+{{ table('data/tables/weapons/weapons-slashing-common.yaml') }}
+{{ table('data/tables/weapons/weapons-slashing-rare.yaml') }}
 
 ---
 ## Stabbing
-{{ table('data/tables/weapons/StabbingWeaponsCommon.yaml') }}
-{{ table('data/tables/weapons/StabbingWeaponsRare.yaml') }}
+{{ table('data/tables/weapons/weapons-stabbing-common.yaml') }}
+{{ table('data/tables/weapons/weapons-stabbing-rare.yaml') }}
 
 ---
 ## Ranged
-{{ table('data/tables/weapons/RangedWeaponsCommon.yaml') }}
-{{ table('data/tables/weapons/RangedWeaponsRare.yaml') }}
+{{ table('data/tables/weapons/weapons-ranged-common.yaml') }}
+{{ table('data/tables/weapons/weapons-ranged-rare.yaml') }}
 
 ---
 ## Defensive
-{{ table('data/tables/weapons/DefensiveWeaponsCommon.yaml') }}
+{{ table('data/tables/weapons/weapons-defensive-common.yaml') }}
 
 ---
 ## Natural
-{{ table('data/tables/weapons/NaturalWeaponsBasic.yaml') }}
-{{ table('data/tables/weapons/NaturalWeaponsEnhanced.yaml') }}
+{{ table('data/tables/weapons/weapons-natural-basic.yaml') }}
+{{ table('data/tables/weapons/weapons-natural-enhanced.yaml') }}
 
 ---
 ## Ammunition
-{{ table('data/tables/weapons/AmmunitionCommon.yaml') }}
-{{ table('data/tables/weapons/AmmunitionRare.yaml') }}
+{{ table('data/tables/weapons/weapons-ammunition-common.yaml') }}
+{{ table('data/tables/weapons/weapons-ammunition-rare.yaml') }}

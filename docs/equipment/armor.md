@@ -2,10 +2,10 @@
 title: Armor
 ---
 
-{{ table('data/tables/armor/LightArmor.yaml') }}
+{{ table('data/tables/armor/armor-light.yaml') }}
 
 
-{{ table('data/tables/armor/MediumArmor.yaml') }}
+{{ table('data/tables/armor/armor-medium.yaml') }}
 
 
-{{ table('data/tables/armor/HeavyArmor.yaml') }}
+{{ table('data/tables/armor/armor-heavy.yaml') }}
