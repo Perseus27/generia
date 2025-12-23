@@ -62,7 +62,8 @@ items:
   size: 10x3
   rarity: 3
   tags:
-    - Flexible 0.5|1.5
+    - - Flexible
+      - 0.5|1.5
 
 - name: Bo Staff
   type: Staff
@@ -99,7 +100,8 @@ items:
   size: 14x2
   rarity: 4
   tags:
-    - Focus (Druid)
+    - - Focus
+      - (Druid)
     - Two-Handed
     
 - name: Wizard's Staff
@@ -112,5 +114,6 @@ items:
   size: 18x2
   rarity: 4
   tags:
-    - Focus (Wizard)
+    - - Focus
+      - (Wizard)
     - Two-Handed

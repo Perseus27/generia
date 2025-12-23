@@ -78,7 +78,8 @@ items:
   size: 12x2
   rarity: 3
   tags:
-    - Flexible 1.0|1.5
+    - - Flexible
+      - 1.0|1.5
 
 - name: Gladius
   type: Sword
@@ -103,7 +104,8 @@ items:
   rarity: 4
   tags:
     - Complex
-    - Flexible 1.0|0.5
+    - - Flexible
+      - 1.0|0.5
     - Two-Handed
 
 - name: Odachi
