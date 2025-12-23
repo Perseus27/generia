@@ -94,7 +94,8 @@ items:
   size: 14x2
   rarity: 2
   tags:
-    - Flexible 1.0|0.5 Long
+    - - Flexible
+      - 1.0|0.5 [i]Long[/i]
     - Two-Handed
 
 - name: Saber
