@@ -52,7 +52,7 @@ Weapons with the tag [i]Reload[/i] require [section:clr-value]X[/section] [url:d
 Defensive rolls against [i]unpredictable[/i] weapons have [url:core#Disadvantage]Disadvantage 1[/url]. However, if the attacker rolls a [section:clr-value]natural 1 or 2[/section] on the attack, they hit themselves on accident.
 
 [h2|Variant]Variant X[/h2]
-Weapons with the tag [i]Variant X[/i] may be wielded with the weapon proficiency [section:clr-value]X[/section] alternatively to their primary proficiency.
+Weapons with the tag [i]Variant X[/i] may be wielded with the weapon proficiency [section:clr-value]X[/section] instead of their primary proficiency.
 
 [h1]General Tags[/h1]
 [h2|Access]Access[/h2]
