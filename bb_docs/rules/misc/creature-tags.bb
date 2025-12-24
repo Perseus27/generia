@@ -19,6 +19,11 @@ Universal Action [url:actions#Sprint]Sprint[/url] is unavailable.
 [/container]
 
 [container:orgblock]
+[h4|Flying]Flying X[/h4]
+The creature is inherently capable of flight, with an unmodified [url:values#MS]movement speed[/url] of [section:clr-value]X[/section].
+[/container]
+
+[container:orgblock]
 [h4|Immunity]Immunity X[/h4]
 Permanent [url:status#Immune]Immune X[/url].
 [h4|Resistance]Resistance[/h4]
