@@ -11,7 +11,7 @@
 [url:/generia/stats/characters/templates/_level-7]Level 7[/url]
 [br][url:/generia/stats/characters/templates/archer-templates]Archer[/url]
 [br][url:/generia/stats/characters/templates/bard-templates]Bard[/url]
-[br][url:/generia/stats/characters/templates/Berserker-templates]Berserker[/url]
+[br][url:/generia/stats/characters/templates/berserker-templates]Berserker[/url]
 [br][url:/generia/stats/characters/templates/druid-templates]Druid[/url]
 [br][url:/generia/stats/characters/templates/fighter-templates]Fighter[/url]
 [br][url:/generia/stats/characters/templates/nox-templates]Nox[/url]
