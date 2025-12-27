@@ -23,6 +23,7 @@ title: Bard Templates
   </div>
 </template>
 
+# Bard Templates
 
 # Level 10
 

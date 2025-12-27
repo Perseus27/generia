@@ -22,6 +22,7 @@ title: Druid Templates
   </div>
 </template>
 
+# Druid Templates
 
 # Level 10
 

@@ -31,6 +31,7 @@ title: Nox Templates
   </div>
 </template>
 
+# Nox Templates
 
 # Level 10
 

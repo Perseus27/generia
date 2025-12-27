@@ -22,6 +22,7 @@ title: Berserker Templates
   </div>
 </template>
 
+# Berserker Templates
 
 # Level 10
 

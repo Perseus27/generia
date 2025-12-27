@@ -24,6 +24,7 @@ title: Shaman Templates
   </div>
 </template>
 
+# Shaman Templates
 
 # Level 10
 

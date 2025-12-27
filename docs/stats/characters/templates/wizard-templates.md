@@ -31,6 +31,7 @@ title: Wizard Templates
   </div>
 </template>
 
+# Wizard Templates
 
 # Level 10
 

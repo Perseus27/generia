@@ -30,6 +30,7 @@ title: Fighter Templates
   </div>
 </template>
 
+# Fighter Templates
 
 # Level 10
 
