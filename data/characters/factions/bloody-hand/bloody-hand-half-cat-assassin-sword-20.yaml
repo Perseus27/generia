@@ -4,7 +4,7 @@ info:
   species: [Felis, Human]
   level: 20
   size: Medium
-  classes: [Nox, Fighter, Duelist, Hand of Nox]
+  classes: [Nox, Fighter, Duelist, Assassin]
   tags: [Trained 20]
 notes: >
   [br]140 SP Base
@@ -91,7 +91,7 @@ proficiencies:
     - "Stabbing: Intermediate"
     - "[i]Swords 4[/i]"
     - "[i]Daggers 4[/i]"
-    - "Throwing: Beginner"
+    - "Ranged: Beginner"
     - "Defensive: Beginner"
   civilian:
     - "Monster Lore 1"
