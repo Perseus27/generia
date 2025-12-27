@@ -9,14 +9,14 @@
 [br][url:/generia/stats/characters/factions/horde/horde-20]Horde 20[/url]
 [h4]Templates[/h4]
 [url:/generia/stats/characters/templates/_level-7]Level 7[/url]
-[br]Archer
-[br]Bard
-[br]Berserker
-[br]Druid
-[br]Fighter
-[br]Nox
-[br]Shaman
-[br]Wizard
+[br][url:/generia/stats/characters/templates/archer-templates]Archer[/url]
+[br][url:/generia/stats/characters/templates/bard-templates]Bard[/url]
+[br][url:/generia/stats/characters/templates/Berserker-templates]Berserker[/url]
+[br][url:/generia/stats/characters/templates/druid-templates]Druid[/url]
+[br][url:/generia/stats/characters/templates/fighter-templates]Fighter[/url]
+[br][url:/generia/stats/characters/templates/nox-templates]Nox[/url]
+[br][url:/generia/stats/characters/templates/shaman-templates]Shaman[/url]
+[br][url:/generia/stats/characters/templates/wizard-templates]Wizard[/url]
 [/container]
 [/container]
 
