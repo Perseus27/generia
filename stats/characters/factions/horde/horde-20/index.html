@@ -3775,34 +3775,1540 @@
   
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
-<p><em>File</em>: <code>stats/characters/factions/horde/horde-20.md</code></p>
-<p><em>TypeError</em>: can only concatenate str (not "dict") to str</p>
-<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
-    return md_template.render(**page_variables)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 1295, in render
-    self.environment.handle_exception()
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 35, in top-level template code
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 42, in character
-    return Character_Renderer(yaml_content, autolinker).get_output()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/character_renderer.py&quot;, line 19, in get_output
-    self.format_to_html()
-  File &quot;/home/runner/work/generia/generia/logic/character_renderer.py&quot;, line 167, in format_to_html
-    prof_list = self.format_proficiencies()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/character_renderer.py&quot;, line 143, in format_proficiencies
-    magic = self.build_list_from_list(all_proficiencies.get(&quot;magic&quot;))
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/character_renderer.py&quot;, line 285, in build_list_from_list
-    result += &quot;[li]&quot;+x+&quot;[/li]&quot;
-              ~~~~~~^~
-TypeError: can only concatenate str (not &quot;dict&quot;) to str
-</code></pre></div>
+<p><template id="sidebar-extra">
+<br />
+<div class="sidebar-extra sidebar-extra-larger">
+    <h4>NAVIGATION</h4>
+    <p>
+    <a href="#catfolk-duelist-20">Catfolk Duelist</a>
+    <br><a href="#catfolk-rogue-20">Catfolk Rogue</a>
+    <br><a href="#centaur-archer-20">Centaur Archer</a>
+    <br><a href="#centaur-charger-20">Centaur Charger</a>
+    <br><a href="#deerfolk-druid-20">Deerfolk Druid</a>
+    <br><a href="#human-archer-20">Human Archer</a>
+    <br><a href="#human-fighter-20">Human Fighter</a>
+    <br><a href="#human-hunter-20">Human Hunter</a>
+    <br><a href="#human-monk-20">Human Monk</a>
+    <br><a href="#kitsune-monk-20">Kitsune Monk</a>
+    <br><a href="#kitsune-wizard-20">Kitsune Wizard</a>
+    <br><a href="#orc-archer-20">Orc Archer</a>
+    <br><a href="#orc-shaman-20">Orc Shaman</a>
+    <br><a href="#orc-warrior-20">Orc Warrior</a>
+    <br><a href="#satyr-bard-20">Satyr Bard</a>
+    <br><a href="#satyr-spearman-20">Satyr Spearman</a>
+    </p>
+    <h5>See also:</h5>
+    <p>
+    <a href="/generia/stats/characters/factions/horde/horde-20">Horde 20</a>
+    </p>
+    <hr>
+    <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
+  </div></p>
+<p></template></p>
+<h1 id="horde-level-20">Horde, Level 20<a class="headerlink" href="#horde-level-20" title="Permanent link">&para;</a></h1>
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="catfolk-duelist-20">Horde – Catfolk Duelist 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>9 [4]</td></tr><tr><td><strong>DEX</strong></td><td>12 [7]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>6 [3]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>2</td></tr><tr><td><strong>Torso</strong></td><td>7</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, <a href='/generia/character/classes/tier-ii/class-duelist'>Duelist</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>135 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Saber+2<br>  <span class='clr-roll section'>2d6+4</span><br>  <span class='clr-hit section'>Hit+15, Block+12|7</span></li><li>Buckler<br>  <span class='clr-roll section'>1d4+1</span><br>  <span class='clr-hit section'>Hit+11, Block+11|7</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+7, Block+6|6</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Leather Helmet</li><li>Leather Armor+2</li><li>Leather Gauntlets+1</li><li>Leather Greaves+1</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-iii#StanceParry'>Stance: Parry</a></li><li><a href='/generia/character/skills/skills-tier-ii#Multistrike'>Multistrike</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#CarefulStrike'>Careful Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#Shove'>Shove</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedStrike'>Aimed Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#SwiftParry'>Swift Parry</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Slashing: Adept</li><li><em>Swords 5</em></li><li>Defensive: Beginner</li><li><em>Bucklers 4</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Athletics 3</em></li><li><em>Monster Lore 1</em></li><li><em>Warfare 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>DEX</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Stealth</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#LoneFighter'>Lone Fighter</a></li><li><a href='/generia/character/perks/perks-combat#Dancer'>Dancer</a></li><li><a href='/generia/character/perks/perks-combat#Deflector'>Deflector</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="catfolk-rogue-20">Horde – Catfolk Rogue 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>6 [3]</td></tr><tr><td><strong>DEX</strong></td><td>11 [6]</td></tr><tr><td><strong>INT</strong></td><td>5 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>10 [5]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>15</td></tr><tr><td><strong>MP|R</strong></td><td>10|2</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>2</td></tr><tr><td><strong>Torso</strong></td><td>6</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-nox'>Nox</a>, <a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, <a href='/generia/character/classes/tier-ii/class-duelist'>Duelist</a>, Hand of Nox<br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>140 SP Base <br>+40 Bonus <br>Rest 2
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Smallsword+2<br>  <span class='clr-roll section'>2d6+3</span><br>  <span class='clr-hit section'>Hit+13, Block+10|6</span></li><li>Dagger+2<br>  <span class='clr-roll section'>2d6+2</span><br>  <span class='clr-hit section'>Hit+13, Block+10|6</span></li><li>Throwing Knife<br>  <span class='clr-roll section'>2d4+2</span><br>  <span class='clr-hit section'>Hit+10</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+10, Block+6|6</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Leather Helmet</li><li>Leather Armor+1</li><li>Leather Gauntlets</li><li>Leather Greaves</li><li>Amulet+2</li><li>Noxian Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-ii#Multistrike'>Multistrike</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedStrike'>Aimed Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#Shove'>Shove</a></li><li><a href='/generia/character/skills/skills-tier-i#SwiftParry'>Swift Parry</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li><li><a href='/generia/character/skills/skills-tier-i#PocketSand'>Pocket Sand</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#ShadowStrike'>Shadow Strike</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#ShadowCoating'>Shadow Coating</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#ShadowCloak'>Shadow Cloak</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#ShadowKnives'>Shadow Knives</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#ShadowSummoning'>Shadow Summoning</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#Terror'>Terror</a> <span class='clr-dc section'>15</span></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#ShadowStep'>Shadow Step</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#ShadowRun'>Shadow Run</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#Blur'>Blur</a></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#NoxianBargain'>Noxian Bargain</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#PrayerToNox'>Prayer to Nox</a></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Stabbing: Intermediate</li><li><em>Swords 4</em></li><li><em>Daggers 4</em></li><li>Throwing: Beginner</li><li>Defensive: Beginner</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Nox: Intermediate</li><li><em>Night 5</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Monster Lore 1</em></li><li><em>Rites 1</em></li><li><em>Stealing 2</em></li><li><em>Stealth 3</em></li><li><em>Warfare 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>DEX</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Stealth</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#LoneFighter'>Lone Fighter</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Withering Shadow</li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="centaur-archer-20">Horde – Centaur Archer 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>10 [5]</td></tr><tr><td><strong>STR</strong></td><td>10 [6]</td></tr><tr><td><strong>DEX</strong></td><td>8 [4]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>7 [3]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>25</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>6</td></tr><tr><td><strong>WT</strong></td><td>8</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>7</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Large'>Large</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-archer'>Archer</a>, <a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, <a href='/generia/character/classes/tier-ii/class-field-archer'>Field Archer</a><br><br><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#Fast'>Fast</a> 2</div>        
+            </div>
+            <div class="chara-notes">
+                <br>135 SP Base <br>+30 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Warbow+2<br>  <span class='clr-roll section'>1d8+8</span><br>  <span class='clr-hit section'>Hit+10</span><br>  -2/0/0, 28m</li><li>20× Arrow+1, heavy<br>  <span class='clr-roll section'>1d8+1</span></li><li>Broadsword+1<br>  <span class='clr-roll section'>2d6+7</span><br>  <span class='clr-hit section'>Hit+8, Block+15|11</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+11|11</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Chain Helmet</li><li>Chainmail+1</li><li>Chain Gauntlets</li><li>Chain Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-exclusive#MightyShot'>Mighty Shot</a></li><li><a href='/generia/character/skills/skills-tier-iii#StanceDodge'>Stance: Dodge</a></li><li><a href='/generia/character/skills/skills-tier-ii#TechniqueSecondWind'>Technique: Second Wind</a></li><li><a href='/generia/character/skills/skills-tier-ii#Multishot'>Multishot</a></li><li><a href='/generia/character/skills/skills-tier-ii#HoldBreath'>Hold Breath</a></li><li><a href='/generia/character/skills/skills-tier-ii#Overwatch'>Overwatch</a></li><li><a href='/generia/character/skills/skills-tier-i#DodgeReflex'>Dodge Reflex</a></li><li><a href='/generia/character/skills/skills-tier-i#CarefulShot'>Careful Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#UnpredictableShot'>Unpredictable Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedShot'>Aimed Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#Shove'>Shove</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Ranged: Intermediate</li><li><em>Longbows 6</em></li><li>Slashing: Intermediate</li><li><em>Swords 4</em></li><li>Defensive: Beginner</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Hunting 1</em></li><li><em>Monster Lore 1</em></li><li><em>Warfare 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>STR</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Athletics</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat#David'>David</a></li><li><a href='/generia/character/perks/perks-combat#ConditionedI'>Conditioned I</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="centaur-charger-20">Horde – Centaur Charger 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>11 [5]</td></tr><tr><td><strong>STR</strong></td><td>10 [6]</td></tr><tr><td><strong>DEX</strong></td><td>8 [4]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>5 [2]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>25</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>6</td></tr><tr><td><strong>WT</strong></td><td>9</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>5</td></tr><tr><td><strong>Torso</strong></td><td>9</td></tr><tr><td><strong>Arms</strong></td><td>6</td></tr><tr><td><strong>Legs</strong></td><td>6</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>2</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Large'>Large</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, Swordfighter, <a href='/generia/character/classes/tier-ii/class-shieldbearer'>Shieldbearer</a><br><br><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#Fast'>Fast</a> 2</div>        
+            </div>
+            <div class="chara-notes">
+                <br>130 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>War Spear+1<br>  <span class='clr-roll section'>2d6+7|10</span><br>  <span class='clr-hit section'>Hit+9, Block+16|11</span></li><li>Roundshield+2<br>  <span class='clr-roll section'>1d6+12</span><br>  <span class='clr-hit section'>Hit+5, Block+16|15</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+11|11</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Plate Helmet</li><li>Plate Armor+1</li><li>Plate Gauntlets</li><li>Plate Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-exclusive#Protect'>Protect</a></li><li><a href='/generia/character/skills/skills-tier-iii#StanceBlock'>Stance: Block</a></li><li><a href='/generia/character/skills/skills-tier-ii#MightyStrike'>Mighty Strike</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#Shove'>Shove</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedStrike'>Aimed Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#ShieldBash'>Shield Bash</a></li><li><a href='/generia/character/skills/skills-tier-i#SteadyBlock'>Steady Block</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Stabbing: Intermediate</li><li><em>Spears 5</em></li><li>Defensive: Intermediate</li><li><em>Roundshields 5</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Athletics 3</em></li><li><em>Monster Lore 1</em></li><li><em>Warfare 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>STR</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Athletics</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#EdgeAlignment'>Edge Alignment</a></li><li><a href='/generia/character/perks/perks-combat#ArmorFamiliarityI'>Armor Familiarity I</a></li><li><a href='/generia/character/perks/perks-combat#ArmorFamiliarityII'>Armor Familiarity II</a></li><li><a href='/generia/character/perks/perks-combat#ConditionedI'>Conditioned I</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li><li><a href='/generia/character/perks/perks-combat#Juggernaut'>Juggernaut</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="deerfolk-druid-20">Horde – Deerfolk Druid 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>6 [3]</td></tr><tr><td><strong>DEX</strong></td><td>5 [2]</td></tr><tr><td><strong>INT</strong></td><td>8 [4]</td></tr><tr><td><strong>WIL</strong></td><td>12 [7]</td></tr><tr><td><strong>PER</strong></td><td>6 [3]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>15</td></tr><tr><td><strong>MP|R</strong></td><td>20|5</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>2</td></tr><tr><td><strong>Torso</strong></td><td>6</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>5</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-druid'>Druid</a>, <a href='/generia/character/classes/tier-ii/class-treewarden'>Treewarden</a><br><br><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#Fast'>Fast</a> 2</div>        
+            </div>
+            <div class="chara-notes">
+                <br>125 SP Total <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Shillelagh<br>  <span class='clr-roll section'>2d8+3</span><br>  <span class='clr-hit section'>Hit+4, Block+8|6</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+2, Block+6|6</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Leather Helmet</li><li>Leather Armor+1</li><li>Leather Gauntlets+1</li><li>Leather Greaves+1</li><li>Amulet+3</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li>Whirl of Thorns +12</li><li>Stranglevine +12</li><li>Thorn Whip +12</li><li>Breaking Vine +12</li><li>Grasping Tendrils 22</li><li>Root Grip 22</li><li>Field of Thorns 22</li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#ThornMantle'>Thorn Mantle</a></li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#RootWall'>Root Wall</a></li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#FieldOfFlowers'>Field of Flowers</a></li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#Regrowth'>Regrowth</a></li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#Barkskin'>Barkskin</a></li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#TheriomorphAspect'>Theriomorph: Aspect</a></li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#Wildgrowth'>Wildgrowth</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#Rooting'>Rooting</a></li><li><a href='/generia/character/spellcasting-traditions/druid/druid-spells#AnchorReleaseBeastSoul'>Anchor/Release Beast Soul</a></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Blunt: Beginner</li><li><em>Staffs 4</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Druid: Intermediate</li><li><em>Flora 5</em></li><li><em>Fauna 2</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Botany 4</em></li><li><em>Zoology 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>WIL</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Survival</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic-exclusive#WildgrowthPermanence'>Wildgrowth: Permanence</a></li><li><a href='/generia/character/perks/perks-magic#AstralBodyI'>Astral Body I</a></li><li><a href='/generia/character/perks/perks-magic#BattleMeditation'>Battle Meditation</a></li><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="human-archer-20">Horde – Human Archer 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>11 [5]</td></tr><tr><td><strong>DEX</strong></td><td>9 [4]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>8 [4]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>2</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Human</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-archer'>Archer</a>, <a href='/generia/character/classes/tier-ii/class-hunter'>Hunter</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>145 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Riding Bow+2<br>  <span class='clr-roll section'>1d6+7</span><br>  <span class='clr-hit section'>Hit+11</span><br>  0/0/-1, 20m</li><li>20× Arrow+1, light<br>  <span class='clr-roll section'>1d6+1</span></li><li>Saber+1<br>  <span class='clr-roll section'>2d6+3</span><br>  <span class='clr-hit section'>Hit+10, Block+12|8</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+8|8</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Leather Helmet</li><li>Leather Armor</li><li>Leather Gauntlets</li><li>Leather Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-ii#Multishot'>Multishot</a></li><li><a href='/generia/character/skills/skills-tier-ii#TechniqueSecondWind'>Technique: Second Wind</a></li><li><a href='/generia/character/skills/skills-tier-ii#Camouflage'>Camouflage</a></li><li><a href='/generia/character/skills/skills-tier-ii#Overwatch'>Overwatch</a></li><li><a href='/generia/character/skills/skills-tier-ii#HoldBreath'>Hold Breath</a></li><li><a href='/generia/character/skills/skills-tier-i#DodgeReflex'>Dodge Reflex</a></li><li><a href='/generia/character/skills/skills-tier-i#CarefulShot'>Careful Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#UnpredictableShot'>Unpredictable Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedShot'>Aimed Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Ranged: Intermediate</li><li><em>Shortbows 7</em></li><li>Slashing: Intermediate</li><li><em>Swords 4</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Hunting 3</em></li><li><em>Riding 3</em></li><li><em>Survival 1</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Human'>Efficient Metabolism</a></li><li><a href='/generia/rules/misc/species#Human'>Pursuit Hunter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#OnTheProwl'>On the Prowl</a></li><li><a href='/generia/character/perks/perks-combat#Cavalry'>Cavalry</a></li><li><a href='/generia/character/perks/perks-combat#David'>David</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="human-fighter-20">Horde – Human Fighter 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>10 [5]</td></tr><tr><td><strong>STR</strong></td><td>11 [5]</td></tr><tr><td><strong>DEX</strong></td><td>9 [4]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>4 [2]</td></tr><tr><td><strong>PER</strong></td><td>4 [2]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>25</td></tr><tr><td><strong>MP|R</strong></td><td>5|1</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>8</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>7</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Human</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, Swordfighter<br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>135 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>War Spear+2<br>  <span class='clr-roll section'>2d6+5|7</span><br>  <span class='clr-hit section'>Hit+10, Block+16|10</span></li><li>Roundshield<br>  <span class='clr-roll section'>1d6+8</span><br>  <span class='clr-hit section'>Hit+2, Block+12|12</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+10|10</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Chain Helmet</li><li>Chainmail+1</li><li>Chain Gauntlets</li><li>Chain Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-iii#StanceAttack'>Stance: Attack</a></li><li><a href='/generia/character/skills/skills-tier-iii#Whirl'>Whirl</a></li><li><a href='/generia/character/skills/skills-tier-ii#Mordhau'>Mordhau</a></li><li><a href='/generia/character/skills/skills-tier-ii#MightyStrike'>Mighty Strike</a></li><li><a href='/generia/character/skills/skills-tier-ii#Bodycheck'>Bodycheck</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedStrike'>Aimed Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#Swing'>Swing</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#Shove'>Shove</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Stabbing: Intermediate</li><li><em>Spears 6</em></li><li>Defensive: Beginner</li><li><em>Roundshield 2</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Athletics 2</em></li><li><em>Monster Lore 1</em></li><li><em>Warfare 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Human'>Efficient Metabolism</a></li><li><a href='/generia/rules/misc/species#Human'>Pursuit Hunter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#EdgeAlignment'>Edge Alignment</a></li><li><a href='/generia/character/perks/perks-combat#Goliath'>Goliath</a></li><li><a href='/generia/character/perks/perks-combat#ConditionedI'>Conditioned I</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li><li><a href='/generia/character/perks/perks-combat#Sprinter'>Sprinter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="human-hunter-20">Horde – Human Hunter 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>8 [4]</td></tr><tr><td><strong>DEX</strong></td><td>11 [5]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>9 [4]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>15</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>2</td></tr><tr><td><strong>Torso</strong></td><td>6</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Human</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-archer'>Archer</a>, <a href='/generia/character/classes/tier-ii/class-hunter'>Hunter</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>145 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Hunting Bow+2<br>  <span class='clr-roll section'>1d6+6</span><br>  <span class='clr-hit section'>Hit+11</span><br>  -1/0/0, 20m</li><li>20× Arrow+1, light<br>  <span class='clr-roll section'>1d6+1</span></li><li>Smallsword<br>  <span class='clr-roll section'>2d6+2</span><br>  <span class='clr-hit section'>Hit+9, Block+9|7</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+5, Block+7|7</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Leather Helmet</li><li>Leather Armor+1</li><li>Leather Gauntlets</li><li>Leather Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-iii#StanceDodge'>Stance: Dodge</a></li><li><a href='/generia/character/skills/skills-tier-ii#Multishot'>Multishot</a></li><li><a href='/generia/character/skills/skills-tier-ii#PreciseShotArms'>Precise Shot: Arms</a></li><li><a href='/generia/character/skills/skills-tier-ii#PreciseShotLegs'>Precise Shot: Legs</a></li><li><a href='/generia/character/skills/skills-tier-ii#FindWeakness'>Find Weakness</a></li><li><a href='/generia/character/skills/skills-tier-ii#TechniqueSecondWind'>Technique: Second Wind</a></li><li><a href='/generia/character/skills/skills-tier-ii#Camouflage'>Camouflage</a></li><li><a href='/generia/character/skills/skills-tier-ii#Overwatch'>Overwatch</a></li><li><a href='/generia/character/skills/skills-tier-ii#Vigilance'>Vigilance</a></li><li><a href='/generia/character/skills/skills-tier-ii#HoldBreath'>Hold Breath</a></li><li><a href='/generia/character/skills/skills-tier-i#DodgeReflex'>Dodge Reflex</a></li><li><a href='/generia/character/skills/skills-tier-i#CarefulShot'>Careful Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#UnpredictableShot'>Unpredictable Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedShot'>Aimed Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Ranged: Intermediate</li><li><em>Shortbows 6</em></li><li>Stabbing: Beginner</li><li><em>Swords 2</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Hunting 4</em></li><li><em>Survival 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Human'>Efficient Metabolism</a></li><li><a href='/generia/rules/misc/species#Human'>Pursuit Hunter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#OnTheProwl'>On the Prowl</a></li><li><a href='/generia/character/perks/perks-combat#David'>David</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="human-monk-20">Horde – Human Monk 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>9 [4]</td></tr><tr><td><strong>DEX</strong></td><td>11 [5]</td></tr><tr><td><strong>INT</strong></td><td>5 [2]</td></tr><tr><td><strong>WIL</strong></td><td>8 [4]</td></tr><tr><td><strong>PER</strong></td><td>4 [2]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>15|3</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>7</td></tr><tr><td><strong>Arms</strong></td><td>5</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Human</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-marauder'>Marauder</a>, <a href='/generia/character/classes/tier-i/class-shaman'>Shaman</a>, <a href='/generia/character/classes/tier-ii/class-monk'>Monk</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>135 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Brass Knuckles+1<br>  <span class='clr-roll section'>1d8+7</span><br>  <span class='clr-hit section'>Hit+10, Block+12|7</span></li><li>Battlestaff+1<br>  <span class='clr-roll section'>2d8+5</span><br>  <span class='clr-hit section'>Hit+8, Block+10|7</span></li><li>Fist<br>  <span class='clr-roll section'>1d6+4</span><br>  <span class='clr-hit section'>Hit+10, Block+12|3</span></li><li>Foot<br>  <span class='clr-roll section'>1d6+6</span><br>  <span class='clr-hit section'>Hit+7, Block+12|3</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Chain Helmet</li><li>Chainmail+1</li><li>Chain Gauntlets+1</li><li>Chain Greaves</li><li>Shaman Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-ii#MightyStrike'>Mighty Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#CarefulStrike'>Careful Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#InnerWorld'>Inner World</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#SummonLesserElemental'>Summon: Lesser Elemental</a></li><li>Elemental Wrath +4</li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LowStonewall'>Low Stonewall</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LesserElementalFavor'>Lesser Elemental Favor</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LesserWaveOfHealing'>Lesser Wave of Healing</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LesserElementalGuidance'>Lesser Elemental Guidance</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#ElementalManipulation'>Elemental Manipulation</a></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Natural: Intermediate</li><li><em>Primitive 5</em></li><li>Blunt: Beginner</li><li><em>Staffs 3</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Shaman: Beginner</li><li><em>Binding 5</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Athletics 3</em></li><li><em>Rites 3</em></li><li><em>Survival 1</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Human'>Efficient Metabolism</a></li><li><a href='/generia/rules/misc/species#Human'>Pursuit Hunter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat#Deflector'>Deflector</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li><li><a href='/generia/character/perks/perks-combat#Pugilist'>Pugilist</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic-exclusive#SpiritualResilience'>Spiritual Resilience</a></li><li><a href='/generia/character/perks/perks-magic#AstralBodyI'>Astral Body I</a></li><li><a href='/generia/character/perks/perks-magic#BattleMeditation'>Battle Meditation</a></li><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="kitsune-monk-20">Horde – Kitsune Monk 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>9 [4]</td></tr><tr><td><strong>DEX</strong></td><td>11 [5]</td></tr><tr><td><strong>INT</strong></td><td>5 [3]</td></tr><tr><td><strong>WIL</strong></td><td>8 [4]</td></tr><tr><td><strong>PER</strong></td><td>4 [2]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>15|3</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>7</td></tr><tr><td><strong>Arms</strong></td><td>5</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-marauder'>Marauder</a>, <a href='/generia/character/classes/tier-i/class-shaman'>Shaman</a>, <a href='/generia/character/classes/tier-ii/class-monk'>Monk</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>135 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Brass Knuckles+1<br>  <span class='clr-roll section'>1d8+7</span><br>  <span class='clr-hit section'>Hit+10, Block+12|7</span></li><li>Battlestaff+1<br>  <span class='clr-roll section'>2d8+5</span><br>  <span class='clr-hit section'>Hit+8, Block+10|7</span></li><li>Fist<br>  <span class='clr-roll section'>1d6+4</span><br>  <span class='clr-hit section'>Hit+10, Block+12|3</span></li><li>Foot<br>  <span class='clr-roll section'>1d6+6</span><br>  <span class='clr-hit section'>Hit+7, Block+12|3</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Chain Helmet</li><li>Chainmail+1</li><li>Chain Gauntlets+1</li><li>Chain Greaves</li><li>Shaman Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-ii#MightyStrike'>Mighty Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#CarefulStrike'>Careful Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#InnerWorld'>Inner World</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#SummonLesserElemental'>Summon: Lesser Elemental</a></li><li>Elemental Wrath +4</li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LowStonewall'>Low Stonewall</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LesserElementalFavor'>Lesser Elemental Favor</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LesserWaveOfHealing'>Lesser Wave of Healing</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LesserElementalGuidance'>Lesser Elemental Guidance</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#ElementalManipulation'>Elemental Manipulation</a></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Natural: Intermediate</li><li><em>Primitive 5</em></li><li>Blunt: Beginner</li><li><em>Staffs 3</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Shaman: Beginner</li><li><em>Binding 5</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Athletics 3</em></li><li><em>Rites 3</em></li><li><em>Survival 1</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>INT</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Arcana</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat#Deflector'>Deflector</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li><li><a href='/generia/character/perks/perks-combat#Pugilist'>Pugilist</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic-exclusive#SpiritualResilience'>Spiritual Resilience</a></li><li><a href='/generia/character/perks/perks-magic#AstralBodyI'>Astral Body I</a></li><li><a href='/generia/character/perks/perks-magic#BattleMeditation'>Battle Meditation</a></li><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="kitsune-wizard-20">Horde – Kitsune Wizard 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>6 [3]</td></tr><tr><td><strong>STR</strong></td><td>4 [2]</td></tr><tr><td><strong>DEX</strong></td><td>4 [2]</td></tr><tr><td><strong>INT</strong></td><td>12 [7]</td></tr><tr><td><strong>WIL</strong></td><td>9 [4]</td></tr><tr><td><strong>PER</strong></td><td>8 [4]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>10</td></tr><tr><td><strong>MP|R</strong></td><td>25|4</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>6</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>4</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>1</td></tr><tr><td><strong>Torso</strong></td><td>6</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>5</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-wizard'>Wizard</a>, <a href='/generia/character/classes/tier-ii/class-thermician'>Thermician</a>, <a href='/generia/character/classes/tier-ii/class-hermetician'>Hermetician</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>130 SP Base <br>+40 Bonus <br>Rest 5
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Wizard Staff<br>  <span class='clr-roll section'>2d8</span><br>  <span class='clr-hit section'>Hit+2, Block+5|5</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+2, Block+5|5</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Wizard Hat</li><li>Leather Armor+1</li><li>Padded Gauntlets+1</li><li>Padded Greaves+1</li><li>Amulet+3</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li>Fireball I +11</li><li>Frost Lance I +11</li><li>Thermal Beam II +11</li><li>Thermal Bolt II +11</li><li>Mana Beam I +9</li><li>Ice Shrapnel +11</li><li>Sparkstream I 21</li><li>Counter Shot +13</li><li>Arcane Barrier I +13</li><li>Counterspell +8</li><li>Dimension Step (14m)</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/wizard/wizard-spells-hermetics#HermeticManipulation'>Hermetic Manipulation</a></li><li>Thermic Manipulation</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Thermics: Intermediate</li><li><em>Fire 4</em></li><li><em>Ice 4</em></li><li>Hermetics: Intermediate</li><li><em>Arcane 2</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Arcana 4</em></li><li><em>Arithmetics 2</em></li><li><em>History 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>INT</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Arcana</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic-exclusive#PracticedHermetician'>Practiced Hermetician</a></li><li><a href='/generia/character/perks/perks-magic-exclusive#PracticedThermician'>Practiced Thermician</a></li><li><a href='/generia/character/perks/perks-magic#AstralBodyI'>Astral Body I</a></li><li><a href='/generia/character/perks/perks-magic#BattleMeditation'>Battle Meditation</a></li><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="orc-archer-20">Horde – Orc Archer 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>11 [5]</td></tr><tr><td><strong>DEX</strong></td><td>9 [4]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>8 [4]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>2</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Orc</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-archer'>Archer</a>, <a href='/generia/character/classes/tier-ii/class-hunter'>Hunter</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>145 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Riding Bow+2<br>  <span class='clr-roll section'>1d6+7</span><br>  <span class='clr-hit section'>Hit+11</span><br>  0/0/-1, 20m</li><li>20× Arrow+1, light<br>  <span class='clr-roll section'>1d6+1</span></li><li>Saber+1<br>  <span class='clr-roll section'>2d6+3</span><br>  <span class='clr-hit section'>Hit+10, Block+12|8</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+8|8</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Leather Helmet</li><li>Leather Armor</li><li>Leather Gauntlets</li><li>Leather Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-ii#Multishot'>Multishot</a></li><li><a href='/generia/character/skills/skills-tier-ii#TechniqueSecondWind'>Technique: Second Wind</a></li><li><a href='/generia/character/skills/skills-tier-ii#Camouflage'>Camouflage</a></li><li><a href='/generia/character/skills/skills-tier-ii#Overwatch'>Overwatch</a></li><li><a href='/generia/character/skills/skills-tier-ii#HoldBreath'>Hold Breath</a></li><li><a href='/generia/character/skills/skills-tier-i#DodgeReflex'>Dodge Reflex</a></li><li><a href='/generia/character/skills/skills-tier-i#CarefulShot'>Careful Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#UnpredictableShot'>Unpredictable Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedShot'>Aimed Shot</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Ranged: Intermediate</li><li><em>Shortbows 7</em></li><li>Slashing: Intermediate</li><li><em>Swords 4</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Hunting 3</em></li><li><em>Riding 3</em></li><li><em>Survival 1</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Orc'>Indomitable</a></li><li><a href='/generia/rules/misc/species#Orc'>Stalwart</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#OnTheProwl'>On the Prowl</a></li><li><a href='/generia/character/perks/perks-combat#Cavalry'>Cavalry</a></li><li><a href='/generia/character/perks/perks-combat#David'>David</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="orc-shaman-20">Horde – Orc Shaman 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>5 [2]</td></tr><tr><td><strong>DEX</strong></td><td>8 [4]</td></tr><tr><td><strong>INT</strong></td><td>7 [3]</td></tr><tr><td><strong>WIL</strong></td><td>12 [6]</td></tr><tr><td><strong>PER</strong></td><td>5 [2]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>15</td></tr><tr><td><strong>MP|R</strong></td><td>20|5</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>1</td></tr><tr><td><strong>Torso</strong></td><td>6</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>5</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Orc</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-shaman'>Shaman</a>, <a href='/generia/character/classes/tier-ii/class-binder'>Binder</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>125 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Battlestaff+1<br>  <span class='clr-roll section'>2d8+3</span><br>  <span class='clr-hit section'>Hit+8, Block+9|5</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+5|5</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Padded Helmet</li><li>Leather Armor+1</li><li>Leather Gauntlets</li><li>Leather Greaves</li><li>Shaman Amulet+3</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#SummonElemental'>Summon: Elemental</a></li><li>Elemental Rage +10</li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#LowStonewall'>Low Stonewall</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#ElementalFavor'>Elemental Favor</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#FlameOfDefiance'>Flame of Defiance</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#Tailwind'>Tailwind</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#WindTunnel'>Wind Tunnel</a></li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#WaveOfHealing'>Wave of Healing</a></li><li>Lesser Cleansing Flame 21</li><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#ElementalGuidance'>Elemental Guidance</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/shaman/shaman-spells#ElementalManipulation'>Elemental Manipulation</a></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Blunt: Beginner</li><li><em>Staffs 4</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Shaman: Intermediate</li><li><em>Binding 5</em></li><li><em>Summoning 4</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Medicine 2</em></li><li><em>Rites 3</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Orc'>Indomitable</a></li><li><a href='/generia/rules/misc/species#Orc'>Stalwart</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic-exclusive#SpiritualResilience'>Spiritual Resilience</a></li><li><a href='/generia/character/perks/perks-magic#AstralBodyI'>Astral Body I</a></li><li><a href='/generia/character/perks/perks-magic#BattleMeditation'>Battle Meditation</a></li><li><a href='/generia/character/perks/perks-magic#FocusII'>Focus II</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="orc-warrior-20">Horde – Orc Warrior 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>11 [5]</td></tr><tr><td><strong>STR</strong></td><td>10 [5]</td></tr><tr><td><strong>DEX</strong></td><td>8 [4]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>5 [2]</td></tr><tr><td><strong>PER</strong></td><td>5 [2]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>25</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>9</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>5</td></tr><tr><td><strong>Torso</strong></td><td>9</td></tr><tr><td><strong>Arms</strong></td><td>6</td></tr><tr><td><strong>Legs</strong></td><td>6</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>2</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Orc</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, Swordfighter, <a href='/generia/character/classes/tier-ii/class-shieldbearer'>Shieldbearer</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>130 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Bastard Sword+1<br>  <span class='clr-roll section'>2d6+6|8</span><br>  <span class='clr-hit section'>Hit+9, Block+15|10</span></li><li>Roundshield+2<br>  <span class='clr-roll section'>1d6+10</span><br>  <span class='clr-hit section'>Hit+5, Block+15|14</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+10|10</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Plate Helmet</li><li>Plate Armor+1</li><li>Plate Gauntlets</li><li>Plate Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-exclusive#Protect'>Protect</a></li><li><a href='/generia/character/skills/skills-tier-iii#StanceBlock'>Stance: Block</a></li><li><a href='/generia/character/skills/skills-tier-ii#MightyStrike'>Mighty Strike</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#Shove'>Shove</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedStrike'>Aimed Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#ShieldBash'>Shield Bash</a></li><li><a href='/generia/character/skills/skills-tier-i#SteadyBlock'>Steady Block</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Slashing: Intermediate</li><li><em>Swords 5</em></li><li>Defensive: Intermediate</li><li><em>Roundshields 5</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Athletics 3</em></li><li><em>Monster Lore 1</em></li><li><em>Warfare 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Orc'>Indomitable</a></li><li><a href='/generia/rules/misc/species#Orc'>Stalwart</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#EdgeAlignment'>Edge Alignment</a></li><li><a href='/generia/character/perks/perks-combat#ArmorFamiliarityI'>Armor Familiarity I</a></li><li><a href='/generia/character/perks/perks-combat#ArmorFamiliarityII'>Armor Familiarity II</a></li><li><a href='/generia/character/perks/perks-combat#ConditionedI'>Conditioned I</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li><li><a href='/generia/character/perks/perks-combat#Juggernaut'>Juggernaut</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="satyr-bard-20">Horde – Satyr Bard 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>7 [3]</td></tr><tr><td><strong>STR</strong></td><td>4 [2]</td></tr><tr><td><strong>DEX</strong></td><td>7 [4]</td></tr><tr><td><strong>INT</strong></td><td>7 [3]</td></tr><tr><td><strong>WIL</strong></td><td>12 [6]</td></tr><tr><td><strong>PER</strong></td><td>7 [3]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>10</td></tr><tr><td><strong>MP|R</strong></td><td>20|5</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>3</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>1</td></tr><tr><td><strong>Torso</strong></td><td>6</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>5</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-bard'>Bard</a>, <a href='/generia/character/classes/tier-ii/class-troubadour'>Troubadour</a><br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>130 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Smallsword+1<br>  <span class='clr-roll section'>2d6+2</span><br>  <span class='clr-hit section'>Hit+10, Block+9|5</span></li><li>Short Sling<br>  <span class='clr-roll section'>1d6</span><br>  <span class='clr-hit section'>Hit+4</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+4, Block+5|5</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Padded Helmet</li><li>Padded Armor+2</li><li>Leather Gauntlets</li><li>Leather Greaves</li><li>Amulet+3</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li>Eigth Rest 21</li><li>Stanza of Folly +11</li><li>Stanza of Innocence +11</li><li>Stanza of Love 21</li><li>Stanza of Slumber 21</li><li>Stanza of Carelessness 21</li><li>Stanza of Cowardice 21</li><li>Song of Heroism 19</li><li>Melody of Magic 19</li><li>Stanza of Healing 19</li><li>Verse of Rebellion 19</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li><a href='/generia/character/spellcasting-traditions/bard/bard-spells#Improvisation'>Improvisation</a></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Stabbing: Beginner</li><li><em>Swords 4</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li>Bard: Beginner</li><li><em>Cacophony 5</em></li><li><em>Euphony 3</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>History 3</em></li><li><em>Performance 5</em></li><li><em>Rites 2</em></li><li><em>Trading 1</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>DEX</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Athletics</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li><a href='/generia/character/perks/perks-magic#AstralBodyI'>Astral Body I</a></li><li><a href='/generia/character/perks/perks-magic#BattleMeditation'>Battle Meditation</a></li><li><a href='/generia/character/perks/perks-magic#FocusI'>Focus I</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chara-block">
+    <div class="chara-toprow">
+        <h3 id="satyr-spearman-20">Horde – Satyr Spearman 20</h3>
+    </div>
+    <div class="chara-content-head">
+        <div class="chara-general">
+            <h6>General</h6>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>10 [5]</td></tr><tr><td><strong>STR</strong></td><td>11 [5]</td></tr><tr><td><strong>DEX</strong></td><td>9 [5]</td></tr><tr><td><strong>INT</strong></td><td>4 [2]</td></tr><tr><td><strong>WIL</strong></td><td>4 [2]</td></tr><tr><td><strong>PER</strong></td><td>4 [2]</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>25</td></tr><tr><td><strong>MP|R</strong></td><td>5|1</td></tr><tr><td><strong>WL</strong></td><td>4</td></tr><tr><td><strong>WT</strong></td><td>8</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="chara-value-table">
+                <span class="chara-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>7</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="chara-general">
+            <h6>Info</h6>
+            <div class="chara-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Felis</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='chara-info-container container'><br><strong>Classes:</strong><br><a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, Swordfighter<br><br><strong>Tags:</strong><br>–</div>        
+            </div>
+            <div class="chara-notes">
+                <br>135 SP Base <br>+40 Bonus <br>Rest 0
+            </div>
+        </div>
+    </div>
+    <div class="chara-content-body">
+        <div class="chara-content-tile">
+            <h6>Inventory</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>War Spear+2<br>  <span class='clr-roll section'>2d6+5|7</span><br>  <span class='clr-hit section'>Hit+11, Block+16|10</span></li><li>Roundshield<br>  <span class='clr-roll section'>1d6+8</span><br>  <span class='clr-hit section'>Hit+2, Block+12|12</span></li><li>Knife<br>  <span class='clr-roll section'>2d6</span><br>  <span class='clr-hit section'>Hit+5, Block+10|10</span></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Armor</span>
+                <ul><li>Chain Helmet</li><li>Chainmail+1</li><li>Chain Gauntlets</li><li>Chain Greaves</li><li>Amulet+2</li><li>Ring+1</li><li>Ring+1</li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Misc.</span>
+                <ul><li>Adventurer's Pack II</li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Actions</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Skills</span>
+                <ul><li><a href='/generia/character/skills/skills-tier-iii#StanceAttack'>Stance: Attack</a></li><li><a href='/generia/character/skills/skills-tier-iii#Whirl'>Whirl</a></li><li><a href='/generia/character/skills/skills-tier-ii#Mordhau'>Mordhau</a></li><li><a href='/generia/character/skills/skills-tier-ii#MightyStrike'>Mighty Strike</a></li><li><a href='/generia/character/skills/skills-tier-ii#Bodycheck'>Bodycheck</a></li><li><a href='/generia/character/skills/skills-tier-ii#Disarm'>Disarm</a></li><li><a href='/generia/character/skills/skills-tier-i#AimedStrike'>Aimed Strike</a></li><li><a href='/generia/character/skills/skills-tier-i#Charge'>Charge</a></li><li><a href='/generia/character/skills/skills-tier-i#Swing'>Swing</a></li><li><a href='/generia/character/skills/skills-tier-i#Feint'>Feint</a></li><li><a href='/generia/character/skills/skills-tier-i#Counter'>Counter</a></li><li><a href='/generia/character/skills/skills-tier-i#LegSweep'>Leg Sweep</a></li><li><a href='/generia/character/skills/skills-tier-i#Shove'>Shove</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Spells</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Rituals</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Proficiencies</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Weapons</span>
+                <ul><li>Stabbing: Intermediate</li><li><em>Spears 6</em></li><li>Defensive: Beginner</li><li><em>Roundshield 2</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Civilian</span>
+                <ul><li><em>Athletics 2</em></li><li><em>Monster Lore 1</em></li><li><em>Warfare 2</em></li></ul>
+            </div>
+        </div>
+        <div class="chara-content-tile">
+            <h6>Perks</h6>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Special</span>
+                <ul><li><a href='/generia/rules/misc/species#Felis'>Bloodline</a> <span class='clr-attr section'>DEX</span></li><li><a href='/generia/rules/misc/species#Felis'>Tradition</a> <em>Athletics</em></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Combat</span>
+                <ul><li><a href='/generia/character/perks/perks-combat-exclusive#EdgeAlignment'>Edge Alignment</a></li><li><a href='/generia/character/perks/perks-combat#Goliath'>Goliath</a></li><li><a href='/generia/character/perks/perks-combat#ConditionedI'>Conditioned I</a></li><li><a href='/generia/character/perks/perks-combat#Forerunner'>Forerunner</a></li><li><a href='/generia/character/perks/perks-combat#Opportunist'>Opportunist</a></li><li><a href='/generia/character/perks/perks-combat#Sprinter'>Sprinter</a></li></ul>
+            </div>
+            <div class="chara-content-subtile">
+                <span class="chara-subtile-title">Magic</span>
+                <ul><li></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
