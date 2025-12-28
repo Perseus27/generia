@@ -28,6 +28,9 @@ content:
 
   - name: Miniboss
 
+  - name: Natural Defenses
+    id: NaturalDefenses
+
   - name: Nature's Armor
     id: NaturesArmor
 
