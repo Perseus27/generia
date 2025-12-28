@@ -50,6 +50,8 @@ Slaying this creature awards twice the experience points.
 [/container]
 
 [container:orgblock]
+[h4|NaturalDefenses]Natural Defenses[/h4]
+Gains both [i]Nature's Armor[/i] and [i]Nature's Will[/i].
 [h4|NaturesArmor]Nature's Armor[/h4]
 This creature is protected by some form of natural armor (thick fur, scales, exoskeleton...)
 [br][url:values#AV]Armor Value[/url] is increased by the following values:
