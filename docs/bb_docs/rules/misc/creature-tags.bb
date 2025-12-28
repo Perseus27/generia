@@ -50,6 +50,11 @@ Slaying this creature awards twice the experience points.
 [/container]
 
 [container:orgblock]
+[h4|Mount]Mount X[/h4]
+This creature can be used as a mount if [i][url:/generia/character/proficiencies/proficiencies-civilian/]Riding[/url][/i] proficiency is [section:clr-value]X[/section] or higher.
+[/container]
+
+[container:orgblock]
 [h4|NaturalDefenses]Natural Defenses[/h4]
 Gains both [i]Nature's Armor[/i] and [i]Nature's Will[/i].
 [h4|NaturesArmor]Nature's Armor[/h4]

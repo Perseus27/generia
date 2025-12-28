@@ -28,6 +28,8 @@ content:
 
   - name: Miniboss
 
+  - name: Mount
+
   - name: Natural Defenses
     id: NaturalDefenses
 
