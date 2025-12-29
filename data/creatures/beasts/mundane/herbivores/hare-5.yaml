@@ -43,8 +43,7 @@ actions:
       type: Reaction
       effect:
         - "[url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] roll within this turn."
-      cost:
-        - "1 EN"
+      cost: "1 EN"
 
   passive:
     - name: Proficiencies
