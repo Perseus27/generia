@@ -59,7 +59,7 @@ title: Mundane Beasts
 {{ creature('data/creatures/beasts/mundane/omnivores/badger-5.yaml') }}
 
 ### Level 10
-{{ creature('data/creatures/beasts/mundane/carnivores/boar-10.yaml') }}
+{{ creature('data/creatures/beasts/mundane/omnivores/boar-10.yaml') }}
 
 
 ## Herbivores
