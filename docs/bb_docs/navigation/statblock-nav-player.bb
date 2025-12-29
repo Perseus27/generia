@@ -11,7 +11,7 @@
 [container:home-linkblock]
 [h2]Pets & Summons[/h2]
 [url:/generia/stats/characters/_player/cassandra-pets]Cassandra[/url]
-[url:/generia/stats/characters/_player/zedrow-pets]Zedrow[/url]
+[br][url:/generia/stats/characters/_player/zedrow-pets]Zedrow[/url]
 [/container]
 [/container]
 [/container]
