@@ -60,7 +60,7 @@ actions:
       damage: 1d10+6 Blunt
       effect:
         - May cast up to [section:clr-value]4[/section] at once.
-      cost: [section:clr-mp]1 MP[/section] per stone.
+      cost: "[section:clr-mp]1 MP[/section] per stone."
     - name: Earthquake
       type: Utility, Range 12m, Radius 4m
       hit: "[section:clr-dc]DC 16[/section]"
@@ -71,8 +71,8 @@ actions:
     - name: Stoneskin
       type: Utility, Concentration
       effect:
-        WT increased by [section:clr-value]4[/section].
-      cost: [section:clr-mp]1 MP[/section]
+        - WT increased by [section:clr-value]4[/section].
+      cost: "[section:clr-mp]1 MP[/section]"
   passive:
     - name: Proficiencies
       type: Passive
