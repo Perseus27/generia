@@ -39,6 +39,21 @@ defensive:
 
 
 utility:
+  - name: "Command"
+    id: "command"
+    tags: ["Tier II", "Soul", "Utility"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[b]Strain 1[/b]"
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      The Tempered suppresses the target's soul, forcing it to execute a command that is no longer than [section:clr-value]three words[/section].
+      [br]If the command would directly cause harm to the target's allies, it has [url:core#Advantage]Advantage 1[/url] on the save, or [url:core#Advantage]Advantage 2[/url] if the harm would befall the target itself.
+    effect: >
+      Target is forced to execute the command.
+    saved: No effect.
+
   - name: "Fleshmending"
     id: "fleshmending"
     tags: ["TIER II", "Body", "Utility", "[section:clr-exper]EXPERTISE 2/3[/section]"]
