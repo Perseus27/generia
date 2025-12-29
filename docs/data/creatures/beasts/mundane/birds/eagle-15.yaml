@@ -1,0 +1,72 @@
+name: Eagle 15
+id: eagle-15
+info:
+  species: Beast
+  level: 15
+  size: Medium
+  tags: [[Flying, 12], Natural Defenses]
+notes: >
+  –
+
+attributes:
+  CON: [5, 2]
+  STR: [7, 3]
+  DEX: [10, 5]
+  INT: [3, 1]
+  WIL: [4, 2]
+  PER: [8, 4]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+loot:
+  - Trophy (Claw)
+actions:
+  active:
+    - name: Claws
+      type: Melee Attack
+      hit: "Hit+9"
+      damage: 2d6+3 Sharp
+
+    - name: Dive
+      type: Melee Attack, Range 12m, min. Range 6m
+      hit: "Hit+9"
+      damage: 2d6+3 Sharp
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Screech
+      type: Utility, Radius 4m
+      hit: "[section:clr-dc]DC 12[/section]"
+      effect:
+        - "Screeches loudly to [url:status#Frightened]frighten[/url] nearby creatures."
+      save: "Save [section:clr-attr]WIL[/section]: No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+
+    - name: Bird of Prey
+      type: Passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] when attempting to locate stealthy targets."
+        - Ignores up to [[section:clr-attr]PER-MOD[/section]] [url:values#AV]AV[/url].
+        - "[section:clr-value]One[/section] [i]Claws[/i] damage die may be rerolled [section:clr-value]once[/section] if the target's effective AV is [section:clr-value]0[/section]."
+
+    - name: Soaring High
+      type: Passive
+      effect:
+        - While traveling, [section:clr-en]EN[/section] costs are reduced by one travel-mode stage.
