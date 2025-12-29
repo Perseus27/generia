@@ -1,5 +1,5 @@
-name: Mountain Troll 20
-id: mountain-troll-20
+name: Forest Troll 20
+id: forest-troll-20
 info:
   species: Troll
   level: 20
@@ -59,9 +59,9 @@ actions:
       hit: "[section:clr-dc]DC 16[/section]"
       damage: 2d4+6 Sharp
       effect:
-        - [url:status#Poisoned]Poisoned 1[/url] on [url:def#Hit]hit[/url] and [url:core#Explosion]explosion[/url].
+        - "[url:status#Poisoned]Poisoned 1[/url] on [url:def#Hit]hit[/url] and [url:core#Explosion]explosion[/url]."
       save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] Damage halved/No effect."
-      cost: [section:clr-mp]1 MP[/section]
+      cost: "[section:clr-mp]1 MP[/section]"
     - name: Root Grasp
       type: Utility, Range 8m, Concentration
       hit: "[section:clr-dc]DC 16[/section]"

@@ -25,15 +25,15 @@
 [container:home-linkblock]
 [h2]Creatures[/h2]
 [h4]Humanoids[/h4]
-Gnolls
-Goblins
-Ogres
-Trolls
+[url:/generia/stats/creatures/humanoids/gnolls]Gnolls[/url]
+[br][url:/generia/stats/creatures/humanoids/goblins]Goblins[/url]
+[br][url:/generia/stats/creatures/humanoids/ogres]Ogres[/url]
+[br][url:/generia/stats/creatures/humanoids/trolls]Trolls[/url]
 [h4]Elementals[/h4]
 [url:/generia/stats/creatures/elementals/elementals-lesser]Lesser[/url], [url:/generia/stats/creatures/elementals/elementals-normal]Normal[/url], [url:/generia/stats/creatures/elementals/elementals-greater]Greater[/url]
 [br][url:/generia/stats/creatures/elementals/elementals-water]Water[/url], [url:/generia/stats/creatures/elementals/elementals-stone]Stone[/url], [url:/generia/stats/creatures/elementals/elementals-fire]Fire[/url], [url:/generia/stats/creatures/elementals/elementals-air]Air[/url]
 [h4]Dracids[/h4]
-
+[url:/generia/stats/creatures/dracids/wyverns]Wyverns[/url]
 [h4]Beasts[/h4]
 [url:/generia/stats/creatures/beasts/beasts-mundane]Mundane[/url]
 [br][url:/generia/stats/creatures/beasts/beasts-rift]Rift[/url]

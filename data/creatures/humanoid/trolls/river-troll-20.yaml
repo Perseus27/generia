@@ -1,5 +1,5 @@
-name: Mountain Troll 20
-id: mountain-troll-20
+name: River Troll 20
+id: river-troll-20
 info:
   species: Troll
   level: 20
@@ -60,7 +60,7 @@ actions:
       effect:
         - Nearby foes are [url:status#Poisoned]Poisoned 2[/url].
       save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Poisoned]Poisoned 1[/url]/No effect."
-      cost: [section:clr-mp]1 MP[/section]
+      cost: "[section:clr-mp]1 MP[/section]"
     - name: Sharp Droplets
       type: AoE Spell Attack, Range 8m, Width 3m
       hit: "[section:clr-dc]DC 16[/section]"

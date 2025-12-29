@@ -93,11 +93,12 @@
 
 .orgblock {	
 	background: rgba(180,180,180,0.05);
-	border-style: dashed;
+	border-style: solid;
 	border-width: 1px;
 	border-color: black;
 	border-radius: 5px;
 	padding: 5px;
+	margin: 8px;
 }
 .orgblock h2 {
 	margin-top: 0px;
