@@ -17,7 +17,7 @@ title: Mundane Beasts
     <h5><a href="#omnivores">Omnivores</a></h5>
     <p>
     <ul>
-    <li><a href="#badger-">Badger</a></li>
+    <li><a href="#badger-5">Badger</a></li>
     <li><a href="#boar-10">Boar</a></li>
     </ul>
     </p>
