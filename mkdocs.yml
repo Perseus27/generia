@@ -16,7 +16,7 @@ theme:
     - search.suggest
     - search.highlight
   font:
-    text:  Barlow
+    text: Barlow
 
 
 markdown_extensions:
