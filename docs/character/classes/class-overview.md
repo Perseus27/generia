@@ -34,8 +34,10 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-i/class-marauder.yaml') }}
 {{ class_card('data/classes/tier-i/class-nox.yaml') }}
 {{ class_card('data/classes/tier-i/class-shaman.yaml') }}
-{{ class_card('data/classes/tier-i/class-sorcerer.yaml') }}
 {{ class_card('data/classes/tier-i/class-wizard.yaml') }}
+### Advanced Classes
+{{ class_card('data/classes/tier-i/class-sorcerer.yaml') }}
+{{ class_card('data/classes/tier-i/class-tempering-first-stage.yaml') }}
 
 
 # Tier II

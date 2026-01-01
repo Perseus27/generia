@@ -1,0 +1,43 @@
+name: "Tempering: First Stage"
+id: "class-tempering-first-stage"
+prefix: "class1"
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/tempering/what-is-a-tempered]What is a Tempered?[/url]
+
+description: >
+  [section:clr-malus]WARNING: ADVANCED CLASS[/section]
+  [br]Tempered strengthen their bodies by forcing raw mana through their own flesh and soul rather than shaping it externally.
+  [br]Due to the severe physical and mental strain involved in this process, Tempered are a rare sight outside of their sects' training halls.
+
+prerequisites:
+  - None
+
+subclasses:
+  - "Tempering: Second Stage"
+
+perks:
+  combat:
+    - [Conditioned I, 10 SP]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - ["Tempering: Beginner", 10 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Impact, 4 SP]
+    - [Bones of Steel, 4 SP]
+    - [Great Leap, 4 SP]
+    - [Killing Intent, 4 SP]
+    - [Looming Presence, 4 SP]
+
+starter_set:
+  - []
