@@ -4,7 +4,7 @@ prefix: "perksC"
 
 content:
   - name: Armor Familiarity II
-    id: armor-familiarity-i-i
+    id: armor-familiarity-ii
     sp-cost: 20
     requirements: Armor Familiarity I
     description: >
@@ -18,7 +18,7 @@ content:
       If you inflict [url:status#Bleeding]Bleeding[/url] on a target that is already bleeding, the target immediately takes the original Bleeding damage again. The effect remains.
 
   - name: Conditioned II
-    id: conditioned-i-i
+    id: conditioned-ii
     sp-cost: 20
     requirements: –
     description: >
