@@ -182,5 +182,4 @@ class Creature_Renderer:
     </div>
 </div>
         """
-        #result = self.format_attributes()
         return result

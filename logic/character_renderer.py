@@ -261,5 +261,4 @@ class Character_Renderer:
     </div>
 </div>
         """
-        #result = self.format_attributes()
         return result
