@@ -53,7 +53,7 @@ inventory:
       damage: "2d6"
   armor:
     - name: "Leather Helmet+1"
-    - name: "Leather Armor+1"
+    - name: "Leather Armor+2"
     - name: "Leather Gauntlets+2"
     - name: "Padded Greaves+1"
       enchantment: "[section:clr-bonus]DEX+1[/section]"
