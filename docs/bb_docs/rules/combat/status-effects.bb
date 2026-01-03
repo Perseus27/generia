@@ -181,7 +181,7 @@ When an effect is actively dispelled/removed (e.g., by a spell), use the above [
 [h4|Frightened]Frightened[/h4]
 [section:clr-affliction]AFFLICTION[/section], [section:clr-control]CONTROL[/section]
 [br][url:core#Disadvantage]Disadvantage 1[/url] on attack rolls. Movement toward an enemy counts as [url:#Slowed]Slowed[/url].
-[br][b][section:clr-save]Save[/section]:[/b] [b][section:clr-attr]WIL[/section][/b] vs [b][section:clr-dc]DC[/section][/b] at the start of the turn or when taking damage.
+[br][b][section:clr-save]Save[/section]:[/b] [b][section:clr-attr]WIL[/section][/b] vs [b][section:clr-dc]DC[/section][/b] at the end of the turn or when taking damage.
 [/container]
 
 [container:statusblock]
