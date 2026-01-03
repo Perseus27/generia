@@ -43,7 +43,7 @@ content:
     sp-cost: 20
     requirements: "[url:class3/class-magister]Magister[/url]"
     description: >
-      When you force a [url:def#Concentration]Concentration[/url] save for an enemy spell with an offensive spell, that save is [url:core#Hindered]hindered[/url] by an amount equal to the element proficiency your offensive spell.
+      When you force a [url:def#Concentration]Concentration[/url] save for an enemy spell with an offensive spell, that save is [url:core#Hindered]hindered[/url] by an amount equal to the element proficiency of your offensive spell.
 
   - subheader:
     is_subheader: True
