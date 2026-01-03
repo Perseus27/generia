@@ -87,8 +87,8 @@ utility:
     effect: >
       The jump is [url:core#Eased]eased[/url] by [section:clr-attr]INT[/section]+[[section:clr-value]Arcane[/section]].
 
-  - name: "Dim"
-    id: "dim"
+  - name: "Chameleon I"
+    id: "chameleon-i"
     tags: ["TIER I", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

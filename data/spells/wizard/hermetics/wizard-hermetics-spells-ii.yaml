@@ -101,8 +101,8 @@ defensive:
 
 
 utility:
-  - name: "Chameleon"
-    id: "chameleon"
+  - name: "Chameleon II"
+    id: "chameleon-ii"
     tags: ["TIER II", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
