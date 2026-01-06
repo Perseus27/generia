@@ -46,6 +46,7 @@ content:
       When attacking with this weapon, you gain [section:clr-value]two[/section] [url:core#Reroll]Damage Rerolls[/url].
 
   - name: Resistance
+    alias: [RES]
     id: resistance
     medium: [Armor, Trinket]
     description: >
