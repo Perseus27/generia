@@ -6,15 +6,13 @@ class Skill_Renderer:
     
     def __init__(self, yaml_input):
         self.yaml_input = yaml_input
-        self.html_output = ""
 
 
     def get_output(self):
-        self.format_to_html()
-        return self.html_output
+        return self.format_to_html()
     
     def format_to_html(self):
-        self.html_output = self.BB_HELPER.process(self.format_all())
+        return self.BB_HELPER.process(self.format_all())
     
     def format_all(self):
         y = self.yaml_input
@@ -72,7 +70,10 @@ class Skill_Renderer:
         cost = skill.get("cost", False)
         if cost:
             columnright += f"[container:skill-cost][b]Cost:[/b] {self.format_list_comma(cost)}[/container]"
-        if skill_type or cost:
+        time = skill.get("time", False)
+        if time:
+            columnright += f"[container:skill-cost][b]Time:[/b] {time}[/container]"
+        if skill_type or cost or time:
             columnright += f"[hr]"
         columnright += f"{skill.get('description', 'DESCRIPTION ERROR')}"
         effect10 = skill.get("effect10", False)
