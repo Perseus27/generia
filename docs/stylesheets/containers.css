@@ -145,12 +145,11 @@
 	margin: 0.5rem;
 }
 .statusblock h2 {
-	margin-top: 0px;
-}
+	margin-top: 0px;}
 .statusblock h4 {
-	margin-top: 0px;
-}
-
+	margin-top: 0px;}
+.statusblock li {
+	font-size: 0.6rem;}
 
 
 
