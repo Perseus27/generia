@@ -1,5 +1,12 @@
 ---
 title: Universal Actions
 ---
+# Universal Actions
 
-{{ bb_from_file('bb_docs/rules/basic/universal-actions.bb') }}
+# Combat
+
+{{ skills('data/skills/actions-combat.yaml') }}
+
+# Non-Combat
+
+{{ skills('data/skills/actions-noncombat.yaml') }}
