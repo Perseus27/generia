@@ -9,6 +9,7 @@ from creature_renderer import Creature_Renderer
 from class_renderer import Class_Renderer
 from table_renderer import Table_Renderer
 from perk_renderer import Perk_Renderer
+from enchantment_renderer import Enchantment_Renderer
 from skill_renderer import Skill_Renderer
 from spell_renderer import Spell_Renderer
 from autolinker import Autolinker
@@ -59,7 +60,12 @@ def define_env(env):
     @env.macro
     def perks(path: str):
         yaml_content = _read_yaml(path)
-        return Perk_Renderer(yaml_content).get_output()
+        return Perk_Renderer(yaml_content, autolinker).get_output()
+    
+    @env.macro
+    def enchantments(path: str):
+        yaml_content = _read_yaml(path)
+        return Enchantment_Renderer(yaml_content, autolinker).get_output()
     
     @env.macro
     def skills(path: str):
