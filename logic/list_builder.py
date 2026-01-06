@@ -107,4 +107,6 @@ class List_Builder:
             link = self.autolinker.link_spell(s)
         elif to_link == "tag":
             link = self.autolinker.link_tag(s)
+        elif to_link == "ench":
+            link = self.autolinker.link_ench(s)
         return link
