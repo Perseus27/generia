@@ -4,6 +4,8 @@ class List_Builder:
 
 
     def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False): # br, comma, li, commabr
+        if not isinstance(input_list, list):
+            input_list = [input_list]
         result = ""
         ctag_open = ""
         ctag_close = ""
