@@ -1,0 +1,71 @@
+name: Potions
+id: consumables-potions
+table_type: item-table item-table-potion
+headers:
+- Name
+- Effect
+
+items:
+- name: Healing Potion, small
+  effect: "[section:clr-roll-noex]3d4+Q[/section] [section:clr-heal]Healing[/section]"
+  price: 2
+
+- name: Healing Potion, medium
+  effect: "[section:clr-roll-noex]3d6+Q[/section] [section:clr-heal]Healing[/section]"
+  price: 4
+
+- name: Healing Potion, large
+  effect: "[section:clr-roll-noex]3d8+Q[/section] [section:clr-heal]Healing[/section]"
+  price: 8
+
+- name: Mana Potion, small
+  effect: "[section:clr-roll-noex]1d4+Q[/section] [section:clr-mp]MP[/section]"
+  price: 2
+
+- name: Mana Potion, medium
+  effect: "[section:clr-roll-noex]1d6+Q[/section] [section:clr-mp]MP[/section]"
+  price: 4
+
+- name: Mana Potion, large
+  effect: "[section:clr-roll-noex]1d8+Q[/section] [section:clr-mp]MP[/section]"
+  price: 8
+
+- name: Energy Potion, small
+  effect: "[section:clr-roll-noex]1d4+Q[/section] [section:clr-en]EN[/section]"
+  price: 2
+
+- name: Energy Potion, medium
+  effect: "[section:clr-roll-noex]1d6+Q[/section] [section:clr-en]EN[/section]"
+  price: 4
+
+- name: Energy Potion, large
+  effect: "[section:clr-roll-noex]1d8+Q[/section] [section:clr-en]EN[/section]"
+  price: 8
+
+- name: Regenerative Potion I
+  effect: "[url:status#Regeneration]Regeneration 1[/url]"
+  price: 2
+
+- name: Regenerative Potion II
+  effect: "[url:status#Regeneration]Regeneration 2[/url]"
+  price: 4
+
+- name: Regenerative Potion III
+  effect: "[url:status#Regeneration]Regeneration 3[/url]"
+  price: 8
+
+- name: Regenerative Potion IV
+  effect: "[url:status#Regeneration]Regeneration 4[/url]"
+  price: 16
+
+- name: Regenerative Potion V
+  effect: "[url:status#Regeneration]Regeneration 5[/url]"
+  price: 32
+
+- name: Clarity Potion
+  effect: Removes a [url:status#Mental]mental status effect[/url] with a [section:clr-dc]DC[/section] up to [section:clr-value]10+Q[/section].
+  price: 4
+
+- name: Recovery Potion
+  effect: Removes a [url:status#Physical]physical status effect[/url] with a [section:clr-dc]DC[/section] up to [section:clr-value]10+Q[/section].
+  price: 4
