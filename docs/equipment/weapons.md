@@ -15,6 +15,7 @@ title: Weapons
   </div>
 </template>
 
+# Weapons
 ---
 ## Blunt
 {{ table('data/tables/weapons/weapons-blunt-common.yaml') }}
