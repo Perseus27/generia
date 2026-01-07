@@ -3,7 +3,7 @@
 [h4]Damage Tiers[/h4]
 Status effects that deal damage against [url:values#TN]Toughness (TN)[/url] or heal over time (e.g., [url:#Bleeding]Bleeding[/url], [url:#Burning]Burning[/url], [url:#Poisoned]Poisoned[/url], [url:#Regeneration]Regeneration[/url]) can stack with repeated application. The maximum tier is [section:clr-value][b]5[/b][/section].
 [br][b]Example:[/b] A creature has [url:#Bleeding]Bleeding 1[/url]. If it receives Bleeding 1 (or 2) again, the effect increases to Bleeding 2 (or 3).
-[br]At the start of each round, the creature may make a [section:clr-attr]CON[/section] [section:clr-save]Save[/section] against [b][ [section:clr-zahl]10 + tier[/section] ][/b]. On a success, reduce the tier by [section:clr-zahl]1[/section].
+[br]At the start of each round, the creature may make a [section:clr-attr]CON[/section] [section:clr-save]Save[/section] against [b][ [section:clr-value]10 + tier[/section] ][/b]. On a success, reduce the tier by [section:clr-zahl]1[/section].
 
 [h2]Determined Check (Origin Value)[/h2]
 The status effect’s [section:clr-dc]Determined Check (DC)[/section] equals:
@@ -14,6 +14,18 @@ The status effect’s [section:clr-dc]Determined Check (DC)[/section] equals:
 [/ul]
 [h4]Removal[/h4]
 When an effect is actively dispelled/removed (e.g., by a spell), use the above [b][section:clr-dc]DC[/section][/b] as the check difficulty.
+
+[h2|Classification]Classification[/h2]
+Each status effect belongs to one or more classifications. There are various spells, perks, items and other effects that interact with certain classifications, but not necessarily others.
+[h4|Mental]Mental[/h4]
+If a status effect is saved against with a mental attribute ([section:clr-attr]INT[/section], [section:clr-attr]WIL[/section], [section:clr-attr]PER[/section]), it counts as [i]mental[/i].
+[h4|Physical]Physical[/h4]
+If a status effect is saved against with a physical attribute ([section:clr-attr]CON[/section], [section:clr-attr]STR[/section], [section:clr-attr]DEX[/section]), it counts as [i]physical[/i].
+[h4|Magical]Magical[/h4]
+If the source of a status effect is magical in nature (e.g., a spell, ritual, enchanted item...), it counts as [i]magical[/i].
+[h4|Mundane]Mundane[/h4]
+If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]Stunned[/url] through Blunt damage, [url:#Sick]Sick[/url] through the common flu), it counts as [i]mundane[/i].
+
 
 [hr]
 [h1|DoTHoT]DoT / HoT[/h1]

@@ -1,0 +1,43 @@
+name: Food
+id: consumables-food
+table_type: item-table item-table-food
+headers:
+- Name
+- Effect
+- Time
+- Weight
+- Size
+- Tags
+
+items:
+- name: Snack
+  effect: Gain [section:clr-value]1+Q[/section] [section:clr-en]EN[/section]
+  time: 1 Action
+  weight: 0.1
+  size: 1x1
+  tags: [[Stack, 4]]
+  price: 0.02
+
+- name: Field Ration
+  effect: Gain [section:clr-value]10+Q[/section] [section:clr-en]EN[/section], [url:status#Regeneration]Regeneration 1[/url]
+  time: 1 Phase
+  weight: 0.5
+  size: 2x1
+  tags: [[Stack, 2]]
+  price: 0.1
+
+- name: Meal
+  effect: Gain [section:clr-value]20+Q[/section] [section:clr-en]EN[/section], [url:status#Regeneration]Regeneration 2[/url]
+  time: 2 Phases
+  weight: 1.0
+  size: 2x1
+  tags: []
+  price: 0.5
+
+- name: Feast
+  effect: Gain [section:clr-value]40+Q[/section] [section:clr-en]EN[/section], [url:status#Regeneration]Regeneration 3[/url]
+  time: 2 Phases
+  weight: 2.0
+  size: 2x2
+  tags: []
+  price: 2.0
