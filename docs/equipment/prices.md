@@ -12,7 +12,6 @@ title: Price Lists
     <br><a href="#weapons-stabbing-common">Stabbing</a>
     <br><a href="#weapons-ranged-common">Ranged</a>
     <br><a href="#weapons-defensive-common">Defensive</a>
-    <br><a href="#weapons-natural-basic">Natural</a>
     <br><a href="#weapons-ammunition-common">Ammunition</a>
     </p>
     <h4>Armor</h4>
