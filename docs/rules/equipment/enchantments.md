@@ -15,6 +15,10 @@ title: Enchantments
 
 # Enchantments
 
+## Attunement
+Many enchantments, particulary those with attribute-enhancing properties, have an <span class="clr-malus"><i>Attunement</i></span> value. If the total <i>Attunement</i> of all equipped enchantments is greater than the character's level, every equipped enchantment is deactivated.
+
+
 ## Tier I
 
 {{ enchantments('data/enchantments/enchantments-i.yaml') }}
