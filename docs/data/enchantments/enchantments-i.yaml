@@ -79,3 +79,4 @@ content:
     medium: [Armor (Legs)]
     description:
       This piece of armor increases its wearer's [url:values#MS]Movement Speed[/url] by [section:clr-value]2[/section].
+    attunement: 5
