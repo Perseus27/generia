@@ -13,11 +13,11 @@ content:
     attunement: 20
 
   - name: AV Bonus II
-    alias: [AV+4]
+    alias: [AV+2]
     id: av-bonus-ii
     medium: [Armor]
     description: >
-      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]4[/section].
+      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]2[/section].
 
   - name: Blooddrinker
     id: blooddrinker
@@ -35,11 +35,11 @@ content:
     attunement: 20
 
   - name: MD Bonus II
-    alias: [MD+4]
+    alias: [MD+2]
     id: md-bonus-ii
     medium: [Armor, Trinket]
     description: >
-      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]4[/section] while the item is equipped.
+      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]2[/section] while the item is equipped.
 
   - name: Guiding Wind
     id: guiding-wind
@@ -52,7 +52,7 @@ content:
     id: penetration-ii
     medium: [Weapon]
     description: >
-      Physical damage dealt with this weapon ignores up to [section:clr-value]4[/section] [url:values#AV]Armor Value[/url].
+      Physical damage dealt with this weapon ignores up to [section:clr-value]2[/section] [url:values#AV]Armor Value[/url].
 
   - name: Punisher
     id: punisher
