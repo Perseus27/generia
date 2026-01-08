@@ -7,6 +7,7 @@
 [br][url:/generia/stats/characters/factions/bloody-hand/bloody-hand-20]Bloody Hand 20[/url], [url:/generia/stats/characters/factions/bloody-hand/bloody-hand-25]Bloody Hand 25[/url]
 [br][url:/generia/stats/characters/factions/guard/guard-15]Guard 15[/url]
 [br][url:/generia/stats/characters/factions/horde/horde-20]Horde 20[/url]
+[br][url:/generia/stats/characters/factions/void/nergadai]Nergadai[/url]
 [h4]Templates[/h4]
 [url:/generia/stats/characters/templates/_level-7]Level 7[/url]
 [br][url:/generia/stats/characters/templates/archer-templates]Archer[/url]
