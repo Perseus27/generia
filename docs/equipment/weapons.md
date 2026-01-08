@@ -2,16 +2,18 @@
 title: Weapons
 ---
 <template id="sidebar-extra">
-  <div class="sidebar-extra">
+  <div class="sidebar-extra sidebar-extra-larger">
     <h3>Navigation</h3>
     <hr>
-    <h5><a href="#BluntWeaponsCommon">Blunt</a></h5>
-    <h5><a href="#SlashingWeaponsCommon">Slashing</a></h5>
-    <h5><a href="#StabbingWeaponsCommon">Stabbing</a></h5>
-    <h5><a href="#RangedWeaponsCommon">Ranged</a></h5>
-    <h5><a href="#DefensiveWeaponsCommon">Defensive</a></h5>
-    <h5><a href="#NaturalWeaponsBasic">Natural</a></h5>
-    <h5><a href="#AmmunitionCommon">Ammunition</a></h5>
+    <p>
+    <a href="#BluntWeaponsCommon">Blunt</a>
+    <br><a href="#SlashingWeaponsCommon">Slashing</a>
+    <br><a href="#StabbingWeaponsCommon">Stabbing</a>
+    <br><a href="#RangedWeaponsCommon">Ranged</a>
+    <br><a href="#DefensiveWeaponsCommon">Defensive</a>
+    <br><a href="#NaturalWeaponsBasic">Natural</a>
+    <br><a href="#AmmunitionCommon">Ammunition</a>
+    </p>
   </div>
 </template>
 
