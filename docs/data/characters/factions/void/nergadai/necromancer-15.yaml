@@ -1,0 +1,98 @@
+name: Apprentice Necromancer
+id: necromancer-15
+info:
+  species: [Alb, Human]
+  level: 15
+  size: Medium
+  classes: [Sorcerer, Sorcerer II]
+  tags: [[Corrupted, 1]]
+notes: >
+  A newbie necromancer. Dangerous and unpredictable.
+
+attributes:
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [7, 3]
+  WIL: [8, "[section:clr-malus]3[/section]"]
+  PER: [10, "[section:clr-bonus]6[/section]"]
+values:
+  EN: 10
+  MP: 20
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: "[section:clr-bonus]6[/section]"
+  arms: 2
+  legs: 2
+  md: "[section:clr-bonus]5[/section]"
+  enc: 0
+inventory:
+  weapons:
+    - name: Staff of the Necromancer
+      damage: 2d8+1 Blunt
+      hit: Hit+4, Block+5|3
+      enchantments:
+        - PER+1
+    - name: Knife
+      damage: 2d6 Sharp
+      hit: Hit+2, Block+3|3
+  armor:
+    - name: Black Hood
+    - name: Black Robe+2
+      enchantments: 
+        - AV+1
+        - MD+1
+    - name: Padded Gauntlets
+    - name: Padded Greaves
+    - name: Amulet+2
+      enchantments:
+        - [Element Reroll I, "[section:clr-value]Void[/section]"]
+      curses:
+        - WIL-1
+    - name: Ring+1
+    - name: Ring+1
+  misc:
+    - name: Adventurer's Pack I
+actions:
+  skills:
+    - ""
+  spells:
+    - "Improvise Void [url:sorcererS]Sorceries[/url]"
+    - "[section:clr-pa]PA[/section] Void: [section:clr-pa]+9[/section]"
+    - "[section:clr-sa]SA[/section] Void: [section:clr-sa]+9[/section]"
+    - "[section:clr-sd]SD[/section] Void: [section:clr-sd]+12[/section]"
+    - "[section:clr-dc]DC[/section] Void: [section:clr-dc]19[/section]"
+  rituals: 
+    - Void Sorcery
+proficiencies:
+  magic:
+    - "Sorcerer: Intermediate"
+    - "[i]Concept: Voidmage 3[/i]"
+    - "[i]Concept: Necromancer 4[/i]"
+    - "[i]Element: Void 4[/i]"
+  weapons:
+    - "Blunt: Beginner"
+    - "[i]Staffs 2[/i]"
+  civilian:
+    - "[i]Arcana 3[/i]"
+    - "[i]Rites 4[/i]"
+    - "[i]History 2[/i]"
+perks:
+  special:
+    - Dark Heritage
+    - Efficient Metabolism
+  
+  combat:
+    - ""
+  
+  magic:
+    - Astral Body I
+    - Battle Meditation
+    - Blood Mage
+    - Shield Mage
+    - Focus I
