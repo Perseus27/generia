@@ -57,7 +57,6 @@ content:
     medium: [Weapon (Blunt)]
     description: >
       Whenever this weapon causes [url:status#OffBalance]Off-Balance[/url], [url:status#Prone]Prone[/url] or [url:status#Stunned]Stunned[/url], the wielder applies [url:status#DefensePenalty]Defense Penalty[/url] [[section:clr-attr]STR-MOD[/section]] to the target.
-    attunement: 10
 
   - name: Reroll II
     alias: [Blunt II, Sharp II]

@@ -59,7 +59,6 @@ content:
       The attuned owner of this item may, as a [url:def#FreeAction]Free Action[/url], teleport it to a free hand. It instantly rematerializes and does not need to be re-equipped.
       [br]The item must be mostly uncovered for the enchantment to work. 
       [br]The maximum recall range is [section:clr-value]20 meters[/section].
-    attunement: 5
 
   - name: Reroll I
     alias: [Blunt I, Sharp I]
