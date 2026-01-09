@@ -38,7 +38,7 @@ content:
 
   - name: Long Range Cast
     id: long-range-cast
-    tags: [Universal, Free Action, [section:clr-conc]CONCENTRATION[/section]]
+    tags: [Universal, Free Action, "[section:clr-conc]CONCENTRATION[/section]"]
     description: >
       Invest [section:clr-conc]Concentration[/section] to increase the range of the next [section:clr-pa]Projectile Attack[/section] or [section:clr-sa]Spell Attack[/section] within this turn by a relevant proficiency value.
       [br][i]Only possible if the spell has a base range greater than [section:clr-value]4 meters[/section].[/i]
