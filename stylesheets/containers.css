@@ -224,6 +224,10 @@
 .class-main-sub33 {
 	width: 33%;
 }
+.class-main-alias {
+	color:burlywood;
+	font-style: italic;
+}
 
 .class-card {
 	background: rgba(180,180,180,0.05);
@@ -254,6 +258,10 @@
 }
 .class-card-body h4 {
 	margin-top: 0.25rem !important;
+}
+.class-card-alias {
+	font-size: 0.5rem;
+	font-style: italic;
 }
 
 

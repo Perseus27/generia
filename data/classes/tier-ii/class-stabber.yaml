@@ -1,6 +1,7 @@
 name: "Stabber"
 id: "class-stabber"
 prefix: "class2"
+alias: [Spearfighter]
 description: >
   Stabbers are experts with stabbing weapons of all kinds.
 
