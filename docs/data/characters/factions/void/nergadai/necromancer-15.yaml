@@ -30,7 +30,7 @@ armor:
   arms: 2
   legs: 2
   md: "[section:clr-bonus]5[/section]"
-  er: 0
+  er: 5
 inventory:
   weapons:
     - name: Staff of the Necromancer
@@ -42,7 +42,7 @@ inventory:
       damage: 2d6 Sharp
       hit: Hit+2, Block+3|3
   armor:
-    - name: Black Hood
+    - name: Black Hood+1
     - name: Black Robe+2
       enchantments: 
         - AV+1
