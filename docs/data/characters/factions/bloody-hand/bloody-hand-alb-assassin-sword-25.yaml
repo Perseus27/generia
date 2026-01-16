@@ -28,12 +28,12 @@ values:
   TN: 3
   MS: 8
 armor:
-  head: 2
-  torso: 7
-  arms: 4
-  legs: 4
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
   md: 4
-  er: 0
+  er: 4
 inventory:
   weapons:
     - name: "Rapier+2"
@@ -49,12 +49,14 @@ inventory:
       damage: "2d6"
       hit: "Hit+10, Block+6|6"
   armor:
-    - name: "Leather Helmet"
-    - name: "Leather Armor+2"
-    - name: "Leather Gauntlets+1"
-    - name: "Leather Greaves+1"
+    - name: "Padded Helmet"
+    - name: "Padded Armor+2"
+    - name: "Padded Gauntlets+1"
+    - name: "Padded Greaves+1"
     - name: "Amulet+2"
-    - name: "Noxian Ring+1"
+    - name: "Ring+1"
+      enchantments:
+        - [Focus, Nox]
     - name: "Ring+1"
   misc:
     - name: "Adventurer's Pack II"
@@ -71,7 +73,6 @@ actions:
     - Swift Parry
     - Counter
     - Disarm
-    - Find Weakness
     - Pocket Sand
   spells:
     - Shadow Strike
@@ -109,6 +110,7 @@ perks:
   
   combat:
     - Lone Fighter
+    - Dodge Tank
     - Forerunner
     - Goliath
     - Opportunist

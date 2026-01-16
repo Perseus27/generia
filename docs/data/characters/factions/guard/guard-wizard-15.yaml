@@ -28,12 +28,12 @@ values:
   TN: 3
   MS: 4
 armor:
-  head: 2
+  head: 1
   torso: 6
   arms: 3
   legs: 3
   md: 5
-  er: 0
+  er: 4.5
 inventory:
   weapons:
     - name: "Wizard Staff"

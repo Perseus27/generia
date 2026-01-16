@@ -33,7 +33,7 @@ armor:
   arms: 3
   legs: 3
   md: 5
-  er: 0
+  er: 4
 inventory:
   weapons:
     - name: "Healer's Staff"

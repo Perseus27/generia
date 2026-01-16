@@ -30,9 +30,9 @@ armor:
   head: 1
   torso: 6
   arms: 3
-  legs: 3
+  legs: 2
   md: 5
-  er: 0
+  er: 2
 inventory:
   weapons:
     - name: "Battlestaff+1"
@@ -45,7 +45,7 @@ inventory:
     - name: "Padded Helmet"
     - name: "Leather Armor+1"
     - name: "Leather Gauntlets"
-    - name: "Leather Greaves"
+    - name: "Padded Greaves"
     - name: "Shaman Amulet+3"
     - name: "Ring+1"
     - name: "Ring+1"
