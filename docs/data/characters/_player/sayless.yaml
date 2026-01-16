@@ -38,7 +38,7 @@ armor:
   arms: 5
   legs: 3
   md: 3
-  er: 0
+  er: 2.5
 inventory:
   weapons:
     - name: Hunting Bow+1
