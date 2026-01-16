@@ -4,7 +4,7 @@ info:
   species: Undead
   level: 25
   size: Medium
-  tags: [Construct]
+  tags: [Construct, [Resistance, Arrow], [Vulnerability, Blunt]]
 notes: >
   A reanimated humanoid skeleton. Has an unfortunate tendency to stand back up unless thoroughly destroyed.
 
