@@ -81,9 +81,9 @@ A denizen of the Void Between Worlds with an unrelenting drive to consume the so
 An unsouled corpse, reanimated through demonic rituals. May or may not be sapient.
 [h4]Features[/h4]
 [ul]
-[li][url:#Vulnerability]Vulnerability[/url] Blunt, Light, Fire[/li]
-[li][url:#Resistance]Resistance[/url] Arrow, Ice, Lightning, Void[/li]
-[li][url:#Immunity]Immunity[/url] [url:status#Bleeding]Bleeding[/url], [url:status#Poisoned]Poisoned[/url][/li]
+[li][url:#Vulnerability]Vulnerability[/url] Light, Fire[/li]
+[li][url:#Resistance]Resistance[/url] Ice, Lightning, Void[/li]
+[li][url:#Immunity]Immunity[/url] [url:status#Poisoned]Poisoned[/url][/li]
 [li]Incoming [section:clr-heal]Healing[/section] has no effect.[/li]
 [li]Can only regenerate [section:clr-en]EN[/section] and wounds by consuming souled creatures, or to a lesser extent, fresh biomass.[/li]
 [/ul]
