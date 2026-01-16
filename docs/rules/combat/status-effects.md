@@ -64,6 +64,7 @@ title: Status Effects
     <h5><a href="#Misc">Miscellaneous</a></h5>
     <ul>
         <li><a href="#Confined">Confined</a></li>
+        <li><a href="#Flanked">Flanked / Cornered</a></li>
         <li><a href="#Isolated">Isolated</a></li>
         <li><a href="#Unconscious">Unconscious</a></li>
     </ul>

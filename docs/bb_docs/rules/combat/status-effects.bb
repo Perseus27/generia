@@ -393,6 +393,21 @@ The creature cannot use its full range of movement. Primarily affects [url:eqtag
 [br][b]c)[/b] common sense dictates that it should be.
 [/container]
 
+[container:orgblock-transparent]
+[container:statusblock]
+[h4|Flanked]Flanked[/h4]
+A creature is [i]flanked[/i] if two melee-capable hostiles are positioned on squares directly adjacent to and on opposite sides of the creature.
+[br][url:def#MeleeAttack]Melee attacks[/url] from the flanking hostiles against the flanked creature gain [url:core#Advantage]Advantage 1[/url].
+[br][b]Optional:[/b] Instead of gaining Advantage, melee attacks are [url:core#Eased]eased[/url] by [section:clr-value]4[/section].
+[/container]
+[container:statusblock]
+[h4|Cornered]Cornered[/h4]
+A creature is [i]cornered[/i] if it is doubly [url:#Flanked]flanked[/url] or flanked while [url:#Confined]confined[/url].
+[br]In this case, all flankers gain [url:core#Advantage]Advantage 2[/url] on [url:def#MeleeAttack]melee attacks[/url].
+[br][b]Optional:[/b] Instead of gaining Advantage, melee attacks are [url:core#Eased]eased[/url] by [section:clr-value]8[/section].
+[/container]
+[/container]
+
 [container:statusblock]
 [h4|Isolated]Isolated[/h4]
 A creature is isolated if its nearest ally is more than 4 meters away.
