@@ -46,6 +46,13 @@ content:
       Can [url:def#Parry]parry[/url] projectiles. If the defender has [i][url:skills1#Counter]Counter[/url][/i], a successfully parried projectile can be thrown at any target within the remaining range of the projectile. The parry roll becomes the new attack roll.
       The damage of such a projectile equals [url:def#RangedAttack]ammunition damage[/url] + [[section:clr-attr]STR-MOD[/section]].
 
+  - name: Dodge Tank
+    id: dodge-tank
+    sp-cost: 10
+    requirements: Max. light armor, not [url:status#Flanked]Flanked[/url]
+    description: >
+      [url:core#Advantage]Advantage 1[/url] on [url:def#Dodge]dodge[/url] rolls.
+
   - name: Forerunner
     id: forerunner
     sp-cost: 10

@@ -31,13 +31,6 @@ content:
     description: >
       When rolling damage with ranged weapons, you may reroll [section:clr-value]one[/section] die if its result is below that die’s average.
 
-  - name: Dodge Tank
-    id: dodge-tank
-    sp-cost: 20
-    requirements: Max. light armor
-    description: >
-      [url:core#Advantage]Advantage 1[/url] on [url:def#Dodge]dodge[/url] rolls.
-
   - name: Goliath
     id: goliath
     sp-cost: 20
