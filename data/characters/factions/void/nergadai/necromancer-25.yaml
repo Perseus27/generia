@@ -25,12 +25,12 @@ values:
   TN: 3
   MS: "[section:clr-bonus]8[/section]"
 armor:
-  head: 4
+  head: 3
   torso: "[section:clr-bonus]8[/section]"
   arms: 5
   legs: 5
   md: "[section:clr-bonus]7[/section]"
-  er: 0
+  er: 5
 inventory:
   weapons:
     - name: Staff of the Necromancer+2
