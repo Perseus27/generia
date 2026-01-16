@@ -29,7 +29,7 @@ armor:
   arms: 0
   legs: 0
   md: 0
-  enc: 0
+  er: 0
 loot:
   - Trophy (Foot)
 actions:

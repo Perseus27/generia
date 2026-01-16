@@ -30,7 +30,7 @@ armor:
   arms: 2
   legs: 2
   md: "[section:clr-bonus]5[/section]"
-  enc: 0
+  er: 0
 inventory:
   weapons:
     - name: Staff of the Necromancer

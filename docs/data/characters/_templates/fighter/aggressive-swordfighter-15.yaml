@@ -32,7 +32,7 @@ armor:
   arms: 4
   legs: 4
   md: 3
-  enc: 0
+  er: 0
 inventory:
   weapons:
     - name: "Longsword+1"
