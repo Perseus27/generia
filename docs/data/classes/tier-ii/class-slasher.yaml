@@ -1,8 +1,11 @@
 name: "Slasher"
 id: "class-slasher"
 prefix: "class2"
+alias: [Axefighter, Swordfighter]
 description: >
   Slashers are experts in slashing weapons of all kinds.
+
+
 
 prerequisites:
   - Fighter
