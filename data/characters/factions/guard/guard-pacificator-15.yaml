@@ -33,7 +33,7 @@ armor:
   arms: 6
   legs: 6
   md: 3
-  enc: 2
+  er: 2
 inventory:
   weapons:
     - name: "Knobbed Mace+2"

@@ -32,7 +32,7 @@ armor:
   arms: 2
   legs: 2
   md: 1
-  enc: 0
+  er: 0
 inventory:
   weapons:
     - name: "Rapier"

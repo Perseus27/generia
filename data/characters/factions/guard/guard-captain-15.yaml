@@ -33,7 +33,7 @@ armor:
   arms: 6
   legs: 6
   md: 5
-  enc: 0
+  er: 0
 inventory:
   weapons:
     - name: "Bastard Sword+3 (Sharp I)"

@@ -29,7 +29,7 @@ armor:
   arms: 1
   legs: 1
   md: 1
-  enc: 0
+  er: 0
 loot:
   - "[section:clr-roll-noex]1d10[/section] Arrows+2, primitive"
   - "[section:clr-roll-noex]1d4[/section] Poison, normal"
