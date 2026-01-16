@@ -6,64 +6,71 @@ headers:
   - Name
   - Type
   - AV
-  - Enc.
+  - ER
   - Weight
   - Slots
 
 items:
+  - name: Unarmored
+    type: Any
+    av: 0
+    er: 2
+    weight: 0
+    slots: –
+    rarity: 0
   - name: Padded Helmet
     type: Head
     av: 1
-    enc: 0
+    er: 1
     weight: 0.25
     slots: –
     rarity: 1
   - name: Thick Clothing
     type: Torso
     av: 2
-    enc: 0
+    er: 1.5
     weight: 0.5
     slots: 6x4
     rarity: 1
   - name: Cloth Armor
     type: Torso
     av: 3
-    enc: 0
+    er: 1.5
     weight: 1
     slots: 4x3
     rarity: 1
   - name: Padded Armor
     type: Torso
     av: 4
-    enc: 0
+    er: 1
     weight: 1.5
     slots: 2x1
     rarity: 1
   - name: Cloth Gauntlets
     type: Arms
     av: 1
-    enc: 0
+    er: 1.5
     weight: 0.25
     slots: –
     rarity: 1
   - name: Padded Gauntlets
     type: Arms
     av: 2
-    enc: 0
+    er: 1
     weight: 0.5
     slots: –
     rarity: 1
   - name: Cloth Greaves
     type: Legs
     av: 1
-    enc: 0
+    er: 1.5
     weight: 0.25
     slots: –
     rarity: 1
   - name: Padded Greaves
     type: Legs
     av: 2
-    enc: 0
+    er: 1
     weight: 0.5
     slots: –
     rarity: 1
