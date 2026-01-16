@@ -32,7 +32,7 @@ armor:
   arms: 1
   legs: 1
   md: 2
-  er: 0
+  er: 6
 inventory:
   weapons:
     - name: "Wizard Staff"
@@ -42,7 +42,7 @@ inventory:
       damage: "2d6"
       hit: "Hit+2, Block+3|3"
   armor:
-    - name: "Wizard Hat"
+    - name: "Wizard Hat+1"
     - name: "Cloth Armor"
     - name: "Cloth Gauntlets"
     - name: "Cloth Greaves"

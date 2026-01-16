@@ -32,7 +32,7 @@ armor:
   arms: 2
   legs: 2
   md: 1
-  er: 0
+  er: 3
 inventory:
   weapons:
     - name: "Spear"
