@@ -32,7 +32,7 @@ armor:
   arms: 3
   legs: 3
   md: 5
-  er: 0
+  er: 4.5
 inventory:
   weapons:
     - name: "Wizard Staff"
@@ -42,8 +42,8 @@ inventory:
       damage: "2d6"
       hit: "Hit+2, Block+5|5"
   armor:
-    - name: "Wizard Hat"
-    - name: "Leather Armor+1"
+    - name: "Wizard Hat+1"
+    - name: "Padded Armor+2"
     - name: "Padded Gauntlets+1"
     - name: "Padded Greaves+1"
     - name: "Amulet+3"

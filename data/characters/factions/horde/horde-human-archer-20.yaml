@@ -27,12 +27,12 @@ values:
   TN: 3
   MS: 6
 armor:
-  head: 2
-  torso: 5
-  arms: 3
-  legs: 3
+  head: 1
+  torso: 4
+  arms: 2
+  legs: 2
   md: 4
-  er: 0
+  er: 4
 inventory:
   weapons:
     - name: "Riding Bow+2"
@@ -48,10 +48,10 @@ inventory:
       damage: "2d6"
       hit: "Hit+4, Block+8|8"
   armor:
-    - name: "Leather Helmet"
-    - name: "Leather Armor"
-    - name: "Leather Gauntlets"
-    - name: "Leather Greaves"
+    - name: "Padded Helmet"
+    - name: "Padded Armor"
+    - name: "Padded Gauntlets"
+    - name: "Padded Greaves"
     - name: "Amulet+2"
     - name: "Ring+1"
     - name: "Ring+1"
