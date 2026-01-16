@@ -32,7 +32,7 @@ armor:
   arms: 2
   legs: 1
   md: 2
-  er: 0
+  er: 6
 inventory:
   weapons:
     - name: "Long Sling"

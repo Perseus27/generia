@@ -32,7 +32,7 @@ armor:
   arms: 3
   legs: 2
   md: 1
-  er: 0
+  er: 2
 inventory:
   weapons:
     - name: "Shovel"

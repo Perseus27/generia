@@ -18,6 +18,13 @@ items:
     weight: 0
     slots: –
     rarity: 0
+  - name: Hat
+    type: Head
+    av: 0
+    er: 1.5
+    weight: 0.1
+    slots: –
+    rarity: 1
   - name: Padded Helmet
     type: Head
     av: 1

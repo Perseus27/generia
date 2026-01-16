@@ -32,7 +32,7 @@ armor:
   arms: 1
   legs: 0
   md: 1
-  er: 0
+  er: 6.5
 inventory:
   weapons:
     - name: "Hunting Bow"
