@@ -43,7 +43,7 @@ utility:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "Check [section:clr-value]Proficiency[/section] vs [section:clr-attr]PER[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-value]Proficiency[/section] vs [section:clr-attr]PER[/section]"
     description: >
       Baits the target into a hasty defense, giving it [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] if it fails the check.
 
@@ -53,7 +53,7 @@ utility:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "Check [section:clr-attr]STR[/section] vs [section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]STR[/section] vs [section:clr-attr]DEX[/section]"
     description: >
       Target becomes [url:status#OffBalance]off-balance[/url] if it fails the check.
       [br][url:core#Advantage]Advantage 1[/url] against smaller targets, [url:core#Disadvantage]Disadvantage 1[/url] against bigger targets, per difference in [url:/generia/rules/misc/creature-sizes]size level[/url].
@@ -64,7 +64,7 @@ utility:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "Check [section:clr-attr]DEX[/section] vs [section:clr-attr]CON[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]DEX[/section] vs [section:clr-attr]CON[/section]"
     description: >
       Throws a handful of dirt into the target's eyes to cause [url:status#Blinded]blinded 1[/url].
       [br][i]No effect on targets without eyes or with alternative modes of perception.[/i]
@@ -75,7 +75,7 @@ utility:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "Check [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
     description: >
       Shoves the target, causing [url:status#Knockback]Knockback[/url] [[section:clr-attr]STR-MOD[/section]] if it fails the check.
 
@@ -156,7 +156,7 @@ reaction:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "Check [section:clr-value]Proficiency[/section] vs [section:clr-attr]WIL[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-value]Proficiency[/section] vs [section:clr-attr]WIL[/section]"
     description: >
       [url:status#Frightened]Frightens[/url] a target in sight range immediately after causing a [url:wounds#SevereWounds]severe wound[/url].
       [br][b]SAVED:[/b] No effect.
