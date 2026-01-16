@@ -4,7 +4,7 @@ info:
   species: Felis
   level: 20
   size: Medium
-  classes: [Nox, Fighter, Duelist, Hand of Nox]
+  classes: [Nox, Fighter, Duelist, Assassin]
   tags: [–]
 notes: >
   [br]140 SP Base
@@ -27,12 +27,12 @@ values:
   TN: 3
   MS: 8
 armor:
-  head: 2
-  torso: 6
-  arms: 3
-  legs: 3
+  head: 1
+  torso: 5
+  arms: 2
+  legs: 2
   md: 4
-  er: 0
+  er: 4
 inventory:
   weapons:
     - name: "Rapier+2"
@@ -48,12 +48,14 @@ inventory:
       damage: "2d6"
       hit: "Hit+10, Block+6|6"
   armor:
-    - name: "Leather Helmet"
-    - name: "Leather Armor+1"
-    - name: "Leather Gauntlets"
-    - name: "Leather Greaves"
+    - name: "Padded Helmet"
+    - name: "Padded Armor+1"
+    - name: "Padded Gauntlets"
+    - name: "Padded Greaves"
     - name: "Amulet+2"
-    - name: "Noxian Ring+1"
+    - name: "Ring+1"
+      enchantments:
+        - [Focus, Nox]
     - name: "Ring+1"
   misc:
     - name: "Adventurer's Pack II"
