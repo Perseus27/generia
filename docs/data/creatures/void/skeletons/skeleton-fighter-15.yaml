@@ -29,7 +29,7 @@ armor:
   arms: 3
   legs: 3
   md: 0
-  enc: 0
+  er: 0
 loot:
   - Void Core, lesser
 actions:

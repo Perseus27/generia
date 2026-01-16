@@ -33,7 +33,7 @@ armor:
   arms: 4
   legs: 4
   md: 5
-  enc: 0
+  er: 0
 custom-hitzones: ["Core", "Torso", "Arms", "Legs"]
 loot:
   - "Golem Core Mk. II"

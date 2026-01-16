@@ -29,7 +29,7 @@ armor:
   arms: 3
   legs: 3
   md: 1
-  enc: 0
+  er: 0
 loot:
   - Trophy (Tooth)
 actions:
