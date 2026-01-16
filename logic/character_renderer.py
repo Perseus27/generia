@@ -6,7 +6,7 @@ class Character_Renderer:
     
     ATTRIBUTE_ORDER = ["CON", "STR", "DEX", "INT", "WIL", "PER"]
     VALUE_ORDER = ["EN", "MP", "MPR", "WL", "WT", "TN", "MS"]
-    ARMOR_ORDER = ["head", "torso", "arms", "legs", "md", "er"]
+    ARMOR_ORDER = ["head", "torso", "arms", "legs", "md"]
     DEFAULT_HITZONES = ["Head", "Torso", "Arms", "Legs"]
 
     BB_HELPER = BB_Renderer()
@@ -74,6 +74,11 @@ class Character_Renderer:
         hit_zones = self.yaml_input.get("custom-hitzones", self.DEFAULT_HITZONES)
         all_armor = self.yaml_input.get("armor", {})
         a = [all_armor.get(x) for x in self.ARMOR_ORDER]
+        er = all_armor.get("er")
+        if er > 0:
+            er = f"<span class='clr-bonus'>{er}</span>"
+        elif er < 0:
+            er = f"<span class='clr-malus'>{er}</span>"
         armor_bb = f"""
 [table][tr][td][b]{hit_zones[0]}[/b][/td]
 [td]{a[0]}[/td]
@@ -91,7 +96,7 @@ class Character_Renderer:
 [td]{a[4]}[/td]
 [/tr]
 [tr][td][b]ER[/b][/td]
-[td]<span class="clr-emph">{a[5]}</span>[/td]
+[td]{er}[/td]
 [/tr][/table]
         """
         return self.BB_HELPER.process(armor_bb)
