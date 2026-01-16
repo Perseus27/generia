@@ -6,7 +6,7 @@ class Creature_Renderer:
     
     ATTRIBUTE_ORDER = ["CON", "STR", "DEX", "INT", "WIL", "PER"]
     VALUE_ORDER = ["EN", "MP", "MPR", "WL", "WT", "TN", "MS"]
-    ARMOR_ORDER = ["head", "torso", "arms", "legs", "md", "enc"]
+    ARMOR_ORDER = ["head", "torso", "arms", "legs", "md", "er"]
     DEFAULT_HITZONES = ["Head", "Torso", "Arms", "Legs"]
 
     BB_HELPER = BB_Renderer()
@@ -90,7 +90,7 @@ class Creature_Renderer:
 [tr][td][b]MD[/b][/td]
 [td]{a[4]}[/td]
 [/tr]
-[tr][td][b]Enc.[/b][/td]
+[tr][td][b]ER[/b][/td]
 [td]{a[5]}[/td]
 [/tr][/table]
         """
