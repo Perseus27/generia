@@ -74,6 +74,7 @@ nav:
       - rules/magic/freecasting.md
       - rules/magic/chaotic-magic.md
     - Equipment:
+      - rules/equipment/inventory.md
       - rules/equipment/equipment-tags.md
       - rules/equipment/weapon-skills.md
       - rules/equipment/enchantments.md
