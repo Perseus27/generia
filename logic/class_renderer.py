@@ -34,7 +34,7 @@ class Class_Renderer:
         result += f"[h1]{c.get('name')}[/h1]"
         # alias?
         if alias:
-            result += f"[container:class-main-alias][b]Alias:[/b] {self.list_builder.build_list(alias, list_type="comma")}[/container]"
+            result += f"[container:class-main-alias][b]Alias:[/b] {self.list_builder.build_list(alias, list_type='comma')}[/container]"
         # spellcaster info
         if caster_info:
             result += f"[container:class-main-caster-info]{caster_info}[/container]"
@@ -46,10 +46,10 @@ class Class_Renderer:
         ## prerequisites
         result += f"[container:class-main-subinfo]"
         result += f"[h4]Prerequisites[/h4]"
-        result += f"{self.list_builder.build_list(c.get('prerequisites'), list_type="comma", to_link='class')}"
+        result += f"{self.list_builder.build_list(c.get('prerequisites'), list_type='comma', to_link='class')}"
         ## subclasses
         result += f"[h4]Subclasses[/h4]"
-        result += f"{self.list_builder.build_list(c.get('subclasses'), list_type="comma", to_link='class')}"
+        result += f"{self.list_builder.build_list(c.get('subclasses'), list_type='comma', to_link='class')}"
         result += f"[/container]"
         # close info
         result += f"[/container]"
@@ -137,7 +137,7 @@ class Class_Renderer:
         # header
         result += f"[container:class-card-header][h2|{cid}][url:{c.get('prefix')}/{cid}]{c.get('name')}[/url][/h2][/container]"
         if alias:
-            result += f"[container:class-card-alias][b]Alias:[/b] {self.list_builder.build_list(alias, list_type="comma")}[/container]"
+            result += f"[container:class-card-alias][b]Alias:[/b] {self.list_builder.build_list(alias, list_type='comma')}[/container]"
         # body
         result += f"[container:class-card-body]"
         # description
@@ -145,9 +145,9 @@ class Class_Renderer:
         # info
         result += f"[container:class-card-info]"
         # prerequisites
-        result += f"[h4]Prerequisites[/h4]{self.list_builder.build_list(c.get('prerequisites'), list_type="comma", to_link='class-overview')}"
+        result += f"[h4]Prerequisites[/h4]{self.list_builder.build_list(c.get('prerequisites'), list_type='comma', to_link='class-overview')}"
         # subclasses
-        result += f"[h4]Prerequisites[/h4]{self.list_builder.build_list(c.get('subclasses'), list_type="comma", to_link='class-overview')}"
+        result += f"[h4]Prerequisites[/h4]{self.list_builder.build_list(c.get('subclasses'), list_type='comma', to_link='class-overview')}"
         # close info
         result += f"[/container]"
         # close body
