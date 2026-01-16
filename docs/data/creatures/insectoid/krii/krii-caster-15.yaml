@@ -29,7 +29,7 @@ armor:
   arms: 3
   legs: 3
   md: 4
-  enc: 0
+  er: 0
 loot:
   - "[section:clr-roll-noex]1d4[/section] units Krii Acid"
   - Resin Armor+1

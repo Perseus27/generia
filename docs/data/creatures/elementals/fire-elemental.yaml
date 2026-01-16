@@ -30,7 +30,7 @@ armor:
   arms: 0
   legs: 0
   md: 5
-  enc: 0
+  er: 0
 loot:
   - Elemental Core, normal
 actions:

@@ -32,7 +32,7 @@ armor:
   arms: 3
   legs: 3
   md: 4
-  enc: 0
+  er: 0
 inventory:
   weapons:
     - name: "Shillelagh"

@@ -30,7 +30,7 @@ armor:
   arms: 8
   legs: 8
   md: 6
-  enc: 0
+  er: 0
 loot:
   - Resin Pike+3
   - Resin Roundshield+3

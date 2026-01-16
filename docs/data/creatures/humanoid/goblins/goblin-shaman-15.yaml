@@ -29,7 +29,7 @@ armor:
   arms: 0
   legs: 0
   md: 2
-  enc: 0
+  er: 0
 loot:
   - "[section:clr-roll-noex]1d4[/section] Goblin Mana Potion+3, small"
   - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+3, small"
