@@ -3,7 +3,7 @@ class List_Builder:
         self.autolinker = autolinker
 
 
-    def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False): # br, comma, li, commabr
+    def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False, class_list=False): # br, comma, li, commabr
         if not isinstance(input_list, list):
             input_list = [input_list]
         result = ""
@@ -13,6 +13,8 @@ class List_Builder:
             result += "[ul]"
         first = True
         for i in input_list:
+            if i == []:
+                continue
             list_flag = False
             if list_type == "ul":
                 result += "[li]"
@@ -39,7 +41,10 @@ class List_Builder:
                 link = self.get_link(i, to_link)
                 if link:
                     if list_flag:
-                        result += f"[url:{link}]{ctag_open}{first_part}{ctag_close}[/url] {ctag_open}{second_part}{ctag_close}"
+                        if class_list:
+                            result += f"[url:{link}]{ctag_open}{first_part}{ctag_close}[/url] [i]({ctag_open}{second_part}{ctag_close})[/i]"
+                        else:
+                            result += f"[url:{link}]{ctag_open}{first_part}{ctag_close}[/url] {ctag_open}{second_part}{ctag_close}"
                         if rest:
                             for x in rest:
                                 result += f"[br][section:clr-subitem]{x}[/section]"
@@ -47,7 +52,10 @@ class List_Builder:
                         result += f"[url:{link}]{ctag_open}{i}{ctag_close}[/url]"
                 else:
                     if list_flag:
-                        result += f"{ctag_open}{first_part} {second_part}{ctag_close}"
+                        if class_list:
+                            result += f"{ctag_open}{first_part} [i]({second_part}{ctag_close})[/i]"
+                        else:
+                            result += f"{ctag_open}{first_part} {second_part}{ctag_close}"
                         if rest:
                             for x in rest:
                                 result += f"[br][section:clr-subitem]{x}[/section]"
@@ -119,6 +127,8 @@ class List_Builder:
         link = False
         if to_link == "class":
             link = self.autolinker.link_class(s)
+        elif to_link == "class-overview":
+            link = self.autolinker.link_class(s, overview=True)
         elif to_link == "perk":
             link = self.autolinker.link_perk(s)
         elif to_link == "skill":
