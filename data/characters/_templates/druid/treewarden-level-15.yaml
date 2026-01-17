@@ -54,11 +54,11 @@ actions:
   skills:
     - ""
   spells:
-    - [Whirl of Thorns, "[section:clr-pa]+9[/section]"]
-    - [Thorn Whip, "[section:clr-pa]+9[/section]"]
-    - [Grasping Tendrils, "[section:clr-dc]19[/section]"]
-    - [Root Grip, "[section:clr-dc]19[/section]"]
-    - [Field of Thorns, "[section:clr-dc]19[/section]"]
+    - Whirl of Thorns
+    - Thorn Whip
+    - Grasping Tendrils
+    - Root Grip
+    - Field of Thorns
     - "Root Wall"
     - "Field of Flowers"
     - "Regrowth"

@@ -81,10 +81,10 @@ actions:
     - Impact
     - Bones of Steel
     - Great Leap
-    - [Killing Intent, "[section:clr-dc]20[/section]"]
-    - [Looming Presence, "[section:clr-dc]20[/section]"]
-    - [Stomp, "[section:clr-dc]20[/section]"]
-    - [Toxin Purge, "[section:clr-dc]20+[/section]"]    
+    - Killing Intent
+    - Looming Presence
+    - Stomp
+    - Toxin Purge
   rituals: 
     - ""
 proficiencies:

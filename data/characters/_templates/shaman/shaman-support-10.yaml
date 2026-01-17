@@ -54,7 +54,7 @@ actions:
     - ""
   spells:
     - "Summon: Lesser Elemental"
-    - [Elemental Wrath, "[section:clr-sa]+6[/section]"]
+    - Elemental Wrath
     - "Low Stonewall"
     - "Lesser Elemental Favor"
     - "Lesser Flame of Defiance"

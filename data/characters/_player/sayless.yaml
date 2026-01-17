@@ -82,7 +82,7 @@ actions:
     - Shadow Cloak
     - Shadow Summoning
     - Shadow Run
-    - [Terror, "[section:clr-dc]13[/section]"]
+    - Terror
     - Blur
   rituals: 
     - ""
