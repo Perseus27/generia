@@ -36,14 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Rapier"
-      damage: "2d6"
-      hit: "Hit+6, Block+5|2"
     - name: "Short Sling"
-      damage: "1d6"
-      hit: "Hit+2"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+2|2"
   armor:
     - name: "Thick Clothing"
     - name: "Cloth Gauntlets"
@@ -62,7 +56,7 @@ actions:
     - "Melody of Heroism"
     - "Verse of Healing"
     - "Verse of Rebellion"
-  rituals: 
+  rituals:
     - "Improvisation"
 proficiencies:
   magic:
@@ -79,9 +73,8 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Battle Meditation

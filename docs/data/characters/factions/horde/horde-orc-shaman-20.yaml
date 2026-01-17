@@ -39,8 +39,6 @@ inventory:
       damage: "2d8+3"
       hit: "Hit+8, Block+9|5"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+5|5"
   armor:
     - name: "Padded Helmet"
     - name: "Leather Armor+1"
@@ -65,7 +63,7 @@ actions:
     - Wave of Healing
     - Lesser Cleansing Flame
     - Elemental Guidance
-  rituals: 
+  rituals:
     - Elemental Manipulation
 proficiencies:
   magic:
@@ -82,10 +80,9 @@ perks:
   special:
     - Indomitable
     - Stalwart
-  
+
   combat:
     - ""
-  
   magic:
     - Spiritual Resilience
     - Astral Body I

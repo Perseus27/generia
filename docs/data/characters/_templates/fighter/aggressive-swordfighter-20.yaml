@@ -35,18 +35,12 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Longsword+2"
-      damage: "2d8+7|4"
-      hit: "Hit+10, Block+16|10"
-    - name: "Shortsword+1"
-      damage: "2d6+3"
-      hit: "Hit+8, Block+12|10"
+    - name: "Longsword"
+      q: 2
+    - name: "Shortsword"
+      q: 1
     - name: "Roundshield"
-      damage: "1d6+8"
-      hit: "Hit+0, Block+10|12"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+10|10"
   armor:
     - name: "Chain Helmet"
     - name: "Chainmail+1"
@@ -74,7 +68,7 @@ actions:
     - Shove
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -92,7 +86,7 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Edge Alignment
     - Goliath
@@ -100,6 +94,6 @@ perks:
     - Forerunner
     - Opportunist
     - Sprinter
-  
+
   magic:
     - ""

@@ -39,8 +39,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+2, Block+5|5"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+5|5"
   armor:
     - name: "Wizard Hat"
     - name: "Leather Armor+1"
@@ -66,7 +64,7 @@ actions:
     - [Dimension Step, "([section:clr-value]14m[/section])"]
     - Tensile Shield I
     - Water Veil
-  rituals: 
+  rituals:
     - Hermetic Manipulation
     - Kinetic Manipulation
 proficiencies:
@@ -86,10 +84,9 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Practiced Hermetician
     - Practiced Kinetician

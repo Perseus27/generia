@@ -35,18 +35,14 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Longbow+2"
-      damage: "1d8+7"
-      hit: "Hit+10"
+    - name: "Longbow"
       range: "-2/0/0, 28m"
+      q: 2
     - name: "20× Arrow, heavy"
       damage: "1d8"
-    - name: "Broadsword+1"
-      damage: "2d6+6"
-      hit: "Hit+8, Block+14|10"
+    - name: "Broadsword"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+10|10"
   armor:
     - name: "Chain Helmet"
     - name: "Chainmail+1"
@@ -76,7 +72,7 @@ actions:
     - Shove
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -95,11 +91,11 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - David
     - Conditioned I
     - Forerunner
-  
+
   magic:
     - ""

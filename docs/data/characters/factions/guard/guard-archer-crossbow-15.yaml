@@ -36,18 +36,13 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Heavy Crossbow+2"
-      damage: "2d8+2"
-      hit: "Hit+9"
+    - name: "Heavy Crossbow"
       range: "-2/0/0, 28m"
+      q: 2
     - name: "20× Bolt+1, heavy"
       damage: "1d8+1"
     - name: "Broadsword"
-      damage: "2d6+4"
-      hit: "Hit+7, Block+10|7"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+3, Block+5|5"
   armor:
     - name: "Leather Helmet+1"
     - name: "Chainmail+2"
@@ -74,7 +69,7 @@ actions:
     - Shove
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -93,11 +88,11 @@ perks:
   special:
     - Harmony
     - Pursuit Hunter
-  
+
   combat:
     - David
     - Conditioned I
     - Forerunner
-  
+
   magic:
     - ""

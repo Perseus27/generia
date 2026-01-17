@@ -35,18 +35,14 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Riding Bow+2"
-      damage: "1d6+5"
-      hit: "Hit+11"
+    - name: "Riding Bow"
       range: "0/0/-1, 20m"
+      q: 2
     - name: "20× Arrow+1, light"
       damage: "1d6+1"
-    - name: "Saber+1"
-      damage: "2d6+3"
-      hit: "Hit+10, Block+12|8"
+    - name: "Saber"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+8|8"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor"
@@ -71,7 +67,7 @@ actions:
     - Counter
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -89,12 +85,12 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - On the Prowl
     - Cavalry
     - David
     - Forerunner
-  
+
   magic:
     - Focus I

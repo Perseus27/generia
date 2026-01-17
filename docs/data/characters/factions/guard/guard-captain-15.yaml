@@ -40,11 +40,7 @@ inventory:
       damage: "2d6+8|10"
       hit: "Hit+10, Block+15|10"
     - name: "Roundshield"
-      damage: "1d6+10"
-      hit: "Hit+0, Block+10|12"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+5, Block+10|10"
   armor:
     - name: "Chain Helmet+2"
     - name: "Chainmail+3"
@@ -72,7 +68,7 @@ actions:
     - Disarm
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -89,13 +85,13 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Edge Alignment
     - Conditioned I
     - Deflector
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

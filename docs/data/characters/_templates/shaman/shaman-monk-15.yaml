@@ -35,15 +35,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Quarterstaff+1"
-      damage: "2d8+4"
-      hit: "Hit+7, Block+9|6"
+    - name: "Quarterstaff"
+      q: 1
     - name: "Fist"
-      damage: "1d6+3"
-      hit: "Hit+9, Block+11|3"
     - name: "Foot"
-      damage: "1d6+4"
-      hit: "Hit+7, Block+11|3"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor+1"
@@ -70,7 +65,7 @@ actions:
     - "Lesser Elemental Favor"
     - "Lesser Wave of Healing"
     - "Lesser Elemental Guidance"
-  rituals: 
+  rituals:
     - "Elemental Manipulation"
 proficiencies:
   magic:
@@ -89,11 +84,11 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Opportunist
     - Pugilist
-  
+
   magic:
     - Spiritual Resilience
     - Battle Meditation

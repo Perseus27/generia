@@ -39,8 +39,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+2, Block+5|5"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+5|5"
   armor:
     - name: "Wizard Hat+1"
     - name: "Leather Armor+1"
@@ -65,7 +63,7 @@ actions:
     - Arcane Barrier I
     - [Counterspell, "+8"]
     - [Dimension Step, "([section:clr-value]14m[/section])"]
-  rituals: 
+  rituals:
     - Hermetic Manipulation
     - Thermic Manipulation
 proficiencies:
@@ -85,10 +83,9 @@ perks:
   special:
     - Arcane Flow
     - Dissonance
-  
+
   combat:
     - ""
-  
   magic:
     - Practiced Thermician
     - Practiced Hermetician

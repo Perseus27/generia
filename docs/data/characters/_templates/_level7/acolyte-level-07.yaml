@@ -36,11 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Flanged Mace"
-      damage: "2d6+2"
-      hit: "Hit+4, Block+7|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+1, Block+4|4"
   armor:
     - name: "Cloth Armor"
     - name: "Cloth Gauntlets"
@@ -62,7 +58,7 @@ actions:
     - "Radiant Shield"
     - "Healing"
     - "Purify"
-  rituals: 
+  rituals:
     - "Consecration"
 proficiencies:
   magic:
@@ -79,9 +75,8 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Battle Meditation

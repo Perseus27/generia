@@ -41,12 +41,9 @@ inventory:
       range: "-2/0/0, 28m"
     - name: "20× Arrow+1, heavy"
       damage: "1d8+1"
-    - name: "Broadsword+1"
-      damage: "2d6+7"
-      hit: "Hit+8, Block+15|11"
+    - name: "Broadsword"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+11|11"
   armor:
     - name: "Chain Helmet"
     - name: "Chainmail+1"
@@ -76,7 +73,7 @@ actions:
     - Shove
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -95,11 +92,10 @@ perks:
   special:
     - [Bloodline, "[section:clr-attr]STR[/section]"]
     - [Tradition, "[i]Athletics[/i]"]
-  
   combat:
     - David
     - Conditioned I
     - Forerunner
-  
+
   magic:
     - ""

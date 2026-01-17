@@ -35,18 +35,11 @@ armor:
   er: 1
 inventory:
   weapons:
-    - name: "Rapier+1"
-      damage: "2d6+2"
-      hit: "Hit+11, Block+10|6"
+    - name: "Rapier"
+      q: 1
     - name: "Dagger"
-      damage: "2d6"
-      hit: "Hit+11, Block+10|6"
     - name: "Throwing Knife"
-      damage: "2d4+2"
-      hit: "Hit+9"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+9, Block+10|6"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor"
@@ -80,7 +73,7 @@ actions:
     - Shadow Run
     - Blur
     - Noxian Bargain
-  rituals: 
+  rituals:
     - Prayer to Nox
 proficiencies:
   magic:
@@ -102,10 +95,10 @@ perks:
   special:
     - Pursuit Hunter
     - Tradition [i]Stealth[/i]
-  
+
   combat:
     - Lone Fighter
     - Opportunist
-  
+
   magic:
     - Withering Shadow

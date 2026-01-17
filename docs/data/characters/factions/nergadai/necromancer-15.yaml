@@ -39,12 +39,10 @@ inventory:
       enchantments:
         - PER+1
     - name: Knife
-      damage: 2d6 Sharp
-      hit: Hit+2, Block+3|3
   armor:
     - name: Black Hood+1
     - name: Black Robe+2
-      enchantments: 
+      enchantments:
         - AV+1
         - MD+1
     - name: Padded Gauntlets
@@ -67,7 +65,7 @@ actions:
     - "[section:clr-sa]SA[/section] Void: [section:clr-sa]+8[/section]"
     - "[section:clr-sd]SD[/section] Void: [section:clr-sd]+11[/section]"
     - "[section:clr-dc]DC[/section] Void: [section:clr-dc]18[/section]"
-  rituals: 
+  rituals:
     - Void Sorcery
 proficiencies:
   magic:
@@ -86,10 +84,9 @@ perks:
   special:
     - Dark Heritage
     - Efficient Metabolism
-  
+
   combat:
     - ""
-  
   magic:
     - Astral Body I
     - Battle Meditation

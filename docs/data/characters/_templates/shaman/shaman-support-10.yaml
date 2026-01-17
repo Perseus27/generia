@@ -36,11 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Quarterstaff"
-      damage: "2d8+2"
-      hit: "Hit+4, Block+6|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+4|4"
   armor:
     - name: "Padded Helmet"
     - name: "Padded Armor"
@@ -60,7 +56,7 @@ actions:
     - "Lesser Flame of Defiance"
     - "Lesser Wave of Healing"
     - "Lesser Elemental Guidance"
-  rituals: 
+  rituals:
     - "Elemental Manipulation"
 proficiencies:
   magic:
@@ -77,10 +73,9 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Astral Body I
     - Battle Meditation

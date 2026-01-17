@@ -41,12 +41,10 @@ inventory:
       hit: "Hit+10"
     - name: "20× Arrow, light"
       damage: "1d6"
-    - name: "Rapier+1"
-      damage: "2d6+2"
-      hit: "Hit+11, Block+10|6"
-    - name: "Dagger+1"
-      damage: "2d6+1"
-      hit: "Hit+10, Block+9|6"
+    - name: "Rapier"
+      q: 1
+    - name: "Dagger"
+      q: 1
   armor:
     - name: "Padded Helmet"
     - name: "Padded Armor+1"
@@ -80,7 +78,7 @@ actions:
     - Shadow Run
     - Blur
     - Noxian Bargain
-  rituals: 
+  rituals:
     - Prayer to Nox
 proficiencies:
   magic:
@@ -102,12 +100,12 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - On the Prowl
     - Dodge Tank
     - Opportunist
-  
+
   magic:
     - Withering Shadows
     - Focus I

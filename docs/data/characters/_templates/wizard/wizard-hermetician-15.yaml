@@ -39,8 +39,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+2, Block+3|3"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+3|3"
   armor:
     - name: "Wizard Hat"
     - name: "Padded Armor"
@@ -65,7 +63,7 @@ actions:
     - [Counterspell, "+10"]
     - Dim
     - [Dimension Step, "([section:clr-value]15m[/section])"]
-  rituals: 
+  rituals:
     - Hermetic Manipulation
     - Meteoric Manipulation
 proficiencies:
@@ -85,10 +83,9 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Practiced Hermetician
     - Astral Body I

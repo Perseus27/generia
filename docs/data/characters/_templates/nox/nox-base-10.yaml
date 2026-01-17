@@ -36,14 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Rapier"
-      damage: "2d6+1"
-      hit: "Hit+6, Block+4|4"
     - name: "Dagger"
-      damage: "2d6"
-      hit: "Hit+6, Block+4|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+4|4"
   armor:
     - name: "Padded Helmet"
     - name: "Leather Armor"
@@ -59,7 +53,7 @@ actions:
     - "Shadow Strike"
     - "Shadow Cloak"
     - "Blur"
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -75,9 +69,8 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - ""

@@ -35,17 +35,13 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Longsword+2"
-      damage: "2d8+8"
-      hit: "Hit+11, Block+18|12"
+    - name: "Longsword"
       enchantments:
         - Penetration I
-    - name: "Shortsword+1"
-      damage: "2d6+4"
-      hit: "Hit+13, Block+18|12"
+      q: 2
+    - name: "Shortsword"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+5, Block+12|12"
   armor:
     - name: "Chain Helmet+1"
     - name: "Chain Armor+2"
@@ -85,7 +81,7 @@ actions:
     - Looming Presence
     - Stomp
     - Toxin Purge
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -104,7 +100,7 @@ perks:
   special:
     - Dark Heritage
     - Efficient Metabolism
-  
+
   combat:
     - Edge Alignment
     - Goliath
@@ -112,6 +108,6 @@ perks:
     - Forerunner
     - Opportunist
     - Sprinter
-  
+
   magic:
     - ""

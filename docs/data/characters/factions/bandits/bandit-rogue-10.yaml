@@ -36,17 +36,9 @@ armor:
 inventory:
   weapons:
     - name: "Rapier"
-      damage: "2d6+1"
-      hit: "Hit+10, Block+8|4"
     - name: "Dagger"
-      damage: "2d6"
-      hit: "Hit+10, Block+8|4"
     - name: "Throwing Knife"
-      damage: "2d4+2"
-      hit: "Hit+8"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+8, Block+4|4"
   armor:
     - name: "Padded Armor-1"
     - name: "Cloth Gauntlets"
@@ -65,7 +57,7 @@ actions:
     - Shadow Knives
     - Shadow Summoning
     - Blur
-  rituals: 
+  rituals:
     - Prayer to Nox
 proficiencies:
   magic:
@@ -87,9 +79,9 @@ perks:
   special:
     - Pursuit Hunter
     - Tradition [i]Stealth[/i]
-  
+
   combat:
     - Opportunist
-  
+
   magic:
     - ""
