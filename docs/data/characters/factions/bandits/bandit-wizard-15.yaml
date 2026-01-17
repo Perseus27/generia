@@ -68,16 +68,16 @@ actions:
 proficiencies:
   magic:
     - "Thermics: Intermediate"
-    - "[i]Fire 4[/i]"
-    - "[i]Ice 4[/i]"
+    - [Fire, 4]
+    - [Ice, 4]
     - "Hermetics: Beginner"
-    - "[i]Arcane 2[/i]"
+    - [Arcane, 2]
   weapons:
     - ""
   civilian:
-    - "[i]Arcana 4[/i]"
-    - "[i]Arithmetics 2[/i]"
-    - "[i]History 2[/i]"
+    - [Arcana, 4]
+    - [Arithmetics, 2]
+    - [History, 2]
 perks:
   special:
     - Arcane Flow

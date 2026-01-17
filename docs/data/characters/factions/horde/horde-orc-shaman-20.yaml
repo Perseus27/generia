@@ -70,14 +70,14 @@ actions:
 proficiencies:
   magic:
     - "Shaman: Intermediate"
-    - "[i]Binding 5[/i]"
-    - "[i]Summoning 4[/i]"
+    - [Binding, 5]
+    - [Summoning, 4]
   weapons:
     - "Blunt: Beginner"
-    - "[i]Staffs 4[/i]"
+    - [Staff, 4]
   civilian:
-    - "[i]Medicine 2[/i]"
-    - "[i]Rites 3[/i]"
+    - [Medicine, 2]
+    - [Rites, 3]
 perks:
   special:
     - Indomitable

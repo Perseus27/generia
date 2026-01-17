@@ -72,12 +72,12 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Intermediate"
-    - "[i]Axes 6[/i]"
+    - [Axe, 6]
     - "Natural: Intermediate"
-    - "[i]Primitive 3[/i]"
+    - [Primitive, 3]
   civilian:
-    - "[i]Athletics 3[/i]"
-    - "[i]Survival 2[/i]"
+    - [Athletics, 3]
+    - [Survival, 2]
 perks:
   special:
     - Efficient Metabolism

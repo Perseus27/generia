@@ -73,16 +73,16 @@ actions:
 proficiencies:
   magic:
     - "Meteorics: Intermediate"
-    - "[i]Lightning 4[/i]"
-    - "[i]Air 4[/i]"
+    - [Lightning, 4]
+    - [Air, 4]
     - "Hermetics: Intermediate"
-    - "[i]Arcane 2[/i]"
+    - [Arcane, 2]
   weapons:
     - ""
   civilian:
-    - "[i]Arcana 4[/i]"
-    - "[i]Arithmetics 2[/i]"
-    - "[i]History 2[/i]"
+    - [Arcana, 4]
+    - [Arithmetics, 2]
+    - [History, 2]
 perks:
   special:
     - Efficient Metabolism

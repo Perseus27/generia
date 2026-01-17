@@ -75,17 +75,17 @@ actions:
 proficiencies:
   magic:
     - "Nox: Beginner"
-    - "[i]Night 1[/i]"
+    - [Night, 1]
   weapons:
     - "Stabbing: Beginner"
-    - "[i]Swords 2[/i]"
-    - "[i]Daggers 1[/i]"
+    - [Sword, 2]
+    - [Dagger, 1]
     - "Ranged: Beginner"
-    - "[i]Throwing Knives 1[/i]"
+    - [Throwing Knife, 1]
   civilian:
-    - "[i]Rites 1[/i]"
-    - "[i]Stealing 2[/i]"
-    - "[i]Stealth 2[/i]"
+    - [Rites, 1]
+    - [Stealing, 2]
+    - [Stealth, 2]
 perks:
   special:
     - Efficient Metabolism

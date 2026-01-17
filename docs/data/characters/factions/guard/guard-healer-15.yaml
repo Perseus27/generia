@@ -72,13 +72,13 @@ actions:
 proficiencies:
   magic:
     - "Acolyte: Intermediate"
-    - "[i]Luna 5[/i]"
-    - "[i]Sol 3[/i]"
+    - [Luna, 5]
+    - [Sol, 3]
   weapons:
     - "Blunt: Beginner"
   civilian:
-    - "[i]Medicine 5[/i]"
-    - "[i]Rites 2[/i]"
+    - [Medicine, 5]
+    - [Rites, 2]
 perks:
   special:
     - Arcane Flow

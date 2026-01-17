@@ -85,18 +85,18 @@ actions:
 proficiencies:
   magic:
     - "Nox: Intermediate"
-    - "[i]Night 5[/i]"
+    - [Night, 5]
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Bows 5[/i]"
+    - [Bow, 5]
     - "Stabbing: Beginner"
-    - "[i]Swords 4[/i]"
+    - [Sword, 4]
   civilian:
-    - "[i]Hunting 2[/i]"
-    - "[i]Rites 1[/i]"
-    - "[i]Stealing 2[/i]"
-    - "[i]Stealth 3[/i]"
-    - "[i]Survival 1[/i]"
+    - [Hunting, 2]
+    - [Rites, 1]
+    - [Stealing, 2]
+    - [Stealth, 3]
+    - [Survival, 1]
 perks:
   special:
     - Efficient Metabolism

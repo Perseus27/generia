@@ -67,14 +67,14 @@ actions:
 proficiencies:
   magic:
     - "Acolyte: Beginner"
-    - "[i]Luna 2[/i]"
-    - "[i]Sol 2[/i]"
+    - [Luna, 2]
+    - [Sol, 2]
   weapons:
     - "Blunt: Beginner"
-    - "[i]Clubs 3[/i]"
+    - [Club, 3]
   civilian:
-    - "[i]Medicine 1[/i]"
-    - "[i]Rites 2[/i]"
+    - [Medicine, 1]
+    - [Rites, 2]
 perks:
   special:
     - Efficient Metabolism
