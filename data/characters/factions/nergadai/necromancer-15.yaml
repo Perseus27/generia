@@ -14,8 +14,8 @@ attributes:
   STR: [3, 1]
   DEX: [7, 2]
   INT: [7, 3]
-  WIL: [7, "[section:clr-malus]2[/section]"]
-  PER: [9, "[section:clr-bonus]5[/section]"]
+  WIL: [7, 3, -1]
+  PER: [9, 4, 1]
 values:
   EN: 10
   MP: 20
