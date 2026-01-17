@@ -61,7 +61,8 @@ class Table_Renderer:
                 if subitem not in include_fields:
                     continue
                 if subitem == "damage":
-                    result += "<td>"+self.BB_HELPER.process(f"[section:clr-roll]{str(x.get(subitem))}[/section]")+"</td>"
+                    y = x.get(subitem)
+                    result += "<td>"+self.BB_HELPER.process(f"[section:clr-roll]{y[0]} {y[1]}[/section]")+"</td>"
                 elif subitem == "skill":
                     result += "<td>"+self.BB_HELPER.process(self.list_builder.build_list(x.get(subitem), to_link="skill", list_type="comma"))+"</td>"
                 elif subitem == "tags":
