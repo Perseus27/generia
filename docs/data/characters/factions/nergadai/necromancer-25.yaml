@@ -10,12 +10,12 @@ notes: >
   An experienced necromancer. Stacked to the teeth with magical items.
 
 attributes:
-  CON: [8, "[section:clr-bonus]5[/section]"]
+  CON: [8, 4, 1]
   STR: [6, 3]
   DEX: [8, 4]
   INT: [8, 4]
-  WIL: [10, "[section:clr-malus]4[/section]"]
-  PER: [11, "[section:clr-bonus]7[/section]"]
+  WIL: [10, 5, -1]
+  PER: [11, 5, 2]
 values:
   EN: 10
   MP: 25

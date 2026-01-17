@@ -23,8 +23,8 @@ title: Nergadai
 # Nergadai
 
 ## Level 15
-{{ character('data/characters/factions/void/nergadai/necromancer-15.yaml') }}
+{{ character('data/characters/factions/nergadai/necromancer-15.yaml') }}
 
 ## Level 25
-{{ character('data/characters/factions/void/nergadai/necromancer-25.yaml') }}
-{{ character('data/characters/factions/void/nergadai/fighter-sword-25.yaml') }}
+{{ character('data/characters/factions/nergadai/necromancer-25.yaml') }}
+{{ character('data/characters/factions/nergadai/fighter-sword-25.yaml') }}

@@ -13,7 +13,7 @@ notes: >
 
 attributes:
   CON: [12, 6]
-  STR: [13, "[section:clr-bonus]7[/section]"]
+  STR: [13, 6, 1]
   DEX: [10, 5]
   INT: [4, 2]
   WIL: [4, 2]
