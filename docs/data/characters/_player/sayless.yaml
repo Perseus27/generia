@@ -41,23 +41,19 @@ armor:
   er: 2.5
 inventory:
   weapons:
-    - name: Hunting Bow+1
-      hit: Hit+10
-      damage: 1d6+4
+    - name: Hunting Bow
+      q: 1
     - name: 20× Arrows, light
       damage: 1d6
-    - name: Rapier+3
-      hit: Hit+10, Block+7|4
-      damage: 2d6+4
+    - name: Rapier
       enchantments:
         - Sharp I
+      q: 3
     - name: Dagger
-      hit: Hit+7
-      damage: 2d6
   armor:
     - name: Leather Helmet+1
     - name: Cloth Armor+2
-      enchantments: 
+      enchantments:
         - [RES, Sharp]
     - name: Leather Gauntlets+2
     - name: Padded Greaves+1
@@ -84,7 +80,7 @@ actions:
     - Shadow Run
     - Terror
     - Blur
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -105,9 +101,9 @@ perks:
   special:
     - Dark Heritage
     - Dissonance
-  
+
   combat:
     - Opportunist
-  
+
   magic:
     - ""

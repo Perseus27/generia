@@ -35,18 +35,12 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Rapier+1"
-      damage: "2d6+2"
-      hit: "Hit+11, Block+8|4"
-    - name: "Dagger+1"
-      damage: "2d6+1"
-      hit: "Hit+11, Block+8|4"
+    - name: "Rapier"
+      q: 1
+    - name: "Dagger"
+      q: 1
     - name: "Throwing Knife"
-      damage: "2d4+2"
-      hit: "Hit+9"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+9, Block+4|4"
   armor:
     - name: "Padded Helmet"
     - name: "Leather Armor+1"
@@ -74,7 +68,7 @@ actions:
     - "Shadow Summoning"
     - "Shadow Run"
     - "Blur"
-  rituals: 
+  rituals:
     - "Prayer to Nox"
 proficiencies:
   magic:
@@ -96,10 +90,10 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Lone Fighter
     - Opportunist
-  
+
   magic:
     - ""

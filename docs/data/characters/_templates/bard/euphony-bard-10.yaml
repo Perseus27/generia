@@ -36,14 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Rapier"
-      damage: "2d6"
-      hit: "Hit+6, Block+5|3"
     - name: "Short Sling"
-      damage: "1d6"
-      hit: "Hit+2"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+3|3"
   armor:
     - name: "Padded Armor"
     - name: "Cloth Gauntlets"
@@ -62,7 +56,7 @@ actions:
     - Melody of Magic
     - Verse of Healing
     - Verse of Rebellion
-  rituals: 
+  rituals:
     - Improvisation
 proficiencies:
   magic:
@@ -81,10 +75,9 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Astral Body I
     - Battle Meditation

@@ -39,15 +39,13 @@ inventory:
       enchantments:
         - PER+1
     - name: Knife
-      damage: 2d6 Sharp
-      hit: Hit+2, Block+3|3
   armor:
     - name: Hood of the Necromancer+3
       enchantments:
         - PER+1
         - Self Repair I
     - name: Robe of the Necromancer+4
-      enchantments: 
+      enchantments:
         - AV+1
         - MD+1
         - Self Repair I
@@ -75,7 +73,7 @@ actions:
     - "[section:clr-sa]SA[/section] Void: [section:clr-sa]+12[/section]"
     - "[section:clr-sd]SD[/section] Void: [section:clr-sd]+16[/section]"
     - "[section:clr-dc]DC[/section] Void: [section:clr-dc]22[/section]"
-  rituals: 
+  rituals:
     - Void Sorcery
 proficiencies:
   magic:
@@ -94,10 +92,9 @@ perks:
   special:
     - Dark Heritage
     - Efficient Metabolism
-  
+
   combat:
     - ""
-  
   magic:
     - Astral Body II
     - Battle Meditation

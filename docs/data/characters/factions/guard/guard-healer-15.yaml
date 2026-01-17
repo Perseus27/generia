@@ -40,8 +40,6 @@ inventory:
       damage: "2d8+2"
       hit: "Hit+2, Block+4|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+3|3"
   armor:
     - name: "Padded Helmet+1"
     - name: "Padded Armor+2"
@@ -63,7 +61,7 @@ actions:
     - "Radiant Shield"
     - "Prayer of Purification 20+"
     - "Blessing of Resilience"
-  rituals: 
+  rituals:
     - Prayer to Luna
     - Prayer to Sol
     - Mederi
@@ -83,10 +81,9 @@ perks:
   special:
     - Arcane Flow
     - Harmony
-  
+
   combat:
     - ""
-  
   magic:
     - Misereor
     - Astral Body I

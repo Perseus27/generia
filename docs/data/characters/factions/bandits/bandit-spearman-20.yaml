@@ -35,12 +35,9 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Spear+1"
-      damage: "2d6+6|8"
-      hit: "Hit+10, Block+16|10"
+    - name: "Spear"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+10|10"
   armor:
     - name: "Chain Helmet"
     - name: "Chainmail"
@@ -67,7 +64,7 @@ actions:
     - Disarm
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -84,7 +81,7 @@ perks:
   special:
     - Indomitable
     - Pursuit Hunter
-  
+
   combat:
     - Spearhead
     - Goliath
@@ -92,6 +89,6 @@ perks:
     - Forerunner
     - Opportunist
     - Sprinter
-  
+
   magic:
     - ""

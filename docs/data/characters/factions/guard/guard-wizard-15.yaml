@@ -40,8 +40,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+2, Block+3|3"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+3|3"
   armor:
     - name: "Wizard Hat+1"
     - name: "Padded Armor+2"
@@ -68,7 +66,7 @@ actions:
     - "Water Jet I 20"
     - Tensile Shield I
     - Water Veil
-  rituals: 
+  rituals:
     - Hermetic Manipulation
     - Kinetic Manipulation
 proficiencies:
@@ -88,10 +86,9 @@ perks:
   special:
     - Arcane Flow
     - Harmony
-  
+
   combat:
     - ""
-  
   magic:
     - Practiced Hermetician
     - Astral Body I

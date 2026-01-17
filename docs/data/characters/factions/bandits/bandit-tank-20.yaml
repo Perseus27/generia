@@ -36,21 +36,16 @@ armor:
 inventory:
   weapons:
     - name: "Bastard Sword"
-      damage: "2d6+5|7"
-      hit: "Hit+9, Block+15|10"
-    - name: "Roundshield+1"
-      damage: "1d6+7"
-      hit: "Hit+7, Block+15|13"
+    - name: "Roundshield"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+10|10"
   armor:
     - name: "Plate Helmet"
     - name: "Plate Armor+1"
     - name: "Plate Gauntlets"
     - name: "Plate Greaves"
-    - name: "Amulet+2"    
-    - name: "2× Ring+1"    
+    - name: "Amulet+2"
+    - name: "2× Ring+1"
   misc:
     - name: "Adventurer's Pack II"
 actions:
@@ -69,7 +64,7 @@ actions:
     - Steady Block
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -87,7 +82,7 @@ perks:
   special:
     - Indomitable
     - Pursuit Hunter
-  
+
   combat:
     - Edge Alignment
     - Armor Familiarity I
@@ -96,6 +91,6 @@ perks:
     - Forerunner
     - Juggernaut
     - Opportunist
-  
+
   magic:
     - ""

@@ -39,8 +39,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+2, Block+3|3"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+3|3"
   armor:
     - name: "Wizard Hat+1"
     - name: "Padded Armor"
@@ -62,7 +60,7 @@ actions:
     - Ice Shrapnel
     - Sparkstream II
     - Arcane Barrier II
-  rituals: 
+  rituals:
     - Hermetic Manipulation
     - Thermic Manipulation
 proficiencies:
@@ -82,10 +80,9 @@ perks:
   special:
     - Arcane Flow
     - Dissonance
-  
+
   combat:
     - ""
-  
   magic:
     - Practiced Thermician
     - Astral Body I

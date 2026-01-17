@@ -35,15 +35,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Longsword+1"
-      damage: "2d8+5|3"
-      hit: "Hit+9, Block+13|8"
+    - name: "Longsword"
+      q: 1
     - name: "Roundshield"
-      damage: "1d6+8"
-      hit: "Hit+0, Block+8|10"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+8|8"
   armor:
     - name: "Chain Helmet"
     - name: "Chainmail+1"
@@ -69,7 +64,7 @@ actions:
     - Disarm
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -86,12 +81,12 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Edge Alignment
     - Conditioned I
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

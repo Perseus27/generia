@@ -39,8 +39,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+2, Block+5|5"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+5|5"
   armor:
     - name: "Wizard Hat"
     - name: "Leather Armor+1"
@@ -69,7 +67,7 @@ actions:
     - Levitation
     - Dim
     - [Dimension Step, "([section:clr-value]17m[/section])"]
-  rituals: 
+  rituals:
     - Hermetic Manipulation
     - Meteoric Manipulation
 proficiencies:
@@ -90,10 +88,9 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Practiced Hermetician
     - Practiced Meteorician

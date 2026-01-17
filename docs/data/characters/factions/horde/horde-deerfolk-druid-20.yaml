@@ -36,11 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Shillelagh"
-      damage: "2d8+3"
-      hit: "Hit+4, Block+8|6"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+6|6"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor+1"
@@ -69,7 +65,7 @@ actions:
     - Barkskin
     - "Theriomorph: Aspect"
     - Wildgrowth
-  rituals: 
+  rituals:
     - Rooting
     - "Anchor/Release Beast Soul"
 proficiencies:
@@ -87,10 +83,8 @@ perks:
   special:
     - [Bloodline, "[section:clr-attr]WIL[/section]"]
     - [Tradition, "[i]Survival[/i]"]
-  
   combat:
     - ""
-  
   magic:
     - "Wildgrowth: Permanence"
     - Astral Body I

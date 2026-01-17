@@ -35,18 +35,13 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Hunting Bow+1"
-      damage: "1d6+4"
-      hit: "Hit+9"
+    - name: "Hunting Bow"
       range: "-1/0/0, 20m"
+      q: 1
     - name: "20× Arrow, light"
       damage: "1d6"
     - name: "Rapier"
-      damage: "2d6+1"
-      hit: "Hit+8, Block+7|5"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+3, Block+5|5"
   armor:
     - name: "Padded Helmet"
     - name: "Padded Armor"
@@ -72,7 +67,7 @@ actions:
     - Counter
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -89,11 +84,11 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - On the Prowl
     - David
     - Forerunner
-  
+
   magic:
     - Focus I

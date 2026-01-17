@@ -36,14 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Rapier"
-      damage: "2d6+1"
-      hit: "Hit+10, Block+9|5"
     - name: "Buckler"
-      damage: "1d4+1"
-      hit: "Hit+7, Block+8|5"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+5|5"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor"
@@ -64,7 +58,7 @@ actions:
     - Swift Parry
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -82,12 +76,12 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Dancer
     - Deflector
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

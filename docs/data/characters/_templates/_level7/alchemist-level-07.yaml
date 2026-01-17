@@ -38,8 +38,6 @@ inventory:
       damage: ""
       hit: "Hit+4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+2|2"
   armor:
     - name: "Alchemistenhandschuhe, Stoff"
     - name: "Stoffrüstung"
@@ -65,7 +63,7 @@ actions:
     - "Steinmunition I"
     - "Brandgranate I"
     - "Heilgranate I"
-  rituals: 
+  rituals:
     - "Mechanische Transmutation"
     - "Pharmazeutische Transmutation"
     - "Transmutation: Desintegration"
@@ -84,9 +82,7 @@ perks:
   special:
     - "???"
     - "???"
-  
   combat:
     - ""
-  
   magic:
     - Kampfmeditation

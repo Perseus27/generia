@@ -36,11 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Shillelagh"
-      damage: "2d8+3"
-      hit: "Hit+1, Block+4|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+4|4"
   armor:
     - name: "Padded Helmet"
     - name: "Padded Armor"
@@ -60,7 +56,7 @@ actions:
     - "Barkskin"
     - "Theriomorph: Aspect"
     - "Wildgrowth"
-  rituals: 
+  rituals:
     - "Rooting"
     - "Anchor/Release Beast Soul"
 proficiencies:
@@ -77,10 +73,9 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Astral Body I
     - Battle Meditation
