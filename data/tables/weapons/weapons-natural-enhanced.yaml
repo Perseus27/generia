@@ -14,7 +14,8 @@ headers:
 
 items:
 - name: Brass Knuckles
-  type: Fist
+  type: Primitive
+  block: True
   damage: [1d8, Blunt]
   skill: –
   hr: 1.0
@@ -25,7 +26,8 @@ items:
     - Short
 
 - name: Steel Claws
-  type: Fist
+  type: Primitive
+  block: True
   damage: [2d4, Blunt]
   skill: –
   hr: 1.5

@@ -14,6 +14,7 @@ headers:
 
 items:
 - name: Battleaxe
+  alias: [Shovel]
   type: Axe
   damage: [2d8, Sharp]
   skill: Maim

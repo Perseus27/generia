@@ -36,8 +36,6 @@ armor:
 inventory:
   weapons:
     - name: "Shovel"
-      damage: "2d8+6"
-      hit: "Hit+6, Block+12|7"
     - name: "Brass Knuckles"
     - name: "Knife"
   armor:

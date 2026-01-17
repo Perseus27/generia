@@ -55,9 +55,9 @@ actions:
     - Sunlight Spear
     - "Prayer of Healing"
     - "Healing"
-    - "Purify 20+"
+    - "Purify"
     - "Radiant Shield"
-    - "Prayer of Purification 20+"
+    - "Prayer of Purification"
     - "Blessing of Resilience"
   rituals:
     - Prayer to Luna
