@@ -12,7 +12,7 @@ headers:
 items:
 - name: Arrow, blunt
   type: Bow
-  damage: 2d4 Blunt
+  damage: [2d4, Blunt]
   weight: 0.3
   size: 8x1
   rarity: 3
@@ -23,7 +23,7 @@ items:
 
 - name: Arrow, elemental
   type: Bow
-  damage: 3d4 Element
+  damage: [3d4, Element]
   weight: 0.2
   size: 8x1
   rarity: 4
@@ -34,7 +34,7 @@ items:
 
 - name: Bolt, blunt
   type: Crossbow
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   weight: 0.3
   size: 8x1
   rarity: 3
@@ -45,7 +45,7 @@ items:
 
 - name: Bolt, elemental
   type: Crossbow
-  damage: 3d4 Element
+  damage: [3d4, Element]
   weight: 0.2
   size: 8x1
   rarity: 4
@@ -56,7 +56,7 @@ items:
 
 - name: Bullet, light
   type: Sling
-  damage: 1d6 Blunt
+  damage: [1d6, Blunt]
   weight: 0.1
   size: 1x1
   rarity: 3
@@ -67,7 +67,7 @@ items:
 
 - name: Bullet, heavy
   type: Sling
-  damage: 1d8 Blunt
+  damage: [1d8, Blunt]
   weight: 0.2
   size: 1x1
   rarity: 3
@@ -78,7 +78,7 @@ items:
 
 - name: Bullet, elemental
   type: Sling
-  damage: 3d4 Element
+  damage: [3d4, Element]
   weight: 0.2
   size: 1x1
   rarity: 4

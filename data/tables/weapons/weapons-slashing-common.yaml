@@ -15,7 +15,7 @@ headers:
 items:
 - name: Battleaxe
   type: Axe
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0
@@ -28,7 +28,7 @@ items:
 
 - name: Hand Axe
   type: Axe
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Butcher
   hr: 1.0
   dr: 1.0
@@ -41,7 +41,7 @@ items:
 
 - name: War Axe
   type: Axe
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0
@@ -55,7 +55,7 @@ items:
 
 - name: Halberd
   type: Polearm
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Pull
   hr: 1.0
   dr: 1.0
@@ -71,7 +71,7 @@ items:
 
 - name: Poleaxe
   type: Polearm
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Force
   hr: 1.0
   dr: 1.0
@@ -86,7 +86,7 @@ items:
 
 - name: Broadsword
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0
@@ -98,7 +98,7 @@ items:
 
 - name: Cutlass
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Cut
   hr: 1.0
   dr: 1.0
@@ -110,7 +110,7 @@ items:
 
 - name: Longsword
   type: Sword
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0
@@ -125,7 +125,7 @@ items:
 
 - name: Saber
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Cut
   hr: 1.5
   dr: 0.5
@@ -139,7 +139,7 @@ items:
 
 - name: Shortsword
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Butcher
   hr: 1.5
   dr: 0.5

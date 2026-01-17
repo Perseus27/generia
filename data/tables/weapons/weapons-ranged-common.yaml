@@ -16,7 +16,7 @@ headers:
 items:
 - name: Hunting Bow
   type: Bow
-  damage: 1d6 Arrow
+  damage: [1d6, Arrow]
   skill: Kite
   hr: 1.0
   dr: 1.0
@@ -29,7 +29,7 @@ items:
 
 - name: Riding Bow
   type: Bow
-  damage: 1d6 Arrow
+  damage: [1d6, Arrow]
   skill: Force
   hr: 1.0
   dr: 1.0
@@ -42,7 +42,7 @@ items:
 
 - name: Longbow
   type: Bow
-  damage: 1d8 Arrow
+  damage: [1d8, Arrow]
   skill: Force
   hr: 1.0
   dr: 1.0
@@ -56,7 +56,7 @@ items:
 
 - name: Heavy Crossbow
   type: Crossbow
-  damage: 2d8 Arrow
+  damage: [2d8, Arrow]
   skill: Pierce
   hr: 1.0
   dr: 0.0
@@ -72,7 +72,7 @@ items:
 
 - name: Light Crossbow
   type: Crossbow
-  damage: 2d6 Arrow
+  damage: [2d6, Arrow]
   skill: Pierce
   hr: 1.0
   dr: 0.0
@@ -87,7 +87,7 @@ items:
 
 - name: Long Sling
   type: Sling
-  damage: 1d6 Blunt
+  damage: [1d6, Blunt]
   skill: Kite
   hr: 1.0
   dr: 0.0
@@ -100,7 +100,7 @@ items:
 
 - name: Short Sling
   type: Sling
-  damage: 1d6 Blunt
+  damage: [1d6, Blunt]
   skill: Kite
   hr: 1.0
   dr: 0.0
@@ -113,7 +113,7 @@ items:
 
 - name: Grenade
   type: Thrown
-  damage: ???
+  damage: [???]
   skill: –
   hr: 1.0
   dr: 0.0
@@ -126,7 +126,7 @@ items:
 
 - name: Javelin
   type: Thrown
-  damage: 2d6 Arrow
+  damage: [2d6, Arrow]
   skill: Force
   hr: 1.0
   dr: 1.0
@@ -139,7 +139,7 @@ items:
 
 - name: Throwing Knife
   type: Thrown
-  damage: 2d4 Sharp
+  damage: [2d4, Sharp]
   skill: Kite
   hr: 1.0
   dr: 1.0
