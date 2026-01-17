@@ -90,16 +90,16 @@ actions:
 proficiencies:
   magic:
     - "Tempering: Beginner"
-    - "[i]Body 4[/i]"
-    - "[i]Soul 4[/i]"
+    - [Body, 4]
+    - [Soul, 4]
   weapons:
     - "Slashing: Intermediate"
-    - "[i]Swords 6[/i]"
+    - [Sword, 6]
     - "Defensive: Beginner"
   civilian:
-    - "[i]Athletics 2[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Athletics, 2]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
 perks:
   special:
     - Dark Heritage

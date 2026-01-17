@@ -73,13 +73,13 @@ actions:
 proficiencies:
   magic:
     - "Alchemie: Anfänger"
-    - "[i]Mechanik 1[/i]"
+    - [Mechanik, 1]
   weapons:
     - ""
   civilian:
-    - "[i]Arithmetik 2[/i]"
-    - "[i]Magiekunde 2[/i]"
-    - "[i]Basteln 1[/i]"
+    - [Arithmetik, 2]
+    - [Magiekunde, 2]
+    - [Basteln, 1]
 perks:
   special:
     - "???"

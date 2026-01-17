@@ -71,16 +71,16 @@ actions:
 proficiencies:
   magic:
     - "Bard: Beginner"
-    - "[i]Cacophony 4[/i]"
-    - "[i]Euphony 2[/i]"
+    - [Cacophony, 4]
+    - [Euphony, 2]
   weapons:
     - "Stabbing: Beginner"
-    - "[i]Swords 3[/i]"
+    - [Sword, 3]
   civilian:
-    - "[i]History 3[/i]"
-    - "[i]Performance 3[/i]"
-    - "[i]Rites 1[/i]"
-    - "[i]Trading 1[/i]"
+    - [History, 3]
+    - [Performance, 3]
+    - [Rites, 1]
+    - [Trading, 1]
 perks:
   special:
     - Efficient Metabolism

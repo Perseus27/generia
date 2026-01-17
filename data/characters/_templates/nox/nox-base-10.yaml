@@ -64,13 +64,13 @@ actions:
 proficiencies:
   magic:
     - "Nox: Beginner"
-    - "[i]Night 1[/i]"
+    - [Night, 1]
   weapons:
     - "Stabbing: Beginner"
   civilian:
-    - "[i]Rites 1[/i]"
-    - "[i]Stealing 2[/i]"
-    - "[i]Stealth 2[/i]"
+    - [Rites, 1]
+    - [Stealing, 2]
+    - [Stealth, 2]
 perks:
   special:
     - Efficient Metabolism

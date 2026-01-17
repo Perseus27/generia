@@ -69,8 +69,8 @@ proficiencies:
   weapons:
     - "Blunt: Beginner"
   civilian:
-    - "[i]Medicine 3[/i]"
-    - "[i]Rites 3[/i]"
+    - [Medicine, 3]
+    - [Rites, 3]
 perks:
   special:
     - Efficient Metabolism

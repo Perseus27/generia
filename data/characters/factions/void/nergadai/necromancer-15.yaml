@@ -72,16 +72,16 @@ actions:
 proficiencies:
   magic:
     - "Sorcerer: Intermediate"
-    - "[i]Concept: Voidmage 3[/i]"
-    - "[i]Concept: Necromancer 4[/i]"
-    - "[i]Element: Void 4[/i]"
+    - ["Concept: Voidmage", 3]
+    - ["Concept: Necromancer", 4]
+    - ["Element: Void", 4]
   weapons:
     - "Blunt: Beginner"
-    - "[i]Staffs 2[/i]"
+    - [Staff, 2]
   civilian:
-    - "[i]Arcana 3[/i]"
-    - "[i]Rites 4[/i]"
-    - "[i]History 2[/i]"
+    - [Arcana, 3]
+    - [Rites, 4]
+    - [History, 2]
 perks:
   special:
     - Dark Heritage

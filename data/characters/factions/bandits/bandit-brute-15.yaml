@@ -71,12 +71,12 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Intermediate"
-    - "[i]Axes 5[/i]"
+    - [Axe, 5]
     - "Natural: Beginner"
-    - "[i]Primitive 2[/i]"
+    - [Primitive, 2]
   civilian:
-    - "[i]Athletics 3[/i]"
-    - "[i]Survival 1[/i]"
+    - [Athletics, 3]
+    - [Survival, 1]
 perks:
   special:
     - Pursuit Hunter

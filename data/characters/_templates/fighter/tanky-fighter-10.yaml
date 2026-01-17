@@ -71,13 +71,13 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Beginner"
-    - "[i]Swords 4[/i]"
+    - [Sword, 4]
     - "Defensive: Beginner"
-    - "[i]Shields 3[/i]"
+    - [Shield, 3]
   civilian:
-    - "[i]Athletics 2[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Athletics, 2]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
 perks:
   special:
     - Efficient Metabolism

@@ -68,12 +68,12 @@ proficiencies:
     - ""
   weapons:
     - "Stabbing: Beginner"
-    - "[i]Polearms 5[/i]"
+    - [Polearm, 5]
     - "Defensive: Beginner"
   civilian:
-    - "[i]Athletics 2[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Athletics, 2]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
 perks:
   special:
     - Indomitable

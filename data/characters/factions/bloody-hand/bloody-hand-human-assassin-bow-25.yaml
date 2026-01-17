@@ -88,13 +88,13 @@ actions:
 proficiencies:
   magic:
     - "Nox: Intermediate"
-    - "[i]Night 5[/i]"
+    - [Night, 5]
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Bows 5[/i]"
+    - [Bow, 5]
     - "Stabbing: Beginner"
-    - "[i]Swords 4[/i]"
-    - "[i]Daggers 4[/i]"
+    - [Sword, 4]
+    - [Dagger, 4]
   civilian:
     - "Hunting 2"
     - "Rites 1"

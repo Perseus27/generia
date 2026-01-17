@@ -81,14 +81,14 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Crossbows 5[/i]"
+    - [Crossbow, 5]
     - "Slashing: Intermediate"
-    - "[i]Swords 3[/i]"
+    - [Sword, 3]
     - "Defensive: Beginner"
   civilian:
-    - "[i]Hunting 1[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Hunting, 1]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
 perks:
   special:
     - Harmony

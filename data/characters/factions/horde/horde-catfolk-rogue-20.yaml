@@ -87,19 +87,19 @@ actions:
 proficiencies:
   magic:
     - "Nox: Intermediate"
-    - "[i]Night 5[/i]"
+    - [Night, 5]
   weapons:
     - "Stabbing: Intermediate"
-    - "[i]Swords 4[/i]"
-    - "[i]Daggers 4[/i]"
+    - [Sword, 4]
+    - [Dagger, 4]
     - "Ranged: Beginner"
     - "Defensive: Beginner"
   civilian:
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Rites 1[/i]"
-    - "[i]Stealing 2[/i]"
-    - "[i]Stealth 3[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Monster Lore, 1]
+    - [Rites, 1]
+    - [Stealing, 2]
+    - [Stealth, 3]
+    - [Warfare, 2]
 perks:
   special:
     - [Bloodline, "[section:clr-attr]DEX[/section]"]

@@ -81,12 +81,12 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Advanced"
-    - "[i]Slings 6[/i]"
+    - [Sling, 6]
     - "Stabbing: Beginner"
-    - "[i]Swords 2[/i]"
+    - [Sword, 2]
   civilian:
-    - "[i]Hunting 4[/i]"
-    - "[i]Survival 2[/i]"
+    - [Hunting, 4]
+    - [Survival, 2]
 perks:
   special:
     - Efficient Metabolism
