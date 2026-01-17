@@ -23,10 +23,13 @@ offensive:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
       - "[section:clr-mp]3 MP[/section]"
+    material:
+      - "Sunstone (optional)"
     description: >
       Sends out a ring of holy light that burns nearby enemies but spares allies.
+      [br][b]Sunstone:[/b] Applies [url:status#Lightburn]Lightburn 2[/url] on [url:def#Hit]hit[/url].
     effect: >
-      [section:clr-roll]3d4[/section] Light
+      [section:clr-roll]3d6[/section] Light
     saved: "Damage halved."
     saved10: "No effect."
 

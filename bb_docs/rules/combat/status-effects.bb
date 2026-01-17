@@ -33,7 +33,7 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [container:statusblock]
 [h4|Bleeding]Bleeding[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br]Takes physical damage against [url:values#TN]TN[/url] at the start of the turn.
+[br]Takes Absolute damage against [url:values#TN]TN[/url] at the start of the turn.
 [br][b]Tier 1:[/b] [b][section:clr-roll-noex]1d4[/section][/b]
 [br][b]Tier 2:[/b] [b][section:clr-roll-noex]1d6[/section][/b]
 [br][b]Tier 3:[/b] [b][section:clr-roll-noex]1d8[/section][/b]
@@ -45,7 +45,7 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [container:statusblock]
 [h4|Burning]Burning[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br]Takes fire damage against [url:values#TN]TN[/url] at the start of the turn.
+[br]Takes Fire damage against [url:values#TN]TN[/url] at the start of the turn.
 [br][b]Tier 1:[/b] [b][section:clr-roll-noex]1d4[/section][/b]
 [br][b]Tier 2:[/b] [b][section:clr-roll-noex]1d6[/section][/b]
 [br][b]Tier 3:[/b] [b][section:clr-roll-noex]1d8[/section][/b]
@@ -56,7 +56,7 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [container:statusblock]
 [h4|Decay]Decay[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br]Takes Void damage at the start of the turn against [url:values#TN]Toughness (TN)[/url].
+[br]Takes Void damage against [url:values#TN]TN[/url] at the start of the turn.
 [br][b]Tier 1:[/b] [b][section:clr-roll-noex]1d4[/section][/b]
 [br][b]Tier 2:[/b] [b][section:clr-roll-noex]1d6[/section][/b]
 [br][b]Tier 3:[/b] [b][section:clr-roll-noex]1d8[/section][/b]
@@ -67,7 +67,7 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [container:statusblock]
 [h4|Lightburn]Lightburn[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br]Takes light damage at the start of the turn against [url:values#TN]Toughness (TN)[/url].
+[br]Takes Light damage against [url:values#TN]TN[/url] at the start of the turn.
 [br][b]Tier 1:[/b] [b][section:clr-roll-noex]1d4[/section][/b]
 [br][b]Tier 2:[/b] [b][section:clr-roll-noex]1d6[/section][/b]
 [br][b]Tier 3:[/b] [b][section:clr-roll-noex]1d8[/section][/b]
@@ -78,7 +78,7 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [container:statusblock]
 [h4|Poisoned]Poisoned[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br]Takes poison damage against [url:values#TN]TN[/url] at the start of the turn.
+[br]Takes Absolute damage against [url:values#TN]TN[/url] at the start of the turn.
 [br][b]Tier 1:[/b] [b][section:clr-roll-noex]1d4[/section][/b]
 [br][b]Tier 2:[/b] [b][section:clr-roll-noex]1d6[/section][/b]
 [br][b]Tier 3:[/b] [b][section:clr-roll-noex]1d8[/section][/b]
@@ -89,21 +89,21 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [container:statusblock]
 [h4|Regeneration]Regeneration[/h4]
 [section:clr-support]SUPPORT[/section]
-[br]Gains healing points at the start of the turn; these accumulate across rounds.
+[br]Gains [section:clr-heal]healing[/section] at the start of the turn. Points accumulate across rounds.
 [br][b]Tier 1:[/b] [b][section:clr-roll-noex]1d4[/section][/b]
 [br][b]Tier 2:[/b] [b][section:clr-roll-noex]1d6[/section][/b]
 [br][b]Tier 3:[/b] [b][section:clr-roll-noex]1d8[/section][/b]
 [br][b]Tier 4:[/b] [b][section:clr-roll-noex]1d10[/section][/b]
 [br][b]Tier 5:[/b] [b][section:clr-roll-noex]1d12[/section][/b]
-[br][i]The effect loses one tier (and any excess points) as soon as a wound is successfully healed (or inflicted).[/i]
-[br][i]Ineffective on [url:/w/generia-perseus27/a/wounds-article#SchwereWunden]severe wounds[/url].[/i]
+[br][i]The effect loses one tier as soon as a wound is successfully healed.[/i]
+[br][i]Ineffective on [url:wounds]severe wounds[/url].[/i]
 [br][i]The effect ends if the creature has no light wounds or the tier drops below 1.[/i]
 [/container]
 
 [container:statusblock]
 [h4|Spellburn]Spellburn[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br]Takes arcane damage at the start of the turn against [url:values#TN]Toughness (TN)[/url].
+[br]Takes Arcane damage against [url:values#TN]TN[/url] at the start of the turn.
 [br][b]Tier 1:[/b] [b][section:clr-roll-noex]1d4[/section][/b]
 [br][b]Tier 2:[/b] [b][section:clr-roll-noex]1d6[/section][/b]
 [br][b]Tier 3:[/b] [b][section:clr-roll-noex]1d8[/section][/b]
