@@ -80,16 +80,16 @@ utility:
 
   - name: "Purify"
     id: "purify"
-    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 10m"]
+    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
-      - "[section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
+      - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
     cost:
       - "[section:clr-mp]1/2/3 MP[/section]"
     description: >
       Asks Luna to cleanse the target.
       [br][i][url:core#Advantage]Advantage 1[/url] on [section:clr-dc]DC+[/section] in [section:clr-moonlight]True Moonlight[/section].[/i]
     effect: >
-      Attempts to remove [section:clr-value]1/2/3[/section] negative status effects from the target.
+      Attempts to remove [section:clr-value]1/2/3[/section] specified status effects from the target.
 
 
 ritual:
