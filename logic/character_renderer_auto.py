@@ -36,18 +36,18 @@ class Character_Renderer_Auto:
     
     def format_weapons(self):
         weapons = self.yaml_input.get("inventory").get("weapons")
-        weapons_autocalc_data = []
+        weapons_autocalc = []
         weapons_manual = []
         result = ""
         for w in weapons:
             wdata = self.autolinker.fetch_weapon_data(w.get("name"))
             if wdata:
-                weapons_autocalc_data.append([wdata, w])
+                weapons_autocalc.append([wdata, w])
             else:
                 weapons_manual.append(w)
-        if len(weapons_autocalc_data):
+        if len(weapons_autocalc):
             result += "[ul]"
-            for x in weapons_autocalc_data:
+            for x in weapons_autocalc:
                 result += self.calc_weapon(x)
             result += "[/ul]"
         if len(weapons_manual):
@@ -74,7 +74,7 @@ class Character_Renderer_Auto:
         # Open
         result = "[li]"
         # Name+Quality
-        result += f"{weapon.get('name')}{qstring}"
+        result += f"{weapon_full[1].get('name')}{qstring}"
         # Hit+X, Block+Y|Z
         result += "[container:subitem][section:clr-hit]"
         if block_value:
@@ -133,3 +133,48 @@ class Character_Renderer_Auto:
         if wtype == "Primitive":
             return int(result/2)
         return result
+
+    def format_spells(self):
+        spells = self.yaml_input.get("actions").get("spells")
+        spells_autocalc = []
+        spells_manual = []
+        result = ""
+        for s in spells:
+            sdata = self.autolinker.fetch_spell_data_if_auto(s)
+            if sdata:
+                spells_autocalc.append([sdata, s])
+            else:
+                spells_manual.append(s)
+        if len(spells_autocalc):
+            result += "[ul]"
+            for x in spells_autocalc:
+                result += self.calc_spell(x)
+            result += "[/ul]"
+        if len(spells_manual):
+            result += self.list_builder.build_list(spells_manual, to_link="spell")
+        return result
+    
+    def calc_spell(self, spell_full):
+        display_name = spell_full[1]
+        linked_name = f"[url:{self.autolinker.link_spell(display_name)}]{display_name}[/url]"
+        return f"[li]{linked_name} {self.get_spell_hit_string(spell_full[0], self.get_spell_proficiency(spell_full[0]))}[/li]"
+
+    def get_spell_proficiency(self, spell):
+        result = 0
+        for x in self.yaml_input.get("proficiencies").get("magic"):
+            if isinstance(x, list):
+                if x[0] in spell.get("tags"):
+                    result = x[1]
+        return result
+
+
+    def get_spell_hit_string(self, spell, prof):
+        atype = spell.get("auto_type")
+        if len(atype) < 3:
+            mod_val = int(self.mods.get(atype[1]))
+        else:
+            mod_val = int(self.mods.get(atype[1])) + int(self.mods.get(atype[2]))
+        if atype[0] in ["DC", "DC+"]:
+            return f"[section:clr-dc]{10+mod_val+prof}[/section]"
+        else:
+            return f"[section:clr-{atype[0].lower()}]+{mod_val+prof}[/section]"

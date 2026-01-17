@@ -163,7 +163,8 @@ class Character_Renderer:
     def format_actions(self):
         all_actions = self.yaml_input.get("actions")
         skills = self.list_builder.build_list(all_actions.get("skills"), to_link="skill")
-        spells = self.list_builder.build_list(all_actions.get("spells"), to_link="spell")
+        #spells = self.list_builder.build_list(all_actions.get("spells"), to_link="spell")
+        spells = self.auto.format_spells()
         rituals = self.list_builder.build_list(all_actions.get("rituals"), to_link="spell")
         actions_formatted = {"skills" : self.BB_HELPER.process(skills), "spells" : self.BB_HELPER.process(spells), "rituals" : self.BB_HELPER.process(rituals)}
         return actions_formatted

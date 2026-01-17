@@ -103,8 +103,18 @@ class Autolinker:
     def fetch_weapon_data(self, x):
         for y in self.weapon_yamls:
             for w in self.get_all_items_from_file(y):
-                if x == w.get("name"):
+                if x == w.get("name") or x in w.get("alias", []):
                     return w
+        return False
+    
+    def fetch_spell_data_if_auto(self, x):
+        for y in self.spell_yamls:
+            for subcat in self.get_all_spells_from_file(y):
+                for i in subcat:
+                    if x == i.get("name") or x in i.get("alias", []):
+                        if i.get("auto_type", False):
+                            return i
+                        return False
         return False
     
 
