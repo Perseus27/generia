@@ -67,7 +67,7 @@ utility:
     id: "prayer-of-purification"
     tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Radius: 8m"]
     type:
-      - "[section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
+      - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
     material:
       - "Moonstone"
     cost:
