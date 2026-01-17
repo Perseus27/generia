@@ -55,13 +55,13 @@ actions:
   skills:
     - ""
   spells:
-    - [Whirl of Thorns, "[section:clr-pa]+12[/section]"]
-    - [Stranglevine, "[section:clr-sa]+12[/section]"]
-    - [Thorn Whip, "[section:clr-pa]+12[/section]"]
-    - [Breaking Vine, "[section:clr-dc]12[/section]"]
-    - [Grasping Tendrils, "[section:clr-dc]22[/section]"]
-    - [Root Grip, "[section:clr-dc]22[/section]"]
-    - [Field of Thorns, "[section:clr-dc]22[/section]"]
+    - Whirl of Thorns
+    - Stranglevine
+    - Thorn Whip
+    - Breaking Vine
+    - Grasping Tendrils
+    - Root Grip
+    - Field of Thorns
     - Thorn Mantle
     - Root Wall
     - Field of Flowers

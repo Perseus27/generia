@@ -53,9 +53,9 @@ actions:
   skills:
     - ""
   spells:
-    - [Thorn Whip, "[section:clr-pa]+8[/section]"]
-    - [Grasping Tendrils, "[section:clr-dc]18[/section]"]
-    - [Root Grip, "[section:clr-dc]18[/section]"]
+    - Thorn Whip
+    - Grasping Tendrils
+    - Root Grip
     - "Regrowth"
     - "Barkskin"
     - "Theriomorph: Aspect"

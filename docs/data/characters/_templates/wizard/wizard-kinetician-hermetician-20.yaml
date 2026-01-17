@@ -55,13 +55,13 @@ actions:
   skills:
     - ""
   spells:
-    - [Satellites, "[section:clr-pa]+10[/section]"]
-    - [Kinetic Bolt II, "[section:clr-pa]+10[/section]"]
-    - [Mana Beam I, "[section:clr-sa]+8[/section]"]
-    - [Earthquake, "[section:clr-dc]20[/section]"]
-    - [Quagmire, "[section:clr-dc]20[/section]"]
-    - [Kinetic Barrier I, "[section:clr-sd]+14[/section]"]
-    - [Counter Shot, "[section:clr-sd]+12[/section]"]
+    - Satellites
+    - Kinetic Bolt II
+    - Mana Beam I
+    - Earthquake
+    - Quagmire
+    - Kinetic Barrier I
+    - Counter Shot
     - [Counterspell, "+8"]
     - [Dimension Step, "([section:clr-value]14m[/section])"]
     - Tensile Shield I

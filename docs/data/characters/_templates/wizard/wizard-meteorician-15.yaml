@@ -55,13 +55,13 @@ actions:
   skills:
     - ""
   spells:
-    - [Thunderbolt I, "[section:clr-sa]+9[/section]"]
-    - [Zap II, "[section:clr-sa]+9[/section]"]
-    - [Meteoric Bolt I, "[section:clr-pa]+9[/section]"]
-    - [Mana Beam I, "[section:clr-sa]+7[/section]"]
-    - [Discharge, "[section:clr-dc]19[/section]"]
-    - [Air Burst, "[section:clr-dc]19[/section]"]
-    - [Arcane Barrier I, "[section:clr-sd]+10[/section]"]
+    - Thunderbolt I
+    - Zap II
+    - Meteoric Bolt I
+    - Mana Beam I
+    - Discharge
+    - Air Burst
+    - Arcane Barrier I
     - Levitation
     - Lightning Step
   rituals: 
