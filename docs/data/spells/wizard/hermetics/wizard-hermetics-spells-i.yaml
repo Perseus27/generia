@@ -41,6 +41,7 @@ offensive:
 defensive:
   - name: "Arcane Barrier I"
     id: "arcane-barrier-i"
+    auto_type: [SD, INT, PER]
     tags: ["TIER I", "Arcane", "Reaction", "UPCAST 5"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -65,6 +66,7 @@ defensive:
 
   - name: "Counter Shot"
     id: "counter-shot"
+    auto_type: [SD, INT, PER]
     tags: ["TIER I", "Arcane", "Defensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"

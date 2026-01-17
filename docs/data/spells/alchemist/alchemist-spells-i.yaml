@@ -47,6 +47,7 @@ offensive:
 defensive:
   - name: "Emergency Shield I"
     id: "emergency-shield-i"
+    auto_type: [SD, INT, PER]
     tags: ["TIER I", "Mechanics", "Reaction", "Volatile"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
