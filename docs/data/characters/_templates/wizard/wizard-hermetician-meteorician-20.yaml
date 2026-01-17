@@ -55,16 +55,16 @@ actions:
   skills:
     - ""
   spells:
-    - [Mana Bolt II, "[section:clr-pa]+11[/section]"]
-    - [Mana Beam II, "[section:clr-sa]+11[/section]"]
-    - [Thunderbolt I, "[section:clr-sa]+8[/section]"]
-    - [Neuroshock, "[section:clr-dc]18[/section]"]
-    - [Discharge, "[section:clr-dc]18[/section]"]
-    - [Counter Shot, "[section:clr-sd]+15[/section]"]
-    - [Arcane Barrier I, "[section:clr-sd]+15[/section]"]
-    - [Blink, "[section:clr-sd]+15[/section]"]
-    - [Illusory Double, "[section:clr-dc]18[/section]"]
-    - [Air Burst, "[section:clr-dc]17[/section]"]
+    - Mana Bolt II
+    - Mana Beam II
+    - Thunderbolt I
+    - Neuroshock
+    - Discharge
+    - Counter Shot
+    - Arcane Barrier I
+    - Blink
+    - Illusory Double
+    - Air Burst
     - [Counterspell, "+11"]
     - Levitation
     - Dim

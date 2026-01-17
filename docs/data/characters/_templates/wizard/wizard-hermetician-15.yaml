@@ -55,13 +55,13 @@ actions:
   skills:
     - ""
   spells:
-    - [Mana Bolt II, "[section:clr-pa]+10[/section]"]
-    - [Mana Beam II, "[section:clr-sa]+10[/section]"]
-    - [Neuroshock, "[section:clr-dc]17[/section]"]
-    - [Counter Shot, "[section:clr-sd]+13[/section]"]
-    - [Arcane Barrier I, "[section:clr-sd]+13[/section]"]
-    - [Blink, "[section:clr-sd]+13[/section]"]
-    - [Illusory Double, "[section:clr-dc]17[/section]"]
+    - Mana Bolt II
+    - Mana Beam II
+    - Neuroshock
+    - Counter Shot
+    - Arcane Barrier I
+    - Blink
+    - Illusory Double
     - [Counterspell, "+10"]
     - Dim
     - [Dimension Step, "([section:clr-value]15m[/section])"]
