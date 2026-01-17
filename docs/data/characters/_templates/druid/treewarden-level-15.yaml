@@ -71,14 +71,14 @@ actions:
 proficiencies:
   magic:
     - "Druid: Intermediate"
-    - "[i]Flora 4[/i]"
-    - "[i]Fauna 2[/i]"
+    - [Flora, 4]
+    - [Fauna, 2]
   weapons:
     - "Blunt: Beginner"
-    - "[i]Staffs 2[/i]"
+    - [Staff, 2]
   civilian:
-    - "[i]Botany 3[/i]"
-    - "[i]Zoology 2[/i]"
+    - [Botany, 3]
+    - [Zoology, 2]
 perks:
   special:
     - Efficient Metabolism

@@ -78,13 +78,13 @@ proficiencies:
     - ""
   weapons:
     - "Stabbing: Intermediate"
-    - "[i]Polearms 6[/i]"
+    - [Polearm, 6]
     - "Defensive: Beginner"
-    - "[i]Shield 2[/i]"
+    - [Shield, 2]
   civilian:
-    - "[i]Athletics 2[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Athletics, 2]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
 perks:
   special:
     - [Bloodline, "[section:clr-attr]DEX[/section]"]

@@ -77,13 +77,13 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Intermediate"
-    - "[i]Swords 5[/i]"
+    - [Sword, 5]
     - "Defensive: Intermediate"
-    - "[i]Shields 4[/i]"
+    - [Shield, 4]
   civilian:
-    - "[i]Athletics 3[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Athletics, 3]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
 perks:
   special:
     - Efficient Metabolism

@@ -65,14 +65,14 @@ actions:
 proficiencies:
   magic:
     - "Shaman: Beginner"
-    - "[i]Binding 3[/i]"
-    - "[i]Summoning 2[/i]"
+    - [Binding, 3]
+    - [Summoning, 2]
   weapons:
     - "Blunt: Beginner"
-    - "[i]Staffs 2[/i]"
+    - [Staff, 2]
   civilian:
-    - "[i]Medicine 2[/i]"
-    - "[i]Rites 3[/i]"
+    - [Medicine, 2]
+    - [Rites, 3]
 perks:
   special:
     - Efficient Metabolism

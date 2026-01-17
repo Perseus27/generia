@@ -72,11 +72,11 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Beginner"
-    - "[i]Bows 4[/i]"
+    - [Bow, 4]
     - "Stabbing: Beginner"
-    - "[i]Swords 2[/i]"
+    - [Sword, 2]
   civilian:
-    - "[i]Hunting 1[/i]"
+    - [Hunting, 1]
 perks:
   special:
     - Efficient Metabolism

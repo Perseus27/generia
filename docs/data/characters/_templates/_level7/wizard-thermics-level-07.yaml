@@ -64,15 +64,15 @@ actions:
 proficiencies:
   magic:
     - "Hermetics: Beginner"
-    - "[i]Arcane 1[/i]"
+    - [Arcane, 1]
     - "Thermics: Beginner"
-    - "[i]Fire 2[/i]"
+    - [Fire, 2]
   weapons:
     - ""
   civilian:
-    - "[i]Arcana 3[/i]"
-    - "[i]Arithmetics 1[/i]"
-    - "[i]History 1[/i]"
+    - [Arcana, 3]
+    - [Arithmetics, 1]
+    - [History, 1]
 perks:
   special:
     - Efficient Metabolism

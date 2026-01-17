@@ -83,14 +83,14 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Bows 6[/i]"
+    - [Bow, 6]
     - "Slashing: Intermediate"
-    - "[i]Swords 4[/i]"
+    - [Sword, 4]
     - "Defensive: Beginner"
   civilian:
-    - "[i]Hunting 1[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - [Hunting, 1]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
 perks:
   special:
     - Efficient Metabolism

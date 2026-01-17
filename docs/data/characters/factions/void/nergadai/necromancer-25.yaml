@@ -80,16 +80,16 @@ actions:
 proficiencies:
   magic:
     - "Sorcerer: Adept"
-    - "[i]Concept: Voidmage 5[/i]"
-    - "[i]Concept: Necromancer 5[/i]"
-    - "[i]Element: Void 5[/i]"
+    - ["Concept: Voidmage", 5]
+    - ["Concept: Necromancer", 5]
+    - ["Element: Void", 5]
   weapons:
     - "Blunt: Beginner"
-    - "[i]Staffs 2[/i]"
+    - [Staff, 2]
   civilian:
-    - "[i]Arcana 5[/i]"
-    - "[i]Rites 8[/i]"
-    - "[i]History 4[/i]"
+    - [Arcana, 5]
+    - [Rites, 8]
+    - [History, 4]
 perks:
   special:
     - Dark Heritage

@@ -75,14 +75,14 @@ actions:
 proficiencies:
   magic:
     - "Druid: Intermediate"
-    - "[i]Flora 5[/i]"
-    - "[i]Fauna 2[/i]"
+    - [Flora, 5]
+    - [Fauna, 2]
   weapons:
     - "Blunt: Beginner"
-    - "[i]Staffs 4[/i]"
+    - [Staff, 4]
   civilian:
-    - "[i]Botany 4[/i]"
-    - "[i]Zoology 2[/i]"
+    - [Botany, 4]
+    - [Zoology, 2]
 perks:
   special:
     - [Bloodline, "[section:clr-attr]WIL[/section]"]

@@ -70,12 +70,12 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Beginner"
-    - "[i]Axes 2[/i]"
+    - [Axe, 2]
     - "Natural: Beginner"
-    - "[i]Primitive 1[/i]"
+    - [Primitive, 1]
   civilian:
-    - "[i]Athletics 3[/i]"
-    - "[i]Survival 1[/i]"
+    - [Athletics, 3]
+    - [Survival, 1]
 perks:
   special:
     - Efficient Metabolism

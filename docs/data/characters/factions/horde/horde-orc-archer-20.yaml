@@ -78,13 +78,13 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Bows 7[/i]"
+    - [Bow, 7]
     - "Slashing: Intermediate"
-    - "[i]Swords 4[/i]"
+    - [Sword, 4]
   civilian:
-    - "[i]Hunting 3[/i]"
-    - "[i]Riding 3[/i]"
-    - "[i]Survival 1[/i]"
+    - [Hunting, 3]
+    - [Riding, 3]
+    - [Survival, 1]
 perks:
   special:
     - Indomitable

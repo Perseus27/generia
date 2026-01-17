@@ -89,18 +89,18 @@ actions:
 proficiencies:
   magic:
     - "Nox: Beginner"
-    - "[i]Night 2[/i]"
+    - [Night, 2]
   weapons:
     - "Ranged: Beginner"
-    - "[i]Bows 5[/i]"
+    - [Bow, 5]
     - "Stabbing: Beginner"
-    - "[i]Swords 3[/i]"
+    - [Sword, 3]
   civilian:
-    - "[i]Hunting 2[/i]"
-    - "[i]Rites 1[/i]"
-    - "[i]Stealth 2[/i]"
-    - "[i]Stealing 2[/i]"
-    - "[i]Survival 1[/i]"
+    - [Hunting, 2]
+    - [Rites, 1]
+    - [Stealth, 2]
+    - [Stealing, 2]
+    - [Survival, 1]
 perks:
   special:
     - Dark Heritage

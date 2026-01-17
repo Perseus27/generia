@@ -74,16 +74,16 @@ actions:
 proficiencies:
   magic:
     - "Hermetics: Intermediate"
-    - "[i]Arcane 5[/i]"
-    - "[i]Light 2[/i]"
+    - [Arcane, 5]
+    - [Light, 2]
     - "Kinetics: Beginner"
-    - "[i]Water 5[/i]"
+    - [Water, 5]
   weapons:
     - ""
   civilian:
-    - "[i]Arcana 4[/i]"
-    - "[i]Arithmetics 2[/i]"
-    - "[i]History 2[/i]"
+    - [Arcana, 4]
+    - [Arithmetics, 2]
+    - [History, 2]
 perks:
   special:
     - Arcane Flow

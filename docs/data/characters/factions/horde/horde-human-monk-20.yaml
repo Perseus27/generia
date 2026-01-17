@@ -79,16 +79,16 @@ actions:
 proficiencies:
   magic:
     - "Shaman: Beginner"
-    - "[i]Binding 5[/i]"
+    - [Binding, 5]
   weapons:
     - "Natural: Intermediate"
-    - "[i]Primitive 5[/i]"
+    - [Primitive, 5]
     - "Blunt: Beginner"
-    - "[i]Staffs 3[/i]"
+    - [Staff, 3]
   civilian:
-    - "[i]Athletics 3[/i]"
-    - "[i]Rites 3[/i]"
-    - "[i]Survival 1[/i]"
+    - [Athletics, 3]
+    - [Rites, 3]
+    - [Survival, 1]
 perks:
   special:
     - Efficient Metabolism
