@@ -112,3 +112,11 @@
 	text-align: center;
 	color:red;
 }
+
+
+.prof-main {
+	font-weight: bold;
+}
+.prof-sub {
+	font-style: italic;
+}
