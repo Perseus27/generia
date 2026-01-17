@@ -85,7 +85,7 @@ utility:
     cost:
       - "[section:clr-encost]2 EN[/section]"
     type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC+[/section] [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
     description: >
       Charges the target in a straight line to knock it [url:status#Prone]prone[/url].
       [br][b]SAVED:[/b] Target becomes [url:status#OffBalance]off-balance[/url].
@@ -105,7 +105,7 @@ utility:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "[section:clr-dc]DC[/section] [section:clr-value]Proficiency[/section] vs [section:clr-value]Proficiency[/section]"
+      - "[section:clr-dc]DC+[/section] [section:clr-value]Proficiency[/section] vs [section:clr-value]Proficiency[/section]"
     description: >
       Knocks an equipped weapon out of the target's hand. It falls on the ground and remains there until it is picked up with an attack or utility action.
       [br][b]SAVED:[/b] Target gains [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] instead.
@@ -117,7 +117,7 @@ utility:
     cost:
       - "[section:clr-encost]2 EN[/section]"
     type:
-      - "[section:clr-dc]DC[/section] [section:clr-value]Proficiency[/section] vs [section:clr-attr]INT[/section]"
+      - "[section:clr-dc]DC+[/section] [section:clr-value]Proficiency[/section] vs [section:clr-attr]INT[/section]"
     description: >
       Confuses opponents in a [section:clr-value]2m[/section] radius with erratic movements, causing [url:status#Confused]confused[/url].
       [br][b]SAVED:[/b] Targets gain [url:status#AttackPenalty]attack penalty[/url] [[section:clr-value]proficiency[/section]] instead.
@@ -227,6 +227,6 @@ reaction:
     cost:
       - "[section:clr-encost]2 EN[/section]"
     type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC+[/section] [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
     description: >
       Crashes shoulder-first into the target immediately after a [url:def#Hit]hit[/url] with a melee weapon, causing [url:status#Knockback]Knockback[/url] [[section:clr-attr]STR-MOD[/section]] if it fails the check.
