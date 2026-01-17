@@ -5,7 +5,7 @@
 [h4]Factions[/h4]
 [url:/generia/stats/characters/factions/bandits]Bandits[/url]
 [br][url:/generia/stats/characters/factions/bloody-hand]Bloody Hand[/url]
-[br][url:/generia/stats/characters/factions/guard/guard]Guard[/url]
+[br][url:/generia/stats/characters/factions/guard]Guard[/url]
 [br][url:/generia/stats/characters/factions/horde]Horde[/url]
 [br][url:/generia/stats/characters/factions/nergadai]Nergadai[/url]
 [h4]Templates[/h4]
