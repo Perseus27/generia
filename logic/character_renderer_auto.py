@@ -131,7 +131,8 @@ class Character_Renderer_Auto:
             shield_bonus += qvalue
         result = int(self.mods.get("CON")) + int(self.mods.get("STR")) + shield_bonus
         if wtype == "Primitive":
-            return int(result/2)
+            if not weapon.get("block", False):
+                return int(result/2)
         return result
 
     def format_spells(self):
@@ -175,6 +176,10 @@ class Character_Renderer_Auto:
         else:
             mod_val = int(self.mods.get(atype[1])) + int(self.mods.get(atype[2]))
         if atype[0] in ["DC", "DC+"]:
-            return f"[section:clr-dc]{10+mod_val+prof}[/section]"
+            if atype[0] == "DC":
+                plus = ""
+            else:
+                plus = "+"
+            return f"[section:clr-dc]{10+mod_val+prof}{plus}[/section]"
         else:
             return f"[section:clr-{atype[0].lower()}]+{mod_val+prof}[/section]"
