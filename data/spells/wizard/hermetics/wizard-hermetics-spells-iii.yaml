@@ -58,6 +58,7 @@ offensive:
 defensive:
   - name: "Arcane Barrier III"
     id: "arcane-barrier-iii"
+    auto_type: [SD, INT, PER]
     tags: ["TIER III", "Arcane", "Reaction", "UPCAST 5"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -82,6 +83,7 @@ defensive:
 
   - name: "Return to Sender"
     id: "return-to-sender"
+    auto_type: [SD, INT, PER]
     tags: ["TIER III", "Arcane", "Reaction"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"

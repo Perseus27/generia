@@ -35,6 +35,7 @@ offensive:
 defensive:
   - name: "Kinetic Barrier I"
     id: "kinetic-barrier-i"
+    auto_type: [SD, INT, PER]
     tags: ["TIER I", "Stone / Water", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
