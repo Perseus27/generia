@@ -35,15 +35,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Rapier+1"
-      damage: "2d6+2"
-      hit: "Hit+10, Block+9|5"
+    - name: "Rapier"
+      q: 1
     - name: "Short Sling"
-      damage: "1d6"
-      hit: "Hit+4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+5|5"
   armor:
     - name: "Padded Helmet"
     - name: "Padded Armor+2"
@@ -69,7 +64,7 @@ actions:
     - Melody of Magic
     - Stanza of Healing
     - Verse of Rebellion
-  rituals: 
+  rituals:
     - Improvisation
 proficiencies:
   magic:
@@ -88,10 +83,8 @@ perks:
   special:
     - [Bloodline, "[section:clr-attr]DEX[/section]"]
     - [Tradition, "[i]Athletics[/i]"]
-  
   combat:
     - ""
-  
   magic:
     - Astral Body I
     - Battle Meditation

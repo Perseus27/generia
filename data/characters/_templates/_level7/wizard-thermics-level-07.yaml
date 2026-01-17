@@ -39,8 +39,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+1, Block+2|2"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+1, Block+2|2"
   armor:
     - name: "Cloth Armor"
     - name: "Adventurer's Belt"
@@ -58,7 +56,7 @@ actions:
     - "Thermal Bolt I"
     - "Sparkstream I"
     - "Arcane Barrier I"
-  rituals: 
+  rituals:
     - "Hermetic Manipulation"
     - "Thermic Manipulation"
 proficiencies:
@@ -77,9 +75,8 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Battle Meditation

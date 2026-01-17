@@ -39,8 +39,6 @@ inventory:
       damage: "2d8+2"
       hit: "Hit+1, Block+4|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+1, Block+4|4"
   armor:
     - name: "Thick Clothing"
     - name: "Cloth Gauntlets"
@@ -61,7 +59,7 @@ actions:
     - "Lesser Elemental Favor"
     - "Lesser Flame of Defiance"
     - "Lesser Wave of Healing"
-  rituals: 
+  rituals:
     - "Elemental Manipulation"
 proficiencies:
   magic:
@@ -75,9 +73,8 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Battle Meditation

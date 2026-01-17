@@ -10,7 +10,7 @@ notes: >
   135 SP Base
   [br]+40 Bonus
   [br]Rest 0
- 
+
 attributes:
   CON: [7, 3]
   STR: [9, 4]
@@ -35,15 +35,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Rapier+2"
-      damage: "2d6+4"
-      hit: "Hit+14, Block+12|7"
+    - name: "Rapier"
+      q: 2
     - name: "Buckler"
-      damage: "1d4+1"
-      hit: "Hit+10, Block+11|7"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+6, Block+7|7"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor+2"
@@ -69,7 +64,7 @@ actions:
     - Disarm
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -87,13 +82,13 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Lone Fighter
     - Dancer
     - Deflector
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

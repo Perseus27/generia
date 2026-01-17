@@ -41,11 +41,7 @@ inventory:
     - name: "20× Arrow, light"
       damage: "1d6"
     - name: "Rapier"
-      damage: "2d6+1"
-      hit: "Hit+10, Block+8|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+4|4"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor+1"
@@ -76,7 +72,7 @@ actions:
     - "Shadow Run"
     - "Blur"
     - "Noxian Bargain"
-  rituals: 
+  rituals:
     - "Prayer to Nox"
 proficiencies:
   magic:
@@ -97,12 +93,12 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - On the Prowl
     - Forerunner
     - Opportunist
-  
+
   magic:
     - Withering Shadows
     - Focus I

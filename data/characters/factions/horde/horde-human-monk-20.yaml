@@ -35,18 +35,13 @@ armor:
   er: 4
 inventory:
   weapons:
-    - name: "Brass Knuckles+1"
-      damage: "1d8+7"
-      hit: "Hit+10, Block+12|7"
+    - name: "Brass Knuckles"
+      q: 1
     - name: "Battlestaff+1"
       damage: "2d8+5"
       hit: "Hit+8, Block+10|7"
     - name: "Fist"
-      damage: "1d6+4"
-      hit: "Hit+10, Block+12|3"
     - name: "Foot"
-      damage: "1d6+6"
-      hit: "Hit+7, Block+12|3"
   armor:
     - name: "Padded Helmet+1"
     - name: "Padded Armor+2"
@@ -74,7 +69,7 @@ actions:
     - "Lesser Elemental Favor"
     - "Lesser Wave of Healing"
     - "Lesser Elemental Guidance"
-  rituals: 
+  rituals:
     - Elemental Manipulation
 proficiencies:
   magic:
@@ -93,13 +88,13 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Deflector
     - Dodge Tank
     - Opportunist
     - Pugilist
-  
+
   magic:
     - Spiritual Resilience
     - Astral Body I

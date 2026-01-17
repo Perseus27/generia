@@ -35,15 +35,11 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Battleaxe +2"
-      damage: "2d8+7"
-      hit: "Hit+10, Block+15|9"
-    - name: "Brass Knuckles +1"
-      damage: "1d8+8"
-      hit: "Hit+7, Block+12|9"
+    - name: "Battleaxe"
+      q: 2
+    - name: "Brass Knuckles"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+9|9"
   armor:
     - name: "Chain Helmet"
     - name: "Chainmail+1"
@@ -65,7 +61,7 @@ actions:
     - Feint
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -82,7 +78,7 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Bloodlust
     - Blood Avenger
@@ -92,6 +88,6 @@ perks:
     - Opportunist
     - Pugilist
     - Sprinter
-  
+
   magic:
     - ""

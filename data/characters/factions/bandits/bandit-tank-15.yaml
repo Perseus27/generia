@@ -36,14 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Bastard Sword"
-      damage: "2d6+4|6"
-      hit: "Hit+9, Block+13|8"
     - name: "Roundshield"
-      damage: "1d6+6"
-      hit: "Hit+6, Block+12|10"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+8|8"
   armor:
     - name: "Scale Helmet-1"
     - name: "Scale Armor-1"
@@ -69,7 +63,7 @@ actions:
     - Steady Block
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -87,13 +81,13 @@ perks:
   special:
     - Indomitable
     - Pursuit Hunter
-  
+
   combat:
     - Edge Alignment
     - Armor Familiarity I
     - Conditioned I
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

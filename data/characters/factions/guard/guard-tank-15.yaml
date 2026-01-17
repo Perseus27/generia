@@ -36,15 +36,11 @@ armor:
   er: 2
 inventory:
   weapons:
-    - name: "Bastard Sword+2"
-      damage: "2d6+6|8"
-      hit: "Hit+9, Block+13|8"
-    - name: "Roundshield+2"
-      damage: "1d6+8"
-      hit: "Hit+4, Block+12|12"
+    - name: "Bastard Sword"
+      q: 2
+    - name: "Roundshield"
+      q: 2
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+8|8"
   armor:
     - name: "Scale Helmet+1"
     - name: "Scale Armor+2"
@@ -70,7 +66,7 @@ actions:
     - Steady Block
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -88,7 +84,7 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Edge Alignment
     - Armor Familiarity I
@@ -96,6 +92,6 @@ perks:
     - Forerunner
     - Opportunist
     - Shield Wall
-  
+
   magic:
     - ""

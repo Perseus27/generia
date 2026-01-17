@@ -35,18 +35,13 @@ armor:
   er: 3
 inventory:
   weapons:
-    - name: "Long Sling+1"
-      damage: "1d6+1"
-      hit: "Hit+11"
+    - name: "Long Sling"
       range: "-1/0/0, 20m"
+      q: 1
     - name: "20× Arrow, light"
       damage: "1d6"
     - name: "Rapier"
-      damage: "2d6+2"
-      hit: "Hit+9, Block+9|7"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+5, Block+7|7"
   armor:
     - name: "Leather Armor"
     - name: "Leather Gauntlets"
@@ -74,7 +69,7 @@ actions:
     - Counter
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -91,11 +86,11 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - On the Prowl
     - David
     - Forerunner
-  
+
   magic:
     - Focus I

@@ -35,15 +35,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Spear+2"
-      damage: "2d6+5|7"
-      hit: "Hit+11, Block+16|10"
+    - name: "Spear"
+      q: 2
     - name: "Roundshield"
-      damage: "1d6+8"
-      hit: "Hit+2, Block+12|12"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+5, Block+10|10"
   armor:
     - name: "Chain Helmet"
     - name: "Chainmail+1"
@@ -71,7 +66,7 @@ actions:
     - Shove
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -89,7 +84,6 @@ perks:
   special:
     - [Bloodline, "[section:clr-attr]DEX[/section]"]
     - [Tradition, "[i]Athletics[/i]"]
-  
   combat:
     - Edge Alignment
     - Goliath
@@ -97,6 +91,6 @@ perks:
     - Forerunner
     - Opportunist
     - Sprinter
-  
+
   magic:
     - ""

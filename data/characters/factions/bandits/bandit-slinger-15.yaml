@@ -36,17 +36,11 @@ armor:
 inventory:
   weapons:
     - name: "Long Sling"
-      damage: "1d6"
-      hit: "Hit+9"
       range: "-2/0/0, 20m"
     - name: "4× Stone+3, heavy"
       damage: "1d6+3"
     - name: "Rapier"
-      damage: "2d6+1"
-      hit: "Hit+8, Block+7|5"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+5|5"
   armor:
     - name: "Padded Armor"
     - name: "Cloth Gauntlets"
@@ -70,7 +64,7 @@ actions:
     - Counter
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -87,11 +81,11 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - On the Prowl
     - David
     - Forerunner
-  
+
   magic:
     - Focus I

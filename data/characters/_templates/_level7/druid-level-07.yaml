@@ -36,11 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Shillelagh"
-      damage: "2d8+2"
-      hit: "Hit+0, Block+4|4"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+1, Block+4|4"
   armor:
     - name: "Padded Armor"
     - name: "Cloth Gauntlets"
@@ -60,7 +56,7 @@ actions:
     - "Grasping Vines"
     - "Theriomorph: Aspect"
     - "Wildgrowth"
-  rituals: 
+  rituals:
     - "Rooting"
     - "Anchor/Release Beast Soul"
 proficiencies:
@@ -77,9 +73,8 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Battle Meditation

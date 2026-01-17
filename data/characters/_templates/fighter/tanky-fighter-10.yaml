@@ -36,14 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Broadsword"
-      damage: "2d6+3"
-      hit: "Hit+7, Block+10|6"
     - name: "Roundshield"
-      damage: "1d6+6"
-      hit: "Hit+3, Block+9|8"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+6|6"
   armor:
     - name: "Leather Helmet"
     - name: "Chainmail"
@@ -64,7 +58,7 @@ actions:
     - Steady Block
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -82,11 +76,11 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Conditioned I
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

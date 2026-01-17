@@ -39,8 +39,6 @@ inventory:
       damage: "2d8"
       hit: "Hit+2, Block+3|3"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+3|3"
   armor:
     - name: "Wizard Hat"
     - name: "Padded Armor"
@@ -63,7 +61,7 @@ actions:
     - Ice Shrapnel
     - Sparkstream I
     - Arcane Barrier I
-  rituals: 
+  rituals:
     - Hermetic Manipulation
     - Thermic Manipulation
 proficiencies:
@@ -83,10 +81,9 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - ""
-  
   magic:
     - Practiced Thermician
     - Astral Body I

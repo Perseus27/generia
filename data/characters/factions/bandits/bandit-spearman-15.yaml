@@ -36,11 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Spear"
-      damage: "2d6+4|6"
-      hit: "Hit+9, Block+13|8"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+8|8"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor"
@@ -65,7 +61,7 @@ actions:
     - Disarm
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -82,12 +78,12 @@ perks:
   special:
     - Indomitable
     - Pursuit Hunter
-  
+
   combat:
     - Spearhead
     - Conditioned I
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

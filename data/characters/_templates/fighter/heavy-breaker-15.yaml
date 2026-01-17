@@ -35,15 +35,11 @@ armor:
   er: 2
 inventory:
   weapons:
-    - name: "Knobbed Mace+1"
-      damage: "2d6+7"
-      hit: "Hit+7, Block+13|8"
-    - name: "Roundshield+1"
-      damage: "1d6+8"
-      hit: "Hit+4, Block+12|11"
+    - name: "Knobbed Mace"
+      q: 1
+    - name: "Roundshield"
+      q: 1
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+8|8"
   armor:
     - name: "Scale Helmet"
     - name: "Scale Armor"
@@ -68,7 +64,7 @@ actions:
     - Steady Block
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -86,13 +82,13 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Sheer Force
     - Armor Familiarity I
     - Conditioned I
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

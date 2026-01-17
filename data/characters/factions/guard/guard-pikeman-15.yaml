@@ -36,15 +36,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Pike+2"
-      damage: "2d8+6"
-      hit: "Hit+9, Block+13|8"
+    - name: "Pike"
+      q: 2
     - name: "Roundshield"
-      damage: "1d6+8"
-      hit: "Hit+0, Block+8|10"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+4, Block+8|8"
   armor:
     - name: "Chain Helmet+1"
     - name: "Chainmail+2"
@@ -70,7 +65,7 @@ actions:
     - Disarm
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -87,13 +82,13 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-  
+
   combat:
     - Spearhead
     - Conditioned I
     - Deflector
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

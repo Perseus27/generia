@@ -35,15 +35,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Saber+2"
-      damage: "2d6+4"
-      hit: "Hit+15, Block+12|7"
+    - name: "Saber"
+      q: 2
     - name: "Buckler"
-      damage: "1d4+1"
-      hit: "Hit+11, Block+11|7"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+7, Block+6|6"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor+2"
@@ -69,7 +64,7 @@ actions:
     - Disarm
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -87,13 +82,12 @@ perks:
   special:
     - [Bloodline, "[section:clr-attr]DEX[/section]"]
     - [Tradition, "[i]Stealth[/i]"]
-  
   combat:
     - Lone Fighter
     - Dancer
     - Deflector
     - Forerunner
     - Opportunist
-  
+
   magic:
     - ""

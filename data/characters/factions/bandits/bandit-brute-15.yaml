@@ -39,11 +39,7 @@ inventory:
       damage: "2d8+6"
       hit: "Hit+6, Block+12|7"
     - name: "Brass Knuckles"
-      damage: "1d8+6"
-      hit: "Hit+5, Block+9|7"
     - name: "Knife"
-      damage: "2d6"
-      hit: "Hit+2, Block+7|7"
   armor:
     - name: "Leather Helmet"
     - name: "Leather Armor"
@@ -64,7 +60,7 @@ actions:
     - Feint
   spells:
     - ""
-  rituals: 
+  rituals:
     - ""
 proficiencies:
   magic:
@@ -81,7 +77,7 @@ perks:
   special:
     - Pursuit Hunter
     - Stalwart
-  
+
   combat:
     - Bloodlust
     - Blood Avenger
@@ -90,6 +86,6 @@ perks:
     - Opportunist
     - Pugilist
     - Sprinter
-  
+
   magic:
     - ""
