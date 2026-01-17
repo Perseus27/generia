@@ -15,7 +15,7 @@ headers:
 items:
 - name: Flail
   type: Club
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -29,7 +29,7 @@ items:
 
 - name: Spiked Mace
   type: Club
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -42,7 +42,7 @@ items:
 
 - name: Dwarven Hammer
   type: Hammer
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -57,7 +57,7 @@ items:
 
 - name: Raven's Beak
   type: Hammer
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Pierce
   hr: 1.0
   dr: 1.0
@@ -71,7 +71,7 @@ items:
 
 - name: Bo Staff
   type: Staff
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: Push
   hr: 1.5
   dr: 0.5
@@ -84,7 +84,7 @@ items:
 
 - name: Nunchaku
   type: Staff
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Force
   hr: 1.0
   dr: 1.0
@@ -98,7 +98,7 @@ items:
 
 - name: Shillelagh
   type: Staff
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -113,7 +113,7 @@ items:
     
 - name: Wizard's Staff
   type: Staff
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: Push
   hr: 1.0
   dr: 0.5

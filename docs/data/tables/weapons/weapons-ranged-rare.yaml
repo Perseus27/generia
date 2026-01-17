@@ -16,7 +16,7 @@ headers:
 items:
 - name: Dwarvish Bow
   type: Bow
-  damage: 1d6 Arrow
+  damage: [1d6, Arrow]
   skill: Pierce
   hr: 0.5
   dr: 1.5
@@ -29,7 +29,7 @@ items:
 
 - name: Elvish Bow
   type: Bow
-  damage: 1d8 Arrow
+  damage: [1d8, Arrow]
   skill: Kite
   hr: 1.0
   dr: 1.0
@@ -45,7 +45,7 @@ items:
 
 - name: Orkish Warbow
   type: Bow
-  damage: 1d8 Arrow
+  damage: [1d8, Arrow]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -59,7 +59,7 @@ items:
 
 - name: Yumi
   type: Bow
-  damage: 1d8 Arrow
+  damage: [1d8, Arrow]
   skill: Force
   hr: 1.0
   dr: 1.0
@@ -75,7 +75,7 @@ items:
     
 - name: Staff Sling
   type: Sling
-  damage: 1d8 Blunt
+  damage: [1d8, Blunt]
   skill: Force
   hr: 1.0
   dr: 0.0
