@@ -12,6 +12,7 @@ exclusive:
 
   - name: "Nullify"
     id: "nullify"
+    auto_type: [DC+, INT]
     tags: ["TIER X", "Magister", "Utility", "SP Cost: 20"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]INT[/section] vs [section:clr-dc]DC[/section]"

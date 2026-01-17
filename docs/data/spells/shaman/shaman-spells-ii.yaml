@@ -18,6 +18,7 @@ offensive:
 
   - name: "Elemental Rage"
     id: "elemental-rage"
+    auto_type: [SA, WIL]
     tags: ["TIER II", "Summoning", "Offensive", "Range: 16m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -58,6 +59,7 @@ defensive:
 utility:
   - name: "Cleansing Flame"
     id: "cleansing-flame"
+    auto_type: [DC+, WIL]
     tags: ["TIER II", "Binding (Fire)", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section] Status Effects"

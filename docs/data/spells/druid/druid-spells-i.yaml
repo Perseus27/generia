@@ -6,6 +6,7 @@ prefix: "druidS"
 offensive:
   - name: "Thorn Whip"
     id: "thorn-whip"
+    auto_type: [PA, WIL]
     tags: ["TIER I", "Flora", "Offensive", "Range: 4m", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
@@ -47,6 +48,7 @@ utility:
 
   - name: "Grasping Tendrils"
     id: "grasping-tendrils"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Flora", "Utility", "Range: 16m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -89,6 +91,7 @@ utility:
 
   - name: "Root Grip"
     id: "root-grip"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Flora", "Utility", "Range: 8m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"

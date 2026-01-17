@@ -50,6 +50,7 @@ exclusive:
 
   - name: "Impulse"
     id: "impulse"
+    auto_type: [DC, WIL]
     tags: ["TIER X", "Templar", "Sol", "Utility", "SP Cost: 20"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"

@@ -6,6 +6,7 @@ prefix: "kinetics"
 offensive:
   - name: "Geyser Field"
     id: "geyser-field"
+    auto_type: [DC, INT]
     tags: ["TIER III", "Fire / Water", "Offensive", "Range: 20m", "Radius: 6m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -22,6 +23,7 @@ offensive:
 
   - name: "Kinetic Bolt III"
     id: "kinetic-bolt-iii"
+    auto_type: [PA, INT]
     tags: ["TIER III", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -34,6 +36,7 @@ offensive:
 
   - name: "Stone Spears"
     id: "stone-spears"
+    auto_type: [SA, INT]
     tags: ["TIER III", "Stone", "Offensive", "Range: 20m", "Radius: 2m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -79,6 +82,7 @@ defensive:
 utility:
   - name: "Spiked Pit"
     id: "spiked-pit"
+    auto_type: [DC, INT]
     tags: ["TIER III", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"

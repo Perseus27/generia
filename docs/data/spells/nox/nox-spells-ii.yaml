@@ -92,6 +92,7 @@ utility:
 
   - name: "Form of Dread"
     id: "form-of-dread"
+    auto_type: [DC, PER]
     tags: ["TIER II", "Nox", "Utility", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]INT[/section]"

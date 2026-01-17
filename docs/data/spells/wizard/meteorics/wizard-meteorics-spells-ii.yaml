@@ -6,6 +6,7 @@ prefix: "meteorics"
 offensive:
   - name: "Lightning Blast I"
     id: "lightning-blast-i"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -23,6 +24,7 @@ offensive:
 
   - name: "Meteoric Bolt II"
     id: "meteoric-bolt-ii"
+    auto_type: [PA, INT]
     tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -35,6 +37,7 @@ offensive:
 
   - name: "Thunderbolt I"
     id: "thunderbolt-i"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -51,6 +54,7 @@ offensive:
 
   - name: "Zap II"
     id: "zap-ii"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Lightning", "Offensive", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -84,6 +88,7 @@ defensive:
 
   - name: "Static Mantle"
     id: "static-mantle"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Lightning", "Defensive", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -101,6 +106,7 @@ defensive:
 utility:
   - name: "Ball Lightning"
     id: "ball-lightning"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Lightning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -142,6 +148,7 @@ utility:
 
   - name: "Gust"
     id: "gust"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Air", "Utility", "Radius: 4m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"

@@ -6,6 +6,7 @@ prefix: "hermetics"
 offensive:
   - name: "Mana Beam II"
     id: "mana-beam-ii"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -25,6 +26,7 @@ offensive:
 
   - name: "Mana Bolt II"
     id: "mana-bolt-ii"
+    auto_type: [PA, INT]
     tags: ["TIER II", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -158,6 +160,7 @@ utility:
 
   - name: "Illusory Double"
     id: "illusory-double"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Light", "Utility", "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]"

@@ -6,6 +6,7 @@ prefix: "thermics"
 offensive:
   - name: "Thermal Beam I"
     id: "thermal-beam-i"
+    auto_type: [SA, INT]
     tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 5"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -25,6 +26,7 @@ offensive:
 
   - name: "Ice Shrapnel"
     id: "ice-shrapnel"
+    auto_type: [SA, INT]
     tags: ["TIER I", "Ice", "Offensive", "Range: 6m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -41,6 +43,7 @@ offensive:
 
   - name: "Thermal Bolt I"
     id: "thermal-bolt-i"
+    auto_type: [PA, INT]
     tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -70,6 +73,7 @@ defensive:
 utility:
   - name: "Frost Breath"
     id: "frost-breath"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Ice", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -84,6 +88,7 @@ utility:
 
   - name: "Sparkstream I"
     id: "sparkstream-i"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
