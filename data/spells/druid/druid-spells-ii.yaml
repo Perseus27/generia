@@ -6,6 +6,7 @@ prefix: "druidS"
 offensive:
   - name: "Locust Swarm"
     id: "locust-swarm"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Fauna", "Offensive", "Range: 16m", "Radius: 3m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -27,6 +28,7 @@ offensive:
 
   - name: "Stranglevine"
     id: "stranglevine"
+    auto_type: [SA, WIL]
     tags: ["TIER II", "Flora", "Offensive", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -42,6 +44,7 @@ offensive:
 
   - name: "Whirl of Thorns"
     id: "whirl-of-thorns"
+    auto_type: [PA, WIL]
     tags: ["TIER II", "Flora", "Offensive", "Radius: 4m", "[section:clr-exper]EXPERTISE 2/3[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
@@ -88,6 +91,7 @@ defensive:
 utility:
   - name: "Ant Hill"
     id: "ant-hill"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-field]FIELD[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -111,6 +115,7 @@ utility:
 
   - name: "Breaking Vine"
     id: "breaking-vine"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -126,6 +131,7 @@ utility:
 
   - name: "Crawling Infestation"
     id: "crawling-infestation"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -161,6 +167,7 @@ utility:
 
   - name: "Field of Thorns"
     id: "field-of-thorns"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -177,6 +184,7 @@ utility:
 
   - name: "Panic"
     id: "panic"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Fauna", "Utility", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -191,6 +199,7 @@ utility:
 
   - name: "Poison Vine"
     id: "poison-vine"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -230,6 +239,7 @@ utility:
 
   - name: "Root Field"
     id: "root-field"
+    auto_type: [DC, WIL]
     tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"

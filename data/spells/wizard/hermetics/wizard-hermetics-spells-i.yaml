@@ -6,6 +6,7 @@ prefix: "hermetics"
 offensive:
   - name: "Mana Beam I"
     id: "mana-beam-i"
+    auto_type: [SA, INT]
     tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -25,6 +26,7 @@ offensive:
 
   - name: "Mana Bolt I"
     id: "mana-bolt-i"
+    auto_type: [PA, INT]
     tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -101,6 +103,7 @@ utility:
 
   - name: "Flash of Light"
     id: "flash-of-light"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Light", "Utility", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]PER[/section]"

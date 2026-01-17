@@ -6,6 +6,7 @@ prefix: "temperedS"
 offensive:
   - name: "Crush"
     id: "crush"
+    auto_type: [DC, CON]
     tags: ["TIER II", "Body", "Offensive"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]CON[/section]"
@@ -41,6 +42,7 @@ defensive:
 utility:
   - name: "Command"
     id: "command"
+    auto_type: [DC, CON]
     tags: ["Tier II", "Soul", "Utility"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"
@@ -98,6 +100,7 @@ utility:
 
   - name: "Looming Aura"
     id: "looming-aura"
+    auto_type: [DC, CON]
     tags: ["TIER II", "Soul", "Utility", "Radius: [[section:clr-value]Soul[/section]] m", "[section:clr-ZONE]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"

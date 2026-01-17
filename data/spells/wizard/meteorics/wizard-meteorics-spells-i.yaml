@@ -6,6 +6,7 @@ prefix: "meteorics"
 offensive:
   - name: "Meteoric Bolt I"
     id: "meteoric-bolt-i"
+    auto_type: [PA, INT]
     tags: ["TIER I", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -18,6 +19,7 @@ offensive:
 
   - name: "Shocking Touch"
     id: "shocking-touch"
+    auto_type: [SA, INT]
     tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -35,6 +37,7 @@ offensive:
 
   - name: "Zap I"
     id: "zap-i"
+    auto_type: [SA, INT]
     tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -69,6 +72,7 @@ defensive:
 utility:
   - name: "Air Burst"
     id: "air-burst"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Air", "Utility", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
@@ -97,6 +101,7 @@ utility:
 
   - name: "Discharge"
     id: "discharge"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Lightning", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -123,6 +128,7 @@ utility:
 
   - name: "Neuroshock"
     id: "neuroshock"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Lightning", "Utility", "Range: 20m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]"
