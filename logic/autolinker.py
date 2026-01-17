@@ -10,6 +10,7 @@ class Autolinker:
     SPELL_DIR = DATA_DIR / "spells"
     TAG_DIR = DATA_DIR / "tags"
     ENCH_DIR = DATA_DIR / "enchantments"
+    WEAPON_DIR = DATA_DIR / "tables" / "weapons"
 
     def __init__(self):
         self.class_yamls = [
@@ -35,6 +36,10 @@ class Autolinker:
         self.ench_yamls = [
             yaml.safe_load(path.read_text(encoding="utf-8"))
             for path in sorted(self.ENCH_DIR.rglob("*.yaml"))
+        ]
+        self.weapon_yamls = [
+            yaml.safe_load(path.read_text(encoding="utf-8"))
+            for path in sorted(self.WEAPON_DIR.rglob("*.yaml"))
         ]
 
 
@@ -95,7 +100,13 @@ class Autolinker:
         return False
     
 
-
+    def fetch_weapon_data(self, x):
+        for y in self.weapon_yamls:
+            for w in self.get_all_items_from_file(y):
+                if x == w.get("name"):
+                    return w
+        return False
+    
 
     
     def get_all_perks_from_file(self, f):
@@ -122,4 +133,7 @@ class Autolinker:
     
     def get_all_contents_from_file(self, f):
         return f.get("content", [])
+    
+    def get_all_items_from_file(self, f):
+        return f.get("items", [])
     

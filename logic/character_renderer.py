@@ -2,6 +2,8 @@ from bb_renderer import BB_Renderer
 
 from list_builder import List_Builder
 
+from character_renderer_auto import Character_Renderer_Auto
+
 class Character_Renderer:
     
     ATTRIBUTE_ORDER = ["CON", "STR", "DEX", "INT", "WIL", "PER"]
@@ -15,14 +17,21 @@ class Character_Renderer:
         self.yaml_input = yaml_input
         self.autolinker = autolinker
         self.list_builder = List_Builder(autolinker)
+        self.auto = Character_Renderer_Auto(yaml_input, autolinker)
 
 
     def get_output(self):
         return self.format_to_html()
 
     def format_attributes(self):
-        all_attributes = self.yaml_input.get("attributes", {})
+        all_attributes = self.yaml_input.get("attributes")
         a = [all_attributes.get(x) for x in self.ATTRIBUTE_ORDER]
+        for x in a:
+            if len(x) > 2:
+                if x[2] >= 0:
+                    x[1] = f"[section:clr-bonus]{x[1]+x[2]}[/section]"
+                else:
+                    x[1] = f"[section:clr-malus]{x[1]+x[2]}[/section]"
         attr_bb = f"""
 [table][tr][td][b]CON[/b][/td]
 [td]{a[0][0]} [{a[0][1]}][/td]
@@ -136,7 +145,8 @@ class Character_Renderer:
 
     def format_items(self):
         all_items = self.yaml_input.get("inventory")
-        weapons = self.list_builder.build_list_with_subitems(all_items.get("weapons"))
+        #weapons = self.list_builder.build_list_with_subitems(all_items.get("weapons"))
+        weapons = self.auto.format_weapons()
         armor = self.list_builder.build_list_with_subitems(all_items.get("armor"))
         misc = self.list_builder.build_list_with_subitems(all_items.get("misc"))
         items_formatted = {"weapons" : self.BB_HELPER.process(weapons), "armor" : self.BB_HELPER.process(armor), "misc" : self.BB_HELPER.process(misc)}
@@ -144,9 +154,9 @@ class Character_Renderer:
 
     def format_proficiencies(self):
         all_proficiencies = self.yaml_input.get("proficiencies")
-        magic = self.list_builder.build_list(all_proficiencies.get("magic"))
-        weapons = self.list_builder.build_list(all_proficiencies.get("weapons"))
-        civilian = self.list_builder.build_list(all_proficiencies.get("civilian"))
+        magic = self.list_builder.build_list(all_proficiencies.get("magic"), prof_list=True)
+        weapons = self.list_builder.build_list(all_proficiencies.get("weapons"), prof_list=True)
+        civilian = self.list_builder.build_list(all_proficiencies.get("civilian"), prof_list=True)
         proficiencies_formatted = {"magic" : self.BB_HELPER.process(magic), "weapons" : self.BB_HELPER.process(weapons), "civilian" : self.BB_HELPER.process(civilian)}
         return proficiencies_formatted
     

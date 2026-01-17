@@ -3,7 +3,7 @@ class List_Builder:
         self.autolinker = autolinker
 
 
-    def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False, class_list=False): # br, comma, li, commabr
+    def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False, class_list=False, prof_list=False): # br, comma, li, commabr
         if not isinstance(input_list, list):
             input_list = [input_list]
         result = ""
@@ -62,7 +62,13 @@ class List_Builder:
                     else:
                         result += ctag_open+i+ctag_close
             else:
-                result += ctag_open+i+ctag_close
+                if prof_list:
+                    if list_flag:
+                        result += f"[section:prof-sub]{first_part} {second_part}[/section]"
+                    else:
+                        result += f"[section:prof-main]{i}[/section]"
+                else:
+                    result += ctag_open+i+ctag_close
             if list_type == "ul":
                 result += "[/li]"
         if list_type == "ul":
