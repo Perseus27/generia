@@ -1,5 +1,5 @@
 ---
-title: Bandits 10
+title: Bandits
 ---
 
 <template id="sidebar-extra">
