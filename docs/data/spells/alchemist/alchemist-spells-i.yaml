@@ -6,6 +6,7 @@ prefix: "alchemistS"
 offensive:
   - name: "Flame Throw I"
     id: "flame-throw-i"
+    auto_type: [SA, INT]
     tags: ["TIER I", "Pharmacy", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -24,6 +25,7 @@ offensive:
 
   - name: "Shard Throw I"
     id: "shard-throw-i"
+    auto_type: [SA, INT]
     tags: ["TIER I", "Mechanics", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"

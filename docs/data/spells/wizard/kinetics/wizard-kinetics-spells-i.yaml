@@ -6,6 +6,7 @@ prefix: "kinetics"
 offensive:
   - name: "Kinetic Bolt I"
     id: "kinetic-bolt-i"
+    auto_type: [PA, INT]
     tags: ["TIER I", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -18,6 +19,7 @@ offensive:
 
   - name: "Pebble Shot"
     id: "pebble-shot"
+    auto_type: [PA, INT]
     tags: ["TIER I", "Stone", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -78,6 +80,7 @@ defensive:
 utility:
   - name: "Stone Shackles"
     id: "stone-shackles"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Stone", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -94,6 +97,7 @@ utility:
 
   - name: "Water Jet I"
     id: "water-jet-i"
+    auto_type: [DC, INT]
     tags: ["TIER I", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"

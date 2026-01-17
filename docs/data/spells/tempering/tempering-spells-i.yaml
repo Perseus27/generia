@@ -83,6 +83,7 @@ utility:
 
   - name: "Killing Intent"
     id: "killing-intent"
+    auto_type: [DC, CON]
     tags: ["TIER I", "Soul", "Utility", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"
@@ -100,6 +101,7 @@ utility:
 
   - name: "Looming Presence"
     id: "looming-presence"
+    auto_type: [DC, CON]
     tags: ["TIER I", "Soul", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"
@@ -116,6 +118,7 @@ utility:
 
   - name: "Stomp"
     id: "stomp"
+    auto_type: [DC, CON]
     tags: ["TIER I", "Soul", "Utility", "Radius: 1/2/3m", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "[section:clr-combo]COMBO[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]DEX[/section]"
@@ -134,6 +137,7 @@ utility:
 
   - name: "Toxin Purge"
     id: "toxin-purge"
+    auto_type: [DC+, CON]
     tags: ["TIER I", "Body", "Utility"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]CON[/section] vs [section:clr-dc]DC[/section]"

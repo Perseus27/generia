@@ -82,6 +82,7 @@ utility:
 
   - name: "Terror"
     id: "terror"
+    auto_type: [DC, PER]
     tags: ["TIER I", "Nox", "Utility", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]INT[/section]"

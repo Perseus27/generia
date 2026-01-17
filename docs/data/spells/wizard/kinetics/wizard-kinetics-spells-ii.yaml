@@ -6,6 +6,7 @@ prefix: "kinetics"
 offensive:
   - name: "Kinetic Bolt II"
     id: "kinetic-bolt-ii"
+    auto_type: [PA, INT]
     tags: ["TIER II", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -18,6 +19,7 @@ offensive:
 
   - name: "Satellites"
     id: "satellites"
+    auto_type: [PA, INT]
     tags: ["TIER II", "Stone", "Offensive", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -32,6 +34,7 @@ offensive:
 
   - name: "Stone Hail"
     id: "stone-hail"
+    auto_type: [PA, INT]
     tags: ["TIER II", "Stone", "Offensive", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -88,6 +91,7 @@ defensive:
 utility:
   - name: "Earthquake"
     id: "earthquake"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -117,6 +121,7 @@ utility:
 
   - name: "Lower/Raise"
     id: "lower-raise"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Stone", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -131,6 +136,7 @@ utility:
 
   - name: "Quagmire"
     id: "quagmire"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Stone / Water", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -146,6 +152,7 @@ utility:
 
   - name: "Sinkhole"
     id: "sinkhole"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -160,6 +167,7 @@ utility:
 
   - name: "Water Jet II"
     id: "water-jet-ii"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"

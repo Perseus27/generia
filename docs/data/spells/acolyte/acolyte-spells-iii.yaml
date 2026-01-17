@@ -6,6 +6,7 @@ prefix: "acolyteS"
 offensive:
   - name: "Purge"
     id: "purge"
+    auto_type: [SA, WIL]
     tags: ["TIER III", "Sol", "Offensive", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -42,6 +43,7 @@ defensive:
 utility:
   - name: "Expunge"
     id: "expunge"
+    auto_type: [DC+, WIL]
     tags: ["TIER III", "Sol", "Utility", "Range: 20m"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
@@ -55,6 +57,7 @@ utility:
 
   - name: "Lunacy"
     id: "lunacy"
+    auto_type: [DC, WIL]
     tags: ["TIER III", "Luna", "Utility", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"

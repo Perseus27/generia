@@ -6,6 +6,7 @@ prefix: "thermics"
 offensive:
   - name: "Fireball I"
     id: "fireball-i"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Fire", "Offensive", "Range: 20m", "Radius: 2m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -25,6 +26,7 @@ offensive:
 
   - name: "Frost Lance I"
     id: "frost-lance-i"
+    auto_type: [PA, INT]
     tags: ["TIER II", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -38,6 +40,7 @@ offensive:
 
   - name: "Thermal Beam II"
     id: "thermal-beam-ii"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 5"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -57,6 +60,7 @@ offensive:
 
   - name: "Thermal Bolt II"
     id: "thermal-bolt-ii"
+    auto_type: [PA, INT]
     tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -71,6 +75,7 @@ offensive:
 defensive:
   - name: "Flame Mantle"
     id: "flame-mantle"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Fire", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -87,6 +92,7 @@ defensive:
 
   - name: "Frost Mantle"
     id: "frost-mantle"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Ice", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -118,6 +124,7 @@ defensive:
 utility:
   - name: "Sparkstream II"
     id: "sparkstream-ii"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -134,6 +141,7 @@ utility:
 
   - name: "Wall of Fire"
     id: "wall-of-fire"
+    auto_type: [DC, INT]
     tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"

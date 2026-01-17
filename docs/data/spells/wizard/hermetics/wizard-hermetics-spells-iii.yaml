@@ -6,6 +6,7 @@ prefix: "hermetics"
 offensive:
   - name: "Arcane Nova"
     id: "arcane-nova"
+    auto_type: [SA, INT]
     tags: ["TIER III", "Arcane", "Offensive", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -22,6 +23,7 @@ offensive:
 
   - name: "Mana Beam III"
     id: "mana-beam-iii"
+    auto_type: [SA, INT]
     tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -41,6 +43,7 @@ offensive:
 
   - name: "Mana Bolt III"
     id: "mana-bolt-iii"
+    auto_type: [PA, INT]
     tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -93,6 +96,7 @@ defensive:
 utility:
   - name: "Displace"
     id: "displace"
+    auto_type: [DC, INT]
     tags: ["TIER III", "Arcane", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"

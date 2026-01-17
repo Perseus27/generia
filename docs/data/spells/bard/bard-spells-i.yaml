@@ -6,6 +6,7 @@ prefix: "bardS"
 offensive:
   - name: "Verse of Folly"
     id: "verse-of-folly"
+    auto_type: [SA, WIL]
     tags: ["TIER I", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]INT[/section]"
@@ -19,6 +20,7 @@ offensive:
 
   - name: "Verse of Innocence"
     id: "verse-of-innocence"
+    auto_type: [SA, WIL]
     tags: ["TIER I", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -34,6 +36,7 @@ offensive:
 defensive:
   - name: "Verse of Love"
     id: "verse-of-love"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Cacophony", "Defensive", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -47,6 +50,7 @@ defensive:
 
   - name: "Verse of Steadiness"
     id: "verse-of-steadiness"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Defensive", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -60,6 +64,7 @@ defensive:
 
   - name: "Melody of Tyranny"
     id: "melody-of-tyranny"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Cacophony", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "Da Capo", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -75,6 +80,7 @@ defensive:
 utility:
   - name: "Verse of Boldness"
     id: "verse-of-boldness"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -88,6 +94,7 @@ utility:
 
   - name: "Verse of Carelessness"
     id: "verse-of-carelessness"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -101,6 +108,7 @@ utility:
 
   - name: "Verse of Cowardice"
     id: "verse-of-cowardice"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -114,6 +122,7 @@ utility:
 
   - name: "Verse of Healing"
     id: "verse-of-healing"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-heal]HEAL[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -127,6 +136,7 @@ utility:
 
   - name: "Melody of Heroism"
     id: "melody-of-heroism"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -140,6 +150,7 @@ utility:
 
   - name: "Melody of Magic"
     id: "melody-of-magic"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -153,6 +164,7 @@ utility:
 
   - name: "Verse of Rebellion"
     id: "verse-of-rebellion"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -166,6 +178,7 @@ utility:
 
   - name: "Verse of Slumber"
     id: "verse-of-slumber"
+    auto_type: [DC, WIL]
     tags: ["TIER I", "Cacophony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"

@@ -6,6 +6,7 @@ prefix: "acolyteS"
 offensive:
   - name: "Light of Sol"
     id: "light-of-sol"
+    auto_type: [SA, WIL]
     tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m", "Radius: 2m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -22,6 +23,7 @@ offensive:
 
   - name: "Sunlight Spear"
     id: "sunlight-spear"
+    auto_type: [PA, WIL]
     tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
@@ -80,6 +82,7 @@ utility:
 
   - name: "Purify"
     id: "purify"
+    auto_type: [DC+, WIL]
     tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"

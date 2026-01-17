@@ -6,6 +6,7 @@ prefix: "thermics"
 offensive:
   - name: "Explosion"
     id: "explosion"
+    auto_type: [SA, INT]
     tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -24,6 +25,7 @@ offensive:
 
   - name: "Fireball II"
     id: "fireball-ii"
+    auto_type: [SA, INT]
     tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -40,6 +42,7 @@ offensive:
 
   - name: "Hailstorm"
     id: "hailstorm"
+    auto_type: [DC, INT]
     tags: ["TIER III", "Air / Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -56,6 +59,7 @@ offensive:
 
   - name: "Thermal Beam III"
     id: "thermal-beam-iii"
+    auto_type: [SA, INT]
     tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -75,6 +79,7 @@ offensive:
 
   - name: "Thermal Bolt III"
     id: "thermal-bolt-iii"
+    auto_type: [PA, INT]
     tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -104,6 +109,7 @@ defensive:
 utility:
   - name: "Blizzard"
     id: "blizzard"
+    auto_type: [DC, INT]
     tags: ["TIER III", "Air / Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -120,6 +126,7 @@ utility:
 
   - name: "Sparkstream III"
     id: "sparkstream-iii"
+    auto_type: [DC, INT]
     tags: ["TIER III", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
