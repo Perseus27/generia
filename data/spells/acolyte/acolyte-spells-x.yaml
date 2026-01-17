@@ -52,7 +52,7 @@ exclusive:
     id: "impulse"
     tags: ["TIER X", "Templar", "Sol", "Utility", "SP Cost: 20"]
     type:
-      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
     material:
       - "Sunstone (optional)"
     cost:
