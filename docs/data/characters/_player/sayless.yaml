@@ -4,25 +4,24 @@ info:
   species: Alb
   level: 13
   size: Medium
-  classes: [Nox, Archer]
+  classes: [Nox, Archer, Assassin]
   tags: [–]
 notes: >
   100 XP
   [br]
-  [br]85 SP Base
+  [br]95 SP Base
   [br]+10 Bonus
   [br]+10 Challenge
   [br]+5 Lv5 Boss
   [br]== 105 Total
-  [br]REST 6
-  [br][section:clr-malus]LEVELUP 13 PENDING[/section]
+  [br]REST 0
 
 attributes:
   CON: [5, 2]
-  STR: [6, 3]
+  STR: [7, 3]
   DEX: [8, 4, 1]
   INT: [5, 2]
-  WIL: [4, 2]
+  WIL: [5, 2]
   PER: [6, 3]
 values:
   EN: 15
@@ -78,13 +77,15 @@ actions:
     - Shadow Cloak
     - Shadow Summoning
     - Shadow Run
+    - Shadow Step
+    - Noxian Bargain
     - Terror
     - Blur
   rituals:
     - ""
 proficiencies:
   magic:
-    - "Nox: Beginner"
+    - "Nox: Intermediate"
     - [Night, 2]
   weapons:
     - "Ranged: Beginner"
@@ -106,4 +107,4 @@ perks:
     - Opportunist
 
   magic:
-    - ""
+    - Withering Shadows
