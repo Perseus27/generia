@@ -36,9 +36,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Bastard Sword+3 (Sharp I)"
-      damage: "2d6+8|10"
-      hit: "Hit+10, Block+15|10"
+    - name: "Bastard Sword"
+      q: 3
+      enchantments:
+        - Sharp I
     - name: "Roundshield"
     - name: "Knife"
   armor:

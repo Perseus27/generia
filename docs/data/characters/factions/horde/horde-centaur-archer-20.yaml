@@ -35,10 +35,8 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Warbow+2"
-      damage: "1d8+8"
-      hit: "Hit+10"
-      range: "-2/0/0, 28m"
+    - name: "Longbow"
+      q: 2
     - name: "20× Arrow+1, heavy"
       damage: "1d8+1"
     - name: "Broadsword"

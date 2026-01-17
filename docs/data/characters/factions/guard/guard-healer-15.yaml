@@ -37,8 +37,6 @@ armor:
 inventory:
   weapons:
     - name: "Healer's Staff"
-      damage: "2d8+2"
-      hit: "Hit+2, Block+4|4"
     - name: "Knife"
   armor:
     - name: "Padded Helmet+1"
