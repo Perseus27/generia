@@ -15,7 +15,7 @@ headers:
 items:
 - name: Dwarven Axe
   type: Axe
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0
@@ -30,7 +30,7 @@ items:
 
 - name: Nord Axe
   type: Axe
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Maim
   hr: 0.5
   dr: 1.5
@@ -43,7 +43,7 @@ items:
 
 - name: Glaive
   type: Polearm
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Maim
   hr: 1.5
   dr: 0.5
@@ -61,7 +61,7 @@ items:
 
 - name: Naginata
   type: Polearm
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Cut
   hr: 1.0
   dr: 1.0
@@ -78,7 +78,7 @@ items:
 
 - name: Bastard Sword
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0
@@ -92,7 +92,7 @@ items:
 
 - name: Gladius
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Butcher
   hr: 1.0
   dr: 1.0
@@ -105,7 +105,7 @@ items:
 
 - name: Katana
   type: Sword
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Cut
   hr: 1.0
   dr: 1.0
@@ -121,7 +121,7 @@ items:
 
 - name: Odachi
   type: Sword
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Cut
   hr: 0.5
   dr: 1.5
@@ -135,7 +135,7 @@ items:
   
 - name: Zweihänder
   type: Sword
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0

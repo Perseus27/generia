@@ -15,7 +15,7 @@ headers:
 items:
 - name: Buckler
   type: Shield
-  damage: 1d4 Blunt
+  damage: [1d4, Blunt]
   skill: Push
   hr: 1.0
   dr: 1.0
@@ -29,7 +29,7 @@ items:
 
 - name: Roundshield
   type: Shield
-  damage: 1d6 Blunt
+  damage: [1d6, Blunt]
   skill: Push
   hr: 0.5
   dr: 1.5
@@ -43,7 +43,7 @@ items:
       
 - name: Towershield
   type: Shield
-  damage: 1d8 Blunt
+  damage: [1d8, Blunt]
   skill: Push
   hr: 0.0
   dr: 2.0

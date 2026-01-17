@@ -15,7 +15,7 @@ headers:
 items:
 - name: Parrying Dagger
   type: Dagger
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Butcher
   hr: 1.0
   dr: 0.0
@@ -29,7 +29,7 @@ items:
 
 - name: Stiletto
   type: Dagger
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Pierce
   hr: 1.5
   dr: 0.0
@@ -43,7 +43,7 @@ items:
 
 - name: Lance
   type: Polearm
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Pierce
   hr: 0.5
   dr: 1.5
@@ -58,7 +58,7 @@ items:
 
 - name: Yari
   type: Polearm
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Push
   hr: 1.5
   dr: 0.5
@@ -72,7 +72,7 @@ items:
 
 - name: Estoc
   type: Sword
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Pierce
   hr: 1.5
   dr: 0.5

@@ -15,7 +15,7 @@ headers:
 items:
 - name: Dagger
   type: Dagger
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Butcher
   hr: 1.5
   dr: 0.0
@@ -29,7 +29,7 @@ items:
 
 - name: Knife
   type: Dagger
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Butcher
   hr: 1.0
   dr: 0.0
@@ -43,7 +43,7 @@ items:
 
 - name: Rondel Dagger
   type: Dagger
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Butcher
   hr: 0.5
   dr: 1.5
@@ -56,7 +56,7 @@ items:
 
 - name: Pike
   type: Polearm
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: Pierce
   hr: 1.0
   dr: 1.0
@@ -70,7 +70,7 @@ items:
 
 - name: Spear
   type: Polearm
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Maim
   hr: 1.0
   dr: 1.0
@@ -84,7 +84,7 @@ items:
 
 - name: Rapier
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Lunge
   hr: 1.5
   dr: 0.5
@@ -96,7 +96,7 @@ items:
   
 - name: Spadroon
   type: Sword
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: Lunge
   hr: 1.0
   dr: 1.0

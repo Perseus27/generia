@@ -15,7 +15,7 @@ headers:
 items:
 - name: Fist
   type: Primitive
-  damage: 1d6 Blunt
+  damage: [1d6, Blunt]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -26,7 +26,7 @@ items:
 
 - name: Foot
   type: Primitive
-  damage: 1d6 Blunt
+  damage: [1d6, Blunt]
   skill: –
   hr: 0.5
   dr: 1.5
@@ -37,7 +37,7 @@ items:
 
 - name: Claws (small)
   type: Primitive
-  damage: 1d6 Sharp
+  damage: [1d6, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -48,7 +48,7 @@ items:
 
 - name: Claws (medium)
   type: Primitive
-  damage: 2d6 Sharp
+  damage: [2d6, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -59,7 +59,7 @@ items:
     
 - name: Claws (large)
   type: Primitive
-  damage: 2d8 Sharp
+  damage: [2d8, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -70,7 +70,7 @@ items:
 
 - name: Horns (medium)
   type: Primitive
-  damage: 3d4 Sharp
+  damage: [3d4, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -81,7 +81,7 @@ items:
 
 - name: Horns (large)
   type: Primitive
-  damage: 3d6 Sharp
+  damage: [3d6, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -92,7 +92,7 @@ items:
 
 - name: Teeth (small)
   type: Primitive
-  damage: 2d4 Sharp
+  damage: [2d4, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -103,7 +103,7 @@ items:
 
 - name: Teeth (medium)
   type: Primitive
-  damage: 3d4 Sharp
+  damage: [3d4, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -114,7 +114,7 @@ items:
 
 - name: Teeth (large)
   type: Primitive
-  damage: 3d6 Sharp
+  damage: [3d6, Sharp]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -125,7 +125,7 @@ items:
 
 - name: Tentacles (medium)
   type: Primitive
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: –
   hr: 1.0
   dr: 1.0
@@ -136,7 +136,7 @@ items:
 
 - name: Tentacles (large)
   type: Primitive
-  damage: 2d10 Blunt
+  damage: [2d10, Blunt]
   skill: –
   hr: 1.0
   dr: 1.0

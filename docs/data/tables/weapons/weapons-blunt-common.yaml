@@ -15,7 +15,7 @@ headers:
 items:
 - name: Flanged Mace
   type: Club
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Break
   hr: 1.0
   dr: 1.0
@@ -29,7 +29,7 @@ items:
 
 - name: Great Mace
   type: Club
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -44,7 +44,7 @@ items:
 
 - name: Knobbed Mace
   type: Club
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -58,7 +58,7 @@ items:
 
 - name: Hand Hammer
   type: Hammer
-  damage: 2d6 Blunt
+  damage: [2d6, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -73,7 +73,7 @@ items:
 
 - name: Sledgehammer
   type: Hammer
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: Force
   hr: 0.5
   dr: 1.5
@@ -88,7 +88,7 @@ items:
 
 - name: War Hammer
   type: Hammer
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: Break
   hr: 1.0
   dr: 1.0
@@ -103,7 +103,7 @@ items:
   
 - name: Quarterstaff
   type: Staff
-  damage: 2d8 Blunt
+  damage: [2d8, Blunt]
   skill: Push
   hr: 1.0
   dr: 1.0
