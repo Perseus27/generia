@@ -3,7 +3,7 @@
 [container:home-linkblock]
 [h2]Characters[/h2]
 [h4]Factions[/h4]
-[url:/generia/stats/characters/factions/bandits/bandits-10]Bandits 10[/url], [url:/generia/stats/characters/factions/bandits/bandits-15]Bandits 15[/url], [url:/generia/stats/characters/factions/bandits/bandits-20]Bandits 20[/url]
+[url:/generia/stats/characters/factions/bandits/bandits]Bandits[/url]
 [br][url:/generia/stats/characters/factions/bloody-hand/bloody-hand-20]Bloody Hand 20[/url], [url:/generia/stats/characters/factions/bloody-hand/bloody-hand-25]Bloody Hand 25[/url]
 [br][url:/generia/stats/characters/factions/guard/guard-15]Guard 15[/url]
 [br][url:/generia/stats/characters/factions/horde/horde-20]Horde 20[/url]

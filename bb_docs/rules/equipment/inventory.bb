@@ -20,6 +20,7 @@ Characters can carry a maximum of [section:clr-value][[section:clr-attr]STR-MOD[
 [i]Encumbrance Rating[/i] describes the ease or difficulty a character has carrying their inventory around. A positive ER value means a very light load and increased nimbleness, while a negative value means the character is heavily loaded thus less agile.
 [h4]Effects[/h4]
 The [i]Encumbrance Rating[/i] is added to all [url:def#Dodge]dodge[/url] rolls and [section:clr-attr]DEX[/section] checks (including, but not limited to: Saves, stealth, acrobatics).
+[br]Positive ER bonuses are capped at the character's [section:clr-attr]DEX-MOD[/section].
 
 
 [h1|Advanced]Advanced[/h1]
