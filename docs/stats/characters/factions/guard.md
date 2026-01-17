@@ -1,5 +1,5 @@
 ---
-title: Guard 15
+title: Guardsmen
 ---
 
 <template id="sidebar-extra">
@@ -15,17 +15,13 @@ title: Guard 15
     <br><a href="#tank-15">Tank</a>
     <br><a href="#wizard-15">Wizard</a>
     </p>
-    <h5>See also:</h5>
-    <p>
-    <a href="/generia/stats/characters/factions/guard/guard-15">Guard 15</a>
-    </p>
     <hr>
     <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
   </div>
 </template>
 
 
-# Guardsmen, Level 15
+# Level 15
 
 {{ character('data/characters/factions/guard/guard-captain-15.yaml') }}
 {{ character('data/characters/factions/guard/guard-archer-bow-15.yaml') }}

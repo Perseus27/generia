@@ -1,10 +1,11 @@
 ---
-title: Horde 20
+title: The Horde
 ---
 
 <template id="sidebar-extra">
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
+    <h5>Level 20</h5>
     <p>
     <a href="#catfolk-duelist-20">Catfolk Duelist</a>
     <br><a href="#catfolk-rogue-20">Catfolk Rogue</a>
@@ -23,17 +24,13 @@ title: Horde 20
     <br><a href="#satyr-bard-20">Satyr Bard</a>
     <br><a href="#satyr-spearman-20">Satyr Spearman</a>
     </p>
-    <h5>See also:</h5>
-    <p>
-    <a href="/generia/stats/characters/factions/horde/horde-20">Horde 20</a>
-    </p>
     <hr>
     <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
   </div>
 </template>
 
 
-# Horde, Level 20
+# Level 20
 
 {{ character('data/characters/factions/horde/horde-catfolk-duelist-20.yaml') }}
 {{ character('data/characters/factions/horde/horde-catfolk-rogue-20.yaml') }}
