@@ -36,9 +36,7 @@ armor:
   er: 4.5
 inventory:
   weapons:
-    - name: "Wizard Staff"
-      damage: "2d8"
-      hit: "Hit+2, Block+3|3"
+    - name: "Wizard's Staff"
     - name: "Knife"
   armor:
     - name: "Wizard Hat+1"

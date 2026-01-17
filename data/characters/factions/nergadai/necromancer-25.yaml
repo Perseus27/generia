@@ -33,9 +33,8 @@ armor:
   er: 5
 inventory:
   weapons:
-    - name: Staff of the Necromancer+2
-      damage: 2d8+3 Blunt
-      hit: Hit+4, Block+5|3
+    - name: Staff of the Necromancer
+      q: 2
       enchantments:
         - PER+1
     - name: Knife

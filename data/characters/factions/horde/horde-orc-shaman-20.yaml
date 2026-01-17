@@ -35,9 +35,8 @@ armor:
   er: 2
 inventory:
   weapons:
-    - name: "Battlestaff+1"
-      damage: "2d8+3"
-      hit: "Hit+8, Block+9|5"
+    - name: "Quarterstaff"
+      q: 1
     - name: "Knife"
   armor:
     - name: "Padded Helmet"

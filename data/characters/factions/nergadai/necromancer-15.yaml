@@ -34,8 +34,6 @@ armor:
 inventory:
   weapons:
     - name: Staff of the Necromancer
-      damage: 2d8+1 Blunt
-      hit: Hit+4, Block+5|3
       enchantments:
         - PER+1
     - name: Knife

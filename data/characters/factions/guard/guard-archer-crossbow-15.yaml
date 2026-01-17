@@ -37,7 +37,6 @@ armor:
 inventory:
   weapons:
     - name: "Heavy Crossbow"
-      range: "-2/0/0, 28m"
       q: 2
     - name: "20× Bolt+1, heavy"
       damage: "1d8+1"

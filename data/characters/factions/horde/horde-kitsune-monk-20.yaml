@@ -37,9 +37,8 @@ inventory:
   weapons:
     - name: "Brass Knuckles"
       q: 1
-    - name: "Battlestaff+1"
-      damage: "2d8+5"
-      hit: "Hit+8, Block+10|7"
+    - name: "Quarterstaff"
+      q: 1
     - name: "Fist"
     - name: "Foot"
   armor:

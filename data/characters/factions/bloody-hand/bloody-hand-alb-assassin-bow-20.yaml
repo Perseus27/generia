@@ -36,9 +36,8 @@ armor:
   er: 4
 inventory:
   weapons:
-    - name: "Shortbow+2"
-      damage: "1d6+5"
-      hit: "Hit+10"
+    - name: "Hunting Bow"
+      q: 2
     - name: "20× Arrow, light"
       damage: "1d6"
     - name: "Rapier"
