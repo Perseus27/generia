@@ -41,6 +41,7 @@ offensive:
 defensive:
   - name: "Arcane Barrier II"
     id: "arcane-barrier-ii"
+    auto_type: [SD, INT, PER]
     tags: ["TIER II", "Arcane", "Reaction", "UPCAST 5"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -65,6 +66,7 @@ defensive:
 
   - name: "Blink"
     id: "blink"
+    auto_type: [SD, INT, PER]
     tags: ["TIER II", "Arcane", "Reaction", "Range: [[section:clr-value]Arcane[/section]] m"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"

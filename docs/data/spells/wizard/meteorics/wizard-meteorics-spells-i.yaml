@@ -58,6 +58,7 @@ offensive:
 defensive:
   - name: "Meteoric Barrier I"
     id: "meteoric-barrier-i"
+    auto_type: [SD, INT, PER]
     tags: ["TIER I", "Air / Lightning", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"

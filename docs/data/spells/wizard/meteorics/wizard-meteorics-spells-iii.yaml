@@ -144,6 +144,7 @@ offensive:
 defensive:
   - name: "Meteoric Barrier III"
     id: "meteoric-barrier-iii"
+    auto_type: [SD, INT, PER]
     tags: ["TIER III", "Air / Lightning", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
