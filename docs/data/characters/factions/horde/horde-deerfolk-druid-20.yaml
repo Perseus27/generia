@@ -16,7 +16,7 @@ attributes:
   STR: [6, 3]
   DEX: [5, 2]
   INT: [8, 4]
-  WIL: [12, 7]
+  WIL: [12, 6, 1]
   PER: [6, 3]
 values:
   EN: 15

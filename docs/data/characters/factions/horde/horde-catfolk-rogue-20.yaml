@@ -14,7 +14,7 @@ notes: >
 attributes:
   CON: [7, 3]
   STR: [6, 3]
-  DEX: [11, 6]
+  DEX: [11, 5, 1]
   INT: [5, 2]
   WIL: [5, 2]
   PER: [10, 5]
