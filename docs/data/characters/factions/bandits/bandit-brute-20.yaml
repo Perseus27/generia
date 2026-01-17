@@ -35,9 +35,8 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Shovel+1"
-      damage: "2d8+8"
-      hit: "Hit+8, Block+15|9"
+    - name: "Shovel"
+      q: 1
     - name: "Brass Knuckles"
     - name: "Knife"
   armor:

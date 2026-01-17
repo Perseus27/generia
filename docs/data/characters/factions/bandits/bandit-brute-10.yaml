@@ -36,8 +36,6 @@ armor:
 inventory:
   weapons:
     - name: "Shovel"
-      damage: "2d8+6"
-      hit: "Hit+5, Block+11|7"
     - name: "Fist"
     - name: "Knife"
   armor:
