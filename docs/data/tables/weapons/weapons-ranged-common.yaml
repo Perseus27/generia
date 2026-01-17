@@ -113,7 +113,7 @@ items:
 
 - name: Grenade
   type: Thrown
-  damage: [???]
+  damage: [Not, applicable]
   skill: –
   hr: 1.0
   dr: 0.0
