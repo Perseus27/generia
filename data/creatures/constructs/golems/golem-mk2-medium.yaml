@@ -61,7 +61,7 @@ actions:
   passive:
     - name: "Perks"
       type: "Passive"
-      perks: [Opportunist]
+      perks: [Goliath, Opportunist]
     - name: "Proficiencies"
       type: "Passive"
       effect: >

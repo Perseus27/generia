@@ -60,3 +60,283 @@ defensive:
       [br]The barrier breaks once its maximum is reached; excess damage carries over.
     effect: >
       [section:clr-roll]1d8[/section]+[section:clr-value]Mechanics[/section] Protection
+
+utility:
+  - subheader:
+    is_subheader: True
+    name: "Ammunition"
+    id: "ammunition-ii"
+
+  - name: "Basic Ammunition II"
+    id: "basic-ammunition-ii"
+    tags: ["TIER II", "Mechanics", "Utility", "Permanent"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "4× Stone Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Mechanics[/section]] units of basic stone ammunition for a [url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+    effect: >
+      [section:clr-roll]3d6[/section] Blunt
+
+  - name: "Elemental Ammunition II"
+    id: "elemental-ammunition-ii"
+    tags: ["TIER II", "Mechanics", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "4× Elemental Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Mechanics[/section]] units of elemental ammunition for a [url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+      [br][i]For [url:../what-is-an-alchemist#Elements]derivative elements[/url]: Use [section:clr-value]2 dust[/section] of each basic element.[/i]
+    effect: >
+      [section:clr-roll]3d6[/section] Element
+
+  - name: "Status Ammunition II"
+    id: "status-ammunition-ii"
+    tags: ["TIER II", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "4× Elemental Dust"
+      - "Basic or Elemental Ammunition II"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Coats up to [[section:clr-value]Mechanics[/section]] units of [url:#BasicAmmunitionI]Basic[/url] or [url:#ElementalAmmunitionI]Elemental Ammunition[/url] in elemental energy to give it additional properties that are applied on [url:def#Hit]hit[/url].
+      [br][i]For [url:../what-is-an-alchemist#Elements]derivative elements[/url]: Use [section:clr-value]2 dust[/section] of each basic element.[/i]
+    effect: >
+      [b]Water:[/b] [url:status#Bleeding]Bleeding 2[/url]
+      [br][b]Stone:[/b] [url:status#Brittle]Brittle 2[/url]
+      [br][b]Fire:[/b] [url:status#Burning]Burning 2[/url]
+      [br][b]Air:[/b] [url:status#Knockback]Knockback[/url] [section:clr-value]4[/section]
+      [br][b]Ice:[/b] [url:status#Chilled]Chilled[/url], [url:status#Frail]Frail[/url]
+      [br][b]Lightning:[/b] [url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]], [url:status#Confused]Confused[/url]
+
+  - name: "Therapeutic Ammunition II"
+    id: "therapeutic-ammunition-ii"
+    tags: ["TIER II", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Water Dust"
+      - "1× Healing Potion, medium"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Pharmacy[/section]] units of therapeutic ammunition for a [url:#../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+      [br][i]This ammunition does not require an attack roll against willing targets and may be fired as a [url:def#UtilityAction]Utility Action[/url].[/i]
+    effect: >
+      [section:clr-roll-noex]3d6[/section]+[section:clr-value]Quality[/section] Healing
+
+  - subheader:
+    is_subheader: True
+    name: "Grenades"
+    id: "grenades-ii"
+
+  - name: "Corrosion Grenade II"
+    id: "corrosion-grenade-ii"
+    tags: ["TIER II", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "1× Fire Dust"
+      - "1× Air Dust"
+      - "4× Water Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+    effect: >
+      All zones become [url:status#Brittle]Brittle 2[/url].
+    saved: "Roll one affected zone instead."
+    saved10: "No effect."
+
+  - name: "Fire Grenade II"
+    id: "fire-grenade-ii"
+    tags: ["TIER II", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "5× Fire Dust"
+      - "1× Air Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+    effect: >
+      [section:clr-roll]4d4[/section] Fire
+      [br]On [url:def#Hit]hit[/url]: [url:status#Burning]Burning 2[/url]
+    saved: "Damage halved."
+    saved10: "No effect."
+
+  - name: "Fragmentation Grenade II"
+    id: "fragmentation-grenade-ii"
+    tags: ["TIER II", "Mechanics", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "1× Fire Dust"
+      - "1× Air Dust"
+      - "4× Stone Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Mechanics[/section]] meters.
+    effect: >
+      [section:clr-roll]4d4[/section] Sharp
+      [br]On [url:def#Hit]hit[/url]: [url:status#Bleeding]Bleeding 2[/url]
+    saved: "Damage halved."
+    saved10: "No effect."
+
+  - name: "Shock Grenade II"
+    id: "shock-grenade-ii"
+    tags: ["TIER II", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "3× Fire Dust"
+      - "3× Air Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+    effect:
+      - "[url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]]"
+      - "[url:status#Confused]Confused[/url]"
+    saved: "Not Confused"
+    saved10: "No effect."
+
+  - subheader:
+    is_subheader: True
+    name: "Other Consumables"
+    id: "other-consumables-ii"
+
+  - name: "Improvised Remedy II"
+    id: "improvised-remedy-ii"
+    tags: ["TIER II", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "2× Water Dust"
+      - "2× Medicinal Ingredients"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Pharmacy[/section]] units of ephemeral medicine, equivalent to a Small Healing Potion. May be directly consumed like a potion, or used as a base for [url:#TherapeuticAmmunitionI]Therapeutic Ammunition I[/url].
+      [br][i]Medicinal ingredients can be any reagent with healing properties, from medicinal herbs to certain chemical compounds. Improvise within the bounds of reason.[/i]
+    effect: >
+      [section:clr-roll-noex]3d6[/section]+[[section:clr-value]Pharmacy[/section]] Healing
+
+  - subheader:
+    is_subheader: True
+    name: "Golem Equipment"
+    id: "golem-equipment-ii"
+
+  - name: "Golem Kit: Destroyer"
+    id: "golem-kit-destroyer"
+    tags: ["TIER II", "Mechanics", "Utility", "Construction"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Configures a controlled golem as a menacing juggernaut, equipped with a large battleaxe.
+      [br][i]Only one Golem Kit can be active at once.[/i]
+    effect: >
+      [b]Weapons:[/b] Battleaxe
+      [br][b]Skills:[/b] [url:skills1#aimed-strike]Aimed Strike[/url], [url:skills2#mighty-strike]Mighty Strike[/url], [url:skills2#mordhau]Mordhau[/url], [url:skills1#counter]Counter[/url], [url:skills3#stance-attack]Stance: Attack[/url], [url:skills1#swing]Swing[/url], [url:skills3#whirl]Whirl[/url]
+
+  - name: "Golem Kit: Stalker"
+    id: "golem-kit-stalker"
+    tags: ["TIER II", "Mechanics", "Utility", "Construction"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Configures a controlled golem as a nimble assassin, equipped with daggers.
+      [br][i]Only one Golem Kit can be active at once.[/i]
+    effect: >
+      [b]Weapons:[/b] Daggers
+      [br][b]Skills:[/b] [url:skills1#aimed-strike]Aimed Strike[/url], [url:skills1#counter]Counter[/url], [url:skills1#feint]Feint[/url], [url:skills2#find-weakness]Find Weakness[/url]
+      [br][b]Perks:[/b] [url:perksC#deflector]Deflector[/url], [url:perksC#sprinter]Sprinter[/url]
+
+
+ritual:
+  - subheader:
+    is_subheader: True
+    name: "Weapon Construction"
+    id: "weapon-construction-ii"
+
+  - name: "Construction: Shotgun"
+    id: "construction-shotgun"
+    tags: ["TIER II", "Mechanics", "Out of Combat", "Construction"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "1× Stone Core, medium"
+      - "1× Fire Core, medium"
+    cast_time: "2 Phases"
+    description: >
+      The Alchemist constructs a transmuted [url:../what-is-an-alchemist#TransmutedWeapons]shotgun[/url].
+    effect: >
+      Product:
+      [br][url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Shotgun[/url]
+
+  - subheader:
+    is_subheader: True
+    name: "Golem Construction"
+    id: "golem-construction-ii"
+
+  - name: "Construction: Golem Core Mk. II"
+    id: "construction-golem-core-mk-ii"
+    tags: ["TIER II", "Mechanics", "Out of Combat", "Construction"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "0.05 Steel, 0.03 pure Silver, 0.01 pure Gold"
+      - "0.01 pure Mithril"
+      - "1× Diamond, medium"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    cast_time: "12 Hours"
+    description: >
+      Constructs a Golem Core Mk. II.
+    effect: >
+      [b]Size:[/b] 1x1
+      [br][b]Weight:[/b] 0.1
+
+  - name: "Golem Armor II"
+    id: "golem-armor-ii"
+    tags: ["TIER II", "Mechanics", "Out of Combat", "Construction"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "1× Stone Core, medium"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    cast_time: "1 Phase"
+    description: >
+      Constructs armor plating for a [url:../what-is-an-alchemist#Golems]Golem[/url] larger than [i]tiny[/i].
+    effect: >
+      Golem armor is increased by:
+      [br][b]Core:[/b] 2
+      [br][b]Torso:[/b] 6
+      [br][b]Arms:[/b] 4
+      [br][b]Legs:[/b] 4
+      [br][b]MD:[/b] 2
+
