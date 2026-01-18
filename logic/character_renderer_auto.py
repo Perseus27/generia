@@ -284,7 +284,8 @@ class Character_Renderer_Auto:
         for x in self.yaml_input.get("proficiencies").get("magic"):
             if isinstance(x, list):
                 if x[0] in spell.get("tags"):
-                    result = x[1]
+                    if result < x[1]:
+                        result = x[1]
         return result
 
     def get_spell_hit_string(self, spell, prof):
