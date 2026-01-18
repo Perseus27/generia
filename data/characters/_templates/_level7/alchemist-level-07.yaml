@@ -27,8 +27,8 @@ values:
   MS: 4
 armor:
   head: 0
-  torso: 3
-  arms: 1
+  torso: 0
+  arms: 0
   legs: 0
   md: 0
   er: 0
