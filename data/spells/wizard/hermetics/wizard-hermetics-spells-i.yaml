@@ -92,6 +92,7 @@ utility:
       The jump is [url:core#Eased]eased[/url] by [section:clr-attr]INT[/section]+[[section:clr-value]Arcane[/section]].
 
   - name: "Chameleon I"
+    alias: [Dim]
     id: "chameleon-i"
     tags: ["TIER I", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:

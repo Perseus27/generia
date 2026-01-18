@@ -120,3 +120,8 @@
 .prof-sub {
 	font-style: italic;
 }
+
+.subname {
+	font-style: italic;
+	color: lightslategray;
+}

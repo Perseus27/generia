@@ -39,7 +39,8 @@ inventory:
     - name: "Wizard's Staff"
     - name: "Knife"
   armor:
-    - name: "Wizard's Hat"
+    - name: Hat
+      disp: "Wizard's Hat"
       q: 1
     - name: "Padded Armor"
       q: 2
@@ -59,16 +60,16 @@ actions:
   skills:
     - ""
   spells:
-    - "Mana Bolt II +10"
-    - "Mana Beam II +10"
-    - "Counter Shot +13"
-    - "Arcane Barrier I +13"
-    - "Blink +13"
-    - "Illusory Double 17"
-    - "Counterspell +10"
+    - Mana Bolt II
+    - Mana Beam II
+    - Counter Shot
+    - Arcane Barrier I
+    - Blink
+    - Illusory Double
+    - Counterspell
     - Dim
-    - "Dimension Step (15m)"
-    - "Water Jet I 20"
+    - [Dimension Step, (15m)]
+    - Water Jet I
     - Tensile Shield I
     - Water Veil
   rituals:
