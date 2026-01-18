@@ -24,7 +24,7 @@ offensive:
   - name: "Firestorm"
     id: "firestorm"
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air / Fire", "Offensive", "Range: 4m", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    tags: ["TIER III", "Air", "Fire", "Offensive", "Range: 4m", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -42,7 +42,7 @@ offensive:
   - name: "Hailstorm"
     id: "hailstorm"
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air / Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: ["TIER III", "Air", "Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -77,7 +77,7 @@ offensive:
   - name: "Meteoric Bolt III"
     id: "meteoric-bolt-iii"
     auto_type: [PA, INT]
-    tags: ["TIER III", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER III", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -90,7 +90,7 @@ offensive:
   - name: "Shockwave"
     id: "shockwave"
     auto_type: [SA, INT]
-    tags: ["TIER III", "Lightning / Air", "Offensive", "Radius: 4m", "UPCAST 3"]
+    tags: ["TIER III", "Lightning", "Air", "Offensive", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -107,7 +107,7 @@ offensive:
   - name: "Thunderbolt II"
     id: "thunderbolt-ii"
     auto_type: [SA, INT]
-    tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER II", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -145,7 +145,7 @@ defensive:
   - name: "Meteoric Barrier III"
     id: "meteoric-barrier-iii"
     auto_type: [SD, INT, PER]
-    tags: ["TIER III", "Air / Lightning", "Reaction", "UPCAST 3"]
+    tags: ["TIER III", "Air", "Lightning", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -160,7 +160,7 @@ utility:
   - name: "Blizzard"
     id: "blizzard"
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air / Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: ["TIER III", "Air", "Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:

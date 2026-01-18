@@ -7,7 +7,7 @@ offensive:
   - name: "Geyser Field"
     id: "geyser-field"
     auto_type: [DC, INT]
-    tags: ["TIER III", "Fire / Water", "Offensive", "Range: 20m", "Radius: 6m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    tags: ["TIER III", "Fire", "Water", "Offensive", "Range: 20m", "Radius: 6m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -24,7 +24,7 @@ offensive:
   - name: "Kinetic Bolt III"
     id: "kinetic-bolt-iii"
     auto_type: [PA, INT]
-    tags: ["TIER III", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER III", "Stone", "Water", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -56,7 +56,7 @@ defensive:
   - name: "Kinetic Barrier III"
     id: "kinetic-barrier-iii"
     auto_type: [SD, INT, PER]
-    tags: ["TIER III", "Stone / Water", "Reaction", "UPCAST 3"]
+    tags: ["TIER III", "Stone", "Water", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:

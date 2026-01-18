@@ -42,7 +42,7 @@ offensive:
     alias: [Thermic Beam II]
     id: "thermal-beam-ii"
     auto_type: [SA, INT]
-    tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 5"]
+    tags: ["TIER II", "Fire", "Ice", "Offensive", "Range: 30m", "UPCAST 5"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
@@ -63,7 +63,7 @@ offensive:
     alias: [Thermic Bolt II]
     id: "thermal-bolt-ii"
     auto_type: [PA, INT]
-    tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER II", "Fire", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -113,7 +113,7 @@ defensive:
     alias: [Thermic Barrier II]
     id: "thermal-barrier-ii"
     auto_type: [SD, INT, PER]
-    tags: ["TIER II", "Fire / Ice", "Reaction", "UPCAST 3"]
+    tags: ["TIER II", "Fire", "Ice", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
