@@ -42,6 +42,7 @@ actions:
       type: Melee Attack
       hit: "Hit+8, Block+11|5"
       damage: 2d6+3 Sharp
+      skills: [Feint, Find Weakness, Pocket Sand]
     - name: Sling
       type: Ranged Attack
       hit: "Hit+6, -2/0/-5, 16m"
@@ -62,6 +63,9 @@ actions:
         Gain [url:status#Hidden]Hidden 1[/url].
       cost: "[section:clr-en]1 EN[/section]"
   passive:
+    - name: Perks
+      type: Passive
+      perks: [Opportunist]
     - name: Proficiencies
       type: Passive
       effect:
