@@ -38,7 +38,7 @@ inventory:
     - name: "Wizard's Staff"
     - name: "Knife"
   armor:
-    - name: "Wizard Hat"
+    - name: "Wizard's Hat"
       q: 1
     - name: "Leather Armor"
       q: 1

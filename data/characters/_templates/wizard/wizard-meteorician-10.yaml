@@ -40,7 +40,7 @@ inventory:
       hit: "Hit+2, Block+3|3"
     - name: "Knife"
   armor:
-    - name: "Wizard Hat"
+    - name: "Wizard's Hat"
     - name: "Cloth Armor"
     - name: "Cloth Gauntlets"
     - name: "Cloth Greaves"

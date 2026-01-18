@@ -40,7 +40,7 @@ inventory:
       hit: "Hit+2, Block+5|5"
     - name: "Knife"
   armor:
-    - name: "Wizard Hat"
+    - name: "Wizard's Hat"
     - name: "Leather Armor"
       q: 1
     - name: "Padded Gauntlets"
