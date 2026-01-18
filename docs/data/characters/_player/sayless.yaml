@@ -63,6 +63,7 @@ inventory:
       enchantments:
         - DEX+1
     - name: Amulet
+      disp: Nox Amulet
       q: 3
       enchantments:
         - [Focus, Nox]
