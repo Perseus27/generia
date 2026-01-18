@@ -58,6 +58,7 @@ offensive:
       No effect.
 
   - name: "Thermal Beam III"
+    alias: [Thermic Beam III]
     id: "thermal-beam-iii"
     auto_type: [SA, INT]
     tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 3"]
@@ -78,6 +79,7 @@ offensive:
       No effect.
 
   - name: "Thermal Bolt III"
+    alias: [Thermic Bolt III]
     id: "thermal-bolt-iii"
     auto_type: [PA, INT]
     tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
@@ -93,6 +95,7 @@ offensive:
 
 defensive:
   - name: "Thermal Barrier III"
+    alias: [Thermic Barrier III]
     id: "thermal-barrier-iii"
     auto_type: [SD, INT, PER]
     tags: ["TIER III", "Fire / Ice", "Reaction", "UPCAST 3"]
