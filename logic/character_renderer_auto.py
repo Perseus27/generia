@@ -40,6 +40,9 @@ class Character_Renderer_Auto:
         for a in armor:
             result += "[li]"
             name = a.get("name")
+            disp_name = a.get("disp", False)
+            if disp_name:
+                name = disp_name
             qval = int(a.get("q", 0))
             qstr = ""
             if qval > 0:
