@@ -19,7 +19,7 @@ items:
     slots: –
     rarity: 0
   - name: Hat
-    alias: [Caster Hat, Wizard's Hat, Hood of the Necromancer]
+    alias: [Caster Hat, Wizard's Hat, Hood of the Necromancer, Black Hood]
     type: Head
     av: 0
     er: 1.5
@@ -41,7 +41,7 @@ items:
     slots: 6x4
     rarity: 1
   - name: Cloth Armor
-    alias: [Caster Robe, Wizard's Robe, Robe of the Necromancer]
+    alias: [Caster Robe, Wizard's Robe, Robe of the Necromancer, Black Robe]
     type: Torso
     av: 3
     er: 1.5
