@@ -27,11 +27,11 @@ values:
   TN: 3
   MS: 6
 armor:
-  head: 2
-  torso: 5
-  arms: 3
-  legs: 3
-  md: 4
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
   er: 0
 inventory:
   weapons:

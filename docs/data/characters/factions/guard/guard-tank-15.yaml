@@ -28,12 +28,12 @@ values:
   TN: 4
   MS: 6
 armor:
-  head: 5
-  torso: 9
-  arms: 6
-  legs: 6
-  md: 3
-  er: 2
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
 inventory:
   weapons:
     - name: "Bastard Sword"

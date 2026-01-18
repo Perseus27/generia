@@ -27,11 +27,11 @@ values:
   TN: 5
   MS: "[section:clr-bonus]8[/section]"
 armor:
-  head: 4
-  torso: 8
-  arms: 6
-  legs: 6
-  md: "[section:clr-bonus]5[/section]"
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
   er: 0
 inventory:
   weapons:

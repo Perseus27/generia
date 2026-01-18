@@ -27,12 +27,12 @@ values:
   TN: 5
   MS: 8
 armor:
-  head: 5
-  torso: 9
-  arms: 6
-  legs: 6
-  md: 4
-  er: -2
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
 inventory:
   weapons:
     - name: "Spear"
