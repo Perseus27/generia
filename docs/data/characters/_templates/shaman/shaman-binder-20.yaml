@@ -46,7 +46,9 @@ inventory:
     - name: "Leather Greaves"
     - name: "Shaman Amulet"
       q: 3
-    - name: "2× Ring"
+    - name: "Ring"
+      q: 1
+    - name: "Ring"
       q: 1
   misc:
     - name: "Adventurer's Pack II"
