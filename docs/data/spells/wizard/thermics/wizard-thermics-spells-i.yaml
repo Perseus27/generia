@@ -8,7 +8,7 @@ offensive:
     alias: [Thermic Beam I]
     id: "thermal-beam-i"
     auto_type: [SA, INT]
-    tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 5"]
+    tags: ["TIER I", "Fire", "Ice", "Offensive", "Range: 20m", "UPCAST 5"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
@@ -46,7 +46,7 @@ offensive:
     alias: [Thermic Bolt I]
     id: "thermal-bolt-i"
     auto_type: [PA, INT]
-    tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER I", "Fire", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -62,7 +62,7 @@ defensive:
     alias: [Thermic Barrier I]
     id: "thermal-barrier-i"
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Fire / Ice", "Reaction", "UPCAST 3"]
+    tags: ["TIER I", "Fire", "Ice", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -110,7 +110,7 @@ ritual:
   - name: "Thermal Manipulation"
     alias: [Thermic Manipulation]
     id: "thermal-manipulation"
-    tags: ["TIER I", "Ice / Fire", "Out of Combat"]
+    tags: ["TIER I", "Ice", "Fire", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:

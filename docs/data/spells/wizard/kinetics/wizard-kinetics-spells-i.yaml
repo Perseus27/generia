@@ -7,7 +7,7 @@ offensive:
   - name: "Kinetic Bolt I"
     id: "kinetic-bolt-i"
     auto_type: [PA, INT]
-    tags: ["TIER I", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER I", "Stone", "Water", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -36,7 +36,7 @@ defensive:
   - name: "Kinetic Barrier I"
     id: "kinetic-barrier-i"
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Stone / Water", "Reaction", "UPCAST 3"]
+    tags: ["TIER I", "Stone", "Water", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -128,7 +128,7 @@ utility:
 ritual:
   - name: "Kinetic Manipulation"
     id: "kinetic-manipulation"
-    tags: ["TIER I", "Stone / Water", "Out of Combat"]
+    tags: ["TIER I", "Stone", "Water", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:

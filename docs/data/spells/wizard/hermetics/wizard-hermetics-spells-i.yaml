@@ -150,7 +150,7 @@ ritual:
 
   - name: "Hermetic Manipulation"
     id: "hermetic-manipulation"
-    tags: ["TIER I", "Arcane / Light", "Out of Combat"]
+    tags: ["TIER I", "Arcane", "Light", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
