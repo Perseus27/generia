@@ -63,7 +63,7 @@ actions:
     - Mana Beam I
     - Ice Shrapnel
     - Sparkstream I
-    - Countershot
+    - Counter Shot
     - Arcane Barrier I
     - [Counterspell, "+8"]
     - [Dimension Step, "([section:clr-value]14m[/section])"]
