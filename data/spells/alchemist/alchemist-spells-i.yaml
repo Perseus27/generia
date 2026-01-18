@@ -114,7 +114,7 @@ utility:
       [b]Water:[/b] [url:status#Bleeding]Bleeding 1[/url]
       [br][b]Stone:[/b] [url:status#Brittle]Brittle 1[/url]
       [br][b]Fire:[/b] [url:status#Burning]Burning 1[/url]
-      [br][b]Air:[/b] [url:status#Knockback]Knockback[/url] [[section:clr-value]Pharmacy[/section]]
+      [br][b]Air:[/b] [url:status#Knockback]Knockback[/url] [section:clr-value]2[/section]
       [br][b]Ice:[/b] [url:status#Chilled]Chilled[/url]
       [br][b]Lightning:[/b] [url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]]
 
@@ -125,7 +125,7 @@ utility:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
       - "1× Water Dust"
-      - "1× Small Healing Potion"
+      - "1× Healing Potion, small"
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -155,7 +155,7 @@ utility:
       Creates a throwable grenade that detonates on impact.
       [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
     effect: >
-      All zones become [url:status#Brittle]Brittle 2[/url].
+      All zones become [url:status#Brittle]Brittle 1[/url].
     saved: "Roll one affected zone instead."
     saved10: "No effect."
 
@@ -248,7 +248,7 @@ utility:
 
   - name: "Golem Kit: Frontliner"
     id: "golem-kit-frontliner"
-    tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
+    tags: ["TIER I", "Mechanics", "Utility", "Construction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -258,12 +258,11 @@ utility:
       [br][i]Only one Golem Kit can be active at once.[/i]
     effect: >
       [b]Weapons:[/b] Mace, Roundshield
-      [br][b]Perks:[/b] [url:perksC#Opportunist]Opportunist[/url]
-      [br][b]Skills:[/b] [url:skills1#Shove]Shove[/url]
+      [br][b]Skills:[/b] [url:skills2#mighty-strike]Mighty Strike[/url], [url:skills1#shove]Shove[/url], [url:skills1#steady-block]Steady Block[/url]
 
   - name: "Golem Kit: Skirmisher"
     id: "golem-kit-frontliner"
-    tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
+    tags: ["TIER I", "Mechanics", "Utility", "Construction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -273,8 +272,7 @@ utility:
       [br][i]Only one Golem Kit can be active at once.[/i]
     effect: >
       [b]Weapons:[/b] Spear
-      [br][b]Perks:[/b] [url:perksC#Opportunist]Opportunist[/url]
-      [br][b]Skills:[/b] [url:skills1#Counter]Counter[/url]
+      [br][b]Skills:[/b] [url:skills1#counter]Counter[/url], [url:skills2#disarm]Disarm[/url], [url:skills1#feint]Feint[/url]
 
 
 ritual:
