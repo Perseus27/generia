@@ -33,6 +33,7 @@ items:
     slots: –
     rarity: 1
   - name: Chain Armor
+    alias: [Chainmail]
     type: Torso
     av: 6
     er: 0
