@@ -38,20 +38,25 @@ inventory:
         - PER+1
     - name: Knife
   armor:
-    - name: Black Hood+1
-    - name: Black Robe+2
+    - name: Black Hood
+      q: 1
+    - name: Black Robe
+      q: 2
       enchantments:
         - AV+1
         - MD+1
     - name: Padded Gauntlets
     - name: Padded Greaves
-    - name: Amulet+2
+    - name: Amulet
+      q: 2
       enchantments:
         - [Element Reroll I, "[section:clr-value]Void[/section]"]
       curses:
         - WIL-1
-    - name: Ring+1
-    - name: Ring+1
+    - name: Ring
+      q: 1
+    - name: Ring
+      q: 1
   misc:
     - name: Adventurer's Pack I
 actions:

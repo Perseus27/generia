@@ -42,13 +42,20 @@ inventory:
     - name: "Fist"
     - name: "Foot"
   armor:
-    - name: "Padded Helmet+1"
-    - name: "Padded Armor+1"
-    - name: "Padded Gauntlets+1"
-    - name: "Padded Greaves+1"
-    - name: "Shaman Amulet+2"
-    - name: "Ring+1"
-    - name: "Ring+1"
+    - name: "Padded Helmet"
+      q: 1
+    - name: "Padded Armor"
+      q: 1
+    - name: "Padded Gauntlets"
+      q: 1
+    - name: "Padded Greaves"
+      q: 1
+    - name: "Shaman Amulet"
+      q: 2
+    - name: "Ring"
+      q: 1
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:

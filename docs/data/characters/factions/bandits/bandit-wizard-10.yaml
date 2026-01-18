@@ -38,11 +38,13 @@ inventory:
     - name: "Wizard's Staff"
     - name: "Knife"
   armor:
-    - name: "Wizard Hat+1"
+    - name: "Wizard Hat"
+      q: 1
     - name: "Cloth Armor"
     - name: "Cloth Gauntlets"
     - name: "Cloth Greaves"
-    - name: "Amulet +2"
+    - name: "Amulet"
+      q: 2
   misc:
     - name: "Adventurer's Pack I"
 actions:

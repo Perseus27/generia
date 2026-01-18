@@ -42,9 +42,11 @@ inventory:
     - name: "Rapier"
     - name: "Knife"
   armor:
-    - name: "Padded Armor-1"
+    - name: "Padded Armor"
+      q: -1
     - name: "Cloth Gauntlets"
-    - name: "Amulet+1"
+    - name: "Amulet"
+      q: 1
   misc:
     - name: "Adventurer's Pack I"
 actions:

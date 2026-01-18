@@ -45,7 +45,8 @@ inventory:
     - name: "Cloth Greaves"
     - name: "Adventurer's Belt"
     - name: "Adventurer's Pouch"
-    - name: "Shaman Amulet +2"
+    - name: "Shaman Amulet"
+      q: 2
   misc:
     - name: "1× Fire core, weak"
     - name: "5 Silver"
