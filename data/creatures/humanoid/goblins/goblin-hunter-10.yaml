@@ -42,10 +42,12 @@ actions:
       type: Ranged Attack
       hit: "Hit+8, -1/0/0, 20m"
       damage: 1d6+1d4+3 Arrow
+      skills: [Aimed Shot, Careful Shot, Unpredictable Shot]
     - name: Goblin Spear
       type: Melee Attack
       hit: "Hit+6, Block+8|4"
       damage: 2d6+2 Sharp
+      skills: [Feint]
     - name: Nimble
       type: Reaction
       effect:
@@ -57,10 +59,13 @@ actions:
         - Gain [url:status#Hidden]Hidden 1[/url].
       cost: "[section:clr-en]1 EN[/section]"
   passive:
+    - name: Perks
+      type: Passive
+      perks: [Opportunist]
     - name: Proficiencies
       type: Passive
       effect:
-        - Shortbows [section:clr-value]+4[/section]
+        - Bows [section:clr-value]+4[/section]
         - Spears [section:clr-value]+2[/section]
     - name: Cowardly
       type: Passive
