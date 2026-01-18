@@ -123,8 +123,6 @@ class Character_Renderer_Auto:
                     if er_pre > 0:
                         er_pre = 0
                 er += er_pre
-            else:
-                head += 999
         # check if unarmored, apply ER bonus
         for x in [head, torso, arms, legs]:
             if x == 0:
