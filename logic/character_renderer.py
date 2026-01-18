@@ -81,29 +81,27 @@ class Character_Renderer:
     
     def format_armor(self):
         hit_zones = self.yaml_input.get("custom-hitzones", self.DEFAULT_HITZONES)
-        #all_armor = self.yaml_input.get("armor", {})
-        #a = [all_armor.get(x) for x in self.ARMOR_ORDER]
-        #er = all_armor.get("er")
+        armor_bonuses = self.yaml_input.get("armor")
         armor_values = self.auto.get_armor_values()
         h = armor_values.get("head")
         t = armor_values.get("torso")
         a = armor_values.get("arms")
         l = armor_values.get("legs")
         m = armor_values.get("md")
-        er = armor_values.get("er")        
-        head = f"{h[0]}"
+        er = armor_values.get("er") + int(armor_bonuses.get("er"))
+        head = h[0] + int(armor_bonuses.get("head"))
         if h[1] > 0:
             head = f"[section:clr-bonus]{h[0]+h[1]}[/section]"
-        torso = f"{t[0]}"
+        torso = t[0] + int(armor_bonuses.get("torso"))
         if t[1] > 0:
             torso = f"[section:clr-bonus]{t[0]+t[1]}[/section]"
-        arms = f"{a[0]}"
+        arms = a[0] + int(armor_bonuses.get("arms"))
         if h[1] > 0:
             arms = f"[section:clr-bonus]{a[0]+a[1]}[/section]"
-        legs = f"{l[0]}"
+        legs = l[0] + int(armor_bonuses.get("legs"))
         if h[1] > 0:
             legs = f"[section:clr-bonus]{l[0]+l[1]}[/section]"
-        md = f"{m[0]}"
+        md = m[0] + int(armor_bonuses.get("md"))
         if m[1] > 0:
             md = f"[section:clr-bonus]{m[0]+m[1]}[/section]"
         if er > 0:
