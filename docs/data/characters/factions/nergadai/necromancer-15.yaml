@@ -33,14 +33,17 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: Staff of the Necromancer
+    - name: Caster Staff
+      disp: Staff of the Necromancer
       enchantments:
         - PER+1
     - name: Knife
   armor:
-    - name: Black Hood
+    - name: Hood
+      disp: Black Hood
       q: 1
-    - name: Black Robe
+    - name: Robe
+      disp: Black Robe
       q: 2
       enchantments:
         - AV+1
@@ -48,6 +51,7 @@ inventory:
     - name: Padded Gauntlets
     - name: Padded Greaves
     - name: Amulet
+      disp: Amulet of the Necromancer
       q: 2
       enchantments:
         - [Element Reroll I, "[section:clr-value]Void[/section]"]
