@@ -44,7 +44,8 @@ inventory:
     - name: "Leather Armor"
     - name: "Padded Gauntlets"
     - name: "Padded Greaves"
-    - name: "Noxian Ring +1"
+    - name: "Noxian Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack I"
 actions:

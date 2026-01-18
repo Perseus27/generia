@@ -44,8 +44,10 @@ inventory:
     - name: "Chainmail"
     - name: "Chain Gauntlets"
     - name: "Leather Greaves"
-    - name: "Amulet+2"
-    - name: "Ring+1"
+    - name: "Amulet"
+      q: 2
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:

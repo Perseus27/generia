@@ -39,10 +39,13 @@ inventory:
     - name: "Fist"
     - name: "Knife"
   armor:
-    - name: "Leather Armor-1"
+    - name: "Leather Armor"
+      q: -1
     - name: "Leather Gauntlets"
-    - name: "Leather Greaves-1"
-    - name: "Amulet+1"
+    - name: "Leather Greaves"
+      q: -1
+    - name: "Amulet"
+      q: 1
   misc:
     - name: "Adventurer's Pack I"
 actions:

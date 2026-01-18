@@ -41,11 +41,14 @@ inventory:
     - name: "Foot"
   armor:
     - name: "Leather Helmet"
-    - name: "Leather Armor+1"
+    - name: "Leather Armor"
+      q: 1
     - name: "Leather Gauntlets"
     - name: "Leather Greaves"
-    - name: "Shaman Amulet +2"
-    - name: "Ring +1"
+    - name: "Shaman Amulet"
+      q: 2
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack I"
 actions:

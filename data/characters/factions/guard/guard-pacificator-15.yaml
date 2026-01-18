@@ -42,12 +42,18 @@ inventory:
       q: 2
     - name: "Knife"
   armor:
-    - name: "Scale Helmet+1"
-    - name: "Scale Armor+2"
-    - name: "Scale Gauntlets+1"
-    - name: "Scale Greaves+1"
-    - name: "Amulet+2"
-    - name: "Ring+1"
+    - name: "Scale Helmet"
+      q: 1
+    - name: "Scale Armor"
+      q: 2
+    - name: "Scale Gauntlets"
+      q: 1
+    - name: "Scale Greaves"
+      q: 1
+    - name: "Amulet"
+      q: 2
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack I"
 actions:

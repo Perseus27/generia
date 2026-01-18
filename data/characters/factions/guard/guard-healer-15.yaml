@@ -39,13 +39,20 @@ inventory:
     - name: "Healer's Staff"
     - name: "Knife"
   armor:
-    - name: "Padded Helmet+1"
-    - name: "Padded Armor+2"
-    - name: "Padded Gauntlets+1"
-    - name: "Padded Greaves+1"
-    - name: "Acolyte Amulet+3"
-    - name: "Ring+1"
-    - name: "Ring+1"
+    - name: "Padded Helmet"
+      q: 1
+    - name: "Padded Armor"
+      q: 2
+    - name: "Padded Gauntlets"
+      q: 1
+    - name: "Padded Greaves"
+      q: 1
+    - name: "Acolyte Amulet"
+      q: 3
+    - name: "Ring"
+      q: 1
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack I"
 actions:
