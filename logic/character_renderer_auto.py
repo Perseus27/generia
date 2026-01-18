@@ -175,7 +175,11 @@ class Character_Renderer_Auto:
         # Open
         result = "[li]"
         # Name+Quality
-        result += f"{weapon_full[1].get('name')}{qstring}"
+        name = weapon_full[1].get('name')
+        disp_name = weapon_full[1].get('disp', False)
+        if disp_name:
+            name = disp_name
+        result += f"{name}{qstring}"
         # Hit+X, Block+Y|Z
         result += "[container:subitem][section:clr-hit]"
         if block_value:
