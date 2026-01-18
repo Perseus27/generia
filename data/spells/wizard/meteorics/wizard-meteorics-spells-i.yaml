@@ -7,7 +7,7 @@ offensive:
   - name: "Meteoric Bolt I"
     id: "meteoric-bolt-i"
     auto_type: [PA, INT]
-    tags: ["TIER I", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER I", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -59,7 +59,7 @@ defensive:
   - name: "Meteoric Barrier I"
     id: "meteoric-barrier-i"
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Air / Lightning", "Reaction", "UPCAST 3"]
+    tags: ["TIER I", "Air", "Lightning", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -145,7 +145,7 @@ utility:
 ritual:
   - name: "Meteoric Manipulation"
     id: "meteoric-manipulation"
-    tags: ["TIER I", "Lightning / Air", "Out of Combat"]
+    tags: ["TIER I", "Lightning", "Air", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:

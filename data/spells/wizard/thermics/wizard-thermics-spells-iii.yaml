@@ -43,7 +43,7 @@ offensive:
   - name: "Hailstorm"
     id: "hailstorm"
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air / Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: ["TIER III", "Air", "Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -61,7 +61,7 @@ offensive:
     alias: [Thermic Beam III]
     id: "thermal-beam-iii"
     auto_type: [SA, INT]
-    tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 3"]
+    tags: ["TIER III", "Fire", "Ice", "Offensive", "Range: 30m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
@@ -82,7 +82,7 @@ offensive:
     alias: [Thermic Bolt III]
     id: "thermal-bolt-iii"
     auto_type: [PA, INT]
-    tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER III", "Fire", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -98,7 +98,7 @@ defensive:
     alias: [Thermic Barrier III]
     id: "thermal-barrier-iii"
     auto_type: [SD, INT, PER]
-    tags: ["TIER III", "Fire / Ice", "Reaction", "UPCAST 3"]
+    tags: ["TIER III", "Fire", "Ice", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -114,7 +114,7 @@ utility:
   - name: "Blizzard"
     id: "blizzard"
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air / Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: ["TIER III", "Air", "Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:

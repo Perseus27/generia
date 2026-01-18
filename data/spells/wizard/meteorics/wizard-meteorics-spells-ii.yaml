@@ -25,7 +25,7 @@ offensive:
   - name: "Meteoric Bolt II"
     id: "meteoric-bolt-ii"
     auto_type: [PA, INT]
-    tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER II", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -38,7 +38,7 @@ offensive:
   - name: "Thunderbolt I"
     id: "thunderbolt-i"
     auto_type: [SA, INT]
-    tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: ["TIER II", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -76,7 +76,7 @@ defensive:
   - name: "Meteoric Barrier II"
     id: "meteoric-barrier-ii"
     auto_type: [SD, INT, PER]
-    tags: ["TIER II", "Air / Lightning", "Reaction", "UPCAST 3"]
+    tags: ["TIER II", "Air", "Lightning", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -136,7 +136,7 @@ utility:
 
   - name: "Fog Cloud"
     id: "fog-cloud"
-    tags: ["TIER II", "Air / Water", "Utility", "Range: 20m", "UPCAST 3", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: ["TIER II", "Air", "Water", "Utility", "Range: 20m", "UPCAST 3", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
