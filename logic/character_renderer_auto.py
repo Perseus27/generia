@@ -41,7 +41,9 @@ class Character_Renderer_Auto:
             result += "[li]"
             name = a.get("name")
             disp_name = a.get("disp", False)
+            subname = False
             if disp_name:
+                subname = name
                 name = disp_name
             qval = int(a.get("q", 0))
             qstr = ""
@@ -50,6 +52,8 @@ class Character_Renderer_Auto:
             elif qval < 0:
                 qstr = f"-{qval}"
             result += f"{name}{qstr}"
+            if subname:
+                result += f"[container:subitem][section:subname]{subname}[/section][/container]"
             ench = a.get("enchantments", False)
             curses = a.get("curses", False)
             if ench:
@@ -179,10 +183,14 @@ class Character_Renderer_Auto:
         result = "[li]"
         # Name+Quality
         name = weapon_full[1].get('name')
+        subname = False
         disp_name = weapon_full[1].get('disp', False)
         if disp_name:
+            subname = name
             name = disp_name
         result += f"{name}{qstring}"
+        if subname:
+            result += f"[container:subitem][section:subname]{subname}[/section][/container]"
         # Hit+X, Block+Y|Z
         result += "[container:subitem][section:clr-hit]"
         if block_value:
