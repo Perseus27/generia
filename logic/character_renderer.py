@@ -81,28 +81,50 @@ class Character_Renderer:
     
     def format_armor(self):
         hit_zones = self.yaml_input.get("custom-hitzones", self.DEFAULT_HITZONES)
-        all_armor = self.yaml_input.get("armor", {})
-        a = [all_armor.get(x) for x in self.ARMOR_ORDER]
-        er = all_armor.get("er")
+        #all_armor = self.yaml_input.get("armor", {})
+        #a = [all_armor.get(x) for x in self.ARMOR_ORDER]
+        #er = all_armor.get("er")
+        armor_values = self.auto.get_armor_values()
+        h = armor_values.get("head")
+        t = armor_values.get("torso")
+        a = armor_values.get("arms")
+        l = armor_values.get("legs")
+        m = armor_values.get("md")
+        er = armor_values.get("er")        
+        head = f"{h[0]}"
+        if h[1] > 0:
+            head = f"[section:clr-bonus]{h[0]+h[1]}[/section]"
+        torso = f"{t[0]}"
+        if t[1] > 0:
+            torso = f"[section:clr-bonus]{t[0]+t[1]}[/section]"
+        arms = f"{a[0]}"
+        if h[1] > 0:
+            arms = f"[section:clr-bonus]{a[0]+a[1]}[/section]"
+        legs = f"{l[0]}"
+        if h[1] > 0:
+            legs = f"[section:clr-bonus]{l[0]+l[1]}[/section]"
+        md = f"{m[0]}"
+        if m[1] > 0:
+            md = f"[section:clr-bonus]{m[0]+m[1]}[/section]"
         if er > 0:
-            er = f"<span class='clr-bonus'>{er}</span>"
+            er = f"[section:clr-bonus]{er}[/section]"
         elif er < 0:
-            er = f"<span class='clr-malus'>{er}</span>"
+            er = f"[section:clr-malus]{er}[/section]"
         armor_bb = f"""
 [table][tr][td][b]{hit_zones[0]}[/b][/td]
-[td]{a[0]}[/td]
+[td]{head}[/td]
 [/tr]
 [tr][td][b]{hit_zones[1]}[/b][/td]
-[td]{a[1]}[/td]
+[td]{torso}[/td]
 [/tr]
 [tr][td][b]{hit_zones[2]}[/b][/td]
-[td]{a[2]}[/td]
+[td]{arms}[/td]
 [/tr]
 [tr][td][b]{hit_zones[3]}[/b][/td]
-[td]{a[3]}[/td]
+[td]{legs}[/td]
 [/tr]
 [tr][td][b]MD[/b][/td]
-[td]{a[4]}[/td]
+[td]{md}[/td]
 [/tr]
 [tr][td][b]ER[/b][/td]
 [td]{er}[/td]
@@ -147,7 +169,8 @@ class Character_Renderer:
         all_items = self.yaml_input.get("inventory")
         #weapons = self.list_builder.build_list_with_subitems(all_items.get("weapons"))
         weapons = self.auto.format_weapons()
-        armor = self.list_builder.build_list_with_subitems(all_items.get("armor"))
+        #armor = self.list_builder.build_list_with_subitems(all_items.get("armor"))
+        armor = self.auto.format_armor()
         misc = self.list_builder.build_list_with_subitems(all_items.get("misc"))
         items_formatted = {"weapons" : self.BB_HELPER.process(weapons), "armor" : self.BB_HELPER.process(armor), "misc" : self.BB_HELPER.process(misc)}
         return items_formatted

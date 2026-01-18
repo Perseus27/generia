@@ -33,7 +33,111 @@ class Character_Renderer_Auto:
             "WIL" : mod_list[4],
             "PER" : mod_list[5]
         }
-    
+
+    def format_armor(self):
+        armor = self.yaml_input.get("inventory").get("armor")
+        result = "[ul]"
+        for a in armor:
+            result += "[li]"
+            name = a.get("name")
+            qval = int(a.get("q", 0))
+            qstr = ""
+            if qval > 0:
+                qstr = f"+{qval}"
+            elif qval < 0:
+                qstr = f"-{qval}"
+            result += f"{name}{qstr}"
+            ench = a.get("enchantments", False)
+            curses = a.get("curses", False)
+            if ench:
+                result += f"[container:subitem]{self.list_builder.build_list(ench, to_link ='ench', list_type='comma', color_id='clr-ench')}[/container]"
+            if curses:
+                result += f"[container:subitem]{self.list_builder.build_list(curses, to_link ='ench', list_type='comma', color_id='clr-curse')}[/container]"
+            result += "[/li]"
+        return result + "[/ul]"
+
+    def get_armor_values(self):
+        armor = self.yaml_input.get("inventory").get("armor")
+        head = 0
+        head_bonus = 0
+        torso = 0
+        torso_bonus = 0
+        arms = 0
+        arms_bonus = 0
+        legs = 0
+        legs_bonus = 0
+        md = 0
+        md_bonus = 0
+        er = 0
+        for a in armor:
+            name = a.get("name")
+            ench = a.get("enchantments", False)
+            qval = int(a.get("q", 0))
+            av_bonus = 0
+            # get enchantment values
+            if ench:
+                for e in ench:
+                    if e == "AV+1":
+                        av_bonus += 1
+                    elif e == "AV+2":
+                        av_bonus += 2
+                    elif e == "AV+3":
+                        av_bonus += 3
+                    elif e == "MD+1":
+                        md_bonus += 1
+                    elif e == "MD+2":
+                        md_bonus += 2
+                    elif e == "MD+3":
+                        md_bonus += 3
+            # check if trinket, quit if true to skip expensive autolinker call
+            if name in ["Amulet","Ring"]:
+                md += qval
+                continue
+            adata = self.autolinker.fetch_armor_data(name)
+            if adata:
+                atype = adata.get("type", False)
+                av = int(adata.get("av"))
+                if atype == "Head":
+                    head += av + qval
+                    head_bonus += av_bonus
+                elif atype == "Torso":
+                    torso += av + qval
+                    torso_bonus += av_bonus
+                elif atype == "Arms":
+                    arms += av + qval
+                    arms_bonus += av_bonus
+                elif atype == "Legs":
+                    legs += av + qval
+                    legs_bonus += av_bonus
+                # check encumbrance rating
+                er_pre = int(adata.get("er", 0))
+                if er_pre < 0:
+                    #check if Armor Familiarity I or II
+                    cperks = self.yaml_input.get("perks").get("combat")
+                    er_perk_bonus = 0
+                    if "Armor Familiarity I" in cperks:
+                        er_perk_bonus = 1
+                    if "Armor Familiarity II" in cperks:
+                        er_perk_bonus = 2
+                    er_pre += er_perk_bonus
+                    if er_pre > 0:
+                        er_pre = 0
+                er += er_pre
+            else:
+                head += 999
+        # check if unarmored, apply ER bonus
+        for x in [head, torso, arms, legs]:
+            if x == 0:
+                er += 2
+        return {
+            "head":     [head, head_bonus],
+            "torso":    [torso, torso_bonus],
+            "arms":     [arms, arms_bonus],
+            "legs":     [legs, legs_bonus],
+            "md":       [md, md_bonus],
+            "er":       er
+        }
+
     def format_weapons(self):
         weapons = self.yaml_input.get("inventory").get("weapons")
         weapons_autocalc = []
@@ -53,7 +157,6 @@ class Character_Renderer_Auto:
         if len(weapons_manual):
             result += self.list_builder.build_list_with_subitems(weapons_manual)
         return result
-
 
     def calc_weapon(self, weapon_full):
         weapon = weapon_full[0]
@@ -135,6 +238,7 @@ class Character_Renderer_Auto:
                 return int(result/2)
         return result
 
+
     def format_spells(self):
         spells = self.yaml_input.get("actions").get("spells")
         spells_autocalc = []
@@ -167,7 +271,6 @@ class Character_Renderer_Auto:
                 if x[0] in spell.get("tags"):
                     result = x[1]
         return result
-
 
     def get_spell_hit_string(self, spell, prof):
         atype = spell.get("auto_type")
