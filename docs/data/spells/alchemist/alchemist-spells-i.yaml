@@ -144,7 +144,7 @@ utility:
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
-      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
       - "1× Fire Dust"
       - "1× Air Dust"
@@ -164,7 +164,7 @@ utility:
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
-      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
       - "3× Fire Dust"
       - "1× Air Dust"
@@ -184,7 +184,7 @@ utility:
     tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
-      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
       - "1× Fire Dust"
       - "1× Air Dust"
@@ -205,7 +205,7 @@ utility:
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
-      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
       - "2× Fire Dust"
       - "2× Air Dust"
@@ -229,7 +229,7 @@ utility:
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
-      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
       - "2× Water Dust"
       - "1× Medicinal Ingredients"
@@ -257,7 +257,7 @@ utility:
       Configures a controlled golem as a heavy frontliner, equipped with mace and shield.
       [br][i]Only one Golem Kit can be active at once.[/i]
     effect: >
-      [b]Weapons:[/b] Mace, Roundshield
+      [b]Weapons:[/b] Flanged Mace, Roundshield
       [br][b]Skills:[/b] [url:skills2#mighty-strike]Mighty Strike[/url], [url:skills1#shove]Shove[/url], [url:skills1#steady-block]Steady Block[/url]
 
   - name: "Golem Kit: Skirmisher"
