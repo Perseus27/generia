@@ -4,7 +4,7 @@ info:
   species: Human
   level: 15
   size: Medium
-  classes: [Fighter, Slasher]
+  classes: [Fighter, Swordfighter, Tempered I]
   tags: [Trained 20]
 notes: >
   [br]100 SP Base
@@ -75,12 +75,16 @@ actions:
     - Shove
     - Disarm
   spells:
-    - ""
+    - Impact
+    - Skin of Bronze
+    - Great Leap
+    - Killing Intent
+    - Looming Presence
   rituals:
     - ""
 proficiencies:
   magic:
-    - ""
+    - "Tempering: Beginner"
   weapons:
     - "Slashing: Intermediate"
     - [Sword, 5]
@@ -98,7 +102,6 @@ perks:
     - Edge Alignment
     - Conditioned I
     - Deflector
-    - Forerunner
     - Opportunist
 
   magic:
