@@ -42,7 +42,7 @@ inventory:
     - name: Roundshield
   armor:
     - name: Leather Helmet
-      q: 2
+      q: 1
     - name: Leather Armor
       q: 2
     - name: Leather Gauntlets
