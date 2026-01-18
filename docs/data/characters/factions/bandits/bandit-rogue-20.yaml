@@ -55,7 +55,7 @@ inventory:
     - name: "Adventurer's Pack II"
 actions:
   skills:
-    - Double Strike
+    - Multistrike
     - Aimed Strike
     - Charge
     - Feint
