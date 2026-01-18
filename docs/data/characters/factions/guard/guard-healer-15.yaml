@@ -36,7 +36,8 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Healer's Staff"
+    - name: "Caster Staff"
+      disp: Healer's Staff
     - name: "Knife"
   armor:
     - name: "Padded Helmet"
@@ -47,7 +48,10 @@ inventory:
       q: 1
     - name: "Padded Greaves"
       q: 1
-    - name: "Acolyte Amulet"
+    - name: "Amulet"
+      disp: Lunite Amulet
+      enchantments:
+        - [Focus, Acolyte]
       q: 3
     - name: "Ring"
       q: 1
