@@ -36,29 +36,30 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Bastard Sword"
+    - name: Bastard Sword
+      disp: Captain's Sword
       q: 3
       enchantments:
         - Sharp I
-    - name: "Roundshield"
-    - name: "Knife"
+    - name: Roundshield
+    - name: Knife
   armor:
-    - name: "Chain Helmet"
+    - name: Chain Helmet
       q: 2
-    - name: "Chainmail"
+    - name: Chainmail
       q: 3
-    - name: "Chain Gauntlets"
+    - name: Chain Gauntlets
       q: 2
-    - name: "Chain Greaves"
+    - name: Chain Greaves
       q: 2
-    - name: "Amulet"
+    - name: Amulet
       q: 3
-    - name: "Ring"
+    - name: Ring
       q: 1
-    - name: "Ring"
+    - name: Ring
       q: 1
   misc:
-    - name: "Adventurer's Pack I"
+    - name: Adventurer's Pack I
 actions:
   skills:
     - "Stance: Attack"
