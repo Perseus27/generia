@@ -32,7 +32,7 @@ items:
   damage: [2d6, Sharp]
   skill: Pierce
   hr: 1.5
-  dr: 0.0
+  dr: 0.5
   weight: 0.25
   size: 4x1
   rarity: 3
