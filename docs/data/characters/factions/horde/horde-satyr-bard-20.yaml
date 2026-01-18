@@ -41,12 +41,16 @@ inventory:
     - name: "Knife"
   armor:
     - name: "Padded Helmet"
-    - name: "Padded Armor+2"
+    - name: "Padded Armor"
+      q: 2
     - name: "Leather Gauntlets"
     - name: "Leather Greaves"
-    - name: "Amulet+3"
-    - name: "Ring+1"
-    - name: "Ring+1"
+    - name: "Amulet"
+      q: 3
+    - name: "Ring"
+      q: 1
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:

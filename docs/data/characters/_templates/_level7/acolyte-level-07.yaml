@@ -41,7 +41,8 @@ inventory:
     - name: "Cloth Armor"
     - name: "Cloth Gauntlets"
     - name: "Cloth Greaves"
-    - name: "Acolyte Amulet +2"
+    - name: "Acolyte Amulet"
+      q: 2
     - name: "Adventurer's Belt"
     - name: "Adventurer's Pouch"
     - name: "Weapon Belt"
