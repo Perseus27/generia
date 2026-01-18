@@ -43,7 +43,8 @@ inventory:
     - name: "Leather Armor"
     - name: "Leather Gauntlets"
     - name: "Padded Greaves"
-    - name: "Amulet +1"
+    - name: "Amulet"
+      q: 1
   misc:
     - name: "Adventurer's Pack I"
 actions:

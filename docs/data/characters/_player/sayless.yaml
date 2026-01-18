@@ -50,15 +50,20 @@ inventory:
       q: 3
     - name: Dagger
   armor:
-    - name: Leather Helmet+1
-    - name: Cloth Armor+2
+    - name: Leather Helmet
+      q: 1
+    - name: Cloth Armor
+      q: 2
       enchantments:
         - [RES, Sharp]
-    - name: Leather Gauntlets+2
-    - name: Padded Greaves+1
+    - name: Leather Gauntlets
+      q: 2
+    - name: Padded Greaves
+      q: 1
       enchantments:
         - DEX+1
-    - name: Amulet+3
+    - name: Amulet
+      q: 3
       enchantments:
         - [Focus, Nox]
   misc:

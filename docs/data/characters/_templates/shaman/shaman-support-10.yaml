@@ -42,7 +42,8 @@ inventory:
     - name: "Padded Armor"
     - name: "Padded Gauntlets"
     - name: "Padded Greaves"
-    - name: "Shaman Amulet +2"
+    - name: "Shaman Amulet"
+      q: 2
   misc:
     - name: "Adventurer's Pack I"
 actions:

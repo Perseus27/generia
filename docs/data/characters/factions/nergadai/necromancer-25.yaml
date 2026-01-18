@@ -39,28 +39,35 @@ inventory:
         - PER+1
     - name: Knife
   armor:
-    - name: Hood of the Necromancer+3
+    - name: Hood of the Necromancer
+      q: 3
       enchantments:
         - PER+1
         - Self Repair I
-    - name: Robe of the Necromancer+4
+    - name: Robe of the Necromancer
+      q: 4
       enchantments:
         - AV+1
         - MD+1
         - Self Repair I
-    - name: Padded Gauntlets+3
+    - name: Padded Gauntlets
+      q: 3
       enchantments:
         - CON+1
-    - name: Padded Greaves+3
+    - name: Padded Greaves
+      q: 3
       enchantments:
         - Swiftstep
-    - name: Amulet+4
+    - name: Amulet
+      q: 4
       enchantments:
         - [Element Reroll I, "[section:clr-value]Void[/section]"]
       curses:
         - WIL-1
-    - name: Ring+1
-    - name: Ring+1
+    - name: Ring
+      q: 1
+    - name: Ring
+      q: 1
   misc:
     - name: Adventurer's Pack II
 actions:

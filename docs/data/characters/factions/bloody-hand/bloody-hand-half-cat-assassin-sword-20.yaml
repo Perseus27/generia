@@ -44,14 +44,18 @@ inventory:
     - name: "Knife"
   armor:
     - name: "Padded Helmet"
-    - name: "Padded Armor+1"
+    - name: "Padded Armor"
+      q: 1
     - name: "Padded Gauntlets"
     - name: "Padded Greaves"
-    - name: "Amulet+2"
-    - name: "Ring+1"
+    - name: "Amulet"
+      q: 2
+    - name: "Ring"
+      q: 1
       enchantments:
         - [Focus, Nox]
-    - name: "Ring+1"
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:

@@ -45,12 +45,16 @@ inventory:
     - name: "Knife"
   armor:
     - name: "Chain Helmet"
-    - name: "Chainmail+1"
+    - name: "Chainmail"
+      q: 1
     - name: "Chain Gauntlets"
     - name: "Chain Greaves"
-    - name: "Amulet+2"
-    - name: "Ring+1"
-    - name: "Ring+1"
+    - name: "Amulet"
+      q: 2
+    - name: "Ring"
+      q: 1
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:

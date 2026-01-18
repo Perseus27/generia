@@ -38,12 +38,18 @@ inventory:
     - name: "Wizard's Staff"
     - name: "Knife"
   armor:
-    - name: "Wizard Hat+1"
-    - name: "Leather Armor+1"
-    - name: "Padded Gauntlets+1"
-    - name: "Padded Greaves+1"
-    - name: "Amulet+3"
-    - name: "2× Ring+1"
+    - name: "Wizard Hat"
+      q: 1
+    - name: "Leather Armor"
+      q: 1
+    - name: "Padded Gauntlets"
+      q: 1
+    - name: "Padded Greaves"
+      q: 1
+    - name: "Amulet"
+      q: 3
+    - name: "2× Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:

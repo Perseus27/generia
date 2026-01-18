@@ -44,12 +44,16 @@ inventory:
     - name: "Knife"
   armor:
     - name: "Leather Helmet"
-    - name: "Leather Armor+1"
+    - name: "Leather Armor"
+      q: 1
     - name: "Leather Gauntlets"
     - name: "Leather Greaves"
-    - name: "Amulet +2"
-    - name: "Noxian Ring +1"
-    - name: "Ring +1"
+    - name: "Amulet"
+      q: 2
+    - name: "Noxian Ring"
+      q: 1
+    - name: "Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:

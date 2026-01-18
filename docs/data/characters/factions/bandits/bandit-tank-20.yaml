@@ -41,11 +41,14 @@ inventory:
     - name: "Knife"
   armor:
     - name: "Plate Helmet"
-    - name: "Plate Armor+1"
+    - name: "Plate Armor"
+      q: 1
     - name: "Plate Gauntlets"
     - name: "Plate Greaves"
-    - name: "Amulet+2"
-    - name: "2× Ring+1"
+    - name: "Amulet"
+      q: 2
+    - name: "2× Ring"
+      q: 1
   misc:
     - name: "Adventurer's Pack II"
 actions:
