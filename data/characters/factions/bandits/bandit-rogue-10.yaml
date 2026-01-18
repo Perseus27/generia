@@ -43,7 +43,9 @@ inventory:
     - name: "Padded Armor"
       q: -1
     - name: "Cloth Gauntlets"
-    - name: "Noxian Ring"
+    - name: "Ring"
+      enchantments:
+        - [Focus, Nox]
       q: 1
   misc:
     - name: "Adventurer's Pack I"

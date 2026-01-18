@@ -41,15 +41,20 @@ inventory:
     - name: "Throwing Knife"
     - name: "Knife"
   armor:
-    - name: "Leather Helmet"
-    - name: "Leather Armor"
-    - name: "Leather Gauntlets"
-    - name: "Padded Greaves"
-    - name: "Amulet"
-      q: 2
-    - name: "Noxian Ring"
+    - name: Padded Helmet
       q: 1
-    - name: "Ring"
+    - name: Padded Armor
+      q: 1
+    - name: Padded Gauntlets
+      q: 1
+    - name: Padded Greaves
+    - name: Amulet
+      q: 2
+    - name: Ring
+      enchantments:
+        - [Focus, Nox]
+      q: 1
+    - name: Ring
       q: 1
   misc:
     - name: "Adventurer's Pack II"

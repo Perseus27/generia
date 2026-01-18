@@ -44,8 +44,8 @@ inventory:
     - name: "Knife"
   armor:
     - name: "Leather Armor"
-    - name: "Leather Gauntlets"
     - name: "Padded Gauntlets"
+    - name: "Padded Greaves"
     - name: "Amulet"
       q: 2
     - name: "Ring"
