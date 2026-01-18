@@ -68,7 +68,6 @@ actions:
     - Mighty Strike
     - Aimed Strike
     - Charge
-    - Swing
     - Feint
     - Counter
     - Leg Sweep
@@ -85,6 +84,8 @@ actions:
 proficiencies:
   magic:
     - "Tempering: Beginner"
+    - [Body, 2]
+    - [Soul, 1]
   weapons:
     - "Slashing: Intermediate"
     - [Sword, 5]
