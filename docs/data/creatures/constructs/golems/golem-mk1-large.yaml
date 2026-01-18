@@ -50,13 +50,18 @@ actions:
       type: "Melee Attack"
       hit: "Hit+2, Block+8|10"
       damage: "2d6+4 Blunt"
+      skills: [Mighty Strike, Shove, Steady Block]
 
     - name: "Spear"
       type: "Melee Attack, long"
       hit: "Hit+2, Block+8|8"
       damage: "2d6+6 Sharp"
+      skills: [Counter, Disarm, Feint]
 
   passive:
+    - name: "Perks"
+      type: "Passive"
+      perks: [Opportunist]
     - name: "Proficiencies"
       type: "Passive"
       effect: >
