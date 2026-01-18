@@ -33,18 +33,21 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: Staff of the Necromancer
+    - name: Caster Staff
+      disp: Staff of the Necromancer
       q: 2
       enchantments:
         - PER+1
     - name: Knife
   armor:
-    - name: Hood of the Necromancer
+    - name: Hood
+      disp: Hood of the Necromancer
       q: 3
       enchantments:
         - PER+1
         - Self Repair I
-    - name: Robe of the Necromancer
+    - name: Robe
+      disp: Robe of the Necromancer
       q: 4
       enchantments:
         - AV+1
@@ -59,6 +62,7 @@ inventory:
       enchantments:
         - Swiftstep
     - name: Amulet
+      disp: Amulet of the Necromancer
       q: 4
       enchantments:
         - [Element Reroll I, "[section:clr-value]Void[/section]"]
