@@ -2,7 +2,7 @@
 [container:home-links-left]
 [container:home-linkblock]
 [h2]Player Characters[/h2]
-[url:/generia/stats/characters/_player/sayless-stats]Sayless[/url]
+[url:/generia/stats/characters/_player/rhodo-sayless-stats]Rhodo & Sayless[/url]
 [/container]
 [/container]
 

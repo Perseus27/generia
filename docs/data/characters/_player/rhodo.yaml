@@ -1,0 +1,95 @@
+name: Rhodo
+id: rhodo
+info:
+  species: Dwarf
+  level: 13
+  size: Medium
+  classes: [Acolyte, Moon Priest]
+  tags: [–]
+notes: >
+  1100 XP
+  [br]
+  [br]90 SP Base
+  [br]+20 Bonus
+  [br]== 110 Total
+  [br]REST 0
+
+attributes:
+  CON: [5, 2]
+  STR: [4, 2]
+  DEX: [7, 3]
+  INT: [5, 2]
+  WIL: [9, 4]
+  PER: [5, 2]
+values:
+  EN: 10
+  MP: 15
+  MPR: 4
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Dwarven Axe
+    - name: Roundshield
+  armor:
+    - name: Leather Helmet
+      q: 2
+    - name: Leather Armor
+      q: 2
+    - name: Leather Gauntlets
+      q: 2
+    - name: Leather Greaves
+    - name: Amulet
+      disp: Acolyte Amulet
+      q: 3
+      enchantments:
+        - [Focus, Acolyte]
+  misc:
+    - ""
+actions:
+  skills:
+    - Shove
+  spells:
+    - Sunlight Spear
+    - Radiant Shield
+    - Healing
+    - Purify
+    - Prayer of Healing
+    - Blessing of Resilience
+  rituals:
+    - Prayer to Luna
+    - Mederi
+    - Videre
+proficiencies:
+  magic:
+    - "Acolyte: Intermediate"
+    - [Luna, 3]
+    - [Sol, 4]
+  weapons:
+    - "Slashing: Beginner"
+    - [Axe, 3]
+  civilian:
+    - [Medicine, 2]
+    - [Rites, 2]
+perks:
+  special:
+    - Stocky
+    - Unyielding
+
+  combat:
+    - ""
+
+  magic:
+    - Astral Body I
+    - Battle Meditation
+    - Focus I
+    - Misereor
