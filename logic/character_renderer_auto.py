@@ -205,6 +205,8 @@ class Character_Renderer_Auto:
     
     def get_weapon_damage_string(self, weapon, qvalue):
         wdamage = weapon.get("damage")
+        if weapon.get("type") == "Shield":
+            qvalue = 0
         dmg_bonus = int(int(self.mods.get("STR")) * float(weapon.get("dr")) + qvalue)
         bonus = ""
         if dmg_bonus > 0:
