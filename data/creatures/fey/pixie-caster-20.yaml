@@ -82,7 +82,7 @@ actions:
       save: "[b]Save [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]:[/b] No effect."
     - name: Invisibility
       type: Utility, Concentration
-      hit: "DC 22"
+      hit: "[section:clr-dc]DC 22[/section]"
       effect:
         - Hostiles have [url:core#Disadvantage]Disadvantage 1[/url] on all targeted actions against the Pixie.
         - Counts as [url:status#Hidden]Hidden 2[/url].
