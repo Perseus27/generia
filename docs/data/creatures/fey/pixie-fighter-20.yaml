@@ -1,34 +1,34 @@
-name: Pixie Fighter 10
-id: pixie-fighter-10
+name: Pixie Fighter 20
+id: pixie-fighter-20
 info:
   species: Fey
-  level: 10
+  level: 20
   size: Tiny
-  tags: [[Flying, 10], Freecaster, Sapient]
+  tags: [[Flying, 12], Freecaster, Sapient]
 notes: >
   A diminutive pixie. Extremely annoying to deal with, no matter the context.
 
 attributes:
-  CON: [3, 1]
+  CON: [5, 2]
   STR: [1, 0]
-  DEX: [8, 4]
+  DEX: [12, 6]
   INT: [5, 2]
-  WIL: [6, 3]
-  PER: [6, 3]
+  WIL: [8, 4]
+  PER: [10, 5]
 values:
   EN: 10
   MP: 10
   MPR: 2
-  WL: 2
-  WT: 5
+  WL: 3
+  WT: 6
   TN: 4
-  MS: 6
+  MS: 8
 armor:
   head: 0
   torso: 0
   arms: 0
   legs: 0
-  md: 3
+  md: 4
   er: 0
 loot:
   - "[section:clr-roll-noex]1d4[/section] Pixie Dust"
@@ -36,24 +36,24 @@ actions:
   active:
     - name: Needle
       type: Melee Attack
-      hit: "Hit+8"
+      hit: "Hit+12"
       damage: 1d8 Sharp
       skills: [Charge, Feint]
     - name: Weakpoint Strike
       type: Melee Attack
       effect:
-        - Executes a [i]Needle[/i] attack that ignores up to [section:clr-value]4[/section] AV.
+        - Executes a [i]Needle[/i] attack that ignores up to [section:clr-value]6[/section] AV.
       cost: "[section:clr-en]1 EN[/section]"
     - name: Fey Lights
       type: Utility, Range 12m
-      hit: "[section:clr-dc]DC 14[/section]"
+      hit: "[section:clr-dc]DC 17[/section]"
       effect:
         - Target becomes [url:status#Confused]Confused[/url].
       cost: "[section:clr-mp]1 MP[/section]"
       save: "[b]Save [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]:[/b] No effect."
     - name: Invisibility
       type: Utility, Concentration
-      hit: "DC 14"
+      hit: "DC 17"
       effect:
         - Hostiles have [url:core#Disadvantage]Disadvantage 1[/url] on all targeted actions against the Pixie.
         - Counts as [url:status#Hidden]Hidden 2[/url].
@@ -66,12 +66,12 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Polearms [section:clr-value]+4[/section]
-        - Arcane [section:clr-value]+1[/section] ([section:clr-attr]PER[/section])
-        - Light [section:clr-value]+1[/section] ([section:clr-attr]PER[/section])
+        - Polearms [section:clr-value]+6[/section]
+        - Arcane [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+        - Light [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
     - name: Enchanted Needle
       type: Passive
-      hit: "[section:clr-dc]DC 14[/section]"
+      hit: "[section:clr-dc]DC 17[/section]"
       effect:
         - "On [url:def#Hit]hit[/url] with [i]Needle[/i]: Target gets [url:status#Spellburn]Spellburn 2[/url]."
       save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Spellburn]Spellburn 1[/url]/No effect."

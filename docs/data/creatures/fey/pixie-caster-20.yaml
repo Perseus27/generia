@@ -1,25 +1,25 @@
-name: Pixie Caster 10
-id: pixie-caster-10
+name: Pixie Caster 20
+id: pixie-caster-20
 info:
   species: Fey
-  level: 10
+  level: 20
   size: Tiny
-  tags: [[Flying, 8], Freecaster, Sapient]
+  tags: [[Flying, 10], Freecaster, Sapient]
 notes: >
   A diminutive pixie. Extremely annoying to deal with, no matter the context.
 
 attributes:
-  CON: [3, 1]
+  CON: [4, 2]
   STR: [1, 0]
-  DEX: [6, 3]
-  INT: [5, 2]
-  WIL: [6, 3]
-  PER: [8, 4]
+  DEX: [7, 3]
+  INT: [7, 3]
+  WIL: [10, 5]
+  PER: [12, 6]
 values:
   EN: 5
-  MP: 15
-  MPR: 3
-  WL: 2
+  MP: 20
+  MPR: 4
+  WL: 3
   WT: 5
   TN: 3
   MS: 6
@@ -28,7 +28,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 4
+  md: 5
   er: 0
 loot:
   - "[section:clr-roll-noex]1d4[/section] Pixie Dust"
@@ -40,8 +40,8 @@ actions:
       damage: 1d8 Sharp
     - name: Arcane Missile
       type: Spell Attack, Range 20m
-      hit: "Hit+7"
-      damage: 2d6+3 Arcane
+      hit: "Hit+10"
+      damage: 4d6+4 Arcane
       effect:
         - "On [url:def#Hit]hit[/url]: Target gets [url:status#Spellburn]Spellburn 1[/url]."
       save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
@@ -50,6 +50,14 @@ actions:
       type: Spell Attack
       effect:
         - Simultaneously casts two [i]Arcane Missiles[/i] on different targets.
+    - name: Arcane Detonation
+      type: Spell Attack, Range 20m, Radius 2m
+      hit: "Hit+10"
+      damage: 3d8+4 Arcane
+      effect:
+        - "On [url:def#Hit]hit[/url]: Target gets [url:status#Spellburn]Spellburn 1[/url]."
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
+      cost: "[section:clr-mp]4 MP[/section]"
     - name: Surge
       type: Reaction
       effect:
@@ -60,16 +68,21 @@ actions:
       effect:
         - Select a singular creature or an area with a [section:clr-value]1 meter[/section] radius.
         - Then roll a [i]Chaos Check[/i] for the affected creature or area.
+    - name: Teleport
+      type: Utility|Movement, Range 18m
+      effect:
+        - Teleport to a free location within range and line of sight.
+      cost: "[section:clr-mp]2 MP[/section]"
     - name: Fey Lights
       type: Utility, Range 12m
-      hit: "[section:clr-dc]DC 16[/section]"
+      hit: "[section:clr-dc]DC 19[/section]"
       effect:
         - Target becomes [url:status#Confused]Confused[/url].
       cost: "[section:clr-mp]1 MP[/section]"
       save: "[b]Save [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]:[/b] No effect."
     - name: Invisibility
       type: Utility, Concentration
-      hit: "DC 16"
+      hit: "DC 22"
       effect:
         - Hostiles have [url:core#Disadvantage]Disadvantage 1[/url] on all targeted actions against the Pixie.
         - Counts as [url:status#Hidden]Hidden 2[/url].
@@ -83,8 +96,8 @@ actions:
       type: Passive
       effect:
         - Polearms [section:clr-value]+1[/section]
-        - Arcane [section:clr-value]+3[/section] ([section:clr-attr]PER[/section])
-        - Light [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+        - Arcane [section:clr-value]+4[/section] ([section:clr-attr]PER[/section])
+        - Light [section:clr-value]+3[/section] ([section:clr-attr]PER[/section])
     - name: Fey Soul
       type: Passive
       effect:
