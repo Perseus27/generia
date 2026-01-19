@@ -2,10 +2,10 @@ name: "Engineer"
 id: "class-engineer"
 prefix: "class2"
 description: >
-
+  Engineers are Alchemists with a fascination for Golem-building. Their creations are as versatile as they are dangerous.
 
 prerequisites:
-  - None
+  - Alchemist
 
 subclasses: []
 
@@ -13,13 +13,14 @@ perks:
   combat:
     - []
   magic:
-    - []
+    - [Quick Swap, "10 SP, X"]
+    - [Focus I, 10 SP]
 
 proficiencies:
   civilian:
     - []
   magic:
-    - []
+    - ["Alchemist: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -27,7 +28,8 @@ actions:
   skills:
     - []
   spells:
-    - []
-
-starter_set:
-  - []
+    - ["Golem Kit: Frontliner", 4 SP]
+    - ["Golem Kit: Skirmisher", 4 SP]
+    - ["Construction: Golem Core Mk. I", 4 SP]
+    - [Golem Activation, 4 SP]
+    - [Golem Armor I, 4 SP]

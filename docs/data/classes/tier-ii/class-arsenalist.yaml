@@ -2,24 +2,25 @@ name: "Arsenalist"
 id: "class-arsenalist"
 prefix: "class2"
 description: >
-
+  Arsenalists specialize in [i]Transmuted Weapons[/i], turning curiosities into deadly armaments.
 
 prerequisites:
-  - None
+  - Alchemist
 
-subclasses: []
+subclasses:
+  - Alchimetician
 
 perks:
   combat:
     - []
   magic:
-    - []
+    - [Intensity, 10 SP]
 
 proficiencies:
   civilian:
     - []
   magic:
-    - []
+    - ["Alchemist: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -27,7 +28,8 @@ actions:
   skills:
     - []
   spells:
-    - []
-
-starter_set:
-  - []
+    - [Explosive Rounds, "10 SP, X"]
+    - [Basic Ammunition II, 4 SP (Upgrade)]
+    - [Elemental Ammunition II, 4 SP (Upgrade)]
+    - [Emergency Shield I, 4 SP]
+    - ["Construction: Shotgun", 8 SP]

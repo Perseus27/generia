@@ -24,11 +24,11 @@ perks:
 proficiencies:
   civilian:
     - ["Arcana 2", 3 SP]
-    - ["Arithmetics 2", 3 SP]
-    - ["Medicine 1", 1 SP]
     - ["Tinkering 1", 1 SP]
   magic:
     - ["Alchemist: Beginner", 10 SP]
+    - [Mechanics 1, 1 SP]
+    - [Pharmacy 1, 1 SP]
   weapons:
     - []
 
@@ -36,14 +36,15 @@ actions:
   skills:
     - []
   spells:
-    - [Elemental Ammunition, 4 SP]
-    - [Elemental Ammunition, 4 SP]
-    - [Elemental Ammunition, 4 SP]
-    - [Elemental Ammunition, 4 SP]
-    - [Elemental Ammunition, 4 SP]
+    - [Basic Ammunition I, 4 SP]
+    - [Elemental Ammunition I, 4 SP]
+    - [Improvised Remedy I, 4 SP]
+    - [Desintegration, 4 SP]
+    - [Transmutation, 4 SP]
+    - ["Construction: Handgun", 4 SP]
 
 starter_set:
-  - "Transmuted Pistol"
+  - "Transmuted Handgun"
   - "Alchemist's Gauntlets, Cloth"
   - Cloth Armor
   - Weapon Belt
