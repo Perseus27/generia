@@ -2,10 +2,10 @@ name: "Medic"
 id: "class-medic"
 prefix: "class2"
 description: >
-
+  Medics are Alchemists specialized in Pharmacy, capable of delivering both cures and poison.
 
 prerequisites:
-  - None
+  - Alchemist
 
 subclasses: []
 
@@ -13,13 +13,13 @@ perks:
   combat:
     - []
   magic:
-    - []
+    - [Focus I, 10 SP]
 
 proficiencies:
   civilian:
     - []
   magic:
-    - []
+    - ["Alchemist: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -27,7 +27,9 @@ actions:
   skills:
     - []
   spells:
-    - []
-
-starter_set:
-  - []
+    - [Bioactive Incense, "10 SP, X"]
+    - [Improvised Remedy II, 4 SP (Upgrade)]
+    - [Improvised Poison I, 4 SP]
+    - [Therapeutic Ammunition I, 4 SP]
+    - [Therapeutic Ammunition II, 4 SP (Upgrade)]
+    - [Toxic Ammunition I, 4 SP]

@@ -7,27 +7,6 @@ is_exclusive: True
 exclusive:
   - subheader:
     is_subheader: True
-    name: Arsenalist
-    id: arsenalist
-
-  - name: Explosive Rounds
-    id: explosive-rounds
-    auto_type: [DC, INT]
-    tags: [TIER X, Arsenalist, Mechanics, Free Reaction, "Radius: 1m", "SP Cost: 10"]
-    type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
-    cost:
-      - "[section:clr-mp]2 MP[/section]"
-    description: >
-      The Arsenalist overcharges their next attack with a [url:/generia/character/spellasting-traditions/alchemist/what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url] within this turn, causing it to explode on impact.
-      [br]All creatures in a [section:clr-value]1 meter[/section] radius around the target take the full damage of the attack. The hit zone remains the same, if applicable.
-    effect: >
-      Ammunition damage becomes AoE.
-    saved: Damage halved.
-    saved10: No effect.
-
-  - subheader:
-    is_subheader: True
     name: Medic
     id: medic
 
@@ -47,3 +26,24 @@ exclusive:
     effect: >
       [b]Allies:[/b] [section:clr-attr]CON[/section] saves are [url:core#Eased]eased[/url] by [[section:clr-value]Pharmacy[/section]].
       [br][b]Hostiles:[/b] [section:clr-attr]CON[/section] saves are [url:core#Hindered]hindered[/url] by [[section:clr-value]Pharmacy[/section]].
+
+  - subheader:
+    is_subheader: True
+    name: Arsenalist
+    id: arsenalist
+
+  - name: Explosive Rounds
+    id: explosive-rounds
+    auto_type: [DC, INT]
+    tags: [TIER X, Arsenalist, Mechanics, Free Reaction, "Radius: 1m", "SP Cost: 10"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The Arsenalist overcharges their next attack with a [url:/generia/character/spellasting-traditions/alchemist/what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url] within this turn, causing it to explode on impact.
+      [br]All creatures in a [section:clr-value]1 meter[/section] radius around the target take the full damage of the attack. The hit zone remains the same, if applicable.
+    effect: >
+      Ammunition damage becomes AoE.
+    saved: Damage halved.
+    saved10: No effect.
