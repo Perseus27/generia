@@ -1,0 +1,70 @@
+name: Pixie Fighter 10
+id: pixie-fighter-10
+info:
+  species: Fey
+  level: 10
+  size: Tiny
+  tags: [[Flying, 10], Freecaster, Sapient]
+notes: >
+  A diminutive pixie. Extremely annoying to deal with, no matter the context.
+
+attributes:
+  CON: [3, 1]
+  STR: [1, 0]
+  DEX: [8, 4]
+  INT: [5, 2]
+  WIL: [6, 3]
+  PER: [6, 3]
+values:
+  EN: 5
+  MP: 15
+  MPR: 3
+  WL: 2
+  WT: 5
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+loot:
+  - "[section:clr-roll-noex]1d4[/section] Pixie Dust"
+actions:
+  active:
+    - name: Needle
+      type: Melee Attack
+      hit: "Hit+8"
+      damage: 1d6 Sharp
+      skills: [Charge, Feint]
+    - name: Weakpoint Strike
+      type: Melee Attack
+      hit: "Hit+8"
+      effect:
+        - Executes a [i]Needle[/i] attack that ignores up to [section:clr-value]4[/section] AV.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Fey Lights
+      type: Utility, Range 12m
+      hit: "[section:clr-dc]DC 14[/section]"
+      effect:
+        - Target becomes [url:status#Confused]Confused[/url].
+      cost: "[section:clr-mp]1 MP[/section]"
+      save: "[b]Save [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]:[/b] No effect."
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Astral Body I, Opportunist]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Polearms [section:clr-value]+4[/section]
+        - Arcane [section:clr-value]+1[/section] ([section:clr-attr]PER[/section])
+        - Light [section:clr-value]+1[/section] ([section:clr-attr]PER[/section])
+    - name: Enchanted Needle
+      type: Passive
+      hit: "[section:clr-dc]DC 14[/section]"
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Needle[/i]: Target gets [url:status#Spellburn]Spellburn 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Spellburn]Spellburn 1[/url]/No effect."
