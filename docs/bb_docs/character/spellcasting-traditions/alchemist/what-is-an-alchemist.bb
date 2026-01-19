@@ -71,6 +71,17 @@ Medium golems are the most commonly used type, with a humanoid build, balanced a
 Due to their immense ressource requirements, large golems aren't usually deployed in combat. Instead, their absurd strength and resilience are used for construction projects, logistics, and other manual labor.
 [br]Despite this, they are slow, but terrifying combatants best suited for perimeter defense, deterrence, and breaching fortified enemy positions.
 
+[h3]Golem Control[/h3]
+[h4]Giving Orders[/h4]
+To give a golem new orders, an Alchemist must as a [url:def#FreeAction]Free Action[/url] invest [section:clr-conc]Concentration[/section] for the turn. This is only possible if the golem is within [section:clr-value]20 meters[/section] of its creator.
+[br]Once given orders, the Golem will continue to follow them until it is rendered inoperable through damage or lack of fuel.
+[h4]Order Complexity[/h4]
+The intelligence of artificial spirits inhabiting Golem cores depends on the core's generation. Better cores can follow more complex and less specific instructions.
+[br][b]Core Mk. I:[/b] TBI
+[br][b]Core Mk. II:[/b] TBI
+[br][b]Core Mk. III:[/b] TBI
+[br][b]Etc.[/b]
+
 [h3]Golem Fuel[/h3]
 Golems require elemental energy to run. This is represented by their [section:clr-en]EN[/section] value. They are not picky eaters; any element type will do.
 [h4]Refueling[/h4]
