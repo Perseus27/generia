@@ -1,0 +1,74 @@
+name: Pixie Caster 10
+id: pixie-caster-10
+info:
+  species: Fey
+  level: 10
+  size: Tiny
+  tags: [[Flying, 8], Freecaster, Sapient]
+notes: >
+  A diminutive pixie. Extremely annoying to deal with, no matter the context.
+
+attributes:
+  CON: [3, 1]
+  STR: [1, 0]
+  DEX: [6, 3]
+  INT: [5, 2]
+  WIL: [6, 3]
+  PER: [8, 4]
+values:
+  EN: 5
+  MP: 15
+  MPR: 3
+  WL: 2
+  WT: 5
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+loot:
+  - "[section:clr-roll-noex]1d4[/section] Pixie Dust"
+actions:
+  active:
+    - name: Needle
+      type: Melee Attack
+      hit: "Hit+4"
+      damage: 1d6 Sharp
+    - name: Arcane Missile
+      type: Spell Attack, Range 20m
+      hit: "Hit+7"
+      damage: 2d6+3 Arcane
+      effect:
+        - "On [url:def#Hit]hit[/url]: Target gets [url:status#Spellburn]Spellburn 1[/url]."
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
+      cost: "[section:clr-mp]2 MP[/section]"
+    - name: Twin Missile
+      type: Spell Attack
+      effect:
+        - Simultaneously casts two [i]Arcane Missiles[/i] on different targets.
+    - name: Detonation
+      type: Reaction
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Arcane Missile[/i]: Immediately triggers all stacks of [url:status#Spellburn]Spellburn[/url]."
+      cost: "[section:clr-mp]1 MP[/section]"
+    - name: Fey Lights
+      type: Utility, Range 12m
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - Target becomes [url:status#Confused]Confused[/url].
+      cost: "[section:clr-mp]1 MP[/section]"
+      save: "[b]Save [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]:[/b] No effect."
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Astral Body I, Battle Meditation]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Polearms [section:clr-value]+1[/section]
+        - Arcane [section:clr-value]+3[/section] ([section:clr-attr]PER[/section])
+        - Light [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])

@@ -30,6 +30,8 @@
 [br][url:/generia/stats/creatures/humanoids/goblins]Goblins[/url]
 [br][url:/generia/stats/creatures/humanoids/ogres]Ogres[/url]
 [br][url:/generia/stats/creatures/humanoids/trolls]Trolls[/url]
+[h4]Fey[/h4]
+[url:/generia/stats/creatures/fey/pixies]Pixies[/url]
 [h4]Insectoids[/h4]
 [url:/generia/stats/creatures/insectoids/krii]Krii[/url]
 [h4]Dracids[/h4]
