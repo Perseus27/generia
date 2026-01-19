@@ -1,0 +1,109 @@
+name: Saffi
+id: saffi
+info:
+  species: Dwarf
+  level: 13
+  size: Medium
+  classes: [Fighter, Spearfighter, Tempered I]
+  tags: [–]
+notes: >
+  1100 XP
+  [br]
+  [br]95 SP Base
+  [br]+15 Bonus
+  [br]== 110 Total
+  [br]REST 0
+
+attributes:
+  CON: [7, 3, 1]
+  STR: [8, 4]
+  DEX: [7, 3]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [5, 2]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Spear
+      q: 3
+      enchantments:
+        - Sharp I
+    - name: Towershield
+    - name: Knife
+  armor:
+    - name: Leather Helmet
+      q: 1
+    - name: Leather Armor
+      q: 2
+    - name: Scale Gauntlets
+      q: 2
+      enchantments:
+        - CON+1
+    - name: Leather Greaves
+      q: 1
+    - name: Amulet
+      disp: Seashell Amulet
+      q: 3
+  misc:
+    - ""
+actions:
+  skills:
+    - "Stance: Intercept"
+    - Multistrike
+    - Charge
+    - Aimed Strike
+    - Counter
+    - Shield Bash
+    - Disarm
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Steady Block
+  spells:
+    - Impact
+    - Skin of Bronze
+    - Great Leap
+    - Killing Intent
+    - Looming Presence
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Tempering: Beginner"
+    - [Body, 2]
+    - [Soul, 2]
+  weapons:
+    - "Stabbing: Intermediate"
+    - [Polearm, 4]
+    - "Defensive: Beginner"
+    - [Shield, 3]
+  civilian:
+    - [Athletics, 2]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
+perks:
+  special:
+    - Stocky
+    - Unyielding
+
+  combat:
+    - Spearhead
+    - Conditioned I
+    - Opportunist
+
+  magic:
+    - ""

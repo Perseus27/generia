@@ -1,0 +1,101 @@
+name: Gavin Gray
+id: gavin-gray
+info:
+  species: Felis
+  level: 13
+  size: Medium
+  classes: [Sorcerer, Archer]
+  tags: [–]
+notes: >
+  1100 XP
+  [br]
+  [br]95 SP Base
+  [br]+15 Bonus
+  [br]== 110 Total
+  [br]REST 0
+
+attributes:
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [7, 3]
+  INT: [5, 2]
+  WIL: [7, 3]
+  PER: [8, 4, 2]
+values:
+  EN: 10
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Staff Sling
+      disp: Staff Sling of the Necromancer
+      enchantments:
+        - PER+1
+    - name: Luxin Ammo
+      damage: 1d4|1d6+Water Blunt
+    - name: Knife
+  armor:
+    - name: Leather Helmet
+      q: 1
+    - name: Leather Armor
+      q: 2
+    - name: Leather Gauntlets
+      q: 2
+      enchantments:
+        - CON+1
+    - name: Leather Greaves
+    - name: Amulet
+      disp: Seashell Amulet
+      q: 3
+  misc:
+    - ""
+actions:
+  skills:
+    - Unpredictable Shot
+    - Aimed Shot
+    - Hold Breath
+  spells:
+    - "[section:clr-dc]DC[/section]: [section:clr-value]21[/section]"
+    - "[section:clr-pa]PA[/section]: [section:clr-value]+11[/section]"
+    - "[section:clr-sa]SA[/section]: [section:clr-value]+11[/section]"
+    - "[section:clr-sd]SD[/section]: [section:clr-value]+13[/section]"
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Sorcerer: Beginner"
+    - [Luxin, 5]
+    - [Water, 4]
+  weapons:
+    - "Blunt: Beginner"
+    - "Ranged: Beginner"
+    - [Sling, 2]
+  civilian:
+    - [Arcana, 2]
+    - [Rites, 2]
+    - [Hunting, 2]
+    - [survival, 1]
+perks:
+  special:
+    - [Bloodline, "[section:clr-atr]PER[/section]"]
+    - [Tradition, Arcana]
+
+  combat:
+    - ""
+
+  magic:
+    - Arcane Artillery
+    - Astral Body I
+    - Battle Meditation
+    - Focus I
