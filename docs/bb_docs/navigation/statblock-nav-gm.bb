@@ -34,6 +34,8 @@
 [url:/generia/stats/creatures/insectoids/krii]Krii[/url]
 [h4]Dracids[/h4]
 [url:/generia/stats/creatures/dracids/wyverns]Wyverns[/url]
+[h4]Morphids[/h4]
+[url:/generia/stats/creatures/oddities/morphids]Morphids[/url]
 [h4]Beasts[/h4]
 [url:/generia/stats/creatures/beasts/beasts-mundane]Mundane[/url]
 [br][url:/generia/stats/creatures/beasts/beasts-rift]Rift[/url]
