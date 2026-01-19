@@ -57,12 +57,66 @@ defensive:
       - "[section:clr-mp]2 MP[/section]"
     description: >
       Rapidly creates a barrier of elemental stone to absorb damage from incoming attacks.
-      [br]The barrier breaks once its maximum is reached; excess damage carries over.
     effect: >
       [section:clr-roll]1d4[/section]+[section:clr-value]Mechanics[/section] Protection
 
 
 utility:
+  - subheader:
+    is_subheader: True
+    name: General
+    id: general-i
+
+  - name: Burning Sludge I
+    id: burning-sludge
+    tags: [Tier I, Pharmacy, Utility, Volatile, FIELD, "Range: 12m", "Radius: 1m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Fire Dust"
+      - "1× Water Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates a field of burning sludge on the ground that lasts for [section:clr-value]one Phase[/section].
+      [br]Creatures with [url:status#Levitating]Levitating 1[/url] suffer halved effects. Creatures further up are immune.
+      [br]The radius may be freely reduced at cast.
+    effect: >
+      [url:status#Burning]Burning 1[/url].
+
+  - name: Poisonous Sludge I
+    id: poisonous-sludge
+    tags: [Tier I, Pharmacy, Utility, Volatile, FIELD, "Range: 12m", "Radius: 1m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Poison I"
+      - "1× Water Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates a field of poisonous sludge on the ground that lasts for [section:clr-value]one Phase[/section].
+      [br]Creatures with [url:status#Levitating]Levitating 1[/url] suffer halved effects. Creatures further up are immune.
+      [br]The radius may be freely reduced at cast.
+    effect: >
+      [url:status#Poisoned]Poisoned 1[/url].
+
+  - name: Regenerative Sludge I
+    id: regenerative-sludge
+    tags: [Tier I, Pharmacy, Utility, Volatile, ZONE, "Range: 12m", "Radius: 1m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Healing Potion, small"
+      - "1× Water Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates a field of regenerative sludge on the ground that lasts for [section:clr-value]one Phase[/section].
+      [br]The radius may be freely reduced at cast.
+    effect: >
+      [url:status#Regeneration]Regeneration 1[/url].
+
   - subheader:
     is_subheader: True
     name: "Ammunition"
@@ -129,10 +183,25 @@ utility:
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
-      Creates up to [[section:clr-value]Pharmacy[/section]] units of therapeutic ammunition for a [url:#../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+      Creates up to [[section:clr-value]Pharmacy[/section]] units of therapeutic ammunition for a [url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
       [br][i]This ammunition does not require an attack roll against willing targets and may be fired as a [url:def#UtilityAction]Utility Action[/url].[/i]
     effect: >
       [section:clr-roll-noex]3d4[/section]+[section:clr-value]Quality[/section] Healing
+
+  - name: "Toxic Ammunition I"
+    id: "toxic-ammunition-i"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Water Dust"
+      - "1× Poison I"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Coats up to [[section:clr-value]Pharmacy[/section]] units of [url:#BasicAmmunitionI]Basic[/url] or [url:#ElementalAmmunitionI]Elemental Ammunition[/url] in toxic substances to be applied on [url:def#Hit]hit[/url].
+    effect: >
+      [url:status#Poisoned]Poisoned 1[/url].
 
   - subheader:
     is_subheader: True
@@ -224,6 +293,23 @@ utility:
     name: "Other Consumables"
     id: "other-consumables-i"
 
+  - name: "Improvised Poison I"
+    id: "improvised-poison-i"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "2× Water Dust"
+      - "1× Poisonous Ingredients"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Pharmacy[/section]] units of ephemeral poison, equivalent to [url:/generia/equipment/consumables#poisons]Poison I[/url]. May be directly applied like a poison, or used as a base for [url:#ToxicAmmunitionI]Toxic Ammunition I[/url].
+      [br][i]Poisonous ingredients can be any reagent with poisonous properties, from poisonous herbs to certain chemical compounds. Improvise within the bounds of reason.[/i]
+    effect: >
+      [url:status#Poisoned]Poisoned 1[/url].
+
   - name: "Improvised Remedy I"
     id: "improvised-remedy-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
@@ -236,7 +322,7 @@ utility:
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
-      Creates up to [[section:clr-value]Pharmacy[/section]] units of ephemeral medicine, equivalent to a Small Healing Potion. May be directly consumed like a potion, or used as a base for [url:#TherapeuticAmmunitionI]Therapeutic Ammunition I[/url].
+      Creates up to [[section:clr-value]Pharmacy[/section]] units of ephemeral medicine, equivalent to a [url:/generia/equipment/consumables#potions]Small Healing Potion[/url]. May be directly consumed like a potion, or used as a base for [url:#TherapeuticAmmunitionI]Therapeutic Ammunition I[/url].
       [br][i]Medicinal ingredients can be any reagent with healing properties, from medicinal herbs to certain chemical compounds. Improvise within the bounds of reason.[/i]
     effect: >
       [section:clr-roll-noex]3d4[/section]+[[section:clr-value]Pharmacy[/section]] Healing
@@ -398,7 +484,7 @@ ritual:
     effect: >
       Golem armor is increased by:
       [br][b]Core:[/b] 1
-      [br][b]Torso:[/b] 4
+      [br][b]Torso:[/b] 3
       [br][b]Arms:[/b] 2
       [br][b]Legs:[/b] 2
-      [br][b]MD:[/b] 1
+      [br][b]MD:[/b] 2

@@ -42,11 +42,13 @@ Each point in Pharmacy increases damage, [section:clr-dc]DC[/section], [section:
 Alchemists are adept at creating golems, mechanical constructs with a wide range of customization options.
 
 [h3]Golem Cores[/h3]
-Golems require artificial "cores", small computing units the size of a marble that essentially serve as the construct's brain. These cores are soul-bound to their creator, meaning that they can only be used by the Alchemist who made them.
+Golems require artificial "cores", small computing units the size of a marble that essentially serve as the construct's brain. The artificial spirits inhabiting these cores are soul-bound to their creator, meaning that they can only be used by the Alchemist who made them.
 [br]Golem cores are universal, meaning that the same core could control a tiny or large golem. They can be reused as many times as the Alchemist pleases, as long as they are not destroyed.
 [h4]Core Damage[/h4]
 Since cores are a golem's central processing unit, they occupy the [i]Head[/i] hit zone, regardless of their actual location in the golem's body.
 [br]Whenever a golem takes a core wound, it must succeed on a [section:clr-attr]CON[/section] save against [section:clr-value]10 + [Total Wounds][/section], or it is considered inoperable (functionally [url:status#Unconscious]Unconscious[/url]) until the damage is repaired.
+[h4]Core Destruction[/h4]
+Repairing a completely destroyed core takes as long as creating a new one, provided there are no pieces missing.
 
 [h4]Core Generations[/h4]
 Golem cores range from simple models to highly complex supercomputers. They are the defining factor of the resulting golem's overall strength, represented by their creature level:
@@ -54,7 +56,7 @@ Golem cores range from simple models to highly complex supercomputers. They are 
 [br][b]Core Mk. II:[/b] Level 20
 [br][b]Core Mk. III:[/b] Level 30
 [br][b]Etc.[/b]
-[br][i]For golem statblocks, see: [url:/generia/stats/creatures/constructs/golems/golems-mk1]Mk. I[/url], [url:/generia/stats/creatures/constructs/golems/golems-mk2]Mk. II[/url][/i]
+[br][i]See: [url:/generia/stats/creatures/constructs/golems]Golem Statblocks[/url][/i]
 
 [h3|GolemSizes]Golem Sizes[/h3]
 Golems come in four standardized sizes: Tiny, Small, Medium, and Large.
@@ -62,7 +64,7 @@ Golems come in four standardized sizes: Tiny, Small, Medium, and Large.
 Tiny golems are usually insect-like – diminutive and nimble. They are mostly useless in combat due to their inherent fragility and inability to equip Golem Kits, but they can serve as reliable scouting tools.
 [h4]Small[/h4]
 Small golems tend to be bipedal humanoids around the height of a dwarf, but spindly limbs and lack of armor plating give them an unsettling appearance.
-[br]Their role in combat is that of an assassin, rapidly engaging soft targets from unexpected angles and then retreating to avoid destruction.
+[br]Their role in combat is often that of an assassin, rapidly engaging soft targets from unexpected angles and then retreating to avoid destruction.
 [h4]Medium[/h4]
 Medium golems are the most commonly used type, with a humanoid build, balanced attributes, and a variety of equipment options. In combat, they can serve as physical damage dealers, body guards, or highly durable distractions.
 [h4]Large[/h4]

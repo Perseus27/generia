@@ -89,9 +89,9 @@ content:
     description: >
       Executes a [url:def#MeleeAttack]melee attack[/url]. On a [url:def#Hit]hit[/url], perform an [url:core#OpposedCheck]opposed [section:clr-attr]STR[/section] check[/url]. The loser is [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section]. In a tie, the higher weapon proficiency decides.
 
-  - name: Recoil
+  - name: Scattershot
     tags: [Offensive]
     cost:
-      - "[section:clr-encost]1 EN[/section]"
+      - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      Executes a [url:def#RangedAttack]ranged attack[/url]. The attacker is [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section]. On a [url:def#Hit]hit[/url], the defender is also [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section].
+      Executes a [url:def#RangedAttack]ranged attack[/url] on short range. This attack also targets one additional creature directly adjacent to the original target.
