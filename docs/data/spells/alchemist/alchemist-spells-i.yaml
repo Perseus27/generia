@@ -269,6 +269,23 @@ utility:
     saved: "Damage halved."
     saved10: "No effect."
 
+  - name: "Healing Grenade I"
+    id: "healing-grenade-i"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Water Dust"
+      - "1× Air Dust"
+      - "2× Healing Potion, small"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+    effect: >
+      [section:clr-roll]3d4[/section]+[section:clr-value]Quality[/section] [section:clr-heal]Healing[/section]
+
   - name: "Shock Grenade I"
     id: "shock-grenade-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
