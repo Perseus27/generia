@@ -65,8 +65,7 @@ actions:
     - Hold Breath
   spells:
     - "[section:clr-dc]DC[/section]: [section:clr-value]21[/section]"
-    - "[section:clr-pa]PA[/section]: [section:clr-value]+11[/section]"
-    - "[section:clr-sa]SA[/section]: [section:clr-value]+11[/section]"
+    - "[section:clr-pa]PA[/section]/[section:clr-sa]SA[/section]: [section:clr-value]+11[/section]"
     - "[section:clr-sd]SD[/section]: [section:clr-value]+13[/section]"
   rituals:
     - ""
