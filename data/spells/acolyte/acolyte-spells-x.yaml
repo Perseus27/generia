@@ -59,7 +59,7 @@ exclusive:
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
-      The Templar radiates a scorching light that immediately triggers all active [url:status#Lightburn]Lightburn[/url] on enemies within the radius.
+      The Templar radiates a scorching light that immediately triggers all active [url:status#Lightburn]Lightburn[/url] on enemies within a radius of [[section:clr-value]Sol[/section]] meters.
       [br][b]Sunstone:[/b] The save is [url:core#Hindered]hindered[/url] by [section:clr-value]10[/section].
     effect: >
       All instances of [url:status#Lightburn]Lightburn[/url] on affected enemies trigger immediately.
