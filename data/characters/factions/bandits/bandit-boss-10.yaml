@@ -35,7 +35,7 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Longsword"
+    - name: "Cutlass"
       q: 1
     - name: "Knife"
   armor:
