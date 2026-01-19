@@ -52,8 +52,6 @@ inventory:
       q: 2
     - name: Leather Gauntlets
       q: 2
-      enchantments:
-        - CON+1
     - name: Leather Greaves
     - name: Amulet
       disp: Seashell Amulet
