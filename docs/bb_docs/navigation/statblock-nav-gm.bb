@@ -47,6 +47,8 @@
 [br][url:/generia/stats/creatures/elementals/elementals-water]Water[/url], [url:/generia/stats/creatures/elementals/elementals-stone]Stone[/url], [url:/generia/stats/creatures/elementals/elementals-fire]Fire[/url], [url:/generia/stats/creatures/elementals/elementals-air]Air[/url]
 [h4]Void[/h4]
 [url:/generia/stats/creatures/void/skeletons]Skeletons[/url]
+[h4]Constructs[/h4]
+[url:/generia/stats/creatures/constructs/golems]Golems[/url]
 [/container]
 [/container]
 [/container]
