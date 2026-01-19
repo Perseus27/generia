@@ -1,4 +1,4 @@
-# Rhodo & Sayless
+# Gavin's Party
 
 {{ character('data/characters/_player/gavin.yaml') }}
 {{ character('data/characters/_player/rhodo.yaml') }}
