@@ -7,10 +7,8 @@ title: Morphids
     <h4>NAVIGATION</h4>
     <h5>Mimics</h5>
     <p>
-    <ul>
-    <li><a href="#chest-mimic-10">Chest Mimic, Level 10</a></li>
-    <li><a href="#chest-mimic-25">Chest Mimic, Level 25</a></li>
-    </ul>
+    <a href="#chest-mimic-10">Chest Mimic, Level 10</a>
+    <br><a href="#chest-mimic-25">Chest Mimic, Level 25</a>
     </p>
     <hr>
     <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
