@@ -6,18 +6,6 @@ is_exclusive: True
 content:
   - subheader:
     is_subheader: True
-    name: Arsenalist
-    id: arsenalist
-
-  - name: Catalysis
-    id: catalysis
-    sp-cost: 10
-    requirements: "[url:class2/class-arsenalist]Arsenalist[/url]"
-    description: >
-      Spells with the [i]TRANSMUTATION[/i] keyword cost [section:clr-value]1[/section] MP less.
-
-  - subheader:
-    is_subheader: True
     name: Skald
     id: skald
 
@@ -28,19 +16,6 @@ content:
     description: >
       [i]Da Capo[/i] spells do not end immediately on a failed Concentration check. Instead, their variable effect is reduced by [section:clr-value]1[/section].
       [br]If the variable effect reaches [section:clr-value]O[/section], the spell ends.
-
-  - subheader:
-    is_subheader: True
-    name: Medic
-    id: medic
-
-  - name: Disinfection
-    id: disinfection
-    sp-cost: 10
-    requirements: "[url:class2/class-medic]Medic[/url]"
-    description: >
-      May freely add the bonus effect [i]Disinfection[/i] to volatile transmutations, removing all negative status effects with [section:clr-dc]DC[/section] up to [section:clr-value]10 + Pharmacy + Medicine[/section].
-      [br]The [url:status#Corrupted]Corrupted[/url] status is not affected.
 
   - subheader:
     is_subheader: True
@@ -64,7 +39,7 @@ content:
     sp-cost: 10
     requirements: "[url:class2/class-moon-warden]Moon Warden[/url]"
     description: >
-      The spell [i][url:/w/generia-perseus27/a/acolyte-spells-article#Sanctuary]Sanctuary[/url][/i] also [url:Concentration#Eased]eases[/url] [url:def#Parry]Parry[/url] and [url:def#Block]Block[/url] rolls.
+      The spell [i][url:acolyteS#Sanctuary]Sanctuary[/url][/i] also [url:Concentration#Eased]eases[/url] [url:def#Parry]Parry[/url] and [url:def#Block]Block[/url] rolls.
 
   - subheader:
     is_subheader: True
@@ -128,6 +103,18 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Engineer
+    id: engineer
+
+  - name: Quick Swap
+    id: quick-swap
+    sp-cost: 10
+    requirements: "[url:class2/class-engineer]Engineer[/url]"
+    description: >
+      The first [url:alchemistS#golem-equipment-i]Golem Kit[/url] spell each turn is a [url:def#FreeAction]Free Action[/url].
+
+  - subheader:
+    is_subheader: True
     name: Sun Envoy
     id: sun-envoy
 
@@ -173,18 +160,6 @@ content:
     requirements: "[url:class2/class-binder]Binder[/url]"
     description: >
       Gains [url:Concentration#Advantage]Advantage 1[/url] on WIL checks per active Binding spell.
-
-  - subheader:
-    is_subheader: True
-    name: Engineer
-    id: engineer
-
-  - name: Subroutines
-    id: subroutines
-    sp-cost: 10
-    requirements: "[url:class2/class-engineer]Engineer[/url]"
-    description: >
-      Issuing golem commands via control unit can be performed as a [url:def#Reaction]Reaction[/url].
 
   - subheader:
     is_subheader: True

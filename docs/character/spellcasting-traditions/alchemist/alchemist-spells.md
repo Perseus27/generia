@@ -29,6 +29,8 @@ title: Alchemist Spells
     <li><a href="#RitualIV">Ritual</a></li>
     <br>
     <h4>Tier X</h4>
+    <li><a href="#bioactive-incense">Bioactive Incense (Medic)</a></li>
+    <li><a href="#explosive-rounds">Explosive Rounds (Arsenalist)</a></li>
     <br>
     <h4>See also:</h4>
     <li><a href="../what-is-an-alchemist">What is an Alchemist?</a></li>
@@ -39,3 +41,4 @@ title: Alchemist Spells
 
 {{ spells('data/spells/alchemist/alchemist-spells-i.yaml') }}
 {{ spells('data/spells/alchemist/alchemist-spells-ii.yaml') }}
+{{ spells('data/spells/alchemist/alchemist-spells-x.yaml') }}
