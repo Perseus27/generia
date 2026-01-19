@@ -88,7 +88,7 @@ proficiencies:
     - [survival, 1]
 perks:
   special:
-    - [Bloodline, "[section:clr-atr]PER[/section]"]
+    - [Bloodline, "[section:clr-attr]PER[/section]"]
     - [Tradition, Arcana]
 
   combat:
