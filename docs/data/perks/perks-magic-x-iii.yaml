@@ -6,6 +6,20 @@ is_exclusive: True
 content:
   - subheader:
     is_subheader: True
+    name: Alchimetician
+    id: alchimetician
+
+  - name: Aether Mark
+    id: aether-mark
+    sp-cost: 20
+    requirements: "[url:class3/class-alchimetician]Alchimetician[/url]"
+    description: >
+      Transmuted Ammunition with [url:alchemistS#aether-infusion]Aether Infusion[/url] applies the effect [i]Aether Mark[/i] on [url:def#Hit]hit[/url].
+      [br]This mark draws in hostile magic, causing [url:core#Disadvantage]Disadvantage 1[/url] on saves against [section:clr-sa]Spell Attacks[/section] and dodge rolls against [section:clr-pa]Projectile Attacks[/section], including transmuted ammunition.
+      [br]The cleanse [section:clr-dc]DC[/section] of this effect is equal to the Alchimetician's level. It lasts for [section:clr-value]one Phase[/section] if not cleansed.
+
+  - subheader:
+    is_subheader: True
     name: Elementalist
     id: elementalist
 

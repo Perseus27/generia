@@ -7,13 +7,36 @@ is_exclusive: True
 exclusive:
   - subheader:
     is_subheader: True
+    name: Alchimetician
+    id: alchimetician
+
+  - name: Aether Infusion
+    id: aether-infusion
+    tags: [TIER X, Alchimetician, Mechanics, Free Action, Volatile, "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Monster Core, any"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      The Alchimetician infuses up to [[section:clr-value]Mechanics[/section]] units of [url:alchemistS#basic-ammunition-ii]Basic Ammunition[/url] or [url:alchemistS#elemental-ammunition-ii]Elemental Ammunition[/url] with the arcane energies contained within a monster core.
+      [br]Through this, the total damage of the ammunition increases, and it gains the additional damage type [i]Arcane[/i].
+    effect: >
+      [b]Damage increase by core tier:[/b]
+      [b]Lesser:[/b] [section:clr-roll]1d6[/section]
+      [br][b]Normal:[/b] [section:clr-roll]2d6[/section]
+      [br][b]Greater:[/b] [section:clr-roll]3d6[/section]
+
+  - subheader:
+    is_subheader: True
     name: Medic
     id: medic
 
   - name: Bioactive Incense
     id: bioactive-incense
     auto_type: [DC, INT]
-    tags: [TIER X, Arsenalist, Pharmacy, Utility, Concentration, ZONE, "Radius: 6m", "SP Cost: 10"]
+    tags: [TIER X, Medic, Pharmacy, Utility, Concentration, ZONE, "Radius: 6m", "SP Cost: 10"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"

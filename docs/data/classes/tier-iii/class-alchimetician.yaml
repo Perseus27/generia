@@ -5,14 +5,14 @@ description: >
   Alchimetician
 
 prerequisites:
-  - Any Alchemist subclass
+  - Arsenalist
   - Hermetician
 
 subclasses: []
 
 perks:
   combat:
-    - []
+    - [Aether Mark, "20 SP, X"]
   magic:
     - []
 
@@ -20,7 +20,8 @@ proficiencies:
   civilian:
     - []
   magic:
-    - []
+    - ["Alchemist: Adept", 30 SP]
+    - ["Hermetics: Adept", 30 SP]
   weapons:
     - []
 
@@ -28,7 +29,4 @@ actions:
   skills:
     - []
   spells:
-    - []
-
-starter_set:
-  - []
+    - [Aether Infusion, "20 SP, X"]
