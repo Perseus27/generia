@@ -3,7 +3,7 @@
 [container:home-linkblock]
 [h2]Player Characters[/h2]
 [url:/generia/stats/characters/_player/gavins-party-stats]Gavin's Party[/url]
-[url:/generia/stats/characters/_player/karim-minu]Karim & Minu[/url]
+[br][url:/generia/stats/characters/_player/karim-minu]Karim & Minu[/url]
 [/container]
 [/container]
 
