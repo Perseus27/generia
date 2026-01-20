@@ -1,0 +1,111 @@
+name: Karim
+id: karim
+info:
+  species: Felis
+  level: 24
+  size: Medium
+  classes: [Shaman, Summoner, Binder, Elementalist, Sorcerer]
+  tags: [–]
+notes: >
+  350 XP
+  [br]
+  [br]150 SP Base
+  [br]+80 Bonus
+  [br]== 240 Total
+  [br]REST 5
+
+attributes:
+  CON: [7, 3]
+  STR: [4, 2]
+  DEX: [8, 4]
+  INT: [7, 3]
+  WIL: [14, 7, 2]
+  PER: [7, 3]
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Caster Staff
+    - name: Roundshield
+      q: 1
+    - name: Knife
+  armor:
+    - name: Chain Helmet
+      q: 2
+    - name: Leather Armor
+      q: 2
+    - name: Leather Gauntlets
+      q: 2
+    - name: Leather Greaves
+    - name: Amulet
+      disp: Shaman Amulet
+      q: 3
+      enchantments:
+        - [Focus, Shaman]
+    - name: Ring
+      q: 1
+    - name: Ring
+      q: 1
+
+  misc:
+    - ""
+actions:
+  skills:
+    - ""
+  spells:
+    - Elemental Field
+    - "Summon: Greater Elemental"
+    - Elemental Fury
+    - Wave of Healing
+    - Wind Tunnel
+    - Elemental Favor
+    - Flame of Defiance
+    - Lesser Tailwind
+    - Lesser Wind Ward
+    - Lesser Cleansing Flame
+    - Lesser Elemental Guidance
+    - Lesser Elemental Call
+    - Low Stone Wall
+  rituals:
+    - Elemental Manipulation
+proficiencies:
+  magic:
+    - "Shaman: Adept"
+    - [Summoning, 4]
+    - [Binding, 2]
+    - "Sorcerer: Beginner"
+    - [Fusion, 4]
+  weapons:
+    - ""
+  civilian:
+    - [Arcana, 3]
+    - [Arithmetics, 1]
+    - [History, 1]
+perks:
+  special:
+    - [Bloodline, "[section:clr-attr]WIL[/section]"]
+    - [Tradition, Rites]
+
+  combat:
+    - ""
+
+  magic:
+    - Channel Element
+    - Firm Bond
+    - Spiritual Resilience
+    - Astral Body I
+    - Battle Meditation
+    - Focus II

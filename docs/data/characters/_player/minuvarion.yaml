@@ -1,0 +1,128 @@
+name: Minuvarion
+id: minuvarion
+info:
+  species: Elf
+  level: 24
+  size: Medium
+  classes: [Wizard, Meteorician, Thermician, Hermetician, Magus]
+  tags: [–]
+notes: >
+  350 XP
+  [br]
+  [br]165 SP Base
+  [br]+75 Bonus
+  [br]== 240 Total
+  [br]REST 1
+
+attributes:
+  CON: [5, 2, 1]
+  STR: [4, 2]
+  DEX: [8, 4]
+  INT: [13, 6, 1]
+  WIL: [9, 4]
+  PER: [8, 4]
+values:
+  EN: 10
+  MP: 25
+  MPR: 4
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Wizard's Staff
+    - name: Knife
+  armor:
+    - name: Hat
+      disp: Wizard's Hat
+      q: 3
+    - name: Leather Armor
+      q: 2
+    - name: Cloth Gauntlets
+      enchantments:
+        - CON+2
+      q: 2
+    - name: Cloth Greaves
+      q: 1
+    - name: Amulet
+      disp: Seashell Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of the Stormcaller
+      q: 1
+      enchantments:
+        - [Element Reroll I, Lightning]
+      curses:
+        - CON-1
+    - name: Ring
+      q: 1
+
+  misc:
+    - ""
+actions:
+  skills:
+    - ""
+  spells:
+    - Frost Lance I
+    - Fireball I
+    - Meteoric Bolt II
+    - Zap II
+    - Ball Lightning
+    - Thunderbolt I
+    - Levitation
+    - Counterspell
+    - Dimension Step
+    - Mana Beam I
+    - Ice Shrapnel
+    - Meteoric Barrier I
+    - Air Burst
+    - Lightning Step
+    - Discharge
+    - Neuroshock
+    - Counter Shot
+  rituals:
+    - Hermetic Manipulation
+    - Meteoric Manipulation
+    - Thermic Manipulation
+proficiencies:
+  magic:
+    - "Meteorics: Adept"
+    - [Lightning, 4]
+    - [Air, 3]
+    - "Hermetics: Intermediate"
+    - [Arcane, 1]
+    - "Thermics: Intermediate"
+    - [Fire, 3]
+    - [Ice, 3]
+  weapons:
+    - ""
+  civilian:
+    - [Arcana, 3]
+    - [Arithmetics, 1]
+    - [History, 1]
+perks:
+  special:
+    - Arcane Flow
+    - Harmony
+
+  combat:
+    - ""
+
+  magic:
+    - Mighty Magics
+    - Practiced Hermetician
+    - Practiced Meteorician
+    - Practiced Thermician
+    - Arcane Artillery
+    - Astral Body I
+    - Battle Meditation
+    - Cold Calculation
+    - Focus I
