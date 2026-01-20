@@ -35,7 +35,7 @@ offensive:
 defensive:
   - name: "Mighty Stonewall"
     id: "mighty-stonewall"
-    tags: ["TIER IV", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    tags: ["TIER IV", "Summoning", Stone, "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -47,7 +47,7 @@ defensive:
 
   - name: "Mighty Wind Ward"
     id: "mighty-wind-ward"
-    tags: ["TIER IV", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER IV", "Summoning", Air, "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -100,7 +100,7 @@ utility:
 
   - name: "Mighty Flame of Defiance"
     id: "mighty-flame-of-defiance"
-    tags: ["TIER IV", "Binding (Fire)", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER IV", "Binding", Fire, "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -112,7 +112,7 @@ utility:
 
   - name: "Mighty Tailwind"
     id: "mighty-tailwind"
-    tags: ["TIER IV", "Binding (Air)", "Utility", "Radius: 24m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER IV", Binding, Air, "Utility", "Radius: 24m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -124,7 +124,7 @@ utility:
 
   - name: "Mighty Wave of Healing"
     id: "mighty-wave-of-healing"
-    tags: ["TIER IV", "Binding (Water)", "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
+    tags: ["TIER IV", Binding, Water, "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -137,7 +137,7 @@ utility:
 
   - name: "Mighty Wind Tunnel"
     id: "mighty-wind-tunnel"
-    tags: ["TIER IV", "Summoning (Air)", "Utility", "Range: 8m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER IV", Summoning, Air, "Utility", "Range: 8m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

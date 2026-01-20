@@ -33,7 +33,7 @@ offensive:
 defensive:
   - name: "High Stonewall"
     id: "high-stonewall"
-    tags: ["TIER III", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    tags: ["TIER III", Summoning, Stone, "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -45,7 +45,7 @@ defensive:
 
   - name: "Greater Wind Ward"
     id: "greater-wind-ward"
-    tags: ["TIER III", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER III", Summoning, Air, "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -60,7 +60,7 @@ utility:
   - name: "Greater Cleansing Flame"
     id: "greater-cleansing-flame"
     auto_type: [DC+, WIL]
-    tags: ["TIER III", "Binding (Fire)", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER III", Binding, Fire, "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section] Status Effects"
     cost:
@@ -127,7 +127,7 @@ utility:
 
   - name: "Greater Flame of Defiance"
     id: "greater-flame-of-defiance"
-    tags: ["TIER III", "Binding (Fire)", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER III", Binding, Fire, "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -139,7 +139,7 @@ utility:
 
   - name: "Greater Tailwind"
     id: "greater-tailwind"
-    tags: ["TIER III", "Binding (Air)", "Utility", "Radius: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER III", Binding, Air, "Utility", "Radius: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -151,7 +151,7 @@ utility:
 
   - name: "Greater Wave of Healing"
     id: "greater-wave-of-healing"
-    tags: ["TIER III", "Binding (Water)", "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
+    tags: ["TIER III", Binding, Water, "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -164,7 +164,7 @@ utility:
 
   - name: "Greater Wind Tunnel"
     id: "greater-wind-tunnel"
-    tags: ["TIER III", "Summoning (Air)", "Utility", "Range: 8m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER III", Summoning, Air, "Utility", "Range: 8m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
