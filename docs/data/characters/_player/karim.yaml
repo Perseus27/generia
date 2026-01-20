@@ -84,7 +84,7 @@ actions:
 proficiencies:
   magic:
     - "Shaman: Adept"
-    - [Summoning, 4]
+    - [Summoning, 5]
     - [Binding, 2]
     - "Sorcerer: Beginner"
     - [Fusion, 4]
