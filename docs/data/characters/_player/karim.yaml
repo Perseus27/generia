@@ -91,9 +91,7 @@ proficiencies:
   weapons:
     - ""
   civilian:
-    - [Arcana, 3]
-    - [Arithmetics, 1]
-    - [History, 1]
+    - [Rites, 4]
 perks:
   special:
     - [Bloodline, "[section:clr-attr]WIL[/section]"]
