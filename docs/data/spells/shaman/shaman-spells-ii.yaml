@@ -33,7 +33,7 @@ offensive:
 defensive:
   - name: "Stonewall"
     id: "stonewall"
-    tags: ["TIER II", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    tags: ["TIER II", Summoning, Stone, "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -45,7 +45,7 @@ defensive:
 
   - name: "Wind Ward"
     id: "wind-ward"
-    tags: ["TIER II", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER II", Summoning, Air, "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -60,7 +60,7 @@ utility:
   - name: "Cleansing Flame"
     id: "cleansing-flame"
     auto_type: [DC+, WIL]
-    tags: ["TIER II", "Binding (Fire)", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER II", Binding, Fire, "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section] Status Effects"
     cost:
@@ -127,7 +127,7 @@ utility:
 
   - name: "Flame of Defiance"
     id: "flame-of-defiance"
-    tags: ["TIER II", "Binding (Fire)", "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER II", Binding, Fire, "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -139,7 +139,7 @@ utility:
 
   - name: "Tailwind"
     id: "tailwind"
-    tags: ["TIER II", "Binding (Air)", "Utility", "Radius: 16m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER II", Binding, Air, "Utility", "Radius: 16m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -151,7 +151,7 @@ utility:
 
   - name: "Wave of Healing"
     id: "wave-of-healing"
-    tags: ["TIER II", "Binding (Water)", "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
+    tags: ["TIER II", Binding, Water, "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -164,7 +164,7 @@ utility:
 
   - name: "Wind Tunnel"
     id: "wind-tunnel"
-    tags: ["TIER II", "Summoning (Air)", "Utility", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: ["TIER II", Summoning, Air, "Utility", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
