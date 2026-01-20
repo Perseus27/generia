@@ -20,7 +20,7 @@ attributes:
   DEX: [8, 4]
   INT: [13, 6, 1]
   WIL: [9, 4]
-  PER: [8, 4]
+  PER: [8, 4, 1]
 values:
   EN: 10
   MP: 25
@@ -55,8 +55,9 @@ inventory:
     - name: Cloth Greaves
       q: 1
     - name: Amulet
-      disp: Seashell Amulet
-      q: 3
+      q: 4
+      enchantments:
+        - PER+1
     - name: Ring
       disp: Ring of the Stormcaller
       q: 1

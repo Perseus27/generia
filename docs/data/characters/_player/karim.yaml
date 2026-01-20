@@ -19,7 +19,7 @@ attributes:
   STR: [4, 2]
   DEX: [8, 4]
   INT: [7, 3]
-  WIL: [14, 7, 2]
+  WIL: [14, 7, 3]
   PER: [7, 3]
 values:
   EN: 10
@@ -28,7 +28,7 @@ values:
   WL: 5
   WT: 7
   TN: 3
-  MS: 6
+  MS: 8
 armor:
   head: 0
   torso: 0
@@ -43,14 +43,21 @@ inventory:
       q: 1
     - name: Knife
   armor:
-    - name: Chain Helmet
-      q: 2
+    - name: Leather Helmet
+      q: 3
+      enchantments:
+        - AV+1
     - name: Leather Armor
-      q: 2
+      q: 3
+      enchantments:
+        - WIL+1
+        - MD+1
     - name: Leather Gauntlets
       q: 2
-    - name: Padded Greaves
-      disp: Karim's Stylish Pants
+    - name: Chain Greaves
+      q: 2
+      enchantments:
+        - Swiftstep
     - name: Amulet
       disp: Shaman Amulet
       q: 3
