@@ -29,7 +29,7 @@ content:
     sp-cost: 10
     requirements: –
     description: >
-      By spending [i]Concentration[/i], you may roll any [url:def#PA]projectile attack[/url] or [url:def#SA]spell attack[/url] as a [section:clr-dc]DC+[/section] check instead.
+      By spending [i]Concentration[/i] and [section:clr-mp]1 MP[/section], you may roll any [url:def#PA]projectile attack[/url] or [url:def#SA]spell attack[/url] as a [section:clr-dc]DC+[/section] check instead.
       This roll is [url:core#Eased]eased[/url] by [section:clr-value]4[/section] per [url:core#Advantage]Advantage[/url] stage and [url:core#Hindered]hindered[/url] by [section:clr-value]4[/section] per [url:core#Disadvantage]Disadvantage[/url] stage.
       
   - name: Focus I
