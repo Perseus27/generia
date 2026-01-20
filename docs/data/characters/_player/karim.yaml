@@ -49,14 +49,18 @@ inventory:
       q: 2
     - name: Leather Gauntlets
       q: 2
-    - name: Leather Greaves
+    - name: Padded Greaves
+      disp: Karim's Stylish Pants
     - name: Amulet
       disp: Shaman Amulet
       q: 3
       enchantments:
         - [Focus, Shaman]
     - name: Ring
+      disp: Siren's Ring
       q: 1
+      enchantments:
+        - WIL+1
     - name: Ring
       q: 1
 
