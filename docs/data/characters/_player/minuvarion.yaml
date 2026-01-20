@@ -39,6 +39,8 @@ armor:
 inventory:
   weapons:
     - name: Wizard's Staff
+      enchantments:
+        - [Focus, Wizard]
     - name: Knife
   armor:
     - name: Hat
