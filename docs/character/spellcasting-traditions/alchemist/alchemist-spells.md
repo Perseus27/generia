@@ -41,4 +41,5 @@ title: Alchemist Spells
 
 {{ spells('data/spells/alchemist/alchemist-spells-i.yaml') }}
 {{ spells('data/spells/alchemist/alchemist-spells-ii.yaml') }}
+{{ spells('data/spells/alchemist/alchemist-spells-iii.yaml') }}
 {{ spells('data/spells/alchemist/alchemist-spells-x.yaml') }}

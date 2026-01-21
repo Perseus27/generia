@@ -68,7 +68,7 @@ utility:
     id: general-i
 
   - name: Burning Sludge I
-    id: burning-sludge
+    id: burning-sludge-i
     tags: [Tier I, Pharmacy, Utility, Volatile, FIELD, "Range: 12m", "Radius: 1m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -85,7 +85,7 @@ utility:
       [url:status#Burning]Burning 1[/url].
 
   - name: Poisonous Sludge I
-    id: poisonous-sludge
+    id: poisonous-sludge-i
     tags: [Tier I, Pharmacy, Utility, Volatile, FIELD, "Range: 12m", "Radius: 1m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -102,7 +102,7 @@ utility:
       [url:status#Poisoned]Poisoned 1[/url].
 
   - name: Regenerative Sludge I
-    id: regenerative-sludge
+    id: regenerative-sludge-i
     tags: [Tier I, Pharmacy, Utility, Volatile, ZONE, "Range: 12m", "Radius: 1m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
