@@ -96,10 +96,10 @@ class Character_Renderer:
         if t[1] > 0:
             torso = f"[section:clr-bonus]{t[0]+t[1]}[/section]"
         arms = a[0] + int(armor_bonuses.get("arms"))
-        if h[1] > 0:
+        if a[1] > 0:
             arms = f"[section:clr-bonus]{a[0]+a[1]}[/section]"
         legs = l[0] + int(armor_bonuses.get("legs"))
-        if h[1] > 0:
+        if l[1] > 0:
             legs = f"[section:clr-bonus]{l[0]+l[1]}[/section]"
         md = m[0] + int(armor_bonuses.get("md"))
         if m[1] > 0:
