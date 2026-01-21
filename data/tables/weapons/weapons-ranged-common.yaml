@@ -125,7 +125,7 @@ items:
   tags: []
 
 - name: Javelin
-  type: Thrown
+  type: Polearm
   damage: [2d6, Arrow]
   skill: Force
   hr: 1.0
@@ -138,7 +138,7 @@ items:
   tags: []
 
 - name: Throwing Knife
-  type: Thrown
+  type: Dagger
   damage: [2d4, Sharp]
   skill: Kite
   hr: 1.0
