@@ -35,6 +35,11 @@
 	margin: 4px 0px 4px;
 }
 
+.spell li {
+	font-size: .7rem;
+	margin-bottom: 0 !important;
+}
+
 
 .skill {
 	background: rgba(180,180,180,0.05);
