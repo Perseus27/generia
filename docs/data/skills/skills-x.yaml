@@ -13,7 +13,7 @@ tier2:
     id: mighty-shot
     tags: [Tier X, "[url:class2/class-field-archer]Field Archer[/url]", Offensive, "Range: Weapon", "SP Cost: 10"]
     cost:
-      - "[section:clr-encost]1/2/34/5 EN[/section]"
+      - "[section:clr-encost]1/2/3/4/5 EN[/section]"
       - "[url:def#MovementAction]Movement Action[/url]"
     description: >
       Uses both the attack and movement actions to execute a [url:def#RangedAttack]ranged attack[/url], [url:core#Hindered]hindered[/url] by 4/6/8/10/12.
