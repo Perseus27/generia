@@ -9,7 +9,10 @@ prerequisites:
   - "[i]Slashing [sup]or[/sup] Stabbing: Beginner[/i]"
 
 subclasses:
+  - Champion
   - Moon Dancer
+  - Specialist
+  - Templar
 
 perks:
   combat:

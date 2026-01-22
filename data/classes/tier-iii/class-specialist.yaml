@@ -1,0 +1,32 @@
+name: Specialist
+id: class-specialist
+prefix: class3
+description: >
+  On the way to the peak of martial prowess, few Fighters can avoid becoming Specialists – 
+  frighteningly competent martial artists focused on a particular category of melee weapon.
+
+prerequisites:
+  - Any [url:class1/class-fighter]Fighter[/url] subclass
+  - "Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing: Intermediate"
+subclasses: []
+
+perks:
+  combat:
+    - [Momentum, "20 SP, X"]
+    - [Routine, 10 SP]
+  magic:
+    - []
+
+proficiencies:
+  magic:
+    - []
+  weapons:
+    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing: Adept", 30 SP]
+
+actions:
+  skills:
+    - [True Strike, "20 SP, X"]
+    - ["Stance: Attack", 12 SP]
+    - ["Technique: Second Wind", 8 SP]
+  spells:
+    - []
