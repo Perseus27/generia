@@ -26,8 +26,9 @@ class Class_Renderer:
         actions = c.get("actions")
         proficiencies = c.get("proficiencies")
         prof_civilian = proficiencies.get("civilian", False)
-        if prof_civilian[0] == []:
-            prof_civilian = False
+        if prof_civilian:
+            if prof_civilian[0] == []:
+                prof_civilian = False
         starter_set = c.get("starter_set", [])
         # class header
         result = f"[container:class-main]"
@@ -145,9 +146,9 @@ class Class_Renderer:
         # info
         result += f"[container:class-card-info]"
         # prerequisites
-        result += f"[h4]Prerequisites[/h4]{self.list_builder.build_list(c.get('prerequisites'), list_type='comma', to_link='class-overview')}"
+        result += f"[h4]Prerequisites[/h4]{self.list_builder.build_list(c.get('prerequisites'), list_type='commabr', to_link='class-overview')}"
         # subclasses
-        result += f"[h4]Prerequisites[/h4]{self.list_builder.build_list(c.get('subclasses'), list_type='comma', to_link='class-overview')}"
+        result += f"[h4]Subclasses[/h4]{self.list_builder.build_list(c.get('subclasses'), list_type='comma', to_link='class-overview')}"
         # close info
         result += f"[/container]"
         # close body

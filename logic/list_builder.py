@@ -67,6 +67,8 @@ class List_Builder:
                         result += f"[section:prof-sub]{first_part} {second_part}[/section]"
                     else:
                         result += f"[section:prof-main]{i}[/section]"
+                elif class_list:
+                    result += f"{ctag_open}{first_part} [i]({second_part}{ctag_close})[/i]"
                 else:
                     result += ctag_open+i+ctag_close
             if list_type == "ul":
