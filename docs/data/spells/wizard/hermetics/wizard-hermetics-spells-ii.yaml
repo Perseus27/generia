@@ -79,15 +79,21 @@ defensive:
 
   - name: "Counterspell"
     id: "counterspell"
+    auto_type: [SA, INT]
     tags: ["TIER II", "Arcane", "Reaction", "Range: 20m"]
     type:
-      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]???[/section]"
     cost:
       - "[section:clr-mpcost][[section:clr-value]Target Spell Tier[/section]] MP[/section]"
     description: >
       Initiate a mental duel with another caster to interrupt their casting.
-      [br][section:clr-attr]INT-MOD[/section] + [section:clr-value]Arcane[/section] vs [section:clr-attr]Casting-Attr.-MOD[/section] + [section:clr-value]Proficiency[/section].
-      [br]If the target spell is not a Wizard spell, the Wizard must perform a [url:/generia/rules/magic/chaotic-magic#ChaosCheck]Chaos Check[/url] regardless of success.
+      [br]The Wizard must roll the [section:clr-sa]Spell Attack[/section] against the first applicable value on this list:
+      [ul]
+      [li]The hostile spell's [section:clr-pa]PA[/section] or [section:clr-sa]SA[/section][/li]
+      [li]The hostile spell's [section:clr-dc]DC[/section][/li]
+      [li]The hostile caster's [section:clr-roll]1d20[/section] + [section:clr-attr]Casting-Attr.-MOD[/section] + [section:clr-value]Proficiency[/section][/li]
+      [/ul]
+      If the target spell is not a Wizard spell, the Wizard must perform a [url:/generia/rules/magic/chaotic-magic#ChaosCheck]Chaos Check[/url] regardless of success.
     effect: >
       On success, the target spell is dispelled. The target spell's MP costs are refunded, except for [section:clr-value]1[/section] MP.
 
