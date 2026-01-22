@@ -1,6 +1,6 @@
-name: "Meteorician"
-id: "class-meteorician"
-prefix: "class2"
+name: Meteorician
+id: class-meteorician
+prefix: class2
 description: >
   Meteoricians are Wizards who specialize in air and lightning spells.
 
@@ -15,11 +15,9 @@ perks:
   combat:
     - []
   magic:
-    - ["Practiced Meteorician", "20 SP, X"]
+    - [Practiced Meteorician, "20 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -29,10 +27,7 @@ actions:
   skills:
     - []
   spells:
-    - ["Meteorics: Intermediate", "20 SP"]
-    - ["Air Burst", "4 SP"]
-    - ["Thunderbolt I", "8 SP"]
-    - ["Levitation", "8 SP"]
-
-starter_set:
-  - []
+    - ["Meteorics: Intermediate", 20 SP]
+    - [Air Burst, 4 SP]
+    - [Thunderbolt I, 8 SP]
+    - [Levitation, 8 SP]

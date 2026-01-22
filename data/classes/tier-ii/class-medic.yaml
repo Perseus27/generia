@@ -1,6 +1,6 @@
-name: "Medic"
-id: "class-medic"
-prefix: "class2"
+name: Medic
+id: class-medic
+prefix: class2
 description: >
   Medics are Alchemists specialized in Pharmacy, capable of delivering both cures and poison.
 
@@ -16,8 +16,6 @@ perks:
     - [Focus I, 10 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - ["Alchemist: Intermediate", 20 SP]
   weapons:

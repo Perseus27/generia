@@ -1,36 +1,30 @@
-name: "Therianthrope"
-id: "class-therianthrope"
-prefix: "class2"
+name: Therianthrope
+id: class-therianthrope
+prefix: class2
 description: >
-  Lorem Ipsum
+  Therianthropes embrace primal shapeshifting magics, immersing themselves in the beast souls they hunt.
 
 prerequisites:
-  - Druide
+  - Druid
 
 subclasses: []
 
 perks:
   combat:
-    - ["Opportunist", "10 SP"]
+    - [Opportunist, 10 SP]
   magic:
-    - ["Second Nature", "10 SP, X"]
+    - [Second Nature, "10 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Druid: Intermediate", 20 SP]
   weapons:
     - []
 
 actions:
   skills:
-    - ["Charge", "4 SP"]
-    - ["Feint", "4 SP"]
-    - ["Shove", "4 SP"]
+    - [Charge, 4 SP]
+    - [Feint, 4 SP]
+    - [Shove, 4 SP]
   spells:
-    - ["Druid: Intermediate", "20 SP"]
-    - ["Theriomorphosis: Hybrid", "8 SP"]
-
-starter_set:
-  - []
+    - ["Theriomorphosis: Hybrid", 8 SP]

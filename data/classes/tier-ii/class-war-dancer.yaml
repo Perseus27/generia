@@ -1,6 +1,6 @@
-name: "War Dancer"
-id: "class-war-dancer"
-prefix: "class2"
+name: War Dancer
+id: class-war-dancer
+prefix: class2
 description: >
   War Dancers specialize in polearms and dominate the battlefield with elegant precision and considerable reach.
 
@@ -13,14 +13,12 @@ subclasses:
 
 perks:
   combat:
-    - ["Zone of Control", "10 SP, X"]
-    - ["Opportunist", "10 SP"]
+    - [Zone of Control, "10 SP, X"]
+    - [Opportunist, 10 SP]
   magic:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -28,11 +26,8 @@ proficiencies:
 
 actions:
   skills:
-    - ["Swift Parry", "4 SP"]
-    - ["Counter", "4 SP"]
-    - ["Whirl", "12 SP"]
+    - [Swift Parry, 4 SP]
+    - [Counter, 4 SP]
+    - [Whirl, 12 SP]
   spells:
     - []
-
-starter_set:
-  - []

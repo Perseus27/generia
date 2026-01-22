@@ -1,6 +1,6 @@
-name: "Slasher"
-id: "class-slasher"
-prefix: "class2"
+name: Slasher
+id: class-slasher
+prefix: class2
 alias: [Axefighter, Swordfighter]
 description: >
   Slashers are experts in slashing weapons of all kinds.
@@ -17,26 +17,21 @@ subclasses:
 
 perks:
   combat:
-    - ["Edge Alignment", "10 SP, X"]
-    - ["Opportunist", "10 SP"]
+    - [Edge Alignment, "10 SP, X"]
+    - [Opportunist, 10 SP]
   magic:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
-    - ["Slashing: Intermediate", "20 SP"]
+    - ["Slashing: Intermediate", 20 SP]
 
 actions:
   skills:
-    - ["Counter", "4 SP"]
-    - ["Mighty Strike", "8 SP"]
-    - ["Disarm", "8 SP"]
+    - [Counter, 4 SP]
+    - [Mighty Strike, 8 SP]
+    - [Disarm, 8 SP]
   spells:
     - []
-
-starter_set:
-  - []

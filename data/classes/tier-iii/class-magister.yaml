@@ -1,11 +1,11 @@
-name: "Magister"
-id: "class-magister"
-prefix: "class3"
+name: Magister
+id: class-magister
+prefix: class3
 description: >
-  Magister
+  Originally a title associated with faculty heads at Wizard academies, Magisters tend to excel in utility magic and battlefield control.
 
 prerequisites:
-  - Hermetician [sup]or[/sup] Kinetician [sup]or[/sup] Meteorician [sup]or[/sup] Thermician
+  - "[url:class2/class-hermetician]Hermetician[/url] [sup]or[/sup] [url:class2/class-kinetician]Kinetician[/url] [sup]or[/sup] [url:class2/class-meteorician]Meteorician[/url] [sup]or[/sup] [url:class2/class-thermician]Thermician[/url]"
 
 subclasses: []
 
@@ -13,15 +13,13 @@ perks:
   combat:
     - []
   magic:
-    - ["Disruption Matrix", "20 SP, X"]
-    - ["Astral Body I", "10 SP"]
-    - ["Shield Mage", "20 SP"]
+    - [Disruption Matrix, "20 SP, X"]
+    - [Astral Body I, 10 SP]
+    - [Shield Mage, 20 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", 30 SP]
   weapons:
     - []
 
@@ -29,8 +27,4 @@ actions:
   skills:
     - []
   spells:
-    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", "30 SP"]
-    - ["Negate", "20 SP, X"]
-
-starter_set:
-  - []
+    - [Negate, "20 SP, X"]

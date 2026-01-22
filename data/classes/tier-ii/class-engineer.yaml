@@ -1,6 +1,6 @@
-name: "Engineer"
-id: "class-engineer"
-prefix: "class2"
+name: Engineer
+id: class-engineer
+prefix: class2
 description: >
   Engineers are Alchemists with a fascination for Golem-building. Their creations are as versatile as they are dangerous.
 
@@ -17,8 +17,6 @@ perks:
     - [Focus I, 10 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - ["Alchemist: Intermediate", 20 SP]
   weapons:

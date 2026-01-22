@@ -1,6 +1,6 @@
-name: "Fighter"
-id: "class-fighter"
-prefix: "class1"
+name: Fighter
+id: class-fighter
+prefix: class1
 description: >
   Fighters can handle a variety of weapon groups and are trained in the arts of war. Their versatility makes them valuable in any adventuring party.
 
@@ -27,13 +27,13 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Warfare 2", 3 SP]
-    - ["Monster Lore 1", 1 SP]
+    - [Warfare 2, 3 SP]
+    - [Monster Lore 1, 1 SP]
   magic:
     - []
   weapons:
-    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing Weapons: Beginner", 10 SP]
-    - ["Defensive Weapons: Beginner", 10 SP]
+    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing: Beginner", 10 SP]
+    - ["Defensive: Beginner", 10 SP]
 
 actions:
   skills:
@@ -45,13 +45,13 @@ actions:
     - []
 
 starter_set:
-  - "Broadsword [sup]or[/sup] Mace [sup]or[/sup] Rapier [sup]or[/sup] Spear"
-  - "Roundshield [sup]or[/sup] Buckler"
+  - Broadsword [sup]or[/sup] Mace [sup]or[/sup] Rapier [sup]or[/sup] Spear
+  - Roundshield [sup]or[/sup] Buckler
   - Leather Helmet
   - Leather Armor
   - Leather Gauntlets
   - Leather Greaves
   - Weapon Belt
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
+  - Adventurer's Belt
+  - Adventurer's Pouch
   - 5 Silver

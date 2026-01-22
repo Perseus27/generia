@@ -1,6 +1,6 @@
-name: "Duelist"
-id: "class-duelist"
-prefix: "class2"
+name: Duelist
+id: class-duelist
+prefix: class2
 description: >
   Duelists are specialists in nimble one-on-one combat. Few enemies can stand up to their rapid strikes and deft parries.
 
@@ -14,26 +14,21 @@ subclasses:
 
 perks:
   combat:
-    - ["Lone Fighter", "20 SP, X"]
+    - [Lone Fighter, "20 SP, X"]
   magic:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
-    - ["Slashing [sup]or[/sup] Stabbing: Intermediate", "20 SP"]
+    - ["Slashing [sup]or[/sup] Stabbing: Intermediate", 20 SP]
 
 actions:
   skills:
-    - ["Aimed Strike", "4 SP"]
-    - ["Swift Parry", "4 SP"]
-    - ["Counter", "4 SP"]
-    - ["Disarm", "8 SP"]
+    - [Aimed Strike, 4 SP]
+    - [Swift Parry, 4 SP]
+    - [Counter, 4 SP]
+    - [Disarm, 8 SP]
   spells:
     - []
-
-starter_set:
-  - []

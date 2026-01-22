@@ -1,6 +1,6 @@
-name: "Shaman"
-id: "class-shaman"
-prefix: "class1"
+name: Shaman
+id: class-shaman
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/shaman/what-is-a-shaman]What is a Shaman?[/url]
 
@@ -23,7 +23,7 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Rites 3", 6 SP]
+    - [Rites 3, 6 SP]
   magic:
     - ["Shaman: Beginner", 10 SP]
   weapons:
@@ -42,8 +42,8 @@ actions:
 
 starter_set:
   - Combat Staff
-  - "Shaman Amulet +2"
+  - Shaman Amulet +2
   - Thick Clothing
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
+  - Adventurer's Belt
+  - Adventurer's Pouch
   - 2 Gold

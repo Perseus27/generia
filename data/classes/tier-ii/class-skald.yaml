@@ -1,6 +1,6 @@
-name: "Skald"
-id: "class-skald"
-prefix: "class2"
+name: Skald
+id: class-skald
+prefix: class2
 description: >
   Skalds are warrior-bards who inspire allies in the thick of battle.
 
@@ -16,11 +16,9 @@ perks:
   combat:
     - []
   magic:
-    - ["Defiance", "20 SP, X"]
+    - [Defiance, "20 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -30,11 +28,8 @@ actions:
   skills:
     - []
   spells:
-    - ["Bard: Intermediate", "20 SP"]
-    - ["Verse of Steadyness", "4 SP"]
-    - ["Verse of Boldness", "4 SP"]
-    - ["Song of Tyranny", "8 SP"]
-    - ["Song of Heroism", "Upgrade: 4 SP"]
-
-starter_set:
-  - []
+    - ["Bard: Intermediate", 20 SP]
+    - [Verse of Steadyness, 4 SP]
+    - [Verse of Boldness, 4 SP]
+    - [Song of Tyranny, 8 SP]
+    - [Song of Heroism, 4 SP (Upgrade)]

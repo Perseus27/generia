@@ -1,6 +1,6 @@
-name: "Hunter"
-id: "class-hunter"
-prefix: "class2"
+name: Hunter
+id: class-hunter
+prefix: class2
 description: >
   Hunters spend much time in the wild. They are not only excellent archers but also survivalists.
 
@@ -12,25 +12,20 @@ subclasses:
 
 perks:
   combat:
-    - ["On the Prowl", "10 SP, X"]
+    - [On the Prowl, "10 SP, X"]
   magic:
-    - ["Focus I", "10 SP"]
+    - [Focus I, 10 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
-    - ["Ranged: Intermediate", "20 SP"]
+    - ["Ranged: Intermediate", 20 SP]
 
 actions:
   skills:
-    - ["Careful Shot", "4 SP"]
-    - ["Camouflage", "8 SP"]
-    - ["Overwatch", "8 SP"]
+    - [Careful Shot, 4 SP]
+    - [Camouflage, 8 SP]
+    - [Overwatch, 8 SP]
   spells:
     - []
-
-starter_set:
-  - []

@@ -1,6 +1,6 @@
-name: "Arsenalist"
-id: "class-arsenalist"
-prefix: "class2"
+name: Arsenalist
+id: class-arsenalist
+prefix: class2
 description: >
   Arsenalists specialize in [i]Transmuted Weapons[/i], turning curiosities into deadly armaments.
 
@@ -9,6 +9,7 @@ prerequisites:
 
 subclasses:
   - Alchimetician
+  - Gunwright
 
 perks:
   combat:
@@ -17,8 +18,6 @@ perks:
     - [Intensity, 10 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - ["Alchemist: Intermediate", 20 SP]
   weapons:

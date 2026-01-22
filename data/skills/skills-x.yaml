@@ -7,10 +7,10 @@ tier2:
   - subheader:
     is_subheader: True
     name: Field Archer
-    id: FieldArcher
+    id: field-archer
 
   - name: Mighty Shot
-    id: MightyShot
+    id: mighty-shot
     tags: [Tier X, "[url:class2/class-field-archer]Field Archer[/url]", Offensive, "Range: Weapon", "SP Cost: 10"]
     cost:
       - "[section:clr-encost]1/2/34/5 EN[/section]"
@@ -23,10 +23,10 @@ tier2:
   - subheader:
     is_subheader: True
     name: Shieldbearer
-    id: Shieldbearer
+    id: shieldbearer
 
   - name: Protect
-    id: Protect
+    id: protect
     tags: [Tier X, "[url:class2/class-shieldbearer]Shieldbearer[/url]", Reaction, "Range: Weapon", "SP Cost: 10"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -34,3 +34,17 @@ tier2:
       Blocks an attack targeting an ally.
       [br]If the ally is not in melee range, the user may perform a [url:def#MovementAction]movement action[/url] in their direction first, for an additional cost of [section:clr-encost]1 EN[/section].
       [br][i]Requires a shield.[/i]
+
+tier3:
+  - subheader:
+    is_subheader: True
+    name: Champion
+    id: champion
+
+  - name: Challenge
+    id: challenge
+    tags: [Tier X, "[url:class3/class-champion]Champion[/url]", Utility, Concentration, "Range: 20m", "SP Cost: 20"]
+    description: >
+      The Champion challenges [section:clr-value]one[/section] hostile creature. Whenever that creature performs an attack action against any of the Champion's allies, 
+      the Champion may execute [section:clr-value]one[/section] [url:def#MeleeAttack]melee attack[/url] or [url:skillsW]weapon skill[/url] 
+      against it as a [url:def#FreeAction]Free Reaction[/url].

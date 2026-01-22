@@ -1,6 +1,6 @@
-name: "Assassin"
-id: "class-assassin"
-prefix: "class2"
+name: Assassin
+id: class-assassin
+prefix: class2
 description: >
   A shadowy assassin. Their considerable mobility makes them a feared opponent.
 
@@ -12,13 +12,11 @@ subclasses:
 
 perks:
   combat:
-    - ["Opportunist", "10 SP"]
+    - [Opportunist, 10 SP]
   magic:
-    - ["Withering Shadows", "10 SP, X"]
+    - [Withering Shadows, "10 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -28,10 +26,7 @@ actions:
   skills:
     - []
   spells:
-    - ["Nox: Intermediate", "20 SP"]
-    - ["Shadow Step", "8 SP"]
-    - ["Noxian Bargain", "8 SP"]
-    - ["Terror", "4 SP"]
-
-starter_set:
-  - []
+    - ["Nox: Intermediate", 20 SP]
+    - [Shadow Step, 8 SP]
+    - [Noxian Bargain, 8 SP]
+    - [Terror, 4 SP]

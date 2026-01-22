@@ -37,6 +37,26 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Wayfarer
+    id: wayfarer
+
+  - name: Clarity
+    id: clarity
+    sp-cost: 20
+    requirements: "[url:class3/class-wayfarer]Wayfarer[/url]"
+    description: >
+      [url:shamanS#inner-world]Inner World[/url] does not count against the Concentration maximum.
+      [br]Unarmed [url:def#Hit]hits[/url] during [i]Inner World[/i] grant [section:clr-value]1 Clarity[/section], lasting for [section:clr-value]one Phase[/section].
+      [br]Each point of [i]Clarity[/i] can be used as a [url:def#FreeAction]Free Reaction[/url] to gain any one of the following effects:
+      [ul]
+      [li]Add [section:clr-attr]WIL-MOD[/section] to any physical ([section:clr-attr]CON[/section], [section:clr-attr]STR[/section], [section:clr-attr]DEX[/section]) check[/li]
+      [li]Instantly perform a save against any [url:status]status effect[/url] that can be regularly saved against at the beginning or end of a turn[/li]
+      [li]Swap the element of [i]Inner World[/i][/li]
+      [li]Gain Advantage 1 against a displacement effect, skill, or spell[/li]
+      [/ul]
+
+  - subheader:
+    is_subheader: True
     name: Templar
     id: templar
 
@@ -61,6 +81,18 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Gunwright
+    id: gunwright
+
+  - name: High-Energy Munitions
+    id: high-energy-munitions
+    sp-cost: 20
+    requirements: "[url:class3/class-gunwright]Gunwright[/url]"
+    description: >
+      When dealing damage with [url:alchemistS#basic-ammunition-iii]Basic[/url] or [url:alchemistS#elemental-ammunition-iii]Elemental Ammunition[/url] of any tier, the Gunwright may reroll [section:clr-value]one[/section] damage die, and [section:clr-value]one[/section] additional die for each modification made to the ammunition (e.g., [url:alchemistS#status-ammunition-i]Status Ammunition[/url], [url:alchemistS#elemental-infusion]Elemental Infusion[/url]).
+
+  - subheader:
+    is_subheader: True
     name: Magus
     id: magus
 
@@ -82,3 +114,16 @@ content:
     requirements: "[url:class3/class-moon-dancer]Moon Dancer[/url]"
     description: >
       [i]Sanctuary[/i] does not count against the Concentration maximum, costs [section:clr-mp]0 MP[/section] to cast, and allows [url:def#Parry]parrying[/url] of magical projectiles.
+
+  - subheader:
+    is_subheader: True
+    name: Banshee
+    id: banshee
+
+  - name: Soul Hook
+    id: soul-hook
+    sp-cost: 20
+    requirements: "[url:class3/class-banshee]Banshee[/url]"
+    description: >
+      The perk [url:#seduction]Seduction[/url] now also triggers whenever a creature fails a save against one of the Banshee's status effects.
+      [br]The Banshee may force the target to move in any direction, instead of only towards themselves.

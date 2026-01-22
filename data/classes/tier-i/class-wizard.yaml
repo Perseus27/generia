@@ -1,6 +1,6 @@
-name: "Wizard"
-id: "class-wizard"
-prefix: "class1"
+name: Wizard
+id: class-wizard
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/wizard/what-is-a-wizard]What is a Wizard?[/url]
 
@@ -26,9 +26,9 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Arcana 3", 6 SP]
-    - ["Arithmetics 1", 1 SP]
-    - ["History 1", 1 SP]
+    - [Arcana 3, 6 SP]
+    - [Arithmetics 1, 1 SP]
+    - [History 1, 1 SP]
   magic:
     - ["Hermetics: Beginner", 10 SP]
     - ["Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Beginner", 10 SP]
@@ -41,12 +41,12 @@ actions:
   spells:
     - [Mana Beam I, 4 SP]
     - [Hermetic Manipulation, 4 SP]
-    - ["Kinetic [sup]or[/sup] Meteoric [sup]or[/sup] Thermal [sup]or[/sup] Mana Bolt I", 4 SP]
+    - ["[url:kinetics#kinetic-bolt-i]Kinetic[/url] [sup]or[/sup] [url:meteorics#meteoric-bolt-i]Meteoric[/url] [sup]or[/sup] [url:thermics#thermal-bolt-i]Thermal[/url] [sup]or[/sup] [url:hermetics#mana-bolt-i]Mana[/url] Bolt I", 4 SP]
 
 starter_set:
   - Wizard Staff
   - Cloth Armor
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
-  - "1× Matrix Crystal"
-  - "1 Gold, 8 Silver"
+  - Adventurer's Belt
+  - Adventurer's Pouch
+  - 1× Matrix Crystal
+  - 1 Gold, 8 Silver

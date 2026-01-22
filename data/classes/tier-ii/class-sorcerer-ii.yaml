@@ -1,6 +1,6 @@
-name: "Sorcerer II"
-id: "class-sorcerer-ii"
-prefix: "class2"
+name: Sorcerer II
+id: class-sorcerer-ii
+prefix: class2
 description: >
   WARNING: ADVANCED CLASS Sorcerers are self-taught spellcasters who rely entirely on their intuition to work magic. Predictably, this often results in chaos.
 
@@ -14,11 +14,9 @@ perks:
   combat:
     - []
   magic:
-    - ["Blood Mage", "20 SP"]
+    - [Blood Mage, 20 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -28,9 +26,6 @@ actions:
   skills:
     - []
   spells:
-    - ["Sorcerer: Intermediate", "20 SP"]
-    - ["Template Budget", "12 SP"]
-    - ["Recycled Spell", "8 SP"]
-
-starter_set:
-  - []
+    - ["Sorcerer: Intermediate", 20 SP]
+    - [Template Budget, 12 SP]
+    - [Recycled Spell, 8 SP]

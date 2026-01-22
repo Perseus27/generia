@@ -1,6 +1,6 @@
-name: "Spellblade"
-id: "class-spellblade"
-prefix: "class2"
+name: Spellblade
+id: class-spellblade
+prefix: class2
 description: >
   Spellblades are melee-focused spellcasters with the ability to transform their weapons' damage type.
 
@@ -20,19 +20,13 @@ perks:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Intermediate", 20 SP]
   weapons:
-    - ["Slashing or Stabbing: Intermediate", "20 SP"]
+    - ["Slashing [sup]or[/sup] Stabbing: Intermediate", 20 SP]
 
 actions:
   skills:
     - []
   spells:
-    - ["Hermetics or Kinetics or Meteorics or Thermics: Intermediate", "20 SP"]
-    - ["Blade Infusion", "20 SP, X"]
-
-starter_set:
-  - []
+    - [Blade Infusion, "20 SP, X"]

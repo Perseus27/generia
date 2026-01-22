@@ -1,6 +1,6 @@
-name: "Druid"
-id: "class-druid"
-prefix: "class1"
+name: Druid
+id: class-druid
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/druid/what-is-a-druid]What is a Druid?[/url]
 
@@ -24,8 +24,8 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Botany 2", 3 SP]
-    - ["Zoology 2", 3 SP]
+    - [Botany 2, 3 SP]
+    - [Zoology 2, 3 SP]
   magic:
     - ["Druid: Beginner", 10 SP]
   weapons:
@@ -37,7 +37,7 @@ actions:
   spells:
     - [Regrowth, 4 SP]
     - [Grasping Vines, 4 SP]
-    - [Theriomorph: Aspect, 4 SP]
+    - ["Theriomorph: Aspect", 4 SP]
     - [Wildgrowth, 4 SP]
     - [Rooting, 4 SP]
     - [Anchor/Release Beast Soul, 4 SP]
@@ -48,7 +48,7 @@ starter_set:
   - Padded Armor
   - Cloth Gauntlets
   - Cloth Greaves
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
+  - Adventurer's Belt
+  - Adventurer's Pouch
   - Seed Pouch
   - 1 Gold

@@ -1,11 +1,12 @@
-name: "Charlatan"
-id: "class-charlatan"
-prefix: "class2"
+name: Charlatan
+id: class-charlatan
+prefix: class2
 description: >
 
 
 prerequisites:
-  - None
+  - Bard
+  - Nox
 
 subclasses: []
 
@@ -16,8 +17,6 @@ perks:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -28,6 +27,3 @@ actions:
     - []
   spells:
     - []
-
-starter_set:
-  - []

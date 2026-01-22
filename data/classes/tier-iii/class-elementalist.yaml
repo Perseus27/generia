@@ -1,8 +1,8 @@
-name: "Elementalist"
-id: "class-elementalist"
-prefix: "class3"
+name: Elementalist
+id: class-elementalist
+prefix: class3
 description: >
-  Lorem ipsum
+  Elementalists do not simply summon Elementals. They channel them, empowering themselves with primal mana in the process.
 
 prerequisites:
   - Summoner
@@ -13,15 +13,13 @@ perks:
   combat:
     - []
   magic:
-    - ["Channel Element", "20 SP, X"]
-    - ["Focus I", "10 SP"]
-    - ["Focus II", "20 SP"]
+    - [Channel Element, "20 SP, X"]
+    - [Focus I, 10 SP]
+    - [Focus II, 20 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Shaman: Adept", 30 SP]
   weapons:
     - []
 
@@ -29,8 +27,4 @@ actions:
   skills:
     - []
   spells:
-    - ["Shaman: Adept", "30 SP"]
-    - ["Elemental Field", "20 SP, X"]
-
-starter_set:
-  - []
+    - [Elemental Field, "20 SP, X"]

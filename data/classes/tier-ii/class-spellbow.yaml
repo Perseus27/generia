@@ -1,6 +1,6 @@
-name: "Spellbow"
-id: "class-spellbow"
-prefix: "class2"
+name: Spellbow
+id: class-spellbow
+prefix: class2
 description: >
   A traditional elven fighting style that combines arcane talents with natural skill.
 
@@ -17,19 +17,13 @@ perks:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Intermediate", 20 SP]
   weapons:
-    - ["Ranged: Intermediate", "20 SP"]
+    - ["Ranged: Intermediate", 20 SP]
 
 actions:
   skills:
     - []
   spells:
-    - ["Hermetics or Kinetics or Meteorics or Thermics: Intermediate", "20 SP"]
-    - ["Bow Infusion", "20 SP, X"]
-
-starter_set:
-  - []
+    - [Bow Infusion, "20 SP, X"]
