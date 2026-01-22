@@ -7,6 +7,28 @@ is_exclusive: True
 exclusive:
   - subheader:
     is_subheader: True
+    name: Banshee
+    id: banshee
+
+  - name: Banshee Scream
+    id: banshee-scream
+    auto_type: [DC, WIL]
+    tags: [TIER X, Banshee, Cacophony, Offensive, "Radius: 16m", "[section:clr-control]CONTROL[/section]", "SP Cost: 20"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The Banshee lets out a blood-curdling scream, tearing into the vulnerable souls of those already affected by negative status conditions.
+      [br][i]Only effective if at least one of the status effects originated from the Banshee.[/i]
+    effect: >
+      [section:clr-roll]1d6[/section] Absolute per negative status effect.
+      [br]Increases to [section:clr-roll]1d8[/section] against [url:status#Isolated]isolated[/url] targets.
+    saved: Damage halved.
+    saved10: No effect.
+
+  - subheader:
+    is_subheader: True
     name: "Charlatan"
     id: "charlatan"
 
