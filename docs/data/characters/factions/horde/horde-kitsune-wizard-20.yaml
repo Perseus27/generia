@@ -67,7 +67,7 @@ actions:
     - Sparkstream I
     - Counter Shot
     - Arcane Barrier I
-    - [Counterspell, "+8"]
+    - Counterspell
     - [Dimension Step, "([section:clr-value]14m[/section])"]
   rituals:
     - Hermetic Manipulation
