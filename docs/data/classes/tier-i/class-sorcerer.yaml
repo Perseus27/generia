@@ -1,6 +1,6 @@
-name: "Sorcerer"
-id: "class-sorcerer"
-prefix: "class1"
+name: Sorcerer
+id: class-sorcerer
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/sorcerer/what-is-a-sorcerer]What is a Sorcerer?[/url]
 
@@ -18,12 +18,12 @@ perks:
   combat:
     - []
   magic:
-    - ["Battle Meditation", 10 SP]
+    - [Battle Meditation, 10 SP]
 
 proficiencies:
   civilian:
-    - ["Arcana 2", 3 SP]
-    - ["Rites 1", 1 SP]
+    - [Arcana 2, 3 SP]
+    - [Rites 1, 1 SP]
   magic:
     - ["Sorcerer: Beginner", 10 SP]
   weapons:

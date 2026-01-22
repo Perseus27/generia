@@ -1,6 +1,6 @@
-name: "Alchemist"
-id: "class-alchemist"
-prefix: "class1"
+name: Alchemist
+id: class-alchemist
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist]What is an Alchemist?[/url]
 
@@ -23,8 +23,8 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Arcana 2", 3 SP]
-    - ["Tinkering 1", 1 SP]
+    - [Arcana 2, 3 SP]
+    - [Tinkering 1, 1 SP]
   magic:
     - ["Alchemist: Beginner", 10 SP]
     - [Mechanics 1, 1 SP]
@@ -44,13 +44,13 @@ actions:
     - ["Construction: Handgun", 4 SP]
 
 starter_set:
-  - "Transmuted Handgun"
-  - "Alchemist's Gauntlets, Cloth"
+  - Transmuted Handgun
+  - Alchemist's Gauntlets, Cloth
   - Cloth Armor
   - Weapon Belt
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
-  - "Alchemist's Pouch"
-  - "40x elemental dust, any type"
-  - "2x elemental core, any type"
-  - "1 Gold, 8 Silver"
+  - Adventurer's Belt
+  - Adventurer's Pouch
+  - Alchemist's Pouch
+  - 40x elemental dust, any type
+  - 2x elemental core, any type
+  - 1 Gold, 8 Silver

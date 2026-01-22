@@ -1,6 +1,6 @@
-name: "Summoner"
-id: "class-summoner"
-prefix: "class2"
+name: Summoner
+id: class-summoner
+prefix: class2
 description: >
   Summoners are shamans who specialize in manifesting and commanding elementals.
 
@@ -13,13 +13,11 @@ perks:
   combat:
     - []
   magic:
-    - ["Firm Bond", "20 SP, X"]
+    - [Firm Bond, "20 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Shaman: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -27,11 +25,7 @@ actions:
   skills:
     - []
   spells:
-    - ["Shaman: Intermediate", "20 SP"]
-    - ["Summon: Elemental", "Upgrade: 4 SP"]
-    - ["Elemental Rage", "Upgrade: 4 SP"]
-    - ["Wind Ward", "8 SP"]
-    - ["Lesser Elemental Call", "4 SP"]
-
-starter_set:
-  - []
+    - ["Summon: Elemental", 4 SP (Upgrade)]
+    - [Elemental Rage, 4 SP (Upgrade)]
+    - [Wind Ward, 8 SP]
+    - [Lesser Elemental Call, 4 SP]

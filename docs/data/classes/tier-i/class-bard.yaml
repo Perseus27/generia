@@ -1,6 +1,6 @@
-name: "Bard"
-id: "class-bard"
-prefix: "class1"
+name: Bard
+id: class-bard
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/bard/what-is-a-bard]What is a Bard?[/url]
 
@@ -23,9 +23,9 @@ perks:
 
 proficiencies:
   civilian:
-    - ["History 2", 3 SP]
-    - ["Rites 1", 1 SP]
-    - ["Performance 3", 6 SP]
+    - [History 2, 3 SP]
+    - [Rites 1, 1 SP]
+    - [Performance 3, 6 SP]
   magic:
     - ["Bard: Beginner", 10 SP]
   weapons:
@@ -45,6 +45,6 @@ starter_set:
   - Instrument
   - Short Sling
   - Thick Clothing
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
+  - Adventurer's Belt
+  - Adventurer's Pouch
   - 3 Gold

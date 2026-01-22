@@ -1,8 +1,9 @@
-name: "Wayfarer"
-id: "class-wayfarer"
-prefix: "class3"
+name: Wayfarer
+id: class-wayfarer
+prefix: class3
 description: >
-  Wayfarer
+  Wayfarers travel obscure corners of the world, seeking understanding of the spiritual world and their own place within it.
+  Their considerable combat prowess is merely a side effect of a deep connection with the elements and superhuman self-control.
 
 prerequisites:
   - Monk
@@ -11,23 +12,18 @@ subclasses: []
 
 perks:
   combat:
-    - ["Deflector", "10 SP"]
+    - [Deflector, 10 SP]
   magic:
-    - []
+    - [Clarity, "20 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Shaman: Intermediate", 20 SP]
   weapons:
-    - ["Natural Weapons: Adept", "30 SP"]
+    - ["Natural: Adept", 30 SP]
 
 actions:
   skills:
     - []
   spells:
-    - []
-
-starter_set:
-  - []
+    - [Manifest, "20 SP, X"]

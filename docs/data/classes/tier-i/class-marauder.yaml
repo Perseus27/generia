@@ -1,6 +1,6 @@
-name: "Marauder"
-id: "class-marauder"
-prefix: "class1"
+name: Marauder
+id: class-marauder
+prefix: class1
 description: >
   Marauders are lone fighters who create chaos on the battlefield with brutal melee attacks. Their weapons are often less “civilized” than a fighter’s, but no less deadly.
 
@@ -19,13 +19,13 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Athletics 3", 6 SP]
-    - ["Survival 1", 1 SP]
+    - [Athletics 3, 6 SP]
+    - [Survival 1, 1 SP]
   magic:
     - []
   weapons:
-    - ["Blunt [sup]or[/sup] Slashing Weapons: Beginner", 10 SP]
-    - ["Natural Weapons: Beginner", 10 SP]
+    - ["Blunt [sup]or[/sup] Slashing: Beginner", 10 SP]
+    - ["Natural: Beginner", 10 SP]
 
 actions:
   skills:
@@ -36,11 +36,11 @@ actions:
     - []
 
 starter_set:
-  - "Battleaxe [sup]or[/sup] Warhammer"
+  - Battleaxe [sup]or[/sup] Warhammer
   - Leather Armor
   - Leather Gauntlets
   - Leather Greaves
-  - "Two-handed Weapon Belt"
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
+  - Two-handed Weapon Belt
+  - Adventurer's Belt
+  - Adventurer's Pouch
   - 2 Silver

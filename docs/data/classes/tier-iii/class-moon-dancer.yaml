@@ -1,6 +1,6 @@
-name: "Moon Dancer"
-id: "class-moon-dancer"
-prefix: "class3"
+name: Moon Dancer
+id: class-moon-dancer
+prefix: class3
 description: >
   As an embodiment of Luna’s protective hand, Moon Dancers are reliable defenders who support allies with shield spells and quick reactions.
 
@@ -12,25 +12,19 @@ subclasses: []
 
 perks:
   combat:
-    - ["Deflector", "10 SP"]
-    - ["Dancer", "10 SP"]
+    - [Deflector, 10 SP]
+    - [Dancer, 10 SP]
   magic:
     - ["Luna's Protective Hand", "10 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Acolyte: Adept", 30 SP]
   weapons:
-    - ["Slashing [sup]or[/sup] Stabbing Weapons: Adept", "30 SP"]
+    - ["Slashing [sup]or[/sup] Stabbing: Adept", 30 SP]
 
 actions:
   skills:
     - []
   spells:
-    - ["Acolyte: Adept", "30 SP"]
-    - ["Intercede", "10 SP, X"]
-
-starter_set:
-  - []
+    - [Intercede, "10 SP, X"]

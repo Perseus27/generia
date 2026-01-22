@@ -1,33 +1,32 @@
-name: "Champion"
-id: "class-champion"
-prefix: "class3"
+name: Champion
+id: class-champion
+prefix: class3
 description: >
-  Champions form the backbone of armies and high-tier adventuring guilds. Their masterful use of martial weapons and excellent tactical training make them highly effective in specialized groups.
+  Champions are dangerous combatants, capable of holding their own in any melee situation
+   – but their true value lies within their ability to protect their allies by drawing and holding hostile attention.
 
 prerequisites:
-  - Any two Fighter subclasses
+  - Any [url:class1/class-fighter]Fighter[/url] subclass
+  - "Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing: Intermediate"
+  - "Defensive: Intermediate"
 
 subclasses: []
 
 perks:
   combat:
-    - []
+    - [Battlefield Control, "20 SP, X"]
   magic:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
-    - []
+    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing: Adept", 30 SP]
+    - ["Defensive: Adept", 30 SP]
 
 actions:
   skills:
-    - []
+    - [Challenge, "20 SP, X"]
   spells:
     - []
-
-starter_set:
-  - []

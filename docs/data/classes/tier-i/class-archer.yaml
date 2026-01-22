@@ -1,6 +1,6 @@
-name: "Archer"
-id: "class-archer"
-prefix: "class1"
+name: Archer
+id: class-archer
+prefix: class1
 description: >
   As the name implies, Archers primarily fight with bows and similar ranged weapons. They are not completely defenseless in melee, however.
 
@@ -20,13 +20,13 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Hunting 2", 3 SP]
-    - ["Survival 1", 1 SP]
+    - [Hunting 2, 3 SP]
+    - [Survival 1, 1 SP]
   magic:
     - []
   weapons:
-    - ["Ranged Weapons: Beginner", 10 SP]
-    - ["Slashing [sup]or[/sup] Stabbing Weapons: Beginner", 10 SP]
+    - ["Ranged: Beginner", 10 SP]
+    - ["Slashing [sup]or[/sup] Stabbing: Beginner", 10 SP]
 
 actions:
   skills:
@@ -38,13 +38,13 @@ actions:
 
 starter_set:
   - Hunting Bow
-  - "Shortsword [sup]or[/sup] Smallsword"
+  - Shortsword [sup]or[/sup] Smallsword
   - Padded Armor
   - Cloth Gauntlets
   - Cloth Greaves
   - Weapon Belt
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
+  - Adventurer's Belt
+  - Adventurer's Pouch
   - Quiver
-  - "10 Arrows, light"
+  - 10 Arrows, light
   - 8 Silver

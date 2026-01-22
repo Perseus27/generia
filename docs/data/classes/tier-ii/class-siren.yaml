@@ -1,6 +1,6 @@
-name: "Siren"
-id: "class-siren"
-prefix: "class2"
+name: Siren
+id: class-siren
+prefix: class2
 description: >
   Sirens influence both creatures and plants with ancient magic and control the battlefield with their beguiling voices.
 
@@ -15,14 +15,13 @@ perks:
   combat:
     - []
   magic:
-    - ["Seduction", "10 SP, X"]
-    - ["Focus I", "10 SP"]
+    - [Seduction, "10 SP, X"]
+    - [Focus I, 10 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Bard: Intermediate", 20 SP]
+    - ["Druid: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -30,8 +29,4 @@ actions:
   skills:
     - []
   spells:
-    - ["Bard: Intermediate", "20 SP"]
-    - ["Druid: Intermediate", "20 SP"]
-
-starter_set:
-  - []
+    - []

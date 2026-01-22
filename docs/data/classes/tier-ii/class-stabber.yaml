@@ -1,6 +1,6 @@
-name: "Stabber"
-id: "class-stabber"
-prefix: "class2"
+name: Stabber
+id: class-stabber
+prefix: class2
 alias: [Spearfighter]
 description: >
   Stabbers are experts with stabbing weapons of all kinds.
@@ -15,26 +15,21 @@ subclasses:
 
 perks:
   combat:
-    - ["Spearhead", "10 SP, X"]
-    - ["Opportunist", "10 SP"]
+    - [Spearhead, "10 SP, X"]
+    - [Opportunist, 10 SP]
   magic:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
-    - ["Stabbing: Intermediate", "20 SP"]
+    - ["Stabbing: Intermediate", 20 SP]
 
 actions:
   skills:
-    - ["Counter", "4 SP"]
-    - ["Multistrike", "8 SP"]
-    - ["Disarm", "8 SP"]
+    - [Counter, 4 SP]
+    - [Multistrike, 8 SP]
+    - [Disarm, 8 SP]
   spells:
     - []
-
-starter_set:
-  - []

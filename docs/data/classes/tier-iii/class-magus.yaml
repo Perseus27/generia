@@ -1,11 +1,11 @@
-name: "Magus"
-id: "class-magus"
-prefix: "class3"
+name: Magus
+id: class-magus
+prefix: class3
 description: >
-  Magus
+  In the early days of the Great Empire, the title of [i]Magus[/i] was reserved for high-ranking military spellcasters. Today, it describes Wizards with terrifying offensive capabilities and a nigh-limitless mana pool.
 
 prerequisites:
-  - Hermetician [sup]or[/sup] Kinetician [sup]or[/sup] Meteorician [sup]or[/sup] Thermician
+  - "[url:class2/class-hermetician]Hermetician[/url] [sup]or[/sup] [url:class2/class-kinetician]Kinetician[/url] [sup]or[/sup] [url:class2/class-meteorician]Meteorician[/url] [sup]or[/sup] [url:class2/class-thermician]Thermician[/url]"
 
 subclasses: []
 
@@ -13,16 +13,14 @@ perks:
   combat:
     - []
   magic:
-    - ["Mighty Magics", "20 SP, X"]
-    - ["Arcane Artillery", "10 SP"]
-    - ["Astral Body I", "10 SP"]
-    - ["Cold Calculation", "10 SP"]
+    - [Mighty Magics, "20 SP, X"]
+    - [Arcane Artillery, 10 SP]
+    - [Astral Body I, 10 SP]
+    - [Cold Calculation, 10 SP]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", "30 SP"]
   weapons:
     - []
 
@@ -30,8 +28,4 @@ actions:
   skills:
     - []
   spells:
-    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", "30 SP"]
-    - ["Ley Lines", "20 SP, X"]
-
-starter_set:
-  - []
+    - [Ley Lines, "20 SP, X"]

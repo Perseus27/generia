@@ -1,6 +1,6 @@
-name: "Nox"
-id: "class-nox"
-prefix: "class1"
+name: Nox
+id: class-nox
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/nox/what-is-a-nox]What is a Nox?[/url]
 
@@ -21,13 +21,13 @@ perks:
 
 proficiencies:
   civilian:
-    - ["Rites 1", 1 SP]
-    - ["Stealth 2", 3 SP]
-    - ["Stealing 2", 3 SP]
+    - [Rites 1, 1 SP]
+    - [Stealth 2, 3 SP]
+    - [Stealing 2, 3 SP]
   magic:
     - ["Nox: Beginner", 10 SP]
   weapons:
-    - ["Slashing [sup]or[/sup] Stabbing Weapons: Beginner", 10 SP]
+    - ["Slashing [sup]or[/sup] Stabbing: Beginner", 10 SP]
 
 actions:
   skills:
@@ -42,8 +42,8 @@ starter_set:
   - Smallsword
   - Dagger
   - Thick Clothing
-  - "Weapon Belt, double"
-  - "Adventurer's Belt"
-  - "Adventurer's Pouch"
-  - "2× Poison, weak"
-  - "1 Gold, 5 Silver"
+  - Weapon Belt, double
+  - Adventurer's Belt
+  - Adventurer's Pouch
+  - 2× Poison, weak
+  - 1 Gold, 5 Silver

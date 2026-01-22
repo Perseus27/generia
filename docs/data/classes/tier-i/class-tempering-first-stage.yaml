@@ -1,7 +1,7 @@
 name: "Tempering: First Stage"
-id: "class-tempering-first-stage"
+id: class-tempering-first-stage
 alias: [Tempered I, Tempering I]
-prefix: "class1"
+prefix: class1
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/tempering/what-is-a-tempered]What is a Tempered?[/url]
 

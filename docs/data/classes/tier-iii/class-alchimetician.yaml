@@ -1,8 +1,8 @@
-name: "Alchimetician"
-id: "class-alchimetician"
-prefix: "class3"
+name: Alchimetician
+id: class-alchimetician
+prefix: class3
 description: >
-  Alchimetician
+  Alchimeticians explore the offensive application of Aether – the pseudo-element known to Wizards as [i]the Arcane[/i]. They combine practical alchemical application with extensive magical theory.
 
 prerequisites:
   - Arsenalist
@@ -12,13 +12,11 @@ subclasses: []
 
 perks:
   combat:
-    - [Aether Mark, "20 SP, X"]
-  magic:
     - []
+  magic:
+    - [Aether Mark, "20 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - ["Alchemist: Adept", 30 SP]
     - ["Hermetics: Adept", 30 SP]

@@ -1,6 +1,6 @@
-name: "Shieldbearer"
-id: "class-shieldbearer"
-prefix: "class2"
+name: Shieldbearer
+id: class-shieldbearer
+prefix: class2
 description: >
   Shieldbearers are stalwart defenders who protect less-armored party members and draw enemy attention.
 
@@ -13,26 +13,21 @@ subclasses:
 
 perks:
   combat:
-    - ["Armor Familiarity I", "10 SP"]
+    - [Armor Familiarity I, 10 SP]
   magic:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
-    - ["Defensive: Intermediate", "20 SP"]
+    - ["Defensive: Intermediate", 20 SP]
 
 actions:
   skills:
-    - ["Protect", "10 SP, X"]
-    - ["Stance: Block", "12 SP"]
-    - ["Steady Block", "4 SP"]
-    - ["Shield Bash", "4 SP"]
+    - [Protect, "10 SP, X"]
+    - ["Stance: Block", 12 SP]
+    - [Steady Block, 4 SP]
+    - [Shield Bash, 4 SP]
   spells:
     - []
-
-starter_set:
-  - []

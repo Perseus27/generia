@@ -1,6 +1,6 @@
-name: "Treewarden"
-id: "class-treewarden"
-prefix: "class2"
+name: Treewarden
+id: class-treewarden
+prefix: class2
 description: >
   Treewardens are druids focused on the plant world. They excel at hindering foes and controlling terrain.
 
@@ -17,10 +17,8 @@ perks:
     - ["Wildgrowth: Permanence", "10 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Druid: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -28,11 +26,7 @@ actions:
   skills:
     - []
   spells:
-    - ["Druid: Intermediate", "20 SP"]
-    - ["Root Grasp", "4 SP"]
-    - ["Field of Flowers", "8 SP"]
-    - ["Field of Thorns", "8 SP"]
-    - ["Root Wall", "8 SP"]
-
-starter_set:
-  - []
+    - [Root Grasp, 4 SP]
+    - [Field of Flowers, 8 SP]
+    - [Field of Thorns, 8 SP]
+    - [Root Wall, 8 SP]

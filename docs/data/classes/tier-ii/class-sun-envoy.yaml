@@ -2,7 +2,7 @@ name: "Sun Envoy"
 id: "class-sun-envoy"
 prefix: "class2"
 description: >
-  Lorem Ipsum
+  Sun Envoys channel the burning light of Sol into mighty spells, scorching their foes with blinding radiance.
 
 prerequisites:
   - Acolyte
@@ -13,14 +13,14 @@ perks:
   combat:
     - []
   magic:
-    - ["Radiant Light", "10 SP, X"]
-    - ["Arcane Artillery", "10 SP"]
+    - [Radiant Light, "10 SP, X"]
+    - [Arcane Artillery, 10 SP]
 
 proficiencies:
   civilian:
     - []
   magic:
-    - []
+    - ["Acolyte: Intermediate", 20 SP"
   weapons:
     - []
 
@@ -28,10 +28,6 @@ actions:
   skills:
     - []
   spells:
-    - ["Acolyte: Intermediate", "20 SP"]
-    - ["Sunlight Spear", "4 SP"]
-    - ["Photosensitivity", "8 SP"]
-    - ["Videre", "8 SP"]
-
-starter_set:
-  - []
+    - [Sunlight Spear, 4 SP]
+    - [Photosensitivity, 8 SP]
+    - [Videre, 8 SP]

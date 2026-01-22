@@ -1,6 +1,6 @@
-name: "Field Archer"
-id: "class-field-archer"
-prefix: "class2"
+name: Field Archer
+id: class-field-archer
+prefix: class2
 description: >
   Field Archers are archers trained for battlefield combat who sacrifice mobility for higher impact.
 
@@ -15,24 +15,19 @@ subclasses:
 
 perks:
   combat:
-    - ["Forerunner", "10 SP"]
+    - [Forerunner, 10 SP]
   magic:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
-    - ["Ranged: Intermediate", "20 SP"]
-    - ["Slashing [sup]or[/sup] Stabbing: Intermediate", "20 SP"]
+    - ["Ranged: Intermediate", 20 SP]
+    - ["Slashing [sup]or[/sup] Stabbing: Intermediate", 20 SP]
 
 actions:
   skills:
-    - ["Mighty Shot", "10 SP, X"]
+    - [Mighty Shot, "10 SP, X"]
   spells:
     - []
-
-starter_set:
-  - []

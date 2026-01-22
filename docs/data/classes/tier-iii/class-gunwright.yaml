@@ -1,0 +1,31 @@
+name: Gunwright
+id: class-gunwright
+prefix: class3
+description: >
+  Gunwrights are an immensely powerful asset for any adventuring party. Their versatility in elemental damage types lets them easily exploit vulnerabilities while avoiding resistances.
+
+prerequisites:
+  - Arsenalist
+
+subclasses: []
+
+perks:
+  combat:
+    - [Routine, 10 SP]
+  magic:
+    - [High-Energy Munitions, "20 SP, X"]
+
+proficiencies:
+  magic:
+    - ["Alchemist: Adept", 30 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Elemental Infusion, "20 SP, X"]
+    - ["Construction: Rifle", 12 SP]
+    - [Basic Ammunition III, 4 SP (Upgrade)]
+    - [Elemental Ammunition III, 4 SP (Upgrade)]

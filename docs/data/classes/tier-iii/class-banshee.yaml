@@ -1,8 +1,8 @@
-name: "Banshee"
-id: "class-banshee"
-prefix: "class3"
+name: Banshee
+id: class-banshee
+prefix: class3
 description: >
-  Banshee
+  Banshees torment their foes with debilitating status conditions and lure them into dangerous positioning.
 
 prerequisites:
   - Siren
@@ -13,13 +13,12 @@ perks:
   combat:
     - []
   magic:
-    - []
+    - [Soul Hook, "20 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
-    - []
+    - ["Bard: Adept", 30 SP]
+    - ["Druid: Adept", 30 SP]
   weapons:
     - []
 
@@ -27,7 +26,4 @@ actions:
   skills:
     - []
   spells:
-    - []
-
-starter_set:
-  - []
+    - [Banshee Scream, "20 SP, X"]

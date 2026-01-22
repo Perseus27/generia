@@ -1,6 +1,6 @@
-name: "Binder"
-id: "class-binder"
-prefix: "class2"
+name: Binder
+id: class-binder
+prefix: class2
 description: >
   Binders are shamans with an exceptionally strong bond to the spirit world. They can empower allies and themselves with elemental energy.
 
@@ -13,11 +13,9 @@ perks:
   combat:
     - []
   magic:
-    - ["Spiritual Resilience", "20 SP, X"]
+    - [Spiritual Resilience, "20 SP, X"]
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -27,11 +25,8 @@ actions:
   skills:
     - []
   spells:
-    - ["Shaman: Intermediate", "20 SP"]
-    - ["Lesser Elemental Guidance", "4 SP"]
-    - ["Wave of Healing", "Upgrade: 4 SP"]
-    - ["Elemental Favor", "Upgrade: 4 SP"]
-    - ["Flame of Defiance", "8 SP"]
-
-starter_set:
-  - []
+    - ["Shaman: Intermediate", 20 SP]
+    - [Lesser Elemental Guidance, 4 SP]
+    - [Wave of Healing, 4 SP (Upgrade)]
+    - [Elemental Favor, 4 SP (Upgrade)]
+    - [Flame of Defiance, 8 SP]

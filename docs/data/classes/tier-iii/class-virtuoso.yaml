@@ -1,6 +1,6 @@
-name: "Virtuoso"
-id: "class-virtuoso"
-prefix: "class3"
+name: Virtuoso
+id: class-virtuoso
+prefix: class3
 description: >
   Virtuoso
 
@@ -16,8 +16,6 @@ perks:
     - []
 
 proficiencies:
-  civilian:
-    - []
   magic:
     - []
   weapons:
@@ -28,6 +26,3 @@ actions:
     - []
   spells:
     - []
-
-starter_set:
-  - []
