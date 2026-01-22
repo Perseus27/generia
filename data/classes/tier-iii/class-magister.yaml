@@ -27,4 +27,4 @@ actions:
   skills:
     - []
   spells:
-    - [Negate, "20 SP, X"]
+    - [Nullify, "20 SP, X"]
