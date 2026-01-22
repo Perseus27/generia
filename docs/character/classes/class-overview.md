@@ -83,6 +83,7 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-iii/class-banshee.yaml') }}
 {{ class_card('data/classes/tier-iii/class-champion.yaml') }}
 {{ class_card('data/classes/tier-iii/class-elementalist.yaml') }}
+{{ class_card('data/classes/tier-iii/class-gunwright.yaml') }}
 {{ class_card('data/classes/tier-iii/class-magister.yaml') }}
 {{ class_card('data/classes/tier-iii/class-magus.yaml') }}
 {{ class_card('data/classes/tier-iii/class-moon-dancer.yaml') }}

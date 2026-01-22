@@ -52,6 +52,30 @@ exclusive:
 
   - subheader:
     is_subheader: True
+    name: Gunwright
+    id: gunwright
+
+  - name: Elemental Infusion
+    id: elemental-infusion
+    tags: [TIER X, Gunwright, Mechanics, Free Action, Volatile, "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "1× Elemental Core, any"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      The Gunwright infuses up to [[section:clr-value]Mechanics[/section]] units of [url:alchemistS#basic-ammunition-ii]Basic Ammunition[/url] or [url:alchemistS#elemental-ammunition-ii]Elemental Ammunition[/url] with the volatile energies contained within an elemental core.
+      [br]Through this, the total damage of the ammunition increases, and it gains the additional damage type of the used core.
+      [br]This action can only be performed safely once on any unit of ammunition. If the Gunwright tries anyway, the ammunition might explode in their hands, dealing their full damage value as Absolute damage.
+    effect: >
+      [b]Damage increase by core tier:[/b]
+      [b]Lesser:[/b] [section:clr-roll]1d6[/section]
+      [br][b]Normal:[/b] [section:clr-roll]2d6[/section]
+      [br][b]Greater:[/b] [section:clr-roll]3d6[/section]
+
+  - subheader:
+    is_subheader: True
     name: Arsenalist
     id: arsenalist
 
