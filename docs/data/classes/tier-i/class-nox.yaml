@@ -12,6 +12,7 @@ prerequisites:
 
 subclasses:
   - Assassin
+  - Charlatan
 
 perks:
   combat:

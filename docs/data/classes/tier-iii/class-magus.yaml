@@ -20,7 +20,7 @@ perks:
 
 proficiencies:
   magic:
-    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", "30 SP"]
+    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", 30 SP]
   weapons:
     - []
 

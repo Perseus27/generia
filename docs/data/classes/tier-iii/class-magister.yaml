@@ -5,7 +5,7 @@ description: >
   Originally a title associated with faculty heads at Wizard academies, Magisters tend to excel in utility magic and battlefield control.
 
 prerequisites:
-  - [url:class2/class-hermetician]Hermetician[/url] [sup]or[/sup] [url:class2/class-kinetician]Kinetician[/url] [sup]or[/sup] [url:class2/class-meteorician]Meteorician[/url] [sup]or[/sup] [url:class2/class-thermician]Thermician[/url]
+  - "[url:class2/class-hermetician]Hermetician[/url] [sup]or[/sup] [url:class2/class-kinetician]Kinetician[/url] [sup]or[/sup] [url:class2/class-meteorician]Meteorician[/url] [sup]or[/sup] [url:class2/class-thermician]Thermician[/url]"
 
 subclasses: []
 
