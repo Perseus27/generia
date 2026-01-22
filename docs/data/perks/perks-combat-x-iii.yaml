@@ -19,6 +19,20 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Specialist
+    id: specialist
+
+  - name: Momentum
+    id: momentum
+    sp-cost: 20
+    requirements: "[url:class3/class-specialist]Specialist[/url]"
+    description: >
+      Successful [url:def#Hit]hits[/url], [url:def#Block]blocks[/url], and [url:def#Parry]parries[/url] grant one point of [i]Momentum[/i]. 
+      Each of these points may be used as a [url:def#FreeAction]Free Reaction[/url] to add an additional 
+      [section:clr-roll]1d6[/section] to any weapon damage rolls.
+
+  - subheader:
+    is_subheader: True
     name: Ranger
     id: ranger
 

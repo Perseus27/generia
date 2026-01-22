@@ -88,6 +88,7 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-iii/class-magus.yaml') }}
 {{ class_card('data/classes/tier-iii/class-moon-dancer.yaml') }}
 {{ class_card('data/classes/tier-iii/class-ranger.yaml') }}
+{{ class_card('data/classes/tier-iii/class-specialist.yaml') }}
 {{ class_card('data/classes/tier-iii/class-templar.yaml') }}
 {{ class_card('data/classes/tier-iii/class-virtuoso.yaml') }}
 {{ class_card('data/classes/tier-iii/class-wayfarer.yaml') }}

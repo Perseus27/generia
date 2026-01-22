@@ -5,14 +5,13 @@ alias: [Axefighter, Swordfighter]
 description: >
   Slashers are experts in slashing weapons of all kinds.
 
-
-
 prerequisites:
   - Fighter
   - "Slashing: Beginner"
 
 subclasses:
   - Champion
+  - Specialist
   - Templar
 
 perks:

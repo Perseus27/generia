@@ -48,3 +48,17 @@ tier3:
       The Champion challenges [section:clr-value]one[/section] hostile creature. Whenever that creature performs an attack action against any of the Champion's allies, 
       the Champion may execute [section:clr-value]one[/section] [url:def#MeleeAttack]melee attack[/url] or [url:skillsW]weapon skill[/url] 
       against it as a [url:def#FreeAction]Free Reaction[/url].
+
+  - subheader:
+    is_subheader: True
+    name: Specialist
+    id: specialist
+
+  - name: True Strike
+    id: true-strike
+    tags: [Tier X, "[url:class3/class-specialist]Specialist[/url]", Offensive, "Range: Weapon", "SP Cost: 20"]
+    cost:
+      - "[section:clr-en]4 EN[/section]"
+    description: >
+      The Specialist executes a [url:def#MeleeAttack]melee attack[/url]. Any damage dice lower than the die average may be [url:core#Reroll]rerolled[/url] [section:clr-value]indefinitely[/section].
+      [br]If the attack does not [url:def#Hit]hit[/url], the [section:clr-en]energy cost[/section] is refunded.
