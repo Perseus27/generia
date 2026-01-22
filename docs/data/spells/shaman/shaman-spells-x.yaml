@@ -7,12 +7,12 @@ is_exclusive: True
 exclusive:
   - subheader:
     is_subheader: True
-    name: "Elementalist"
-    id: "elementalist"
+    name: Elementalist
+    id: elementalist
 
-  - name: "Elemental Field"
-    id: "elemental-field"
-    tags: ["TIER X", "Elementalist", "Summoning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
+  - name: Elemental Field
+    id: elemental-field
+    tags: [TIER X, Elementalist, Summoning, Utility, "Range: 20m", "Radius: 2m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -31,25 +31,49 @@ exclusive:
 
   - subheader:
     is_subheader: True
-    name: "Monk"
-    id: "monk"
+    name: Monk
+    id: monk
 
-  - name: "Inner World"
-    id: "inner-world"
-    tags: ["TIER X", "Monk", "Binding", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 10"]
+  - name: Inner World
+    id: inner-world
+    tags: [TIER X, Monk, Binding, Utility, "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 10"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
       - "[section:clr-mp]3/2/1 MP[/section]"
     description: >
-      The monk channels an elemental’s energy into their own body. The effect depends on the chosen element.
+      The Monk channels an elemental's energy into their own body. The effect depends on the chosen element.
       [br][i]Bonus damage applies only to unarmed attacks. Bonus Fire damage is resolved separately against Magic Defense.[/i]
     effect: >
       [b]Water:[/b]
       [br][url:core#Advantage]Advantage 1[/url] on Parry rolls.
+      [br][b]Stone:[/b]
+      [br][[section:clr-value]Binding[/section]] bonus damage.
       [br][b]Fire:[/b]
       [br][[section:clr-value]Binding[/section]] × [section:clr-roll]1d4[/section] bonus Fire damage.
       [br][b]Air:[/b]
       [br][url:core#Advantage]Advantage 1[/url] on Dodge rolls.
+
+  - subheader:
+    is_subheader: True
+    name: Wayfarer
+    id: wayfarer
+
+  - name: Manifest
+    id: manifest
+    tags: [TIER X, Wayfarer, Binding, Reaction, "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]3/2/1 MP[/section]"
+    description: >
+      The Wayfarer imbues their next unarmed [url:def#MeleeAttack]melee attack[/url] in this turn with elemental mana, granting it a bonus effect depending on the used element.
+    effect: >
+      [b]Water:[/b]
+      [br]The attack ignores up to [[section:clr-value]Binding[/section]] [url:values#AV]AV[/url].
       [br][b]Stone:[/b]
-      [br][[section:clr-value]Binding[/section]] bonus damage.
+      [br]The attack causes [url:status#Knockback]Knockback[/url] [[section:clr-value]Binding[/section]] on [url:def#Hit]hit[/url].
+      [br][b]Fire:[/b]
+      [br]The [url:dtypes]damage type[/url] of the attack changes to [i]Fire[/i].
+      [br][b]Air:[/b]
+      [br]The attack roll is [url:core#Eased]eased[/url] by [[section:clr-value]Binding[/section]].
