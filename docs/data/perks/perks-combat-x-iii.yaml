@@ -6,6 +6,19 @@ is_exclusive: True
 content:
   - subheader:
     is_subheader: True
+    name: Champion
+    id: champion
+
+  - name: Battlefield Control
+    id: battlefield-control
+    sp-cost: 20
+    requirements: "[url:class3/class-champion]Champion[/url]"
+    description: >
+      Whenever the Champion [url:def#Hit]hits[/url] an enemy with a reactive [url:def#MeleeAttack]melee attack[/url], 
+      that enemy is forced to end their current [url:def#MovementAction]movement action[/url].
+
+  - subheader:
+    is_subheader: True
     name: Ranger
     id: ranger
 
@@ -14,4 +27,5 @@ content:
     sp-cost: 20
     requirements: "[url:class3/class-ranger]Ranger[/url]"
     description: >
-      When you and your summoned [i]Beast Soul[/i] attack the same target, both gain [url:core#Advantage]Advantage 1[/url] on the attack roll. You also have [url:core#Advantage]Advantage 1[/url] on all [i]Fauna[/i], [i]Flora[/i], [i]Hunting[/i], and [i]Survival[/i] checks while your summoned beast is active.
+      When the Ranger and their summoned [i]Beast Soul[/i] attack the same target, both gain [url:core#Advantage]Advantage 1[/url] on the attack roll.
+      [br]The Ranger also has [url:core#Advantage]Advantage 1[/url] on all [i]Fauna[/i], [i]Flora[/i], [i]Hunting[/i], and [i]Survival[/i] checks while the summoned beast is active.
