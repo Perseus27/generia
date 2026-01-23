@@ -2,6 +2,8 @@ from bb_renderer import BB_Renderer
 
 from list_builder import List_Builder
 
+from creature_renderer_auto import Creature_Renderer_Auto
+
 class Creature_Renderer:
     
     ATTRIBUTE_ORDER = ["CON", "STR", "DEX", "INT", "WIL", "PER"]
@@ -15,6 +17,7 @@ class Creature_Renderer:
         self.yaml_input = yaml_input
         self.autolinker = autolinker
         self.list_builder = List_Builder(autolinker)
+        self.auto = Creature_Renderer_Auto(yaml_input, autolinker)
 
 
     def get_output(self):
@@ -130,7 +133,8 @@ class Creature_Renderer:
 
     def format_actions(self):
         all_items = self.yaml_input.get("actions", {})
-        actions = self.list_builder.build_list_with_subitems(all_items.get("active", {}), supercontainer = "creature-action", list_type="br")
+        #actions = self.list_builder.build_list_with_subitems(all_items.get("active", {}), supercontainer = "creature-action", list_type="br")
+        actions = self.auto.format_actions()
         passives = self.list_builder.build_list_with_subitems(all_items.get("passive", {}), supercontainer = "creature-action", list_type="br")
         return {"active":self.BB_HELPER.process(actions), "passive":self.BB_HELPER.process(passives)}
     

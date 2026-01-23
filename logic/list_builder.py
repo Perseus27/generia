@@ -114,7 +114,13 @@ class List_Builder:
                     y = x.get(subitem)
                     if isinstance(y, list):
                         for z in y:
-                            result += f"[container:subitem]{z}[/container]"
+                            if supercontainer == "creature-action" and x.get("name") == "Proficiencies" and subitem == "effect" and isinstance(z, list):
+                                result += f"[container:subitem]{z[0]} [section:clr-value]{z[1]}[/section]"
+                                if len(z) == 3:
+                                    result += f" ([section:clr-attr]{z[2]}[/section])"
+                                result += "[/container]"
+                            else:
+                                result += f"[container:subitem]{z}[/container]"
                     else:
                         result += f"[container:subitem]{y}[/container]"
 
