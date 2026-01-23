@@ -72,6 +72,7 @@ class Creature_Renderer_Auto:
         cost = a.get("cost", False)
         save = a.get("save", False)
         skills = a.get("skills", False)
+        perks = a.get("perks", False)
         result = "[container:creature-action-container]"
         result += f"[section:creature-action-name]{a.get('name')}[/section]"
         if atype:
@@ -89,6 +90,8 @@ class Creature_Renderer_Auto:
             result += f"[container:subitem]{cost}[/container]"
         if skills:
             result += f"[container:subitem]{self.list_builder.build_list(skills, to_link ='skill', list_type='comma')}[/container]"
+        if perks:
+            result += f"[container:subitem]{self.list_builder.build_list(perks, to_link ='perk', list_type='comma')}[/container]"
         return result + "[/container]"
     
     def format_weapon_hit(self, a):
