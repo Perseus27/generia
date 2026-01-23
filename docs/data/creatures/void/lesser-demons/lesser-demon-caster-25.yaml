@@ -1,0 +1,114 @@
+name: Lesser Demon, Caster 25
+id: lesser-demon-caster-25
+info:
+  species: Demon
+  level: 25
+  size: Medium
+  tags: [Freecaster, Sapient, [Tough, 1]]
+notes: >
+  A lesser demon, driven by nothing but pure malice. Technically sapient, but operates on instinct alone.
+
+attributes:
+  CON: [9, 4]
+  STR: [8, 4]
+  DEX: [8, 4]
+  INT: [3, 1]
+  WIL: [13, 6]
+  PER: [8, 4]
+values:
+  EN: 15
+  MP: 15
+  MPR: 6
+  WL: 6
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 2
+  torso: 4
+  arms: 3
+  legs: 3
+  md: 6
+  er: 0
+loot:
+  - Void Core, normal
+actions:
+  active:
+    - name: Void Beam
+      type: Spell Attack, Range 20m
+      auto: [SA, WIL]
+      damage: [4d6, Void]
+      prof: Void
+      cost: "[section:clr-mp]3 MP[/section]"
+
+    - name: Void Shot
+      type: Projectile Attack, Range 20m
+      auto: [PA, WIL]
+      damage: [4d8, Void]
+      prof: Void
+      cost: "[section:clr-mp]3 MP[/section]"
+
+    - name: Void Ball
+      type: Spell Attack, Range 20m, Radius 2m
+      auto: [SA, WIL]
+      damage: [4d6, Void]
+      prof: Void
+      cost: "[section:clr-mp]5 MP[/section]"
+
+    - name: Void Grasp
+      type: Utility, Concentration, Range 20m
+      auto: [DC, WIL]
+      prof: Void
+      effect:
+        - "Target is [url:status#Restrained]restrained[/url]."
+      save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]/+10:[/b] Slowed/No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Void Field
+      type: Utility, Concentration, FIELD, Range 20m, Radius 2m
+      auto: [DC, WIL]
+      prof: Void
+      effect:
+        - "[url:status#Decay]Decay 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Decay]Decay 1[/url]/No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Void Barrier
+      type: Reaction
+      auto: [SD, [WIL, PER]]
+      prof: Void
+      damage: [2d4, Shield]
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Void Hole
+      type: Reaction
+      auto: [SD, [WIL, PER]]
+      prof: Void
+      effect:
+        - "Devours a projectile."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Void Step
+      type: Movement, Range 19m
+      effect:
+        - "Teleports to a free location within line of sight."
+      cost: "[section:clr-mp]2 MP[/section]"
+
+    - name: Void Veil
+      type: Utility, Concentration
+      effect:
+        - "Gains [url:status#Resistant]Resistant[/url] [i]Magical[/i]."
+      cost: "[section:clr-mp]2 MP[/section]"
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Blood Mage, Astral Body II, Battle Meditation, Focus I, Intensity, Precision Casting]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Void, 6, WIL]
+    - name: Void Spawn
+      type: Passive
+      effect:
+        - "[url:values#MD]MD[/url] is increased by [[section:clr-attr]WIL-MOD[/section]]."
