@@ -3951,25 +3951,159 @@
   
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
-<p><em>File</em>: <code>stats/creatures/dracids/kobolds.md</code></p>
-<p><em>FileNotFoundError</em>: YAML not found: data/creatures/dracids/kobold-archer-25.yaml</p>
-<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
-    return md_template.render(**page_variables)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 1295, in render
-    self.environment.handle_exception()
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 19, in top-level template code
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 42, in creature
-    yaml_content = _read_yaml(path)
-                   ^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 28, in _read_yaml
-    raise FileNotFoundError(f&quot;YAML not found: {rel_path}&quot;)
-FileNotFoundError: YAML not found: data/creatures/dracids/kobold-archer-25.yaml
-</code></pre></div>
+<p><template id="sidebar-extra">
+<br />
+<div class="sidebar-extra sidebar-extra-larger">
+    <h4>NAVIGATION</h4>
+    <h5>Level 25</h5>
+    <p>
+    <a href="#kobold-archer-25">Archer</a>
+    <br><a href="#kobold-fighter-25">Fighter</a>
+    <br><a href="#kobold-sorcerer-25">Sorcerer</a>
+    </p>
+    <hr>
+    <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
+  </div></p>
+<p></template></p>
+<h1 id="kobolds">Kobolds<a class="headerlink" href="#kobolds" title="Permanent link">&para;</a></h1>
+<h2 id="level-25">Level 25<a class="headerlink" href="#level-25" title="Permanent link">&para;</a></h2>
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="kobold-archer-25">Kobold Archer 25</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>11 [5]</td></tr><tr><td><strong>STR</strong></td><td>11 [5]</td></tr><tr><td><strong>DEX</strong></td><td>8 [4]</td></tr><tr><td><strong>INT</strong></td><td>3 [1]</td></tr><tr><td><strong>WIL</strong></td><td>8 [4]</td></tr><tr><td><strong>PER</strong></td><td>8 [4]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>ER</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Kobold</a></td></tr><tr><td><strong>Level:</strong></td><td>25</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#Sapient'>Sapient</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1</div>        
+            </div>
+            <div class="creature-notes">
+                A sapient, flightless dracid. Prideful and greedy like a True Dragon, but lacks the primeval might to back it up.
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bow</span><br><span class='creature-action-type section'>Ranged Attack, Range 20m</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>1d8+5 Arrow</span></div><div class='subitem container'><a href='/generia/character/skills/skills-tier-i#aimed-shot'>Aimed Shot</a>, <a href='/generia/character/skills/skills-tier-i#careful-shot'>Careful Shot</a>, <a href='/generia/character/skills/skills-tier-ii#multishot'>Multishot</a>, <a href='/generia/character/skills/skills-tier-ii#precise-shot-legs'>Precise Shot: Legs</a>, <a href='/generia/character/skills/skills-tier-iii#ricochet'>Ricochet</a></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+8</span></div><div class='subitem container'><span class='clr-roll section'>3d4+5 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Bite</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 18</span></span></div><div class='subitem container'>On <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Causes <a href='/generia/rules/combat/status-effects#Burning'>Burning 2</a>/<a href='/generia/rules/combat/status-effects#Chilled'>Chilled</a>/<a href='/generia/rules/combat/status-effects#Shocked'>Shocked 4</a>/<a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>:</strong> No effect.</div><div class='subitem container'><span class='clr-mp section'>1 MP</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Breath</span><br><span class='creature-action-type section'>Spell Attack, Range 4m, Width 3m</span><div class='subitem container'><span class='clr-hit section'>Hit+8</span></div><div class='subitem container'><span class='clr-roll section'>3d8+4 Element</span></div><div class='subitem container'>If <em>Draconic Heritage</em> is Poison: Air damage with <a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a> on <a href='/generia/rules/basic/definitions#Hit'>hit</a>.</div><div class='subitem container'>Once per Phase</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Arrow, heavy</span><div class='subitem container'><span class='clr-roll section'>1d8 Arrow</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Weapon</span><br><span class='creature-action-type section'>Utility, Concentration</span><div class='subitem container'>Weapon causes <a href='/generia/rules/combat/status-effects#Burning'>Burning 2</a>/<a href='/generia/rules/combat/status-effects#Chilled'>Chilled</a>/<a href='/generia/rules/combat/status-effects#Shocked'>Shocked 4</a>/<a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a> on <a href='/generia/rules/basic/definitions#Hit'>hit</a>.</div><div class='subitem container'><span class='clr-en section'>1 MP</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Perks</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/character/perks/perks-combat#david'>David</a>, <a href='/generia/character/perks/perks-combat#opportunist'>Opportunist</a></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Bow <span class='clr-value section'>6</span></div><div class='subitem container'>Primitive <span class='clr-value section'>4</span></div><div class='subitem container'>Sorcery <span class='clr-value section'>4</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Draconic Heritage</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Affinity for a random element from this list: <em>Fire</em>, <em>Ice</em>, <em>Lightning</em>, <em>Poison</em>.</div><div class='subitem container'>This impacts the effects of <em>Elemental Bite/Breath/Weapon</em>.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li><span class='clr-roll-noex section'>1d4</span> Kobold Health Potion, medium+2</li><li><span class='clr-roll-noex section'>1d10</span> Arrows, heavy</li><li>Monster Core, normal</li></ul>
+        </div>
+    </div>
+</div>
+
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="kobold-fighter-25">Kobold Fighter 25</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>11 [5]</td></tr><tr><td><strong>STR</strong></td><td>12 [6]</td></tr><tr><td><strong>DEX</strong></td><td>7 [3]</td></tr><tr><td><strong>INT</strong></td><td>3 [1]</td></tr><tr><td><strong>WIL</strong></td><td>8 [4]</td></tr><tr><td><strong>PER</strong></td><td>8 [4]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>9</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>ER</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Kobold</a></td></tr><tr><td><strong>Level:</strong></td><td>25</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#Sapient'>Sapient</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1</div>        
+            </div>
+            <div class="creature-notes">
+                A sapient, flightless dracid. Prideful and greedy like a True Dragon, but lacks the primeval might to back it up.
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Spear & Shield</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+9, Block+17|13</span></div><div class='subitem container'><span class='clr-roll section'>2d6+6 Sharp</span></div><div class='subitem container'><a href='/generia/character/skills/skills-tier-i#counter'>Counter</a>, <a href='/generia/character/skills/skills-tier-i#feint'>Feint</a>, <a href='/generia/character/skills/skills-tier-ii#mighty-strike'>Mighty Strike</a>, <a href='/generia/character/skills/skills-tier-i#shield-bash'>Shield Bash</a>, <a href='/generia/character/skills/skills-tier-i#shove'>Shove</a>, <a href='/generia/character/skills/skills-tier-iii#whirl'>Whirl</a></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+7</span></div><div class='subitem container'><span class='clr-roll section'>3d4+6 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Bite</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 18</span></span></div><div class='subitem container'>On <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Causes <a href='/generia/rules/combat/status-effects#Burning'>Burning 2</a>/<a href='/generia/rules/combat/status-effects#Chilled'>Chilled</a>/<a href='/generia/rules/combat/status-effects#Shocked'>Shocked 4</a>/<a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>:</strong> No effect.</div><div class='subitem container'><span class='clr-mp section'>1 MP</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Breath</span><br><span class='creature-action-type section'>Spell Attack, Range 4m, Width 3m</span><div class='subitem container'><span class='clr-hit section'>Hit+8</span></div><div class='subitem container'><span class='clr-roll section'>3d8+4 Element</span></div><div class='subitem container'>If <em>Draconic Heritage</em> is Poison: Air damage with <a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a> on <a href='/generia/rules/basic/definitions#Hit'>hit</a>.</div><div class='subitem container'>Once per Phase</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Weapon</span><br><span class='creature-action-type section'>Utility, Concentration</span><div class='subitem container'>Weapon causes <a href='/generia/rules/combat/status-effects#Burning'>Burning 2</a>/<a href='/generia/rules/combat/status-effects#Chilled'>Chilled</a>/<a href='/generia/rules/combat/status-effects#Shocked'>Shocked 4</a>/<a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a> on <a href='/generia/rules/basic/definitions#Hit'>hit</a>.</div><div class='subitem container'><span class='clr-en section'>1 MP</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Perks</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/character/perks/perks-combat#goliath'>Goliath</a>, <a href='/generia/character/perks/perks-combat#opportunist'>Opportunist</a></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Polearm <span class='clr-value section'>6</span></div><div class='subitem container'>Primitive <span class='clr-value section'>4</span></div><div class='subitem container'>Sorcery <span class='clr-value section'>4</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Draconic Heritage</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Affinity for a random element from this list: <em>Fire</em>, <em>Ice</em>, <em>Lightning</em>, <em>Poison</em>.</div><div class='subitem container'>This impacts the effects of <em>Elemental Bite/Breath/Weapon</em>.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li><span class='clr-roll-noex section'>1d4</span> Kobold Health Potion, medium+2</li><li>Monster Core, normal</li></ul>
+        </div>
+    </div>
+</div>
+
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="kobold-sorcerer-25">Kobold Sorcerer 25</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>9 [4]</td></tr><tr><td><strong>STR</strong></td><td>8 [4]</td></tr><tr><td><strong>DEX</strong></td><td>8 [4]</td></tr><tr><td><strong>INT</strong></td><td>3 [1]</td></tr><tr><td><strong>WIL</strong></td><td>8 [4]</td></tr><tr><td><strong>PER</strong></td><td>13 [4]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>15</td></tr><tr><td><strong>MP|R</strong></td><td>10|3</td></tr><tr><td><strong>WL</strong></td><td>5</td></tr><tr><td><strong>WT</strong></td><td>7</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>ER</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Kobold</a></td></tr><tr><td><strong>Level:</strong></td><td>25</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Medium'>Medium</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#Sapient'>Sapient</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1</div>        
+            </div>
+            <div class="creature-notes">
+                A sapient, flightless dracid. Prideful and greedy like a True Dragon, but lacks the primeval might to back it up.
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+8</span></div><div class='subitem container'><span class='clr-roll section'>3d4+4 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Bite</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 20</span></span></div><div class='subitem container'>On <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Causes <a href='/generia/rules/combat/status-effects#Burning'>Burning 2</a>/<a href='/generia/rules/combat/status-effects#Chilled'>Chilled</a>/<a href='/generia/rules/combat/status-effects#Shocked'>Shocked 4</a>/<a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>:</strong> No effect.</div><div class='subitem container'><span class='clr-mp section'>1 MP</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Breath</span><br><span class='creature-action-type section'>Spell Attack, Range 4m, Width 3m</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>3d8+6 Element</span></div><div class='subitem container'>If <em>Draconic Heritage</em> is Poison: Air damage with <a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a> on <a href='/generia/rules/basic/definitions#Hit'>hit</a>.</div><div class='subitem container'>Once per Phase</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Projectile</span><br><span class='creature-action-type section'>Projectile Attack, Range 20m</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>4d6+6 Element</span></div><div class='subitem container'>If <em>Draconic Heritage</em> is Poison: Air damage with <a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a> on <a href='/generia/rules/basic/definitions#Hit'>hit</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>DEX</span>/+10:</strong> Damage halved/No effect.</div><div class='subitem container'><span class='clr-mp section'>3 MP</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Blast</span><br><span class='creature-action-type section'>Spell Attack, Range 20m, Radius 2m</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>4d6+6 Element</span></div><div class='subitem container'>If <em>Draconic Heritage</em> is Poison: Air damage with <a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a> on <a href='/generia/rules/basic/definitions#Hit'>hit</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>DEX</span>/+10:</strong> Damage halved/No effect.</div><div class='subitem container'><span class='clr-mp section'>5 MP</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Elemental Zone</span><br><span class='creature-action-type section'>Utility, Concentration, Range 20m, Radius 2m</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 20</span></span></div><div class='subitem container'>Causes <a href='/generia/rules/combat/status-effects#Burning'>Burning 2</a>/<a href='/generia/rules/combat/status-effects#Chilled'>Chilled</a>/<a href='/generia/rules/combat/status-effects#Shocked'>Shocked 4</a>/<a href='/generia/rules/combat/status-effects#Poisoned'>Poisoned 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>/+10:</strong> No effect.</div><div class='subitem container'><span class='clr-mp section'>2 MP</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Perks</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/character/perks/perks-magic#astral-body-i'>Astral Body I</a>, <a href='/generia/character/perks/perks-magic#battle-meditation'>Battle Meditation</a>, <a href='/generia/character/perks/perks-combat#opportunist'>Opportunist</a>, <a href='/generia/character/perks/perks-magic#precision-casting'>Precision Casting</a></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Sorcery <span class='clr-value section'>6</span></div><div class='subitem container'>Primitive <span class='clr-value section'>4</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Draconic Heritage</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Affinity for a random element from this list: <em>Fire</em>, <em>Ice</em>, <em>Lightning</em>, <em>Poison</em>.</div><div class='subitem container'>This impacts the effects of <em>Elemental Bite/Breath/Weapon</em>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Draconic Constitution</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Permanent <a href='/generia/rules/combat/status-effects#Regeneration'>Regeneration 2</a> while <span class='clr-en section'>EN</span> is at or above 50%.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Instinctual Magic</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-value section'>One</span> elemental damage die may be <a href='/generia/rules/basic/core-mechanics#Reroll'>rerolled</a> <span class='clr-value section'>once</span>.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li><span class='clr-roll-noex section'>1d4</span> Kobold Health Potion, medium+2</li><li><span class='clr-roll-noex section'>1d4</span> Kobold Mana Potion, medium+2</li><li>Monster Core, normal</li></ul>
+        </div>
+    </div>
+</div>
 
 
 
