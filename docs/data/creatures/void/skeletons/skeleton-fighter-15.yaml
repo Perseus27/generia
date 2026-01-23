@@ -34,46 +34,36 @@ loot:
   - Void Core, lesser
 actions:
   active:
-    - name: "LOADOUTS"
-    
     - name: Axe / Sword
       type: Melee Attack
-      hit: "Hit+6, Block+11|9"
-      damage: 2d8+5 Sharp
+      auto: Longsword
       skills: [Charge, Mighty Strike, Swing]
     
     - name: Cutlass
       type: Melee Attack
-      hit: "Hit+6, Block+11|9"
-      damage: 2d6+5 Sharp
+      auto: Cutlass
       skills: [Charge, Multistrike, Feint]
     
     - name: Mace
       type: Melee Attack
-      hit: "Hit+4, Block+11|9"
-      damage: 2d6+7 Blunt
+      auto: Knobbed Mace
       skills: [Charge, Mighty Strike, Swing]
     
     - name: Spear
       type: Melee Attack
-      hit: "Hit+6, Block+11|9"
-      damage: 2d6+7 Sharp
+      auto: Spear
       skills: [Charge, Multistrike, Feint]
 
     - name: Tank (Broadsword & Shield)
       type: Melee Attack
-      hit: "Hit+6, Block+11|11"
-      damage: 2d6+5 Sharp
+      auto: Broadsword
+      shield: True
       skills: [Charge, Mighty Strike, Feint]
 
   passive:
     - name: Perks
       type: Passive
       perks: [Goliath, Opportunist]
-    - name: Proficiencies
-      type: Passive
-      effect:
-        - [Equipped Weapon, 2]
     - name: Artificial Pawn
       type: Passive
       effect:
