@@ -1,0 +1,111 @@
+name: Kobold Sorcerer 25
+id: kobold-sorcerer-25
+info:
+  species: Kobold
+  level: 25
+  size: Medium
+  tags: [Sapient, [Tough, 1]]
+notes: >
+  A sapient, flightless dracid. Prideful and greedy like a True Dragon, but lacks the primeval might to back it up.
+
+attributes:
+  CON: [9, 4]
+  STR: [8, 4]
+  DEX: [8, 4]
+  INT: [3, 1]
+  WIL: [8, 4]
+  PER: [13, 4]
+values:
+  EN: 15
+  MP: 10
+  MPR: 3
+  WL: 5
+  WT: 7
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 4
+  er: 0
+loot:
+  - "[section:clr-roll-noex]1d4[/section] Kobold Health Potion, medium+2"
+  - "[section:clr-roll-noex]1d4[/section] Kobold Mana Potion, medium+2"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      auto: Teeth (medium)
+
+    - name: Elemental Bite
+      type: Reaction
+      auto: [DC, PER]
+      prof: Sorcery
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: Causes [url:status#Burning]Burning 2[/url]/[url:status#Chilled]Chilled[/url]/[url:status#Shocked]Shocked 4[/url]/[url:status#Poisoned]Poisoned 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]:[/b] No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Elemental Breath
+      type: Spell Attack, Range 4m, Width 3m
+      auto: [SA, PER]
+      prof: Sorcery
+      damage: [3d8, Element]
+      effect:
+        - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
+      cost: "Once per Phase"
+
+    - name: Elemental Projectile
+      type: Projectile Attack, Range 20m
+      auto: [PA, PER]
+      prof: Sorcery
+      damage: [4d6, Element]
+      effect:
+        - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
+      cost: "[section:clr-mp]3 MP[/section]"
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
+
+    - name: Elemental Blast
+      type: Spell Attack, Range 20m, Radius 2m
+      auto: [SA, PER]
+      prof: Sorcery
+      damage: [4d6, Element]
+      effect:
+        - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
+      cost: "[section:clr-mp]5 MP[/section]"
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
+
+    - name: Elemental Zone
+      type: Utility, Concentration, Range 20m, Radius 2m
+      auto: [DC, PER]
+      prof: Sorcery
+      effect:
+        - "Causes [url:status#Burning]Burning 2[/url]/[url:status#Chilled]Chilled[/url]/[url:status#Shocked]Shocked 4[/url]/[url:status#Poisoned]Poisoned 2[/url]."
+      cost: "[section:clr-mp]2 MP[/section]"
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] No effect."
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Astral Body I, Battle Meditation, Opportunist, Precision Casting]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Sorcery, 6]
+        - [Primitive, 4]
+    - name: Draconic Heritage
+      type: Passive
+      effect:
+        - "Affinity for a random element from this list: [i]Fire[/i], [i]Ice[/i], [i]Lightning[/i], [i]Poison[/i]."
+        - This impacts the effects of [i]Elemental Bite/Breath/Weapon[/i].
+    - name: Draconic Constitution
+      type: Passive
+      effect:
+        - Permanent [url:status#Regeneration]Regeneration 2[/url] while [section:clr-en]EN[/section] is at or above 50%.
+    - name: Instinctual Magic
+      type: Passive
+      effect:
+        - "[section:clr-value]One[/section] elemental damage die may be [url:core#Reroll]rerolled[/url] [section:clr-value]once[/section]."
