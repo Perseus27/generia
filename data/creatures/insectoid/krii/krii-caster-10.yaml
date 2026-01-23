@@ -73,8 +73,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Soul [section:clr-value]+4[/section] ([section:clr-attr]PER[/section])
-        - Primitive [section:clr-value]+4[/section]
+        - [Soul, 4, PER]
+        - [Primitive, 4]
 
     - name: Climber
       type: Passive

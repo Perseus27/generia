@@ -65,7 +65,7 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Bows [section:clr-value]+2[/section]
+        - [Bow, 2]
     - name: Cowardly
       type: Passive
       effect:

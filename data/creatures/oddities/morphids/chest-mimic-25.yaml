@@ -82,5 +82,5 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+4[/section]
-        - "Tentacles: 4"
+        - [Primitive, 4]
+        - [Tentacle, 4]

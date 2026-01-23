@@ -78,9 +78,9 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Polearms [section:clr-value]+6[/section]
-        - Shields [section:clr-value]+4[/section]
-        - Primitive [section:clr-value]+6[/section]
+        - [Polearm, 6]
+        - [Shield, 4]
+        - [Primitive, 6]
 
     - name: Climber
       type: Passive

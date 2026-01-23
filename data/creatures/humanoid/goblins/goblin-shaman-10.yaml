@@ -70,8 +70,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Fire [section:clr-value]+4[/section] ([section:clr-attr]PER[/section])
-        - Stone [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+        - [Fire, 4, PER]
+        - [Stone, 2, PER]
     - name: Cowardly
       type: Passive
       effect:

@@ -49,7 +49,7 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+2[/section]
+        - [Primitive, 2]
 
     - name: Alert
       type: Passive
