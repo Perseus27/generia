@@ -73,8 +73,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+4[/section]
-        - Water [section:clr-value]+4[/section] ([section:clr-attr]PER[/section])
+        - [Primitive, 4]
+        - [Water, 4, PER]
     - name: Troll Regeneration
       type: Passive
       effect:

@@ -100,9 +100,9 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Soul [section:clr-value]+6[/section] ([section:clr-attr]PER[/section])
-        - Primitive [section:clr-value]+6[/section]
-        - Warfare [section:clr-value]+6[/section]
+        - [Soul, 6, PER]
+        - [Primitive, 6]
+        - [Warfare, 6]
 
     - name: Climber
       type: Passive

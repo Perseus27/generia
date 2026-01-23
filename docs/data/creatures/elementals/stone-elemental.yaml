@@ -65,8 +65,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Stone [section:clr-value]+4[/section] ([section:clr-attr]WIL[/section])
-        - Primitive [section:clr-value]+4[/section]
+        - [Stone, 4, WIL]
+        - [Primitive, 4]
     - name: Living Mana
       type: Passive
       effect: >

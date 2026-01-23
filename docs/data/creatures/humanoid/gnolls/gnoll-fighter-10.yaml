@@ -56,7 +56,7 @@ actions:
       type: Passive
       effect:
         - [Primitive, 4]
-        - [Polearms, 2]
+        - [Polearm, 2]
     - name: Bloodthirsty
       type: Passive
       effect:

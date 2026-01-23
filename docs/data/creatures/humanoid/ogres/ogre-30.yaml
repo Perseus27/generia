@@ -67,8 +67,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+6[/section]
-        - Maces [section:clr-value]+6[/section]
+        - [Primitive, 6]
+        - [Mace, 6]
     - name: Impact
       type: Passive
       hit: "[section:clr-dc]DC 17[/section]"
