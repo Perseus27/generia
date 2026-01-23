@@ -2,7 +2,7 @@ name: Minuvarion
 id: minuvarion
 info:
   species: Elf
-  level: 24
+  level: 25
   size: Medium
   classes: [Wizard, Meteorician, Thermician, Hermetician, Magus]
   tags: [–]
@@ -18,7 +18,7 @@ attributes:
   CON: [5, 2, 1]
   STR: [4, 2]
   DEX: [8, 4]
-  INT: [13, 6, 1]
+  INT: [14, 7, 1]
   WIL: [9, 4]
   PER: [8, 4, 1]
 values:
@@ -47,7 +47,7 @@ inventory:
       disp: Wizard's Hat
       q: 3
     - name: Leather Armor
-      q: 2
+      q: 3
     - name: Cloth Gauntlets
       enchantments:
         - CON+2
@@ -101,7 +101,7 @@ proficiencies:
     - [Lightning, 4]
     - [Air, 3]
     - "Hermetics: Intermediate"
-    - [Arcane, 1]
+    - [Arcane, 3]
     - "Thermics: Intermediate"
     - [Fire, 3]
     - [Ice, 3]

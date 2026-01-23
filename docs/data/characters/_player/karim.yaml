@@ -2,7 +2,7 @@ name: Karim
 id: karim
 info:
   species: Felis
-  level: 24
+  level: 25
   size: Medium
   classes: [Shaman, Summoner, Binder, Elementalist, Sorcerer]
   tags: [–]
@@ -12,20 +12,20 @@ notes: >
   [br]150 SP Base
   [br]+80 Bonus
   [br]== 240 Total
-  [br]REST 5
+  [br]REST 10
 
 attributes:
   CON: [7, 3]
   STR: [4, 2]
   DEX: [8, 4]
   INT: [7, 3]
-  WIL: [14, 7, 3]
+  WIL: [15, 7, 3]
   PER: [7, 3]
 values:
   EN: 10
   MP: 20
-  MPR: 5
-  WL: 5
+  MPR: 6
+  WL: 6
   WT: 7
   TN: 3
   MS: 8
@@ -38,7 +38,8 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: Caster Staff
+    - name: Rondel Dagger
+      q: 2
     - name: Roundshield
       q: 1
     - name: Knife
