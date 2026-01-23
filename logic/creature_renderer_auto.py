@@ -158,6 +158,10 @@ class Creature_Renderer_Auto:
         for p in self.prof:
             if p[0] == prof_name:
                 result = p[1]
+        if not result:
+            for p in self.prof:
+                if p[0] == "Universal":
+                    result = p[1]
         return result
     
     def get_reflex_bonus(self):
