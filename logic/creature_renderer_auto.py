@@ -42,6 +42,7 @@ class Creature_Renderer_Auto:
         for p in self.passives:
             if p.get("name") == "Proficiencies":
                 return p.get("effect")
+        return []
             
     def format_actions(self):
         result = ""
