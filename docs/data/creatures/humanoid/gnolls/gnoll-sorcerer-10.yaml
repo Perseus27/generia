@@ -37,8 +37,9 @@ actions:
   active:
     - name: Blood Shot
       type: Spell Projectile, 20m
-      hit: "Hit+6"
-      damage: 2d6+2 Sharp
+      auto: [PA, PER]
+      prof: Sorcery
+      damage: [2d6, Sharp]
     - name: Frenzy
       type: Utility, 16m Radius
       effect:

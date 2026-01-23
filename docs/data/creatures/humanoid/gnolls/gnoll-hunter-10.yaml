@@ -38,17 +38,16 @@ actions:
   active:
     - name: Bow
       type: Ranged Attack
-      hit: "Hit+6, -1/0/0, 20m"
-      damage: 1d6+1d4+3 Arrow
+      auto: Hunting Bow
       skills: [Careful Shot, Aimed Shot]
     - name: Spear
       type: Melee Attack
-      hit: "Hit+5, Block+7|6"
-      damage: 2d6+3 Sharp
+      auto: Spear
     - name: Bite
       type: Melee Attack
-      hit: "Hit+8"
-      damage: 3d4+3 Sharp
+      auto: Teeth (medium)
+    - name: Primitive Arrow
+      damage: 1d4
     - name: Twitch
       type: Reaction
       effect:
