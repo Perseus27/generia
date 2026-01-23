@@ -160,7 +160,7 @@ utility:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
-      - "[section:clr-mpcost]2 MP[/section]"
+      - "[section:clr-mpcost]3 MP[/section]"
     description: >
       Fold space-time and step through.
     effect: >
