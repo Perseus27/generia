@@ -48,26 +48,23 @@ actions:
 
     - name: "Frontliner | Mace & Shield"
       type: "Melee Attack"
-      hit: "Hit+3, Block+7|9"
-      damage: "2d6+4 Blunt"
+      auto: Flanged Mace
+      shield: True
       skills: [Mighty Strike, Shove, Steady Block]
 
     - name: "Skirmisher | Spear"
       type: "Melee Attack, long"
-      hit: "Hit+3, Block+7|7"
-      damage: "2d6+6 Sharp"
+      auto: Spear
       skills: [Counter, Disarm, Feint]
 
     - name: "Destroyer | Battleaxe"
       type: "Melee Attack"
-      hit: "Hit+3, Block+7|7"
-      damage: "2d8+4 Sharp"
+      auto: Battleaxe
       skills: [Aimed Strike, Counter, Mighty Strike, Mordhau, "Stance: Attack", Swing, Whirl]
 
     - name: "Stalker | Rapier"
       type: "Melee Attack"
-      hit: "Hit+4, Block+7|7"
-      damage: "2d6+2 Sharp"
+      auto: Rapier
       skills: [Aimed Strike, Camouflage, Counter, Feint, Find Weakness]
       perks: [Deflector, Sprinter]
 
