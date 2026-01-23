@@ -73,7 +73,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      Conjures [section:clr-attr]INT-MOD[/section] arcane projectiles that can intercept hostile projectiles as reactions.
+      Conjures [[section:clr-attr]Arcane[/section]] (min. [section:clr-value]3[/section]] arcane projectiles that can intercept hostile projectiles as reactions.
     effect: >
       A hostile projectile is destroyed if your roll meets or exceeds its [url:values#AttackValue]attack value[/url].
 
