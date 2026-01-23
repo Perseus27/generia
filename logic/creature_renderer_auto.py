@@ -133,13 +133,16 @@ class Creature_Renderer_Auto:
         if spell_type in ["PA", "SA"]:
             return f"Hit+{attr_bonus+prof}"
         elif spell_type == "DC":
-            return f"[section:clr-dc]DC {attr_bonus+prof}[/section]"
+            return f"[section:clr-dc]DC {10+attr_bonus+prof}[/section]"
         return "SPELL HIT ERROR"
     
     def format_spell_damage(self, a):
         prof = self.get_prof_value(a)
-        dmg = a.get("damage")
-        return f"{dmg[0]}+{prof} {dmg[1]}"
+        dmg = a.get("damage", False)
+        if dmg:
+            return f"{dmg[0]}+{prof} {dmg[1]}"
+        else:
+            return False
 
             
     def get_prof_value(self, a):
