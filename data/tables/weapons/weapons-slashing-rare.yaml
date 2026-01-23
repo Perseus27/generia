@@ -90,6 +90,19 @@ items:
     - - Flexible
       - 1.0|1.5
 
+- name: Elven Sword
+  type: Sword
+  damage: [2d6, Sharp]
+  skill: Cut
+  hr: 1.0
+  dr: 1.0
+  weight: 1.0
+  size: 10x2
+  rarity: 3
+  price: 3
+  tags:
+    - Conduit
+
 - name: Gladius
   type: Sword
   damage: [2d6, Sharp]

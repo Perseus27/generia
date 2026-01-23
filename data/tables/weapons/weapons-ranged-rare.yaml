@@ -27,20 +27,20 @@ items:
   price: 3
   tags: []
 
-- name: Elvish Bow
+- name: Elven Bow
   type: Bow
   damage: [1d8, Arrow]
   skill: Kite
   hr: 1.0
   dr: 1.0
-  range: -1/0/1, 28m
+  range: -1/0/0, 28m
   weight: 1
   size: 16x3
   rarity: 4
   price: 4
   tags:
     - Complex
-    - Guiding Wind
+    - Conduit
     - Long
 
 - name: Orkish Warbow
