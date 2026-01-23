@@ -73,9 +73,10 @@ defensive:
     cost:
       - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      Conjures [[section:clr-attr]Arcane[/section]] (min. [section:clr-value]3[/section]] arcane projectiles that can intercept hostile projectiles as reactions.
+      Conjures [[section:clr-attr]Arcane[/section]] (min. [section:clr-value]3[/section]] arcane projectiles that can intercept hostile projectiles as [url:def#Reaction]reactions[/url].
+      [br][section:clr-sd]SD[/section] has[url:core#Disadvantage] Disadvantage 1[/url] if either projectile origin or target is not in line of sight of the Wizard. Impossible if neither is visible.
     effect: >
-      A hostile projectile is destroyed if your roll meets or exceeds its [url:values#AttackValue]attack value[/url].
+      Hostile projectile is destroyed if [section:clr-sd]SD[/section] meets or exceeds the [url:values#AttackValue]attack value[/url].
 
 
 utility:
