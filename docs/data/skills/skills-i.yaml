@@ -90,6 +90,7 @@ utility:
       [li]Target has [url:core#Disadvantage]Disadvantage 1[/url] on [url:def#Parry]Parry[/url][/li]
       [li]Ignores [[section:clr-attr]STR-MOD[/section]] [url:values#BlockStrength]block strength[/url][/li]
       [/ul]
+      [i]Requires two-handed weapon.[/i]
 
 reaction:
   - name: Aimed Shot
