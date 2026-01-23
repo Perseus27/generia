@@ -14,7 +14,7 @@ attributes:
   DEX: [8, 4]
   INT: [3, 1]
   WIL: [8, 4]
-  PER: [13, 4]
+  PER: [13, 6]
 values:
   EN: 15
   MP: 10
