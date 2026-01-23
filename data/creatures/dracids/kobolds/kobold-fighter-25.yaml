@@ -1,0 +1,81 @@
+name: Kobold Fighter 25
+id: kobold-fighter-25
+info:
+  species: Kobold
+  level: 25
+  size: Medium
+  tags: [Sapient, [Tough, 1]]
+notes: >
+  A sapient, flightless dracid. Prideful and greedy like a True Dragon, but lacks the primeval might to back it up.
+
+attributes:
+  CON: [11, 5]
+  STR: [12, 6]
+  DEX: [7, 3]
+  INT: [3, 1]
+  WIL: [8, 4]
+  PER: [8, 4]
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 9
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 4
+  er: 0
+loot:
+  - "[section:clr-roll-noex]1d4[/section] Kobold Health Potion, medium+2"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Spear & Shield
+      type: Melee Attack
+      auto: Spear
+      shield: True
+      skills: [Counter, Feint, Mighty Strike, Shield Bash, Shove, Whirl]
+    - name: Bite
+      type: Melee Attack
+      auto: Teeth (medium)
+    - name: Elemental Bite
+      type: Reaction
+      auto: [DC, PER]
+      prof: Sorcery
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: Causes [url:status#Burning]Burning 2[/url]/[url:status#Chilled]Chilled[/url]/[url:status#Shocked]Shocked 4[/url]/[url:status#Poisoned]Poisoned 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]:[/b] No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+    - name: Elemental Breath
+      type: Spell Attack, Range 4m, Width 3m
+      auto: [SA, PER]
+      prof: Sorcery
+      damage: [3d8, Element]
+      effect:
+        - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
+      cost: "Once per Phase"
+    - name: Elemental Weapon
+      type: Utility, Concentration
+      effect:
+        Weapon causes [url:status#Burning]Burning 2[/url]/[url:status#Chilled]Chilled[/url]/[url:status#Shocked]Shocked 4[/url]/[url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url].
+      cost: "[section:clr-en]1 MP[/section]"
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Goliath, Opportunist]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Polearm, 6]
+        - [Primitive, 4]
+        - [Sorcery, 4]
+    - name: Draconic Heritage
+      type: Passive
+      effect:
+        - "Affinity for a random element from this list: [i]Fire[/i], [i]Ice[/i], [i]Lightning[/i], [i]Poison[/i]."
+        - This impacts the effects of [i]Elemental Bite/Breath/Weapon[/i].
