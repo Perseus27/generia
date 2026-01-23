@@ -37,7 +37,7 @@ loot:
 actions:
   active:
     - name: Bow
-      type: Ranged Attack
+      type: Ranged Attack, 20m
       auto: Hunting Bow
       skills: [Careful Shot, Aimed Shot]
     - name: Spear
@@ -47,7 +47,7 @@ actions:
       type: Melee Attack
       auto: Teeth (medium)
     - name: Primitive Arrow
-      damage: 1d4
+      damage: 1d4 Arrow
     - name: Twitch
       type: Reaction
       effect:
