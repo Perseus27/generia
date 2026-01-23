@@ -118,7 +118,11 @@ class Creature_Renderer_Auto:
         qval = int(a.get("q", 0))
         dr_bonus = int(int(self.mods.get("STR")) * float(adata.get("dr")))
         dmg = adata.get("damage")
-        return f"{dmg[0]}+{dr_bonus+qval} {dmg[1]}"
+        total = dr_bonus+qval
+        if total:
+            return f"{dmg[0]}+{total} {dmg[1]}"
+        else:
+            return f"{dmg[0]} {dmg[1]}"
     
     def format_spell_hit(self, a):
         prof = self.get_prof_value(a)
@@ -133,6 +137,8 @@ class Creature_Renderer_Auto:
             attr_bonus = int(self.mods.get(spell_attr))
         if spell_type in ["PA", "SA"]:
             return f"Hit+{attr_bonus+prof}"
+        elif spell_type == "SD":
+            return f"[section:clr-sd]SD+{attr_bonus+prof}[/section]"
         elif spell_type == "DC":
             return f"[section:clr-dc]DC {10+attr_bonus+prof}[/section]"
         return "SPELL HIT ERROR"
@@ -141,7 +147,10 @@ class Creature_Renderer_Auto:
         prof = self.get_prof_value(a)
         dmg = a.get("damage", False)
         if dmg:
-            return f"{dmg[0]}+{prof} {dmg[1]}"
+            if prof:
+                return f"{dmg[0]}+{prof} {dmg[1]}"
+            else:
+                return f"{dmg[0]} {dmg[1]}"
         else:
             return False
 
