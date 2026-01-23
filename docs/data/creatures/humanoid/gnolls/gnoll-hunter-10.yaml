@@ -61,9 +61,9 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+4[/section]
-        - Bows [section:clr-value]+2[/section]
-        - Polearms [section:clr-value]+1[/section]
+        - [Primitive, 4]
+        - [Bow, 2]
+        - [Polearm, 1]
     - name: Bloodthirsty
       type: Passive
       effect:

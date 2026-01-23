@@ -82,9 +82,9 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Polearms [section:clr-value]+1[/section]
-        - Arcane [section:clr-value]+3[/section] ([section:clr-attr]PER[/section])
-        - Light [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+        - [Polearm, 1]
+        - [Arcane, 3, PER]
+        - [Light, 2, PER]
     - name: Fey Soul
       type: Passive
       effect:

@@ -57,8 +57,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+4[/section]
-        - Lightning [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+        - [Primitive, 4]
+        - [Lightning, 2, PER]
 
     - name: Charged Skin
       type: Passive

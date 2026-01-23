@@ -64,9 +64,9 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+2[/section]
-        - Lightning [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
-        - Water [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+        - [Primitive, 2]
+        - [Lightning, 2, PER]
+        - [Water, 2, PER]
 
     - name: Blood in the Water
       type: Passive, Radius 8m

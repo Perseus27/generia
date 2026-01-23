@@ -67,7 +67,7 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+6[/section]
+        - [Primitive, 6]
 
     - name: Monstrous Fangs
       type: Passive
