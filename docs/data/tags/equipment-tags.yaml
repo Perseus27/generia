@@ -22,6 +22,9 @@ content:
 
   - name: Natural
 
+  - name: No Block
+    id: NoBlock
+
   - name: Parry
 
   - name: Precise

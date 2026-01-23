@@ -164,8 +164,9 @@ class Creature_Renderer_Auto:
     
     def get_action_block_value(self, adata, prof):
         wtype = adata.get("type", False)
+        wtags = adata.get("tags", [])
         if wtype in [False,"Bow","Crossbow","Sling","Thrown"]:
             return False
-        if adata.get("no_block", False):
+        if "No Block" in wtags:
             return False
         return int(self.mods.get("CON")) + int(self.mods.get("STR")) + prof
