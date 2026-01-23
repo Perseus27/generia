@@ -94,6 +94,7 @@ defensive:
       [li]The hostile caster's [section:clr-roll]1d20[/section] + [section:clr-attr]Casting-Attr.-MOD[/section] + [section:clr-value]Proficiency[/section][/li]
       [/ul]
       If the target spell is not a Wizard spell, the Wizard must perform a [url:/generia/rules/magic/chaotic-magic#ChaosCheck]Chaos Check[/url] regardless of success.
+      [br][i]A Wizard can only cast [[section:clr-value]Arcane[/section]] Counterspells per Phase.[/i]
     effect: >
       On success, the target spell is dispelled. The target spell's MP costs are refunded, except for [section:clr-value]1[/section] MP.
 
