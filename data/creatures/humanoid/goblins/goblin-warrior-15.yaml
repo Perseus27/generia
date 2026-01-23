@@ -40,13 +40,13 @@ actions:
   active:
     - name: Spear
       type: Melee Attack
-      hit: "Hit+11, Block+14|6"
-      damage: 2d6+3 Sharp
+      auto: Spear
       skills: [Feint, Find Weakness, Multistrike, Pocket Sand]
     - name: Sling
-      type: Ranged Attack
-      hit: "Hit+9, -2/0/-5, 16m"
-      damage: 1d6+1d4+2 Blunt
+      type: Ranged Attack, 16m
+      auto: Short Sling
+    - name: Stone+2
+      damage: 1d4+2
     - name: Mean Stab
       type: Melee Attack
       effect: >

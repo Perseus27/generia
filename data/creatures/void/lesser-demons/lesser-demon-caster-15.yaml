@@ -1,0 +1,99 @@
+name: Lesser Demon, Caster 15
+id: lesser-demon-caster-15
+info:
+  species: Demon
+  level: 15
+  size: Medium
+  tags: [Freecaster, Sapient, [Tough, 1]]
+notes: >
+  A lesser demon, driven by nothing but pure malice. Technically sapient, but operates on instinct alone.
+
+attributes:
+  CON: [7, 3]
+  STR: [7, 3]
+  DEX: [7, 3]
+  INT: [3, 1]
+  WIL: [9, 4]
+  PER: [5, 2]
+values:
+  EN: 15
+  MP: 10
+  MPR: 4
+  WL: 5
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 4
+  er: 0
+loot:
+  - Void Core, lesser
+actions:
+  active:
+    - name: Void Beam
+      type: Spell Attack, Range 20m
+      auto: [SA, WIL]
+      damage: [4d6, Void]
+      prof: Void
+      cost: "[section:clr-mp]3 MP[/section]"
+
+    - name: Void Shot
+      type: Projectile Attack, Range 20m
+      auto: [PA, WIL]
+      damage: [4d8, Void]
+      prof: Void
+      cost: "[section:clr-mp]3 MP[/section]"
+
+    - name: Void Ball
+      type: Spell Attack, Range 20m, Radius 2m
+      auto: [SA, WIL]
+      damage: [4d6, Void]
+      prof: Void
+      cost: "[section:clr-mp]5 MP[/section]"
+
+    - name: Void Grasp
+      type: Utility, Concentration, Range 20m
+      auto: [DC, WIL]
+      prof: Void
+      effect:
+        - "Target is [url:status#Restrained]restrained[/url]."
+      save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]/+10:[/b] Slowed/No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Void Barrier
+      type: Reaction
+      auto: [SD, [WIL, PER]]
+      prof: Void
+      damage: [2d4, Shield]
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Void Hole
+      type: Reaction
+      auto: [SD, [WIL, PER]]
+      prof: Void
+      effect:
+        - "Devours a projectile."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Void Step
+      type: Movement, Range 13m
+      effect:
+        - "Teleports to a free location within line of sight."
+      cost: "[section:clr-mp]2 MP[/section]"
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Blood Mage, Astral Body I, Battle Meditation, Intensity, Precision Casting]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Void, 4, WIL]
+    - name: Void Spawn
+      type: Passive
+      effect:
+        - "[url:values#MD]MD[/url] is increased by [[section:clr-attr]WIL-MOD[/section]]."

@@ -39,15 +39,15 @@ loot:
 actions:
   active:
     - name: Goblin Bow
-      type: Ranged Attack
-      hit: "Hit+8, -1/0/0, 20m"
-      damage: 1d6+1d4+3 Arrow
+      type: Ranged Attack, 20m
+      auto: Hunting Bow
       skills: [Aimed Shot, Careful Shot, Unpredictable Shot]
     - name: Goblin Spear
       type: Melee Attack
-      hit: "Hit+6, Block+8|4"
-      damage: 2d6+2 Sharp
+      auto: Spear
       skills: [Feint]
+    - name: Arrow, primitive+1
+      damage: 1d4+1 Arrow
     - name: Nimble
       type: Reaction
       effect:

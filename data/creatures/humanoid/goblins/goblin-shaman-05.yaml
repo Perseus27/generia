@@ -39,12 +39,12 @@ actions:
   active:
     - name: Shaman Spear
       type: Melee Attack
-      hit: "Hit+2, Block+4|2"
-      damage: 2d6+1 Sharp
+      auto: Spear
     - name: Fire Bolt
-      type: Spell Attack
-      hit: "PA+6, 20m"
-      damage: 2d6+2 Fire
+      type: Projectile Attack, Range 20m
+      auto: [PA, PER]
+      prof: Fire
+      damage: [2d6, Fire]
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Nimble
       type: Reaction

@@ -37,13 +37,11 @@ actions:
   active:
     - name: Cutlass
       type: Melee Attack
-      hit: "Hit+6, Block+8|6"
-      damage: 2d6+3 Sharp
+      auto: Cutlass
       skills: [Feint, Aimed Strike, Counter]
     - name: Bite
       type: Melee Attack
-      hit: "Hit+8"
-      damage: 3d4+3 Sharp
+      auto: Teeth (medium)
     - name: Twitch
       type: Reaction
       effect:

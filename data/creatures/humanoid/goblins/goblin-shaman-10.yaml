@@ -39,16 +39,17 @@ actions:
   active:
     - name: Shaman Spear
       type: Melee Attack
-      hit: "Hit+2, Block+4|2"
-      damage: 2d6+1 Sharp
+      auto: Spear
     - name: Fire Bolt
-      type: Spell Attack
-      hit: "PA+9, 20m"
-      damage: 2d6+4 Fire
+      type: Projectile Attack, Range 20m
+      auto: [PA, PER]
+      prof: Fire
+      damage: [2d6, Fire]
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Stone Shackles
-      type: Utility, Concentration
-      hit: "DC 17, 20m"
+      type: Utility, Concentration, Range 20m
+      auto: [DC, PER]
+      prof: Stone
       effect:
         - Inflicts [url:status#Restrained]Restrained[/url].
       save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] [url:status#Slowed]Slowed[/url]/No effect"

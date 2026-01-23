@@ -1,0 +1,74 @@
+name: Lesser Demon, Fighter 25
+id: lesser-demon-fighter-25
+info:
+  species: Demon
+  level: 25
+  size: Medium
+  tags: [Sapient, [Tough, 1]]
+notes: >
+  A lesser demon, driven by nothing but pure malice. Technically sapient, but operates on instinct alone.
+
+attributes:
+  CON: [11, 5]
+  STR: [11, 5]
+  DEX: [11, 5]
+  INT: [3, 1]
+  WIL: [8, 4]
+  PER: [4, 2]
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 9
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 4
+  er: 0
+loot:
+  - Void Core, normal
+actions:
+  active:
+    - name: Axe / Sword
+      type: Melee Attack
+      auto: Longsword
+      skills: [Charge, Mighty Strike, Swing, Whirl]
+    
+    - name: Cutlass
+      type: Melee Attack
+      auto: Cutlass
+      skills: [Charge, Multistrike, Feint, Whirl]
+    
+    - name: Mace
+      type: Melee Attack
+      auto: Knobbed Mace
+      skills: [Charge, Mighty Strike, Swing, Heavy Blow]
+    
+    - name: Spear
+      type: Melee Attack
+      auto: Spear
+      skills: [Charge, Multistrike, Feint, Whirl]
+
+    - name: Tank (Broadsword & Shield)
+      type: Melee Attack
+      auto: Broadsword
+      shield: True
+      skills: [Charge, Mighty Strike, Feint, Whirl]
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Goliath, Opportunist]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Universal, 6]
+    - name: Void Spawn
+      type: Passive
+      effect:
+        - "[url:values#MD]MD[/url] is increased by [[section:clr-attr]WIL-MOD[/section]]."
