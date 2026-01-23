@@ -28,6 +28,22 @@ offensive:
       [/ul]
       [br][i]Requires blunt weapon.[/i]
 
+  - name: Quick Shot
+    id: quick-shot
+    tags: [Tier III, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-en]2 EN[/section]"
+    description: >
+      Executes a lightning-fast [url:def#RangedAttack]ranged attack[/url] that cannot be [url:def#Reaction]reacted[/url] to.
+
+  - name: Quick Strike
+    id: quick-strike
+    tags: [Tier III, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-en]2 EN[/section]"
+    description: >
+      Executes a lightning-fast [url:def#meleeAttack]melee attack[/url] that cannot be [url:def#Reaction]reacted[/url] to.
+
   - name: Whirl
     id: whirl
     tags: [Tier III, Offensive, "Range: Weapon"]
