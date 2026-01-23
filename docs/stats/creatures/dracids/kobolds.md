@@ -20,6 +20,6 @@ title: Kobolds
 # Kobolds
 
 ## Level 25
-{{ creature('data/creatures/dracids/kobold-archer-25.yaml') }}
-{{ creature('data/creatures/dracids/kobold-fighter-25.yaml') }}
-{{ creature('data/creatures/dracids/kobold-sorcerer-25.yaml') }}
+{{ creature('data/creatures/dracids/kobolds/kobold-archer-25.yaml') }}
+{{ creature('data/creatures/dracids/kobolds/kobold-fighter-25.yaml') }}
+{{ creature('data/creatures/dracids/kobolds/kobold-sorcerer-25.yaml') }}
