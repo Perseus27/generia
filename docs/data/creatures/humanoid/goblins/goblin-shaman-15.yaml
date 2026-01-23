@@ -39,27 +39,29 @@ actions:
   active:
     - name: Shaman Spear
       type: Melee Attack
-      hit: "Hit+2, Block+4|2"
-      damage: 2d6+1 Sharp
+      auto: Spear
     - name: Fire Bolt
-      type: Spell Attack
-      hit: "PA+12, 20m"
-      damage: 2d6+6 Fire
+      type: Projectile Attack, Range 20m
+      auto: [PA, PER]
+      prof: Fire
+      damage: [2d6, Fire]
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Fireball
-      type: Spell Attack
-      hit: "SA+12, 20m, 2m Radius"
-      damage: 2d6+3 Fire
+      type: Spell Attack, Range 20m, Radius 2m
+      auto: [SA, PER]
+      prof: Fire
+      damage: [2d6, Fire]
       cost: "[section:clr-mp]4 MP[/section]"
     - name: Stone Shackles
-      type: Utility, Concentration
-      hit: "DC 20, 20m"
+      type: Utility, Concentration, Range 20m
+      auto: [DC, PER]
+      prof: Stone
       effect:
         - Inflicts [url:status#Restrained]Restrained[/url].
       save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] [url:status#Slowed]Slowed[/url]/No effect"
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Stoneskin
-      type: Utility, Surecast, Concentration
+      type: Utility, Surecast, Concentration, Range 20m
       effect:
         - Incoming Physical damage [section:clr-value]-4[/section]
       cost: "[section:clr-mp]1 MP[/section]"
@@ -80,7 +82,7 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - [Fire, 6, PER]
+        - [Fire, 4, PER]
         - [Stone, 4, PER]
     - name: Cowardly
       type: Passive
