@@ -37,13 +37,11 @@ actions:
   active:
     - name: Daggers
       type: Melee Attack
-      hit: "Hit+8, Block+8|6"
-      damage: 2d6+1 Sharp
+      auto: Dagger
       skills: [Feint, Aimed Strike, Counter, Camouflage]
     - name: Bite
       type: Melee Attack
-      hit: "Hit+8"
-      damage: 3d4+3 Sharp
+      auto: Teeth (medium)
     - name: Twitch
       type: Reaction
       effect:
@@ -56,8 +54,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Primitive [section:clr-value]+4[/section]
-        - Daggers [section:clr-value]+2[/section]
+        - [Primitive, 4]
+        - [Dagger, 2]
     - name: Bloodthirsty
       type: Passive
       effect:

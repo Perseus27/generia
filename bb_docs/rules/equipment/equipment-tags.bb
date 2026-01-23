@@ -28,6 +28,9 @@ Equipment with the tag [i]Conduit[/i] responds much better to magic than regular
 [h2|Natural]Natural[/h2]
 The [url:values#BlockStrength]Block Strength[/url] of [i]Natural[/i] weapons is halved. Natural weapons do not require proficiency to be used without [url:core#Disadvantage]Disadvantage[/url].
 
+[h2|NoBlock]No Block[/h2]
+This weapon cannot [url:def#Block]block[/url].
+
 [h2|Parry]Parry[/h2]
 [i]Parry[/i] weapons have [url:core#Advantage]Advantage 1[/url] on [url:def#Parry]parry[/url] rolls.
 
