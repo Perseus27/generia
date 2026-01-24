@@ -19,6 +19,20 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Deadshot
+    id: deadshot
+
+  - name: Kill Chain
+    id: kill-chain
+    sp-cost: 20
+    requirements: "[url:class3/class-deadshot]Deadshot[/url]"
+    description: >
+      The Deadshot may [url:core#Reroll]reroll[/url] [section:clr-value]one[/section] [url:def#RangedAttack]ranged attack[/url] damage die [section:clr-value]once[/section].
+      [br]On a ranged [url:def#Hit]hit[/url], the target gets one stack of [i]Kill Chain[/i], increasing the damage of the Deadshot's ranged attacks against this target by [section:clr-roll]1d6[/section].
+      [br][i]Kill Chain[/i] can stack up to [[section:clr-value]PV[/section]] times. All stacks are lost if the Deadshot is incapacitated.
+
+  - subheader:
+    is_subheader: True
     name: Specialist
     id: specialist
 
@@ -31,6 +45,21 @@ content:
       Each of these points may be used as a [url:def#FreeAction]Free Reaction[/url] to add an additional 
       [section:clr-roll]1d6[/section] to any weapon damage rolls.
 
+  - subheader:
+    is_subheader: True
+    name: Marksman
+    id: marksman
+
+  - name: Spotter
+    id: spotter
+    sp-cost: 20
+    requirements: "[url:class3/class-marksman]Marksman[/url]"
+    description: >
+      At the very start of each combat round, the Marksman may declare one enemy as [i]Spotted[/i]. 
+      If the Marksman is able to communicate, they call out all actions this enemy takes to party members, 
+      granting them [url:core#Advantage]Advantage 1[/url] on all defensive rolls against the spotted enemy.
+      [br][i]Spotted[/i] lasts until the end of the round.
+      
   - subheader:
     is_subheader: True
     name: Ranger
