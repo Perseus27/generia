@@ -63,7 +63,7 @@ actions:
       type: Projectile Attack, Range 20m
       auto: [PA, PER]
       prof: Sorcery
-      damage: [4d6, Element]
+      damage: [4d8, Element]
       effect:
         - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
       cost: "[section:clr-mp]3 MP[/section]"
