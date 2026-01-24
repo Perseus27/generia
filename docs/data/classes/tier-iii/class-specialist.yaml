@@ -26,7 +26,7 @@ proficiencies:
 actions:
   skills:
     - [True Strike, "20 SP, X"]
-    - ["Stance: Attack", 12 SP]
+    - [Quick Strike, 12 SP]
     - ["Technique: Second Wind", 8 SP]
   spells:
     - []
