@@ -40,9 +40,11 @@ actions:
       auto: Spear
       shield: True
       skills: [Counter, Feint, Mighty Strike, Shield Bash, Shove, Whirl]
+
     - name: Bite
       type: Melee Attack
       auto: Teeth (medium)
+
     - name: Elemental Bite
       type: Reaction
       auto: [DC, PER]
@@ -51,6 +53,7 @@ actions:
         - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: Causes [url:status#Burning]Burning 2[/url]/[url:status#Chilled]Chilled[/url]/[url:status#Shocked]Shocked 4[/url]/[url:status#Poisoned]Poisoned 2[/url]."
       save: "[b]Save [section:clr-attr]CON[/section]:[/b] No effect."
       cost: "[section:clr-mp]1 MP[/section]"
+
     - name: Elemental Breath
       type: Spell Attack, Range 4m, Width 3m
       auto: [SA, PER]
@@ -60,11 +63,13 @@ actions:
         - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
       cost: "Once per Phase"
       save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
+
     - name: Elemental Weapon
       type: Utility, Concentration
       effect:
         Weapon causes [url:status#Burning]Burning 2[/url]/[url:status#Chilled]Chilled[/url]/[url:status#Shocked]Shocked 4[/url]/[url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url].
       cost: "[section:clr-en]1 MP[/section]"
+      
   passive:
     - name: Perks
       type: Passive
