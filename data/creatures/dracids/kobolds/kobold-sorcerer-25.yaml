@@ -57,6 +57,7 @@ actions:
       effect:
         - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
       cost: "Once per Phase"
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
 
     - name: Elemental Projectile
       type: Projectile Attack, Range 20m
@@ -66,7 +67,6 @@ actions:
       effect:
         - "If [i]Draconic Heritage[/i] is Poison: Air damage with [url:status#Poisoned]Poisoned 2[/url] on [url:def#Hit]hit[/url]."
       cost: "[section:clr-mp]3 MP[/section]"
-      save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
 
     - name: Elemental Blast
       type: Spell Attack, Range 20m, Radius 2m
