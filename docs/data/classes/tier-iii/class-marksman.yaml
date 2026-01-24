@@ -1,6 +1,7 @@
 name: Marksman
 id: class-marksman
 prefix: class3
+alias: [Markswoman]
 description: >
   The Marksman specializes in non-magical team support, filling a critical niche against well-organized opponents.
 
