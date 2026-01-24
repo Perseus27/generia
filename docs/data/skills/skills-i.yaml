@@ -43,9 +43,9 @@ utility:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "[section:clr-dc]DC+[/section] [section:clr-value]Proficiency[/section] vs [section:clr-attr]PER[/section]"
+      - "[section:clr-dc]DC+[/section] [url:values#PV]PV[/url] vs [section:clr-attr]PER[/section]"
     description: >
-      Baits the target into a hasty defense, giving it [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] if it fails the check.
+      Baits the target into a hasty defense, giving it [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]PV[/section]] if it fails the check.
 
   - name: Leg Sweep
     id: leg-sweep
@@ -157,7 +157,7 @@ reaction:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     type:
-      - "[section:clr-dc]DC+[/section] [section:clr-value]Proficiency[/section] vs [section:clr-attr]WIL[/section]"
+      - "[section:clr-dc]DC+[/section] [url:values#PV]PV[/url] vs [section:clr-attr]WIL[/section]"
     description: >
       [url:status#Frightened]Frightens[/url] a target in sight range immediately after causing a [url:wounds#SevereWounds]severe wound[/url].
       [br][b]SAVED:[/b] No effect.

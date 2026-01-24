@@ -24,7 +24,7 @@ offensive:
       [ul]
       [li]Target has [url:core#Disadvantage]Disadvantage 1[/url] on [url:def#Parry]parry[/url][/li]
       [li]Ignores [[section:clr-attr]STR-MOD[/section]] [url:values#BlockStrength]block strength[/url][/li]
-      [li]Applies [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] on [url:def#Hit]hit[/url][/li]
+      [li]Applies [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]PV[/section]] on [url:def#Hit]hit[/url][/li]
       [/ul]
       [br][i]Requires blunt weapon.[/i]
 
@@ -59,7 +59,7 @@ utility:
     cost:
       - "[section:clr-encost]2 EN[/section]"
     description: >
-      [url:def#MeleeAttack]Melee attacks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
+      [url:def#MeleeAttack]Melee attacks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]PV[/section]].
 
   - name: "Stance: Block"
     id: stance-block
@@ -67,7 +67,7 @@ utility:
     cost:
       - "[section:clr-encost]2 EN[/section]"
     description: >
-      [url:def#Block]Blocks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
+      [url:def#Block]Blocks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]PV[/section]].
 
   - name: "Stance: Dodge"
     id: stance-dodge
@@ -75,7 +75,7 @@ utility:
     cost:
       - "[section:clr-encost]2 EN[/section]"
     description: >
-      [url:def#Dodge]Dodges[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
+      [url:def#Dodge]Dodges[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]PV[/section]].
 
   - name: "Stance: Parry"
     id: stance-parry
@@ -83,7 +83,7 @@ utility:
     cost:
       - "[section:clr-encost]2 EN[/section]"
     description: >
-      [url:def#Parry]Parries[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
+      [url:def#Parry]Parries[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]PV[/section]].
 
 reaction:
   - name: Ricochet
