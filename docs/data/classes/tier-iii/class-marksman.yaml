@@ -1,0 +1,30 @@
+name: Marksman
+id: class-marksman
+prefix: class3
+description: >
+  The Marksman specializes in non-magical team support, filling a critical niche against well-organized opponents.
+
+prerequisites:
+  - [url:class2/class-field-archer]Field Archer[/url] / [url:class2/class-hunter]Hunter[/url] / [url:class2/class-spellbow]Spellbow[/url]
+subclasses: []
+
+perks:
+  combat:
+    - [Spotter, "20 SP, X"]
+    - [Pack Tactics, 10 SP]
+  magic:
+    - []
+
+proficiencies:
+  magic:
+    - []
+  weapons:
+    - ["Ranged: Adept", 30 SP]
+
+actions:
+  skills:
+    - [Suppression, "20 SP, X"]
+    - [Quick Shot, 12 SP]
+    - [Vigilance, 8 SP]
+  spells:
+    - []
