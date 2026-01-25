@@ -29,7 +29,6 @@ exclusive:
       [ul]
       [li][url:core#Advantage]Advantage 1[/url] on mental saves[/li]
       [li]Incoming damage is reduced by [[section:clr-value]Sol[/section]][/li]
-      [li]On [url:def#Hit]hit[/url] with [url:def#BasicAttack]basic attacks[/url]: [url:status#Lightburn]Lightburn 1[/url][/li]
       [/ul]
       All hostiles in the radius suffer the following effects:
       [ul]
@@ -40,7 +39,6 @@ exclusive:
       [br]The Templar is [url:status#Slowed]slowed[/url], but gains the following effects:
       [ul]
       [li]Incoming damage is reduced by [[section:clr-value]Sol[/section]][/li]
-      [li]On [url:def#Hit]hit[/url] with [url:def#BasicAttack]basic attacks[/url]: [url:status#Lightburn]Lightburn 2[/url][/li]
       [li][url:core#Advantage]Advantage 1[/url] on [url:acolyteS#Smite]Smite[/url] attack rolls[/li]
       [li]The bonus Light damage from [url:acolyteS#Smite]Smite[/url] also targets all hostiles adjacent to the original target[/li]
       [/ul]
