@@ -35,6 +35,10 @@
 	margin: 4px 0px 4px;
 }
 
+.spell ul {
+	margin: 0;
+}
+
 .spell li {
 	font-size: .7rem;
 	margin-bottom: 0 !important;
