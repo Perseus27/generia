@@ -93,6 +93,18 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Moon Dancer
+    id: moon-dancer
+
+  - name: "Luna's Protective Hand"
+    id: lunas-protective-hand
+    sp-cost: 10
+    requirements: "[url:class3/class-moon-dancer]Moon Dancer[/url]"
+    description: >
+      [i]Sanctuary[/i] does not count against the Concentration maximum, costs [section:clr-mp]0 MP[/section] to cast, and allows [url:def#Parry]parrying[/url] of magical projectiles.
+
+  - subheader:
+    is_subheader: True
     name: Magus
     id: magus
 
@@ -105,15 +117,31 @@ content:
 
   - subheader:
     is_subheader: True
-    name: Moon Dancer
-    id: moon-dancer
+    name: Augur
+    id: augur
 
-  - name: "Luna's Protective Hand"
-    id: lunas-protective-hand
-    sp-cost: 10
-    requirements: "[url:class3/class-moon-dancer]Moon Dancer[/url]"
+  - name: Moonlight Cloak
+    id: moonlight-cloak
+    sp-cost: 20
+    requirements: "[url:class3/class-augur]Augur[/url]"
     description: >
-      [i]Sanctuary[/i] does not count against the Concentration maximum, costs [section:clr-mp]0 MP[/section] to cast, and allows [url:def#Parry]parrying[/url] of magical projectiles.
+      Whenever the Augur heals a target with a [i]Luna[/i] spell, that target gains a shield that absorbs up to [[section:clr-value]Luna[/section]] damage.
+      [br]The shield value is halved for multi-target healing spells.
+      [br]The shield lasts for one Phase or until it is depleted. This effect does not stack, but is refreshed by further healing.
+
+  - subheader:
+    is_subheader: True
+    name: Legate
+    id: legate
+
+  - name: Punish the Wicked
+    id: punish-the-wicked
+    sp-cost: 20
+    requirements: "[url:class3/class-legate]Legate[/url]"
+    description: >
+      When dealing Light damage to a target, the Legate may [url:core#Reroll]reroll[/url] a number of damage dice 
+      equal to the amount of [url:status#Lightburn]Lightburn[/url] stacks on the target.
+      [br]For AoE spells, the highest number of stacks among all targets is used.
 
   - subheader:
     is_subheader: True

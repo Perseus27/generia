@@ -1,0 +1,31 @@
+name: Legate
+id: class-legate
+prefix: class3
+description: >
+  Invested with Sol's righteous mandate, the Legate speaks for the sun – and the sun does not look kindly upon evil and corruption.
+
+prerequisites:
+  - Sun Envoy
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - [Punish the Wicked, "20 SP, X"]
+    - [Astral Body I, 10 SP]
+    - [Focus I, 10 SP]
+    - [Intensity, 10 SP]
+
+proficiencies:
+  magic:
+    - ["Acolyte: Adept", 30 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Pillar of Light, "20 SP, X"]

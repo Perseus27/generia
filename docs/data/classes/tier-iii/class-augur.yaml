@@ -1,0 +1,31 @@
+name: Augur
+id: class-augur
+prefix: class3
+description: >
+  Cloaked in prophecy and gentle moonlight, the Augur keeps the party alive even under the most dire of circumstances.
+
+prerequisites:
+  - Moon Priest
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - [Moonlight Cloak, "20 SP, X"]
+    - [Astral Body I, 10 SP]
+
+proficiencies:
+  magic:
+    - ["Acolyte: Adept", 30 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Velum, "20 SP, X"]
+    - [Prophecy, 12 SP]
+    - [Sanare, 8 SP]

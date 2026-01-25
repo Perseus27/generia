@@ -79,12 +79,14 @@ title: Classes – Overview
 
 # Tier III
 
+{{ class_card('data/classes/tier-iii/class-augur.yaml') }}
 {{ class_card('data/classes/tier-iii/class-alchimetician.yaml') }}
 {{ class_card('data/classes/tier-iii/class-banshee.yaml') }}
 {{ class_card('data/classes/tier-iii/class-champion.yaml') }}
 {{ class_card('data/classes/tier-iii/class-deadshot.yaml') }}
 {{ class_card('data/classes/tier-iii/class-elementalist.yaml') }}
 {{ class_card('data/classes/tier-iii/class-gunwright.yaml') }}
+{{ class_card('data/classes/tier-iii/class-legate.yaml') }}
 {{ class_card('data/classes/tier-iii/class-magister.yaml') }}
 {{ class_card('data/classes/tier-iii/class-magus.yaml') }}
 {{ class_card('data/classes/tier-iii/class-marksman.yaml') }}
