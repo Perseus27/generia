@@ -10,24 +10,27 @@ exclusive:
     name: Elementalist
     id: elementalist
 
-  - name: Elemental Field
-    id: elemental-field
-    tags: [TIER X, Elementalist, Summoning, Utility, "Range: 20m", "Radius: 2m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
+  - name: Elemental Catastrophe
+    id: elemental-catastrophe
+    auto_type: [SA, WIL]
+    tags: [TIER X, Elementalist, Summoning, Offensive, "Range: 20m", "Radius: 2m", "SP Cost: 20"]
     type:
-      - "[section:clr-surecast]SURECAST[/section]"
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mp]6/4/2 MP[/section]"
+      - "[section:clr-mp]9/6/3 MP[/section]"
     description: >
-      Place a field of elemental energy. The effect depends on the chosen element and applies to all creatures in the area.
-    effect: >
-      [b]Water:[/b]
-      [br][url:status#Regeneration]Regeneration 1[/url] at turn start.
+      The Elementalist channels elemental energy to attack multiple targets at once. 
+      The shape of this attack differs depending on the element used.
+      [br][b]Water:[/b]
+      [br]A torrent of pressurized water slices through all creatures in the radius, always targeting the hit zone with the lowest [url:values#AV]AV[/url] and causing [url:status#Bleeding]Bleeding 2[/url] on [url:def#Hit]hit[/url].
       [br][b]Stone:[/b]
-      [br][url:status#OffBalance]Off-Balance[/url].
+      [br]Stone spikes erupt from the earth, impaling all creatures in the radius and permanently turning the area into difficult terrain. This attack additionally counts as [url:dmgtypes#Arrow]Arrow[/url] damage.
       [br][b]Fire:[/b]
-      [br][url:status#Burning]Burning 2[/url] at turn start.
+      [br]Infernal flames scorch all creatures in the radius, causing [url:status#Burning]Burning 3[/url] on [url:def#Hit]hit[/url].
       [br][b]Air:[/b]
-      [br]Dodge rolls are [url:core#Eased]eased[/url] by [[section:clr-value]Summoning[/section]].
+      [br]Erratic winds sweep through the area, causing all [url:def#Concentration]Concentration[/url] saves caused by the attack to be [url:core#Hindered]hindered[/url] by [[section:clr-value]Summoning[/section]].
+    effect: >
+      [section:clr-roll]4d6[/section] Element
 
   - subheader:
     is_subheader: True

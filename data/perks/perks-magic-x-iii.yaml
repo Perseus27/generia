@@ -28,12 +28,7 @@ content:
     sp-cost: 20
     requirements: "[url:class3/class-elementalist]Elementalist[/url]"
     description: >
-      Gain the following effects when you summon an elemental of the corresponding element:
-      [br][b]Water:[/b] [url:status#Regeneration]Regeneration 2[/url]
-      [br][b]Stone:[/b] Armor is increased by [[section:clr-value]Summoning[/section]]
-      [br][b]Fire:[/b] Melee attackers suffer [url:status#Burning]Burning 2[/url]
-      [br][b]Air:[/b] [url:status#Levitating]Levitating 1[/url]
-      [br]Effects do not stack.
+      The Elementalist gains [section:clr-value]one[/section] effect [url:core#Reroll]reroll[/url] as well as [url:core#Advantage]Advantage 1[/url] on [section:clr-sa]spell attacks[/section] for the element of each currently summoned elemental.
 
   - subheader:
     is_subheader: True
@@ -53,19 +48,6 @@ content:
       [li]Instantly perform a save against any [url:status]status effect[/url] that can be regularly saved against at the beginning or end of a turn[/li]
       [li]Swap the element of [i]Inner World[/i][/li]
       [li]Gain Advantage 1 against a displacement effect, skill, or spell[/li]
-      [/ul]
-
-  - subheader:
-    is_subheader: True
-    name: Templar
-    id: templar
-
-  - name: Corona
-    id: corona
-    sp-cost: 20
-    requirements: "[url:class3/class-templar]Templar[/url]"
-    description: >
-      Enemies who end their turn within [section:clr-value][Sol/2][/section] meters of you gain [url:status#Lightburn]Lightburn 1[/url] if you are concentrating on a Sol spell.
 
   - subheader:
     is_subheader: True
@@ -128,6 +110,25 @@ content:
       Whenever the Augur heals a target with a [i]Luna[/i] spell, that target gains a shield that absorbs up to [[section:clr-value]Luna[/section]] damage.
       [br]The shield value is halved for multi-target healing spells.
       [br]The shield lasts for one Phase or until it is depleted. This effect does not stack, but is refreshed by further healing.
+      [/ul]
+
+  - subheader:
+    is_subheader: True
+    name: Templar
+    id: templar
+
+  - name: Paragon
+    id: paragon
+    sp-cost: 20
+    requirements: "[url:class3/class-templar]Templar[/url]"
+    description: >
+      While [url:def#Concentration]concentrating[/url] on a Sol spell, the Templar gains the following effects:
+      [ul]
+      [li][section:clr-value]One[/section] Light damage [url:core#Reroll]reroll[/url][/li]
+      [li][url:status#Resistant]Resistance[/url] [i]Void[/i][/li]
+      [li]Saves against [i][url:status#Unconscious]Unconsciousness[/url][/i] always succeed[/li]
+      [li][url:status#SaveBonus]Save Bonus[/url] [[section:clr-value]Sol[/section]] against [url:status#Magical]magical status effects[/url][/li]
+      [/ul]
 
   - subheader:
     is_subheader: True
