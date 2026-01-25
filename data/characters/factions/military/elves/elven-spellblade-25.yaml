@@ -1,0 +1,120 @@
+name: Elven Spellblade 25
+id: elven-spellblade-25
+info:
+  species: Human
+  level: 25
+  size: Medium
+  classes: [Fighter, Wizard, Spellblade, Hermetician, Swordfighter, Specialist]
+  tags: [Trained 25]
+notes: >
+  [br]165 SP Base
+  [br]+50 Bonus
+  [br]+25 Trained
+  [br]Rest 240
+
+attributes:
+  CON: [7, 3]
+  STR: [6, 3, 1]
+  DEX: [12, 6]
+  INT: [10, 5, 1]
+  WIL: [7, 3]
+  PER: [8, 4]
+values:
+  EN: 15
+  MP: 20
+  MPR: 3
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Elven Sword
+      q: 3
+      enchantments:
+        - [Focus, Wizard]
+        - INT+1
+    - name: Dagger
+  armor:
+    - name: Padded Helmet
+      q: 3
+    - name: Leather Armor
+      q: 3
+    - name: Padded Gauntlets
+      q: 3
+      enchantments:
+        - STR+1
+    - name: Padded Greaves
+      q: 3
+      enchantments:
+        - DEX+1
+    - name: Amulet
+      q: 3
+    - name: Ring
+      q: 1
+    - name: Ring
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - True Strike
+    - Quick Strike
+    - Mighty Strike
+    - "Technique: Second Wind"
+    - Charge
+    - Counter
+    - Disarm
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - Blade Infusion
+    - Mana Beam I
+    - Thermal Bolt I
+    - Mana Barrier I
+    - Counter Shot
+    - Counterspell
+    - Dimension Step
+  rituals:
+    - Hermetic Manipulation
+proficiencies:
+  magic:
+    - "Hermetics: Intermediate"
+    - [Arcane, 3]
+    - "Thermics: Intermediate"
+    - [Fire, 3]
+    - [Ice, 2]
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 6]
+    - "Defensive: Beginner"
+  civilian:
+    - [Arcana, 3]
+    - [Arithmetics, 1]
+    - [History, 1]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
+perks:
+  special:
+    - Arcane Flow
+    - Harmony
+
+  combat:
+    - Momentum
+    - Edge Alignment
+    - Deflector
+    - Opportunist
+    - Routine
+
+  magic:
+    - Practiced Hermetician
+    - Astral Body I
+    - Battle Meditation

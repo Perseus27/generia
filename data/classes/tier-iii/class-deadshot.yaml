@@ -1,0 +1,30 @@
+name: Deadshot
+id: class-deadshot
+prefix: class3
+description: >
+  The Deadshot specializes in eliminating priority targets through focused damage, each shot more deadly than the last.
+
+prerequisites:
+  - "[url:class2/class-field-archer]Field Archer[/url] / [url:class2/class-hunter]Hunter[/url] / [url:class2/class-spellbow]Spellbow[/url]"
+subclasses: []
+
+perks:
+  combat:
+    - [Kill Chain, "20 SP, X"]
+    - [Routine, 10 SP]
+  magic:
+    - []
+
+proficiencies:
+  magic:
+    - []
+  weapons:
+    - ["Ranged: Adept", 30 SP]
+
+actions:
+  skills:
+    - [Heartseeker, "20 SP, X"]
+    - [Ricochet, 12 SP]
+    - [Find Weakness, 8 SP]
+  spells:
+    - []

@@ -51,6 +51,17 @@ tier3:
 
   - subheader:
     is_subheader: True
+    name: Deadshot
+    id: Deadshot
+
+  - name: Heartseeker
+    id: heartseeker
+    tags: [Tier X, "[url:class3/class-deadshot]Deadshot[/url]", Offensive, "Range: Weapon", "SP Cost: 20"]
+    description: >
+      The Deadshot executes a [url:def#RangedAttack]ranged attack[/url]. The damage of this attack deals [i][url:dmgtypes]Absolute[/url][/i] damage.
+
+  - subheader:
+    is_subheader: True
     name: Specialist
     id: specialist
 
@@ -58,7 +69,27 @@ tier3:
     id: true-strike
     tags: [Tier X, "[url:class3/class-specialist]Specialist[/url]", Offensive, "Range: Weapon", "SP Cost: 20"]
     cost:
-      - "[section:clr-en]4 EN[/section]"
+      - "[section:clr-encost]4 EN[/section]"
     description: >
       The Specialist executes a [url:def#MeleeAttack]melee attack[/url]. Any damage dice lower than the die average may be [url:core#Reroll]rerolled[/url] [section:clr-value]indefinitely[/section].
       [br]If the attack does not [url:def#Hit]hit[/url], the [section:clr-en]energy cost[/section] is refunded.
+
+  - subheader:
+    is_subheader: True
+    name: Marksman
+    id: marksman
+
+  - name: Suppression
+    id: suppression
+    tags: [Tier X, "[url:class3/class-marksman]Marksman[/url]", Reaction, "Range: Weapon", "SP Cost: 20"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      The Marksman reactively executes a [url:def#RangedAttack]ranged attack[/url] in response to one of two triggers:
+      [ul]
+      [li][b]Enemy Attack Action against an ally:[/b]
+      [br]Targets the attacker. On [url:def#Hit]hit[/url], target gets [url:status#AttackPenalty]attack penalty[/url] [[section:clr-value]PV[/section]]. On miss, the target has [url:core#Disadvantage]Disadvantage 1[/url] on the attack roll.[/li]
+      [b]Ally Attack Action against an enemy:[/b]
+      [br]Targets the ally's target. On [url:def#Hit]hit[/url], target gets [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]PV[/section]]. On miss, the target has [url:core#Disadvantage]Disadvantage 1[/url] on the defense roll.[/li]
+      [/ul]
+      This skill is only usable up to [[section:clr-value]PV[/section]] times each Phase.

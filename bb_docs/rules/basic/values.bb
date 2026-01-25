@@ -63,28 +63,40 @@ If the damage points caused by status effects like [url:status#Poisoned]poisoned
 [i]Magic Defense[/i] is equal to the total magic defense value offered by equipment like amulets and rings. It does [i]not[/i] vary by [url:def#HitZone]hit zone[/url].
 [hr]
 [h1|Combat]Combat[/h1]
+
 [h2|AttackValue]Attack Value[/h2]
 [h4]Definition[/h4]
 The [i]attack value[/i] is the base value for any [url:def#BasicAttack]basic attack[/url], melee or ranged.
 [h4]Calculation[/h4]
 [Weapon proficiency] + [section:clr-attr]DEX-MOD[/section] * [b]Weapon Hit Rate (HR)[/b]
+
 [h2|BlockValue]Block Value[/h2]
 [h4]Definition[/h4]
 The [i]block value[/i] is the base value for [url:def#Block]block[/url] checks.
 [h4]Calculation[/h4]
 [Weapon proficiency] + [section:clr-attr]CON-MOD[/section] + [section:clr-attr]STR-MOD[/section]
+
 [h2|BlockStrength]Block Strength[/h2]
 [h4]Definition[/h4]
 The [i]block strength[/i] is the amount of damage reduction offered by a successful [url:def#Block]block[/url].
 [h4]Calculation[/h4]
 [section:clr-attr]CON-MOD[/section] + [section:clr-attr]STR-MOD[/section]
+
 [h2|DodgeValue]Dodge Value[/h2]
 [h4]Definition[/h4]
 The [i]dodge value[/i] is the base value for [url:def#Dodge]dodge[/url] checks.
 [h4]Calculation[/h4]
 [section:clr-attr]DEX-MOD[/section] + [section:clr-attr]PER-MOD[/section]
+
 [h2|ParryValue]Parry Value[/h2]
 [h4]Definition[/h4]
 The [i]parry value[/i] is the base value for [url:def#Parry]parry[/url] checks.
 [h4]Calculation[/h4]
 The [i]parry value[/i] is equal to the [url:#AttackValue]Attack Value[/url].
+
+[h2|PV]Proficiency Value (PV)[/h2]
+[h4]Definition[/h4]
+If mentioned in a skill or spell description, [i]PV[/i] describes the proficiency value of the currently equipped [url:/generia/character/proficiencies/proficiencies-weapon]weapon[/url] or the intended [url:/generia/character/proficiencies/proficiencies-spellcasting]spell[/url].
+[h4]Example[/h4]
+[b]Skill:[/b] Sword [section:clr-value]4[/section], Bow [section:clr-value]6[/section], Shield [section:clr-value]3[/section]...
+[br][b]Spell:[/b] Arcane [section:clr-value]2[/section], Luna [section:clr-value]4[/section], Summoning [section:clr-value]5[/section]...
