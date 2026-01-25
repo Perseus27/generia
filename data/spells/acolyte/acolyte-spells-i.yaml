@@ -80,17 +80,18 @@ utility:
     effect: >
       Target regains [section:clr-roll]2/3/4d6[/section] HP.
 
-  - name: "Purify"
-    id: "purify"
+  - name: "Purify / Purge"
+    alias: [Purify, Purge]
+    id: "purify-purge"
     auto_type: [DC+, WIL]
-    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
+    tags: ["TIER I", "Luna", "Sol", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
     cost:
       - "[section:clr-mp]1/2/3 MP[/section]"
     description: >
-      Asks Luna to cleanse the target.
-      [br][i][url:core#Advantage]Advantage 1[/url] on [section:clr-dc]DC+[/section] in [section:clr-moonlight]True Moonlight[/section].[/i]
+      The Acolyte asks Luna to cleanse an allied target from negative status effects, or Sol to cleanse a hostile target from positive status effects.
+      [br][i][url:core#Advantage]Advantage 1[/url] on [section:clr-dc]DC+[/section] in [section:clr-moonlight]True Moonlight[/section]/[section:clr-sunlight]True Sunlight[/section].[/i]
     effect: >
       Attempts to remove [section:clr-value]1/2/3[/section] specified status effects from the target.
 

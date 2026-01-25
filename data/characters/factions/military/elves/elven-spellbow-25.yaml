@@ -4,7 +4,7 @@ info:
   species: Elf
   level: 25
   size: Medium
-  classes: [Fighter, Wizard, Spellblade, Hermetician, Swordfighter, Specialist]
+  classes: [Archer, Wizard, Spellbow, Hermetician, Hunter, Marksman]
   tags: [Trained 25]
 notes: >
   [br]165 SP Base
@@ -36,27 +36,31 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: Elven Sword
+    - name: Elven Bow
       q: 4
       enchantments:
         - [Focus, Wizard]
         - INT+1
+    - name: Elven Sword
+      q: 2
     - name: Dagger
+    - name: Heavy Arrow
+      damage: 1d8 Arrow
   armor:
-    - name: Leather Helmet
+    - name: Padded Helmet
       q: 3
-    - name: Chain Armor
+    - name: Padded Armor
       enchantments:
         - AV+1
       q: 3
-    - name: Chain Gauntlets
+    - name: Padded Gauntlets
       q: 3
-    - name: Leather Greaves
+    - name: Padded Greaves
       q: 3
     - name: Amulet
-      disp: Arcane Amulet
+      disp: Lightning Amulet
       enchantments:
-        - [Element Reroll II, "[section:clr-value]Arcane[/section]"]
+        - [Element Reroll II, "[section:clr-value]Lightning[/section]"]
       q: 4
     - name: Ring
       dsp: Ring of Strength
@@ -72,56 +76,57 @@ inventory:
     - name: Adventurer's Pack II
 actions:
   skills:
-    - True Strike
-    - Quick Strike
-    - Mighty Strike
-    - "Technique: Second Wind"
-    - Charge
-    - Counter
-    - Disarm
-    - Feint
-    - Leg Sweep
-    - Shove
+    - Suppression
+    - Quick Shot
+    - Careful Shot
+    - Unpredictable Shot
+    - Aimed Shot
+    - Overwatch
+    - Vigilance
+    - Hold Breath
+    - Camouflage
   spells:
-    - Blade Infusion
+    - Bow Infusion
+    - Thunderbolt I
     - Mana Beam I
-    - Thermal Bolt I
+    - Meteoric Bolt I
     - Mana Barrier I
+    - Air Burst
+    - Levitation
     - Counter Shot
-    - Counterspell
-    - Dimension Step
   rituals:
     - Hermetic Manipulation
 proficiencies:
   magic:
     - "Hermetics: Intermediate"
     - [Arcane, 3]
-    - "Thermics: Intermediate"
-    - [Fire, 3]
-    - [Ice, 2]
+    - "Meteorics: Intermediate"
+    - [Air, 2]
+    - [Lightning, 4]
   weapons:
-    - "Slashing: Adept"
-    - [Sword, 6]
-    - "Defensive: Beginner"
+    - "Ranged: Adept"
+    - [Bow, 4]
+    - "Slashing: Beginner"
+    - [Sword, 2]
   civilian:
     - [Arcana, 3]
     - [Arithmetics, 1]
     - [History, 1]
-    - [Monster Lore, 1]
-    - [Warfare, 2]
+    - [Hunting, 2]
+    - [Survival, 1]
 perks:
   special:
     - Arcane Flow
     - Harmony
 
   combat:
-    - Momentum
-    - Edge Alignment
-    - Deflector
-    - Opportunist
-    - Routine
+    - Spotter
+    - On the Prowl
+    - Dodge Tank
+    - Pack Tactics
 
   magic:
-    - Practiced Hermetician
+    - Practiced Meteorician
     - Astral Body I
     - Battle Meditation
+    - Focus I

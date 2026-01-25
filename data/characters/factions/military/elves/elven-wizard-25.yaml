@@ -1,10 +1,10 @@
-name: Elven Spellblade 25
-id: elven-spellblade-25
+name: Elven Wizard 25
+id: elven-wizard-25
 info:
   species: Elf
   level: 25
   size: Medium
-  classes: [Fighter, Wizard, Spellblade, Hermetician, Swordfighter, Specialist]
+  classes: [Wizard, Hermetician, Thermician, Magus]
   tags: [Trained 25]
 notes: >
   [br]165 SP Base
@@ -13,20 +13,20 @@ notes: >
   [br]Rest 0
 
 attributes:
-  CON: [7, 3]
-  STR: [6, 3, 1]
-  DEX: [12, 6, 1]
-  INT: [10, 5, 1]
-  WIL: [7, 3]
-  PER: [8, 4]
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [5, 2]
+  INT: [15, 7, 3]
+  WIL: [11, 5]
+  PER: [7, 3]
 values:
-  EN: 15
-  MP: 20
-  MPR: 3
+  EN: 10
+  MP: 30
+  MPR: 5
   WL: 5
-  WT: 7
+  WT: 6
   TN: 3
-  MS: 8
+  MS: 4
 armor:
   head: 0
   torso: 0
@@ -36,8 +36,8 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: Elven Sword
-      q: 4
+    - name: Wizard's Staff
+      q: 2
       enchantments:
         - [Focus, Wizard]
         - INT+1
@@ -45,83 +45,79 @@ inventory:
   armor:
     - name: Leather Helmet
       q: 3
-    - name: Chain Armor
+    - name: Leather Armor
+      q: 3
       enchantments:
         - AV+1
-      q: 3
-    - name: Chain Gauntlets
+    - name: Leather Gauntlets
       q: 3
     - name: Leather Greaves
       q: 3
     - name: Amulet
-      disp: Arcane Amulet
+      disp: Fire Amulet
       enchantments:
-        - [Element Reroll II, "[section:clr-value]Arcane[/section]"]
+        - [Element Reroll II, "[section:clr-value]Fire[/section]"]
       q: 4
     - name: Ring
-      dsp: Ring of Strength
+      disp: Ring of Intelligence
       enchantments:
-        - STR+1
+        - INT+1
       q: 1
     - name: Ring
-      dsp: Ring of Dexterity
+      disp: Ring of Intelligence
       enchantments:
-        - DEX+1
+        - INT+1
       q: 1
   misc:
     - name: Adventurer's Pack II
 actions:
   skills:
-    - True Strike
-    - Quick Strike
-    - Mighty Strike
-    - "Technique: Second Wind"
-    - Charge
-    - Counter
-    - Disarm
-    - Feint
-    - Leg Sweep
-    - Shove
+    - ""
   spells:
-    - Blade Infusion
+    - Ley Lines
+    - Displacement
+    - Fireball I
+    - Frost Lance I
+    - Thermal Beam II
+    - Thermal Bolt II
     - Mana Beam I
-    - Thermal Bolt I
+    - Ice Shrapnel
     - Mana Barrier I
-    - Counter Shot
+    - Blink
     - Counterspell
     - Dimension Step
+    - Counter Shot
   rituals:
     - Hermetic Manipulation
+    - Thermal Manipulation
+    - Create Matrix Crystal
 proficiencies:
   magic:
     - "Hermetics: Intermediate"
-    - [Arcane, 3]
+    - [Arcane, 5]
     - "Thermics: Intermediate"
-    - [Fire, 3]
-    - [Ice, 2]
+    - [Fire, 6]
+    - [ice, 4]
   weapons:
-    - "Slashing: Adept"
-    - [Sword, 6]
-    - "Defensive: Beginner"
+    - ""
   civilian:
     - [Arcana, 3]
     - [Arithmetics, 1]
     - [History, 1]
-    - [Monster Lore, 1]
-    - [Warfare, 2]
 perks:
   special:
     - Arcane Flow
     - Harmony
 
   combat:
-    - Momentum
-    - Edge Alignment
-    - Deflector
-    - Opportunist
-    - Routine
+    - ""
 
   magic:
+    - Mighty Magics
     - Practiced Hermetician
+    - Practiced Thermician
+    - Arcane Artillery
     - Astral Body I
     - Battle Meditation
+    - Cold Calculation
+    - Focus I
