@@ -29,7 +29,7 @@ exclusive:
 
   - name: "Smite"
     id: "smite"
-    tags: ["TIER X", "Sun Cleric", "Sol", "Offensive", "SP Cost: 20"]
+    tags: ["TIER X", "Sun Cleric", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 2/3[/section]", "SP Cost: 20"]
     type:
       - "[section:clr-attack]BASIC ATTACK[/section]"
     material:
@@ -40,7 +40,7 @@ exclusive:
       Sol fills the cleric’s weapon with holy light for one [url:def#BasicAttack]basic attack[/url].
       [br][i]You may expend a Sunstone to scale the bonus damage with your [[section:clr-value]Sol[/section]] value.[/i]
     effect: >
-      [i]Without Sunstone:[/i] [section:clr-roll]2d6[/section] bonus Light
+      [i]Without Sunstone:[/i] [section:clr-roll]2/3d6[/section] bonus Light
       [br][i]With Sunstone:[/i] [section:clr-value][Sol][/section] × [section:clr-roll]1d6[/section] bonus Light
 
   - subheader:
