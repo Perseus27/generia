@@ -89,7 +89,7 @@ tier3:
       [ul]
       [li][b]Enemy Attack Action against an ally:[/b]
       [br]Targets the attacker. On [url:def#Hit]hit[/url], target gets [url:status#AttackPenalty]attack penalty[/url] [[section:clr-value]PV[/section]]. On miss, the target has [url:core#Disadvantage]Disadvantage 1[/url] on the attack roll.[/li]
-      [b]Ally Attack Action against an enemy:[/b]
+      [li][b]Ally Attack Action against an enemy:[/b]
       [br]Targets the ally's target. On [url:def#Hit]hit[/url], target gets [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]PV[/section]]. On miss, the target has [url:core#Disadvantage]Disadvantage 1[/url] on the defense roll.[/li]
       [/ul]
       This skill is only usable up to [[section:clr-value]PV[/section]] times each Phase.
