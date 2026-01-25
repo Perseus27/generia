@@ -11,7 +11,7 @@ exclusive:
     id: "templar"
 
   - name: "Banner of the Sun"
-    id: "banner-of-the-Sun"
+    id: "banner-of-the-sun"
     tags: ["TIER X", "Templar", "Sol", "Utility", ZONE, "Radius: 3m", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
