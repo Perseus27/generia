@@ -5,7 +5,7 @@ description: >
   The Deadshot specializes in eliminating priority targets through focused damage, each shot more deadly than the last.
 
 prerequisites:
-  - [url:class2/class-field-archer]Field Archer[/url] / [url:class2/class-hunter]Hunter[/url] / [url:class2/class-spellbow]Spellbow[/url]
+  - "[url:class2/class-field-archer]Field Archer[/url] / [url:class2/class-hunter]Hunter[/url] / [url:class2/class-spellbow]Spellbow[/url]"
 subclasses: []
 
 perks:
