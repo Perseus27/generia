@@ -65,3 +65,50 @@ exclusive:
       All instances of [url:status#Lightburn]Lightburn[/url] on affected enemies trigger immediately.
     saved: "Lightburn damage halved."
     saved10: "No effect."
+
+  - subheader:
+    is_subheader: True
+    name: Legate
+    id: legate
+
+  - name: Pillar of Light
+    id: pillar-of-light
+    auto_type: [DC, WIL]
+    tags: [TIER X, Legate, Sol, Utility, Concentration, ZONE, "Range: 20m", "Radius: 3m", "SP Cost: 20"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The Legate calls down a pillar of holy light, burning all hostile creatures while empowering allies.
+      [br]The Legate may move the pillar as a [url:def#FreeAction]Free Action[/url], up to a maximum of [[section:clr-value]Sol[/section]] meters per round.
+    effect: >
+      [b]Hostile:[/b]
+      [br][section:clr-roll]4d6[/section] Light
+      [br][url:status#DefensePenalty]Defense Penalty[/url] [[section:clr-value]Sol[/section]]
+      [br][b]Allied:[/b]
+      [br][url:status#AttackBonus]Attack Bonus[/url] [[section:clr-value]Sol[/section]]
+      [br][url:status#DefenseBonus]Defense Bonus[/url] [[section:clr-value]Sol[/section]]
+    saved: Damage halved.
+    saved10: No effect.
+
+  - subheader:
+    is_subheader: True
+    name: Augur
+    id: augur
+
+  - name: Velum
+    id: velum
+    auto_type: [DC, WIL]
+    tags: [TIER X, Augur, Luna, Reaction, "Range: 20m", "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    material:
+      - Moonstone (optional)
+    description: >
+      The Augur prays for Luna to envelop a target in a protective veil, greatly reducing the effect of incoming magic for the rest of this turn.
+    effect: >
+      [url:status#SaveBonus]Save Bonus[/url] [[section:clr-value]Luna[/section]] against spells.
+      [br][b]Moonstone:[/b] [url:status#Resistant]Resistant[/url] Magical
