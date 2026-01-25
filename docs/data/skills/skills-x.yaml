@@ -57,8 +57,10 @@ tier3:
   - name: Heartseeker
     id: heartseeker
     tags: [Tier X, "[url:class3/class-deadshot]Deadshot[/url]", Offensive, "Range: Weapon", "SP Cost: 20"]
+    cost: "[section:clr-encost]4 EN[/section]"
     description: >
-      The Deadshot executes a [url:def#RangedAttack]ranged attack[/url]. The damage of this attack deals [i][url:dmgtypes]Absolute[/url][/i] damage.
+      The Deadshot executes a [url:def#RangedAttack]ranged attack[/url]. This attack deals [i][url:dmgtypes]Absolute[/url][/i] damage.
+      [br]If the attack does not [url:def#Hit]hit[/url], the [section:clr-en]energy cost[/section] is refunded.
 
   - subheader:
     is_subheader: True
