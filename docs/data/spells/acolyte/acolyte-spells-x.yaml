@@ -7,6 +7,46 @@ is_exclusive: True
 exclusive:
   - subheader:
     is_subheader: True
+    name: "Templar"
+    id: "templar"
+
+  - name: "Banner of the Sun"
+    id: "banner-of-the-Sun"
+    tags: ["TIER X", "Templar", "Sol", "Utility", ZONE, "Radius: 3m", "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The Templar calls down Sol's Holy Banner. The banner lasts for one Phase and is intangible for anyone but the Templar, 
+      who may pick it up or set it down as a [url:def#FreeAction]Free Action[/url].
+      [br]The banner has different mutually exclusive effects depending on whether it is [b]set down[/b] or [b]carried[/b].
+      [br]Carrying the banner does not require an equipment slot. It can neither be dismissed nor resummoned.
+      
+    effect: >
+      [b]Set Down:[/b]
+      [br]All allies in the radius gain the following effects:
+      [ul]
+      [li][url:core#Advantage]Advantage 1[/url] on mental saves[/li]
+      [li]Incoming damage is reduced by [[section:clr-value]Sol[/section]][/li]
+      [li]On [url:def#Hit]hit[/url] with [url:def#BasicAttack]basic attacks[/url]: [url:status#Lightburn]Lightburn 1[/url][/li]
+      [/ul]
+      All hostiles in the radius suffer the following effects:
+      [ul]
+      [li][url:status#Lightburn]Lightburn 2[/url][/li]
+      [li]Stealth checks are [url:core#Hindered]hindered[/url] by [section:clr-value]20[/section][/li]
+      [/ul]
+      [b]Carried:[/b]
+      [br]The Templar is [url:status#Slowed]slowed[/url], but gains the following effects:
+      [ul]
+      [li]Incoming damage is reduced by [[section:clr-value]Sol[/section]][/li]
+      [li]On [url:def#Hit]hit[/url] with [url:def#BasicAttack]basic attacks[/url]: [url:status#Lightburn]Lightburn 2[/url][/li]
+      [li][url:core#Advantage]Advantage 1[/url] on [url:acolyteS#Smite]Smite[/url] attack rolls[/li]
+      [li]The bonus Light damage from [url:acolyteS#Smite]Smite[/url] also targets all hostiles adjacent to the original target[/li]
+      [/ul]
+
+  - subheader:
+    is_subheader: True
     name: "Moon Dancer"
     id: "moon-dancer"
 
@@ -42,29 +82,6 @@ exclusive:
     effect: >
       [i]Without Sunstone:[/i] [section:clr-roll]2/3d6[/section] bonus Light
       [br][i]With Sunstone:[/i] [section:clr-value][Sol][/section] × [section:clr-roll]1d6[/section] bonus Light
-
-  - subheader:
-    is_subheader: True
-    name: "Templar"
-    id: "templar"
-
-  - name: "Impulse"
-    id: "impulse"
-    auto_type: [DC, WIL]
-    tags: ["TIER X", "Templar", "Sol", "Utility", "SP Cost: 20"]
-    type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
-    material:
-      - "Sunstone (optional)"
-    cost:
-      - "[section:clr-mp]1 MP[/section]"
-    description: >
-      The Templar radiates a scorching light that immediately triggers all active [url:status#Lightburn]Lightburn[/url] on enemies within a radius of [[section:clr-value]Sol[/section]] meters.
-      [br][b]Sunstone:[/b] The save is [url:core#Hindered]hindered[/url] by [section:clr-value]10[/section].
-    effect: >
-      All instances of [url:status#Lightburn]Lightburn[/url] on affected enemies trigger immediately.
-    saved: "Lightburn damage halved."
-    saved10: "No effect."
 
   - subheader:
     is_subheader: True

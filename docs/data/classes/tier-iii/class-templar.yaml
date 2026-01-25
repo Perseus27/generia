@@ -14,7 +14,7 @@ perks:
   combat:
     - []
   magic:
-    - [Corona, "20 SP, X"]
+    - [Paragon, "20 SP, X"]
 
 proficiencies:
   magic:
@@ -26,4 +26,4 @@ actions:
   skills:
     - []
   spells:
-    - [Impulse, "20 SP, X"]
+    - [Banner of the Sun, "20 SP, X"]

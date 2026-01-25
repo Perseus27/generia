@@ -60,12 +60,18 @@ content:
     name: Templar
     id: templar
 
-  - name: Corona
-    id: corona
+  - name: Paragon
+    id: paragon
     sp-cost: 20
     requirements: "[url:class3/class-templar]Templar[/url]"
     description: >
-      Enemies who end their turn within [section:clr-value][Sol/2][/section] meters of you gain [url:status#Lightburn]Lightburn 1[/url] if you are concentrating on a Sol spell.
+      While [url:def#Concentration]concentrating[/url] on a Sol spell, the Templar gains the following effects:
+      [ul]
+      [li][section:clr-value]One[/section] Light damage [url:core#Reroll]reroll[/url][/li]
+      [li][url:status#Resistant]Resistance[/url] [i]Void[/i][/li]
+      [li]Saves against [i][url:status#Unconscious]Unconsciousness[/url][/i] always succeed[/li]
+      [li][url:status#SaveBonus]Save Bonus[/url] [[section:clr-value]Sol[/section]] against [url:status#Magical]magical status effects[/url][/li]
+      [/ul]
 
   - subheader:
     is_subheader: True
