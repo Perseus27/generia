@@ -18,7 +18,7 @@ exclusive:
     cost:
       - "[section:clr-en]1 EN[/section]"
     description: >
-      Luna grants the Moondancer the presence of mind to parry attacks against allies within their own [i][url:#Sanctuary]Sanctuary[/url][/i]. Before the parry, you may freely move up to [i]Luna[/i] meters toward the ally. If the parry fails, the ally may still defend as normal.
+      Luna grants the Moon Dancer the presence of mind to parry attacks against allies within their own [i][url:#Sanctuary]Sanctuary[/url][/i]. Before the parry, you may freely move up to [i]Luna[/i] meters toward the ally. If the parry fails, the ally may still defend as normal.
     effect: >
       Attempt to [url:def#Parry]parry[/url] an attack targeting an ally within range of your [i]Sanctuary[/i].
 
