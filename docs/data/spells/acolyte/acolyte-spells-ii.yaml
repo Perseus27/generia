@@ -11,27 +11,27 @@ offensive:
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
     cost:
-      - "[section:clr-mp]2/3 MP[/section]"
+      - "[section:clr-mp]3/4 MP[/section]"
     description: >
       Hurls up to [[section:clr-value]Sol[/section]] arrows of pure light at targets in range. All arrows count as separate projectiles.
     effect: >
-      [section:clr-roll]2/3d4[/section] Light per arrow
+      [section:clr-roll]2/3d6[/section] Light per arrow
 
   - name: "Prominence"
     id: "prominence"
     auto_type: [SA, WIL]
-    tags: ["TIER II", "Sol", "Offensive", "Radius: 4m"]
+    tags: ["TIER II", "Sol", "Offensive", "[section:clr-exoer]EXPERTISE 2/3[/section]", "Radius: 4m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mp]3 MP[/section]"
+      - "[section:clr-mp]3/4 MP[/section]"
     material:
       - "Sunstone (optional)"
     description: >
       Sends out a ring of holy light that burns nearby enemies but spares allies.
       [br][b]Sunstone:[/b] Applies [url:status#Lightburn]Lightburn 2[/url] on [url:def#Hit]hit[/url].
     effect: >
-      [section:clr-roll]3d6[/section] Light
+      [section:clr-roll]3/4d6[/section] Light
     saved: "Damage halved."
     saved10: "No effect."
 
@@ -145,6 +145,7 @@ utility:
       - "[section:clr-mp]1 MP[/section]"
     description: >
       Asks Luna to bless an ally against harmful effects.
+      [br][b]Moonstone:[/b] Bless up to [[section:clr-value]Luna[/section]] allies.
     effect: >
       Saves against status effects have [url:core#Advantage]Advantage 1[/url].
 
