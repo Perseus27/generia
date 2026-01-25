@@ -1,0 +1,28 @@
+name: Pontifex
+id: class-pontifex
+prefix: class4
+description: >
+  .
+
+prerequisites:
+  - .
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - []

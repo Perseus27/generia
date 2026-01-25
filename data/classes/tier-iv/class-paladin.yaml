@@ -1,0 +1,28 @@
+name: Paladin
+id: class-paladin
+prefix: class4
+description: >
+  .
+
+prerequisites:
+  - .
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - []

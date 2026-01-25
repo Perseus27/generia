@@ -4053,38 +4053,7 @@
   
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
-<p><em>File</em>: <code>character/classes/tier-ii/class-assassin.md</code></p>
-<p><em>AttributeError</em>: 'NoneType' object has no attribute 'get'</p>
-<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
-    return md_template.render(**page_variables)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 1295, in render
-    self.environment.handle_exception()
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 1, in top-level template code
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 48, in class_main
-    return Class_Renderer(yaml_content, autolinker).get_output_main()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/class_renderer.py&quot;, line 15, in get_output_main
-    return self.BB_HELPER.process(self.format_class_main(self.yaml_input))
-                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/class_renderer.py&quot;, line 53, in format_class_main
-    result += f&quot;{self.list_builder.build_list(c.get(&#39;subclasses&#39;), list_type=&#39;comma&#39;, to_link=&#39;class&#39;)}&quot;
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/list_builder.py&quot;, line 41, in build_list
-    link = self.get_link(i, to_link)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/list_builder.py&quot;, line 143, in get_link
-    link = self.autolinker.link_class(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/logic/autolinker.py&quot;, line 53, in link_class
-    if c.get(&quot;name&quot;) == x or x in c.get(&quot;alias&quot;, []):
-       ^^^^^
-AttributeError: &#39;NoneType&#39; object has no attribute &#39;get&#39;
-</code></pre></div>
+<div class='class-main container'><h1>Assassin</h1><div class='class-main-info container'><h2>Description</h2><div class='class-main-description container'>A shadowy assassin. Their considerable mobility makes them a feared opponent.</div><div class='class-main-subinfo container'><h4>Prerequisites</h4><a href='/generia/character/classes/tier-i/class-nox'>Nox</a><h4>Subclasses</h4>Shadow</div></div><hr /><div class='class-main-body container'><h2>Perks</h2><div class='class-main-body-category container'><div class='class-main-sub50 container'><h4>Combat</h4><ul><li><a href='/generia/character/perks/perks-combat#opportunist'>Opportunist</a> <em>(10 SP)</em></li></ul></div><div class='class-main-sub50 container'><h4>Magic</h4><ul><li><a href='/generia/character/perks/perks-magic-exclusive#withering-shadows'>Withering Shadows</a> <em>(10 SP, X)</em></li></ul></div></div><hr /><h2>Actions</h2><div class='class-main-body-category container'><div class='class-main-sub50 container'><h4>Skills</h4><ul></ul></div><div class='class-main-sub50 container'><h4>Spells</h4><ul><li>Nox: Intermediate <em>(20 SP)</em></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#shadow-step'>Shadow Step</a> <em>(8 SP)</em></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#noxian-bargain'>Noxian Bargain</a> <em>(8 SP)</em></li><li><a href='/generia/character/spellcasting-traditions/nox/nox-spells#terror'>Terror</a> <em>(4 SP)</em></li></ul></div></div><hr /><h2>Proficiencies</h2><div class='class-main-body-category container'><div class='class-main-sub50 container'><h4>Weapons</h4><ul></ul></div><div class='class-main-sub50 container'><h4>Spellcasting</h4><ul></ul></div></div><hr /></div></div>
 
 
 
