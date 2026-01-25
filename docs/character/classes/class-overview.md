@@ -79,8 +79,8 @@ title: Classes – Overview
 
 # Tier III
 
-{{ class_card('data/classes/tier-iii/class-augur.yaml') }}
 {{ class_card('data/classes/tier-iii/class-alchimetician.yaml') }}
+{{ class_card('data/classes/tier-iii/class-augur.yaml') }}
 {{ class_card('data/classes/tier-iii/class-banshee.yaml') }}
 {{ class_card('data/classes/tier-iii/class-champion.yaml') }}
 {{ class_card('data/classes/tier-iii/class-deadshot.yaml') }}
