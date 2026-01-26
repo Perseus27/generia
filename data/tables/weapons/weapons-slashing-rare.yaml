@@ -124,6 +124,7 @@ items:
   price: 4
   tags:
     - Complex
+    - Flexible
     - Two-Handed
 
 - name: Odachi
