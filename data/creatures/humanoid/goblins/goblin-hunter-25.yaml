@@ -1,62 +1,62 @@
-name: Goblin Hunter 10
-id: goblin-hunter-10
+name: Goblin Hunter 25
+id: goblin-hunter-25
 info:
   species: Goblin
-  level: 10
+  level: 25
   size: Small
   tags: [Sapient, [Reflexes, 2]]
 notes: >
   This type of goblin tries to stay out of melee range and only uses its spear if cornered.
 
 attributes:
-  CON: [5, 2]
-  STR: [5, 2]
-  DEX: [8, 4]
-  INT: [2, 1]
-  WIL: [2, 1]
-  PER: [7, 3]
+  CON: [7, 3]
+  STR: [11, 5]
+  DEX: [13, 6]
+  INT: [3, 1]
+  WIL: [3, 1]
+  PER: [10, 5]
 values:
-  EN: 15
+  EN: 20
   MP: 5
   MPR: 1
-  WL: 3
-  WT: 6
+  WL: 4
+  WT: 7
   TN: 3
-  MS: 6
+  MS: 8
 armor:
   head: 0
-  torso: 2
-  arms: 1
-  legs: 1
-  md: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 2
   er: 0
 loot:
-  - "[section:clr-roll-noex]1d10[/section] Arrows+1, primitive"
+  - "[section:clr-roll-noex]1d10[/section] Arrows+2, primitive"
   - "[section:clr-roll-noex]1d4[/section] Poison, normal"
-  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+2, small"
-  - Goblin Amulet+1
-  - Monster Core, lesser
+  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+3, small"
+  - Goblin Amulet+2
+  - Monster Core, normal
 actions:
   active:
     - name: Goblin Bow
       type: Ranged Attack, 20m
       auto: Hunting Bow
-      skills: [Aimed Shot, Careful Shot, Unpredictable Shot]
+      skills: [Aimed Shot, Careful Shot, Multishot, Unpredictable Shot]
     - name: Goblin Spear
       type: Melee Attack
       auto: Spear
       skills: [Feint]
-    - name: Arrow, primitive+1
-      damage: 1d4+1 Arrow
+    - name: Arrow, primitive+2
+      damage: 1d4+2 Arrow
     - name: Nimble
       type: Reaction
-      effect:
-        - "[url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] or [section:clr-attr]DEX[/section] check within this turn."
+      effect: >
+        "[url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] or [section:clr-attr]DEX[/section] check within this turn."
       cost: "[section:clr-en]1 EN[/section]"
     - name: Sneaky
       type: Utility, Concentration
-      effect:
-        - Gain [url:status#Hidden]Hidden 1[/url].
+      effect: >
+        Gain [url:status#Hidden]Hidden 1[/url].
       cost: "[section:clr-en]1 EN[/section]"
   passive:
     - name: Perks
@@ -65,8 +65,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - [Bow, 4]
-        - [Spear, 2]
+        - [Bow, 6]
+        - [Spear, 6]
     - name: Cowardly
       type: Passive
       effect:
