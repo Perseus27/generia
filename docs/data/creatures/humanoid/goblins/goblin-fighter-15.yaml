@@ -69,7 +69,7 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - [Spear, 6]
+        - [Spear, 4]
         - [Sling, 4]
     - name: Cowardly
       type: Passive
