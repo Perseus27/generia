@@ -7,7 +7,8 @@ description: >
 prerequisites:
   - Shaman
 
-subclasses: []
+subclasses:
+  - Elementalist
 
 perks:
   combat:

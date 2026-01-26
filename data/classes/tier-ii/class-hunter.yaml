@@ -8,6 +8,8 @@ prerequisites:
   - Archer
 
 subclasses:
+  - Deadshot
+  - Marksman
   - Ranger
 
 perks:
