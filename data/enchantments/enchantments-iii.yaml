@@ -23,7 +23,7 @@ content:
     id: element-reroll-iii
     medium: [Weapon, Trinket]
     description: >
-      While this item is equipped, you gain [section:clr-value]two[/section] [url:core#Reroll]Effect Rerolls[/url] for the specified element.
+      While this item is equipped, you gain [section:clr-value]three[/section] [url:core#Reroll]Effect Rerolls[/url] for the specified element.
     attunement: 15
 
   - name: MD Bonus III
