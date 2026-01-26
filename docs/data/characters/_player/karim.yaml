@@ -2,17 +2,17 @@ name: Karim
 id: karim
 info:
   species: Felis
-  level: 25
+  level: 26
   size: Medium
   classes: [Shaman, Summoner, Binder, Elementalist, Sorcerer]
   tags: [–]
 notes: >
-  350 XP
+  750 XP
   [br]
-  [br]150 SP Base
+  [br]155 SP Base
   [br]+80 Bonus
-  [br]== 240 Total
-  [br]REST 10
+  [br]== 245 Total
+  [br]REST 11
 
 attributes:
   CON: [7, 3]
@@ -20,7 +20,7 @@ attributes:
   DEX: [8, 4]
   INT: [7, 3]
   WIL: [15, 7, 3]
-  PER: [7, 3]
+  PER: [8, 4]
 values:
   EN: 10
   MP: 20
@@ -83,11 +83,11 @@ actions:
     - Elemental Fury
     - Wave of Healing
     - Wind Tunnel
+    - Cleansing Flame
     - Elemental Favor
     - Flame of Defiance
     - Lesser Tailwind
     - Lesser Wind Ward
-    - Lesser Cleansing Flame
     - Lesser Elemental Guidance
     - Lesser Elemental Call
     - Low Stonewall
