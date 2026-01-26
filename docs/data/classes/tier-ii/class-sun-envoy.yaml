@@ -7,7 +7,8 @@ description: >
 prerequisites:
   - Acolyte
 
-subclasses: []
+subclasses:
+  - Legate
 
 perks:
   combat:

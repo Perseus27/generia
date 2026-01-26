@@ -11,6 +11,8 @@ prerequisites:
 
 subclasses:
   - Champion
+  - Deadshot
+  - Marksman
   - Specialist
   - Templar
 
