@@ -43,6 +43,7 @@ title: Bandits
   </div>
 </template>
 
+# Bandits
 
 # Bandits, Level 10
 
