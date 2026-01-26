@@ -173,7 +173,7 @@ utility:
     auto_type: [DC, INT]
     tags: ["TIER II", "Light", "Utility", "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]"
     cost:
       - "[section:clr-mpcost]2 MP[/section]"
     description: >
