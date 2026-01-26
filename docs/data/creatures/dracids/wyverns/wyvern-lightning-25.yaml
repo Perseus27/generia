@@ -40,24 +40,21 @@ actions:
   active:
     - name: Claws
       type: Melee Attack
-      hit: Hit+8, Block+13|4
-      damage: 2d8+4 Sharp
+      auto: Claws (large)
 
     - name: Teeth
       type: Melee Attack
-      hit: Hit+8
-      damage: 3d6+4 Sharp
+      auto: Teeth (large)
 
     - name: Tail Swipe
       type: Melee Attack, AoE, Radius 4m
-      hit: Hit+6
-      damage: 2d8+6 Blunt
+      auto: Tentacles (medium)
       cost: "[section:clr-en]2 EN[/section]"
 
     - name: Dive
       type: Melee Attack, Range 12m
-      hit: Hit+6, [section:clr-dc]DC 15[/section]
-      damage: 2d8+6 Blunt
+      hit: Hit+10, [section:clr-dc]DC 15[/section]
+      damage: 2d8+4 Blunt
       effect:
         - "Only during [i]Flight[/i]. Minimum Range: [section:clr-value]4m[/section]" 
         - "On [url:def#Hit]hit[/url]: [url:status#Prone]Prone[/url]"
@@ -65,7 +62,8 @@ actions:
 
     - name: Shock
       type: Reaction
-      hit: "[section:clr-dc]DC 18[/section]"
+      auto: [DC, PER]
+      prof: Lightning
       effect:
         - "After [url:def#Hit]hit[/url] with [i]Claws[/i] or [i]Teeth[/i]: Target gets [url:status#Shocked]Shocked 4[/url]."
       save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Shocked]Shocked 2[/url]/No effect."
@@ -73,23 +71,26 @@ actions:
 
     - name: Lightning Breath
       type: Spell Attack, Ray, Range 12m, Width 3m
-      hit: "[section:clr-sa]SA +8[/section]"
-      damage: 2d8+4 Lightning
+      auto: [SA, PER]
+      prof: Lightning
+      damage: [4d8, Lightning]
       save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] Damage halved/No effect."
       cost: "[section:clr-mp]2 MP[/section]"
 
     - name: Chain Lightning
       type: Spell Attack, Range 20m, Chain 4m
-      hit: "[section:clr-sa]SA +8[/section]"
-      damage: 3d6+4 Lightning
+      auto: [SA, PER]
+      prof: Lightning
+      damage: [4d6, Lightning]
       effect:
-        - Max. [section:clr-value]4[/section] targets. Can't target the same creature twice.
+        - Max. [section:clr-value]6[/section] targets. Can't target the same creature twice.
       save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] Damage halved/No effect."
       cost: "[section:clr-mp]2 MP[/section]"
 
     - name: Wing Beat
       type: Utility, Ray, Range 8m, Width 5m
-      hit: "[section:clr-dc]DC 14[/section]"
+      auto: [DC, STR]
+      prof: Primitive
       effect:
         - "[url:status#Knockback]Knockback 4[/url], [url:status#OffBalance]Off-Balance[/url]"
       save: "[b]Save [section:clr-attr]STR[/section]/+10:[/b] No knockback/No effect."
@@ -97,7 +98,8 @@ actions:
 
     - name: Shriek
       type: Utility, Radius 8m
-      hit: "[section:clr-dc]DC 13[/section]"
+      auto: [DC, CON]
+      prof: None
       effect:
         - Creatures in the area get [url:status#Confused]Confused[/url] and [url:status#Frightened]Frightened[/url].
       save: "[b]Save [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]/+10:[/b] Not frightened/No effect."
@@ -113,8 +115,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - [Primitive, 4]
-        - [Lightning, 4, PER]
+        - [Primitive, 6]
+        - [Lightning, 6, PER]
     - name: Draconic Constitution
       type: Passive
       effect:
