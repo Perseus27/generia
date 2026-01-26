@@ -1,28 +1,28 @@
-name: Goblin Warrior - Green
-id: goblin-warrior-05
+name: Goblin Fighter 15
+id: goblin-fighter-15
 info:
   species: Goblin
-  level: 5
+  level: 15
   size: Small
   tags: [Sapient, [Reflexes, 2]]
 notes: >
   This type of goblin engages in melee combat, but will retreat to the backline if wounded or outnumbered.
 
 attributes:
-  CON: [3, 1]
-  STR: [5, 2]
-  DEX: [5, 2]
+  CON: [5, 2]
+  STR: [9, 4]
+  DEX: [11, 5]
   INT: [2, 1]
-  WIL: [1, 0]
-  PER: [4, 2]
+  WIL: [3, 1]
+  PER: [5, 2]
 values:
-  EN: 15
+  EN: 20
   MP: 5
   MPR: 1
-  WL: 3
-  WT: 5
+  WL: 4
+  WT: 6
   TN: 3
-  MS: 4
+  MS: 8
 armor:
   head: 0
   torso: 2
@@ -31,9 +31,9 @@ armor:
   md: 1
   er: 0
 loot:
-  - "[section:clr-roll-noex]1d8[/section] Stones, light"
-  - "[section:clr-roll-noex]1d4[/section] Poison, weak"
-  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+1, small"
+  - "[section:clr-roll-noex]1d8[/section] Stones+2, light"
+  - "[section:clr-roll-noex]1d4[/section] Poison, normal"
+  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+3, small"
   - Goblin Amulet+1
   - Monster Core, lesser
 actions:
@@ -41,12 +41,12 @@ actions:
     - name: Spear
       type: Melee Attack
       auto: Spear
-      skills: [Feint, Pocket Sand]
+      skills: [Feint, Find Weakness, Multistrike, Pocket Sand]
     - name: Sling
       type: Ranged Attack, 16m
       auto: Short Sling
-    - name: Stone
-      damage: 1d4
+    - name: Stone+2
+      damage: 1d4+2
     - name: Mean Stab
       type: Melee Attack
       effect: >
@@ -69,7 +69,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - [Spear, 2]
+        - [Spear, 6]
+        - [Sling, 4]
     - name: Cowardly
       type: Passive
       effect:

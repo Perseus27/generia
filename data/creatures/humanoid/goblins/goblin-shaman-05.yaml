@@ -1,4 +1,4 @@
-name: Goblin Shaman - Green
+name: Goblin Shaman 05
 id: goblin-shaman-05
 info:
   species: Goblin
@@ -6,7 +6,7 @@ info:
   size: Small
   tags: [Freecaster, Sapient, [Reflexes, 2]]
 notes: >
-  This type of goblin fights with primitive sorcery based on fire. Goblin shamans seem to enjoy high social status and are usually escorted by multiple warriors.
+  This type of goblin fights with primitive sorcery based on fire. Goblin shamans seem to enjoy high social status and are usually escorted by multiple fighters.
 
 attributes:
   CON: [3, 1]
