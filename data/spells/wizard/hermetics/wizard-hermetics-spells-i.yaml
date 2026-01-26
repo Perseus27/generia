@@ -41,6 +41,7 @@ offensive:
 defensive:
   - name: "Arcane Barrier I"
     id: "arcane-barrier-i"
+    alias: [Mana Barrier I]
     auto_type: [SD, INT, PER]
     tags: ["TIER I", "Arcane", "Reaction", "UPCAST 5"]
     type:

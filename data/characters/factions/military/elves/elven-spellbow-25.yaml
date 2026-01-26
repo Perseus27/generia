@@ -1,21 +1,21 @@
-name: Elven Spellblade 25
-id: elven-spellblade-25
+name: Elven Spellbow 25
+id: elven-spellbow-25
 info:
   species: Elf
   level: 25
   size: Medium
-  classes: [Archer, Wizard, Spellbow, Hermetician, Hunter, Marksman]
-  tags: [Trained 25]
+  classes: [Archer, Wizard, Spellbow, Meteorician, Hunter, Marksman]
+  tags: [Trained, 50]
 notes: >
   [br]165 SP Base
   [br]+50 Bonus
-  [br]+25 Trained
+  [br]+50 Trained
   [br]Rest 0
 
 attributes:
   CON: [7, 3]
   STR: [6, 3, 1]
-  DEX: [12, 6, 1]
+  DEX: [12, 6, 2]
   INT: [10, 5, 1]
   WIL: [7, 3]
   PER: [8, 4]
@@ -40,7 +40,7 @@ inventory:
       q: 4
       enchantments:
         - [Focus, Wizard]
-        - INT+1
+        - DEX+2
     - name: Elven Sword
       q: 2
     - name: Dagger
@@ -60,7 +60,7 @@ inventory:
     - name: Amulet
       disp: Lightning Amulet
       enchantments:
-        - [Element Reroll II, "[section:clr-value]Lightning[/section]"]
+        - [Element Reroll I, "[section:clr-value]Lightning[/section]"]
       q: 4
     - name: Ring
       dsp: Ring of Strength
@@ -68,9 +68,9 @@ inventory:
         - STR+1
       q: 1
     - name: Ring
-      dsp: Ring of Dexterity
+      dsp: Ring of Intelligence
       enchantments:
-        - DEX+1
+        - INT+1
       q: 1
   misc:
     - name: Adventurer's Pack II
@@ -90,7 +90,7 @@ actions:
     - Thunderbolt I
     - Mana Beam I
     - Meteoric Bolt I
-    - Mana Barrier I
+    - Arcane Barrier I
     - Air Burst
     - Levitation
     - Counter Shot
@@ -101,11 +101,11 @@ proficiencies:
     - "Hermetics: Intermediate"
     - [Arcane, 3]
     - "Meteorics: Intermediate"
-    - [Air, 2]
-    - [Lightning, 4]
+    - [Air, 3]
+    - [Lightning, 6]
   weapons:
     - "Ranged: Adept"
-    - [Bow, 4]
+    - [Bow, 6]
     - "Slashing: Beginner"
     - [Sword, 2]
   civilian:
