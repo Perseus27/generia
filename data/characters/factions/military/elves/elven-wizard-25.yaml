@@ -5,7 +5,7 @@ info:
   level: 25
   size: Medium
   classes: [Wizard, Hermetician, Thermician, Magus]
-  tags: [Trained, 50]
+  tags: [[Trained, 50]]
 notes: >
   [br]165 SP Base
   [br]+50 Bonus
