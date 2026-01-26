@@ -114,7 +114,6 @@ exclusive:
 
   - name: Velum
     id: velum
-    auto_type: [DC, WIL]
     tags: [TIER X, Augur, Luna, Reaction, "Range: 20m", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
