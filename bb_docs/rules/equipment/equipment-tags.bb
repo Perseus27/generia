@@ -18,7 +18,7 @@ Damage dealt by [i]Brutal[/i] weapons counts both as [url:dmgtype#Blunt]Blunt[/u
 Equipment with the tag [i]Conduit[/i] responds much better to magic than regular gear and can hold better enchantments at the same quality.
 
 [h2|Flexible]Flexible X|Y[/h2]
-[i]Flexible[/i] weapons can be used with one or both hands. When deviating from the baseline usage type, substitute the weapon's Hit Rating  ([b]HR[/b]) with [section:clr-value]X[/section] and the Damage Rating ([b]DR[/b]) with [section:clr-value]Y[/section].
+[i]Flexible[/i] weapons can be used with one or both hands. When deviating from the baseline usage type, switch the damage dice type from [section:clr-value]d6[/section] to [section:clr-value]d8[/section] or vice versa.
 [br]If another tag (e.g. [url:#Long]Long[/url]) is appended to [i]Flexible[/i], that tag is applied to the weapon while wielded in the alternative manner.
 
 [h2|Long]Long[/h2]

@@ -51,8 +51,7 @@ items:
   rarity: 3
   price: 3
   tags:
-    - - Blockbreaker
-      - 2.0
+    - [Blockbreaker, 2.0]
     - Short
 
 - name: Raven's Beak
@@ -66,8 +65,7 @@ items:
   rarity: 3
   price: 3
   tags:
-    - - Flexible
-      - 0.5|1.5
+    - Flexible
 
 - name: Bo Staff
   type: Staff
@@ -107,8 +105,7 @@ items:
   rarity: 4
   price: 4
   tags:
-    - - Focus
-      - (Druid)
+    - [Focus, Druid]
     - Two-Handed
     
 - name: Wizard's Staff
@@ -122,8 +119,7 @@ items:
   rarity: 4
   price: 4
   tags:
-    - - Focus
-      - (Wizard)
+    - [Focus, Wizard]
     - Two-Handed
 
 - name: Caster Staff
