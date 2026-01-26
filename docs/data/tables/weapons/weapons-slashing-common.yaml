@@ -51,8 +51,7 @@ items:
   rarity: 2
   price: 2
   tags:
-    - - Flexible
-      - 1.0|1.5
+    - Flexible
 
 - name: Halberd
   type: Polearm
@@ -67,8 +66,7 @@ items:
   tags:
     - Long
     - Two-Handed
-    - - Variant
-      - Stabbing
+    - [Variant, Stabbing]
 
 - name: Poleaxe
   type: Polearm
@@ -82,8 +80,7 @@ items:
   price: 2
   tags:
     - Two-Handed
-    - - Variant
-      - Blunt
+    - [Variant, Blunt]
 
 - name: Broadsword
   type: Sword
@@ -148,5 +145,4 @@ items:
   price: 1
   tags:
     - Short
-    - - Variant
-      - Stabbing
+    - [Variant, Stabbing]

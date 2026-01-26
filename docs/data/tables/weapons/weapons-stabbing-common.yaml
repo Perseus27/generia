@@ -79,8 +79,7 @@ items:
   rarity: 1
   price: 1
   tags:
-    - - Flexible
-      -  1.0|1.5 [i]Long[/i]
+    - [Flexible, "[i]Long[/i]"]
 
 - name: Rapier
   type: Sword
@@ -105,5 +104,4 @@ items:
   rarity: 1
   price: 1
   tags:
-    - - Variant
-      - Slashing
+    - [Variant, Slashing]

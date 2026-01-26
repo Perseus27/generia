@@ -24,8 +24,7 @@ items:
   rarity: 3
   price: 3
   tags:
-    - - Blockbreaker
-      - 1.0
+    - [Blockbreaker, 1.0]
     - Short
 
 - name: Nord Axe
@@ -56,8 +55,7 @@ items:
     - Complex
     - Long
     - Two-Handed
-    - - Variant
-      - Stabbing
+    - [Variant, Stabbing]
 
 - name: Naginata
   type: Polearm
@@ -73,8 +71,7 @@ items:
     - Complex
     - Long
     - Two-Handed
-    - - Variant
-      - Stabbing
+    - [Variant, Stabbing]
 
 - name: Bastard Sword
   type: Sword
@@ -87,8 +84,7 @@ items:
   rarity: 3
   price: 3
   tags:
-    - - Flexible
-      - 1.0|1.5
+    - Flexible
 
 - name: Elven Sword
   type: Sword
