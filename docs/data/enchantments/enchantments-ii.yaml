@@ -29,8 +29,7 @@ content:
     id: element-reroll-ii
     medium: [Weapon, Trinket]
     description: >
-      While this item is equipped, you gain [section:clr-value]one[/section] [url:core#Reroll]Effect Reroll[/url] for the specified element.
-      [br]If the item is [section:clr-curse]cursed[/section], you gain [section:clr-value]two[/section] Effect Rerolls instead.
+      While this item is equipped, you gain [section:clr-value]two[/section] [url:core#Reroll]Effect Rerolls[/url] for the specified element.
     attunement: 10
 
   - name: MD Bonus II
