@@ -1,16 +1,16 @@
-name: Elven Lunite 25
-id: elven-lunite-25
+name: Elven Solite 25
+id: elven-solite-25
 info:
   species: Elf
   level: 25
   size: Medium
-  classes: [Acolyte, Fighter, Moon Priest, Moon Warden, Augur]
+  classes: [Acolyte, Sun Envoy, Sun Cleric, Legate]
   tags: [Trained, 50]
 notes: >
   [br]150 SP Base
   [br]+50 Bonus
   [br]+50 Trained
-  [br]Rest 2
+  [br]Rest 250
 
 attributes:
   CON: [9, 4]
@@ -53,7 +53,7 @@ inventory:
     - name: Leather Greaves
       q: 3
     - name: Amulet
-      disp: Lunite Amulet
+      disp: Solite Amulet
       enchantments:
         - WIL+1
         - [Focus, Acolyte]
@@ -72,52 +72,47 @@ inventory:
     - name: Adventurer's Pack II
 actions:
   skills:
-    - Charge
-    - Feint
-    - Leg Sweep
-    - Shove
-    - Counter
+    - ""
   spells:
-    - Velum
+    - Pillar of Light
+    - Smite
     - Sunlight Spear
+    - Light of Sol
+    - Prominence
+    - Armor of Sol
+    - Photosensitivity
     - Radiant Shield
     - Healing
     - Purify
-    - Prayer of Healing
-    - Blessing of Resilience
-    - Sanctuary
   rituals:
-    - Prayer to Luna
-    - Prophecy
-    - Sanare
-    - Mederi
+    - Videre
+    - Prayer to Sol
+    - Consecration
 proficiencies:
   magic:
     - "Acolyte: Adept"
-    - [Luna, 6]
-    - [Sol, 4]
+    - [Luna, 4]
+    - [Sol, 8]
   weapons:
     - "Slashing: Beginner"
     - [Sword, 4]
-    - "Defensive: Beginner"
   civilian:
     - [Medicine, 1]
     - [Rites, 2]
-    - [Warfare, 2]
-    - [Monster Lore, 1]
 perks:
   special:
     - Arcane Flow
     - Harmony
 
   combat:
-    - Deflector
     - Opportunist
+    - Deflector
 
   magic:
-    - Moonlight Cloak
-    - Luna's Guiding Hand
-    - Misereor
+    - Punish the Wicked
+    - Radiant Light
+    - Arcane Artillery
     - Astral Body I
     - Battle Meditation
-    - Focus II
+    - Focus I
+    - Intensity

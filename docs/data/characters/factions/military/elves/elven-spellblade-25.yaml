@@ -5,17 +5,17 @@ info:
   level: 25
   size: Medium
   classes: [Fighter, Wizard, Spellblade, Hermetician, Swordfighter, Specialist]
-  tags: [Trained 25]
+  tags: [Trained, 50]
 notes: >
   [br]165 SP Base
   [br]+50 Bonus
-  [br]+25 Trained
-  [br]Rest 0
+  [br]+50 Trained
+  [br]Rest 25
 
 attributes:
   CON: [7, 3]
   STR: [6, 3, 1]
-  DEX: [12, 6, 1]
+  DEX: [12, 6, 2]
   INT: [10, 5, 1]
   WIL: [7, 3]
   PER: [8, 4]
@@ -40,7 +40,7 @@ inventory:
       q: 4
       enchantments:
         - [Focus, Wizard]
-        - INT+1
+        - DEX+2
     - name: Dagger
   armor:
     - name: Leather Helmet
@@ -56,7 +56,7 @@ inventory:
     - name: Amulet
       disp: Arcane Amulet
       enchantments:
-        - [Element Reroll II, "[section:clr-value]Arcane[/section]"]
+        - [Element Reroll I, "[section:clr-value]Arcane[/section]"]
       q: 4
     - name: Ring
       dsp: Ring of Strength
@@ -64,9 +64,9 @@ inventory:
         - STR+1
       q: 1
     - name: Ring
-      dsp: Ring of Dexterity
+      dsp: Ring of Intelligence
       enchantments:
-        - DEX+1
+        - INT+1
       q: 1
   misc:
     - name: Adventurer's Pack II
@@ -86,18 +86,20 @@ actions:
     - Blade Infusion
     - Mana Beam I
     - Thermal Bolt I
-    - Mana Barrier I
+    - Arcane Barrier I
     - Counter Shot
     - Counterspell
     - Dimension Step
+    - Flame Mantle
+    - Frost Breath
   rituals:
     - Hermetic Manipulation
 proficiencies:
   magic:
     - "Hermetics: Intermediate"
-    - [Arcane, 3]
+    - [Arcane, 5]
     - "Thermics: Intermediate"
-    - [Fire, 3]
+    - [Fire, 4]
     - [Ice, 2]
   weapons:
     - "Slashing: Adept"

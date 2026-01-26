@@ -5,12 +5,12 @@ info:
   level: 25
   size: Medium
   classes: [Wizard, Hermetician, Thermician, Magus]
-  tags: [Trained 25]
+  tags: [Trained, 50]
 notes: >
   [br]165 SP Base
   [br]+50 Bonus
-  [br]+25 Trained
-  [br]Rest 0
+  [br]+50 Trained
+  [br]Rest 2
 
 attributes:
   CON: [5, 2]
@@ -18,7 +18,7 @@ attributes:
   DEX: [5, 2]
   INT: [15, 7, 3]
   WIL: [11, 5]
-  PER: [7, 3]
+  PER: [7, 3, 1]
 values:
   EN: 10
   MP: 30
@@ -40,7 +40,7 @@ inventory:
       q: 2
       enchantments:
         - [Focus, Wizard]
-        - INT+1
+        - INT+2
     - name: Dagger
   armor:
     - name: Leather Helmet
@@ -56,7 +56,7 @@ inventory:
     - name: Amulet
       disp: Fire Amulet
       enchantments:
-        - [Element Reroll II, "[section:clr-value]Fire[/section]"]
+        - [Element Reroll I, "[section:clr-value]Fire[/section]"]
       q: 4
     - name: Ring
       disp: Ring of Intelligence
@@ -64,9 +64,9 @@ inventory:
         - INT+1
       q: 1
     - name: Ring
-      disp: Ring of Intelligence
+      disp: Ring of Perception
       enchantments:
-        - INT+1
+        - PER+1
       q: 1
   misc:
     - name: Adventurer's Pack II
@@ -82,7 +82,7 @@ actions:
     - Thermal Bolt II
     - Mana Beam I
     - Ice Shrapnel
-    - Mana Barrier I
+    - Arcane Barrier I
     - Blink
     - Counterspell
     - Dimension Step
@@ -93,8 +93,9 @@ actions:
     - Create Matrix Crystal
 proficiencies:
   magic:
-    - "Hermetics: Intermediate"
+    - "Hermetics: Adept"
     - [Arcane, 5]
+    - [Light, 2]
     - "Thermics: Intermediate"
     - [Fire, 6]
     - [ice, 4]
@@ -116,6 +117,7 @@ perks:
     - Mighty Magics
     - Practiced Hermetician
     - Practiced Thermician
+    - Shield Mage
     - Arcane Artillery
     - Astral Body I
     - Battle Meditation
