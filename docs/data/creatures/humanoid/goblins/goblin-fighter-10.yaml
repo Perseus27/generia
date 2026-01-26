@@ -1,8 +1,8 @@
-name: Goblin Warrior - Red
-id: goblin-warrior-15
+name: Goblin Fighter 10
+id: goblin-fighter-10
 info:
   species: Goblin
-  level: 15
+  level: 10
   size: Small
   tags: [Sapient, [Reflexes, 2]]
 notes: >
@@ -10,19 +10,19 @@ notes: >
 
 attributes:
   CON: [5, 2]
-  STR: [9, 4]
-  DEX: [11, 5]
+  STR: [7, 3]
+  DEX: [8, 4]
   INT: [2, 1]
-  WIL: [3, 1]
+  WIL: [2, 1]
   PER: [5, 2]
 values:
-  EN: 20
+  EN: 15
   MP: 5
   MPR: 1
-  WL: 4
+  WL: 3
   WT: 6
   TN: 3
-  MS: 8
+  MS: 6
 armor:
   head: 0
   torso: 2
@@ -31,9 +31,9 @@ armor:
   md: 1
   er: 0
 loot:
-  - "[section:clr-roll-noex]1d8[/section] Stones+2, light"
+  - "[section:clr-roll-noex]1d8[/section] Stones+1, light"
   - "[section:clr-roll-noex]1d4[/section] Poison, normal"
-  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+3, small"
+  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+2, small"
   - Goblin Amulet+1
   - Monster Core, lesser
 actions:
@@ -41,12 +41,12 @@ actions:
     - name: Spear
       type: Melee Attack
       auto: Spear
-      skills: [Feint, Find Weakness, Multistrike, Pocket Sand]
+      skills: [Feint, Find Weakness, Pocket Sand]
     - name: Sling
       type: Ranged Attack, 16m
       auto: Short Sling
-    - name: Stone+2
-      damage: 1d4+2
+    - name: Stone+1
+      damage: 1d4+1
     - name: Mean Stab
       type: Melee Attack
       effect: >
@@ -69,8 +69,8 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - [Spear, 6]
-        - [Sling, 4]
+        - [Spear, 4]
+        - [Sling, 2]
     - name: Cowardly
       type: Passive
       effect:
