@@ -31,7 +31,7 @@ armor:
   md: 2
   er: 0
 loot:
-  - "[section:clr-roll-noex]1d10[/section] Arrows+2, primitive"
+  - "[section:clr-roll-noex]1d10[/section] Arrows+3, primitive"
   - "[section:clr-roll-noex]1d4[/section] Poison, normal"
   - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+3, small"
   - Goblin Amulet+2
@@ -41,13 +41,13 @@ actions:
     - name: Goblin Bow
       type: Ranged Attack, 20m
       auto: Hunting Bow
-      skills: [Aimed Shot, Careful Shot, Multishot, Unpredictable Shot]
+      skills: [Aimed Shot, Careful Shot, Find Weakness, Hold Breath, Multishot, Ricochet, Unpredictable Shot]
     - name: Goblin Spear
       type: Melee Attack
       auto: Spear
       skills: [Feint]
-    - name: Arrow, primitive+2
-      damage: 1d4+2 Arrow
+    - name: Arrow, primitive+3
+      damage: 1d4+3 Arrow
     - name: Nimble
       type: Reaction
       effect: >
@@ -61,12 +61,12 @@ actions:
   passive:
     - name: Perks
       type: Passive
-      perks: [Opportunist]
+      perks: [David, Opportunist, Pack Tactics, Sharpshooter]
     - name: Proficiencies
       type: Passive
       effect:
         - [Bow, 6]
-        - [Spear, 6]
+        - [Polearm, 6]
     - name: Cowardly
       type: Passive
       effect:

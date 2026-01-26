@@ -61,12 +61,12 @@ actions:
   passive:
     - name: Perks
       type: Passive
-      perks: [Opportunist]
+      perks: [David, Opportunist, Pack Tactics]
     - name: Proficiencies
       type: Passive
       effect:
         - [Bow, 4]
-        - [Spear, 4]
+        - [Polearm, 4]
     - name: Cowardly
       type: Passive
       effect:

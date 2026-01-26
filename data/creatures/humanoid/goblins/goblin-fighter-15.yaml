@@ -65,11 +65,11 @@ actions:
   passive:
     - name: Perks
       type: Passive
-      perks: [Opportunist]
+      perks: [Opportunist, Pack Tactics]
     - name: Proficiencies
       type: Passive
       effect:
-        - [Spear, 4]
+        - [Polearm, 4]
         - [Sling, 4]
     - name: Cowardly
       type: Passive
