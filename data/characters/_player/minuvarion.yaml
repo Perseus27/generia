@@ -2,24 +2,24 @@ name: Minuvarion
 id: minuvarion
 info:
   species: Elf
-  level: 25
+  level: 26
   size: Medium
   classes: [Wizard, Meteorician, Thermician, Hermetician, Magus]
   tags: [–]
 notes: >
-  350 XP
+  750 XP
   [br]
-  [br]165 SP Base
+  [br]170 SP Base
   [br]+75 Bonus
-  [br]== 240 Total
-  [br]REST 1
+  [br]== 245 Total
+  [br]REST 6
 
 attributes:
   CON: [5, 2, 1]
   STR: [4, 2]
   DEX: [8, 4]
   INT: [14, 7]
-  WIL: [9, 4]
+  WIL: [10, 5]
   PER: [8, 4, 1]
 values:
   EN: 10
