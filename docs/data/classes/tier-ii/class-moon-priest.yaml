@@ -19,7 +19,7 @@ perks:
 
 proficiencies:
   magic:
-    - []
+    - ["Acolyte: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -27,7 +27,6 @@ actions:
   skills:
     - []
   spells:
-    - ["Acolyte: Intermediate", 20 SP]
     - [Prayer of Healing, 8 SP]
-    - [Sanctuary, 8 SP]
+    - [Blessing of Resilience, 8 SP]
     - [Mederi, 4 SP]
