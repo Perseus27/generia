@@ -11,6 +11,7 @@ content:
 
   - name: Battlefield Control
     id: battlefield-control
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-champion]Champion[/url]"
     description: >
@@ -24,6 +25,7 @@ content:
 
   - name: Kill Chain
     id: kill-chain
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-deadshot]Deadshot[/url]"
     description: >
@@ -38,6 +40,7 @@ content:
 
   - name: Momentum
     id: momentum
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-specialist]Specialist[/url]"
     description: >
@@ -52,6 +55,7 @@ content:
 
   - name: Spotter
     id: spotter
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-marksman]Marksman[/url]"
     description: >
@@ -67,6 +71,7 @@ content:
 
   - name: Teamwork
     id: teamwork
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-ranger]Ranger[/url]"
     description: >

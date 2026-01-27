@@ -125,3 +125,7 @@
 	font-style: italic;
 	color: lightslategray;
 }
+
+.disp-exclusive {
+	font-weight: bold;
+}
