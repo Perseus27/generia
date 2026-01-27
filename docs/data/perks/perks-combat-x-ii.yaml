@@ -11,6 +11,7 @@ content:
 
   - name: Edge Alignment
     id: edge-alignment
+    exclusive: True
     sp-cost: 10
     requirements: "[url:class2/class-slasher]Slasher[/url]"
     description: >
@@ -23,6 +24,7 @@ content:
 
   - name: Bloodlust
     id: bloodlust
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class2/class-berserker]Berserker[/url]"
     description: >
@@ -35,6 +37,7 @@ content:
 
   - name: Lone Fighter
     id: lone-fighter
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class2/class-duelist]Duelist[/url]"
     description: >
@@ -47,6 +50,7 @@ content:
 
   - name: On the Prowl
     id: on-the-prowl
+    exclusive: True
     sp-cost: 10
     requirements: "[url:class2/class-hunter]Hunter[/url]"
     description: >
@@ -59,6 +63,7 @@ content:
 
   - name: Sheer Force
     id: sheer-force
+    exclusive: True
     sp-cost: 10
     requirements: "[url:class2/class-breaker]Breaker[/url]"
     description: >
@@ -71,6 +76,7 @@ content:
 
   - name: Spearhead
     id: spearhead
+    exclusive: True
     sp-cost: 10
     requirements: "[url:class2/class-stabber]Stabber[/url]"
     description: >
@@ -83,6 +89,7 @@ content:
 
   - name: Zone of Control
     id: zone-of-control
+    exclusive: True
     sp-cost: 10
     requirements: "[url:class2/class-war-dancer]War Dancer[/url]"
     description: >

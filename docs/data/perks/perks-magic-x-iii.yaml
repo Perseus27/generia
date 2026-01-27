@@ -11,6 +11,7 @@ content:
 
   - name: Aether Mark
     id: aether-mark
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-alchimetician]Alchimetician[/url]"
     description: >
@@ -25,6 +26,7 @@ content:
 
   - name: Channel Element
     id: channel-element
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-elementalist]Elementalist[/url]"
     description: >
@@ -37,6 +39,7 @@ content:
 
   - name: Clarity
     id: clarity
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-wayfarer]Wayfarer[/url]"
     description: >
@@ -56,6 +59,7 @@ content:
 
   - name: Disruption Matrix
     id: disruption-matrix
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-magister]Magister[/url]"
     description: >
@@ -68,6 +72,7 @@ content:
 
   - name: High-Energy Munitions
     id: high-energy-munitions
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-gunwright]Gunwright[/url]"
     description: >
@@ -80,6 +85,7 @@ content:
 
   - name: "Luna's Protective Hand"
     id: lunas-protective-hand
+    exclusive: True
     sp-cost: 10
     requirements: "[url:class3/class-moon-dancer]Moon Dancer[/url]"
     description: >
@@ -92,6 +98,7 @@ content:
 
   - name: Mighty Magics
     id: mighty-magics
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-magus]Magus[/url]"
     description: >
@@ -104,6 +111,7 @@ content:
 
   - name: Moonlight Cloak
     id: moonlight-cloak
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-augur]Augur[/url]"
     description: >
@@ -119,6 +127,7 @@ content:
 
   - name: Paragon
     id: paragon
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-templar]Templar[/url]"
     description: >
@@ -137,6 +146,7 @@ content:
 
   - name: Punish the Wicked
     id: punish-the-wicked
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-legate]Legate[/url]"
     description: >
@@ -151,6 +161,7 @@ content:
 
   - name: Soul Hook
     id: soul-hook
+    exclusive: True
     sp-cost: 20
     requirements: "[url:class3/class-banshee]Banshee[/url]"
     description: >
