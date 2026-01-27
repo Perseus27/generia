@@ -3,7 +3,7 @@ class List_Builder:
         self.autolinker = autolinker
 
 
-    def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False, class_list=False, prof_list=False): # br, comma, li, commabr
+    def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False, class_list=False, prof_list=False, format_exclusives=False): # br, comma, li, commabr
         if not isinstance(input_list, list):
             input_list = [input_list]
         result = ""
@@ -38,7 +38,13 @@ class List_Builder:
                 i = first_part
                 list_flag = True
             if to_link:
-                link = self.get_link(i, to_link)
+                link = self.get_link(i, to_link, format_exclusive=format_exclusives)
+                exclusive = False
+                if isinstance(link, list):
+                    exclusive = link[1]
+                    link = link[0]
+                if exclusive:
+                    result += "[section:disp-exclusive]"
                 if link:
                     if list_flag:
                         if class_list:
@@ -61,6 +67,8 @@ class List_Builder:
                                 result += f"[br][section:clr-subitem]{x}[/section]"
                     else:
                         result += ctag_open+i+ctag_close
+                if exclusive:
+                    result += "[/section]"
             else:
                 if prof_list:
                     if list_flag:
@@ -137,18 +145,18 @@ class List_Builder:
     
 
 
-    def get_link(self, s, to_link):
+    def get_link(self, s, to_link, format_exclusive=False):
         link = False
         if to_link == "class":
             link = self.autolinker.link_class(s)
         elif to_link == "class-overview":
             link = self.autolinker.link_class(s, overview=True)
         elif to_link == "perk":
-            link = self.autolinker.link_perk(s)
+            link = self.autolinker.link_perk(s, check_exclusive=format_exclusive)
         elif to_link == "skill":
-            link = self.autolinker.link_skill(s)
+            link = self.autolinker.link_skill(s, check_exclusive=format_exclusive)
         elif to_link == "spell":
-            link = self.autolinker.link_spell(s)
+            link = self.autolinker.link_spell(s, check_exclusive=format_exclusive)
         elif to_link == "tag":
             link = self.autolinker.link_tag(s)
         elif to_link == "ench":

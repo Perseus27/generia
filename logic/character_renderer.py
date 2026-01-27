@@ -183,18 +183,18 @@ class Character_Renderer:
     
     def format_actions(self):
         all_actions = self.yaml_input.get("actions")
-        skills = self.list_builder.build_list(all_actions.get("skills"), to_link="skill")
+        skills = self.list_builder.build_list(all_actions.get("skills"), to_link="skill", format_exclusives=True)
         #spells = self.list_builder.build_list(all_actions.get("spells"), to_link="spell")
         spells = self.auto.format_spells()
-        rituals = self.list_builder.build_list(all_actions.get("rituals"), to_link="spell")
+        rituals = self.list_builder.build_list(all_actions.get("rituals"), to_link="spell", format_exclusives=True)
         actions_formatted = {"skills" : self.BB_HELPER.process(skills), "spells" : self.BB_HELPER.process(spells), "rituals" : self.BB_HELPER.process(rituals)}
         return actions_formatted
 
     def format_perks(self):
         all_perks = self.yaml_input.get("perks")
         special_perks_bb = self.list_builder.build_list(all_perks.get("special"), to_link="perk")
-        combat_perks_bb = self.list_builder.build_list(all_perks.get("combat"), to_link="perk")
-        magic_perks_bb = self.list_builder.build_list(all_perks.get("magic"), to_link="perk")
+        combat_perks_bb = self.list_builder.build_list(all_perks.get("combat"), to_link="perk", format_exclusives=True)
+        magic_perks_bb = self.list_builder.build_list(all_perks.get("magic"), to_link="perk", format_exclusives=True)
         perks_formatted = {"special" : self.BB_HELPER.process(special_perks_bb), "combat" : self.BB_HELPER.process(combat_perks_bb), "magic" : self.BB_HELPER.process(magic_perks_bb)}
         return perks_formatted
 

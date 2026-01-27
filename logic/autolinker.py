@@ -57,33 +57,42 @@ class Autolinker:
                     return f"{c.get('prefix')}/{c.get('id')}"
         return False
     
-    def link_perk(self, x):
+    def link_perk(self, x, check_exclusive=False):
         for y in self.perk_yamls:
             prefix = y.get("prefix")
             for p in self.get_all_perks_from_file(y):
                 name = p.get("name")
                 if name == x or x in p.get("alias", []):
-                    return f"{prefix}#{p.get('id', name)}"
+                        if check_exclusive:
+                            return [f"{prefix}#{p.get('id', name)}", p.get("exclusive"), False]
+                        else:
+                            return f"{prefix}#{p.get('id', name)}"
         return False
 
-    def link_skill(self, x):
+    def link_skill(self, x, check_exclusive=False):
         for y in self.skill_yamls:
             prefix = y.get("prefix")
             for subcat in self.get_all_skills_from_file(y):
                 for i in subcat:
                     name = i.get("name")
                     if name == x or x in i.get("alias", []):
-                        return f"{prefix}#{i.get('id', name)}"
+                        if check_exclusive:
+                            return [f"{prefix}#{i.get('id', name)}", any(x in ["TIER X", "Tier X"] for x in i.get("tags", []))]
+                        else:
+                            return f"{prefix}#{i.get('id', name)}"
         return False
 
-    def link_spell(self, x):
+    def link_spell(self, x, check_exclusive=False):
         for y in self.spell_yamls:
             prefix = y.get("prefix")
             for subcat in self.get_all_spells_from_file(y):
                 for i in subcat:
                     name = i.get("name")
                     if name == x or x in i.get("alias", []):
-                        return f"{prefix}#{i.get('id', name)}"
+                        if check_exclusive:
+                            return [f"{prefix}#{i.get('id', name)}", any(x in ["TIER X", "Tier X"] for x in i.get("tags", []))]
+                        else:
+                            return f"{prefix}#{i.get('id', name)}"
         return False
     
     def link_tag(self, x):
@@ -129,6 +138,13 @@ class Autolinker:
                         return False
         return False
     
+    def is_spell_exclusive(self, x):
+        for y in self.spell_yamls:
+            for subcat in self.get_all_spells_from_file(y):
+                for s in subcat:
+                    if x == s.get("name") or x in s.get("alias", []):
+                        if i.get("auto_type", False):
+                            return i
 
     
     def get_all_perks_from_file(self, f):

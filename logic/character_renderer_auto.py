@@ -271,12 +271,18 @@ class Character_Renderer_Auto:
                 result += self.calc_spell(x)
             result += "[/ul]"
         if len(spells_manual):
-            result += self.list_builder.build_list(spells_manual, to_link="spell")
+            result += self.list_builder.build_list(spells_manual, to_link="spell", format_exclusives=True)
         return result
     
     def calc_spell(self, spell_full):
         display_name = spell_full[1]
-        linked_name = f"[url:{self.autolinker.link_spell(display_name)}]{display_name}[/url]"
+        is_exclusive = any(x in ["TIER X", "Tier X"] for x in spell_full[0].get("tags"))
+        linked_name = ""
+        if is_exclusive:
+            linked_name += "[section:disp-exclusive]"
+        linked_name += f"[url:{self.autolinker.link_spell(display_name)}]{display_name}[/url]"
+        if is_exclusive:
+            linked_name += "[/section]"
         return f"[li]{linked_name} {self.get_spell_hit_string(spell_full[0], self.get_spell_proficiency(spell_full[0]))}[/li]"
 
     def get_spell_proficiency(self, spell):
