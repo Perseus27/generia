@@ -1,30 +1,30 @@
-name: "Acolyte Spells I"
-id: "acolyte-spells-i"
-id_appendix: "I"
-prefix: "acolyteS"
+name: Acolyte Spells I
+id: acolyte-spells-i
+id_appendix: I
+prefix: acolyteS
 
 offensive:
-  - name: "Light of Sol"
-    id: "light-of-sol"
+  - name: Light of Sol
+    id: light-of-sol
     auto_type: [SA, WIL]
-    tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m", "Radius: 2m"]
+    tags: [TIER I, Sol, Offensive, "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m", "Radius: 2m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "Sunstone"
+      - Sunstone
     cost:
       - "[section:clr-mp]2/3/4 MP[/section]"
     description: >
       Calls down a beam of holy light in the target area.
     effect: >
       [section:clr-roll]2/3/4d4[/section] Light
-    saved: "Damage halved."
-    saved10: "No effect."
+    saved: Damage halved.
+    saved10: No effect.
 
-  - name: "Sunlight Spear"
-    id: "sunlight-spear"
+  - name: Sunlight Spear
+    id: sunlight-spear
     auto_type: [PA, WIL]
-    tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
+    tags: [TIER I, Sol, Offensive, "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
     cost:
@@ -36,13 +36,13 @@ offensive:
 
 
 defensive:
-  - name: "Blessing of Fortitude"
-    id: "blessing-of-fortitude"
-    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
+  - name: Blessing of Fortitude
+    id: blessing-of-fortitude
+    tags: [TIER I, Luna, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Moonstone (optional)"
+      - Moonstone (optional)
     cost:
       - "[section:clr-mp]1/2/3 MP[/section]"
     description: >
@@ -51,13 +51,13 @@ defensive:
     effect: >
       [url:values#WT]WT[/url][section:clr-value]+1/+2/+3[/section].
 
-  - name: "Radiant Shield"
-    id: "radiant-shield"
-    tags: ["TIER I", "Sol", "Defensive", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
+  - name: Radiant Shield
+    id: radiant-shield
+    tags: [TIER I, Sol, Defensive, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Sunstone (optional)"
+      - Sunstone (optional)
     cost:
       - "[section:clr-mp]1/2/3 MP[/section]"
     description: >
@@ -68,9 +68,9 @@ defensive:
 
 
 utility:
-  - name: "Healing"
-    id: "healing"
-    tags: ["TIER I", "Luna", "Utility", "HEAL", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 16m"]
+  - name: Healing
+    id: healing
+    tags: [TIER I, Luna, Utility, HEAL, "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -80,11 +80,11 @@ utility:
     effect: >
       Target regains [section:clr-roll]2/3/4d6[/section] HP.
 
-  - name: "Purify / Purge"
+  - name: Purify / Purge
     alias: [Purify, Purge]
-    id: "purify-purge"
+    id: purify-purge
     auto_type: [DC+, WIL]
-    tags: ["TIER I", "Luna", "Sol", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
+    tags: [TIER I, Luna, Sol, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
     cost:
@@ -97,9 +97,9 @@ utility:
 
 
 ritual:
-  - name: "Prayer to Luna"
-    id: "prayer-to-luna"
-    tags: ["TIER I", "Luna", "Out of Combat"]
+  - name: Prayer to Luna
+    id: prayer-to-luna
+    tags: [TIER I, Luna, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: Variable
@@ -111,9 +111,9 @@ ritual:
       Effect, duration, and any costs are negotiable.
       [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
 
-  - name: "Prayer to Sol"
-    id: "prayer-to-sol"
-    tags: ["TIER I", "Sol", "Out of Combat"]
+  - name: Prayer to Sol
+    id: prayer-to-sol
+    tags: [TIER I, Sol, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: Variable
@@ -125,9 +125,9 @@ ritual:
       Effect, duration, and any costs are negotiable.
       [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
 
-  - name: "Mederi"
-    id: "mederi"
-    tags: ["TIER I", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+  - name: Mederi
+    id: mederi
+    tags: [TIER I, Luna, Out of Combat, "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: ½ Phase
@@ -136,13 +136,13 @@ ritual:
     effect: >
       Your next [i]Medicine[/i] check has [url:core#Advantage]Advantage 1[/url].
 
-  - name: "Consecration"
-    id: "consecration"
-    tags: ["TIER I", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+  - name: Consecration
+    id: consecration
+    tags: [TIER I, Sol, Out of Combat, "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Sunstone"
+      - Sunstone
     cast_time: ½ Phase
     description: >
       Consecrates up to [[section:clr-value]Sol[/section]] weapons in the sun god’s name until sunset.

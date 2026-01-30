@@ -1,12 +1,12 @@
-name: "Nox Spells I"
-id: "nox-spells-i"
-id_appendix: "I"
-prefix: "noxS"
+name: Nox Spells I
+id: nox-spells-i
+id_appendix: I
+prefix: noxS
 
 offensive:
-  - name: "Shadow Strike"
-    id: "shadow-strike"
-    tags: ["TIER I", "Nox", "Offensive", "Range: Weapon"]
+  - name: Shadow Strike
+    id: shadow-strike
+    tags: [TIER I, Nox, Offensive, "Range: Weapon"]
     type:
       - "[section:clr-attack]BASIC ATTACK[/section]"
     cost:
@@ -17,9 +17,9 @@ offensive:
       Damage type is converted to [url:dmgtype#Shadow]Shadow[/url].
 
 defensive:
-  - name: "Blur"
-    id: "blur"
-    tags: ["TIER I", "Nox", "Defensive", "Reaction"]
+  - name: Blur
+    id: blur
+    tags: [TIER I, Nox, Defensive, Reaction]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -30,9 +30,9 @@ defensive:
       [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]Dodge[/url] roll.
 
 utility:
-  - name: "Shadow Summoning"
-    id: "shadow-summoning"
-    tags: ["TIER I", "Nox", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Shadow Summoning
+    id: shadow-summoning
+    tags: [TIER I, Nox, Utility, "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -43,9 +43,9 @@ utility:
     effect: >
       An animated shadow manifests next to the caster.
 
-  - name: "Shadow Run"
-    id: "shadow-run"
-    tags: ["TIER I", "Nox", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
+  - name: Shadow Run
+    id: shadow-run
+    tags: [TIER I, Nox, Utility, "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -55,9 +55,9 @@ utility:
     effect: >
       Basic attacks triggered by [i]Opportunist[/i] have [url:core#Disadvantage]Disadvantage 2[/url].
 
-  - name: "Shadow Cloak"
-    id: "shadow-cloak"
-    tags: ["TIER I", "Nox", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Shadow Cloak
+    id: shadow-cloak
+    tags: [TIER I, Nox, Utility, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -67,9 +67,9 @@ utility:
     effect: >
       Target gains [url:status#Hidden]Hidden 1[/url].
 
-  - name: "Shadow Knives"
-    id: "shadow-knives"
-    tags: ["TIER I", "Nox", "Utility"]
+  - name: Shadow Knives
+    id: shadow-knives
+    tags: [TIER I, Nox, Utility]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -80,10 +80,10 @@ utility:
       Conjure [[section:clr-attr]PER-MOD[/section]] throwing knives.
       [br]Each knife deals [section:clr-roll]2d4[/section] + [section:clr-attr]STR-MOD[/section] [url:dmgtype#Shadow]Shadow[/url] on hit.
 
-  - name: "Terror"
-    id: "terror"
+  - name: Terror
+    id: terror
     auto_type: [DC, PER]
-    tags: ["TIER I", "Night", "Shadow", "Utility", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER I, Night, Shadow, Utility, "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]INT[/section]"
     cost:
@@ -92,12 +92,12 @@ utility:
       Manifest a target’s worst fear as a shadowy apparition only it can perceive.
     effect: >
       Target becomes [url:status#Frightened]Frightened[/url].
-    saved: "No effect."
+    saved: No effect.
 
 ritual:
-  - name: "Prayer to Nox"
-    id: "prayer-to-nox"
-    tags: ["TIER I", "Nox", "Out of Combat"]
+  - name: Prayer to Nox
+    id: prayer-to-nox
+    tags: [TIER I, Nox, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: Variable
@@ -109,9 +109,9 @@ ritual:
       Effect, duration, and any costs are negotiable.
       [br]Enables [url:/generia/rules/magic/freecasting]Freecasting[/url].
 
-  - name: "Shadow Thief"
-    id: "shadow-thief"
-    tags: ["TIER I", "Nox", "Ritual"]
+  - name: Shadow Thief
+    id: shadow-thief
+    tags: [TIER I, Nox, Ritual]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: 5 seconds
@@ -123,4 +123,4 @@ ritual:
       [br][i]Once per creature per day (resets at midnight).[/i]
     effect: >
       On success, the creature’s shadow is stolen and can be used as a pseudo-familiar (see Shadow Summoning).
-    saved: "No effect."
+    saved: No effect.

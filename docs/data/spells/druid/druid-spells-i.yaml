@@ -1,13 +1,13 @@
-name: "Druid Spells I"
-id: "druid-spells-i"
-id_appendix: "I"
-prefix: "druidS"
+name: Druid Spells I
+id: druid-spells-i
+id_appendix: I
+prefix: druidS
 
 offensive:
-  - name: "Thorn Whip"
-    id: "thorn-whip"
+  - name: Thorn Whip
+    id: thorn-whip
     auto_type: [PA, WIL]
-    tags: ["TIER I", "Flora", "Offensive", "Range: 4m", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Vegetation / Staff Spell"]
+    tags: [TIER I, Flora, Offensive, "Range: 4m", "[section:clr-exper]EXPERTISE 1/2/3[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
     cost:
@@ -20,9 +20,9 @@ offensive:
 
 
 defensive:
-  - name: "Barkskin"
-    id: "barkskin"
-    tags: ["TIER I", "Flora", "Defensive", "Range: 16m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Barkskin
+    id: barkskin
+    tags: [TIER I, Flora, Defensive, "Range: 16m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -34,9 +34,9 @@ defensive:
 
 
 utility:
-  - name: "Regrowth"
-    id: "regrowth"
-    tags: ["TIER I", "Flora", "Utility", "Range: 8m", "[section:clr-heal]HEAL[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Vegetation / Staff Spell"]
+  - name: Regrowth
+    id: regrowth
+    tags: [TIER I, Flora, Utility, "Range: 8m", "[section:clr-heal]HEAL[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -46,10 +46,10 @@ utility:
     effect: >
       Target gains [url:status#Regeneration]Regeneration 1/2/3[/url].
 
-  - name: "Grasping Tendrils"
-    id: "grasping-tendrils"
+  - name: Grasping Tendrils
+    id: grasping-tendrils
     auto_type: [DC, WIL]
-    tags: ["TIER I", "Flora", "Utility", "Range: 16m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER I, Flora, Utility, "Range: 16m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -58,11 +58,11 @@ utility:
       Summons a patch of grasping vines that greatly impede movement.
     effect: >
       Each square entered in the area causes [url:status#Slowed]Slowed[/url] and [url:status#OffBalance]Off-Balance[/url].
-    saved: "No Off-Balance."
+    saved: No Off-Balance.
 
   - name: "Theriomorph: Aspect"
-    id: "theriomorph-aspect"
-    tags: ["TIER I", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
+    id: theriomorph-aspect
+    tags: [TIER I, Fauna, Utility, "[section:clr-conc]CONCENTRATION[/section]", Soul Anchor]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -72,13 +72,13 @@ utility:
     effect: >
       Replace one of your own attribute [i]MODs[/i] with that of the beast soul; gain the beast’s crude natural weapons if applicable.
 
-  - name: "Wildgrowth"
-    id: "wildgrowth"
-    tags: ["TIER I", "Flora", "Utility", "Range: 16m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Vegetation"]
+  - name: Wildgrowth
+    id: wildgrowth
+    tags: [TIER I, Flora, Utility, "Range: 16m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", Vegetation]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Plant seeds"
+      - Plant seeds
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -89,10 +89,10 @@ utility:
       [br][b]II:[/b] Shrubs, Brambles
       [br][b]III:[/b] Trees
 
-  - name: "Root Grip"
-    id: "root-grip"
+  - name: Root Grip
+    id: root-grip
     auto_type: [DC, WIL]
-    tags: ["TIER I", "Flora", "Utility", "Range: 8m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    tags: [TIER I, Flora, Utility, "Range: 8m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -101,13 +101,13 @@ utility:
       A root erupts beneath the target and coils around its ankles.
     effect: >
       Target is [url:status#Restrained]Restrained[/url].
-    saved: "No effect."
+    saved: No effect.
 
 
 ritual:
-  - name: "Rooting"
-    id: "rooting"
-    tags: ["TIER I", "Flora", "Out of Combat"]
+  - name: Rooting
+    id: rooting
+    tags: [TIER I, Flora, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
@@ -118,14 +118,14 @@ ritual:
     effect: >
       Effect, duration, and any costs are negotiated; enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
 
-  - name: "Anchor/Release Beast Soul"
-    id: "anchor-release-beast-soul"
-    tags: ["TIER I", "Fauna", "Out of Combat"]
+  - name: Anchor/Release Beast Soul
+    id: anchor-release-beast-soul
+    tags: [TIER I, Fauna, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Trophy"
-    cast_time: "2 Phases"
+      - Trophy
+    cast_time: 2 Phases
     description: >
       An ancient rite to bind the soul of an honorably hunted animal to a trophy, or to release it.
     effect: >

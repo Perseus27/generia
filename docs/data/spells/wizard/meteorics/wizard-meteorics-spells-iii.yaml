@@ -1,13 +1,13 @@
-name: "Meteorics Spells III"
-id: "wizard-meteorics-spells-iii"
-id_appendix: "III"
-prefix: "meteorics"
+name: Meteorics Spells III
+id: wizard-meteorics-spells-iii
+id_appendix: III
+prefix: meteorics
 
 offensive:
-  - name: "Chain Lightning I"
-    id: "chain-lightning-i"
+  - name: Chain Lightning I
+    id: chain-lightning-i
     auto_type: [SA, INT]
-    tags: ["TIER III", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER III, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -21,10 +21,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Firestorm"
-    id: "firestorm"
+  - name: Firestorm
+    id: firestorm
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air", "Fire", "Offensive", "Range: 4m", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER III, Air, Fire, Offensive, "Range: 4m", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -39,10 +39,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Hailstorm"
-    id: "hailstorm"
+  - name: Hailstorm
+    id: hailstorm
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air", "Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER III, Air, Ice, Offensive, "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -56,10 +56,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Lightning Blast II"
-    id: "lightning-blast-ii"
+  - name: Lightning Blast II
+    id: lightning-blast-ii
     auto_type: [SA, INT]
-    tags: ["TIER III", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER III, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -74,10 +74,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Meteoric Bolt III"
-    id: "meteoric-bolt-iii"
+  - name: Meteoric Bolt III
+    id: meteoric-bolt-iii
     auto_type: [PA, INT]
-    tags: ["TIER III", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER III, Air, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -87,10 +87,10 @@ offensive:
     effect: >
       [section:clr-roll]2d10[/section] Air / Lightning
 
-  - name: "Shockwave"
-    id: "shockwave"
+  - name: Shockwave
+    id: shockwave
     auto_type: [SA, INT]
-    tags: ["TIER III", "Lightning", "Air", "Offensive", "Radius: 4m", "UPCAST 3"]
+    tags: [TIER III, Lightning, Air, Offensive, "Radius: 4m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -104,10 +104,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Thunderbolt II"
-    id: "thunderbolt-ii"
+  - name: Thunderbolt II
+    id: thunderbolt-ii
     auto_type: [SA, INT]
-    tags: ["TIER II", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Air, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -121,14 +121,14 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Zap III"
-    id: "zap-iii"
+  - name: Zap III
+    id: zap-iii
     auto_type: [SA, INT]
-    tags: ["TIER III", "Lightning", "Offensive", "UPCAST 3"]
+    tags: [TIER III, Lightning, Offensive, UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
@@ -142,10 +142,10 @@ offensive:
       No effect.
 
 defensive:
-  - name: "Meteoric Barrier III"
-    id: "meteoric-barrier-iii"
+  - name: Meteoric Barrier III
+    id: meteoric-barrier-iii
     auto_type: [SD, INT, PER]
-    tags: ["TIER III", "Air", "Lightning", "Reaction", "UPCAST 3"]
+    tags: [TIER III, Air, Lightning, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -157,10 +157,10 @@ defensive:
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Air/Lightning[/i]
 
 utility:
-  - name: "Blizzard"
-    id: "blizzard"
+  - name: Blizzard
+    id: blizzard
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air", "Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER III, Air, Ice, Utility, "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -174,9 +174,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Flight"
-    id: "flight"
-    tags: ["TIER III", "Air", "Utility|Move", "[section:clr-movement]MOVEMENT[/section]"]
+  - name: Flight
+    id: flight
+    tags: [TIER III, Air, Utility|Move, "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -186,10 +186,10 @@ utility:
     effect: >
       Movement from [i]Levitation[/i] is doubled for this action.
 
-  - name: "Static Field"
-    id: "static-field"
+  - name: Static Field
+    id: static-field
     auto_type: [DC, INT]
-    tags: ["TIER III", "Lightning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER III, Lightning, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -204,10 +204,10 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Vacuum"
-    id: "vacuum"
+  - name: Vacuum
+    id: vacuum
     auto_type: [DC, INT]
-    tags: ["TIER III", "Air", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER III, Air, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:

@@ -1,13 +1,13 @@
-name: "Meteorics Spells I"
-id: "wizard-meteorics-spells-i"
-id_appendix: "I"
-prefix: "meteorics"
+name: Meteorics Spells I
+id: wizard-meteorics-spells-i
+id_appendix: I
+prefix: meteorics
 
 offensive:
-  - name: "Meteoric Bolt I"
-    id: "meteoric-bolt-i"
+  - name: Meteoric Bolt I
+    id: meteoric-bolt-i
     auto_type: [PA, INT]
-    tags: ["TIER I", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER I, Air, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -17,10 +17,10 @@ offensive:
     effect: >
       [section:clr-roll]1d8[/section] Air / Lightning
 
-  - name: "Shocking Touch"
-    id: "shocking-touch"
+  - name: Shocking Touch
+    id: shocking-touch
     auto_type: [SA, INT]
-    tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
+    tags: [TIER I, Lightning, Offensive, UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -35,14 +35,14 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Zap I"
-    id: "zap-i"
+  - name: Zap I
+    id: zap-i
     auto_type: [SA, INT]
-    tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
+    tags: [TIER I, Lightning, Offensive, UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]1/2/3 MP[/section]"
     description: >
@@ -56,10 +56,10 @@ offensive:
       No effect.
 
 defensive:
-  - name: "Meteoric Barrier I"
-    id: "meteoric-barrier-i"
+  - name: Meteoric Barrier I
+    id: meteoric-barrier-i
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Air", "Lightning", "Reaction", "UPCAST 3"]
+    tags: [TIER I, Air, Lightning, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -71,10 +71,10 @@ defensive:
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Air/Lightning[/i]
 
 utility:
-  - name: "Air Burst"
-    id: "air-burst"
+  - name: Air Burst
+    id: air-burst
     auto_type: [DC, INT]
-    tags: ["TIER I", "Air", "Utility", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER I, Air, Utility, UPCAST 3, "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
     cost:
@@ -88,9 +88,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Air Cushion"
-    id: "air-cushion"
-    tags: ["TIER I", "Air", "Reaction", "Range: 20m", "Radius: 6m", "[section:clr-control]CONTROL[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Air Cushion
+    id: air-cushion
+    tags: [TIER I, Air, Reaction, "Range: 20m", "Radius: 6m", "[section:clr-control]CONTROL[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -100,10 +100,10 @@ utility:
     effect: >
       Prevents fall damage.
 
-  - name: "Discharge"
-    id: "discharge"
+  - name: Discharge
+    id: discharge
     auto_type: [DC, INT]
-    tags: ["TIER I", "Lightning", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
+    tags: [TIER I, Lightning, Utility, "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -115,9 +115,9 @@ utility:
     saved: >
       No effect.
 
-  - name: "Lightning Step"
-    id: "lightning-step"
-    tags: ["TIER I", "Lightning", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
+  - name: Lightning Step
+    id: lightning-step
+    tags: [TIER I, Lightning, Utility, "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -127,10 +127,10 @@ utility:
     effect: >
       Attacks granted by the [i]Opportunist[/i] perk have [url:core#Disadvantage]disadvantage 1[/url] against this movement.
 
-  - name: "Neuroshock"
-    id: "neuroshock"
+  - name: Neuroshock
+    id: neuroshock
     auto_type: [DC, INT]
-    tags: ["TIER I", "Lightning", "Utility", "Range: 20m"]
+    tags: [TIER I, Lightning, Utility, "Range: 20m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]"
     cost:
@@ -143,13 +143,13 @@ utility:
       No effect.
 
 ritual:
-  - name: "Meteoric Manipulation"
-    id: "meteoric-manipulation"
-    tags: ["TIER I", "Lightning", "Air", "Out of Combat"]
+  - name: Meteoric Manipulation
+    id: meteoric-manipulation
+    tags: [TIER I, Lightning, Air, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "—"
+      - —
     cast_time: Variable
     description: >
       Manipulate meteoric mana (e.g., generate static electricity, conjure a gentle breeze, levitate an object…).

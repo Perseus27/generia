@@ -1,13 +1,13 @@
-name: "Bard Spells III"
-id: "bard-spells-iii"
-id_appendix: "III"
-prefix: "bardS"
+name: Bard Spells III
+id: bard-spells-iii
+id_appendix: III
+prefix: bardS
 
 offensive:
-  - name: "Poem of Folly"
-    id: "poem-of-folly"
+  - name: Poem of Folly
+    id: poem-of-folly
     auto_type: [SA, WIL]
-    tags: ["TIER III", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
+    tags: [TIER III, Cacophony, Offensive, "[section:clr-affliction]AFFLICTION[/section]", Varieté, "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]INT[/section]"
     cost:
@@ -16,12 +16,12 @@ offensive:
       The bard lashes a foe’s soul with cutting tones.
     effect: >
       [section:clr-roll]3d4[/section] Absolute; target becomes [url:status#Confused]Confused[/url].
-    saved: "No effect."
+    saved: No effect.
 
-  - name: "Poem of Innocence"
-    id: "poem-of-innocence"
+  - name: Poem of Innocence
+    id: poem-of-innocence
     auto_type: [SA, WIL]
-    tags: ["TIER III", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
+    tags: [TIER III, Cacophony, Offensive, "[section:clr-affliction]AFFLICTION[/section]", Varieté, "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -30,14 +30,14 @@ offensive:
       The bard lulls a foe’s soul into false safety.
     effect: >
       [section:clr-roll]3d4[/section] Absolute; causes [url:status#Hyperpathia]Hyperpathia[/url].
-    saved: "No effect."
+    saved: No effect.
 
 
 defensive:
-  - name: "Poem of Love"
-    id: "poem-of-love"
+  - name: Poem of Love
+    id: poem-of-love
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Cacophony", "Defensive", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
+    tags: [TIER III, Cacophony, Defensive, "[section:clr-control]CONTROL[/section]", Varieté, "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -49,10 +49,10 @@ defensive:
     saved: "Inflicts [url:status#Charmed]Charmed[/url]."
     saved10: "Inflicts [url:status#Confused]Confused[/url]."
 
-  - name: "Poem of Steadiness"
-    id: "poem-of-steadiness"
+  - name: Poem of Steadiness
+    id: poem-of-steadiness
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Defensive", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
+    tags: [TIER III, Euphony, Defensive, "[section:clr-support]SUPPORT[/section]", Varieté, "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -64,10 +64,10 @@ defensive:
     saved: "[url:status#DefenseBonus]Defense Bonus[/url] [section:clr-value]4[/section]"
     saved10: "[url:status#DefenseBonus]Defense Bonus[/url] [section:clr-value]2[/section]"
 
-  - name: "Sonata of Tyranny"
-    id: "sonata-of-tyranny"
+  - name: Sonata of Tyranny
+    id: sonata-of-tyranny
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Cacophony", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "Da Capo", "Radius: 4m"]
+    tags: [TIER III, Cacophony, Defensive, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", Da Capo, "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -79,10 +79,10 @@ defensive:
     saved: "[url:status#Slowed]Slowed 2[/url]."
     saved10: "[url:status#Slowed]Slowed 1[/url]."
 
-  - name: "Poem of Slumber"
-    id: "poem-of-slumber"
+  - name: Poem of Slumber
+    id: poem-of-slumber
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Cacophony", "Defensive", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
+    tags: [TIER III, Cacophony, Defensive, "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", Varieté, "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -96,10 +96,10 @@ defensive:
 
 
 utility:
-  - name: "Poem of Boldness"
-    id: "poem-of-boldness"
+  - name: Poem of Boldness
+    id: poem-of-boldness
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
+    tags: [TIER III, Euphony, Utility, "[section:clr-support]SUPPORT[/section]", Varieté, "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -111,10 +111,10 @@ utility:
     saved: "[url:status#AttackBonus]Attack Bonus[/url] [section:clr-value]4[/section]"
     saved10: "[url:status#AttackBonus]Attack Bonus[/url] [section:clr-value]2[/section]"
 
-  - name: "Poem of Carelessness"
-    id: "poem-of-carelessness"
+  - name: Poem of Carelessness
+    id: poem-of-carelessness
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
+    tags: [TIER III, Euphony, Utility, "[section:clr-affliction]AFFLICTION[/section]", Varieté, "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -126,10 +126,10 @@ utility:
     saved: "[url:status#DefensePenalty]Defense Penalty[/url] [section:clr-value]4[/section]"
     saved10: "[url:status#DefensePenalty]Defense Penalty[/url] [section:clr-value]2[/section]"
 
-  - name: "Poem of Cowardice"
-    id: "poem-of-cowardice"
+  - name: Poem of Cowardice
+    id: poem-of-cowardice
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
+    tags: [TIER III, Euphony, Utility, "[section:clr-affliction]AFFLICTION[/section]", Varieté, "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -141,10 +141,10 @@ utility:
     saved: "[url:status#AttackPenalty]Attack Penalty[/url] [section:clr-value]4[/section]"
     saved10: "[url:status#AttackPenalty]Attack Penalty[/url] [section:clr-value]2[/section]"
 
-  - name: "Poem of Healing"
-    id: "poem-of-healing"
+  - name: Poem of Healing
+    id: poem-of-healing
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Utility", "[section:clr-heal]HEAL[/section]", "Varieté", "Radius: 8m"]
+    tags: [TIER III, Euphony, Utility, "[section:clr-heal]HEAL[/section]", Varieté, "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -156,10 +156,10 @@ utility:
     saved: "[url:status#Regeneration]Regeneration 2[/url]"
     saved10: "[url:status#Regeneration]Regeneration 1[/url]"
 
-  - name: "Sonata of Heroism"
-    id: "sonata-of-heroism"
+  - name: Sonata of Heroism
+    id: sonata-of-heroism
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
+    tags: [TIER III, Euphony, Utility, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", Da Capo, "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -168,12 +168,12 @@ utility:
       The bard lends moral support to nearby allies’ attacks.
     effect: >
       Allied basic attacks deal [section:clr-value]3++[/section] additional damage of their weapon’s type.
-    saved: "No effect."
+    saved: No effect.
 
-  - name: "Sonata of Magic"
-    id: "sonata-of-magic"
+  - name: Sonata of Magic
+    id: sonata-of-magic
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
+    tags: [TIER III, Euphony, Utility, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", Da Capo, "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -182,12 +182,12 @@ utility:
       The bard helps allied mages focus.
     effect: >
       Allied spells deal [section:clr-value]3++[/section] additional damage of their element.
-    saved: "No effect."
+    saved: No effect.
 
-  - name: "Poem of Rebellion"
-    id: "poem-of-rebellion"
+  - name: Poem of Rebellion
+    id: poem-of-rebellion
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 12m"]
+    tags: [TIER III, Euphony, Utility, "[section:clr-support]SUPPORT[/section]", Varieté, "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -196,5 +196,5 @@ utility:
       The bard rouses allies against oppression.
     effect: >
       Targets may immediately make saves against active status effects if they could at the start or end of their turn. These saves are [url:core#Eased]eased[/url] by [section:clr-value]Euphony[/section] and have [url:core#Advantage]Advantage 2[/url].
-    saved: "Advantage 1."
-    saved10: "No advantage."
+    saved: Advantage 1.
+    saved10: No advantage.

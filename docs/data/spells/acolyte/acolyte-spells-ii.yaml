@@ -1,13 +1,13 @@
-name: "Acolyte Spells II"
-id: "acolyte-spells-ii"
-id_appendix: "II"
-prefix: "acolyteS"
+name: Acolyte Spells II
+id: acolyte-spells-ii
+id_appendix: II
+prefix: acolyteS
 
 offensive:
-  - name: "Sunlight Arrows"
-    id: "sunlight-arrows"
+  - name: Sunlight Arrows
+    id: sunlight-arrows
     auto_type: [PA, WIL]
-    tags: ["TIER II", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 2/3[/section]", "Range: 20m"]
+    tags: [TIER II, Sol, Offensive, "[section:clr-exper]EXPERTISE 2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
     cost:
@@ -17,29 +17,29 @@ offensive:
     effect: >
       [section:clr-roll]2/3d6[/section] Light per arrow
 
-  - name: "Prominence"
-    id: "prominence"
+  - name: Prominence
+    id: prominence
     auto_type: [SA, WIL]
-    tags: ["TIER II", "Sol", "Offensive", "[section:clr-exoer]EXPERTISE 2/3[/section]", "Radius: 4m"]
+    tags: [TIER II, Sol, Offensive, "[section:clr-exoer]EXPERTISE 2/3[/section]", "Radius: 4m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
       - "[section:clr-mp]3/4 MP[/section]"
     material:
-      - "Sunstone (optional)"
+      - Sunstone (optional)
     description: >
       Sends out a ring of holy light that burns nearby enemies but spares allies.
       [br][b]Sunstone:[/b] Applies [url:status#Lightburn]Lightburn 2[/url] on [url:def#Hit]hit[/url].
     effect: >
       [section:clr-roll]3/4d6[/section] Light
-    saved: "Damage halved."
-    saved10: "No effect."
+    saved: Damage halved.
+    saved10: No effect.
 
 
 defensive:
-  - name: "Armor of Sol"
-    id: "armor-of-sol"
-    tags: ["TIER II", "Sol", "Defensive", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Armor of Sol
+    id: armor-of-sol
+    tags: [TIER II, Sol, Defensive, "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -51,13 +51,13 @@ defensive:
 
 
 utility:
-  - name: "Prayer of Healing"
-    id: "prayer-of-healing"
-    tags: ["TIER II", "Luna", "Utility", "[section:clr-heal]HEAL[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Radius: 8m"]
+  - name: Prayer of Healing
+    id: prayer-of-healing
+    tags: [TIER II, Luna, Utility, "[section:clr-heal]HEAL[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Radius: 8m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Moonstone"
+      - Moonstone
     cost:
       - "[section:clr-mp]4/6 MP[/section]"
     description: >
@@ -65,14 +65,14 @@ utility:
     effect: >
       Targets regain [section:clr-roll]3/4d6[/section] HP.
 
-  - name: "Prayer of Purification"
-    id: "prayer-of-purification"
+  - name: Prayer of Purification
+    id: prayer-of-purification
     auto_type: [DC+, WIL]
-    tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Radius: 8m"]
+    tags: [TIER II, Luna, Utility, "[section:clr-support]SUPPORT[/section]", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
     material:
-      - "Moonstone"
+      - Moonstone
     cost:
       - "[section:clr-mp]4 MP[/section]"
     description: >
@@ -81,9 +81,9 @@ utility:
     effect: >
       Attempts to remove one negative status effect from each target.
 
-  - name: "Gleaming Weapon"
-    id: "gleaming-weapon"
-    tags: ["TIER II", "Sol", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Gleaming Weapon
+    id: gleaming-weapon
+    tags: [TIER II, Sol, Utility, "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -103,10 +103,10 @@ utility:
       [br]Flanged Mace
       [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
 
-  - name: "Photosensitivity"
-    id: "photosensitivity"
+  - name: Photosensitivity
+    id: photosensitivity
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Sol", "Utility", "Range: 20m", "Radius: 2m"]
+    tags: [TIER II, Sol, Utility, "Range: 20m", "Radius: 2m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]PER[/section]"
     cost:
@@ -116,15 +116,15 @@ utility:
     effect: >
       [url:status#Blinded]Blinded 1[/url] and [url:status#Hyperpathia]Hyperpathia[/url].
     saved: "Prevents [i]Hyperpathia[/i]."
-    saved10: "No effect."
+    saved10: No effect.
 
-  - name: "Sanctuary"
-    id: "sanctuary"
-    tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Radius: 2m"]
+  - name: Sanctuary
+    id: sanctuary
+    tags: [TIER II, Luna, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Radius: 2m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Moonstone (optional)"
+      - Moonstone (optional)
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -134,13 +134,13 @@ utility:
       All saves are [url:core#Eased]eased[/url] by [[section:clr-value]Luna[/section]]. Allies in the radius gain half that value or their own [[section:clr-value]Luna[/section]] value (whichever is higher).
       [br][i]Does not apply to status effect saves.[/i]
 
-  - name: "Blessing of Resilience"
-    id: "blessing-of-resilience"
-    tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+  - name: Blessing of Resilience
+    id: blessing-of-resilience
+    tags: [TIER II, Luna, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Moonstone (optional)"
+      - Moonstone (optional)
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -151,9 +151,9 @@ utility:
 
 
 ritual:
-  - name: "Hospitium Lunae"
-    id: "hospitium-lunae"
-    tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+  - name: Hospitium Lunae
+    id: hospitium-lunae
+    tags: [TIER II, Luna, Out of Combat, "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
@@ -164,9 +164,9 @@ ritual:
     effect: >
       Healing received inside is doubled; creatures have [url:core#Advantage]Advantage 1[/url] on all status effect saves and medicine checks.
 
-  - name: "Hospitium Solis"
-    id: "hospitium-solis"
-    tags: ["TIER II", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+  - name: Hospitium Solis
+    id: hospitium-solis
+    tags: [TIER II, Sol, Out of Combat, "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
@@ -177,9 +177,9 @@ ritual:
     effect: >
       Physical attacks against the room’s walls, doors, and windows have no effect. Spells/rituals cast from outside with hostile intent upon or into the room have no effect.
 
-  - name: "Fountain of Youth"
-    id: "fountain-of-youth"
-    tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-heal]HEAL[/section]"]
+  - name: Fountain of Youth
+    id: fountain-of-youth
+    tags: [TIER II, Luna, Out of Combat, "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: 1 Phase
@@ -189,9 +189,9 @@ ritual:
       Each portion grants [url:status#Regeneration]Regeneration 2[/url] to the drinker.
       [br][i]Size 1×1, Weight 0[/i]
 
-  - name: "Sanare"
-    id: "sanare"
-    tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+  - name: Sanare
+    id: sanare
+    tags: [TIER II, Luna, Out of Combat, "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: 1 Phase
@@ -200,14 +200,14 @@ ritual:
     effect: >
       Conjures [i]Luna[/i] holy scalpels. [i]Size 1×2, Weight 0, Stack 4[/i]
 
-  - name: "Videre"
-    id: "videre"
-    tags: ["TIER II", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Videre
+    id: videre
+    tags: [TIER II, Sol, Out of Combat, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: ½ Phase
     material:
-      - "Sunstone (optional)"
+      - Sunstone (optional)
     description: >
       Grants the caster and up to [[section:clr-value]Sol[/section]] additional targets the ability to see in darkness up to [[section:clr-value]Sol×2[/section]] meters.
       [br][b]Sunstone:[/b] Does not require Concentration. Duration is set to [section:clr-value]1 Phase[/section].

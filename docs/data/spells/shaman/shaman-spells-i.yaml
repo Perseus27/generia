@@ -1,12 +1,12 @@
-name: "Shaman Spells I"
-id: "shaman-spells-i"
-id_appendix: "I"
-prefix: "shamanS"
+name: Shaman Spells I
+id: shaman-spells-i
+id_appendix: I
+prefix: shamanS
 
 offensive:
   - name: "Summon: Lesser Elemental"
-    id: "summon-lesser-elemental"
-    tags: ["TIER I", "Summoning", "Offensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
+    id: summon-lesser-elemental
+    tags: [TIER I, Summoning, Offensive, "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -16,10 +16,10 @@ offensive:
     effect: >
       A [i][url:/generia/stats/creatures/elementals/elementals-lesser]Lesser Elemental[/url][/i] manifests at the elemental source.
 
-  - name: "Elemental Wrath"
-    id: "elemental-wrath"
+  - name: Elemental Wrath
+    id: elemental-wrath
     auto_type: [SA, WIL]
-    tags: ["TIER I", "Summoning", "Offensive", "Range: 16m"]
+    tags: [TIER I, Summoning, Offensive, "Range: 16m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -31,9 +31,9 @@ offensive:
 
 
 defensive:
-  - name: "Low Stonewall"
-    id: "low-stonewall"
-    tags: ["TIER I", Summoning, Stone, "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+  - name: Low Stonewall
+    id: low-stonewall
+    tags: [TIER I, Summoning, Stone, Defensive, "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -43,9 +43,9 @@ defensive:
     effect: >
       Stone wall rises. Length 4m, height 1m, width 0.2m. Provides half cover. [i]Permanent.[/i]
 
-  - name: "Lesser Wind Ward"
-    id: "lesser-wind-ward"
-    tags: ["TIER I", Summoning, Air, "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Lesser Wind Ward
+    id: lesser-wind-ward
+    tags: [TIER I, Summoning, Air, Defensive, "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -57,10 +57,10 @@ defensive:
 
 
 utility:
-  - name: "Lesser Cleansing Flame"
-    id: "lesser-cleansing-flame"
+  - name: Lesser Cleansing Flame
+    id: lesser-cleansing-flame
     auto_type: [DC+, WIL]
-    tags: ["TIER I", Binding, Fire, "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    tags: [TIER I, Binding, Fire, Utility, "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section] Status Effect"
     cost:
@@ -70,9 +70,9 @@ utility:
     effect: >
       Status effect is removed.
 
-  - name: "Lesser Elemental Favor"
-    id: "lesser-elemental-favor"
-    tags: ["TIER I", "Binding", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Lesser Elemental Favor
+    id: lesser-elemental-favor
+    tags: [TIER I, Binding, Utility, "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -85,9 +85,9 @@ utility:
       [br]Stone: [section:clr-attr]CON-MOD[/section] [section:clr-value]+1[/section]
       [br]Water: [section:clr-attr]DEX-MOD[/section] [section:clr-value]+1[/section]
 
-  - name: "Lesser Elemental Guidance"
-    id: "lesser-elemental-guidance"
-    tags: ["TIER I", "Binding", "Reaction", "Range: 12m"]
+  - name: Lesser Elemental Guidance
+    id: lesser-elemental-guidance
+    tags: [TIER I, Binding, Reaction, "Range: 12m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -101,9 +101,9 @@ utility:
       [br][b]Fire:[/b] [url:status#SaveBonus]Save Bonus[/url] [section:clr-value]2[/section]
       [br][b]Air:[/b]  [url:status#AttackBonus]Attack Bonus[/url] [section:clr-value]2[/section]
 
-  - name: "Lesser Elemental Mana"
-    id: "lesser-elemental-mana"
-    tags: ["TIER I", "Binding", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Lesser Elemental Mana
+    id: lesser-elemental-mana
+    tags: [TIER I, Binding, Utility, "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -113,9 +113,9 @@ utility:
     effect: >
       MP cost reduced by [section:clr-value]1[/section] for that element’s casts.
 
-  - name: "Lesser Elemental Call"
-    id: "lesser-elemental-call"
-    tags: ["TIER I", "Summoning", "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Lesser Elemental Call
+    id: lesser-elemental-call
+    tags: [TIER I, Summoning, Utility, "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -125,9 +125,9 @@ utility:
     effect: >
       Raises one source from [i]weak[/i] to [i]normal[/i] presence.
 
-  - name: "Lesser Flame of Defiance"
-    id: "lesser-flame-of-defiance"
-    tags: ["TIER I", Binding, Fire, "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Lesser Flame of Defiance
+    id: lesser-flame-of-defiance
+    tags: [TIER I, Binding, Fire, Utility, "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -137,9 +137,9 @@ utility:
     effect: >
       All [section:clr-save]Saves[/section] [section:clr-value]+2[/section].
 
-  - name: "Lesser Tailwind"
-    id: "lesser-tailwind"
-    tags: ["TIER I", Binding, Air, "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Lesser Tailwind
+    id: lesser-tailwind
+    tags: [TIER I, Binding, Air, Utility, "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -149,9 +149,9 @@ utility:
     effect: >
       [url:values#MS]MS[/url] [section:clr-value]+2[/section].
 
-  - name: "Lesser Wave of Healing"
-    id: "lesser-wave-of-healing"
-    tags: ["TIER I", Binding, Water, "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
+  - name: Lesser Wave of Healing
+    id: lesser-wave-of-healing
+    tags: [TIER I, Binding, Water, Utility, "Range: 12m", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -162,9 +162,9 @@ utility:
       Target regains [section:clr-roll]2d4[/section] HP.
       [br][url:core#Explosion]Explosion[/url]: [url:status#Regeneration]Regeneration 1[/url].
 
-  - name: "Lesser Wind Tunnel"
-    id: "lesser-wind-tunnel"
-    tags: ["TIER I", Summoning, Air, "Utility", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Lesser Wind Tunnel
+    id: lesser-wind-tunnel
+    tags: [TIER I, Summoning, Air, Utility, "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -176,9 +176,9 @@ utility:
 
 
 ritual:
-  - name: "Elemental Manipulation"
-    id: "elemental-manipulation"
-    tags: ["TIER I", "Summoning", "Out of Combat"]
+  - name: Elemental Manipulation
+    id: elemental-manipulation
+    tags: [TIER I, Summoning, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: Variable

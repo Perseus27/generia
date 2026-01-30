@@ -1,13 +1,13 @@
-name: "Hermetics Spells III"
-id: "wizard-hermetics-spells-iii"
-id_appendix: "III"
-prefix: "hermetics"
+name: Hermetics Spells III
+id: wizard-hermetics-spells-iii
+id_appendix: III
+prefix: hermetics
 
 offensive:
-  - name: "Arcane Nova"
-    id: "arcane-nova"
+  - name: Arcane Nova
+    id: arcane-nova
     auto_type: [SA, INT]
-    tags: ["TIER III", "Arcane", "Offensive", "Radius: 4m", "UPCAST 3"]
+    tags: [TIER III, Arcane, Offensive, "Radius: 4m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -21,14 +21,14 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Mana Beam III"
-    id: "mana-beam-iii"
+  - name: Mana Beam III
+    id: mana-beam-iii
     auto_type: [SA, INT]
-    tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER III, Arcane, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
@@ -41,10 +41,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Mana Bolt III"
-    id: "mana-bolt-iii"
+  - name: Mana Bolt III
+    id: mana-bolt-iii
     auto_type: [PA, INT]
-    tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER III, Arcane, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -56,11 +56,11 @@ offensive:
 
 
 defensive:
-  - name: "Arcane Barrier III"
-    id: "arcane-barrier-iii"
+  - name: Arcane Barrier III
+    id: arcane-barrier-iii
     alias: [Mana Barrier III]
     auto_type: [SD, INT, PER]
-    tags: ["TIER III", "Arcane", "Reaction", "UPCAST 5"]
+    tags: [TIER III, Arcane, Reaction, UPCAST 5]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -70,9 +70,9 @@ defensive:
     effect: >
       [section:clr-roll]1d12[/section] Protection
 
-  - name: "Arcane Shield III"
-    id: "arcane-shield-iii"
-    tags: ["TIER III", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Arcane Shield III
+    id: arcane-shield-iii
+    tags: [TIER III, Arcane, Defensive, UPCAST 5, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -82,10 +82,10 @@ defensive:
     effect: >
       [section:clr-roll]1d8[/section] Protection
 
-  - name: "Return to Sender"
-    id: "return-to-sender"
+  - name: Return to Sender
+    id: return-to-sender
     auto_type: [SD, INT, PER]
-    tags: ["TIER III", "Arcane", "Reaction"]
+    tags: [TIER III, Arcane, Reaction]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -97,10 +97,10 @@ defensive:
 
 
 utility:
-  - name: "Displace"
-    id: "displace"
+  - name: Displace
+    id: displace
     auto_type: [DC, INT]
-    tags: ["TIER III", "Arcane", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "MATERIAL:", "Matrix Crystal"]
+    tags: [TIER III, Arcane, Utility, "Range: 20m", "[section:clr-control]CONTROL[/section]", "MATERIAL:", Matrix Crystal]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -116,9 +116,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Invisibility Field"
-    id: "invisibility-field"
-    tags: ["TIER III", "Light", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", "Matrix Crystal"]
+  - name: Invisibility Field
+    id: invisibility-field
+    tags: [TIER III, Light, Utility, "Range: 20m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", Matrix Crystal]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -128,9 +128,9 @@ utility:
     effect: >
       Creatures and objects in the area gain [url:status#Hidden]Hidden 3[/url]; the effect continually refreshes while inside.
 
-  - name: "Micro Rift"
-    id: "micro-rift"
-    tags: ["TIER III", "Arcane", "Utility", "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", "Matrix Crystal"]
+  - name: Micro Rift
+    id: micro-rift
+    tags: [TIER III, Arcane, Utility, "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", Matrix Crystal]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

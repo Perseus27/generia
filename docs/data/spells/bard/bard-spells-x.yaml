@@ -1,7 +1,7 @@
-name: "Bard Spells X"
-id: "bard-spells-x"
-id_appendix: "X"
-prefix: "bardS"
+name: Bard Spells X
+id: bard-spells-x
+id_appendix: X
+prefix: bardS
 is_exclusive: True
 
 exclusive:
@@ -29,13 +29,13 @@ exclusive:
 
   - subheader:
     is_subheader: True
-    name: "Charlatan"
-    id: "charlatan"
+    name: Charlatan
+    id: charlatan
 
-  - name: "Mostly Harmless"
-    id: "mostly-harmless"
+  - name: Mostly Harmless
+    id: mostly-harmless
     auto_type: [DC, WIL]
-    tags: ["TIER X", "Charlatan", "Cacophony", "Defensive", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "SP Cost: 20"]
+    tags: [TIER X, Charlatan, Cacophony, Defensive, "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "SP Cost: 20"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -44,16 +44,16 @@ exclusive:
       Radiates guileless harmlessness to draw attention away from oneself.
     effect: >
       You cannot be attacked. Ineffective while [url:status#Isolated]Isolated[/url].
-    saved: "No effect."
+    saved: No effect.
 
   - subheader:
     is_subheader: True
-    name: "Troubadour"
-    id: "troubadour"
+    name: Troubadour
+    id: troubadour
 
-  - name: "Eigth Rest"
-    id: "eigth-rest"
-    tags: ["TIER X", "Troubadour", "Cacophony", "Reaction", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "SP Cost: 10"]
+  - name: Eigth Rest
+    id: eigth-rest
+    tags: [TIER X, Troubadour, Cacophony, Reaction, "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "SP Cost: 10"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
