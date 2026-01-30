@@ -53,7 +53,7 @@ inventory:
       enchantments:
         - WIL+1
         - MD+1
-    - name: Leather Gauntlets
+    - name: Chain Gauntlets
       q: 2
     - name: Chain Greaves
       q: 2
