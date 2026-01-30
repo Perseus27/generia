@@ -18,7 +18,7 @@ attributes:
   CON: [5, 2, 1]
   STR: [4, 2]
   DEX: [8, 4]
-  INT: [14, 7]
+  INT: [14, 7, 1]
   WIL: [10, 5]
   PER: [8, 4, 1]
 values:
@@ -46,6 +46,8 @@ inventory:
     - name: Hat
       disp: Wizard's Hat
       q: 3
+      enchantments:
+        - INT+1
     - name: Leather Armor
       q: 3
     - name: Cloth Gauntlets
