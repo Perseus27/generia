@@ -75,8 +75,8 @@ offensive:
 
 
 defensive:
-  - name: "Flame Mantle"
-    id: "flame-mantle"
+  - name: "Flame Mantle I"
+    id: "flame-mantle-i"
     auto_type: [DC, INT]
     tags: ["TIER II", "Fire", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
@@ -84,7 +84,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]2 MP[/section]"
     description: >
-      A heat aura around the caster that sets fire to nearby creatures.
+      The Wizard conjures a mantle of flames that burns nearby creatures.
     effect: >
       [url:status#Burning]Burning 2[/url].
     saved: >
@@ -92,8 +92,8 @@ defensive:
     saved10: >
       No effect.
 
-  - name: "Frost Mantle"
-    id: "frost-mantle"
+  - name: "Frost Mantle I"
+    id: "frost-mantle-i"
     auto_type: [DC, INT]
     tags: ["TIER II", "Ice", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
@@ -101,7 +101,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]2 MP[/section]"
     description: >
-      Saps heat from creatures in the caster’s vicinity.
+      The Wizard conjures a mantle of frost that chills nearby creatures.
     effect: >
       Nearby creatures are [url:status#Chilled]Chilled[/url].
     saved: >
@@ -122,20 +122,20 @@ defensive:
       Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d8[/section] Protection
-      [br][i]Barrier is [url:status#resistant]resistant[/url] against Fire / Ice[/i]
+      [br][i]Barrier is [url:status#Resistant]resistant[/url] against Fire / Ice[/i]
 
 
 utility:
   - name: "Sparkstream II"
     id: "sparkstream-ii"
     auto_type: [DC, INT]
-    tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mpcost]2 MP[/section]"
+      - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      The wizard sends an unrelenting stream of sparks at a target, causing burns at the end of the target's turn while maintained. Requires line of sight.
+      The wizard sends a stream of sparks at a target, setting it aflame.
     effect: >
       [url:status#Burning]Burning 2[/url].
     saved: >

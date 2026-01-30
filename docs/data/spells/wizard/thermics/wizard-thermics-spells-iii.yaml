@@ -6,18 +6,18 @@ prefix: "thermics"
 offensive:
   - name: "Explosion"
     id: "explosion"
-    auto_type: [SA, INT]
-    tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m", "UPCAST 3"]
+    auto_type: [DC, INT]
+    tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m"]
     type:
-      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mpcost]4/8/12 MP[/section]"
+      - "[section:clr-mpcost]4 MP[/section]"
     description: >
-      A fiery detonation that deals more damage near the center.
+      The Wizard targets a creature with at least one stack of [url:status#Burning]Burning[/url] and causes it 
+      to violently explode, dealing severe damage to the target and adjacent creatures.
     effect: >
-      Center: [section:clr-roll]3d6[/section] Fire
-      [br]1–2m: [section:clr-roll]2d6[/section] Fire
-      [br]3–4m: [section:clr-roll]1d6[/section] Fire
+      [section:clr-roll]4d8 Fire[/section] 
+      [section:clr-roll]+1d8[/section] per stack of [url:status#Burning]Burning[/url]
     saved: >
       Damage halved.
     saved10: >
@@ -34,7 +34,7 @@ offensive:
     description: >
       An exploding ball of fire that damages all creatures in the radius.
     effect: >
-      [section:clr-roll]4d6[/section] Fire
+      [section:clr-roll]3d6[/section] Fire
     saved: >
       Damage halved.
     saved10: >
@@ -47,7 +47,7 @@ offensive:
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mpcost]6 MP[/section]"
+      - "[section:clr-mpcost]4 MP[/section]"
     description: >
       Summons a localized magical hailstorm.
     effect: >
@@ -94,6 +94,42 @@ offensive:
 
 
 defensive:
+  - name: "Flame Mantle II"
+    id: "flame-mantle-ii"
+    auto_type: [DC, INT]
+    tags: ["TIER III", "Fire", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      The Wizard conjures a mantle of flames that burns nearby creatures and greatly reduces incoming Fire and Ice damage.
+    effect: >
+      Wizard gets [url:status#Resistant]Resistant [i]Fire[/i]/[i]Ice[/i][/url].
+      Nearby creatures get [url:status#Burning]Burning 2[/url].
+    saved: >
+      [url:status#Burning]Burning 1[/url].
+    saved10: >
+      No effect.
+
+  - name: "Frost Mantle II"
+    id: "frost-mantle-ii"
+    auto_type: [DC, INT]
+    tags: ["TIER III", "Ice", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      The Wizard conjures a mantle of frost that chills nearby creatures and greatly reduces incoming Fire and Ice damage.
+    effect: >
+      Wizard gets [url:status#Resistant]Resistant [i]Fire[/i]/[i]Ice[/i][/url].
+      Nearby creatures are [url:status#Chilled]Chilled[/url].
+    saved: >
+      [url:status#Slowed]Slowed[/url].
+    saved10: >
+      No effect.
+
   - name: "Thermal Barrier III"
     alias: [Thermic Barrier III]
     id: "thermal-barrier-iii"
@@ -107,7 +143,7 @@ defensive:
       Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d12[/section] Protection
-      [br][i]Barrier is [url:status#resistant]resistant[/url] against Fire / Ice[/i]
+      [br][i]Barrier is [url:status#Resistant]resistant[/url] against Fire / Ice[/i]
 
 
 utility:
@@ -131,13 +167,13 @@ utility:
   - name: "Sparkstream III"
     id: "sparkstream-iii"
     auto_type: [DC, INT]
-    tags: ["TIER III", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: ["TIER III", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mpcost]3 MP[/section]"
+      - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      The wizard sends an unrelenting stream of sparks at a target, causing burns at the end of the target's turn while maintained. Requires line of sight.
+      The wizard sends a stream of sparks at a target, setting it aflame.
     effect: >
       [url:status#Burning]Burning 3[/url].
     saved: >
