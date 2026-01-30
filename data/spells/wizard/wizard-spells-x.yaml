@@ -38,12 +38,10 @@ exclusive:
     tags: ["TIER X", "Magus", "Utility", "Radius: 1m", "Duration: 1 Phase", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]Surecast[/section]"
-    material:
-      - "Matrix Crystal"
-    cost:
-      - "[section:clr-mp]2 MP[/section]"
     description: >
       The Magus creates a spell circle underneath their feet to draw mana from the inexhaustible ley lines deep underground.
+      [br]The Magus may return to the Ley Lines as a [url:def#Reaction]Reaction[/url] right at the beginning of their turn, 
+      before the effect is applied.
     effect: >
       The Magus gains [[section:clr-mp]MPR[/section]] MP if they begin a turn inside the spell circle.
       [br][i]Out of combat, the rate of regular MPR is accelerated to ¼ Phase instead.[/i]
