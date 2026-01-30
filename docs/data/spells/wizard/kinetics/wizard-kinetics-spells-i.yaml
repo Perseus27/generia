@@ -1,13 +1,13 @@
-name: "Kinetics Spells I"
-id: "wizard-kinetics-spells-i"
-id_appendix: "I"
-prefix: "kinetics"
+name: Kinetics Spells I
+id: wizard-kinetics-spells-i
+id_appendix: I
+prefix: kinetics
 
 offensive:
-  - name: "Kinetic Bolt I"
-    id: "kinetic-bolt-i"
+  - name: Kinetic Bolt I
+    id: kinetic-bolt-i
     auto_type: [PA, INT]
-    tags: ["TIER I", "Stone", "Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER I, Stone, Water, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -17,10 +17,10 @@ offensive:
     effect: >
       [section:clr-roll]1d8[/section] Blunt / Sharp
 
-  - name: "Pebble Shot"
-    id: "pebble-shot"
+  - name: Pebble Shot
+    id: pebble-shot
     auto_type: [PA, INT]
-    tags: ["TIER I", "Stone", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER I, Stone, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -33,10 +33,10 @@ offensive:
       [br]([section:clr-value]+projectile damage[/section])
 
 defensive:
-  - name: "Kinetic Barrier I"
-    id: "kinetic-barrier-i"
+  - name: Kinetic Barrier I
+    id: kinetic-barrier-i
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Stone", "Water", "Reaction", "UPCAST 3"]
+    tags: [TIER I, Stone, Water, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -47,13 +47,13 @@ defensive:
       [section:clr-roll]1d4[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
 
-  - name: "Tensile Shield I"
-    id: "tensile-shield-i"
-    tags: ["TIER I", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Tensile Shield I
+    id: tensile-shield-i
+    tags: [TIER I, Water, Defensive, "Range: 20m", UPCAST 3, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]1/2/3 MP[/section]"
     description: >
@@ -63,13 +63,13 @@ defensive:
       [section:clr-roll]1d6[/section] Protection
       [br][i]Shield is [url:status#resistant]resistant[/url] against Physical[/i]
 
-  - name: "Water Veil"
-    id: "water-veil"
-    tags: ["TIER I", "Water", "Defensive", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Water Veil
+    id: water-veil
+    tags: [TIER I, Water, Defensive, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]2 MP[/section]"
     description: >
@@ -79,10 +79,10 @@ defensive:
       Incoming Physical damage is reduced by [[section:clr-value]Water[/section]].
 
 utility:
-  - name: "Stone Shackles"
-    id: "stone-shackles"
+  - name: Stone Shackles
+    id: stone-shackles
     auto_type: [DC, INT]
-    tags: ["TIER I", "Stone", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER I, Stone, Utility, "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -96,10 +96,10 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Water Jet I"
-    id: "water-jet-i"
+  - name: Water Jet I
+    id: water-jet-i
     auto_type: [DC, INT]
-    tags: ["TIER I", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER I, Water, Utility, "Range: 12m", UPCAST 3, "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
     cost:
@@ -113,9 +113,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Water Walk"
-    id: "water-walk"
-    tags: ["TIER I", "Water", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Water Walk
+    id: water-walk
+    tags: [TIER I, Water, Utility, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -126,13 +126,13 @@ utility:
       Up to [section:clr-attr]INT-MOD[/section] targets can move on water surfaces as if on solid ground while concentration is kept.
 
 ritual:
-  - name: "Kinetic Manipulation"
-    id: "kinetic-manipulation"
-    tags: ["TIER I", "Stone", "Water", "Out of Combat"]
+  - name: Kinetic Manipulation
+    id: kinetic-manipulation
+    tags: [TIER I, Stone, Water, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "—"
+      - —
     cast_time: Variable
     description: >
       Manipulate kinetic mana (e.g., shape a stone object, purify liquids, create ethereal water…).

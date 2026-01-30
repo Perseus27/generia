@@ -1,13 +1,13 @@
-name: "Kinetics Spells III"
-id: "wizard-kinetics-spells-iii"
-id_appendix: "III"
-prefix: "kinetics"
+name: Kinetics Spells III
+id: wizard-kinetics-spells-iii
+id_appendix: III
+prefix: kinetics
 
 offensive:
-  - name: "Geyser Field"
-    id: "geyser-field"
+  - name: Geyser Field
+    id: geyser-field
     auto_type: [DC, INT]
-    tags: ["TIER III", "Fire", "Water", "Offensive", "Range: 20m", "Radius: 6m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER III, Fire, Water, Offensive, "Range: 20m", "Radius: 6m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -21,10 +21,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Kinetic Bolt III"
-    id: "kinetic-bolt-iii"
+  - name: Kinetic Bolt III
+    id: kinetic-bolt-iii
     auto_type: [PA, INT]
-    tags: ["TIER III", "Stone", "Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER III, Stone, Water, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -34,10 +34,10 @@ offensive:
     effect: >
       [section:clr-roll]2d10[/section] Blunt / Sharp
 
-  - name: "Stone Spears"
-    id: "stone-spears"
+  - name: Stone Spears
+    id: stone-spears
     auto_type: [SA, INT]
-    tags: ["TIER III", "Stone", "Offensive", "Range: 20m", "Radius: 2m", "UPCAST 3"]
+    tags: [TIER III, Stone, Offensive, "Range: 20m", "Radius: 2m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -53,10 +53,10 @@ offensive:
       No effect.
 
 defensive:
-  - name: "Kinetic Barrier III"
-    id: "kinetic-barrier-iii"
+  - name: Kinetic Barrier III
+    id: kinetic-barrier-iii
     auto_type: [SD, INT, PER]
-    tags: ["TIER III", "Stone", "Water", "Reaction", "UPCAST 3"]
+    tags: [TIER III, Stone, Water, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -67,9 +67,9 @@ defensive:
       [section:clr-roll]1d12[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
 
-  - name: "Tensile Shield III"
-    id: "tensile-shield-iii"
-    tags: ["TIER III", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Tensile Shield III
+    id: tensile-shield-iii
+    tags: [TIER III, Water, Defensive, "Range: 20m", UPCAST 3, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -81,10 +81,10 @@ defensive:
       [br][i]Shield is [url:status#resistant]resistant[/url] against Physical[/i]
 
 utility:
-  - name: "Spiked Pit"
-    id: "spiked-pit"
+  - name: Spiked Pit
+    id: spiked-pit
     auto_type: [DC, INT]
-    tags: ["TIER III", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
+    tags: [TIER III, Stone, Utility, "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", Matrix Crystal]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:

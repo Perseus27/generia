@@ -1,12 +1,12 @@
-name: "Tempering Spells I"
-id: "tempering-spells-i"
-id_appendix: "I"
-prefix: "temperedS"
+name: Tempering Spells I
+id: tempering-spells-i
+id_appendix: I
+prefix: temperedS
 
 offensive:
-  - name: "Impact"
-    id: "impact"
-    tags: ["TIER I", "Body", "Offensive", "Reaction"]
+  - name: Impact
+    id: impact
+    tags: [TIER I, Body, Offensive, Reaction]
     type:
       - "[section:spell-casttype]Melee Attack[/section]"
     cost:
@@ -19,9 +19,9 @@ offensive:
 
 
 defensive:
-  - name: "Bones of Steel"
-    id: "bones-of-steel"
-    tags: ["TIER I", "Body", "Defensive", "Duration: 1 Phase"]
+  - name: Bones of Steel
+    id: bones-of-steel
+    tags: [TIER I, Body, Defensive, "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -36,9 +36,9 @@ defensive:
       [br][url:status#Knockback]Knockback[/url] effect is halved.
       [br][section:clr-en]EN[/section] cost of [url:actions#Sprint]Sprint[/url] and all movement skills (e.g., [url:skills1#Charge]Charge[/url]) is doubled.
 
-  - name: "Skin of Bronze"
-    id: "skin-of-bronze"
-    tags: ["TIER I", "Body", "Defensive", "Duration: 1 Phase"]
+  - name: Skin of Bronze
+    id: skin-of-bronze
+    tags: [TIER I, Body, Defensive, "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -54,9 +54,9 @@ defensive:
 
 
 utility:
-  - name: "Great Leap"
-    id: "great-leap"
-    tags: ["TIER I", "Body", "Utility", "Range: 20m", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "[section:clr-combo]COMBO[/section]"]
+  - name: Great Leap
+    id: great-leap
+    tags: [TIER I, Body, Utility, "Range: 20m", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "[section:clr-combo]COMBO[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -68,9 +68,9 @@ utility:
     effect: >
       Jump is [url:core#Eased]eased[/url] by [[section:clr-attr]CON[/section] + [section:clr-value]Body[/section]] × [section:clr-value]1/2/3[/section].
 
-  - name: "Heightened Senses"
-    id: "heightened-senses"
-    tags: ["TIER I", "Soul", "Utility", "Duration: 1 Phase"]
+  - name: Heightened Senses
+    id: heightened-senses
+    tags: [TIER I, Soul, Utility, "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -81,10 +81,10 @@ utility:
     effect: >
       [section:clr-attr]PER-MOD[/section] is increased by [[section:clr-value]Soul[/section]].
 
-  - name: "Killing Intent"
-    id: "killing-intent"
+  - name: Killing Intent
+    id: killing-intent
     auto_type: [DC, CON]
-    tags: ["TIER I", "Soul", "Utility", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2[/section]"]
+    tags: [TIER I, Soul, Utility, "Range: 20m", "[section:clr-exper]EXPERTISE 1/2[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -99,10 +99,10 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Looming Presence"
-    id: "looming-presence"
+  - name: Looming Presence
+    id: looming-presence
     auto_type: [DC, CON]
-    tags: ["TIER I", "Soul", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER I, Soul, Utility, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -116,10 +116,10 @@ utility:
     saved: >
       No effect.
 
-  - name: "Stomp"
-    id: "stomp"
+  - name: Stomp
+    id: stomp
     auto_type: [DC, CON]
-    tags: ["TIER I", "Soul", "Utility", "Radius: 1/2/3m", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "[section:clr-combo]COMBO[/section]"]
+    tags: [TIER I, Soul, Utility, "Radius: 1/2/3m", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "[section:clr-combo]COMBO[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -135,10 +135,10 @@ utility:
     saved: >
       No effect.
 
-  - name: "Toxin Purge"
-    id: "toxin-purge"
+  - name: Toxin Purge
+    id: toxin-purge
     auto_type: [DC+, CON]
-    tags: ["TIER I", "Body", "Utility"]
+    tags: [TIER I, Body, Utility]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]CON[/section] vs [section:clr-dc]DC[/section]"
     cost:
@@ -152,9 +152,9 @@ utility:
 
 
 ritual:
-  - name: "Bonemending"
-    id: "bonemending"
-    tags: ["TIER I", "Body", "Ritual", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+  - name: Bonemending
+    id: bonemending
+    tags: [TIER I, Body, Ritual, "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cost:

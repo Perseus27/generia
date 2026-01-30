@@ -1,17 +1,17 @@
-name: "Hermetics Spells I"
-id: "wizard-hermetics-spells-i"
-id_appendix: "I"
-prefix: "hermetics"
+name: Hermetics Spells I
+id: wizard-hermetics-spells-i
+id_appendix: I
+prefix: hermetics
 
 offensive:
-  - name: "Mana Beam I"
-    id: "mana-beam-i"
+  - name: Mana Beam I
+    id: mana-beam-i
     auto_type: [SA, INT]
-    tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER I, Arcane, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]1/2/3 MP[/section]"
     description: >
@@ -24,10 +24,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Mana Bolt I"
-    id: "mana-bolt-i"
+  - name: Mana Bolt I
+    id: mana-bolt-i
     auto_type: [PA, INT]
-    tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER I, Arcane, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -39,11 +39,11 @@ offensive:
 
 
 defensive:
-  - name: "Arcane Barrier I"
-    id: "arcane-barrier-i"
+  - name: Arcane Barrier I
+    id: arcane-barrier-i
     alias: [Mana Barrier I]
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Arcane", "Reaction", "UPCAST 5"]
+    tags: [TIER I, Arcane, Reaction, UPCAST 5]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -53,9 +53,9 @@ defensive:
     effect: >
       [section:clr-roll]1d4[/section] Protection
 
-  - name: "Arcane Shield I"
-    id: "arcane-shield-i"
-    tags: ["TIER I", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Arcane Shield I
+    id: arcane-shield-i
+    tags: [TIER I, Arcane, Defensive, UPCAST 5, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -65,10 +65,10 @@ defensive:
     effect: >
       [section:clr-roll]1d4[/section] Protection
 
-  - name: "Counter Shot"
-    id: "counter-shot"
+  - name: Counter Shot
+    id: counter-shot
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Arcane", "Defensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER I, Arcane, Defensive, "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -81,9 +81,9 @@ defensive:
 
 
 utility:
-  - name: "Arcane Leap"
-    id: "arcane-leap"
-    tags: ["TIER I", "Arcane", "Utility", "Range: 12m", "[section:clr-movement]MOVEMENT[/section]"]
+  - name: Arcane Leap
+    id: arcane-leap
+    tags: [TIER I, Arcane, Utility, "Range: 12m", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -93,10 +93,10 @@ utility:
     effect: >
       The jump is [url:core#Eased]eased[/url] by [section:clr-attr]INT[/section]+[[section:clr-value]Arcane[/section]].
 
-  - name: "Chameleon I"
+  - name: Chameleon I
     alias: [Dim]
-    id: "chameleon-i"
-    tags: ["TIER I", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    id: chameleon-i
+    tags: [TIER I, Light, Utility, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -106,10 +106,10 @@ utility:
     effect: >
       Target gains [url:status#Hidden]Hidden 1[/url]. The effect refreshes while concentration is maintained.
 
-  - name: "Flash of Light"
-    id: "flash-of-light"
+  - name: Flash of Light
+    id: flash-of-light
     auto_type: [DC, INT]
-    tags: ["TIER I", "Light", "Utility", "Radius: 4m"]
+    tags: [TIER I, Light, Utility, "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]PER[/section]"
     cost:
@@ -123,9 +123,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Flicker"
-    id: "flicker"
-    tags: ["TIER I", "Light", "Reaction", "Range: 20m", "[section:clr-meta]META[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Flicker
+    id: flicker
+    tags: [TIER I, Light, Reaction, "Range: 20m", "[section:clr-meta]META[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -137,26 +137,26 @@ utility:
 
 
 ritual:
-  - name: "Create Matrix Crystal"
-    id: "create-matrix-crystal"
-    tags: ["TIER I", "Arcane", "Out of Combat"]
+  - name: Create Matrix Crystal
+    id: create-matrix-crystal
+    tags: [TIER I, Arcane, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Crystal"
+      - Crystal
     cast_time: 1 hour
     description: >
       The wizard etches a generic spell matrix into a crystal at least chestnut-sized.
     effect: >
       Creates a matrix crystal.
 
-  - name: "Hermetic Manipulation"
-    id: "hermetic-manipulation"
-    tags: ["TIER I", "Arcane", "Light", "Out of Combat"]
+  - name: Hermetic Manipulation
+    id: hermetic-manipulation
+    tags: [TIER I, Arcane, Light, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "—"
+      - —
     cast_time: Variable
     description: >
       Manipulate hermetic mana (e.g., create a small illusion, conjure a floating light, make a spell matrix visible…).

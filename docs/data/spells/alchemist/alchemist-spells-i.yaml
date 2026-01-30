@@ -1,18 +1,18 @@
-name: "Alchemist Spells I"
-id: "alchemist-spells-i"
-id_appendix: "I"
-prefix: "alchemistS"
+name: Alchemist Spells I
+id: alchemist-spells-i
+id_appendix: I
+prefix: alchemistS
 
 offensive:
-  - name: "Flame Throw I"
-    id: "flame-throw-i"
+  - name: Flame Throw I
+    id: flame-throw-i
     auto_type: [SA, INT]
-    tags: ["TIER I", "Pharmacy", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
+    tags: [TIER I, Pharmacy, Offensive, Volatile, "Range: 4m", "Width: 1m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "2× Air Dust"
-      - "2× Fire Dust"
+      - 2× Air Dust
+      - 2× Fire Dust
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -20,18 +20,18 @@ offensive:
     effect: >
       [section:clr-roll]2d4[/section] Fire
       [br]On [url:def#Hit]hit[/url]: [url:status#Burning]Burning 1[/url]
-    saved: "Damage halved."
-    saved10: "No effect."
+    saved: Damage halved.
+    saved10: No effect.
 
-  - name: "Shard Throw I"
-    id: "shard-throw-i"
+  - name: Shard Throw I
+    id: shard-throw-i
     auto_type: [SA, INT]
-    tags: ["TIER I", "Mechanics", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
+    tags: [TIER I, Mechanics, Offensive, Volatile, "Range: 4m", "Width: 1m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "2× Air Dust"
-      - "2× Stone Dust"
+      - 2× Air Dust
+      - 2× Stone Dust
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -40,19 +40,19 @@ offensive:
     effect: >
       [section:clr-roll]2d4[/section] Sharp
       [br]On [url:def#Hit]hit[/url]: [url:status#Bleeding]Bleeding 1[/url]
-    saved: "Damage halved."
-    saved10: "No effect."
+    saved: Damage halved.
+    saved10: No effect.
 
 
 defensive:
-  - name: "Emergency Shield I"
-    id: "emergency-shield-i"
+  - name: Emergency Shield I
+    id: emergency-shield-i
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Mechanics", "Reaction", "Volatile"]
+    tags: [TIER I, Mechanics, Reaction, Volatile]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     material:
-      - "2× Stone Dust"
+      - 2× Stone Dust
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -73,8 +73,8 @@ utility:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Fire Dust"
-      - "1× Water Dust"
+      - 1× Fire Dust
+      - 1× Water Dust
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -90,8 +90,8 @@ utility:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Poison I"
-      - "1× Water Dust"
+      - 1× Poison I
+      - 1× Water Dust
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -107,8 +107,8 @@ utility:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Healing Potion, small"
-      - "1× Water Dust"
+      - 1× Healing Potion, small
+      - 1× Water Dust
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -119,16 +119,16 @@ utility:
 
   - subheader:
     is_subheader: True
-    name: "Ammunition"
-    id: "ammunition-i"
+    name: Ammunition
+    id: ammunition-i
 
-  - name: "Basic Ammunition I"
-    id: "basic-ammunition-i"
-    tags: ["TIER I", "Mechanics", "Utility", "Permanent"]
+  - name: Basic Ammunition I
+    id: basic-ammunition-i
+    tags: [TIER I, Mechanics, Utility, Permanent]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "2× Stone Dust"
+      - 2× Stone Dust
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -136,13 +136,13 @@ utility:
     effect: >
       [section:clr-roll]2d6[/section] Blunt
 
-  - name: "Elemental Ammunition I"
-    id: "elemental-ammunition-i"
-    tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
+  - name: Elemental Ammunition I
+    id: elemental-ammunition-i
+    tags: [TIER I, Mechanics, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "2× Elemental Dust"
+      - 2× Elemental Dust
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -151,14 +151,14 @@ utility:
     effect: >
       [section:clr-roll]2d6[/section] Element
 
-  - name: "Status Ammunition I"
-    id: "status-ammunition-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Status Ammunition I
+    id: status-ammunition-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "2× Elemental Dust"
-      - "Basic or Elemental Ammunition I"
+      - 2× Elemental Dust
+      - Basic or Elemental Ammunition I
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -172,14 +172,14 @@ utility:
       [br][b]Ice:[/b] [url:status#Chilled]Chilled[/url]
       [br][b]Lightning:[/b] [url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]]
 
-  - name: "Therapeutic Ammunition I"
-    id: "therapeutic-ammunition-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Therapeutic Ammunition I
+    id: therapeutic-ammunition-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Water Dust"
-      - "1× Healing Potion, small"
+      - 1× Water Dust
+      - 1× Healing Potion, small
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -188,14 +188,14 @@ utility:
     effect: >
       [section:clr-roll-noex]3d4[/section]+[section:clr-value]Quality[/section] Healing
 
-  - name: "Toxic Ammunition I"
-    id: "toxic-ammunition-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Toxic Ammunition I
+    id: toxic-ammunition-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Water Dust"
-      - "1× Poison I"
+      - 1× Water Dust
+      - 1× Poison I
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -205,19 +205,19 @@ utility:
 
   - subheader:
     is_subheader: True
-    name: "Grenades"
-    id: "grenades-i"
+    name: Grenades
+    id: grenades-i
 
-  - name: "Corrosion Grenade I"
-    id: "corrosion-grenade-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Corrosion Grenade I
+    id: corrosion-grenade-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "1× Fire Dust"
-      - "1× Air Dust"
-      - "2× Water Dust"
+      - 1× Fire Dust
+      - 1× Air Dust
+      - 2× Water Dust
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -225,18 +225,18 @@ utility:
       [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
     effect: >
       All zones become [url:status#Brittle]Brittle 1[/url].
-    saved: "Roll one affected zone instead."
-    saved10: "No effect."
+    saved: Roll one affected zone instead.
+    saved10: No effect.
 
-  - name: "Fire Grenade I"
-    id: "fire-grenade-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Fire Grenade I
+    id: fire-grenade-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "3× Fire Dust"
-      - "1× Air Dust"
+      - 3× Fire Dust
+      - 1× Air Dust
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -245,19 +245,19 @@ utility:
     effect: >
       [section:clr-roll]2d4[/section] Fire
       [br]On [url:def#Hit]hit[/url]: [url:status#Burning]Burning 1[/url]
-    saved: "Damage halved."
-    saved10: "No effect."
+    saved: Damage halved.
+    saved10: No effect.
 
-  - name: "Fragmentation Grenade I"
-    id: "fragmentation-grenade-i"
-    tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
+  - name: Fragmentation Grenade I
+    id: fragmentation-grenade-i
+    tags: [TIER I, Mechanics, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "1× Fire Dust"
-      - "1× Air Dust"
-      - "2× Stone Dust"
+      - 1× Fire Dust
+      - 1× Air Dust
+      - 2× Stone Dust
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -266,18 +266,18 @@ utility:
     effect: >
       [section:clr-roll]2d4[/section] Sharp
       [br]On [url:def#Hit]hit[/url]: [url:status#Bleeding]Bleeding 1[/url]
-    saved: "Damage halved."
-    saved10: "No effect."
+    saved: Damage halved.
+    saved10: No effect.
 
-  - name: "Healing Grenade I"
-    id: "healing-grenade-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Healing Grenade I
+    id: healing-grenade-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Water Dust"
-      - "1× Air Dust"
-      - "2× Healing Potion, small"
+      - 1× Water Dust
+      - 1× Air Dust
+      - 2× Healing Potion, small
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -286,15 +286,15 @@ utility:
     effect: >
       [section:clr-roll]3d4[/section]+[section:clr-value]Quality[/section] [section:clr-heal]Healing[/section]
 
-  - name: "Shock Grenade I"
-    id: "shock-grenade-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Shock Grenade I
+    id: shock-grenade-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "2× Fire Dust"
-      - "2× Air Dust"
+      - 2× Fire Dust
+      - 2× Air Dust
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -303,22 +303,22 @@ utility:
     effect: >
       [url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]]
     saved: "[url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy/2[/section]]"
-    saved10: "No effect."
+    saved10: No effect.
 
   - subheader:
     is_subheader: True
-    name: "Other Consumables"
-    id: "other-consumables-i"
+    name: Other Consumables
+    id: other-consumables-i
 
-  - name: "Improvised Poison I"
-    id: "improvised-poison-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Improvised Poison I
+    id: improvised-poison-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "2× Water Dust"
-      - "1× Poisonous Ingredients"
+      - 2× Water Dust
+      - 1× Poisonous Ingredients
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -327,15 +327,15 @@ utility:
     effect: >
       [url:status#Poisoned]Poisoned 1[/url].
 
-  - name: "Improvised Remedy I"
-    id: "improvised-remedy-i"
-    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+  - name: Improvised Remedy I
+    id: improvised-remedy-i
+    tags: [TIER I, Pharmacy, Utility, Volatile]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "2× Water Dust"
-      - "1× Medicinal Ingredients"
+      - 2× Water Dust
+      - 1× Medicinal Ingredients
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -346,12 +346,12 @@ utility:
 
   - subheader:
     is_subheader: True
-    name: "Golem Equipment"
-    id: "golem-equipment-i"
+    name: Golem Equipment
+    id: golem-equipment-i
 
   - name: "Golem Kit: Frontliner"
-    id: "golem-kit-frontliner"
-    tags: ["TIER I", "Mechanics", "Utility", "Construction"]
+    id: golem-kit-frontliner
+    tags: [TIER I, Mechanics, Utility, Construction]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -364,8 +364,8 @@ utility:
       [br][b]Skills:[/b] [url:skills2#mighty-strike]Mighty Strike[/url], [url:skills1#shove]Shove[/url], [url:skills1#steady-block]Steady Block[/url]
 
   - name: "Golem Kit: Skirmisher"
-    id: "golem-kit-frontliner"
-    tags: ["TIER I", "Mechanics", "Utility", "Construction"]
+    id: golem-kit-frontliner
+    tags: [TIER I, Mechanics, Utility, Construction]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -381,17 +381,17 @@ utility:
 ritual:
   - subheader:
     is_subheader: True
-    name: "General"
-    id: "general-i"
+    name: General
+    id: general-i
 
-  - name: "Accumulation"
-    id: "accumulation"
-    tags: ["TIER I", "Pharmacy", "Out of Combat"]
+  - name: Accumulation
+    id: accumulation
+    tags: [TIER I, Pharmacy, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Element Source"
-    cast_time: "4 Phases"
+      - Element Source
+    cast_time: 4 Phases
     description: >
       The Alchemist carefully accumulates ambient mana to create a weak elemental core.
       [br]The cast time is halved for each elemental presence level above weak.
@@ -399,14 +399,14 @@ ritual:
       Product:
       [br]1× Elemental Core, weak
 
-  - name: "Desintegration"
-    id: "desintegration"
-    tags: ["TIER I", "Pharmacy", "Out of Combat"]
+  - name: Desintegration
+    id: desintegration
+    tags: [TIER I, Pharmacy, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "1× Elemental Core, any"
-    cast_time: "½ Phase"
+      - 1× Elemental Core, any
+    cast_time: ½ Phase
     description: >
       The Alchemist breaks down an elemental core into elemental dust.
     effect: >
@@ -415,9 +415,9 @@ ritual:
       [br][b]Core, normal:[/b] 20 Dust
       [br][b]Core, strong:[/b] 40 Dust
 
-  - name: "Transmutation"
-    id: "transmutation"
-    tags: ["TIER I", "Mechanics / Pharmacy", "Out of Combat"]
+  - name: Transmutation
+    id: transmutation
+    tags: [TIER I, Mechanics / Pharmacy, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
@@ -431,18 +431,18 @@ ritual:
 
   - subheader:
     is_subheader: True
-    name: "Weapon Construction"
-    id: "weapon-construction-i"
+    name: Weapon Construction
+    id: weapon-construction-i
 
   - name: "Construction: Handgun"
-    id: "construction-handgun"
-    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+    id: construction-handgun
+    tags: [TIER I, Mechanics, Out of Combat, Construction]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "1× Stone Core, weak"
-      - "1× Fire Core, weak"
-    cast_time: "2 Phases"
+      - 1× Stone Core, weak
+      - 1× Fire Core, weak
+    cast_time: 2 Phases
     description: >
       The Alchemist constructs a transmuted [url:../what-is-an-alchemist#TransmutedWeapons]handgun[/url].
     effect: >
@@ -451,34 +451,34 @@ ritual:
 
   - subheader:
     is_subheader: True
-    name: "Golem Construction"
-    id: "golem-construction-i"
+    name: Golem Construction
+    id: golem-construction-i
 
   - name: "Construction: Golem Core Mk. I"
-    id: "construction-golem-core-mk-i"
-    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+    id: construction-golem-core-mk-i
+    tags: [TIER I, Mechanics, Out of Combat, Construction]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "0.05 Steel, 0.04 pure Silver, 0.01 pure Gold"
-      - "1× Diamond, small"
+      - 0.05 Steel, 0.04 pure Silver, 0.01 pure Gold
+      - 1× Diamond, small
     cost:
       - "[section:clr-mp]1 MP[/section]"
-    cast_time: "4 Phases"
+    cast_time: 4 Phases
     description: >
       Constructs a Golem Core Mk. I.
     effect: >
       [b]Size:[/b] 1x1
       [br][b]Weight:[/b] 0.1
 
-  - name: "Golem Activation"
-    id: "golem-activation"
-    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+  - name: Golem Activation
+    id: golem-activation
+    tags: [TIER I, Mechanics, Out of Combat, Construction]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cast_time: "1 Phase"
+    cast_time: 1 Phase
     material:
-      - "Golem Core"
+      - Golem Core
     description: >
       Activates a [url:../what-is-an-alchemist#Golems]Golem Core[/url].
       [br]Requires a suffient amount of raw material within [section:clr-value]4m[/section] radius.
@@ -486,16 +486,16 @@ ritual:
     effect: >
       Golem is constructed and activated.
 
-  - name: "Golem Armor I"
-    id: "golem-armor-i"
-    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+  - name: Golem Armor I
+    id: golem-armor-i
+    tags: [TIER I, Mechanics, Out of Combat, Construction]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "1× Stone Core, small"
+      - 1× Stone Core, small
     cost:
       - "[section:clr-mp]1 MP[/section]"
-    cast_time: "1 Phase"
+    cast_time: 1 Phase
     description: >
       Constructs armor plating for a [url:../what-is-an-alchemist#Golems]Golem[/url] larger than [i]tiny[/i].
     effect: >

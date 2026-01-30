@@ -1,17 +1,17 @@
-name: "Druid Spells II"
-id: "druid-spells-ii"
-id_appendix: "II"
-prefix: "druidS"
+name: Druid Spells II
+id: druid-spells-ii
+id_appendix: II
+prefix: druidS
 
 offensive:
-  - name: "Locust Swarm"
-    id: "locust-swarm"
+  - name: Locust Swarm
+    id: locust-swarm
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Fauna", "Offensive", "Range: 16m", "Radius: 3m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
+    tags: [TIER II, Fauna, Offensive, "Range: 16m", "Radius: 3m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "Insect Eggs"
+      - Insect Eggs
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -23,13 +23,13 @@ offensive:
       [br][section:clr-roll]2/4d4+Fauna[/section] Sharp
     effect10: >
       [url:status#Bleeding]Bleeding 2/3[/url]
-    saved: "Damage halved."
-    saved10: "No Damage."
+    saved: Damage halved.
+    saved10: No Damage.
 
-  - name: "Stranglevine"
-    id: "stranglevine"
+  - name: Stranglevine
+    id: stranglevine
     auto_type: [SA, WIL]
-    tags: ["TIER II", "Flora", "Offensive", "Vegetation / Staff Spell"]
+    tags: [TIER II, Flora, Offensive, Vegetation / Staff Spell]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -39,13 +39,13 @@ offensive:
       [br][i]Only works on targets that need to breathe in some form. Adjust flavor as necessary.[/i]
     effect: >
       [section:clr-roll]2d6[/section] Absolute
-    saved: "Damage halved."
-    saved10: "No Effect."
+    saved: Damage halved.
+    saved10: No Effect.
 
-  - name: "Whirl of Thorns"
-    id: "whirl-of-thorns"
+  - name: Whirl of Thorns
+    id: whirl-of-thorns
     auto_type: [PA, WIL]
-    tags: ["TIER II", "Flora", "Offensive", "Radius: 4m", "[section:clr-exper]EXPERTISE 2/3[/section]", "Vegetation / Staff Spell"]
+    tags: [TIER II, Flora, Offensive, "Radius: 4m", "[section:clr-exper]EXPERTISE 2/3[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
     cost:
@@ -58,9 +58,9 @@ offensive:
 
 
 defensive:
-  - name: "Thorn Mantle"
-    id: "thorn-mantle"
-    tags: ["TIER II", "Flora", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Staff Spell"]
+  - name: Thorn Mantle
+    id: thorn-mantle
+    tags: [TIER II, Flora, Defensive, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", Staff Spell]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -71,9 +71,9 @@ defensive:
       [section:clr-roll]1/2d6[/section] Sharp (Arms)
       [br]On hit: [url:status#Poisoned]Poisoned 1/2[/url].
 
-  - name: "Root Wall"
-    id: "root-wall"
-    tags: ["TIER II", "Flora", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+  - name: Root Wall
+    id: root-wall
+    tags: [TIER II, Flora, Defensive, "Range: 12m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -89,14 +89,14 @@ defensive:
 
 
 utility:
-  - name: "Ant Hill"
-    id: "ant-hill"
+  - name: Ant Hill
+    id: ant-hill
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-field]FIELD[/section]"]
+    tags: [TIER II, Fauna, Utility, "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-field]FIELD[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "Insect Eggs"
+      - Insect Eggs
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -110,13 +110,13 @@ utility:
       [br][url:status#Brittle]Brittle 1[/url] (Legs)
     effect10: >
       [url:status#Brittle]Brittle 1[/url] (all zones)
-    saved: "Not Poisoned."
-    saved10: "No effect."
+    saved: Not Poisoned.
+    saved10: No effect.
 
-  - name: "Breaking Vine"
-    id: "breaking-vine"
+  - name: Breaking Vine
+    id: breaking-vine
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
+    tags: [TIER II, Flora, Utility, Vegetation / Staff Spell]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -127,16 +127,16 @@ utility:
     effect: >
       [url:status#Brittle]Brittle 2[/url]
     saved: "[url:status#Brittle]Brittle 1[/url]"
-    saved10: "No Effect."
+    saved10: No Effect.
 
-  - name: "Crawling Infestation"
-    id: "crawling-infestation"
+  - name: Crawling Infestation
+    id: crawling-infestation
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
+    tags: [TIER II, Fauna, Utility, "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     material:
-      - "Insect Eggs"
+      - Insect Eggs
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -148,16 +148,16 @@ utility:
       [br][url:status#Frightened]Frightened[/url]
     effect10: >
       [url:status#Panicked]Panicked[/url] instead of Frightened
-    saved: "Not Frightened."
-    saved10: "No Effect."
+    saved: Not Frightened.
+    saved10: No Effect.
 
-  - name: "Field of Flowers"
-    id: "field-of-flowers"
-    tags: ["TIER II", "Flora", "Utility", "Range: 16m", "Radius: 2m", "[section:clr-heal]HEAL[/section]", "[section:clr-field]ZONE[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Vegetation"]
+  - name: Field of Flowers
+    id: field-of-flowers
+    tags: [TIER II, Flora, Utility, "Range: 16m", "Radius: 2m", "[section:clr-heal]HEAL[/section]", "[section:clr-field]ZONE[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", Vegetation]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Seeds"
+      - Seeds
     cost:
       - "[section:clr-mp]4 MP[/section]"
     description: >
@@ -165,10 +165,10 @@ utility:
     effect: >
       [url:status#Regeneration]Regeneration 1/2[/url]
 
-  - name: "Field of Thorns"
-    id: "field-of-thorns"
+  - name: Field of Thorns
+    id: field-of-thorns
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    tags: [TIER II, Flora, Utility, "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -179,13 +179,13 @@ utility:
       [section:clr-roll]2d6[/section] Sharp (Legs)
       [br]On hit: [url:status#Poisoned]Poisoned 1[/url]
       [br][url:status#Slowed]Slowed[/url]
-    saved: "No damage."
-    saved10: "No effect."
+    saved: No damage.
+    saved10: No effect.
 
-  - name: "Panic"
-    id: "panic"
+  - name: Panic
+    id: panic
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Fauna", "Utility", "Radius: 4m"]
+    tags: [TIER II, Fauna, Utility, "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -195,12 +195,12 @@ utility:
     effect: >
       [url:status#Frightened]Frightened[/url] and [url:status#Confused]Confused[/url].
     saved: "Prevents [i]Frightened[/i]."
-    saved10: "No effect."
+    saved10: No effect.
 
-  - name: "Poison Vine"
-    id: "poison-vine"
+  - name: Poison Vine
+    id: poison-vine
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
+    tags: [TIER II, Flora, Utility, Vegetation / Staff Spell]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -210,11 +210,11 @@ utility:
     effect: >
       [url:status#Poisoned]Poisoned 2[/url]
     saved: "[url:status#Poisoned]Poisoned 1[/url]"
-    saved10: "No Effect."
+    saved10: No Effect.
 
   - name: "Theriomorph: Hybrid"
-    id: "theriomorph-hybrid"
-    tags: ["TIER II", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
+    id: theriomorph-hybrid
+    tags: [TIER II, Fauna, Utility, "[section:clr-conc]CONCENTRATION[/section]", Soul Anchor]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -224,9 +224,9 @@ utility:
     effect: >
       Adopt all [section:clr-attr]attribute MODs[/section] and [url:values]values[/url] of the beast that exceed your own, except [i][section:clr-attr]INT-MOD[/section], [section:clr-attr]WIL-MOD[/section], [section:clr-en]EN[/section], [section:clr-mp]MP[/section][/i].
 
-  - name: "Toxidermis"
-    id: "toxidermis"
-    tags: ["TIER II", "Flora", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Toxidermis
+    id: toxidermis
+    tags: [TIER II, Flora, Utility, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -237,10 +237,10 @@ utility:
       Direct touch inflicts [url:status#Poisoned]Poisoned 2[/url].
       [br]Unarmed basic attacks inflict [i]Poisoned 2[/i] on hit.
 
-  - name: "Root Field"
-    id: "root-field"
+  - name: Root Field
+    id: root-field
     auto_type: [DC, WIL]
-    tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    tags: [TIER II, Flora, Utility, "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -250,18 +250,18 @@ utility:
     effect: >
       Targets are [url:status#Restrained]Restrained[/url].
     saved: "[url:status#Slowed]Slowed 1[/url]."
-    saved10: "No effect."
+    saved10: No effect.
 
 
 ritual:
-  - name: "Soulbond"
-    id: "soulbond"
-    tags: ["TIER II", "Fauna", "Out of Combat"]
+  - name: Soulbond
+    id: soulbond
+    tags: [TIER II, Fauna, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Soul Anchor"
-    cast_time: "1 hour"
+      - Soul Anchor
+    cast_time: 1 hour
     description: >
       Petition a wild beast’s soul to become your familiar; the soul chooses freely.
     effect: >

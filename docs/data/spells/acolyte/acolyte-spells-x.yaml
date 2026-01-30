@@ -1,18 +1,18 @@
-name: "Acolyte Spells X"
-id: "acolyte-spells-x"
-id_appendix: "X"
-prefix: "acolyteS"
+name: Acolyte Spells X
+id: acolyte-spells-x
+id_appendix: X
+prefix: acolyteS
 is_exclusive: True
 
 exclusive:
   - subheader:
     is_subheader: True
-    name: "Templar"
-    id: "templar"
+    name: Templar
+    id: templar
 
-  - name: "Banner of the Sun"
-    id: "banner-of-the-sun"
-    tags: ["TIER X", "Templar", "Sol", "Utility", ZONE, "Radius: 3m", "SP Cost: 20"]
+  - name: Banner of the Sun
+    id: banner-of-the-sun
+    tags: [TIER X, Templar, Sol, Utility, ZONE, "Radius: 3m", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -45,12 +45,12 @@ exclusive:
 
   - subheader:
     is_subheader: True
-    name: "Moon Dancer"
-    id: "moon-dancer"
+    name: Moon Dancer
+    id: moon-dancer
 
-  - name: "Intercede"
-    id: "intercede"
-    tags: ["TIER X", "Moon Dancer", "Luna", "Reaction", "SP Cost: 20"]
+  - name: Intercede
+    id: intercede
+    tags: [TIER X, Moon Dancer, Luna, Reaction, "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -62,16 +62,16 @@ exclusive:
 
   - subheader:
     is_subheader: True
-    name: "Sun Cleric"
-    id: "sun-cleric"
+    name: Sun Cleric
+    id: sun-cleric
 
-  - name: "Smite"
-    id: "smite"
-    tags: ["TIER X", "Sun Cleric", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 2/3[/section]", "SP Cost: 20"]
+  - name: Smite
+    id: smite
+    tags: [TIER X, Sun Cleric, Sol, Offensive, "[section:clr-exper]EXPERTISE 2/3[/section]", "SP Cost: 20"]
     type:
       - "[section:clr-attack]BASIC ATTACK[/section]"
     material:
-      - "Sunstone (optional)"
+      - Sunstone (optional)
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >

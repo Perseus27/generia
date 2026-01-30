@@ -1,17 +1,17 @@
-name: "Thermics Spells II"
-id: "wizard-thermics-spells-ii"
-id_appendix: "II"
-prefix: "thermics"
+name: Thermics Spells II
+id: wizard-thermics-spells-ii
+id_appendix: II
+prefix: thermics
 
 offensive:
-  - name: "Fireball I"
-    id: "fireball-i"
+  - name: Fireball I
+    id: fireball-i
     auto_type: [SA, INT]
-    tags: ["TIER II", "Fire", "Offensive", "Range: 20m", "Radius: 2m", "UPCAST 3"]
+    tags: [TIER II, Fire, Offensive, "Range: 20m", "Radius: 2m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
@@ -24,10 +24,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Frost Lance I"
-    id: "frost-lance-i"
+  - name: Frost Lance I
+    id: frost-lance-i
     auto_type: [PA, INT]
-    tags: ["TIER II", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Ice, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -38,15 +38,15 @@ offensive:
       [section:clr-roll]2d8[/section] Ice
       [br][section:clr-roll]+1d8[/section] if [i]chilled[/i]/[i]frozen[/i].
 
-  - name: "Thermal Beam II"
+  - name: Thermal Beam II
     alias: [Thermic Beam II]
-    id: "thermal-beam-ii"
+    id: thermal-beam-ii
     auto_type: [SA, INT]
-    tags: ["TIER II", "Fire", "Ice", "Offensive", "Range: 30m", "UPCAST 5"]
+    tags: [TIER II, Fire, Ice, Offensive, "Range: 30m", UPCAST 5]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
@@ -59,11 +59,11 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Thermal Bolt II"
+  - name: Thermal Bolt II
     alias: [Thermic Bolt II]
-    id: "thermal-bolt-ii"
+    id: thermal-bolt-ii
     auto_type: [PA, INT]
-    tags: ["TIER II", "Fire", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Fire, Ice, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -75,10 +75,10 @@ offensive:
 
 
 defensive:
-  - name: "Flame Mantle I"
-    id: "flame-mantle-i"
+  - name: Flame Mantle I
+    id: flame-mantle-i
     auto_type: [DC, INT]
-    tags: ["TIER II", "Fire", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER II, Fire, Utility, "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -92,10 +92,10 @@ defensive:
     saved10: >
       No effect.
 
-  - name: "Frost Mantle I"
-    id: "frost-mantle-i"
+  - name: Frost Mantle I
+    id: frost-mantle-i
     auto_type: [DC, INT]
-    tags: ["TIER II", "Ice", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER II, Ice, Utility, "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -109,11 +109,11 @@ defensive:
     saved10: >
       No effect.
 
-  - name: "Thermal Barrier II"
+  - name: Thermal Barrier II
     alias: [Thermic Barrier II]
-    id: "thermal-barrier-ii"
+    id: thermal-barrier-ii
     auto_type: [SD, INT, PER]
-    tags: ["TIER II", "Fire", "Ice", "Reaction", "UPCAST 3"]
+    tags: [TIER II, Fire, Ice, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -126,10 +126,10 @@ defensive:
 
 
 utility:
-  - name: "Sparkstream II"
-    id: "sparkstream-ii"
+  - name: Sparkstream II
+    id: sparkstream-ii
     auto_type: [DC, INT]
-    tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
+    tags: [TIER II, Fire, Utility, "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -143,10 +143,10 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Wall of Fire"
-    id: "wall-of-fire"
+  - name: Wall of Fire
+    id: wall-of-fire
     auto_type: [DC, INT]
-    tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER II, Fire, Utility, "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:

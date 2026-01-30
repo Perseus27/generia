@@ -1,13 +1,13 @@
-name: "Meteorics Spells II"
-id: "wizard-meteorics-spells-ii"
-id_appendix: "II"
-prefix: "meteorics"
+name: Meteorics Spells II
+id: wizard-meteorics-spells-ii
+id_appendix: II
+prefix: meteorics
 
 offensive:
-  - name: "Lightning Blast I"
-    id: "lightning-blast-i"
+  - name: Lightning Blast I
+    id: lightning-blast-i
     auto_type: [SA, INT]
-    tags: ["TIER II", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -22,10 +22,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Meteoric Bolt II"
-    id: "meteoric-bolt-ii"
+  - name: Meteoric Bolt II
+    id: meteoric-bolt-ii
     auto_type: [PA, INT]
-    tags: ["TIER II", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Air, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -35,10 +35,10 @@ offensive:
     effect: >
       [section:clr-roll]2d8[/section] Air / Lightning
 
-  - name: "Thunderbolt I"
-    id: "thunderbolt-i"
+  - name: Thunderbolt I
+    id: thunderbolt-i
     auto_type: [SA, INT]
-    tags: ["TIER II", "Air", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Air, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -52,14 +52,14 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Zap II"
-    id: "zap-ii"
+  - name: Zap II
+    id: zap-ii
     auto_type: [SA, INT]
-    tags: ["TIER II", "Lightning", "Offensive", "UPCAST 3"]
+    tags: [TIER II, Lightning, Offensive, UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
@@ -73,10 +73,10 @@ offensive:
       No effect.
 
 defensive:
-  - name: "Meteoric Barrier II"
-    id: "meteoric-barrier-ii"
+  - name: Meteoric Barrier II
+    id: meteoric-barrier-ii
     auto_type: [SD, INT, PER]
-    tags: ["TIER II", "Air", "Lightning", "Reaction", "UPCAST 3"]
+    tags: [TIER II, Air, Lightning, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -87,10 +87,10 @@ defensive:
       [section:clr-roll]1d8[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Air/Lightning[/i]
 
-  - name: "Static Mantle"
-    id: "static-mantle"
+  - name: Static Mantle
+    id: static-mantle
     auto_type: [DC, INT]
-    tags: ["TIER II", "Lightning", "Defensive", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER II, Lightning, Defensive, "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -105,10 +105,10 @@ defensive:
       No effect.
 
 utility:
-  - name: "Ball Lightning"
-    id: "ball-lightning"
+  - name: Ball Lightning
+    id: ball-lightning
     auto_type: [DC, INT]
-    tags: ["TIER II", "Lightning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER II, Lightning, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -122,9 +122,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Field of Silence"
-    id: "field-of-silence"
-    tags: ["TIER II", "Air", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+  - name: Field of Silence
+    id: field-of-silence
+    tags: [TIER II, Air, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -134,9 +134,9 @@ utility:
     effect: >
       Creatures in the area are [url:status#Silenced]Silenced[/url].
 
-  - name: "Fog Cloud"
-    id: "fog-cloud"
-    tags: ["TIER II", "Air", "Water", "Utility", "Range: 20m", "UPCAST 3", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+  - name: Fog Cloud
+    id: fog-cloud
+    tags: [TIER II, Air, Water, Utility, "Range: 20m", UPCAST 3, "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -147,10 +147,10 @@ utility:
       Creatures in the fog are [url:status#Blinded]Blinded[/url].
       [br]To attack a target inside the cloud from outside (or the other way around) with [url:def#RangedAttack]ranged attacks[/url] or [section:clr-pa]projectile spells[/section], first pass a [section:clr-attr]PER[/section] check against the caster’s [section:clr-dc]DC INT[/section].
 
-  - name: "Gust"
-    id: "gust"
+  - name: Gust
+    id: gust
     auto_type: [SA, INT]
-    tags: ["TIER II", "Air", "Utility", "Radius: 4m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER II, Air, Utility, "Radius: 4m", UPCAST 3, "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
     cost:
@@ -164,9 +164,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Levitation"
-    id: "levitation"
-    tags: ["TIER II", "Air", "Utility", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Levitation
+    id: levitation
+    tags: [TIER II, Air, Utility, "[section:clr-movement]MOVEMENT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
