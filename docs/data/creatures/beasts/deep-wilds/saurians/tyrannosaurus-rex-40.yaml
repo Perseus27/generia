@@ -24,10 +24,10 @@ values:
   TN: 6
   MS: 6
 armor:
-  head: 5
-  torso: 7
-  arms: 6
-  legs: 6
+  head: 12
+  torso: 14
+  arms: 13
+  legs: 13
   md: 4
   er: 0
 loot:
@@ -73,6 +73,11 @@ actions:
       type: Passive
       effect:
         - "[section:clr-value]One[/section] [i]Bite[/i] or [i]Crush[/i] damage die may be rerolled [section:clr-value]once[/section]."
+
+    - name: Reptilian Skin
+      type: Passive
+      effect:
+        - "AV is increased by [section:clr-attr]CON-MOD[/section]."
 
     - name: Saurian Senses
       type: Passive
