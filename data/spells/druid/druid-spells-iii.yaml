@@ -1,12 +1,12 @@
-name: "Druid Spells III"
-id: "druid-spells-iii"
-id_appendix: "III"
-prefix: "druidS"
+name: Druid Spells III
+id: druid-spells-iii
+id_appendix: III
+prefix: druidS
 
 offensive:
-  - name: "Thorn Fury"
-    id: "thorn-fury"
-    tags: ["TIER III", "Flora", "Offensive", "Range: 16m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 3[/section]", "Vegetation / Staff Spell"]
+  - name: Thorn Fury
+    id: thorn-fury
+    tags: [TIER III, Flora, Offensive, "Range: 16m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 3[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -19,9 +19,9 @@ offensive:
 
 
 defensive:
-  - name: "Thornroot Wall"
-    id: "thornroot-wall"
-    tags: ["TIER III", "Flora", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "Terrain", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+  - name: Thornroot Wall
+    id: thornroot-wall
+    tags: [TIER III, Flora, Defensive, "Range: 12m", "[section:clr-control]CONTROL[/section]", Terrain, "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -35,8 +35,8 @@ defensive:
 
 utility:
   - name: "Theriomorph: Total"
-    id: "theriomorph-total"
-    tags: ["TIER III", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
+    id: theriomorph-total
+    tags: [TIER III, Fauna, Utility, "[section:clr-conc]CONCENTRATION[/section]", Soul Anchor]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

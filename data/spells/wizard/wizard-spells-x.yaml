@@ -1,28 +1,28 @@
-name: "Wizard Spells X"
-id: "wizard-spells-x"
-id_appendix: "X"
-prefix: "wizardX"
+name: Wizard Spells X
+id: wizard-spells-x
+id_appendix: X
+prefix: wizardX
 is_exclusive: True
 
 exclusive:
   - subheader:
     is_subheader: True
-    name: "Magister"
-    id: "magister"
+    name: Magister
+    id: magister
 
-  - name: "Nullify"
-    id: "nullify"
+  - name: Nullify
+    id: nullify
     auto_type: [DC+, INT]
-    tags: ["TIER X", "Magister", "Utility", "SP Cost: 20"]
+    tags: [TIER X, Magister, Utility, "SP Cost: 20"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]INT[/section] vs [section:clr-dc]DC[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
       The Magister attempts to remove up to [[section:clr-attr]INT-MOD[/section]] magical [url:status]status effects[/url] from any target.
-      [br]A status effect counts as "magical" if its source is a spell.
+      [br]A status effect counts as magical if its source is a spell.
       [br]If the target creature is also the source of the effect and the origin spell is kept up though [url:def#Concentration]Concentration[/url], [i]Nullify[/i] forces a Concentration save against [i]Nullify[/i]'s [section:clr-dc]DC+[/section] instead.
       [br][b]Matrix Crystal:[/b] May target up to [[section:clr-attr]INT-MOD[/section]] creatures.
     effect: >
@@ -30,12 +30,12 @@ exclusive:
 
   - subheader:
     is_subheader: True
-    name: "Magus"
-    id: "magus"
+    name: Magus
+    id: magus
 
-  - name: "Ley Lines"
-    id: "ley-lines"
-    tags: ["TIER X", "Magus", "Utility", "Radius: 1m", "Duration: 1 Phase", "SP Cost: 20"]
+  - name: Ley Lines
+    id: ley-lines
+    tags: [TIER X, Magus, Utility, "Radius: 1m", "Duration: 1 Phase", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]Surecast[/section]"
     description: >
@@ -48,12 +48,12 @@ exclusive:
 
   - subheader:
     is_subheader: True
-    name: "Spellblade"
-    id: "spellblade"
+    name: Spellblade
+    id: spellblade
 
-  - name: "Blade Infusion"
-    id: "blade-infusion"
-    tags: ["TIER X", "Spellblade", "Utility", "SP Cost: 20", "Duration: 1 Phase"]
+  - name: Blade Infusion
+    id: blade-infusion
+    tags: [TIER X, Spellblade, Utility, "SP Cost: 20", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -68,12 +68,12 @@ exclusive:
 
   - subheader:
     is_subheader: True
-    name: "Spellbow"
-    id: "spellbow"
+    name: Spellbow
+    id: spellbow
 
-  - name: "Bow Infusion"
-    id: "bow-infusion"
-    tags: ["TIER X", "Spellbow", "Utility", "SP Cost: 20", "Duration: 1 Phase"]
+  - name: Bow Infusion
+    id: bow-infusion
+    tags: [TIER X, Spellbow, Utility, "SP Cost: 20", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

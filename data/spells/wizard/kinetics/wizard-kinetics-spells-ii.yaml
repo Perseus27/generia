@@ -1,13 +1,13 @@
-name: "Kinetics Spells II"
-id: "wizard-kinetics-spells-ii"
-id_appendix: "II"
-prefix: "kinetics"
+name: Kinetics Spells II
+id: wizard-kinetics-spells-ii
+id_appendix: II
+prefix: kinetics
 
 offensive:
-  - name: "Kinetic Bolt II"
-    id: "kinetic-bolt-ii"
+  - name: Kinetic Bolt II
+    id: kinetic-bolt-ii
     auto_type: [PA, INT]
-    tags: ["TIER II", "Stone", "Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Stone, Water, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -17,10 +17,10 @@ offensive:
     effect: >
       [section:clr-roll]2d8[/section] Blunt / Sharp
 
-  - name: "Satellites"
-    id: "satellites"
+  - name: Satellites
+    id: satellites
     auto_type: [PA, INT]
-    tags: ["TIER II", "Stone", "Offensive", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER II, Stone, Offensive, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -32,10 +32,10 @@ offensive:
       [section:clr-roll]1d8[/section] Blunt per stone
       [br]([section:clr-value]+ projectile damage[/section])
 
-  - name: "Stone Hail"
-    id: "stone-hail"
+  - name: Stone Hail
+    id: stone-hail
     auto_type: [PA, INT]
-    tags: ["TIER II", "Stone", "Offensive", "Range: 20m"]
+    tags: [TIER II, Stone, Offensive, "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -48,10 +48,10 @@ offensive:
       [br]([section:clr-value]+ projectile damage[/section])
 
 defensive:
-  - name: "Kinetic Barrier II"
-    id: "kinetic-barrier-ii"
+  - name: Kinetic Barrier II
+    id: kinetic-barrier-ii
     auto_type: [SD, INT, PER]
-    tags: ["TIER II", "Stone", "Water", "Reaction", "UPCAST 3"]
+    tags: [TIER II, Stone, Water, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -62,9 +62,9 @@ defensive:
       [section:clr-roll]1d8[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
 
-  - name: "Tensile Shield II"
-    id: "tensile-shield-ii"
-    tags: ["TIER II", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Tensile Shield II
+    id: tensile-shield-ii
+    tags: [TIER II, Water, Defensive, "Range: 20m", UPCAST 3, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -75,9 +75,9 @@ defensive:
       [section:clr-roll]1d8[/section] Protection
       [br][i]Shield is [url:status#resistant]resistant[/url] against Physical[/i]
 
-  - name: "Wave Dome"
-    id: "wave-dome"
-    tags: ["TIER II", "Water", "Utility", "Radius: 4m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]", "MATERIAL:", "Matrix Crystal"]
+  - name: Wave Dome
+    id: wave-dome
+    tags: [TIER II, Water, Utility, "Radius: 4m", UPCAST 3, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]", "MATERIAL:", Matrix Crystal]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -90,10 +90,10 @@ defensive:
       [section:clr-roll]2d6[/section] Protection
 
 utility:
-  - name: "Earthquake"
-    id: "earthquake"
+  - name: Earthquake
+    id: earthquake
     auto_type: [DC, INT]
-    tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER II, Stone, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -107,9 +107,9 @@ utility:
     saved10: >
       No effect.
 
-  - name: "Fog Cloud"
-    id: "fog-cloud"
-    tags: ["TIER II", "Air", "Water", "Utility", "Range: 20m", "UPCAST 3", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+  - name: Fog Cloud
+    id: fog-cloud
+    tags: [TIER II, Air, Water, Utility, "Range: 20m", UPCAST 3, "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -120,10 +120,10 @@ utility:
       Creatures in the fog are [url:status#Blinded]Blinded[/url].
       [br]To attack a target inside the cloud from outside (or the other way around) with [url:def#RangedAttack]ranged attacks[/url] or [section:clr-pa]projectile spells[/section], first pass a [section:clr-attr]PER[/section] check against the caster’s [section:clr-dc]DC INT[/section].
 
-  - name: "Lower/Raise"
-    id: "lower-raise"
+  - name: Lower/Raise
+    id: lower-raise
     auto_type: [DC, INT]
-    tags: ["TIER II", "Stone", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
+    tags: [TIER II, Stone, Utility, "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", Matrix Crystal]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -135,10 +135,10 @@ utility:
     saved: >
       Affected creatures may leave the area as a reaction.
 
-  - name: "Quagmire"
-    id: "quagmire"
+  - name: Quagmire
+    id: quagmire
     auto_type: [DC, INT]
-    tags: ["TIER II", "Stone", "Water", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER II, Stone, Water, Utility, "Range: 20m", "Radius: 4m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -151,10 +151,10 @@ utility:
     saved: >
       Target may perform a jump as a reaction.
 
-  - name: "Sinkhole"
-    id: "sinkhole"
+  - name: Sinkhole
+    id: sinkhole
     auto_type: [DC, INT]
-    tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
+    tags: [TIER II, Stone, Utility, "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", Matrix Crystal]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -166,10 +166,10 @@ utility:
     saved: >
       Off-Balance prevented.
 
-  - name: "Water Jet II"
-    id: "water-jet-ii"
+  - name: Water Jet II
+    id: water-jet-ii
     auto_type: [DC, INT]
-    tags: ["TIER II", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    tags: [TIER II, Water, Utility, "Range: 12m", UPCAST 3, "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
     cost:
@@ -184,13 +184,13 @@ utility:
       No effect.
 
 ritual:
-  - name: "Well"
-    id: "well"
-    tags: ["TIER II", "Stone", "Water", "Out of Combat"]
+  - name: Well
+    id: well
+    tags: [TIER II, Stone, Water, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Matrix Crystal"
+      - Matrix Crystal
     cast_time: 1 Phase
     description: >
       Create a shaft up to 20 m deep and bring groundwater up, if present. Requires stone/earth ground.

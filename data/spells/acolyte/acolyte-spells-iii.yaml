@@ -1,17 +1,17 @@
-name: "Acolyte Spells III"
-id: "acolyte-spells-iii"
-id_appendix: "III"
-prefix: "acolyteS"
+name: Acolyte Spells III
+id: acolyte-spells-iii
+id_appendix: III
+prefix: acolyteS
 
 offensive:
-  - name: "Rebuke"
-    id: "rebuke"
+  - name: Rebuke
+    id: rebuke
     auto_type: [SA, WIL]
-    tags: ["TIER III", "Sol", "Offensive", "Range: 20m"]
+    tags: [TIER III, Sol, Offensive, "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
     material:
-      - "Sunstone (optional)"
+      - Sunstone (optional)
     cost:
       - "[section:clr-mp]4 MP[/section]"
     description: >
@@ -21,14 +21,14 @@ offensive:
     effect: >
       [section:clr-roll]4d8[/section] Light
       [br](+[section:clr-roll]1d8[/section] per Lightburn stack)
-    saved: "Damage halved."
-    saved10: "No effect."
+    saved: Damage halved.
+    saved10: No effect.
 
 
 defensive:
-  - name: "Providence"
-    id: "providence"
-    tags: ["TIER III", "Luna", "Reaction", "Range: 20m"]
+  - name: Providence
+    id: providence
+    tags: [TIER III, Luna, Reaction, "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -41,10 +41,10 @@ defensive:
 
 
 utility:
-  - name: "Expunge"
-    id: "expunge"
+  - name: Expunge
+    id: expunge
     auto_type: [DC+, WIL]
-    tags: ["TIER III", "Sol", "Utility", "Range: 20m"]
+    tags: [TIER III, Sol, Utility, "Range: 20m"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
     cost:
@@ -55,10 +55,10 @@ utility:
     effect: >
       Forcibly ends a [section:clr-field][b]FIELD[/b][/section] or [section:clr-zone][b]ZONE[/b][/section] spell.
 
-  - name: "Lunacy"
-    id: "lunacy"
+  - name: Lunacy
+    id: lunacy
     auto_type: [DC, WIL]
-    tags: ["TIER III", "Luna", "Utility", "Radius: 4m"]
+    tags: [TIER III, Luna, Utility, "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -72,15 +72,15 @@ utility:
       [url:status#Panicked]Panicked[/url].
     saved: >
       [url:status#Confused]Confused[/url].
-    saved10: "No effect."
+    saved10: No effect.
 
-  - name: "Sunrise"
-    id: "sunrise"
-    tags: ["TIER III", "Sol", "Utility", "Radius: 20m"]
+  - name: Sunrise
+    id: sunrise
+    tags: [TIER III, Sol, Utility, "Radius: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Sunstone"
+      - Sunstone
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -89,13 +89,13 @@ utility:
     effect: >
       Provides [section:clr-sunlight]True Sunlight[/section] within the radius for one Phase.
 
-  - name: "Moonrise"
-    id: "moonrise"
-    tags: ["TIER III", "Luna", "Utility", "Radius: 20m"]
+  - name: Moonrise
+    id: moonrise
+    tags: [TIER III, Luna, Utility, "Radius: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Moonstone"
+      - Moonstone
     cost:
       - "[section:clr-mp]2 MP[/section]"
     description: >
@@ -106,14 +106,14 @@ utility:
 
 
 ritual:
-  - name: "Prophecy"
-    id: "prophecy"
-    tags: ["TIER III", "Luna", "Out of Combat"]
+  - name: Prophecy
+    id: prophecy
+    tags: [TIER III, Luna, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Moonstone"
-      - "Reflective surface"
+      - Moonstone
+      - Reflective surface
     cast_time: 1 Phase
     description: >
       The acolyte receives impressions of possible futures from Luna, represented by [i]Prophecy Dice[/i]. These may be used to replace [b]any of their own rolls[/b] at [b]any time[/b].

@@ -16,7 +16,7 @@ exclusive:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Monster Core, any"
+      - 1× Monster Core, any
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -61,7 +61,7 @@ exclusive:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "1× Elemental Core, any"
+      - 1× Elemental Core, any
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >

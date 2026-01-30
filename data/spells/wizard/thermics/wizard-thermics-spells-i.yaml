@@ -1,18 +1,18 @@
-name: "Thermics Spells I"
-id: "wizard-thermics-spells-i"
-id_appendix: "I"
-prefix: "thermics"
+name: Thermics Spells I
+id: wizard-thermics-spells-i
+id_appendix: I
+prefix: thermics
 
 offensive:
-  - name: "Thermal Beam I"
+  - name: Thermal Beam I
     alias: [Thermic Beam I]
-    id: "thermal-beam-i"
+    id: thermal-beam-i
     auto_type: [SA, INT]
-    tags: ["TIER I", "Fire", "Ice", "Offensive", "Range: 20m", "UPCAST 5"]
+    tags: [TIER I, Fire, Ice, Offensive, "Range: 20m", UPCAST 5]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]1/2/3 MP[/section]"
     description: >
@@ -25,10 +25,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Ice Shrapnel"
-    id: "ice-shrapnel"
+  - name: Ice Shrapnel
+    id: ice-shrapnel
     auto_type: [SA, INT]
-    tags: ["TIER I", "Ice", "Offensive", "Range: 6m", "UPCAST 3"]
+    tags: [TIER I, Ice, Offensive, "Range: 6m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -42,11 +42,11 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Thermal Bolt I"
+  - name: Thermal Bolt I
     alias: [Thermic Bolt I]
-    id: "thermal-bolt-i"
+    id: thermal-bolt-i
     auto_type: [PA, INT]
-    tags: ["TIER I", "Fire", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER I, Fire, Ice, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -58,11 +58,11 @@ offensive:
 
 
 defensive:
-  - name: "Thermal Barrier I"
+  - name: Thermal Barrier I
     alias: [Thermic Barrier I]
-    id: "thermal-barrier-i"
+    id: thermal-barrier-i
     auto_type: [SD, INT, PER]
-    tags: ["TIER I", "Fire", "Ice", "Reaction", "UPCAST 3"]
+    tags: [TIER I, Fire, Ice, Reaction, UPCAST 3]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -75,10 +75,10 @@ defensive:
 
 
 utility:
-  - name: "Frost Breath"
-    id: "frost-breath"
+  - name: Frost Breath
+    id: frost-breath
     auto_type: [DC, INT]
-    tags: ["TIER I", "Ice", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER I, Ice, Utility, "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
@@ -90,10 +90,10 @@ utility:
     saved: >
       No effect.
 
-  - name: "Sparkstream I"
-    id: "sparkstream-i"
+  - name: Sparkstream I
+    id: sparkstream-i
     auto_type: [DC, INT]
-    tags: ["TIER I", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
+    tags: [TIER I, Fire, Utility, "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
@@ -107,14 +107,14 @@ utility:
 
 
 ritual:
-  - name: "Thermal Manipulation"
+  - name: Thermal Manipulation
     alias: [Thermic Manipulation]
-    id: "thermal-manipulation"
-    tags: ["TIER I", "Ice", "Fire", "Out of Combat"]
+    id: thermal-manipulation
+    tags: [TIER I, Ice, Fire, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "—"
+      - —
     cast_time: Variable
     description: >
       Manipulate thermal mana (e.g., create a flame, chill a drink, heat a room…).

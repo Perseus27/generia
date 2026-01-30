@@ -1,17 +1,17 @@
-name: "Hermetics Spells II"
-id: "wizard-hermetics-spells-ii"
-id_appendix: "II"
-prefix: "hermetics"
+name: Hermetics Spells II
+id: wizard-hermetics-spells-ii
+id_appendix: II
+prefix: hermetics
 
 offensive:
-  - name: "Mana Beam II"
-    id: "mana-beam-ii"
+  - name: Mana Beam II
+    id: mana-beam-ii
     auto_type: [SA, INT]
-    tags: ["TIER II", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Arcane, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "Matrix Crystal (optional)"
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
@@ -24,10 +24,10 @@ offensive:
     saved10: >
       No effect.
 
-  - name: "Mana Bolt II"
-    id: "mana-bolt-ii"
+  - name: Mana Bolt II
+    id: mana-bolt-ii
     auto_type: [PA, INT]
-    tags: ["TIER II", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    tags: [TIER II, Arcane, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
     cost:
@@ -39,11 +39,11 @@ offensive:
 
 
 defensive:
-  - name: "Arcane Barrier II"
-    id: "arcane-barrier-ii"
+  - name: Arcane Barrier II
+    id: arcane-barrier-ii
     alias: [Mana Barrier II]
     auto_type: [SD, INT, PER]
-    tags: ["TIER II", "Arcane", "Reaction", "UPCAST 5"]
+    tags: [TIER II, Arcane, Reaction, UPCAST 5]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -53,9 +53,9 @@ defensive:
     effect: >
       [section:clr-roll]1d8[/section] Protection
 
-  - name: "Arcane Shield II"
-    id: "arcane-shield-ii"
-    tags: ["TIER II", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Arcane Shield II
+    id: arcane-shield-ii
+    tags: [TIER II, Arcane, Defensive, UPCAST 5, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -65,10 +65,10 @@ defensive:
     effect: >
       [section:clr-roll]1d6[/section] Protection
 
-  - name: "Blink"
-    id: "blink"
+  - name: Blink
+    id: blink
     auto_type: [SD, INT, PER]
-    tags: ["TIER II", "Arcane", "Reaction", "Range: [[section:clr-value]Arcane[/section]] m"]
+    tags: [TIER II, Arcane, Reaction, "Range: [[section:clr-value]Arcane[/section]] m"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
     cost:
@@ -78,10 +78,10 @@ defensive:
     effect: >
       Teleport to a target position within range.
 
-  - name: "Counterspell"
-    id: "counterspell"
+  - name: Counterspell
+    id: counterspell
     auto_type: [SA, INT]
-    tags: ["TIER II", "Arcane", "Reaction", "Range: 20m"]
+    tags: [TIER II, Arcane, Reaction, "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]???[/section]"
     cost:
@@ -99,9 +99,9 @@ defensive:
     effect: >
       On success, the target spell is dispelled. The target spell's MP costs are refunded, except for [section:clr-value]1[/section] MP.
 
-  - name: "Projectile Shield"
-    id: "projectile-shield"
-    tags: ["TIER II", "Arcane", "Defensive", "Range: 12m", "Radius: 4m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Projectile Shield
+    id: projectile-shield
+    tags: [TIER II, Arcane, Defensive, "Range: 12m", "Radius: 4m", UPCAST 3, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -113,9 +113,9 @@ defensive:
 
 
 utility:
-  - name: "Chameleon II"
-    id: "chameleon-ii"
-    tags: ["TIER II", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+  - name: Chameleon II
+    id: chameleon-ii
+    tags: [TIER II, Light, Utility, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -125,13 +125,13 @@ utility:
     effect: >
       Target gains [url:status#Hidden]Hidden 2[/url]; the effect refreshes while concentration is maintained.
 
-  - name: "Chameleon Field"
-    id: "chameleon-field"
-    tags: ["TIER II", "Light", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]"]
+  - name: Chameleon Field
+    id: chameleon-field
+    tags: [TIER II, Light, Utility, "Range: 20m", "Radius: 4m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
-      - "Matrix Crystal"
+      - Matrix Crystal
     cost:
       - "[section:clr-mpcost]4 MP[/section]"
     description: >
@@ -139,9 +139,9 @@ utility:
     effect: >
       Creatures and objects in the area gain [url:status#Hidden]Hidden 2[/url]; the effect continually renews inside the area.
 
-  - name: "Dampening Field"
-    id: "dampening-field"
-    tags: ["TIER II", "Arcane", "Utility", "Range: 20m", "Radius: 4m", "META", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+  - name: Dampening Field
+    id: dampening-field
+    tags: [TIER II, Arcane, Utility, "Range: 20m", "Radius: 4m", META, "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -156,9 +156,9 @@ utility:
       [li]Disadvantage 1 on [section:clr-sa]SA[/section][/li]
       [/ul]
 
-  - name: "Dimension Step"
-    id: "dimension-step"
-    tags: ["TIER II", "Arcane", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
+  - name: Dimension Step
+    id: dimension-step
+    tags: [TIER II, Arcane, Utility, "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -168,10 +168,10 @@ utility:
     effect: >
       Teleport to a target position up to [section:clr-attr]INT[/section]+[section:clr-value]Arcane[/section] meters away; the destination must be free and in line of sight.
 
-  - name: "Illusory Double"
-    id: "illusory-double"
+  - name: Illusory Double
+    id: illusory-double
     auto_type: [DC, INT]
-    tags: ["TIER II", "Light", "Utility", "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER II, Light, Utility, "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]"
     cost:
@@ -183,9 +183,9 @@ utility:
     saved: >
       Attacker recognizes the double as an illusion.
 
-  - name: "Saturation Field"
-    id: "saturation-field"
-    tags: ["TIER II", "Arcane", "Utility", "Range: 20m", "Radius: 4m", "UPCAST 3", "[section:clr-meta]META[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Saturation Field
+    id: saturation-field
+    tags: [TIER II, Arcane, Utility, "Range: 20m", "Radius: 4m", UPCAST 3, "[section:clr-meta]META[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -199,9 +199,9 @@ utility:
       [li]If you lose concentration on this spell by casting another, the boost ends before the new spell takes effect.[/li]
       [/ul]
 
-  - name: "Thermal Vision"
-    id: "thermal-vision"
-    tags: ["TIER II", "Arcane", "Utility", "Radius: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Thermal Vision
+    id: thermal-vision
+    tags: [TIER II, Arcane, Utility, "Radius: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -213,26 +213,26 @@ utility:
 
 
 ritual:
-  - name: "Alarm Circle"
-    id: "alarm-circle"
-    tags: ["TIER II", "Arcane", "Out of Combat", "Radius: 6m"]
+  - name: Alarm Circle
+    id: alarm-circle
+    tags: [TIER II, Arcane, Out of Combat, "Radius: 6m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Matrix Crystal"
+      - Matrix Crystal
     cast_time: 1 Phase
     description: >
       Create an arcane circle that emits a loud alarm when an intruder enters.
     effect: >
       Loud alarm on intrusion; lasts 12 hours per matrix crystal used.
 
-  - name: "Mirage"
-    id: "mirage"
-    tags: ["TIER II", "Light", "Out of Combat", "Radius: 4m"]
+  - name: Mirage
+    id: mirage
+    tags: [TIER II, Light, Out of Combat, "Radius: 4m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Matrix Crystal"
+      - Matrix Crystal
     cast_time: 1 Phase
     description: >
       Create a static illusion blending seamlessly into the surroundings that makes creatures/objects up to 4 m high in the radius much harder to detect. Lasts 12 hours per matrix crystal used.

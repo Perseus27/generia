@@ -1,12 +1,12 @@
-name: "Nox Spells II"
-id: "nox-spells-ii"
-id_appendix: "II"
-prefix: "noxS"
+name: Nox Spells II
+id: nox-spells-ii
+id_appendix: II
+prefix: noxS
 
 offensive:
-  - name: "Shadow Coating"
-    id: "shadow-coating"
-    tags: ["TIER II", "Nox", "Offensive", "Reaction"]
+  - name: Shadow Coating
+    id: shadow-coating
+    tags: [TIER II, Nox, Offensive, Reaction]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -17,9 +17,9 @@ offensive:
       Damage type is converted to [url:dmgtype#Shadow]Shadow[/url].
 
 defensive:
-  - name: "Night Mist"
-    id: "night-mist"
-    tags: ["TIER II", "Nox", "Defensive", "Reaction"]
+  - name: Night Mist
+    id: night-mist
+    tags: [TIER II, Nox, Defensive, Reaction]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -30,9 +30,9 @@ defensive:
       Gain [url:status#Resistant]Resistant: Physical[/url] until end of turn.
 
 utility:
-  - name: "Darkness"
-    id: "darkness"
-    tags: ["TIER II", "Nox", "Utility", "Range: 12m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Darkness
+    id: darkness
+    tags: [TIER II, Nox, Utility, "Range: 12m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -42,9 +42,9 @@ utility:
     effect: >
       The area is in absolute darkness.
 
-  - name: "Noxian Bargain"
-    id: "noxian-bargain"
-    tags: ["TIER II", "Nox", "Utility"]
+  - name: Noxian Bargain
+    id: noxian-bargain
+    tags: [TIER II, Nox, Utility]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -54,9 +54,9 @@ utility:
     effect: >
       Gain [[section:clr-value]Night[/section]] or [[section:clr-value]Shadow[/section]] Nox Points (NP).
 
-  - name: "Shadow Step"
-    id: "shadow-step"
-    tags: ["TIER II", "Nox", "Shadow", "Utility", "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
+  - name: Shadow Step
+    id: shadow-step
+    tags: [TIER II, Nox, Shadow, Utility, "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -66,9 +66,9 @@ utility:
     effect: >
       Teleport to the chosen square.
 
-  - name: "Substitution"
-    id: "substitution"
-    tags: ["TIER II", "Nox", "Utility", "Reaction", "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
+  - name: Substitution
+    id: substitution
+    tags: [TIER II, Nox, Utility, Reaction, "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -78,9 +78,9 @@ utility:
     effect: >
       Teleport.
 
-  - name: "Wings of Night"
-    id: "wings-of-night"
-    tags: ["TIER II", "Nox", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
+  - name: Wings of Night
+    id: wings-of-night
+    tags: [TIER II, Nox, Utility, "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -90,10 +90,10 @@ utility:
     effect: >
       [url:status#Levitating]Levitating 2[/url] with MS = [section:clr-attr]DEX-MOD[/section] × [section:clr-value]2[/section].
 
-  - name: "Form of Dread"
-    id: "form-of-dread"
+  - name: Form of Dread
+    id: form-of-dread
     auto_type: [DC, PER]
-    tags: ["TIER II", "Night", "Shadow", "Utility", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    tags: [TIER II, Night, Shadow, Utility, "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]INT[/section]"
     cost:
@@ -102,4 +102,4 @@ utility:
       You appear to each creature in range as the embodiment of its worst fear. Each target perceives a different form; you don’t know which.
     effect: >
       Creatures in the area become [url:status#Frightened]Frightened[/url].
-    saved: "No effect."
+    saved: No effect.
