@@ -28,7 +28,7 @@ armor:
   torso: 10
   arms: 9
   legs: 9
-  md: 1
+  md: 6
   er: 0
 loot:
   - Trophy (Tooth)
@@ -77,7 +77,7 @@ actions:
     - name: Reptilian Skin
       type: Passive
       effect:
-        - "AV is increased by [section:clr-attr]CON-MOD[/section]."
+        - "AV and MD are increased by [section:clr-attr]CON-MOD[/section]."
 
     - name: Saurian Senses
       type: Passive
