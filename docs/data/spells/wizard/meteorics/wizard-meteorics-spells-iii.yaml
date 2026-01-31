@@ -218,7 +218,7 @@ utility:
     saved10: >
       No effect.
 
-rituals:
+ritual:
   - name: Flashstorm
     id: flashstorm
     tags: [TIER III, Lightning, Out of Combat, "Range: 1km"]
