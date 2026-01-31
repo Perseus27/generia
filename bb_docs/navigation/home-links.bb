@@ -69,7 +69,7 @@
 
 [h4][url:/generia/character/spellcasting-traditions/wizard/what-is-a-wizard]Wizard[/url][/h4]
 [url:hermetics]Hermetics[/url], [url:kinetics]Kinetics[/url], [url:meteorics]Meteorics[/url], [url:thermics]Thermics[/url]
-[br][url:wizardX]Exclusive[/url]
+[br][url:wizardX]Exclusive[/url], [url:inter]Interdisciplinary[/url]
 
 
 

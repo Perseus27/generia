@@ -49,7 +49,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]1/2/3/5/8 MP[/section]"
     description: >
-      Creates a magical barrier around the wizard that neutralizes incoming damage of a single attack if [section:clr-sd]SD[/section] meets or exceeds the attack roll. The barrier breaks at its maximum; excess damage carries over.
+      Creates a magical barrier around the Wizard that neutralizes incoming damage of a single attack if [section:clr-sd]SD[/section] meets or exceeds the attack roll. The barrier breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d4[/section] Protection
 
@@ -61,7 +61,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]1/2/3/5/8 MP[/section]"
     description: >
-      Erects a magical shield around the wizard that neutralizes incoming damage. It breaks at its maximum; excess damage carries over. Persists until destroyed, replaced, or combat ends.
+      Erects a magical shield around the Wizard that neutralizes incoming damage. It breaks at its maximum; excess damage carries over. Persists until destroyed, replaced, or combat ends.
     effect: >
       [section:clr-roll]1d4[/section] Protection
 
@@ -102,7 +102,7 @@ utility:
     cost:
       - "[section:clr-mpcost]2 MP[/section]"
     description: >
-      The wizard makes a creature (or object) darker and less conspicuous.
+      The Wizard makes a creature (or object) darker and less conspicuous.
     effect: >
       Target gains [url:status#Hidden]Hidden 1[/url]. The effect refreshes while concentration is maintained.
 
@@ -115,7 +115,7 @@ utility:
     cost:
       - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      The wizard flares their focus, dazzling all creatures facing them.
+      The Wizard flares their focus, dazzling all creatures facing them.
     effect: >
       [url:status#Blinded]Blinded 1[/url] and [url:status#Confused]Confused[/url].
     saved: >
@@ -146,7 +146,7 @@ ritual:
       - Crystal
     cast_time: 1 hour
     description: >
-      The wizard etches a generic spell matrix into a crystal at least chestnut-sized.
+      The Wizard etches a generic spell matrix into a crystal at least chestnut-sized.
     effect: >
       Creates a matrix crystal.
 

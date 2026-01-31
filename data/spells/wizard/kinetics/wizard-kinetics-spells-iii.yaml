@@ -4,23 +4,6 @@ id_appendix: III
 prefix: kinetics
 
 offensive:
-  - name: Geyser Field
-    id: geyser-field
-    auto_type: [DC, INT]
-    tags: [TIER III, Fire, Water, Offensive, "Range: 20m", "Radius: 6m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
-    type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
-    cost:
-      - "[section:clr-mpcost]6 MP[/section]"
-    description: >
-      Creates a geothermally active field of scalding steam; creatures save at the start of their turns and on every Movement Action; the caster may “deactivate” any spots while maintaining.
-    effect: >
-      [section:clr-roll]4d6[/section] Fire
-    saved: >
-      Damage halved.
-    saved10: >
-      No effect.
-
   - name: Kinetic Bolt III
     id: kinetic-bolt-iii
     auto_type: [PA, INT]
@@ -62,7 +45,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+      Erects a barrier around the Wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d12[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]

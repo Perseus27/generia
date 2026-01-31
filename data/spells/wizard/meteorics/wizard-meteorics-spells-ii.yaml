@@ -44,7 +44,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      The wizard strikes the target with focused thunder.
+      The Wizard strikes the target with focused thunder.
     effect: >
       [section:clr-roll]1d6[/section] Absolute
     saved: >
@@ -63,7 +63,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      The wizard shoots an arc of electricity out of their fingertip.
+      The Wizard shoots an arc of electricity out of their fingertip.
       [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Lightning[/section]] different creatures. The total MP cost is multiplied by the number of targets.
     effect: >
       [section:clr-roll]2d6[/section] Lightning
@@ -82,7 +82,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+      Erects a barrier around the Wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d8[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Air/Lightning[/i]

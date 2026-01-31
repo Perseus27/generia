@@ -7,17 +7,20 @@ offensive:
   - name: Explosion
     id: explosion
     auto_type: [DC, INT]
-    tags: [TIER III, Fire, Offensive, "Range: 20m", "Radius: 4m"]
+    tags: [TIER III, Fire, Offensive, "Range: 20m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
       - "[section:clr-mpcost]4 MP[/section]"
+    material:
+      - Matrix Crystal (optional)
     description: >
       The Wizard targets a creature with at least one stack of [url:status#Burning]Burning[/url] and causes it 
       to violently explode, dealing severe damage to the target and adjacent creatures.
+      [br][b]Matrix Crystal:[/b] For an additional [section:clr-mp]2 MP[/section] per target, targets up to [[section:clr-value]Fire[/section]] burning creatures in range.
     effect: >
       [section:clr-roll]4d8 Fire[/section] 
-      [section:clr-roll]+1d8[/section] per stack of [url:status#Burning]Burning[/url]
+      [br][section:clr-roll]+1d8[/section] per stack of [url:status#Burning]Burning[/url]
     saved: >
       Damage halved.
     saved10: >
@@ -40,23 +43,6 @@ offensive:
     saved10: >
       No effect.
 
-  - name: Hailstorm
-    id: hailstorm
-    auto_type: [DC, INT]
-    tags: [TIER III, Air, Ice, Offensive, "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
-    type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
-    cost:
-      - "[section:clr-mpcost]4 MP[/section]"
-    description: >
-      Summons a localized magical hailstorm.
-    effect: >
-      [section:clr-roll]2d6[/section] Air, [section:clr-roll]2d6[/section] Ice
-    saved: >
-      Damage halved.
-    saved10: >
-      No effect.
-
   - name: Thermal Beam III
     alias: [Thermic Beam III]
     id: thermal-beam-iii
@@ -69,7 +55,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      The wizard lashes the target with a beam of fire or ice.
+      The Wizard lashes the target with a beam of fire or ice.
       [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Fire / Ice[/section]] different creatures. The total MP cost is multiplied by the number of targets.
     effect: >
       [section:clr-roll]2d8[/section] Fire / Ice
@@ -140,28 +126,29 @@ defensive:
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+      Erects a barrier around the Wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d12[/section] Protection
       [br][i]Barrier is [url:status#Resistant]resistant[/url] against Fire / Ice[/i]
 
 
 utility:
-  - name: Blizzard
-    id: blizzard
+  - name: Flash Freeze
+    id: flash-freeze
     auto_type: [DC, INT]
-    tags: [TIER III, Air, Ice, Utility, "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER III, Ice, Utility, "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - Matrix Crystal (optional)
     cost:
-      - "[section:clr-mpcost]4 MP[/section]"
+      - "[section:clr-mpcost]4 MP[/section]"    
     description: >
-      The wizard creates a localized magical blizzard.
+      The Wizard rapidly cools down the body temperature of a target that is already [url:status#Chilled]Chilled[/url], freezing it in place.
+      [br][b]Matrix Crystal:[/b] For an additional [section:clr-mp]2 MP[/section] per target, targets up to [[section:clr-value]Ice[/section]] chilled creatures in range.
     effect: >
-      Creatures in the zone are [url:status#Chilled]Chilled[/url].
+      [url:status#Frozen]Frozen[/url].
     saved: >
-      [url:status#Slowed]Slowed[/url].
-    saved10: >
       No effect.
 
   - name: Sparkstream III
@@ -173,7 +160,7 @@ utility:
     cost:
       - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      The wizard sends a stream of sparks at a target, setting it aflame.
+      The Wizard sends a stream of sparks at a target, setting it aflame.
     effect: >
       [url:status#Burning]Burning 3[/url].
     saved: >

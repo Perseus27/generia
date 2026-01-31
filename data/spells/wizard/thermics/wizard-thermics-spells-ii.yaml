@@ -33,7 +33,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      The wizard hurls an icy lance at the target. If the target is [url:status#Chilled]chilled[/url] or [url:status#Frozen]frozen[/url], the spell deals bonus ice damage (not affected by upcast).
+      The Wizard hurls an icy lance at the target. If the target is [url:status#Chilled]chilled[/url] or [url:status#Frozen]frozen[/url], the spell deals bonus ice damage (not affected by upcast).
     effect: >
       [section:clr-roll]2d8[/section] Ice
       [br][section:clr-roll]+1d8[/section] if [i]chilled[/i]/[i]frozen[/i].
@@ -50,7 +50,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      The wizard lashes the target with a beam of fire or ice.
+      The Wizard lashes the target with a beam of fire or ice.
       [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Fire / Ice[/section]] different creatures. The total MP cost is multiplied by the number of targets.
     effect: >
       [section:clr-roll]2d6[/section] Fire / Ice
@@ -119,7 +119,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+      Erects a barrier around the Wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d8[/section] Protection
       [br][i]Barrier is [url:status#Resistant]resistant[/url] against Fire / Ice[/i]
@@ -135,7 +135,7 @@ utility:
     cost:
       - "[section:clr-mpcost]1 MP[/section]"
     description: >
-      The wizard sends a stream of sparks at a target, setting it aflame.
+      The Wizard sends a stream of sparks at a target, setting it aflame.
     effect: >
       [url:status#Burning]Burning 2[/url].
     saved: >
