@@ -187,7 +187,7 @@ utility:
     saved10: >
       [url:status#Burning]Burning 1[/url].
 
-rituals:
+ritual:
   - name: Meteor Shower
     id: meteor-shower
     tags: [TIER III, Fire, Out of Combat, "Range: 1km"]
