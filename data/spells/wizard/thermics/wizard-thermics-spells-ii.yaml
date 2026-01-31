@@ -15,7 +15,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      An exploding ball of fire that damages all creatures in the radius.
+      The Wizard conjures an exploding ball of fire that damages all creatures in the radius.
       [br][b]Matrix Crystal:[/b] The radius is increased by [section:clr-value]1[/section].
     effect: >
       [section:clr-roll]2d6[/section] Fire

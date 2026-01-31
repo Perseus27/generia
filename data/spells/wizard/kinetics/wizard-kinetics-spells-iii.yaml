@@ -15,7 +15,7 @@ offensive:
     description: >
       A bolt of stone or water mana.
     effect: >
-      [section:clr-roll]2d10[/section] Blunt / Sharp
+      [section:clr-roll]2d12[/section] Blunt / Sharp
 
   - name: Stone Spears
     id: stone-spears
@@ -26,7 +26,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      Jagged stone spears erupt from the ground in the target area.
+      Jagged stone spears erupt from the ground in the target area. The area is transformed into difficult terrain.
     effect: >
       [section:clr-roll]2d8[/section] Sharp to each target.
       [br][i]Hit zone: Legs[/i]
