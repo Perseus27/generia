@@ -4,18 +4,22 @@ id_appendix: III
 prefix: meteorics
 
 offensive:
-  - name: Chain Lightning I
-    id: chain-lightning-i
+  - name: Chain Lightning
+    id: chain-lightning
     auto_type: [SA, INT]
     tags: [TIER III, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      Hurls a bolt that leaps to the nearest new target within [[section:clr-value]Lightning[/section]] m until no new targets remain (caster chooses if equally distant).
+      Hurls a bolt that leaps to the nearest new target within [[section:clr-value]Lightning[/section]] meters until no new targets remain. 
+      If two targets are equally distant, the Wizard may decide.
+      [br][b]Matrix Crystal:[/b] The spell does not target allies.
     effect: >
-      [section:clr-roll]2d6[/section] Lightning.
+      [section:clr-roll]2d8[/section] Lightning.
     saved: >
       Damage halved.
     saved10: >
@@ -24,14 +28,37 @@ offensive:
   - name: Lightning Blast II
     id: lightning-blast-ii
     auto_type: [SA, INT]
-    tags: [TIER III, Lightning, Offensive, "Range: 20m", UPCAST 3]
+    tags: [TIER III, Lightning, Offensive, "Range: 20m", "Width: 3m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]4/8/12 MP[/section]"
     description: >
-      A bright lightning that hits all targets in a straight line from the caster.
-      [br]Width: [section:clr-value]3m[/section]
+      A bright lightning that hits all targets in a straight line from the Wizard.
+      [br]Creatures with the status effect [url:status#Shocked]Shocked[/url] have [url:core#Disadvantage]Disadvantage 1[/url] on the save.
+      [br][b]Matrix Crystal:[/b] The spell does not damage allies.
+    effect: >
+      [section:clr-roll]2d8[/section] Lightning
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+  - name: Lightning Strike
+    id: lightning-strike
+    auto_type: [SA, INT]
+    tags: [TIER III, Lightning, Offensive, "Range: 20m", "Radius: 2m", UPCAST 3]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - Matrix Crystal (optional)
+    cost:
+      - "[section:clr-mpcost]4/8/12 MP[/section]"
+    description: >
+      An intense lightning strike hits the area from above.
+      [br][b]Matrix Crystal:[/b] Previously [url:status#Shocked]shocked[/url] creatures are [url:status#Stunned]stunned[/url] on [url:def#Hit]hit[/url].
     effect: >
       [section:clr-roll]3d6[/section] Lightning
     saved: >
@@ -50,7 +77,7 @@ offensive:
     description: >
       A bolt of air or lightning mana.
     effect: >
-      [section:clr-roll]2d10[/section] Air / Lightning
+      [section:clr-roll]2d12[/section] Air / Lightning
 
   - name: Shockwave
     id: shockwave
@@ -61,16 +88,17 @@ offensive:
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      The caster becomes the epicenter of a thunderous pressure wave.
+      The Wizard becomes the epicenter of a thunderous pressure wave.
     effect: >
-      [section:clr-roll]1d6[/section] [url:dmgtype#Absolute]Absolute[/url] damage.
+      [section:clr-roll]1d6[/section] [url:dmgtype#Absolute]Absolute[/url]
     saved: >
       Damage halved.
     saved10: >
       No effect.
 
-  - name: Thunderbolt II
-    id: thunderbolt-ii
+  - name: Thunder II
+    id: thunder-ii
+    alias: [Thunderbolt II]
     auto_type: [SA, INT]
     tags: [TIER II, Air, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
@@ -78,7 +106,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]4/8/12 MP[/section]"
     description: >
-      The Wizard strikes the target with focused thunder.
+      The Wizard strikes a target with focused thunder.
     effect: >
       [section:clr-roll]2d6[/section] Absolute
     saved: >
@@ -98,6 +126,7 @@ offensive:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
       The Wizard shoots an arc of electricity out of their fingertip.
+      [br]Creatures with the status effect [url:status#Shocked]Shocked[/url] have [url:core#Disadvantage]Disadvantage 1[/url] on the save.
       [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Lightning[/section]] different creatures. The total MP cost is multiplied by the number of targets.
     effect: >
       [section:clr-roll]2d8[/section] Lightning
@@ -124,7 +153,7 @@ defensive:
 utility:
   - name: Flight
     id: flight
-    tags: [TIER III, Air, Utility|Move, "[section:clr-movement]MOVEMENT[/section]"]
+    tags: [TIER III, Air, Utility, "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -137,32 +166,74 @@ utility:
   - name: Static Field
     id: static-field
     auto_type: [DC, INT]
-    tags: [TIER III, Lightning, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER III, Lightning, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     cost:
       - "[section:clr-mpcost]6 MP[/section]"
     description: >
-      A field of static electricity overwhelms the nervous systems of creatures in the area.
+      A field of static electricity overwhelms the nervous systems of all creatures in the area.
     effect: >
-      Creatures in the area are [url:status#Stunned]Stunned[/url] and Shocked [[section:clr-value]Lightning[/section]].
+      Creatures in the area are [url:status#Stunned]Stunned[/url] and [url:status#Shocked]Shocked[/url] [[section:clr-value]Lightning[/section]].
       [br][i][url:status#Stunned]Stunned[/url] ends immediately upon leaving the zone.[/i]
     saved: >
       Prevents Stun.
     saved10: >
       No effect.
 
+  - name: Suspend
+    id: suspend
+    auto_type: [DC, INT]
+    tags: [TIER III, Air, Utility, "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      The Wizard forcibly lifts a creature into the air, rendering it incapable of walking.
+      [br]If the spell is forcibly interrupted, the target falls to the ground. If the Wizard chooses to end the spell, they may let the target float down gently instead.
+      [br][i]No effect on flying creatures. The save is [url:core#Eased]eased[/url] by [section:clr-value]10[/section]/[section:clr-value]20[/section] for large/huge creatures.[/i]
+    effect: >
+      [url:status#Levitating]Levitating 1/2/3[/url] with MS [section:clr-value]0[/section].
+    saved: >
+      MS is equal to [section:clr-attr]DEX-MOD[/section].
+    saved10: >
+      No effect.
+
   - name: Vacuum
     id: vacuum
     auto_type: [DC, INT]
-    tags: [TIER III, Air, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    tags: [TIER III, Air, Utility, "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]/[section:clr-attr]WIL[/section]"
     cost:
       - "[section:clr-mpcost]4 MP[/section]"
     description: >
-      Creates a vacuum that makes breathing impossible.
+      The Wizard creates a short-lived vacuum, making breathing impossible.
+      [br][i]Only affects creatures with lungs.[/i]
     effect: >
-      Creatures in the area are [url:status#Silenced]Silenced[/url] and become [url:status#Unconscious]Unconscious[/url].
+      Creatures in the area lose [section:clr-conc]Concentration[/section].
     saved: >
-      Prevents Unconsciousness.
+      Creatures may make a regular Concentration save against the [section:clr-dc]DC[/section] instead.
+    saved10: >
+      No effect.
+
+rituals:
+  - name: Flashstorm
+    id: flashstorm
+    tags: [TIER III, Lightning, Out of Combat, "Range: 1km"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - Matrix Crystal, any
+    cost:
+      - "[section:clr-mpcost]12 MP[/section]"
+    cast_time: 2 Phases
+    description: >
+      The Wizard conjures bristling bolts of magical lightning that strike all creatures in the area from above.
+      [br]The radius of the target area depends on the Wizard's Lightning [url:values#PV]PV[/url] and the Matrix Crystal used:
+      [br][b]Normal:[/b] [[section:clr-value]Lightning[/section]] meters
+      [br][b]Greater:[/b] [[section:clr-value]Lightning * 10[/section]] meters
+      [br]This ritual is neither subtle nor concealable. All mana-sensitive creatures in range can sense it.
+    effect: >
+      All creatures without cover suffer [[section:clr-value]Lightning[/section]] * [section:clr-roll]2d12[/section] Lightning damage.

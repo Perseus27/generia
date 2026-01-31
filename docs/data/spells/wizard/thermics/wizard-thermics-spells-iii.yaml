@@ -29,19 +29,37 @@ offensive:
   - name: Fireball II
     id: fireball-ii
     auto_type: [SA, INT]
-    tags: [TIER III, Fire, Offensive, "Range: 20m", "Radius: 4m", UPCAST 3]
+    tags: [TIER III, Fire, Offensive, "Range: 20m", "Radius: 2m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]4/8/12 MP[/section]"
     description: >
-      An exploding ball of fire that damages all creatures in the radius.
+      The Wizard conjures an exploding ball of fire that damages all creatures in the radius.
+      [br]Creatures with the status effect [url:status#Burning]Burning[/url] have [url:core#Disadvantage]Disadvantage 1[/url] on the save.
+      [br][b]Matrix Crystal:[/b] The radius is increased by [section:clr-value]1[/section].
     effect: >
-      [section:clr-roll]3d6[/section] Fire
+      [section:clr-roll]2d8[/section] Fire
     saved: >
       Damage halved.
     saved10: >
       No effect.
+
+  - name: Frost Lance II
+    id: frost-lance-ii
+    auto_type: [PA, INT]
+    tags: [TIER III, Ice, Offensive, "Range: 20m", UPCAST 3]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      The Wizard hurls an icy lance at the target. If the target is [url:status#Chilled]chilled[/url] or [url:status#Frozen]frozen[/url], the spell deals bonus ice damage (not affected by upcast).
+    effect: >
+      [section:clr-roll]2d12[/section] Ice
+      [br][section:clr-roll]+1d12[/section] if [i]chilled[/i]/[i]frozen[/i].
 
   - name: Thermal Beam III
     alias: [Thermic Beam III]
@@ -56,6 +74,7 @@ offensive:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
       The Wizard lashes the target with a beam of fire or ice.
+      [br]Creatures with the status effect [url:status#Burning]Burning[/url]/[url:status#Chilled]Chilled[/url] have [url:core#Disadvantage]Disadvantage 1[/url] on the save.
       [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Fire / Ice[/section]] different creatures. The total MP cost is multiplied by the number of targets.
     effect: >
       [section:clr-roll]2d8[/section] Fire / Ice
@@ -76,7 +95,7 @@ offensive:
     description: >
       A bolt of fire or ice mana.
     effect: >
-      [section:clr-roll]2d10[/section] Fire / Ice
+      [section:clr-roll]2d12[/section] Fire / Ice
 
 
 defensive:
@@ -167,3 +186,23 @@ utility:
       [url:status#Burning]Burning 2[/url].
     saved10: >
       [url:status#Burning]Burning 1[/url].
+
+rituals:
+  - name: Meteor Shower
+    id: meteor-shower
+    tags: [TIER III, Fire, Out of Combat, "Range: 1km"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - Matrix Crystal, any
+    cost:
+      - "[section:clr-mpcost]12 MP[/section]"
+    cast_time: 2 Phases
+    description: >
+      The Wizard conjures a large number of meteors to devastate an area.
+      [br]The radius of the target area depends on the Wizard's Fire [url:values#PV]PV[/url] and the Matrix Crystal used:
+      [br][b]Normal:[/b] [[section:clr-value]Fire[/section]] meters
+      [br][b]Greater:[/b] [[section:clr-value]Fire * 10[/section]] meters
+      [br]This ritual is neither subtle nor concealable. All mana-sensitive creatures in range can sense it.
+    effect: >
+      All creatures and structures in the area suffer [[section:clr-value]Fire[/section]] * [section:clr-roll]2d12[/section] Fire damage.

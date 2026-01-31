@@ -11,11 +11,11 @@ offensive:
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mpcost]4/8/12 MP[/section]"
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
       The Wizard vents highly concentrated mana, damaging nearby creatures.
     effect: >
-      [section:clr-roll]2d6[/section] Arcane
+      [section:clr-roll]2d8[/section] Arcane
     saved: >
       Damage halved.
     saved10: >
@@ -52,7 +52,7 @@ offensive:
     description: >
       Shoots a projectile of pure mana.
     effect: >
-      [section:clr-roll]2d10[/section] Arcane
+      [section:clr-roll]2d12[/section] Arcane
 
 
 defensive:

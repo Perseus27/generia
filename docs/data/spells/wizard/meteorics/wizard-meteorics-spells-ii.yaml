@@ -7,14 +7,16 @@ offensive:
   - name: Lightning Blast I
     id: lightning-blast-i
     auto_type: [SA, INT]
-    tags: [TIER II, Lightning, Offensive, "Range: 20m", UPCAST 3]
+    tags: [TIER II, Lightning, Offensive, "Range: 20m", "Width: 3m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - Matrix Crystal (optional)
     cost:
       - "[section:clr-mpcost]3/6/9 MP[/section]"
     description: >
-      A bright lightning that hits all targets in a straight line from the caster.
-      [br]Width: [section:clr-value]1m[/section]
+      A bright lightning that hits all targets in a straight line from the Wizard.
+      [br][b]Matrix Crystal:[/b] The spell does not damage allies.
     effect: >
       [section:clr-roll]2d6[/section] Lightning
     saved: >
@@ -35,8 +37,9 @@ offensive:
     effect: >
       [section:clr-roll]2d8[/section] Air / Lightning
 
-  - name: Thunderbolt I
-    id: thunderbolt-i
+  - name: Thunder I
+    id: thunder-i
+    alias: [Thunderbolt I]
     auto_type: [SA, INT]
     tags: [TIER II, Air, Lightning, Offensive, "Range: 20m", UPCAST 3]
     type:
@@ -44,7 +47,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      The Wizard strikes the target with focused thunder.
+      The Wizard strikes a target with focused thunder.
     effect: >
       [section:clr-roll]1d6[/section] Absolute
     saved: >
