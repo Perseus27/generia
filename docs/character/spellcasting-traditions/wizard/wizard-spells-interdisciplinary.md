@@ -1,21 +1,9 @@
 ---
-title: Wizard Spells - Kinetics
+title: Wizard Spells - Interdisciplinary
 ---
 <template id="sidebar-extra">
   <div class="sidebar-extra">
     <h3>Navigation</h3>
-    <h4>Tier I</h4>
-    <li><a href="#OffensiveI">Offensive</a></li>
-    <li><a href="#DefensiveI">Defensive</a></li>
-    <li><a href="#UtilityI">Utility</a></li>
-    <li><a href="#RitualI">Ritual</a></li>
-    <br>
-    <h4>Tier II</h4>
-    <li><a href="#OffensiveII">Offensive</a></li>
-    <li><a href="#DefensiveII">Defensive</a></li>
-    <li><a href="#UtilityII">Utility</a></li>
-    <li><a href="#RitualII">Ritual</a></li>
-    <br>
     <h4>Tier III</h4>
     <li><a href="#OffensiveIII">Offensive</a></li>
     <li><a href="#DefensiveIII">Defensive</a></li>
@@ -33,8 +21,6 @@ title: Wizard Spells - Kinetics
   </div>
 </template>
 
-# Kinetics
+# Interdisciplinary Spells
 
-{{ spells('data/spells/wizard/kinetics/wizard-kinetics-spells-i.yaml') }}
-{{ spells('data/spells/wizard/kinetics/wizard-kinetics-spells-ii.yaml') }}
-{{ spells('data/spells/wizard/kinetics/wizard-kinetics-spells-iii.yaml') }}
+{{ spells('data/spells/wizard/interdisciplinary/wizard-interdisciplinary-spells-iii.yaml') }}

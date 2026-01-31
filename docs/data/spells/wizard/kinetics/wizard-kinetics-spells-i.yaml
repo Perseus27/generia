@@ -42,7 +42,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]1/2/3 MP[/section]"
     description: >
-      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+      Erects a barrier around the Wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d4[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]

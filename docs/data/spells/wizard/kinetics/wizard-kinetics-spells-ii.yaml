@@ -57,7 +57,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
-      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+      Erects a barrier around the Wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d8[/section] Protection
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
@@ -84,8 +84,8 @@ defensive:
       - "[section:clr-mpcost]2/4/6 MP[/section]"
     description: >
       A hemispherical dome of water mana that intercepts projectiles. Spells cast [i]into[/i] the dome have [url:core#Disadvantage]Disadvantage 1[/url].
-      A creature must spend any [url:def#Actions]action[/url] to pass through against the wizard’s will. The wizard may, as a reaction, freely let projectiles and creatures pass for the rest of this turn.
-      The dome moves with the wizard at its center.
+      A creature must spend any [url:def#Actions]action[/url] to pass through against the Wizard’s will. The Wizard may, as a reaction, freely let projectiles and creatures pass for the rest of this turn.
+      The dome moves with the Wizard at its center.
     effect: >
       [section:clr-roll]2d6[/section] Protection
 

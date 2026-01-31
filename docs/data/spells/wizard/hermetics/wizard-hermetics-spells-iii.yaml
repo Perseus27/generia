@@ -13,7 +13,7 @@ offensive:
     cost:
       - "[section:clr-mpcost]4/8/12 MP[/section]"
     description: >
-      The wizard vents highly concentrated mana, damaging nearby creatures.
+      The Wizard vents highly concentrated mana, damaging nearby creatures.
     effect: >
       [section:clr-roll]2d6[/section] Arcane
     saved: >
@@ -66,7 +66,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]3/6/9/15/24 MP[/section]"
     description: >
-      Creates a magical barrier around the wizard that neutralizes incoming damage of a single attack if [section:clr-sd]SD[/section] meets or exceeds the attack roll. The barrier breaks at its maximum; excess damage carries over.
+      Creates a magical barrier around the Wizard that neutralizes incoming damage of a single attack if [section:clr-sd]SD[/section] meets or exceeds the attack roll. The barrier breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d12[/section] Protection
 
@@ -78,7 +78,7 @@ defensive:
     cost:
       - "[section:clr-mpcost]3/6/9/15/24 MP[/section]"
     description: >
-      Erects a magical shield around the wizard that neutralizes incoming damage. It breaks at its maximum; excess damage carries over. Persists until destroyed, replaced, or combat ends.
+      Erects a magical shield around the Wizard that neutralizes incoming damage. It breaks at its maximum; excess damage carries over. Persists until destroyed, replaced, or combat ends.
     effect: >
       [section:clr-roll]1d8[/section] Protection
 

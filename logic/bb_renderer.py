@@ -48,6 +48,7 @@ class BB_Renderer:
             'kinetics'  :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-kinetics',
             'meteorics' :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-meteorics',
             'thermics'  :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-thermics',
+            'inter'     :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-interdisciplinary',
             'wizardX'   :   '/generia/character/spellcasting-traditions/wizard/wizard-spells-exclusive',
             'class1'    :   '/generia/character/classes/tier-i',
             'class2'    :   '/generia/character/classes/tier-ii',

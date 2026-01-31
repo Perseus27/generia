@@ -16,6 +16,7 @@ title: Wizard Spells - Exclusive
     <li><a href="../wizard-spells-meteorics">Meteorics</a></li>
     <li><a href="../wizard-spells-thermics">Thermics</a></li>
     <li><a href="../wizard-spells-exclusive">Exclusive</a></li>
+    <li><a href="../wizard-spells-interdisciplinary">Interdisciplinary</a></li>
   </div>
 </template>
 
