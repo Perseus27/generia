@@ -42,11 +42,14 @@ content:
 
   - name: Variant
 
-  - name: Access
+  - name: Quick Access
+    id: QuickAccess
 
   - name: Enchanted
 
   - name: Pocket Dimension
     id: PocketDimension
+
+  - name: Singleton
 
   - name: Stack

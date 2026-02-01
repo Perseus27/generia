@@ -67,3 +67,7 @@
 
 .price-table th:nth-child(1) {
     width: 40%;}
+
+.item-table-storage th:nth-child(2) {
+    width: 32%;
+}

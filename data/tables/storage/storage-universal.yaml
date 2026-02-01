@@ -1,0 +1,58 @@
+name: Storage – Universal
+id: storage-universal
+table_type: item-table item-table-storage
+headers:
+- Name
+- Description
+- Content
+- Weight
+- Tags
+
+items:
+  - name: Backpack
+    weight: 0
+    tags: [Singleton]
+    price: 10
+    content: 6x4 Item Slots
+    description: >
+      A sturdy backpack designed for adventurers, explorers, and soldiers.
+
+  - name: Backpack, heavy
+    weight: 4
+    tags: [Singleton]
+    price: 100
+    content: 12x8 Item Slots
+    description: >
+      A heavy but sturdy backpack designed for adventurers, explorers, and soldiers.
+
+  - name: Belt
+    weight: 0
+    tags: [Singleton]
+    price: 5
+    content: 2 Attachments
+    description: >
+      A durable multipurpose belt, designed to carry modular [url:eqtags#QuickAccess]Quick Access[/url] storage.
+
+  - name: Belt, heavy
+    weight: 2
+    tags: [Singleton]
+    price: 50
+    content: 4 Attachments
+    description: >
+      A heavy but durable multipurpose belt, designed to carry modular [url:eqtags#QuickAccess]Quick Access[/url] storage.
+
+  - name: Shoulder Strap
+    weight: 0
+    tags: [Singleton]
+    price: 5
+    content: 2 Attachments
+    description: >
+      A type of belt worn across the torso, designed to carry modular [url:eqtags#QuickAccess]Quick Access[/url] storage.
+
+  - name: Shoulder Strap, heavy
+    weight: 2
+    tags: [Singleton]
+    price: 50
+    content: 4 Attachments
+    description: >
+      A type of belt worn across the torso, designed to carry modular [url:eqtags#QuickAccess]Quick Access[/url] storage.

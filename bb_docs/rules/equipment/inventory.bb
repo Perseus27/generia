@@ -26,3 +26,6 @@ The [i]Encumbrance Rating[/i] is added to all [url:def#Dodge]dodge[/url] rolls a
 [h1|Advanced]Advanced[/h1]
 
 [container:announce-red][h2]To Be Implemented[/h2][/container]
+
+[h2|ItemSize]Item Size[/h2]
+If item size is not specified, assume [section:clr-value]1x1[/section].

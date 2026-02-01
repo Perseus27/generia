@@ -61,7 +61,7 @@ Defensive rolls against [i]unpredictable[/i] weapons have [url:core#Disadvantage
 Weapons with the tag [i]Variant X[/i] may be wielded with the weapon proficiency [section:clr-value]X[/section] instead of their primary proficiency.
 
 [h1]General Tags[/h1]
-[h2|Access]Access[/h2]
+[h2|QuickAccess]Quick Access[/h2]
 Items stored in a container with the tag [i]Access[/i] can be used without spending an action to dig around in a backpack.
 
 [h2|Enchanted]Enchanted[/h2]
@@ -73,6 +73,10 @@ This item can be used as a [url:def#Foci]focus[/url] for a specific spellcasting
 [h2|PocketDimension]Pocket Dimension[/h2]
 Items carried in a container with the tag [i]Pocket Dimension[/i] count as weightless until they are removed from the container.
 [br][i]If a pocket dimension is stored inside another pocket dimension, its contents are lost in the void.[/i]
+
+[h2|Singleton]Singleton[/h2]
+The tag [i]Singleton[/i] means that only a single item with this name can be equipped at once, (e.g., [url:/generia/equipment/storage#storage-universal]backpacks[/url]).
+[br]Name suffixes are ignored, meaning that a "backpack, large" counts as "backpack" in regards to this tag.
 
 [h2|Stack]Stack X[/h2]
 [i]Stack X[/i] means that [section:clr-value]X[/section] identical items (e.g., arrows, snacks) can be stacked to take up as much inventory space as a singular item of that type would.
