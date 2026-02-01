@@ -43,7 +43,19 @@
 }
 
 .armor-table th:nth-child(1) {
-    width: 40%;
+    width: 32%;
+}
+.armor-table th:nth-child(2) {
+    width: 14%;
+}
+.armor-table th:nth-child(3) {
+    width: 10%;
+}
+.armor-table th:nth-child(4) {
+    width: 10%;
+}
+.armor-table th:nth-child(5) {
+    width: 14%;
 }
 
 
