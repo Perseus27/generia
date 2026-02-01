@@ -158,8 +158,8 @@ ritual:
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cost:
-      - "Cast: 1 Phase"
       - "[b]Strain 1/2/3[/b]"
+    cast_time: 1 Phase
     description: >
       The Tempered falls into a deep trance akin to [url:status#Unconscious]Unconsciousness[/url] while repairing the worst damage their body has suffered.
       [br]Strain from this ritual is carried over into the next Phase. Using Bonemending consecutively causes [section:clr-value]1[/section] point of [url:values#Exhaustion]Exhaustion[/url] per use after the first.
