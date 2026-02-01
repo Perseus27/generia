@@ -8,7 +8,7 @@ headers:
   - AV
   - ER
   - Weight
-  - Slots
+  - Tags
 
 items:
   - name: Scale Helmet
@@ -16,7 +16,7 @@ items:
     av: 4
     er: -1
     weight: 2.5
-    slots: –
+    tags: []
     rarity: 1
   - name: Plate Helmet
     type: Head
@@ -30,40 +30,40 @@ items:
     av: 7
     er: -3
     weight: 5
-    slots: –
+    tags: [[Modular, 2]]
     rarity: 1
   - name: Plate Armor
     type: Torso
     av: 8
     er: -4
     weight: 6
-    slots: –
+    tags: []
     rarity: 1
   - name: Scale Gauntlets
     type: Arms
     av: 5
     er: -1
     weight: 2.5
-    slots: –
+    tags: []
     rarity: 1
   - name: Plate Gauntlets
     type: Arms
     av: 6
     er: -2
     weight: 3
-    slots: –
+    tags: []
     rarity: 1
   - name: Scale Greaves
     type: Legs
     av: 5
     er: -1
     weight: 2.5
-    slots: –
+    tags: []
     rarity: 1
   - name: Plate Greaves
     type: Legs
     av: 6
     er: -2
     weight: 3
-    slots: –
+    tags: []
     rarity: 1

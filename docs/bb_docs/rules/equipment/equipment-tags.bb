@@ -25,6 +25,9 @@ Equipment with the tag [i]Conduit[/i] responds much better to magic than regular
 [i]Long[/i] weapons have an increased attack range. For melee weapons, this means a total range of [section:clr-value]2 meters[/section], meaning that they can attack foes standing two squares away. For ranged weapons, the increase is variable and depends on the weapon.
 [br]However, if the user is [url:status#Confined]confined[/url], they have [url:core#Disadvantage]Disadvantage 1[/url] on attack, block, and parry rolls.
 
+[h2|Modular]Modular X[/h2]
+Armor with the tag [i]Modular[/i] can attach [section:clr-value]X[/section] [url:/generia/equipment/storage/]storage modules[/url] with the [url:#QuickAccess]Quick Access[/url] tag.
+
 [h2|Natural]Natural[/h2]
 The [url:values#BlockStrength]Block Strength[/url] of [i]Natural[/i] weapons is halved. Natural weapons do not require proficiency to be used without [url:core#Disadvantage]Disadvantage[/url].
 
@@ -63,16 +66,6 @@ Weapons with the tag [i]Variant X[/i] may be wielded with the weapon proficiency
 [h1]General Tags[/h1]
 [h2|QuickAccess]Quick Access[/h2]
 Items stored in a container with the tag [i]Access[/i] can be used without spending an action to dig around in a backpack.
-
-[h2|Enchanted]Enchanted[/h2]
-Enchanted items can have a variety of different magical effects, including but not limited to common enchantments.
-
-[h2|Focus]Focus (X)[/h2]
-This item can be used as a [url:def#Foci]focus[/url] for a specific spellcasting tradition [section:clr-value]X[/section] (e.g., [url:/generia/character/spellcasting-traditions/druid/what-is-a-druid]Druid[/url], [url:/generia/character/spellcasting-traditions/wizard/what-is-a-wizard]Wizard[/url]...).
-
-[h2|PocketDimension]Pocket Dimension[/h2]
-Items carried in a container with the tag [i]Pocket Dimension[/i] count as weightless until they are removed from the container.
-[br][i]If a pocket dimension is stored inside another pocket dimension, its contents are lost in the void.[/i]
 
 [h2|Singleton]Singleton[/h2]
 The tag [i]Singleton[/i] means that only a single item with this name can be equipped at once, (e.g., [url:/generia/equipment/storage#storage-universal]backpacks[/url]).

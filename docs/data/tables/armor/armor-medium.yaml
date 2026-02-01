@@ -8,7 +8,7 @@ headers:
   - AV
   - ER
   - Weight
-  - Slots
+  - Tags
 
 items:
   - name: Leather Helmet
@@ -16,21 +16,21 @@ items:
     av: 2
     er: 0
     weight: 0.75
-    slots: –
+    tags: []
     rarity: 1
   - name: Chain Helmet
     type: Head
     av: 3
     er: 0
     weight: 1
-    slots: –
+    tags: []
     rarity: 1
   - name: Leather Armor
     type: Torso
     av: 5
     er: 0
     weight: 2
-    slots: –
+    tags: [[Modular, 2]]
     rarity: 1
   - name: Chain Armor
     alias: [Chainmail]
@@ -38,33 +38,33 @@ items:
     av: 6
     er: 0
     weight: 3
-    slots: –
+    tags: []
     rarity: 1
   - name: Leather Gauntlets
     type: Arms
     av: 3
     er: 0
     weight: 0.75
-    slots: –
+    tags: []
     rarity: 1
   - name: Chain Gauntlets
     type: Arms
     av: 4
     er: 0
     weight: 1
-    slots: –
+    tags: []
     rarity: 1
   - name: Leather Greaves
     type: Legs
     av: 3
     er: 0
     weight: 0.75
-    slots: –
+    tags: []
     rarity: 1
   - name: Chain Greaves
     type: Legs
     av: 4
     er: 0
     weight: 1
-    slots: –
+    tags: []
     rarity: 1
