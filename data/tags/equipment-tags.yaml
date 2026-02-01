@@ -20,6 +20,8 @@ content:
 
   - name: Long
 
+  - name: Modular
+
   - name: Natural
 
   - name: No Block
@@ -46,9 +48,6 @@ content:
     id: QuickAccess
 
   - name: Enchanted
-
-  - name: Pocket Dimension
-    id: PocketDimension
 
   - name: Singleton
 

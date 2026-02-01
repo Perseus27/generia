@@ -8,7 +8,7 @@ headers:
   - AV
   - ER
   - Weight
-  - Slots
+  - Tags
 
 items:
   - name: Unarmored
@@ -16,7 +16,7 @@ items:
     av: 0
     er: 2
     weight: 0
-    slots: –
+    tags: []
     rarity: 0
   - name: Hat
     alias: [Hood]
@@ -24,21 +24,21 @@ items:
     av: 0
     er: 1.5
     weight: 0.1
-    slots: –
+    tags: []
     rarity: 1
   - name: Padded Helmet
     type: Head
     av: 1
     er: 1
     weight: 0.25
-    slots: –
+    tags: []
     rarity: 1
   - name: Thick Clothing
     type: Torso
     av: 2
     er: 1.5
     weight: 0.5
-    slots: 6x4
+    tags: [[Modular, 2]]
     rarity: 1
   - name: Cloth Armor
     alias: [Robe]
@@ -46,40 +46,40 @@ items:
     av: 3
     er: 1.5
     weight: 1
-    slots: 4x3
+    tags: [[Modular, 2]]
     rarity: 1
   - name: Padded Armor
     type: Torso
     av: 4
     er: 1
     weight: 1.5
-    slots: 2x1
+    tags: []
     rarity: 1
   - name: Cloth Gauntlets
     type: Arms
     av: 1
     er: 1.5
     weight: 0.25
-    slots: –
+    tags: []
     rarity: 1
   - name: Padded Gauntlets
     type: Arms
     av: 2
     er: 1
     weight: 0.5
-    slots: –
+    tags: []
     rarity: 1
   - name: Cloth Greaves
     type: Legs
     av: 1
     er: 1.5
     weight: 0.25
-    slots: –
+    tags: []
     rarity: 1
   - name: Padded Greaves
     type: Legs
     av: 2
     er: 1
     weight: 0.5
-    slots: –
+    tags: []
     rarity: 1
