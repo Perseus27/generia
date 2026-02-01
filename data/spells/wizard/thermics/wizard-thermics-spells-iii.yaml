@@ -177,7 +177,7 @@ utility:
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     cost:
-      - "[section:clr-mpcost]1 MP[/section]"
+      - "[section:clr-mpcost]2 MP[/section]"
     description: >
       The Wizard sends a stream of sparks at a target, setting it aflame.
     effect: >
