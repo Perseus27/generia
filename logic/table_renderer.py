@@ -57,18 +57,16 @@ class Table_Renderer:
         result = ""
         for x in input_array.get("items"):
             result += "<tr>"
-            for subitem in x:
-                if subitem not in include_fields:
-                    continue
-                if subitem == "damage":
-                    y = x.get(subitem)
+            for f in include_fields:
+                if f == "damage":
+                    y = x.get(f)
                     result += "<td>"+self.BB_HELPER.process(f"[section:clr-roll]{y[0]} {y[1]}[/section]")+"</td>"
-                elif subitem == "skill":
-                    result += "<td>"+self.BB_HELPER.process(self.list_builder.build_list(x.get(subitem), to_link="skill", list_type="comma"))+"</td>"
-                elif subitem == "tags":
-                    result += "<td>"+self.BB_HELPER.process(self.list_builder.build_list(x.get(subitem), to_link="tag", list_type="comma"))+"</td>"
+                elif f == "skill":
+                    f += "<td>"+self.BB_HELPER.process(self.list_builder.build_list(x.get(f), to_link="skill", list_type="comma"))+"</td>"
+                elif f == "tags":
+                    result += "<td>"+self.BB_HELPER.process(self.list_builder.build_list(x.get(f), to_link="tag", list_type="comma"))+"</td>"
                 else:
-                    result += "<td>"+self.BB_HELPER.process(str(x.get(subitem)))+"</td>"
+                    result += "<td>"+self.BB_HELPER.process(str(x.get(f)))+"</td>"
             result += "</tr>"
         return result
     

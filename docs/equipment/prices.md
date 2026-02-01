@@ -33,6 +33,11 @@ title: Price Lists
     <br><a href="#items-tools">Tools</a>
     <br><a href="#items-exploration">Exploration</a>
     </p>
+    <h4>Storage</h4>
+    <p>
+    <a href="#storage-specialized">Specialized</a>
+    <br><a href="#storage-universal">Universal</a>
+    </p>
   </div>
 </template>
 
@@ -66,3 +71,7 @@ title: Price Lists
 {{ price_table('data/tables/items/items-materials.yaml') }}
 {{ price_table('data/tables/items/items-tools.yaml') }}
 {{ price_table('data/tables/items/items-exploration.yaml') }}
+
+## Storage
+{{ price_table('data/tables/storage/storage-specialized.yaml') }}
+{{ price_table('data/tables/storage/storage-universal.yaml') }}

@@ -1,0 +1,90 @@
+name: Storage – Specialized
+id: storage-specialized
+table_type: item-table item-table-storage
+headers:
+- Name
+- Description
+- Content
+- Weight
+- Tags
+
+items:
+  - name: Ammo Pouch
+    weight: 0
+    tags: [Quick Access]
+    price: 5
+    content: Ammunition, 2 Stacks
+    description: >
+      A leather pouch designed to hold different kinds of small ammunition, from lead balls to Elemental Dust.
+
+  - name: Ammo Pouch, large
+    weight: 1
+    tags: [Quick Access]
+    price: 50
+    content: Ammunition, 4 Stacks
+    description: >
+      A large leather pouch designed to hold different kinds of small ammunition, from lead balls to Elemental Dust.
+
+  - name: Material Pouch
+    weight: 0
+    tags: [Quick Access]
+    price: 5
+    content: Material, 1 Stack
+    description: >
+      A small leather pouch containing [url:/generia/equipment/materials-tools/#items-materials]materials[/url].
+
+  - name: Material Pouch, large
+    weight: 1
+    tags: [Quick Access]
+    price: 50
+    content: Material, 2 Stacks
+    description: >
+      A large leather pouch containing [url:/generia/equipment/materials-tools/#items-materials]materials[/url].
+
+  - name: Potion Bandolier
+    weight: 0
+    tags: [Quick Access]
+    price: 5
+    content: 4 Potions/Poisons/Tonics
+    description: >
+      A bandolier designed to hold bottles of various shapes and sizes.
+
+  - name: Potion Bandolier, large
+    weight: 1
+    tags: [Quick Access]
+    price: 50
+    content: 8 Potions/Poisons/Tonics
+    description: >
+      A large bandolier designed to hold bottles of various shapes and sizes.
+
+  - name: Quiver
+    weight: 0
+    tags: [Quick Access]
+    price: 5
+    content: Arrows/Bolts, 2 Stacks
+    description: >
+      A leather quiver containing ammunition for bows or crossbows.
+
+  - name: Quiver, large
+    weight: 1
+    tags: [Quick Access]
+    price: 50
+    content: Arrows/Bolts, 4 Stacks
+    description: >
+      A large leather quiver containing ammunition for bows or crossbows.
+
+  - name: Weapon Holster
+    weight: 0
+    tags: [Quick Access]
+    price: 5
+    content: 1 Weapon
+    description: >
+      A clever system of straps and buckles that can safely hold one weapon of any type.
+
+  - name: Weapon Holster, large
+    weight: 1
+    tags: [Quick Access]
+    price: 50
+    content: 2 Weapons
+    description: >
+      A clever system of straps and buckles that can safely hold up to two weapons of any type.
