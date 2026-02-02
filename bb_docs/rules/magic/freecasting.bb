@@ -1,9 +1,9 @@
 [h1|WhatIsFreecasting]What is Freecasting?[/h1]
-Most spellcasting traditions have access to rituals that enable [i]Freecasting[/i] (e.g., [i][url:/w/generia-perseus27/a/bard-spells-article#Improvisation]Improvisation[/url], [url:/w/generia-perseus27/a/wizard-spells-E28093-tier-i-article#ThermalManipulation]Thermal Manipulation[/url][/i]). This allows for the casting of improvised spells in combat, capable of producing an effect as defined in the ritual description.
+Most spellcasting traditions have access to rituals that enable [i]Freecasting[/i] (e.g., [i][url:bardS#Improvisation]Improvisation[/url], [url:thermics#ThermalManipulation]Thermal Manipulation[/url][/i]). This allows for the casting of improvised spells in combat, capable of producing an effect as defined in the ritual description.
 [br]The exact effects and costs of improvised spells are subject to negotiation between player and GM, though they should follow certain [url:#Guidelines]guidelines[/url].
 
 [h1|FreecastCheck]Freecast Check[/h1]
-Freecasting any spell requires an [i]Arcana[/i] or [i]Rites[/i] check, whichever makes more sense for the spell in question. The [section:clr-dc]DC[/section] for this check depends on the estimated tier of the spell's effect:
+Freecasting any spell requires an [i]Spellcraft[/i] or [i]Religion[/i] check, whichever makes more sense for the spell in question. The [section:clr-dc]DC[/section] for this check depends on the estimated tier of the spell's effect:
 [br][b]Tier I:[/b] [section:clr-dc]DC[/section] [section:clr-value]10[/section]
 [br][b]Tier II:[/b] [section:clr-dc]DC[/section] [section:clr-value]20[/section]
 [br][b]Tier III:[/b] [section:clr-dc]DC[/section] [section:clr-value]30[/section]

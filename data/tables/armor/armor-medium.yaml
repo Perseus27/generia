@@ -30,7 +30,7 @@ items:
     av: 5
     er: 0
     weight: 2
-    tags: [[Modular, 2]]
+    tags: [[Modular, 1]]
     rarity: 1
   - name: Chain Armor
     alias: [Chainmail]

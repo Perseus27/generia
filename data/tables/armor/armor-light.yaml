@@ -53,7 +53,7 @@ items:
     av: 4
     er: 1
     weight: 1.5
-    tags: []
+    tags: [[Modular, 1]]
     rarity: 1
   - name: Cloth Gauntlets
     type: Arms
