@@ -1,4 +1,4 @@
-name: "Level 7 – Wizard (Kinetics)"
+name: Level 7 – Wizard (Kinetics)
 id: wizard-kinetics-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Wizard]
   tags: [–]
 notes: >
-  [br]Classes: Wizard (Kinetics)
-  [br]50 SP Total
+  50 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,36 +34,49 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Wizard Staff"
-      damage: "2d8"
-      hit: "Hit+1, Block+2|2"
-    - name: "Knife"
+    - name: Wizard's Staff
+      enchantments:
+        - [Focus, Wizard]
+    - name: Knife
   armor:
-    - name: "Cloth Armor"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Wizard's Pouch"
+    - name: Hat
+      disp: Wizard Hat
+    - name: Robe
+    - name: Cloth Gauntlets
+    - name: Cloth Greaves
+    - name: Amulet
+      q: 1
   misc:
-    - name: "2× Matrix Crystal"
-    - name: "1 Gold, 8 Silver"
+    - name: Backpack
+      content:
+        - 2 Gold
+    - name: Belt
+      attached:
+        - name: Potion Bandolier
+          content:
+            2 Healing Potion+1, small
+            2 Mana Potion+1, small
+        - name: Material Pouch
+          content:
+            2 Matrix Crystal
 actions:
   skills:
     - ""
   spells:
-    - "Mana Beam I"
-    - "Kinetic Bolt I"
-    - "Kinetic Barrier I"
-    - "Tensile Shield I"
-    - "Water Veil"
+    - Kinetic Bolt I
+    - Mana Beam I
+    - Stone Shackles
+    - Water Veil I
+    - Kinetic Barrier I
   rituals:
-    - "Hermetic Manipulation"
-    - "Kinetic Manipulation"
+    - Hermetic Manipulation
+    - Kinetic Manipulation
 proficiencies:
   magic:
     - "Hermetics: Beginner"
-    - [Arcane, 1]
     - "Kinetics: Beginner"
     - [Water, 2]
+    - [Stone, 1]
   weapons:
     - ""
   civilian:

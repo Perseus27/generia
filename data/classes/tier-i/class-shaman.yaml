@@ -23,7 +23,8 @@ perks:
 
 proficiencies:
   civilian:
-    - [Rites 3, 6 SP]
+    - [Mysticism 2, 3 SP]
+    - [Spellcraft 2, 3 SP]
   magic:
     - ["Shaman: Beginner", 10 SP]
   weapons:
@@ -41,9 +42,13 @@ actions:
     - [Elemental Manipulation, 4 SP]
 
 starter_set:
-  - Combat Staff
-  - Shaman Amulet +2
-  - Thick Clothing
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - 2 Gold
+  - name: Thick Clothing
+  - name: Shaman Amulet +2
+  - name: Backpack
+    content:
+      - 6 Gold
+  - name: Belt
+    attached:
+      - name: Material Pouch
+      - name: Potion Bandolier
+  - name: Quarterstaff

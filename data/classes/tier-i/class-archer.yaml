@@ -26,7 +26,7 @@ proficiencies:
     - []
   weapons:
     - ["Ranged: Beginner", 10 SP]
-    - ["Slashing [sup]or[/sup] Stabbing: Beginner", 10 SP]
+    - ["Slashing/Stabbing: Beginner", 10 SP]
 
 actions:
   skills:
@@ -37,14 +37,22 @@ actions:
     - []
 
 starter_set:
-  - Hunting Bow
-  - Shortsword [sup]or[/sup] Smallsword
-  - Padded Armor
-  - Cloth Gauntlets
-  - Cloth Greaves
-  - Weapon Belt
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - Quiver
-  - 10 Arrows, light
-  - 8 Silver
+  - name: Padded Armor
+    attached:
+      - name: Potion Bandolier
+  - name: Padded Gauntlets
+  - name: Cloth Greaves
+  - name: Backpack
+    content:
+      - 1 Gold
+  - name: Belt
+    attached:
+      - name: Weapon Holster
+        content:
+          - Broadsword/Rapier
+  - name: Shoulder Strap
+    attached:
+      - name: Weapon Holster
+        content:
+          - Hunting Bow
+      - name: Quiver

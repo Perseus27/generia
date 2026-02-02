@@ -1,5 +1,5 @@
-name: Level 7 – Wizard (Meteorics)
-id: wizard-meteorics-level-07
+name: Level 7 – Wizard (Hermetics)
+id: wizard-hermetics-level-07
 info:
   species: Human
   level: 7
@@ -63,20 +63,20 @@ actions:
   skills:
     - ""
   spells:
-    - Meteoric Bolt I
-    - Zap I
+    - Mana Bolt I
     - Mana Beam I
-    - Discharge
-    - Meteoric Barrier I
+    - Arcane Barrier I
+    - Counter Shot
+    - Flicker
   rituals:
     - Hermetic Manipulation
     - Meteoric Manipulation
 proficiencies:
   magic:
     - "Hermetics: Beginner"
+    - [Arcane, 2]
+    - [Light, 1]
     - "Meteorics: Beginner"
-    - [Lightning, 2]
-    - [Air, 1]
   weapons:
     - ""
   civilian:

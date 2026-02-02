@@ -22,29 +22,34 @@ perks:
 
 proficiencies:
   civilian:
-    - [Rites 1, 1 SP]
+    - [Religion 1, 1 SP]
     - [Stealth 2, 3 SP]
     - [Stealing 2, 3 SP]
   magic:
     - ["Nox: Beginner", 10 SP]
+    - [Night 1, 1 SP]
   weapons:
-    - ["Slashing [sup]or[/sup] Stabbing: Beginner", 10 SP]
+    - ["Slashing/Stabbing: Beginner", 10 SP]
 
 actions:
   skills:
     - []
   spells:
-    - [Night 1, 1 SP]
     - [Shadow Strike, 4 SP]
     - [Shadow Cloak, 4 SP]
     - [Blur, 4 SP]
 
 starter_set:
-  - Smallsword
-  - Dagger
-  - Thick Clothing
-  - Weapon Belt, double
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - 2× Poison, weak
-  - 1 Gold, 5 Silver
+  - name: Hood
+  - name: Padded Armor
+  - name: Padded Gauntlets
+  - name: Cloth Greaves
+  - name: Backpack
+    content:
+      - 3 Gold
+  - name: Belt
+    attached:
+      - name: Weapon Holster
+        content:
+          - Rapier
+      - name: Potion Bandolier

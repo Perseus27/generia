@@ -20,6 +20,8 @@ Knowledge of past events, cultures, dates, and traditions.
 Practical medical knowledge and first aid.
 [h4]Monster Lore[/h4]
 Knowledge of monstrous creatures: habits, weaknesses, and identification.
+[h4]Mysticism[/h4]
+Knowledge of obscure magical places, creatures, and events.
 [h4]Religion[/h4]
 Knowledge of rites, ceremonies, and general religious practices.
 [h4]Spellcraft[/h4]

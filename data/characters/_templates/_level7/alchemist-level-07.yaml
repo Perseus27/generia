@@ -1,22 +1,22 @@
-name: "Level 7 – Alchemist"
+name: Level 7 – Alchemist
 id: alchemist-level-07
 info:
-  species: "???"
+  species: Human
   level: 7
   size: Medium
   classes: [Alchemist]
   tags: [–]
 notes: >
-  [br]50 SP Total
+  50 SP Total
   [br]Rest 0
 
 attributes:
-  CON: [3, 1]
+  CON: [4, 2]
   STR: [3, 1]
-  DEX: [5, 2]
+  DEX: [4, 2]
   INT: [6, 3]
   WIL: [5, 2]
-  PER: [4, 2]
+  PER: [3, 1]
 values:
   EN: 10
   MP: 10
@@ -34,55 +34,72 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Transmutierte Pistole"
-      damage: ""
-      hit: "Hit+4"
-    - name: "Knife"
+    - name: Transmuted Handgun
+      hit: "Hit+5"
   armor:
-    - name: "Alchemistenhandschuhe, Stoff"
-    - name: "Stoffrüstung"
-    - name: "Abenteurer-Gürtel"
-    - name: "Abenteurer-Gürteltasche"
-    - name: "Alchemistentasche"
+    - name: Cloth Gauntlets
+      disp: Alchemist Gauntlets
+      enchantments:
+        - [Focus, Alchemist]
+    - name: Padded Armor
+    - name: Cloth Greaves
+    - name: Amulet
+      q: 1
+
   misc:
-    - name: "6× Feuerstaub"
-    - name: "8× Luftstaub"
-    - name: "20× Steinstaub"
-    - name: "6× Wasserstaub"
-    - name: "1× Steinkern"
-    - name: "1× Feuerkern"
-    - name: "1× Luftkern"
-    - name: "1 Gold, 3 Silber"
+    - name: Backpack
+      content:
+        - 1 Stone Core, lesser
+        - 1 Fire Core, lesser
+        - 7 Silver
+    - name: Belt
+      attached:
+        - name: Weapon Holster
+        - name: Material Pouch
+          content:
+            - 12 Stone Dust
+            - 12 Water Dust
+            - 8 Air Dust
+            - 8 Fire Dust
+    - name: Shoulder Strap
+      attached:
+        - name: Material Pouch
+          content:
+            - 4× Medicinal Herbs
+    - name: Potion Bandolier
+      content:
+        - 2 Healing Potion+1, small
+        - 2 Mana Potion+1, small
 actions:
   skills:
-    - "Sicherer Schuss"
+    - ""
   spells:
-    - "Flammenwurf"
-    - "Feuermunition I"
-    - "Schockmunition I"
-    - "Steinmunition I"
-    - "Brandgranate I"
-    - "Heilgranate I"
+    - Basic Ammunition I
+    - Elemental Ammunition I
+    - Status Ammunition I
+    - Therapeutic Ammunition I
+    - Improvised Remedy I
+    - Emergency Shield I
   rituals:
-    - "Mechanische Transmutation"
-    - "Pharmazeutische Transmutation"
-    - "Transmutation: Desintegration"
-    - "Transmutation: Pistole"
+    - Accumulation
+    - Desintegration
+    - Transmutation
+    - "Construction: Handgun"
 proficiencies:
   magic:
-    - "Alchemie: Anfänger"
-    - [Mechanik, 1]
+    - "Alchemy: Beginner"
+    - [Mechanics, 2]
+    - [Pharmacy, 2]
   weapons:
     - ""
   civilian:
-    - [Arithmetik, 2]
-    - [Magiekunde, 2]
-    - [Basteln, 1]
+    - [Spellcraft, 2]
+    - [Tinkering, 1]
 perks:
   special:
-    - "???"
-    - "???"
+    - Efficient Metabolism
+    - Pursuit Hunter
   combat:
     - ""
   magic:
-    - Kampfmeditation
+    - Battle Meditation

@@ -1,4 +1,4 @@
-name: "Level 7 – Bard"
+name: Level 7 – Bard
 id: bard-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Bard]
   tags: [–]
 notes: >
-  [br]Classes: Bard
-  [br]50 SP Total
+  50 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,40 +34,48 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Rapier"
-    - name: "Short Sling"
-    - name: "Knife"
+    - name: Rapier
+    - name: Knife
   armor:
-    - name: "Thick Clothing"
-    - name: "Cloth Gauntlets"
-    - name: "Cloth Greaves"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Weapon Belt"
+    - name: Padded Armor
+    - name: Cloth Gauntlets
+    - name: Cloth Greaves
+    - name: Amulet
+      q: 1
   misc:
-    - name: "Lute"
-    - name: "6 Silver"
+    - name: Lute
+    - name: Backpack
+      content:
+        - 6 Silver
+    - name: Belt
+      attached:
+        - name: Weapon Holster
+        - name: Potion Bandolier
+          content:
+            - 2 Healing Potion+1, small
+            - 2 Mana Potion+1, small
 actions:
   skills:
     - ""
   spells:
-    - "Verse of Folly"
-    - "Melody of Heroism"
-    - "Verse of Healing"
-    - "Verse of Rebellion"
+    - Verse of Folly
+    - Melody of Heroism
+    - Verse of Healing
+    - Verse of Rebellion
   rituals:
-    - "Improvisation"
+    - Improvisation
 proficiencies:
   magic:
     - "Bard: Beginner"
+    - [Euphony, 3]
+    - [Cacophony, 1]
   weapons:
     - "Stabbing: Beginner"
-    - [Sword, 3]
+    - [Sword, 2]
   civilian:
-    - [History, 3]
+    - [History, 2]
     - [Performance, 3]
-    - [Rites, 1]
-    - [Trading, 1]
+    - [Spellcraft, 1]
 perks:
   special:
     - Efficient Metabolism

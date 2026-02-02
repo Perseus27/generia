@@ -1,4 +1,4 @@
-name: "Level 7 – Fighter"
+name: Level 7 – Fighter
 id: fighter-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Fighter]
   tags: [–]
 notes: >
-  [br]Classes: Fighter
-  [br]55 SP Total
+  55 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,29 +34,41 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Broadsword"
-    - name: "Roundshield"
-    - name: "Knife"
+    - name: Broadsword
+    - name: Roundshield
+    - name: Knife
   armor:
-    - name: "Leather Helmet"
-    - name: "Leather Armor"
-    - name: "Leather Gauntlets"
-    - name: "Leather Greaves"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Weapon Belt, double"
+    - name: Leather Helmet
+    - name: Leather Armor
+    - name: Leather Gauntlets
+    - name: Leather Greaves
+    - name: Amulet
+      q: 1
   misc:
-    - name: "5 Silver"
+    - name: Backpack
+      content:
+        - 5 Silver
+    - name: Belt
+      attached:
+        - name: Potion Bandolier
+          content:
+            - 4 Healing Potion+1, small
+        - name: Weapon Holster
+    - name: Shoulder Strap
+      attached:
+        - name: Potion Bandolier
+          content:
+           - 2 Energy Potion+1, small
+        - name: Weapon Holster
 actions:
   skills:
-    - "Charge"
-    - "Feint"
-    - "Counter"
-    - "Leg Sweep"
-    - "Shove"
-    - "Aimed Strike"
-    - "Shield Bash"
-    - "Steady Block"
+    - Mighty Strike
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Counter
+    - Shield Bash
   spells:
     - ""
   rituals:
@@ -67,11 +78,10 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Beginner"
-    - [Sword, 4]
+    - [Sword, 3]
     - "Defensive: Beginner"
-    - [Shield, 3]
+    - [Shield, 2]
   civilian:
-    - [Athletics, 2]
     - [Monster Lore, 1]
     - [Warfare, 2]
 perks:
@@ -80,6 +90,6 @@ perks:
     - Pursuit Hunter
 
   combat:
-    - ""
+    - Opportunist
   magic:
     - ""

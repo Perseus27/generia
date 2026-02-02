@@ -1,4 +1,4 @@
-name: "Level 7 – Shaman"
+name: Level 7 – Shaman
 id: shaman-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Shaman]
   tags: [–]
 notes: >
-  [br]Classes: Shaman
-  [br]50 SP Total
+  50 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,41 +34,52 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Battlestaff"
-      damage: "2d8+2"
-      hit: "Hit+1, Block+4|4"
-    - name: "Knife"
+    - name: Quarterstaff
+    - name: Knife
   armor:
-    - name: "Thick Clothing"
-    - name: "Cloth Gauntlets"
-    - name: "Cloth Greaves"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Shaman Amulet"
+    - name: Padded Armor
+    - name: Padded Gauntlets
+    - name: Cloth Greaves
+    - name: Amulet
+      disp: Shaman Amulet
       q: 2
+      enchantments:
+        - [Focus, Shaman]
   misc:
-    - name: "1× Fire core, weak"
-    - name: "5 Silver"
+    - name: Backpack
+      content:
+        - 1 Gold
+    - name: Belt
+      attached:
+        - name: Material Pouch
+          content:
+            - 1 Fire Core, lesser
+        - name: Potion Bandolier
+          content:
+            - 2 Healing Potion+1, small
+            - 2 Mana Potion+1, small
 actions:
   skills:
     - ""
   spells:
     - "Summon: Lesser Elemental"
-    - "Elemental Wrath"
-    - "Low Stonewall"
-    - "Lesser Elemental Favor"
-    - "Lesser Flame of Defiance"
-    - "Lesser Wave of Healing"
+    - Elemental Wrath
+    - Low Stonewall
+    - Lesser Elemental Favor
+    - Lesser Wave of Healing
   rituals:
-    - "Elemental Manipulation"
+    - Elemental Manipulation
 proficiencies:
   magic:
     - "Shaman: Beginner"
+    - [Binding, 2]
+    - [Summoning, 3]
   weapons:
     - "Blunt: Beginner"
+    - [Staff, 1]
   civilian:
-    - [Medicine, 3]
-    - [Rites, 3]
+    - [Mysticism, 2]
+    - [Spellcraft, 2]
 perks:
   special:
     - Efficient Metabolism
