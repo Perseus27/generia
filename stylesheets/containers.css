@@ -205,6 +205,12 @@
 	margin-top: 0;
 	font-weight: bold;
 }
+.class-main h4 {
+	margin-top: 0;
+}
+.class-main hr {
+	margin: 0.2rem;
+}
 
 .class-main-info {
 	background: rgba(180,180,180,0.05);
@@ -224,6 +230,7 @@
 }
 .class-main-body li {
 	margin-bottom: 0 !important;
+	font-size: 0.7rem;
 }
 
 .class-main-body-category {
