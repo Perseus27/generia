@@ -124,7 +124,7 @@ class Class_Renderer:
             result += f"[hr]"
             result += f"[container:class-main-starter]"
             result += f"[h2]Starter Set[/h2]"
-            result += f"{self.list_builder.build_list(starter_set)}"
+            result += f"{self.list_builder.build_inventory_list(starter_set)}"
             result += f"[/container]"
         # close class-main
         result += f"[/container]"

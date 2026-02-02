@@ -169,7 +169,7 @@ class Character_Renderer:
         weapons = self.auto.format_weapons()
         #armor = self.list_builder.build_list_with_subitems(all_items.get("armor"))
         armor = self.auto.format_armor()
-        misc = self.list_builder.build_list_with_subitems(all_items.get("misc"))
+        misc = self.list_builder.build_inventory_list(all_items.get("misc"))
         items_formatted = {"weapons" : self.BB_HELPER.process(weapons), "armor" : self.BB_HELPER.process(armor), "misc" : self.BB_HELPER.process(misc)}
         return items_formatted
 

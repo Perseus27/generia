@@ -144,6 +144,33 @@ class List_Builder:
         return result
     
 
+    def build_inventory_list(self, input_list, list_type="ul"):
+        result = ""
+        if list_type == "ul":
+            result += "[ul]"
+        for i in input_list:
+            result += "[li]"
+            for s in i:
+                if s == "name":
+                    result += i.get(s)
+                elif s == "attached":
+                    result += f"[container:subitem]"
+                    a_list = i.get(s)
+                    for x in a_list:
+                        for y in x:
+                            if y == "name":
+                                result += f"[container:item-attached]{x.get(y)}[/container]"
+                            elif y == "content":
+                                result += f"[container:subitem][section:item-content]{self.build_list(x.get(y), list_type='br')}[/section][/container]"
+                    result += f"[/container]"
+                elif s == "content":
+                    result += f"[container:subitem][section:item-content]{self.build_list(i.get(s), list_type='br')}[/section][/container]"
+            result += "[/li]"
+        if list_type == "ul":
+            result += "[/ul]"
+        return result
+    
+
 
     def get_link(self, s, to_link, format_exclusive=False):
         link = False

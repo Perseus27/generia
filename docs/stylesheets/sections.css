@@ -129,3 +129,10 @@
 .disp-exclusive {
 	font-weight: bold;
 }
+
+.item-attached {
+	color: burlywood;
+}
+.item-content {
+	color:cadetblue;
+}
