@@ -43,12 +43,16 @@ actions:
     - [Anchor/Release Beast Soul, 4 SP]
 
 starter_set:
-  - Shillelagh
-  - Soul Anchor
-  - Padded Armor
-  - Cloth Gauntlets
-  - Cloth Greaves
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - Seed Pouch
-  - 1 Gold
+  - name: Padded Armor
+    attached:
+      - name: Potion Bandolier
+  - name: Cloth Gauntlets
+  - name: Cloth Greaves
+  - name: Backpack
+    content:
+      - 5 Gold
+  - name: Belt
+    attached:
+      - name: Weapon Holster
+        content:
+          - Shillelagh

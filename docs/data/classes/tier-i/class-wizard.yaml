@@ -26,12 +26,12 @@ perks:
 
 proficiencies:
   civilian:
-    - [Arcana 3, 6 SP]
+    - [Spellcraft 3, 6 SP]
     - [Arithmetics 1, 1 SP]
     - [History 1, 1 SP]
   magic:
     - ["Hermetics: Beginner", 10 SP]
-    - ["Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Beginner", 10 SP]
+    - ["Kinetics/Meteorics/Thermics: Beginner", 10 SP]
   weapons:
     - []
 
@@ -41,12 +41,15 @@ actions:
   spells:
     - [Mana Beam I, 4 SP]
     - [Hermetic Manipulation, 4 SP]
-    - ["[url:kinetics#kinetic-bolt-i]Kinetic[/url] [sup]or[/sup] [url:meteorics#meteoric-bolt-i]Meteoric[/url] [sup]or[/sup] [url:thermics#thermal-bolt-i]Thermal[/url] [sup]or[/sup] [url:hermetics#mana-bolt-i]Mana[/url] Bolt I", 4 SP]
+    - ["[url:kinetics#kinetic-bolt-i]Kinetic[/url]/[url:meteorics#meteoric-bolt-i]Meteoric[/url]/[url:thermics#thermal-bolt-i]Thermal[/url]/[url:hermetics#mana-bolt-i]Mana[/url] Bolt I", 4 SP]
 
 starter_set:
-  - Wizard Staff
-  - Cloth Armor
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - 1× Matrix Crystal
-  - 1 Gold, 8 Silver
+  - name: Wizard's Staff
+  - name: Robe
+  - name: Backpack
+    content:
+      - 6 Gold
+  - name: Belt
+    attached:
+      - name: Potion Bandolier
+      - name: Material Pouch

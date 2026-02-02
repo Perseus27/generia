@@ -44,13 +44,16 @@ actions:
     - ["Construction: Handgun", 4 SP]
 
 starter_set:
-  - Transmuted Handgun
-  - Alchemist's Gauntlets, Cloth
-  - Cloth Armor
-  - Weapon Belt
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - Alchemist's Pouch
-  - 40x elemental dust, any type
-  - 2x elemental core, any type
-  - 1 Gold, 8 Silver
+  - name: Alchemist's Gauntlets, Cloth
+  - name: Padded Armor
+    attached:
+      - name: Potion Bandolier
+  - name: Backpack
+    content:
+      - 4 Gold
+  - name: Belt
+    attached:
+      - name: Weapon Holster
+        content:
+          - Transmuted Handgun
+      - name: Material Pouch

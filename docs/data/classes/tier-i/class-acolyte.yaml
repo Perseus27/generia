@@ -25,11 +25,11 @@ perks:
 proficiencies:
   civilian:
     - [Medicine 1, 1 SP]
-    - [Rites 2, 3 SP]
+    - [Religion 2, 3 SP]
   magic:
     - ["Acolyte: Beginner", 10 SP]
   weapons:
-    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing: Beginner", 10 SP]
+    - ["Blunt/Slashing/Stabbing: Beginner", 10 SP]
 
 actions:
   skills:
@@ -41,12 +41,16 @@ actions:
     - [Purify, 4 SP]
 
 starter_set:
-  - Mace [sup]or[/sup] Bastard Sword [sup]or[/sup] Spear
-  - Acolyte Amulet+2
-  - Padded Armor
-  - Weapon Belt
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - Priest's Pouch
-  - 1× Med Kit
-  - 1 Gold, 2 Silver
+  - name: Acolyte Amulet+2
+  - name: Padded Armor
+    attached:
+      - name: Potion Bandolier
+  - name: Backpack
+    content:
+      - 1 Gold, 2 Silver
+  - name: Belt
+    attached: 
+      - name: Weapon Holster
+        content:
+          - Flanged Mace/Bastard Sword/Spear
+      - name: Material Pouch

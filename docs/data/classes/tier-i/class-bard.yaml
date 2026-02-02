@@ -42,9 +42,8 @@ actions:
     - [Improvisation, 4 SP]
 
 starter_set:
-  - Instrument
-  - Short Sling
-  - Thick Clothing
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - 3 Gold
+  - name: Instrument
+  - name: Thick Clothing
+  - name: Backpack
+    content:
+      - 14 Gold

@@ -1,4 +1,4 @@
-name: "Level 7 – Acolyte"
+name: Level 7 – Acolyte
 id: acolyte-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Acolyte]
   tags: [–]
 notes: >
-  [br]Classes: Acolyte
-  [br]50 SP Total
+  50 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,43 +34,54 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Flanged Mace"
-    - name: "Knife"
+    - name: Spear
   armor:
-    - name: "Cloth Armor"
-    - name: "Cloth Gauntlets"
-    - name: "Cloth Greaves"
-    - name: "Acolyte Amulet"
+    - name: Padded Armor
+    - name: Cloth Gauntlets
+    - name: Cloth Greaves
+    - name: Amulet
+      disp: Acolyte Amulet
       q: 2
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Weapon Belt"
-    - name: "Priest's Pouch"
+      enchantments:
+        - [Focus, Acolyte]
   misc:
-    - name: "1× MedKit"
-    - name: "2 Silver"
+    - name: Backpack
+      content:
+        - 1 Medikit
+        - 2 Silver
+    - name: Belt
+      attached:
+        - name: Weapon Holster
+        - name: Material Pouch
+          content:
+            - 1 Moonstone
+            - 1 Sunstone
+    - name: Potion Bandolier
+      content:
+        - 2 Healing Potion+1, small
+        - 2 Mana Potion+1, small
 actions:
   skills:
     - ""
   spells:
-    - "Light of Sol"
-    - "Sunlight Spear"
-    - "Radiant Shield"
-    - "Healing"
-    - "Purify"
+    - Light of Sol
+    - Sunlight Spear
+    - Radiant Shield
+    - Healing
+    - Purify
   rituals:
-    - "Consecration"
+    - Consecration
 proficiencies:
   magic:
     - "Acolyte: Beginner"
     - [Luna, 2]
     - [Sol, 2]
   weapons:
-    - "Blunt: Beginner"
-    - [Club, 3]
+    - "Stabbing: Beginner"
+    - [Polearm, 3]
   civilian:
     - [Medicine, 1]
-    - [Rites, 2]
+    - [Religion, 2]
 perks:
   special:
     - Efficient Metabolism

@@ -1,4 +1,4 @@
-name: "Level 7 – Marauder"
+name: Level 7 – Marauder
 id: marauder-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Marauder]
   tags: [–]
 notes: >
-  [br]Classes: Marauder
-  [br]50 SP Total
+  50 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,40 +34,47 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Battleaxe"
-    - name: "Knife"
-    - name: "Fist"
+    - name: Battleaxe
+    - name: Knife
+    - name: Fist
   armor:
-    - name: "Leather Armor"
-    - name: "Leather Gauntlets"
-    - name: "Leather Greaves"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Belt"
-    - name: "Weapon Belt, two-handed"
+    - name: Leather Helmet
+    - name: Leather Armor
+    - name: Leather Gauntlets
+    - name: Leather Greaves
+    - name: Amulet
+      q: 1
   misc:
-    - name: "2 Silver"
+    - name: Backpack
+      content:
+        - 2 Gold
+    - name: Belt
+      attached:
+        - name: Weapon Holster
+        - name: Potion Bandolier
+          content:
+            - 4 Healing Potion+1, small
 actions:
   skills:
-    - "Charge"
-    - "Leg Sweep"
-    - "Shove"
-    - "Swing"
-    - "Feint"
-    - "Mighty Strike"
+    - Mighty Strike
+    - Charge
+    - Swing
+    - Feint
+    - Shove
   spells:
     - ""
   rituals:
     - ""
 proficiencies:
   magic:
-    - ""
+    - 
   weapons:
     - "Slashing: Beginner"
-    - [Axe, 2]
+    - [Axe, 3]
     - "Natural: Beginner"
-    - [Primitive, 1]
+    - [Primitive, 3]
   civilian:
-    - [Athletics, 3]
+    - [Athletics, 2]
     - [Survival, 1]
 perks:
   special:
@@ -76,7 +82,7 @@ perks:
     - Pursuit Hunter
 
   combat:
-    - Sprinter
+    - Opportunist
 
   magic:
     - ""

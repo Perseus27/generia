@@ -1,4 +1,4 @@
-name: "Level 7 – Druid"
+name: Level 7 – Druid
 id: druid-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Druid]
   tags: [–]
 notes: >
-  [br]Classes: Druid
-  [br]50 SP Total
+  50 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,37 +34,48 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Shillelagh"
-    - name: "Knife"
+    - name: Shillelagh
+      enchantments:
+        - [Focus, Druid]
+    - name: Knife
   armor:
-    - name: "Padded Armor"
-    - name: "Cloth Gauntlets"
-    - name: "Cloth Greaves"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Seed Pouch"
+    - name: Padded Armor
+    - name: Cloth Gauntlets
+    - name: Cloth Greaves
+    - name: Amulet
+      q: 1
   misc:
-    - name: "Soul Anchor (Dachs)"
-    - name: "8 Silver"
+    - name: Soul Anchor (Boar)
+    - name: Backpack
+      content:
+        - 2 Gold, 8 Silver
+    - name: Belt
+      attached:
+        - name: Weapon Holster
+    - name: Potion Bandolier
+      content:
+        - 1 Healing Potion+1, small
+        - 1 Mana Potion+1, small
 actions:
   skills:
     - ""
   spells:
-    - "Thorn Whip"
-    - "Regrowth"
-    - "Grasping Vines"
+    - Thorn Whip
+    - Regrowth
+    - Grasping Vines
     - "Theriomorph: Aspect"
-    - "Wildgrowth"
+    - Wildgrowth
   rituals:
-    - "Rooting"
-    - "Anchor/Release Beast Soul"
+    - Rooting
+    - Anchor/Release Beast Soul
 proficiencies:
   magic:
     - "Druid: Beginner"
-    - [Fauna, 2]
-    - [Flora, 2]
+    - [Fauna, 1]
+    - [Flora, 3]
   weapons:
     - "Blunt: Beginner"
+    - [Staff, 2]
   civilian:
     - [Botany, 2]
     - [Zoology, 2]

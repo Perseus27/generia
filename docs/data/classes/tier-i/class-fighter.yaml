@@ -32,7 +32,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing: Beginner", 10 SP]
+    - ["Blunt/Slashing/Stabbing: Beginner", 10 SP]
     - ["Defensive: Beginner", 10 SP]
 
 actions:
@@ -45,13 +45,22 @@ actions:
     - []
 
 starter_set:
-  - Broadsword [sup]or[/sup] Mace [sup]or[/sup] Rapier [sup]or[/sup] Spear
-  - Roundshield [sup]or[/sup] Buckler
-  - Leather Helmet
-  - Leather Armor
-  - Leather Gauntlets
-  - Leather Greaves
-  - Weapon Belt
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - 5 Silver
+  - name: Leather Helmet
+  - name: Leather Armor
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Backpack
+    content:
+      - 5 Silver
+  - name: Belt
+    attached:
+      - name: Potion Bandolier
+      - name: Weapon Holster
+        content:
+          - Broadsword/Flanged Mace/Rapier/Spear
+  - name: Shoulder Strap
+    attached:
+      - name: Potion Bandolier
+      - name: Weapon Holster
+        content:
+          - Roundshield/Buckler

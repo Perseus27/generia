@@ -24,23 +24,28 @@ proficiencies:
   magic:
     - []
   weapons:
-    - ["Blunt [sup]or[/sup] Slashing: Beginner", 10 SP]
+    - ["Blunt/Slashing: Beginner", 10 SP]
     - ["Natural: Beginner", 10 SP]
 
 actions:
   skills:
     - [Charge, 4 SP]
-    - [Leg Sweep, 4 SP]
+    - [Swing, 4 SP]
     - [Mighty Strike, 8 SP]
   spells:
     - []
 
 starter_set:
-  - Battleaxe [sup]or[/sup] Warhammer
-  - Leather Armor
-  - Leather Gauntlets
-  - Leather Greaves
-  - Two-handed Weapon Belt
-  - Adventurer's Belt
-  - Adventurer's Pouch
-  - 2 Silver
+  - name: Leather Helmet
+  - name: Leather Armor
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Backpack
+    content:
+      - 4 Gold
+  - name: Belt
+    attached:
+      - name: Potion Bandolier
+      - name: Weapon Holster
+        content:
+          - Battleaxe/War Hammer/Quarterstaff

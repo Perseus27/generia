@@ -1,4 +1,4 @@
-name: "Level 7 – Nox"
+name: Level 7 – Nox
 id: nox-level-07
 info:
   species: Human
@@ -35,33 +35,43 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Rapier"
-    - name: "Dagger"
-    - name: "Throwing Knife"
-    - name: "Knife"
+    - name: Rapier
+    - name: Hunting Bow
+    - name: Dagger
+    - name: 20 Arrow, light
+      damage: 1d6
   armor:
-    - name: "Cloth Armor"
-    - name: "Cloth Gauntlets"
-    - name: "Cloth Greaves"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Knife Pouch"
-    - name: "Weapon Belt, double"
+    - name: Hood
+    - name: Padded Armor
+    - name: Padded Gauntlets
+    - name: Cloth Greaves
+    - name: Amulet
+      q: 2
+      enchantments:
+        - [Focus, Nox]
   misc:
-    - name: "2× Poison, weak"
-    - name: "2× Throwing Knife"
-    - name: "1 Silver"
+    - name: Backpack
+      content:
+        - 1 Gold
+    - name: Belt
+      attached:
+        - name: Weapon Holster
+        - name: Potion Bandolier
+          content:
+            - 2 Healing Potion+1, small
+            - 1 Mana Potion+1, small
+            - 1 Poison, weak
 actions:
   skills:
-    - "Feint"
-    - "Aimed Strike"
-    - "Counter"
+    - Unpredictable Shot
+    - Aimed Shot
+    - Aimed Strike
+    - Counter
   spells:
-    - "Shadow Strike"
-    - "Shadow Summoning"
-    - "Shadow Cloak"
-    - "Shadow Knives"
-    - "Blur"
+    - Shadow Strike
+    - Shadow Summoning
+    - Shadow Cloak
+    - Blur
   rituals:
     - ""
 proficiencies:
@@ -70,12 +80,11 @@ proficiencies:
     - [Night, 1]
   weapons:
     - "Stabbing: Beginner"
-    - [Sword, 2]
-    - [Dagger, 1]
+    - [Sword, 3]
     - "Ranged: Beginner"
-    - [Throwing Knife, 1]
+    - [Bow, 2]
   civilian:
-    - [Rites, 1]
+    - [Religion, 1]
     - [Stealing, 2]
     - [Stealth, 2]
 perks:

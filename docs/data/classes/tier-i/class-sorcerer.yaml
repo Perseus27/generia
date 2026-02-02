@@ -22,8 +22,8 @@ perks:
 
 proficiencies:
   civilian:
-    - [Arcana 2, 3 SP]
-    - [Rites 1, 1 SP]
+    - [Mysticism 1, 1 SP]
+    - [Spellcraft 2, 3 SP]
   magic:
     - ["Sorcerer: Beginner", 10 SP]
   weapons:

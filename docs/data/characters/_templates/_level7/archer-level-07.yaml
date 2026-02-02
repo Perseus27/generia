@@ -1,4 +1,4 @@
-name: "Level 7 – Archer"
+name: Level 7 – Archer
 id: archer-level-07
 info:
   species: Human
@@ -7,8 +7,7 @@ info:
   classes: [Archer]
   tags: [–]
 notes: >
-  [br]Classes: Archer
-  [br]60 SP Total
+  60 SP Total
   [br]Rest 0
 
 attributes:
@@ -35,30 +34,41 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Hunting Bow"
-      range: "-1/0/0, 20m"
-    - name: "10× Arrow, light"
-      damage: "1d6"
-    - name: "Rapier"
-    - name: "Knife"
+    - name: Hunting Bow
+    - name: 20× Arrow, light
+      damage: 1d6
+    - name: Rapier
+    - name: Knife
   armor:
-    - name: "Padded Armor"
-    - name: "Cloth Gauntlets"
-    - name: "Cloth Greaves"
-    - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Weapon Belt"
-    - name: "Quiver"
+    - name: Padded Armor
+    - name: Padded Gauntlets
+    - name: Cloth Greaves
+    - name: Amulet
+      q: 1
   misc:
-    - name: "8 Silver"
+    - name: Backpack
+      content:
+        - 8 Silver
+    - name: Belt
+      attached:
+        - name: Weapon Holster
+    - name: Shoulder Strap
+      attached:
+        - name: Weapon Holster
+        - name: Quiver
+    - name: Potion Bandolier
+      content:
+        - 2 Healing Potion+1, small
+        - 2 Energy Potion+1, small
 actions:
   skills:
-    - "Aimed Shot"
-    - "Unpredictable Shot"
-    - "Hold Breath"
-    - "Overwatch"
-    - "Dodge Reflex"
-    - "Counter"
+    - Multishot
+    - Careful Shot
+    - Aimed Shot
+    - Unpredictable Shot
+    - Hold Breath
+    - Overwatch
+    - Dodge Reflex
   spells:
     - ""
   rituals:
@@ -68,11 +78,12 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Beginner"
-    - [Bow, 4]
+    - [Bow, 2]
     - "Stabbing: Beginner"
     - [Sword, 2]
   civilian:
-    - [Hunting, 1]
+    - [Hunting, 2]
+    - [Survival, 1]
 perks:
   special:
     - Efficient Metabolism
