@@ -46,8 +46,9 @@ utility:
     effect: >
       Target gains [url:status#Regeneration]Regeneration 1/2/3[/url].
 
-  - name: Grasping Tendrils
-    id: grasping-tendrils
+  - name: Grasping Vines
+    alias: [Grasping Tendrils]
+    id: grasping-vines
     auto_type: [DC, WIL]
     tags: [TIER I, Flora, Utility, "Range: 16m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
