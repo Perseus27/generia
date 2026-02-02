@@ -30,7 +30,7 @@ items:
     av: 7
     er: -3
     weight: 5
-    tags: [[Modular, 2]]
+    tags: []
     rarity: 1
   - name: Plate Armor
     type: Torso
