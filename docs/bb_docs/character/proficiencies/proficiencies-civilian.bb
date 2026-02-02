@@ -1,6 +1,6 @@
 [h1]What are Civilian Proficiencies?[/h1]
 Unlike [url:../proficiencies-spellcasting]Spellcasting[/url] and [url:../proficiencies-weapons]Weapon[/url] Proficiencies, Civilian Proficiencies do not have overarching types or traditions. They are also much more open-ended, and players and DMs alike are encouraged to add their own ideas to the list.
-[br]With some exceptions (e.g. [i]Arcana[/i], [i]Athletics[/i], [i]Riding[/i], [i]Rites[/i], [i]Stealth[/i]), Civilian Proficiencies are mostly used out of combat. It is advisable to give a character at least [i]some[/i] civilian proficiencies, if only to encourage basic roleplay. Also, specific actions covered by civilian proficiencies may incur [url:core#Disadvantage]Disadvantage[/url] on a roll if the character attempting that action does not have that proficiency.
+[br]With some exceptions (e.g. [i]Athletics[/i], [i]Riding[/i], [i]Religion[/i], [i]Spellcraft[/i], [i]Stealth[/i]), Civilian Proficiencies are mostly used out of combat. It is advisable to give a character at least [i]some[/i] civilian proficiencies, if only to encourage basic roleplay. Also, specific actions covered by civilian proficiencies may incur [url:core#Disadvantage]Disadvantage[/url] on a roll if the character attempting that action does not have that proficiency.
 [h1]Proficiency Value[/h1]
 Since there are no types or traditions, characters invest directly into specific proficiencies. Again, the SP cost is equal to the target value. Raising a Proficiency Value from [section:clr-value]0 to 1[/section] costs [section:clr-value]1 SP[/section], raising it from [section:clr-value]3 to 4[/section] costs [section:clr-value]4 SP,[/section], and raising it from [section:clr-value]0 to 4[/section] in one go would cost [section:clr-value]10 SP[/section].
 [h1]Use Cases[/h1]
@@ -10,8 +10,6 @@ When making a roll of any type, the player may add one or more civilian proficie
 
 [h1]Proficiencies[/h1]
 [h2|Knowledge]Knowledge[/h2]
-[h4]Arcana[/h4]
-Academic understanding of magical theory and general magical phenomena.
 [h4]Arithmetic[/h4]
 Numerical reasoning and calculations.
 [h4]Botany[/h4]
@@ -22,8 +20,10 @@ Knowledge of past events, cultures, dates, and traditions.
 Practical medical knowledge and first aid.
 [h4]Monster Lore[/h4]
 Knowledge of monstrous creatures: habits, weaknesses, and identification.
-[h4]Rites[/h4]
-Knowledge of rites, ceremonies, and ritual structure.
+[h4]Religion[/h4]
+Knowledge of rites, ceremonies, and general religious practices.
+[h4]Spellcraft[/h4]
+Knowledge of the inner workings of spells and rituals.
 [h4]Warfare[/h4]
 Military theory, tactics, and battlefield awareness.
 [h4]Zoology[/h4]
