@@ -10,6 +10,8 @@
 [br][url:/generia/stats/characters/factions/nergadai]Nergadai[/url]
 [h4]Military[/h4]
 [url:/generia/stats/characters/factions/military/elves]Elves[/url]
+[h4]Tower Bosses[/h4]
+[url:/generia/stats/characters/special/tower-bosses/harutos-party]Haruto's Party[/url]
 [h4]Templates[/h4]
 [url:/generia/stats/characters/templates/_level-7]Level 7[/url]
 [br][url:/generia/stats/characters/templates/archer-templates]Archer[/url]

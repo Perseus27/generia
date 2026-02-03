@@ -1,0 +1,118 @@
+name: Fia 15
+id: fia-15
+info:
+  species: [Felis, Human]
+  level: 15
+  size: Medium
+  classes: [Nox, Bard, Charlatan]
+  tags: [[Trained, 30]]
+notes: >
+  105 SP Total
+  [br]+30 Bonus
+  [br]+30 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [5, 2]
+  STR: [4, 2]
+  DEX: [8, 4, 1]
+  INT: [5, 2]
+  WIL: [7, 3, 1]
+  PER: [8, 4, 1]
+values:
+  EN: 10
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Rapier
+      q: 2
+      enchantments:
+        - Sharp I
+    - name: Dagger
+      q: 2
+  armor:
+    - name: Hood
+      q: 2
+      enchantments:
+        - WIL+1
+    - name: Padded Armor
+      q: 2
+    - name: Padded Gauntlets
+      q: 2
+    - name: Padded Greaves
+      q: 2
+      enchantments:
+        - DEX+1
+    - name: Amulet
+      disp: Amulet of Perception
+      q: 3
+      enchantments:
+        - PER+1
+    - name: Ring
+      disp: Noxian Ring
+      q: 1
+      enchantments:
+        - [Focus, Nox]
+  misc:
+    - ""
+actions:
+  skills:
+    - 
+  spells:
+    - Stanza of Folly
+    - Song of Heroism
+    - Stanza of Healing
+    - Stanza of Slumber
+    - Verse of Rebellion
+    - Shadow Strike
+    - Shadow Cloak
+    - Shadow Summoning
+    - Substitution
+    - Night Mist
+    - Blur
+  rituals:
+    - Improvisation
+proficiencies:
+  magic:
+    - "Bard: Intermediate"
+    - [Cacophony, 3]
+    - [Euphony, 3]
+    - "Nox: Intermediate"
+    - [Night, 4]
+    - [Shadow, 1]
+  weapons:
+    - "Stabbing: Beginner"
+    - [Sword, 3]
+    - [Dagger, 1]
+  civilian:
+    - [History, 2]
+    - [Mysticism, 2]
+    - [Spellcraft, 1]
+    - [Performance, 2]
+    - [Religion, 1]
+    - [Stealth, 2]
+    - [Stealing, 2]
+perks:
+  special:
+    - Pursuit Hunter
+    - [Tradition, Stealth]
+  combat:
+    - Dodge Tank
+    - Opportunist
+  magic:
+    - Mostly Harmless
+    - Whispering Shadows
+    - Battle Meditation
+    - Focus I
