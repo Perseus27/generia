@@ -11,6 +11,7 @@ prerequisites:
   - None
 
 subclasses:
+  - Charlatan
   - Siren
   - Skald
   - Troubadour
@@ -24,8 +25,9 @@ perks:
 proficiencies:
   civilian:
     - [History 2, 3 SP]
-    - [Rites 1, 1 SP]
-    - [Performance 3, 6 SP]
+    - [Mysticism 2, 3 SP]
+    - [Spellcraft 1, 1 SP]
+    - [Performance 2, 3 SP]
   magic:
     - ["Bard: Beginner", 10 SP]
   weapons:
