@@ -47,10 +47,14 @@ title: Status Effects
     <br>
     <h5><a href="#Support">Support</a></h5>
     <ul>
+        <li><a href="#ClearMind">Clear Mind</a></li>
         <li><a href="#Hidden">Hidden</a></li>
         <li><a href="#Immune">Immune</a></li>
+        <li><a href="#KeenSenses">Keen Senses</a></li>
         <li><a href="#Levitating">Levitating</a></li>
+        <li><a href="#Nimble">Nimble</a></li>
         <li><a href="#Resitant">Resistant</a></li>
+        <li><a href="#Strong">Strong</a></li>
     </ul>
     <br>
     <h5><a href="#Curses">Curses</a></h5>

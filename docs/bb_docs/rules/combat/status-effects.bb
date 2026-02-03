@@ -294,6 +294,13 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [hr]
 
 [h1|Support]Support[/h1]
+
+[container:statusblock]
+[h4|ClearMind]Clear Mind[/h4]
+[section:clr-support]SUPPORT[/section]
+[br]Gains [url:core#Advantage]Advantage 1[/url] on [url:def#Concentration]Concentration[/url] saves.
+[/container]
+
 [container:statusblock]
 [h4|Hidden]Hidden X[/h4]
 [section:clr-support]SUPPORT[/section]
@@ -309,6 +316,12 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [/container]
 
 [container:statusblock]
+[h4|KeenSenses]Keen Senses[/h4]
+[section:clr-support]SUPPORT[/section]
+[br]Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]PER[/section] checks.
+[/container]
+
+[container:statusblock]
 [h4|Levitating]Levitating[/h4]
 [section:clr-support]SUPPORT[/section]
 [br]Levitates a certain height above the ground. Levitating MS is effect-dependent.
@@ -318,10 +331,22 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [/container]
 
 [container:statusblock]
+[h4|Nimble]Nimble[/h4]
+[section:clr-support]SUPPORT[/section]
+[br]Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]DEX[/section] checks.
+[/container]
+
+[container:statusblock]
 [h4|Resistant]Resistant X Y[/h4]
 [section:clr-support]SUPPORT[/section]
 [br]Incoming damage type [i][b]X[/b][/i] is halved for [i][b]Y[/b][/i] rounds.
 [br][i][b]Example resistances:[/b] Fire, Ice, Magical, Sharp, Blunt, Physical[/i]
+[/container]
+
+[container:statusblock]
+[h4|Strong]Strong[/h4]
+[section:clr-support]SUPPORT[/section]
+[br]Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]STR[/section] checks.
 [/container]
 
 [hr]
