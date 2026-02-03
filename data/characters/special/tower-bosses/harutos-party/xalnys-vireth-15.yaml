@@ -17,7 +17,7 @@ attributes:
   STR: [4, 2]
   DEX: [3, 1]
   INT: [7, 3]
-  WIL: [11, 5, 1]
+  WIL: [11, 5, 2]
   PER: [4, 2]
 values:
   EN: 10
@@ -39,16 +39,21 @@ inventory:
     - name: Flanged Mace
       q: 2
       enchantments:
-        - WIL+1
+        - Blunt I
     - name: Roundshield
       q: 2
+    - name: Dagger
   armor:
+    - name: Hood
+      q: 2
     - name: Chain Armor
       q: 2
       enchantments:
         - CON+1
     - name: Leather Gauntlets
       q: 2
+      enchantments:
+        - WIL+1
     - name: Leather Greaves
       q: 2
     - name: Amulet

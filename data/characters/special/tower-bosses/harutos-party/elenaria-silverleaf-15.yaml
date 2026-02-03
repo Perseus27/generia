@@ -16,7 +16,7 @@ attributes:
   CON: [5, 2]
   STR: [4, 2]
   DEX: [9, 4, 2]
-  INT: [11, 5, 1]
+  INT: [10, 5, 1]
   WIL: [5, 2]
   PER: [4, 2]
 values:
@@ -41,7 +41,7 @@ inventory:
       enchantments:
         - [Focus, Wizard]
     - name: Elven Sword
-      q: 2
+      q: 1
     - name: Dagger
     - name: 20 Arrows, light
       damage: 1d6

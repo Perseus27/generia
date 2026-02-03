@@ -26,3 +26,24 @@ exclusive:
       [br]Increases to [section:clr-roll]1d8[/section] against [url:status#Isolated]isolated[/url] targets.
     saved: Damage halved.
     saved10: No effect.
+
+  - subheader:
+    is_subheader: True
+    name: Virtuoso
+    id: virtuoso
+
+  - name: Enthrall
+    id: enthrall
+    auto_type: [DC, WIL]
+    tags: [TIER X, Virtuoso, Cacophony, Offensive, "Range: 20m", "[section:clr-control]CONTROL[/section]", "SP Cost: 20"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The Virtuoso overwhelms the subconsciousness of the target, forcing it to either immediately perform 
+      one action of the Virtuoso's choosing or spend all their willpower fighting against the order.
+    effect: >
+      Target must execute action or become [url:status#Stunned]Stunned[/url].
+    saved: Target must execute action or become [url:status#Confused]Confused[/url].
+    saved10: No effect.

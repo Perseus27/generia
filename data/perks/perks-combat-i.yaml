@@ -22,7 +22,7 @@ content:
     sp-cost: 10
     requirements: Mounted
     description: >
-      Negates penalties from mounted combat when using weapons with the [i]Cavalry[/i] tag.
+      Negates penalties from [url:def#MountedCombat]mounted combat[/url] when using weapons with the [i][url:eqtags#Cavalry]Cavalry[/url][/i] tag.
 
   - name: Conditioned I
     id: conditioned-i
@@ -56,7 +56,7 @@ content:
   - name: Duelist
     id: duelist
     sp-cost: 10
-    requirements: –
+    requirements: "[url:status#Isolated]Isolated[/url]"
     description: >
       [url:core#Advantage]Advantage 1[/url] on [url:def#MeleeAttack]melee attacks[/url] against [url:status#Isolated]isolated[/url] targets.
 

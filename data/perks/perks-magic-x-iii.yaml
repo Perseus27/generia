@@ -156,6 +156,26 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Virtuoso
+    id: virtuoso
+
+  - name: Showtime
+    id: showtime
+    exclusive: True
+    sp-cost: 20
+    requirements: "[url:class3/class-virtuoso]Virtuoso[/url]"
+    description: >
+      Successfully applying any [url:status]status effect[/url] grants the Virtuoso [url:value]one point[/url] of [i]Showtime[/i] (max. one per action).
+      [br]Each point of [i]Showtime[/i] can be used as a [url:def#FreeAction]Free Action[/url] to achieve any one of the following effects:
+      [ul]
+      [li]Increase the [section:clr-value]++[/section] value of an active [i]Da Capo[/i] spell by [section:clr-value]1[/section][/li]
+      [li]Gain [url:status#ClearMind]Clear Mind[/url][/li]
+      [li]Gain [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section][/li]
+      [/ul]
+      [i]Showtime[/i] expires after [section:clr-value]one Phase[/section].
+
+  - subheader:
+    is_subheader: True
     name: Banshee
     id: banshee
 
