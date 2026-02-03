@@ -105,7 +105,6 @@ perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
-
   combat:
     - Edge Alignment
     - Lone Fighter
@@ -113,6 +112,5 @@ perks:
     - Deflector
     - Duelist
     - Opportunist
-
   magic:
     - Battle Meditation
