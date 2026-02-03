@@ -1,0 +1,112 @@
+name: Xal'Nys Vireth 15
+id: xalnys-vireth-15
+info:
+  species: Alb
+  level: 15
+  size: Medium
+  classes: [Acolyte, Fighter, Moon Priest, Moon Warden]
+  tags: [[Trained, 30]]
+notes: >
+  90 SP Total
+  [br]+30 Bonus
+  [br]+30 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3, 1]
+  STR: [4, 2]
+  DEX: [3, 1]
+  INT: [7, 3]
+  WIL: [11, 5, 1]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Flanged Mace
+      q: 2
+      enchantments:
+        - WIL+1
+    - name: Roundshield
+      q: 2
+  armor:
+    - name: Chain Armor
+      q: 2
+      enchantments:
+        - CON+1
+    - name: Leather Gauntlets
+      q: 2
+    - name: Leather Greaves
+      q: 2
+    - name: Amulet
+      disp: Acolyte Amulet
+      q: 3
+      enchantments:
+        - [Focus, Acolyte]
+    - name: Ring
+      disp: Ring of Willpower
+      q: 1
+      enchantments:
+        - WIL+1
+  misc:
+    - ""
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Steady Block
+  spells:
+    - Sunlight Spear
+    - Radiant Shield
+    - Healing
+    - Purify
+    - Sanctuary
+    - Prayer of Healing
+    - Blessing of Resilience
+  rituals:
+    - Fountain of Youth
+    - Prayer to Luna
+    - Mederi
+proficiencies:
+  magic:
+    - "Acolyte: Beginner"
+    - [Luna, 6]
+    - [Sol, 4]
+  weapons:
+    - "Blunt: Beginner"
+    - [Club, 3]
+    - "Defensive: Beginner"
+    - [Shield, 2]
+  civilian:
+    - [Medicine, 5]
+    - [Monster Lore, 1]
+    - [Religion, 6]
+    - [Warfare, 2]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+
+  combat:
+    - ""
+  magic:
+    - Luna's Guiding Hand
+    - Misereor
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

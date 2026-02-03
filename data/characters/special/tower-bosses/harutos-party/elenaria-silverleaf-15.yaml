@@ -1,0 +1,118 @@
+name: Elenaria Silverleaf 15
+id: elenaria-silverleaf-15
+info:
+  species: Elf
+  level: 15
+  size: Medium
+  classes: [Wizard, Archer, Spellbow, Hermetician, Meteorician]
+  tags: [Trained, 30]
+notes: >
+  105 SP Base
+  [br]+30 Bonus
+  [br]+30 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [5, 2]
+  STR: [4, 2]
+  DEX: [9, 4, 2]
+  INT: [11, 5, 1]
+  WIL: [5, 2]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 15
+  MPR: 2
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Elven Bow
+      q: 2
+      enchantments:
+        - [Focus, Wizard]
+    - name: Elven Sword
+      q: 2
+    - name: Dagger
+    - name: Arrow, light
+      damage: 1d6
+  armor:
+    - name: Hood
+      q: 2
+    - name: Padded Armor
+      q: 2
+    - name: Padded Gauntlets
+      q: 2
+      enchantments:
+        - DEX+1
+    - name: Padded Greaves
+      q: 1
+      enchantments:
+        - DEX+1
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Intelligence
+      q: 1
+      enchantments:
+        - INT+1
+  misc:
+    - ""
+actions:
+  skills:
+    - Unpredictable Shot
+    - Aimed Shot
+    - Hold Breath
+  spells:
+    - Bow Infusion
+    - Thunder I
+    - Mana Beam I
+    - Meteoric Bolt I
+    - Meteoric Barrier I
+    - Counter Shot
+    - Counterspell
+    - Levitation
+    - Dimension Step
+    - Air Burst
+  rituals:
+    - Hermetic Manipulation
+    - Meteoric Manipulation
+proficiencies:
+  magic:
+    - "Hermetics: Intermediate"
+    - [Arcane, 3]
+    - "Meteorics: Intermediate"
+    - [Lightning, 4]
+  weapons:
+    - "Ranged: Intermediate"
+    - [Bow, 4]
+    - "Slashing: Beginner"
+    - [Sword, 1]
+  civilian:
+    - [Arithmetics, 4]
+    - [History, 5]
+    - [Hunting, 1]
+    - [Performance, 3]
+    - [Survival, 1]]
+    - [Spellcraft, 5]
+perks:
+  special:
+    - Arcane Flow
+    - Harmony
+
+  combat:
+    - ""
+
+  magic:
+    - Practiced Hermetician
+    - Practiced Meteorician
+    - Battle Meditation

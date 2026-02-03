@@ -1,0 +1,118 @@
+name: Aoyama Haruto 15
+id: aoyama-haruto-15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes: [Fighter, Sorcerer, Swordfighter]
+  tags: [Summoned Hero, Trained, 30]
+notes: >
+  110 SP Base
+  [br]+60 Bonus
+  [br]+30 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3, 1]
+  STR: [8, 4, 1]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [7, 3, 1]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 4
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Bastard Sword
+      q: 2
+      enchantments:
+        - Sharp I
+    - name: Dagger
+  armor:
+    - name: Hood
+      q: 2
+    - name: Chain Armor
+      q: 2
+      enchantments:
+        - CON+1
+    - name: Leather Gauntlets
+      q: 2
+      enchantments:
+        - STR+1
+    - name: Leather Greaves
+      q: 1
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Perception
+      q: 1
+      enchantments:
+        - PER+1
+  misc:
+    - ""
+actions:
+  skills:
+    - Whirl
+    - Quick Strike
+    - Mighty Strike
+    - "Stance: Parry"
+    - "Technique: Second Wind"
+    - Aimed Strike
+    - Counter
+    - Disarm
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Swift Parry
+  spells:
+    - "[b]Sorcery[/b]"
+    - "[section:clr-dc]DC[/section]: [section:clr-value]20[/section]"
+    - "[section:clr-pa]PA[/section]/[section:clr-sa]SA[/section]: [section:clr-value]+10[/section]"
+    - "[section:clr-sd]SD[/section]: [section:clr-value]+14[/section]"
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Sorcerer: Beginner"
+    - [Hope, 6]
+    - [Light, 3]
+  weapons:
+    - "Slashing: Intermediate"
+    - [Sword, 6]
+    - "Defensive: Beginner"
+  civilian:
+    - [Monster Lore, 3]
+    - [Mysticism, 1]
+    - [Warfare, 5]
+    - [Spellcraft, 4]
+    - [Cooking, 6]
+    - [Tinkering, 3]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - Edge Alignment
+    - Lone Fighter
+    - Conditioned I
+    - Deflector
+    - Duelist
+    - Opportunist
+
+  magic:
+    - Battle Meditation
