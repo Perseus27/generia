@@ -4,7 +4,7 @@ info:
   species: [Felis, Human]
   level: 15
   size: Medium
-  classes: [Nox, Bard, Charlatan]
+  classes: [Nox, Bard, Charlatan, Troubadour]
   tags: [[Trained, 30]]
 notes: >
   105 SP Total
