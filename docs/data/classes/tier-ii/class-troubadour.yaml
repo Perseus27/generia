@@ -14,7 +14,8 @@ perks:
   combat:
     - []
   magic:
-    - []
+    - [Mostly Harmless, "10 SP, X"]
+    - [Focus I, 10 SP]
 
 proficiencies:
   magic:
@@ -26,7 +27,6 @@ actions:
   skills:
     - []
   spells:
-    - [Eigth Rest, "20 SP, X"]
     - [Stanza of Healing, "Upgrade: 4 SP"]
     - [Stanza of Folly, "Upgrade: 4 SP"]
     - [Song of Heroism, "Upgrade: 4 SP"]
