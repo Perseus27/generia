@@ -5,7 +5,7 @@ info:
   level: 15
   size: Medium
   classes: [Wizard, Archer, Spellbow, Hermetician, Meteorician]
-  tags: [Trained, 30]
+  tags: [[Trained, 30]]
 notes: >
   105 SP Base
   [br]+30 Bonus
@@ -43,7 +43,7 @@ inventory:
     - name: Elven Sword
       q: 2
     - name: Dagger
-    - name: Arrow, light
+    - name: 20 Arrows, light
       damage: 1d6
   armor:
     - name: Hood

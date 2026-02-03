@@ -69,7 +69,7 @@ inventory:
     - ""
 actions:
   skills:
-    - 
+    - ""
   spells:
     - Stanza of Folly
     - Song of Heroism
@@ -97,13 +97,13 @@ proficiencies:
     - [Sword, 3]
     - [Dagger, 1]
   civilian:
-    - [History, 2]
-    - [Mysticism, 2]
-    - [Spellcraft, 1]
-    - [Performance, 2]
+    - [History, 3]
+    - [Mysticism, 4]
+    - [Spellcraft, 3]
+    - [Performance, 7]
     - [Religion, 1]
-    - [Stealth, 2]
-    - [Stealing, 2]
+    - [Stealth, 4]
+    - [Stealing, 5]
 perks:
   special:
     - Pursuit Hunter
@@ -114,5 +114,6 @@ perks:
   magic:
     - Mostly Harmless
     - Whispering Shadows
+    - Astral Body I
     - Battle Meditation
     - Focus I

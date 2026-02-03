@@ -5,7 +5,7 @@ info:
   level: 15
   size: Medium
   classes: [Fighter, Sorcerer, Swordfighter]
-  tags: [Summoned Hero, Trained, 30]
+  tags: [Summoned Hero, [Trained, 30]]
 notes: >
   110 SP Base
   [br]+60 Bonus
