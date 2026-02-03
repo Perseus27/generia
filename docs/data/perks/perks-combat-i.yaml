@@ -22,7 +22,7 @@ content:
     sp-cost: 10
     requirements: Mounted
     description: >
-      Negates penalties from mounted combat when using weapons with the [i]Cavalry[/i] tag.
+      Negates penalties from [url:def#MountedCombat]mounted combat[/url] when using weapons with the [i][url:eqtags#Cavalry]Cavalry[/url][/i] tag.
 
   - name: Conditioned I
     id: conditioned-i
