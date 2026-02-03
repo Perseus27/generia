@@ -41,7 +41,7 @@ inventory:
       enchantments:
         - [Focus, Wizard]
     - name: Elven Sword
-      q: 2
+      q: 1
     - name: Dagger
     - name: 20 Arrows, light
       damage: 1d6
