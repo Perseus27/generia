@@ -39,16 +39,21 @@ inventory:
     - name: Flanged Mace
       q: 2
       enchantments:
-        - WIL+1
+        - Blunt I
     - name: Roundshield
       q: 2
+    - name: Dagger
   armor:
+    - name: Hood
+      q: 2
     - name: Chain Armor
       q: 2
       enchantments:
         - CON+1
     - name: Leather Gauntlets
       q: 2
+      enchantments:
+        - WIL+1
     - name: Leather Greaves
       q: 2
     - name: Amulet
