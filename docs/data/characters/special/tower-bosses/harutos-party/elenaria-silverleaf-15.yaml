@@ -102,16 +102,14 @@ proficiencies:
     - [History, 5]
     - [Hunting, 1]
     - [Performance, 3]
-    - [Survival, 1]]
+    - [Survival, 1]
     - [Spellcraft, 5]
 perks:
   special:
     - Arcane Flow
     - Harmony
-
   combat:
     - ""
-
   magic:
     - Practiced Hermetician
     - Practiced Meteorician
