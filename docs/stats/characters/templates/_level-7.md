@@ -15,6 +15,7 @@ title: Level 7 Templates
     <br><a href="#marauder-level-07">Marauder</a>
     <br><a href="#nox-level-07">Nox</a>
     <br><a href="#shaman-level-07">Shaman</a>
+    <br><a href="#wizard-hermetics-level-07">Wizard Hermetics</a>
     <br><a href="#wizard-kinetics-level-07">Wizard Kinetics</a>
     <br><a href="#wizard-meteorics-level-07">Wizard Meteorics</a>
     <br><a href="#wizard-thermics-level-07">Wizard Thermics</a>
@@ -36,6 +37,7 @@ title: Level 7 Templates
 {{ character('data/characters/_templates/_level7/marauder-level-07.yaml') }}
 {{ character('data/characters/_templates/_level7/nox-level-07.yaml') }}
 {{ character('data/characters/_templates/_level7/shaman-level-07.yaml') }}
+{{ character('data/characters/_templates/_level7/wizard-hermetics-level-07.yaml') }}
 {{ character('data/characters/_templates/_level7/wizard-kinetics-level-07.yaml') }}
 {{ character('data/characters/_templates/_level7/wizard-meteorics-level-07.yaml') }}
 {{ character('data/characters/_templates/_level7/wizard-thermics-level-07.yaml') }}
