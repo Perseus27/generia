@@ -2,7 +2,9 @@ name: Virtuoso
 id: class-virtuoso
 prefix: class3
 description: >
-  Virtuoso
+  The Virtuoso lives for the spectacle – whether it be on the stage or in the middle of intense combat. 
+  Their performance seeps uncomfortably deep into the minds of their audience as they weave their melodies of 
+  conquest and betrayal.
 
 prerequisites:
   - Troubadour
@@ -13,11 +15,13 @@ perks:
   combat:
     - []
   magic:
-    - []
+    - [Showtime, "20 SP, X"]
+    - [Astral Body I, 10 SP]
+    - [Focus II, 20 SP]
 
 proficiencies:
   magic:
-    - []
+    - ["Bard: Adept", 30 SP]
   weapons:
     - []
 
@@ -25,4 +29,4 @@ actions:
   skills:
     - []
   spells:
-    - []
+    - [Enthrall, "20 SP, X"]
