@@ -11,6 +11,7 @@ prerequisites:
   - None
 
 subclasses:
+  - Charlatan
   - Siren
   - Skald
   - Troubadour
