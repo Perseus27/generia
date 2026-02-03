@@ -59,6 +59,20 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Troubadour
+    id: troubadour
+
+  - name: Mostly Harmless
+    id: mostly-harmless
+    exclusive: True
+    sp-cost: 10
+    requirements: "[url:class2/class-troubadour]Troubadour[/url]"
+    description: >
+      Hostile attack actions against the Troubadour have [url:core#Disadvantage]Disadvantage 1[/url] while 
+      a [i]Da Capo[/i] spell is active and the Troubadour is not [url:status#Isolated]isolated[/url].
+
+  - subheader:
+    is_subheader: True
     name: Hermetician
     id: hermetician
 
