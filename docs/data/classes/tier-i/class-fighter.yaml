@@ -9,7 +9,6 @@ prerequisites:
 
 subclasses:
   - Breaker
-  - Duelist
   - Field Archer
   - Moon Warden
   - Shieldbearer

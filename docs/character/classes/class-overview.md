@@ -48,7 +48,6 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-ii/class-binder.yaml') }}
 {{ class_card('data/classes/tier-ii/class-breaker.yaml') }}
 {{ class_card('data/classes/tier-ii/class-charlatan.yaml') }}
-{{ class_card('data/classes/tier-ii/class-duelist.yaml') }}
 {{ class_card('data/classes/tier-ii/class-engineer.yaml') }}
 {{ class_card('data/classes/tier-ii/class-field-archer.yaml') }}
 {{ class_card('data/classes/tier-ii/class-hermetician.yaml') }}

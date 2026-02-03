@@ -53,6 +53,13 @@ content:
     description: >
       [url:core#Advantage]Advantage 1[/url] on [url:def#Dodge]dodge[/url] rolls.
 
+  - name: Duelist
+    id: duelist
+    sp-cost: 10
+    requirements: –
+    description: >
+      [url:core#Advantage]Advantage 1[/url] on [url:def#MeleeAttack]melee attacks[/url] against [url:status#Isolated]isolated[/url] targets.
+
   - name: Forerunner
     id: forerunner
     sp-cost: 10

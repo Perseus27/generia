@@ -32,19 +32,6 @@ content:
 
   - subheader:
     is_subheader: True
-    name: Duelist
-    id: duelist
-
-  - name: Lone Fighter
-    id: lone-fighter
-    exclusive: True
-    sp-cost: 20
-    requirements: "[url:class2/class-duelist]Duelist[/url]"
-    description: >
-      [url:core#Advantage]Advantage 1[/url] on [url:def#MeleeAttack]melee attacks[/url] against isolated targets. Additionally, gain [url:core#Advantage]Advantage 1[/url] on [url:def#Parry]parries[/url] if you are isolated.
-
-  - subheader:
-    is_subheader: True
     name: Hunter
     id: hunter
 
