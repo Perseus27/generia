@@ -2,23 +2,26 @@ name: Charlatan
 id: class-charlatan
 prefix: class2
 description: >
-
+  The Charlatan is a troublesome blend of Bard and Nox. In combat, their whispers seem to come from 
+  every direction at once. Out of combat, they seem to know everything about everyone.
 
 prerequisites:
   - Bard
   - Nox
 
-subclasses: []
+subclasses:
+  - Puppet Master
 
 perks:
   combat:
     - []
   magic:
-    - []
+    - [Whispering Shadows, "10 SP, X"]
+    - [Focus I, 10 SP]
 
 proficiencies:
   magic:
-    - []
+    - ["Nox: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -26,4 +29,6 @@ actions:
   skills:
     - []
   spells:
-    - []
+    - [Shadow Summoning, 4 SP]
+    - [Substitution, 8 SP]
+    - [Night Mist, 8 SP]

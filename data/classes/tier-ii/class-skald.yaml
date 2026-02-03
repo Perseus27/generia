@@ -21,7 +21,7 @@ perks:
 
 proficiencies:
   magic:
-    - []
+    - ["Bard: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -29,7 +29,6 @@ actions:
   skills:
     - []
   spells:
-    - ["Bard: Intermediate", 20 SP]
     - [Verse of Steadyness, 4 SP]
     - [Verse of Boldness, 4 SP]
     - [Song of Tyranny, 8 SP]

@@ -6,7 +6,7 @@ prefix: noxS
 offensive:
   - name: Shadow Coating
     id: shadow-coating
-    tags: [TIER II, Nox, Offensive, Reaction]
+    tags: [TIER II, Nox, Reaction]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -19,7 +19,7 @@ offensive:
 defensive:
   - name: Night Mist
     id: night-mist
-    tags: [TIER II, Nox, Defensive, Reaction]
+    tags: [TIER II, Nox, Reaction]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -74,7 +74,8 @@ utility:
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
-      Instantly teleport to the location of a conjured shadow. The shadow is destroyed in the process.
+      Instantly swap positions with a [url:noxS#shadow-summoning]summoned shadow[/url].
+      [br]If used as Reaction, the shadow is destroyed in the process.
     effect: >
       Teleport.
 
@@ -88,7 +89,7 @@ utility:
     description: >
       Shadowy wings sprout from your back, lifting you from the ground.
     effect: >
-      [url:status#Levitating]Levitating 2[/url] with MS = [section:clr-attr]DEX-MOD[/section] × [section:clr-value]2[/section].
+      [url:status#Levitating]Levitating 2[/url] with MS = [section:clr-attr]PER[/section] + [[section:clr-value]Night/Shadow[/section]].
 
   - name: Form of Dread
     id: form-of-dread

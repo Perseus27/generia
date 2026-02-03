@@ -4095,7 +4095,25 @@
   
 
 
-<div class='class-main container'><h1>Duelist</h1><div class='class-main-info container'><h2>Description</h2><div class='class-main-description container'>Duelists are specialists in nimble one-on-one combat. Few enemies can stand up to their rapid strikes and deft parries.</div><div class='class-main-subinfo container'><h4>Prerequisites</h4><a href='/generia/character/classes/tier-i/class-fighter'>Fighter</a>, <em>Slashing <sup>or</sup> Stabbing: Beginner</em><h4>Subclasses</h4><a href='/generia/character/classes/tier-iii/class-champion'>Champion</a>, <a href='/generia/character/classes/tier-iii/class-specialist'>Specialist</a>, <a href='/generia/character/classes/tier-iii/class-templar'>Templar</a></div></div><hr /><div class='class-main-body container'><h2>Perks</h2><div class='class-main-body-category container'><div class='class-main-sub50 container'><h4>Combat</h4><ul><li><a href='/generia/character/perks/perks-combat-exclusive#lone-fighter'>Lone Fighter</a> <em>(20 SP, X)</em></li></ul></div><div class='class-main-sub50 container'><h4>Magic</h4><ul></ul></div></div><hr /><h2>Actions</h2><div class='class-main-body-category container'><div class='class-main-sub50 container'><h4>Skills</h4><ul><li><a href='/generia/character/skills/skills-tier-i#aimed-strike'>Aimed Strike</a> <em>(4 SP)</em></li><li><a href='/generia/character/skills/skills-tier-i#swift-parry'>Swift Parry</a> <em>(4 SP)</em></li><li><a href='/generia/character/skills/skills-tier-i#counter'>Counter</a> <em>(4 SP)</em></li><li><a href='/generia/character/skills/skills-tier-ii#disarm'>Disarm</a> <em>(8 SP)</em></li></ul></div><div class='class-main-sub50 container'><h4>Spells</h4><ul></ul></div></div><hr /><h2>Proficiencies</h2><div class='class-main-body-category container'><div class='class-main-sub50 container'><h4>Weapons</h4><ul><li>Slashing <sup>or</sup> Stabbing: Intermediate <em>(20 SP)</em></li></ul></div><div class='class-main-sub50 container'><h4>Spellcasting</h4><ul></ul></div></div><hr /></div></div>
+<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
+<p><em>File</em>: <code>character/classes/tier-ii/class-duelist.md</code></p>
+<p><em>FileNotFoundError</em>: YAML not found: data/classes/tier-ii/class-duelist.yaml</p>
+<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
+  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
+    return md_template.render(**page_variables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 1295, in render
+    self.environment.handle_exception()
+  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File &quot;&lt;template&gt;&quot;, line 1, in top-level template code
+  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 47, in class_main
+    yaml_content = _read_yaml(path)
+                   ^^^^^^^^^^^^^^^^
+  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 28, in _read_yaml
+    raise FileNotFoundError(f&quot;YAML not found: {rel_path}&quot;)
+FileNotFoundError: YAML not found: data/classes/tier-ii/class-duelist.yaml
+</code></pre></div>
 
 
 

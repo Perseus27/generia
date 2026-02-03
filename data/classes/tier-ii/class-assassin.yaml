@@ -8,7 +8,7 @@ prerequisites:
   - Nox
 
 subclasses:
-  - Shadow
+  - Nightstalker
 
 perks:
   combat:

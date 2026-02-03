@@ -184,7 +184,23 @@ content:
     sp-cost: 10
     requirements: "[url:class2/class-treewarden]Treewarden[/url]"
     description: >
-      [i][url:druidS#Wildgrowth]Wildgrowth[/url][/i] now creates permanent plants. Their lifespan equals that of a normal plant of the species.
+      [i][url:druidS#Wildgrowth]Wildgrowth[/url][/i] now creates permanent plants. Their lifespan equals that 
+      of a normal plant of the species.
+
+  - subheader:
+    is_subheader: True
+    name: Charlatan
+    id: charlatan
+
+  - name: Whispering Shadows
+    id: whispering-shadows
+    exclusive: True
+    sp-cost: 10
+    requirements: "[url:class2/class-charlatan]Charlatan[/url]"
+    description: >
+      Every currently [url:noxS#shadow-summoning]summoned shadow[/url] under the Charlatan's control 
+      counts as point of origin for their [url:bardS]bardic spells[/url].
+      [br]If cast areas overlap, the spells' effects are only applied once.
 
   - subheader:
     is_subheader: True
