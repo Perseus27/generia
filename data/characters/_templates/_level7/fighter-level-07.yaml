@@ -68,7 +68,6 @@ actions:
     - Leg Sweep
     - Shove
     - Counter
-    - Shield Bash
   spells:
     - ""
   rituals:
@@ -78,7 +77,7 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Beginner"
-    - [Sword, 3]
+    - [Sword, 4]
     - "Defensive: Beginner"
     - [Shield, 2]
   civilian:
