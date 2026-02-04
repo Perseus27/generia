@@ -165,7 +165,7 @@ content:
     sp-cost: 20
     requirements: "[url:class3/class-virtuoso]Virtuoso[/url]"
     description: >
-      Successfully applying any [url:status]status effect[/url] grants the Virtuoso [url:value]one point[/url] of [i]Showtime[/i] (max. one per action).
+      Successfully applying any [url:status]status effect[/url] grants the Virtuoso [section:clr-value]one point[/section] of [i]Showtime[/i] (max. one per action).
       [br]Each point of [i]Showtime[/i] can be used as a [url:def#FreeAction]Free Action[/url] to achieve any one of the following effects:
       [ul]
       [li]Increase the [section:clr-value]++[/section] value of an active [i]Da Capo[/i] spell by [section:clr-value]1[/section][/li]
