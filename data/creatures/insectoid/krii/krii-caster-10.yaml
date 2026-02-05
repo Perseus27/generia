@@ -40,14 +40,16 @@ actions:
   active:
     - name: Soul Spike
       type: Spell Attack, Range 20m
-      hit: "[section:clr-sa]SA +7[/section]"
-      damage: 2d4+4 Absolute
+      auto: [SA, PER]
+      prof: Soul
+      damage: [2d4, Absolute]
       save: "Save WIL/+10: Damage halved/No effect."
       cost: "[section:clr-mp]1 MP[/section]"
 
     - name: Confuse
       type: Utility, Range 20m
-      hit: "[section:clr-dc]DC 17[/section]"
+      auto: [DC, PER]
+      prof: Soul
       effect:
         - "[url:status#Confused]Confused[/url]."
       save: "Save [section:clr-attr]INT[/section]: No effect."
@@ -55,8 +57,7 @@ actions:
 
     - name: Bite
       type: Melee Attack
-      hit: "Hit+7"
-      damage: 3d6+2 Sharp
+      auto: Teeth (large)
 
     - name: Acid Fangs
       type: Reaction

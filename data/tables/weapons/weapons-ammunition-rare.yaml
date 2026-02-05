@@ -12,6 +12,7 @@ headers:
 items:
 - name: Arrow, blunt
   type: Bow
+  ammo: True
   damage: [2d4, Blunt]
   weight: 0.3
   size: 8x1
@@ -23,6 +24,7 @@ items:
 
 - name: Arrow, elemental
   type: Bow
+  ammo: True
   damage: [3d4, Element]
   weight: 0.2
   size: 8x1
@@ -34,6 +36,7 @@ items:
 
 - name: Bolt, blunt
   type: Crossbow
+  ammo: True
   damage: [2d6, Blunt]
   weight: 0.3
   size: 8x1
@@ -45,6 +48,7 @@ items:
 
 - name: Bolt, elemental
   type: Crossbow
+  ammo: True
   damage: [3d4, Element]
   weight: 0.2
   size: 8x1
@@ -56,6 +60,7 @@ items:
 
 - name: Bullet, light
   type: Sling
+  ammo: True
   damage: [1d6, Blunt]
   weight: 0.1
   size: 1x1
@@ -67,6 +72,7 @@ items:
 
 - name: Bullet, heavy
   type: Sling
+  ammo: True
   damage: [1d8, Blunt]
   weight: 0.2
   size: 1x1
@@ -78,6 +84,7 @@ items:
 
 - name: Bullet, elemental
   type: Sling
+  ammo: True
   damage: [3d4, Element]
   weight: 0.2
   size: 1x1

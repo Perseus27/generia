@@ -1,12 +1,12 @@
-name: Krii Caster, Tactician
-id: krii-caster-20
+name: Krii Caster, Coordinator
+id: krii-caster-15
 info:
   species: Krii
   level: 20
   size: Large
   tags: [[Flying, 12], Freecaster, Nature's Armor, [Immunity, Poison], [Resistance, Sharp], [Vulnerability, Fire/Blunt], Sapient]
 notes: >
-  An experienced Coordinator that controls the battlefield with excellent small unit tactics and powerful soul magic.
+  A Krii sorcerer that coordinates groups of soldiers by tapping into their eusocial web of souls.
 
 attributes:
   CON: [7, 3]
@@ -40,14 +40,16 @@ actions:
   active:
     - name: Soul Spike
       type: Spell Attack, Range 20m
-      hit: "[section:clr-sa]SA +11[/section]"
-      damage: 2d4+6 Absolute
+      auto: [SA, PER]
+      prof: Soul
+      damage: [2d4, Absolute]
       save: "Save WIL/+10: Damage halved/No effect."
       cost: "[section:clr-mp]1 MP[/section]"
 
     - name: Confuse
       type: Utility, Range 20m
-      hit: "[section:clr-dc]DC 21[/section]"
+      auto: [DC, PER]
+      prof: Soul
       effect:
         - "[url:status#Confused]Confused[/url]."
       save: "Save [section:clr-attr]INT[/section]: No effect."
@@ -55,7 +57,8 @@ actions:
 
     - name: Distract
       type: Utility, Range 20m
-      hit: "[section:clr-dc]DC 21[/section]"
+      auto: [DC, PER]
+      prof: Soul
       effect:
         - "[url:status#AttackPenalty]Attack Penalty 6[/url]."
       save: "Save [section:clr-attr]INT[/section]/[section:clr-attr]WIL[/section]/[section:clr-attr]PER[/section]: No effect."
@@ -68,7 +71,8 @@ actions:
 
     - name: Disturb Thoughts
       type: Reaction, Range 20m
-      hit: "[section:clr-dc]DC 21[/section]"
+      auto: [DC, PER]
+      prof: Soul
       effect:
         - Interrupts a hostile spellcaster during the casting process to cancel the spell.
       save: "Save [section:clr-attr]INT[/section]/[section:clr-attr]WIL[/section]/[section:clr-attr]PER[/section]: No effect."
@@ -82,8 +86,7 @@ actions:
 
     - name: Bite
       type: Melee Attack
-      hit: "Hit+10"
-      damage: 3d6+3 Sharp
+      auto: Teeth (large)
 
     - name: Acid Fangs
       type: Reaction

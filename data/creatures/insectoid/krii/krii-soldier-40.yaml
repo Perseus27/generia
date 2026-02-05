@@ -1,67 +1,66 @@
-name: Krii Soldier, Infantry
-id: krii-soldier-15
+name: Krii Soldier, Elite
+id: krii-soldier-40
 info:
   species: Krii
-  level: 15
+  level: 40
   size: Large
   tags: [Nature's Armor, [Immunity, Poison], [Resistance, Sharp], [Vulnerability, Fire/Blunt], Sapient]
 notes: >
-  A regular Krii soldier, armed with a long pike, javelins, and monstrous mandibles. The backbone of any Krii army.
+  An elite Krii soldier with years of combat experience, armed with a long pike, javelins, and monstrous mandibles. Extremely dangerous.
 
 attributes:
-  CON: [9, 4]
-  STR: [10, 5]
-  DEX: [6, 3]
-  INT: [3, 1]
-  WIL: [4, 2]
-  PER: [4, 2]
+  CON: [15, 7]
+  STR: [16, 8]
+  DEX: [11, 5]
+  INT: [6, 3]
+  WIL: [8, 4]
+  PER: [6, 3]
 values:
-  EN: 20
-  MP: 5
-  MPR: 1
-  WL: 6
-  WT: 8
-  TN: 3
-  MS: 4
+  EN: 35
+  MP: 10
+  MPR: 2
+  WL: 7
+  WT: 11
+  TN: 6
+  MS: 8
 armor:
-  head: 3
-  torso: 5
-  arms: 4
-  legs: 4
-  md: 3
+  head: 7
+  torso: 9
+  arms: 8
+  legs: 8
+  md: 6
   er: 0
 loot:
-  - Resin Pike+1
-  - Resin Roundshield+1
-  - "[section:clr-roll-noex]1d6[/section] Resin Javelins+1"
+  - Resin Pike+4
+  - Resin Roundshield+4
+  - "[section:clr-roll-noex]1d6[/section] Resin Javelins+4"
   - "[section:clr-roll-noex]1d4[/section] units Krii Acid"
-  - Resin Armor+1
-  - Krii Amulet+3
-  - "[section:clr-roll-noex]1d4[/section] Krii Honey Potion+2, small"
-  - Monster Core, lesser
+  - Resin Armor+3
+  - Krii Amulet+6
+  - "[section:clr-roll-noex]1d4[/section] Krii Honey Potion+3, large"
+  - Monster Core, normal
 actions:
   active:
     - name: Pike
       type: Melee Attack
-      hit: "Hit+7, Block+13|9"
-      damage: 2d8+6 Sharp
-      skills: [Aimed Strike, Charge, Feint, Whirl]
+      auto: Pike
+      q: 4
+      skills: [Aimed Strike, Charge, Feint, Mighty Strike, Whirl, "Stance: Intercept", "Technique: Second Wind"]
 
     - name: Shield
       type: Melee Attack
-      hit: "Hit+3, Block+11|12"
-      damage: 1d6+7 Blunt
+      auto: Roundshield
+      q: 4
       skills: [Shield Bash]
 
     - name: Javelin
       type: Ranged Attack, Range 16m
-      hit: "Hit+7"
-      damage: 2d6+6 Arrow
+      auto: Javelin
+      q: 4
 
     - name: Bite
       type: Melee Attack
-      hit: "Hit+7"
-      damage: 3d6+5 Sharp
+      auto: Teeth (large)
 
     - name: Acid Fangs
       type: Reaction
@@ -73,14 +72,14 @@ actions:
   passive:
     - name: Perks
       type: Passive
-      perks: [Goliath, Opportunist, Shield Wall]
+      perks: [Conditioned II, Goliath, Opportunist, Routine, Shield Wall]
 
     - name: Proficiencies
       type: Passive
       effect:
-        - [Polearm, 4]
-        - [Shield, 2]
-        - [Primitive, 4]
+        - [Polearm, 8]
+        - [Shield, 6]
+        - [Primitive, 8]
 
     - name: Climber
       type: Passive
