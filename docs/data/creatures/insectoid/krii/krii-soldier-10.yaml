@@ -43,25 +43,21 @@ actions:
   active:
     - name: Pike
       type: Melee Attack
-      hit: "Hit+6, Block+11|7"
-      damage: 2d8+4 Sharp
+      auto: Pike
       skills: [Aimed Strike, Charge, Feint]
 
     - name: Shield
       type: Melee Attack
-      hit: "Hit+3, Block+9|9"
-      damage: 1d6+6 Blunt
+      auto: Roundshield
       skills: [Shield Bash]
 
     - name: Javelin
       type: Ranged Attack, Range 16m
-      hit: "Hit+6"
-      damage: 2d6+4 Arrow
+      auto: Javelin
 
     - name: Bite
       type: Melee Attack
-      hit: "Hit+6"
-      damage: 3d6+4 Sharp
+      auto: Teeth, large
 
     - name: Acid Fangs
       type: Reaction

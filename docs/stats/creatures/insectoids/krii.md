@@ -13,32 +13,32 @@ title: Krii
     <li><a href="#krii-worker-10">Worker</a></li>
     </ul>
     </p>
-    <h5>Level 15</h5>
-    <p>
-    <ul>
-    <li><a href="#krii-caster-15">Caster (Coordinator)</a></li>
-    <li><a href="#krii-soldier-15">Soldier (Infantry)</a></li>
-    </ul>
-    </p>
     <h5>Level 20</h5>
     <p>
     <ul>
-    <li><a href="#krii-caster-20">Caster (Tactician)</a></li>
-    <li><a href="#krii-soldier-20">Soldier (Veteran)</a></li>
-    </ul>
-    </p>
-    <h5>Level 25</h5>
-    <p>
-    <ul>
-    <li><a href="#krii-caster-25">Caster (Strategist)</a></li>
-    <li><a href="#krii-soldier-25">Soldier (Elite)</a></li>
+    <li><a href="#krii-caster-20">Caster (Coordinator)</a></li>
+    <li><a href="#krii-soldier-20">Soldier (Infantry)</a></li>
     </ul>
     </p>
     <h5>Level 30</h5>
     <p>
     <ul>
-    <li><a href="#krii-caster-30">Caster (General)</a></li>
-    <li><a href="#krii-soldier-30">Soldier (Queen's Guard)</a></li>
+    <li><a href="#krii-caster-30">Caster (Tactician)</a></li>
+    <li><a href="#krii-soldier-30">Soldier (Veteran)</a></li>
+    </ul>
+    </p>
+    <h5>Level 40</h5>
+    <p>
+    <ul>
+    <li><a href="#krii-caster-40">Caster (Strategist)</a></li>
+    <li><a href="#krii-soldier-40">Soldier (Elite)</a></li>
+    </ul>
+    </p>
+    <h5>Level 50</h5>
+    <p>
+    <ul>
+    <li><a href="#krii-caster-50">Caster (General)</a></li>
+    <li><a href="#krii-soldier-50">Soldier (Queen's Guard)</a></li>
     </ul>
     </p>
     <hr>
@@ -54,18 +54,18 @@ title: Krii
 {{ creature('data/creatures/insectoid/krii/krii-soldier-10.yaml') }}
 {{ creature('data/creatures/insectoid/krii/krii-worker-10.yaml') }}
 
-## Level 15
-{{ creature('data/creatures/insectoid/krii/krii-caster-15.yaml') }}
-{{ creature('data/creatures/insectoid/krii/krii-soldier-15.yaml') }}
-
 ## Level 20
 {{ creature('data/creatures/insectoid/krii/krii-caster-20.yaml') }}
 {{ creature('data/creatures/insectoid/krii/krii-soldier-20.yaml') }}
 
-## Level 25
-{{ creature('data/creatures/insectoid/krii/krii-caster-25.yaml') }}
-{{ creature('data/creatures/insectoid/krii/krii-soldier-25.yaml') }}
-
 ## Level 30
 {{ creature('data/creatures/insectoid/krii/krii-caster-30.yaml') }}
 {{ creature('data/creatures/insectoid/krii/krii-soldier-30.yaml') }}
+
+## Level 40
+{{ creature('data/creatures/insectoid/krii/krii-caster-40.yaml') }}
+{{ creature('data/creatures/insectoid/krii/krii-soldier-40.yaml') }}
+
+## Level 50
+{{ creature('data/creatures/insectoid/krii/krii-caster-50.yaml') }}
+{{ creature('data/creatures/insectoid/krii/krii-soldier-50.yaml') }}

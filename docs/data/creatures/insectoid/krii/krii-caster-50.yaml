@@ -1,54 +1,56 @@
-name: Krii Caster, Strategist
-id: krii-caster-25
+name: Krii Caster, General
+id: krii-caster-50
 info:
   species: Krii
-  level: 25
+  level: 50
   size: Large
   tags: [[Flying, 12], Freecaster, Nature's Armor, [Immunity, Poison], [Resistance, Sharp], [Vulnerability, Fire/Blunt], Sapient]
 notes: >
-  A highly skilled Krii officer, usually tasked with coordinating large military units.
-  [br]Years of fighting experience in smaller units make it a frightening opponent in direct combat, however.
+  The Queen's Generals organize large-scale military campaigns and are Her Majesty's most trusted advisors.
+  [br]They also command the terrifying Queen's Guard, the most distinguished warriors among all Krii.
 
 attributes:
-  CON: [7, 3]
-  STR: [6, 3]
-  DEX: [8, 4]
-  INT: [7, 3]
-  WIL: [9, 4]
-  PER: [13, 6]
+  CON: [10, 5]
+  STR: [8, 4]
+  DEX: [10, 5]
+  INT: [12, 6]
+  WIL: [14, 7]
+  PER: [18, 9]
 values:
   EN: 15
-  MP: 20
-  MPR: 4
-  WL: 7
-  WT: 7
-  TN: 3
+  MP: 30
+  MPR: 6
+  WL: 8
+  WT: 8
+  TN: 4
   MS: 6
 armor:
-  head: 3
-  torso: 5
-  arms: 4
-  legs: 4
-  md: 7
+  head: 4
+  torso: 6
+  arms: 5
+  legs: 5
+  md: 8
   er: 0
 loot:
   - "[section:clr-roll-noex]1d4[/section] units Krii Acid"
-  - Resin Armor+2
-  - Krii Amulet+7
-  - "[section:clr-roll-noex]1d4[/section] Krii Honey Potion+2, medium"
+  - Resin Armor+3
+  - Krii Amulet+8
+  - "[section:clr-roll-noex]1d4[/section] Krii Honey Potion+1, large"
   - Monster Core, normal
 actions:
   active:
     - name: Soul Spike
       type: Spell Attack, Range 20m
-      hit: "[section:clr-sa]SA +12[/section]"
-      damage: 2d4+6 Absolute
+      auto: [SA, PER]
+      prof: Soul
+      damage: [2d4, Absolute]
       save: "Save WIL/+10: Damage halved/No effect."
       cost: "[section:clr-mp]1 MP[/section]"
 
     - name: Confuse
       type: Utility, Range 20m
-      hit: "[section:clr-dc]DC 22[/section]"
+      auto: [DC, PER]
+      prof: Soul
       effect:
         - "[url:status#Confused]Confused[/url]."
       save: "Save [section:clr-attr]INT[/section]: No effect."
@@ -56,20 +58,22 @@ actions:
 
     - name: Distract
       type: Utility, Range 20m
-      hit: "[section:clr-dc]DC 22[/section]"
+      auto: [DC, PER]
+      prof: Soul
       effect:
-        - "[url:status#AttackPenalty]Attack Penalty 6[/url]."
+        - "[url:status#AttackPenalty]Attack Penalty 8[/url]."
       save: "Save [section:clr-attr]INT[/section]/[section:clr-attr]WIL[/section]/[section:clr-attr]PER[/section]: No effect."
 
     - name: Coordinate
       type: Utility, Radius 8m
       effect:
-        - "Nearby Krii gain [url:status#AttackBonus]Attack Bonus 6[/url] or [url:status#DefenseBonus]Defense Bonus 6[/url]."
+        - "Nearby Krii gain [url:status#AttackBonus]Attack Bonus 8[/url] or [url:status#DefenseBonus]Defense Bonus 8[/url]."
       cost: "[section:clr-mp]2 MP[/section]"
 
     - name: Disturb Thoughts
       type: Reaction, Range 20m
-      hit: "[section:clr-dc]DC 22[/section]"
+      auto: [DC, PER]
+      prof: Soul
       effect:
         - Interrupts a hostile spellcaster during the casting process to cancel the spell.
       save: "Save [section:clr-attr]INT[/section]/[section:clr-attr]WIL[/section]/[section:clr-attr]PER[/section]: No effect."
@@ -78,13 +82,12 @@ actions:
     - name: Regroup
       type: Utility
       effect:
-        - Sets the [url:value#INI]initiative[/url] of up to [section:clr-value]eight[/section] Krii soldiers to that of another soldier with a lower initiative.
+        - Sets the [url:value#INI]initiative[/url] of up to [section:clr-value]twelve[/section] Krii soldiers to that of another soldier with a lower initiative.
         - If a target already acted this round, its next turn within this round is skipped, if applicable.
 
     - name: Bite
       type: Melee Attack
-      hit: "Hit+10"
-      damage: 3d6+3 Sharp
+      auto: Teeth, large
 
     - name: Acid Fangs
       type: Reaction
@@ -96,14 +99,14 @@ actions:
   passive:
     - name: Perks
       type: Passive
-      perks: [Astral Body I, Battle Meditation, Cold Calculation]
+      perks: [Astral Body II, Battle Meditation, Cold Calculation]
     
     - name: Proficiencies
       type: Passive
       effect:
-        - [Soul, 6, PER]
-        - [Primitive, 6]
-        - [Warfare, 8]
+        - [Soul, 8, PER]
+        - [Primitive, 8]
+        - [Warfare, 20]
 
     - name: Climber
       type: Passive
