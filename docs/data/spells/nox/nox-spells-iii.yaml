@@ -1,0 +1,31 @@
+name: Nox Spells III
+id: nox-spells-iii
+id_appendix: III
+prefix: noxS
+
+offensive:
+  - name: Leeching Strike
+    id: leeching-strike
+    tags: [TIER III, Nox, Offensive, "Range: Weapon"]
+    type:
+      - "[section:clr-attack]BASIC ATTACK[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Execute a [url:noxS#shadow-strike]Shadow Strike[/url]. For every wound caused, the Nox heals one [url:wounds]light wound[/url].
+    effect: >
+      Heal one wound for every wound caused.
+
+utility:
+  - name: Shadow Sense
+    id: shadow-sense
+    tags: [TIER III, Nox, Utility, "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The Nox gains the ability to perceive all creatures that either throw a shadow or are enveloped by darkness, 
+      regardless of line of sight.
+    effect: >
+      Magical senses.

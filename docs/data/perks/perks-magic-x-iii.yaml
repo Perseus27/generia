@@ -21,6 +21,28 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Puppet Master
+    id: puppet-master
+
+  - name: Cabinet of Illusions
+    id: cabinet-of-illusions
+    exclusive: True
+    sp-cost: 20
+    requirements: "[url:class3/class-puppet-master]Puppet Master[/url]"
+    description: >
+      Summoned shadows are visually indistinguishable from the original creature. 
+      Using [url:noxS#substitution]Substitution[/url] reactively does not destroy the shadow.
+      [br]The Puppet Master may assume the appearance of any stored shadow of the same 
+      [url:csizes]size class[/url] as a [url:def#UtilityAction]utility action[/url]. 
+      This illusion does not require [url:def#Concentration]Concentration[/url] and lasts indefinitely, 
+      but dissolves if the Puppet Master is [url:def#Hit]hit[/url] and fails a concentration save, 
+      or loses consciousness for any reason.
+      [br][url:actions#analyze-character]Analyzing[/url] a disguised Puppet Master returns the values of 
+      the disguise, unless the [i]Analyze Value[/i] is [section:clr-value]20 or higher[/section].
+
+
+  - subheader:
+    is_subheader: True
     name: Elementalist
     id: elementalist
 
@@ -118,7 +140,23 @@ content:
       Whenever the Augur heals a target with a [i]Luna[/i] spell, that target gains a shield that absorbs up to [[section:clr-value]Luna[/section]] damage.
       [br]The shield value is halved for multi-target healing spells.
       [br]The shield lasts for one Phase or until it is depleted. This effect does not stack, but is refreshed by further healing.
-      [/ul]
+
+  - subheader:
+    is_subheader: True
+    name: Shadow
+    id: shadow
+
+  - name: One with the Shadows
+    id: one-with-the-shadows
+    exclusive: True
+    sp-cost: 20
+    requirements: "[url:class3/class-shadow]Shadow[/url]"
+    description: >
+      The Shadow may cast [url:noxS#shadow-step]Shadow Step[/url] as a [url:def#FreeAction]Free Action[/url] 
+      immediately after causing at least one wound with [url:dmgtypes#Shadow]Shadow damage[/url].
+      [br]This instance of [url:noxS#shadow-step]Shadow Step[/url] does not have a regular mana cost, 
+      but instead consumes all [i]Nox Points[/i] gained through [url:perksXM#withering-shadows]Withering Shadows[/url] 
+      by the last attack.
 
   - subheader:
     is_subheader: True

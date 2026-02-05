@@ -115,12 +115,11 @@ ritual:
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: 5 seconds
-    cost:
-      - "[section:clr-mp]—[/section]"
     description: >
-      Attempt to steal a creature’s shadow by touching it.
-      [br]Roll a [section:clr-attr]PER[/section]+[[section:clr-value]Shadow[/section]] check and exceed the creature’s level. If the creature notices the attempt, the ritual immediately fails.
-      [br][i]Once per creature per day (resets at midnight).[/i]
+      Attempt to steal a creature's shadow by touching it.
+      [br]Roll a [section:clr-attr]PER[/section]+[[section:clr-value]Shadow[/section]] check against 
+      the creature's [section:clr-dc]DC[/section] [section:clr-attr]WIL[/section].
+      [br][i]One attempt per creature per day (resets at midnight).[/i]
     effect: >
-      On success, the creature’s shadow is stolen and can be used as a pseudo-familiar (see Shadow Summoning).
+      On success, the creature’s shadow is stolen and can be used as a pseudo-familiar (see [url:noxS#shadow-summoning]Shadow Summoning[/url]).
     saved: No effect.

@@ -1,0 +1,34 @@
+name: Shadow
+id: class-shadow
+prefix: class3
+description: >
+  The Shadow is an expert in two specific fields: Locating targets, and eliminating them without being 
+  found themselves.
+  [br]They are highly valued by those looking for professional assassins – and feared by anyone 
+  worth murdering.
+
+
+prerequisites:
+  - Assassin
+
+subclasses: []
+
+perks:
+  combat:
+    - [Duelist, 10 SP]
+  magic:
+    - [One with the Shadows, "20 SP, X"]
+
+proficiencies:
+  magic:
+    - ["Nox: Adept", 30 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Shadow Form, "20 SP, X"]
+    - [Shadow Sense, 12 SP]
+    - [See the Unseen, 8 SP]

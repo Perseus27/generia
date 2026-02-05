@@ -1,0 +1,49 @@
+name: Nox Spells X
+id: nox-spells-x
+id_appendix: X
+prefix: noxS
+is_exclusive: True
+
+exclusive:
+  - subheader:
+    is_subheader: True
+    name: Puppet Master
+    id: puppet-master
+
+  - name: Cut the Strings
+    id: cut-the-strings
+    tags: [TIER X, Puppet Master, Nox, Reaction, "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-affli]AFFLICTION[/section]", "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The Puppet Master forces a target affected by a [url:status]mental status effect[/url] caused by the Puppet Master to forfeit their current action or suffer severe mental backlash.
+      [br]The mental status effect is removed in the process.
+    effect: >
+      Forfeit the action or become [url:status#Stunned]Stunned[/url].
+
+  - subheader:
+    is_subheader: True
+    name: Shadow
+    id: shadow
+
+  - name: Shadow Form
+    id: shadow-form
+    tags: [TIER X, Shadow Form, Nox, Utility, "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The Shadow assumes a non-corporeal form, becoming significantly harder to detect and resistant to physical damage. 
+      However, this comes with the drawback of vulnerability against magic.
+      [br]All physical damage dealt while in [i]Shadow Form[/i] counts as [url:dmgtypes#Shadow]Shadow damage[/url].
+      [br]While in [i]Shadow Form[/i], the Shadow can pass through any opening at least the size of a keyhole 
+      as if it were difficult terrain.
+    effect: >
+      All Physical damage becomes Shadow
+      [br][url:status#Hidden]Hidden 2[/url]
+      [br][url:status#Levitating]Levitating 1[/url] at will, standard [url:values#MS]MS[/url]
+      [br][url:status#Resistant]Resistance[/url] [i]Physical[/i]
+      [br][url:status#Vulnerable]Vulnerability[/url] [i]Magical[/i]

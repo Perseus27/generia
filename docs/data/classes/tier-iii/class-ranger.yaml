@@ -6,7 +6,7 @@ description: >
 
 prerequisites:
   - Hunter
-  - "[url:class2/class-treewarden]Treewarden[/url] [sup]or[/sup] [url:class2/class-wildkeeper]Wildkeeper[/url]"
+  - Wildkeeper
 
 subclasses: []
 

@@ -39,3 +39,5 @@ title: Nox Spells
 
 {{ spells('data/spells/nox/nox-spells-i.yaml') }}
 {{ spells('data/spells/nox/nox-spells-ii.yaml') }}
+{{ spells('data/spells/nox/nox-spells-iii.yaml') }}
+{{ spells('data/spells/nox/nox-spells-x.yaml') }}
