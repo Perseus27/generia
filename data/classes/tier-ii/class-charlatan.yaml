@@ -31,4 +31,5 @@ actions:
   spells:
     - [Shadow Summoning, 4 SP]
     - [Substitution, 8 SP]
-    - [Night Mist, 8 SP]
+    - [Shadow Thief, 4 SP]
+    - [Terror, 4 SP]

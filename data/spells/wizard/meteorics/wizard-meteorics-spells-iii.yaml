@@ -28,7 +28,7 @@ offensive:
   - name: Lightning Blast II
     id: lightning-blast-ii
     auto_type: [SA, INT]
-    tags: [TIER III, Lightning, Offensive, "Range: 20m", "Width: 3m", UPCAST 3]
+    tags: [TIER III, Lightning, Offensive, "Range: 20m", "Width: 1m", UPCAST 3]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:

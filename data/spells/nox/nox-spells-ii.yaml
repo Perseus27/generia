@@ -104,3 +104,16 @@ utility:
     effect: >
       Creatures in the area become [url:status#Frightened]Frightened[/url].
     saved: No effect.
+
+ritual:
+  - name: See the Unseen
+    id: see-the-unseen
+    tags: [TIER II, Nox, Out of Combat]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cast_time: 10 Seconds
+    description: >
+      The Nox connects with the shadows surrounding them, greatly improving their ability to perceive every 
+      creature or object that either throws a shadow or is enveloped by darkness.
+    effect: >
+      [url:core#Advantage]Advantage 2[/url] on the next [section:clr-attr]PER[/section] check within this Phase.

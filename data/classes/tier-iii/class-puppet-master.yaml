@@ -1,0 +1,33 @@
+name: Puppet Master
+id: class-puppet-master
+prefix: class3
+description: >
+  With their ability to perfectly mimic their victims' appearances, Puppet Masters are the bane 
+  of high society anywhere.
+  [br]On top of that, they are a major annoyance in combat, taking perfidious joy in manipulating 
+  and sabotaging their opponents.
+
+prerequisites:
+  - Charlatan
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - [Cabinet of Illusions, "20 SP, X"]
+    - [Astral Body I, 10 SP]
+    - [Focus II, 20 SP]
+
+proficiencies:
+  magic:
+    - ["Nox: Adept", 30 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Cut the Strings, "20 SP, X"]
