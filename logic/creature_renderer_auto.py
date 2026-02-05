@@ -106,6 +106,10 @@ class Creature_Renderer_Auto:
             bstr = int(self.mods.get("CON")) + int(self.mods.get("STR"))
             if a.get("shield", False):
                 bstr += 2
+            elif adata.get("type") == "Shield":
+                for t in adata.get("tags"):
+                    if t[0] == "Shield":
+                        bstr += t[1] + int(a.get("q", 0))
             if adata.get("type") == "Primitive":
                 if not adata.get("block", False):
                     bstr = int(bstr/2)
