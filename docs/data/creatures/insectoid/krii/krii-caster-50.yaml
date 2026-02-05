@@ -87,7 +87,7 @@ actions:
 
     - name: Bite
       type: Melee Attack
-      auto: Teeth, large
+      auto: Teeth (large)
 
     - name: Acid Fangs
       type: Reaction
