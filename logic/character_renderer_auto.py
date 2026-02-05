@@ -166,6 +166,7 @@ class Character_Renderer_Auto:
     def calc_weapon(self, weapon_full):
         weapon = weapon_full[0]
         qvalue = int(weapon_full[1].get("q", 0))
+        is_ammo = weapon.get("ammo", False)
         proficiency = self.get_weapon_proficiency(weapon)
         qstring = ""
         if qvalue > 0:
@@ -192,12 +193,13 @@ class Character_Renderer_Auto:
         if subname:
             result += f"[container:subitem][section:subname]{subname}[/section][/container]"
         # Hit+X, Block+Y|Z
-        result += "[container:subitem][section:clr-hit]"
-        if block_value:
-            result += f"Hit+{hit_value}, Block+{block_value}|{block_strength}"
-        else:
-            result += f"Hit+{hit_value}"
-        result += "[/section][/container]"
+        if not is_ammo:
+            result += "[container:subitem][section:clr-hit]"
+            if block_value:
+                result += f"Hit+{hit_value}, Block+{block_value}|{block_strength}"
+            else:
+                result += f"Hit+{hit_value}"
+            result += "[/section][/container]"
         # Damage
         result += f"[container:subitem][section:clr-roll]{dmg_string}[/section][/container]"
         # Enchantments
@@ -222,7 +224,10 @@ class Character_Renderer_Auto:
         wdamage = weapon.get("damage")
         if weapon.get("type") == "Shield":
             qvalue = 0
-        dmg_bonus = int(int(self.mods.get("STR")) * float(weapon.get("dr")) + qvalue)
+        if weapon.get("ammo", False):
+            dmg_bonus = qvalue
+        else:
+            dmg_bonus = int(int(self.mods.get("STR")) * float(weapon.get("dr")) + qvalue)
         bonus = ""
         if dmg_bonus > 0:
             bonus = f"+{dmg_bonus}"
@@ -231,9 +236,13 @@ class Character_Renderer_Auto:
         return f"{wdamage[0]}{bonus} {wdamage[1]}"
 
     def get_weapon_hit_value(self, weapon, prof):
+        if weapon.get("ammo", False):
+            return False
         return int(int(self.mods.get("DEX")) * float(weapon.get("hr")) + prof)
     
     def get_weapon_block_value(self, weapon, prof):
+        if weapon.get("ammo", False):
+            return False
         wtype = weapon.get("type", False)
         if wtype in [False,"Bow","Crossbow","Sling","Thrown"]:
             return False
