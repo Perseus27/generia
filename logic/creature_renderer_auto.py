@@ -149,6 +149,8 @@ class Creature_Renderer_Auto:
     
     def format_spell_damage(self, a):
         prof = self.get_prof_value(a)
+        if a.get("aoe", False):
+            prof = int(prof/2)
         dmg = a.get("damage", False)
         if dmg:
             if prof:
