@@ -49,6 +49,7 @@ actions:
 
     - name: Acid Puddle
       type: Utility, Range 6m, Radius 1m, Field
+      aoe: True
       effect:
         - "Spits a puddle of acid that causes [url:status#Brittle]Brittle 1[/url] to leg armor on contact."
         - "If effective leg armor equals [section:clr-value]0[/section], creature gets [url:status#Poisoned]Poisoned 1[/url] instead."
@@ -77,6 +78,7 @@ actions:
 
     - name: Eusocial
       type: Passive, Radius 16m
+      aoe: True
       effect:
         - If other Krii are present in the radius, saves against mental status effects have [url:core#Advantage]Advantage 1[/url].
         - If no other Krii are present in the radius, the Krii is permanently [url:status#Confused]Confused[/url].

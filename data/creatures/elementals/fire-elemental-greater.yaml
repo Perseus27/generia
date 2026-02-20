@@ -42,6 +42,7 @@ actions:
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Fire Nova
       type: Spell Attack, AoE, Radius 4m
+      aoe: True
       hit: "[section:clr-sa]SA+12[/section]"
       damage: 4d4+3 Fire
       cost: "[section:clr-mp]4 MP[/section]"
@@ -62,4 +63,5 @@ actions:
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Burning Aura III
       type: Passive, Radius 2m, Zone
+      aoe: True
       damage: 4d4+3 Fire

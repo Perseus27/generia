@@ -50,6 +50,7 @@ actions:
 
     - name: Void Ball
       type: Spell Attack, Range 20m, Radius 2m
+      aoe: True
       auto: [SA, WIL]
       damage: [4d6, Void]
       prof: Void
@@ -66,6 +67,7 @@ actions:
 
     - name: Void Field
       type: Utility, Concentration, FIELD, Range 20m, Radius 2m
+      aoe: True
       auto: [DC, WIL]
       prof: Void
       effect:

@@ -63,6 +63,7 @@ actions:
       cost: "[section:clr-mp]1 MP[/section] per stone."
     - name: Earthquake
       type: Utility, Range 12m, Radius 4m
+      aoe: True
       hit: "[section:clr-dc]DC 16[/section]"
       effect:
         - Creatures in the area go [url:status#Prone]prone[/url].

@@ -56,6 +56,7 @@ actions:
       cost: "[section:clr-en]1 EN[/section]"
     - name: Foul Mist
       type: Utility, Radius 2m, Zone, Concentration
+      aoe: True
       hit: "[section:clr-dc]DC 16[/section]"
       effect:
         - Nearby foes are [url:status#Poisoned]Poisoned 2[/url].

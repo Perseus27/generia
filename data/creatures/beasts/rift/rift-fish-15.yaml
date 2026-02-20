@@ -70,6 +70,7 @@ actions:
 
     - name: Blood in the Water
       type: Passive, Radius 8m
+      aoe: True
       effect:
         - If any creature in the radius suffers a wound from [url:status#Bleeding]Bleeding[/url], regenerate [section:clr-roll-noex]1d4[/section] [section:clr-mp]MP[/section].
 

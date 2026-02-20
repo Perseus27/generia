@@ -66,6 +66,7 @@ actions:
 
     - name: Coordinate
       type: Utility, Radius 8m
+      aoe: True
       effect:
         - "Nearby Krii gain [url:status#AttackBonus]Attack Bonus 8[/url] or [url:status#DefenseBonus]Defense Bonus 8[/url]."
       cost: "[section:clr-mp]2 MP[/section]"
@@ -125,16 +126,19 @@ actions:
 
     - name: Eusocial
       type: Passive, Radius 16m
+      aoe: True
       effect:
         - If other Krii are present in the radius, saves against mental status effects have [url:core#Advantage]Advantage 1[/url].
         - If no other Krii are present in the radius, the Krii is permanently [url:status#Confused]Confused[/url].
 
     - name: Psychic Node
       type: Passive, Radius 16m
+      aoe: True
       effect:
         - All Krii soldiers in the vicinity may use the Caster's mental attribute MODs for saves.
 
     - name: Soul Link
       type: Passive, Radius 16m
+      aoe: True
       effect:
         - All Krii in the vicinity synchronize their thoughts, granting them [url:core#Advantage]Advantage 1[/url] on all [url:def#BasicAttack]Basic Attacks[/url].
