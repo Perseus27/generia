@@ -18,7 +18,7 @@ perks:
 
 proficiencies:
   magic:
-    - []
+    - ["Nox: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -26,7 +26,6 @@ actions:
   skills:
     - []
   spells:
-    - ["Nox: Intermediate", 20 SP]
     - [Shadow Step, 8 SP]
     - [Noxian Bargain, 8 SP]
     - [Terror, 4 SP]

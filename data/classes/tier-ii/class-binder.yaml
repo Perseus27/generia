@@ -17,7 +17,7 @@ perks:
 
 proficiencies:
   magic:
-    - []
+    - ["Shaman: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -25,7 +25,6 @@ actions:
   skills:
     - []
   spells:
-    - ["Shaman: Intermediate", 20 SP]
     - [Lesser Elemental Guidance, 4 SP]
     - [Wave of Healing, 4 SP (Upgrade)]
     - [Elemental Favor, 4 SP (Upgrade)]
