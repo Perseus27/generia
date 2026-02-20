@@ -55,6 +55,7 @@ actions:
 
     - name: Slime Puddle
       type: Utility, Range 8m, Radius 1m, Field
+      aoe: True
       effect:
         - Spits out a puddle of slime that [url:status#Slowed]slows[/url] creatures moving through it. Levitating creatures are immune.
         - Rift Snails only use half the MS per field while moving through [i]Slime Puddle[/i].

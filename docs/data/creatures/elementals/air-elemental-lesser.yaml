@@ -56,5 +56,6 @@ actions:
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Tailwind I
       type: Passive, Radius 12m
+      aoe: True
       effect: >
         Allied creatures gain [section:clr-bonus]+2[/section] MS.

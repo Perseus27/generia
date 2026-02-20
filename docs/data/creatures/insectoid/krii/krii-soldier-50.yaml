@@ -99,6 +99,7 @@ actions:
 
     - name: Eusocial
       type: Passive, Radius 16m
+      aoe: True
       effect:
         - If other Krii are present in the radius, saves against mental status effects have [url:core#Advantage]Advantage 1[/url].
         - If no other Krii are present in the radius, the Krii is permanently [url:status#Confused]Confused[/url].

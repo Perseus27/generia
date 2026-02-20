@@ -47,6 +47,7 @@ actions:
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Air Pressure
       type: Utility, Radius 2m
+      aoe: True
       hit: "[section:clr-dc]DC 18[/section]"
       effect: >
         [url:status#Knockback]Knockback 4[/url].
@@ -63,5 +64,6 @@ actions:
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Tailwind II
       type: Passive, Radius 12m
+      aoe: True
       effect: >
         Allied creatures gain [section:clr-bonus]+4[/section] MS.

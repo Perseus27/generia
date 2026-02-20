@@ -47,6 +47,7 @@ actions:
 
     - name: Screech
       type: Utility, Radius 4m
+      aoe: True
       hit: "[section:clr-dc]DC 12[/section]"
       effect:
         - "Screeches loudly to [url:status#Frightened]frighten[/url] nearby creatures."

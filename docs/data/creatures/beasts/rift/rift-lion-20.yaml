@@ -46,6 +46,7 @@ actions:
 
     - name: Tail Swipe
       type: Melee Attack, AoE, Radius 2m
+      aoe: True
       hit: "Hit+10"
       damage: 2d8+6 Blunt
       cost: "[section:clr-en]2 EN[/section]"

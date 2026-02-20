@@ -70,6 +70,7 @@ actions:
 
     - name: Elemental Blast
       type: Spell Attack, Range 20m, Radius 2m
+      aoe: True
       auto: [SA, PER]
       prof: Sorcery
       damage: [4d6, Element]
@@ -80,6 +81,7 @@ actions:
 
     - name: Elemental Zone
       type: Utility, Concentration, Range 20m, Radius 2m
+      aoe: True
       auto: [DC, PER]
       prof: Sorcery
       effect:
