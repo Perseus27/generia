@@ -57,6 +57,7 @@ actions:
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Pure Chaos
       type: Surecast, Range 20m, Radius 1m
+      aoe: True
       effect:
         - Select a singular creature or an area with a [section:clr-value]1 meter[/section] radius.
         - Then roll a [i]Chaos Check[/i] for the affected creature or area.

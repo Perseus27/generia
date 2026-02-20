@@ -52,4 +52,5 @@ actions:
   passive:
     - name: Burning Aura I
       type: Passive, Radius 2m, Zone
+      aoe: True
       damage: 2d4+1 Fire

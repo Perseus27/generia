@@ -52,6 +52,7 @@ actions:
         - Simultaneously casts two [i]Arcane Missiles[/i] on different targets.
     - name: Arcane Detonation
       type: Spell Attack, Range 20m, Radius 2m
+      aoe: True
       hit: "Hit+10"
       damage: 3d8+4 Arcane
       effect:
@@ -65,6 +66,7 @@ actions:
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Pure Chaos
       type: Surecast, Range 20m, Radius 1m
+      aoe: True
       effect:
         - Select a singular creature or an area with a [section:clr-value]1 meter[/section] radius.
         - Then roll a [i]Chaos Check[/i] for the affected creature or area.

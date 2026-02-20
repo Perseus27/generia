@@ -41,6 +41,7 @@ actions:
 
     - name: Howl
       type: Utility, Radius 12m
+      aoe: True
       hit: "[section:clr-dc]DC 10[/section]"
       effect:
         - "Targets are [url:status#Frightened]Frightened[/url]."

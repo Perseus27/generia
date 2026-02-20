@@ -61,6 +61,7 @@ actions:
       cost: "[section:clr-en]1 EN[/section]"
     - name: Tentacle Pull
       type: Utility, Radius 4m
+      aoe: True
       hit: "[section:clr-dc]DC 13[/section]"
       effect:
         - Moves a [url:status#Restrained]restrained[/url] target up to [section:clr-value]3m[/section] in any direction within the radius.

@@ -51,6 +51,7 @@ actions:
         - "Only againt [url:status#Prone]prone[/url] targets."
     - name: Stomp
       type: Utility, Radius 4m
+      aoe: True
       hit: "[section:clr-dc]DC 16[/section]"
       effect:
         - Smaller creatures nearby [url:status#OffBalance]lose balance[/url].
@@ -58,6 +59,7 @@ actions:
       cost: "[section:clr-en]2 EN[/section]"
     - name: Roar
       type: Utility, Radius 12m
+      aoe: True
       hit: "[section:clr-dc]DC 16[/section]"
       effect:
         - "[url:status#Frightened]Frightened[/url]."

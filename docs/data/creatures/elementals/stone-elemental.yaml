@@ -41,6 +41,7 @@ actions:
       damage: 2d8+4 Blunt
     - name: Whirling Attack
       type: Melee Attack, Radius 2m
+      aoe: True
       hit: "Hit+6"
       damage: 2d8+4 Blunt
       cost: "[section:clr-en]2 EN[/section]"

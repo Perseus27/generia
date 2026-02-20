@@ -48,6 +48,7 @@ actions:
 
     - name: Tail Swipe
       type: Melee Attack, AoE, Radius 4m
+      aoe: True
       auto: Tentacles (medium)
       cost: "[section:clr-en]2 EN[/section]"
 
@@ -81,6 +82,7 @@ actions:
 
     - name: Poison Cloud
       type: Utility, Zone, Range 20m, Radius 2m
+      aoe: True
       auto: [DC, PER]
       prof: Air
       effect:
@@ -99,6 +101,7 @@ actions:
 
     - name: Shriek
       type: Utility, Radius 8m
+      aoe: True
       auto: [DC, CON]
       prof: None
       effect:
