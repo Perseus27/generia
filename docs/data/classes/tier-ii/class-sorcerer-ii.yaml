@@ -18,7 +18,7 @@ perks:
 
 proficiencies:
   magic:
-    - []
+    - ["Sorcerer: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -26,6 +26,5 @@ actions:
   skills:
     - []
   spells:
-    - ["Sorcerer: Intermediate", 20 SP]
     - [Template Budget, 12 SP]
     - [Recycled Spell, 8 SP]

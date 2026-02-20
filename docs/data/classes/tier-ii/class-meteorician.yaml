@@ -19,7 +19,7 @@ perks:
 
 proficiencies:
   magic:
-    - []
+    - ["Meteorics: Intermediate", 20 SP]
   weapons:
     - []
 
@@ -27,7 +27,6 @@ actions:
   skills:
     - []
   spells:
-    - ["Meteorics: Intermediate", 20 SP]
     - [Air Burst, 4 SP]
     - [Thunderbolt I, 8 SP]
     - [Levitation, 8 SP]
