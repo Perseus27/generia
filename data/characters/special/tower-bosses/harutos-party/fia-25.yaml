@@ -1,32 +1,32 @@
-name: Fia 15
-id: fia-15
+name: Fia 25
+id: fia-25
 info:
   species: [Felis, Human]
-  level: 15
+  level: 25
   size: Medium
-  classes: [Nox, Bard, Charlatan, Troubadour]
-  tags: [[Trained, 30]]
+  classes: [Nox, Bard, Charlatan, Troubadour, Puppet Master]
+  tags: [[Trained, 50]]
 notes: >
-  105 SP Total
-  [br]+30 Bonus
-  [br]+30 Trained
-  [br]Rest 0
+  160 SP Total
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 3
 
 attributes:
-  CON: [5, 2]
+  CON: [7, 3]
   STR: [4, 2]
-  DEX: [8, 4, 2]
-  INT: [5, 2]
-  WIL: [8, 4, 1]
+  DEX: [11, 5, 3]
+  INT: [7, 3]
+  WIL: [12, 6, 2]
   PER: [8, 4]
 values:
   EN: 10
-  MP: 15
-  MPR: 3
+  MP: 20
+  MPR: 5
   WL: 5
-  WT: 6
+  WT: 7
   TN: 3
-  MS: 6
+  MS: 8
 armor:
   head: 0
   torso: 0
@@ -37,40 +37,46 @@ armor:
 inventory:
   weapons:
     - name: Rapier
-      q: 2
+      q: 4
       enchantments:
         - Sharp I
     - name: Dagger
       q: 2
   armor:
     - name: Hood
-      q: 2
+      q: 3
     - name: Padded Armor
-      q: 2
+      q: 3
     - name: Padded Gauntlets
-      q: 2
+      q: 3
       enchantments:
         - DEX+1
     - name: Padded Greaves
-      q: 2
+      q: 3
       enchantments:
         - DEX+1
     - name: Amulet
       disp: Amulet of Willpower
-      q: 3
+      q: 4
       enchantments:
-        - WIL+1
+        - WIL+2
     - name: Ring
       disp: Noxian Ring
       q: 1
       enchantments:
         - [Focus, Nox]
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 1
+      enchantments:
+        - DEX+1
   misc:
     - ""
 actions:
   skills:
     - ""
   spells:
+    - Cut the Strings
     - Stanza of Folly
     - Song of Heroism
     - Stanza of Healing
@@ -90,7 +96,7 @@ proficiencies:
     - "Bard: Intermediate"
     - [Cacophony, 3]
     - [Euphony, 3]
-    - "Nox: Intermediate"
+    - "Nox: Adept"
     - [Night, 4]
     - [Shadow, 1]
   weapons:
@@ -98,13 +104,13 @@ proficiencies:
     - [Sword, 3]
     - [Dagger, 1]
   civilian:
-    - [History, 3]
-    - [Mysticism, 4]
-    - [Spellcraft, 3]
-    - [Performance, 7]
-    - [Religion, 1]
-    - [Stealth, 4]
-    - [Stealing, 5]
+    - [History, 5]
+    - [Mysticism, 6]
+    - [Spellcraft, 4]
+    - [Performance, 9]
+    - [Religion, 2]
+    - [Stealth, 6]
+    - [Stealing, 8]
 perks:
   special:
     - Pursuit Hunter
@@ -113,8 +119,9 @@ perks:
     - Dodge Tank
     - Opportunist
   magic:
+    - Cabinet of Illusions
     - Mostly Harmless
     - Whispering Shadows
     - Astral Body I
     - Battle Meditation
-    - Focus I
+    - Focus II

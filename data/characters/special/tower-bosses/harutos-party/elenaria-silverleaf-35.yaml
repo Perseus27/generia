@@ -1,0 +1,154 @@
+name: Elenaria Silverleaf 35
+id: elenaria-silverleaf-35
+info:
+  species: Elf
+  level: 35
+  size: Medium
+  classes: [Wizard, Archer, Fighter, Spellbow, Spellblade, Hermetician, Meteorician, Hunter, Swordfighter, Deadshot]
+  tags: [[Trained, 50]]
+notes: >
+  225 SP Base
+  [br]+70 Bonus
+  [br]+50 Trained
+  [br]Rest 80
+
+attributes:
+  CON: [8, 4]
+  STR: [6, 3]
+  DEX: [14, 7, 3]
+  INT: [12, 6, 2]
+  WIL: [10, 5]
+  PER: [10, 5, 1]
+values:
+  EN: 15
+  MP: 20
+  MPR: 3
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Elven Bow
+      q: 4
+      enchantments:
+        - [Focus, Wizard]
+        - Guiding Wind
+    - name: Elven Sword
+      q: 4
+      enchantments:
+        - [Focus, Wizard]
+        - Sharp I
+    - name: Dagger
+      q: 3
+    - name: Arrow, heavy
+      q: 2
+  armor:
+    - name: Hood
+      q: 4
+    - name: Padded Armor
+      q: 4
+      enchantments:
+        - DEX+1
+    - name: Padded Gauntlets
+      q: 4
+      enchantments:
+        - DEX+1
+    - name: Padded Greaves
+      q: 4
+      enchantments:
+        - DEX+1
+    - name: Amulet
+      disp: Lightning Amulet
+      q: 4
+      enchantments:
+        - [Element Reroll I, "[section:clr-value]Lightning[/section]"]
+    - name: Ring
+      disp: Ring of Intelligence
+      q: 2
+      enchantments:
+        - INT+2
+    - name: Ring
+      disp: Ring of Perception
+      q: 2
+      enchantments:
+        - PER+1
+  misc:
+    - ""
+actions:
+  skills:
+    - Heartseeker
+    - Careful Shot
+    - Unpredictable Shot
+    - Ricochet
+    - Aimed Shot
+    - Hold Breath
+    - Find Weakness
+    - Overwatch
+    - Camouflage
+    - Mighty Strike
+    - Charge
+    - Feint
+    - Disarm
+    - Leg Sweep
+    - Shove
+    - Counter
+  spells:
+    - Blade Infusion
+    - Bow Infusion
+    - Thunder I
+    - Mana Beam I
+    - Meteoric Bolt I
+    - Counter Shot
+    - Levitation
+    - Dimension Step
+    - Air Burst
+    - Counterspell
+    - Blink
+    - Meteoric Barrier I
+  rituals:
+    - Hermetic Manipulation
+    - Meteoric Manipulation
+proficiencies:
+  magic:
+    - "Hermetics: Intermediate"
+    - [Arcane, 4]
+    - "Meteorics: Intermediate"
+    - [Lightning, 6]
+  weapons:
+    - "Ranged: Adept"
+    - [Bow, 6]
+    - "Slashing: Intermediate"
+    - [Sword, 4]
+  civilian:
+    - [Arithmetics, 5]
+    - [History, 7]
+    - [Hunting, 4]
+    - [Monster Lore, 1]
+    - [Performance, 4]
+    - [Survival, 2]
+    - [Spellcraft, 6]
+    - [Warfare, 2]
+perks:
+  special:
+    - Arcane Flow
+    - Harmony
+  combat:
+    - Kill Chain
+    - Edge Alignment
+    - On the Prowl
+    - Dodge Tank
+    - Opportunist
+    - Routine
+  magic:
+    - Practiced Hermetician
+    - Practiced Meteorician
+    - Battle Meditation
+    - Focus I
