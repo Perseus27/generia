@@ -10,7 +10,7 @@ notes: >
   225 SP Base
   [br]+70 Bonus
   [br]+50 Trained
-  [br]Rest 80
+  [br]Rest 0
 
 attributes:
   CON: [8, 4]
