@@ -74,6 +74,9 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-ii/class-troubadour.yaml') }}
 {{ class_card('data/classes/tier-ii/class-war-dancer.yaml') }}
 {{ class_card('data/classes/tier-ii/class-wildkeeper.yaml') }}
+### Advanced Classes
+{{ class_card('data/classes/tier-ii/class-sorcerer-ii.yaml') }}
+{{ class_card('data/classes/tier-ii/class-tempering-second-stage.yaml') }}
 
 
 # Tier III

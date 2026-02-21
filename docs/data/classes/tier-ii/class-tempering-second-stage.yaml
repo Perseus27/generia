@@ -1,0 +1,39 @@
+name: "Tempering: Second Stage"
+id: class-tempering-second-stage
+alias: [Tempered II, Tempering II]
+prefix: class2
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/tempering/what-is-a-tempered]What is a Tempered?[/url]
+
+description: >
+  [section:clr-malus]WARNING: ADVANCED CLASS[/section]
+  [br]Tempered strengthen their bodies by forcing raw mana through their own flesh and soul rather than shaping it externally.
+  [br]Due to the severe physical and mental strain involved in this process, Tempered are a rare sight outside of their sects' training halls.
+
+prerequisites:
+  - "Tempering: Second Stage"
+
+subclasses:
+  - "Tempering: Third Stage"
+
+perks:
+  combat:
+    - [Conditioned II, 20 SP]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - ["Tempering: Intermediate", 20 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Crush, 8 SP]
+    - [Looming Aura, 8 SP]
+    - [Bonemending, 4 SP]
