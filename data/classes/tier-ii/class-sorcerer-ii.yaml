@@ -2,7 +2,9 @@ name: Sorcerer II
 id: class-sorcerer-ii
 prefix: class2
 description: >
-  WARNING: ADVANCED CLASS Sorcerers are self-taught spellcasters who rely entirely on their intuition to work magic. Predictably, this often results in chaos.
+  [section:clr-malus]WARNING: ADVANCED CLASS[/section]
+  [br]Sorcerers are self-taught spellcasters who rely entirely on their intuition to work magic. 
+  Predictably, this often results in chaos.
 
 prerequisites:
   - Sorcerer
