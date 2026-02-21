@@ -78,6 +78,13 @@
       color:var(--muted);
     }
 
+    #apRemaining {
+      cursor: pointer;
+    }
+    #apRemaining:hover {
+      text-decoration: underline;
+    }
+
     button{
       padding: 6px 10px;
       border-radius: 10px;
@@ -317,11 +324,8 @@
     }
 
     function canIncreaseBy(attr, step) {
-      const current = state.attrs[attr];
       const k = maxIncreaseSteps(attr, step);
-      if (k <= 0) return false;
-      const cost = costIncreaseBy(current, k);
-      return remainingAP() >= cost;
+      return k > 0;
     }
 
     function canDecreaseBy(attr, step) {
@@ -336,8 +340,6 @@
       if (delta > 0) {
         const k = maxIncreaseSteps(attr, delta);
         if (k <= 0) return;
-        const cost = costIncreaseBy(current, k);
-        if (remainingAP() < cost) return;
         state.attrs[attr] = current + k;
         return;
       }
@@ -400,6 +402,19 @@
     const elSizeLabel = document.getElementById("sizeLabel");
     const elSizeWlModLabel = document.getElementById("sizeWlModLabel");
     const sizeButtons = Array.from(document.querySelectorAll(".size-btn"));
+
+    elApRem.title = "Click to adjust level";
+
+    elApRem.addEventListener("click", () => {
+      // Only act if we're actually negative
+      if (remainingAP() >= 0) return;
+
+      const needed = Math.max(1, Math.ceil(spentAP() / 10));
+      if (needed !== state.level) {
+        state.level = needed;
+        render();
+      }
+    });
 
     function renderAdvancedUI() {
       document.body.classList.toggle("advanced", !!state.advanced);
