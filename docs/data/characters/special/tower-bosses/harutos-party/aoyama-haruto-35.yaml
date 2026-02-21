@@ -1,0 +1,142 @@
+name: Aoyama Haruto 35
+id: aoyama-haruto-35
+info:
+  species: Human
+  level: 35
+  size: Medium
+  classes: [Fighter, Tempered I, Swordfighter, Sorcerer II, Tempered II, Specialist]
+  tags: [Summoned Hero, [Trained, 50]]
+notes: >
+  225 SP Base
+  [br]+140 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [11, 5, 2]
+  STR: [12, 6, 2]
+  DEX: [12, 6, 2]
+  INT: [7, 3]
+  WIL: [9, 4]
+  PER: [10, 5, 1]
+values:
+  EN: 20
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 9
+  TN: 6
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Katana
+      q: 4
+      enchantments:
+        - Blooddrinker
+        - Sharp I
+    - name: Dagger
+      q: 2
+  armor:
+    - name: Hood
+      q: 4
+    - name: Chain Armor
+      q: 4
+      enchantments:
+        - CON+2
+    - name: Chain Gauntlets
+      q: 4
+      enchantments:
+        - STR+2
+    - name: Chain Greaves
+      q: 4
+    - name: Amulet
+      q: 4
+    - name: Ring
+      disp: Ring of Perception
+      q: 2
+      enchantments:
+        - PER+1
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 2
+      enchantments:
+        - DEX+2
+  misc:
+    - ""
+actions:
+  skills:
+    - True Strike
+    - Whirl
+    - Quick Strike
+    - Mighty Strike
+    - "Stance: Parry"
+    - "Technique: Second Wind"
+    - Aimed Strike
+    - Counter
+    - Disarm
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Swift Parry
+  spells:
+    - Crush
+    - Impact
+    - Skin of Bronze
+    - Bones of Steel
+    - Great Leap
+    - Fleshmending
+    - Killing Intent
+    - Looming Aura
+    - Looming Presence
+    - Bonemending
+    - "[b]Sorcery[/b]"
+    - "[section:clr-dc]DC[/section]: [section:clr-value]22[/section]"
+    - "[section:clr-pa]PA[/section]/[section:clr-sa]SA[/section]: [section:clr-value]+12[/section]"
+    - "[section:clr-sd]SD[/section]: [section:clr-value]+15[/section]"
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Sorcerer: Intermediate"
+    - [Hope, 6]
+    - [Light, 4]
+    - "Tempering: Intermediate"
+    - [Body, 6]
+    - [Soul, 6]
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 8]
+    - "Defensive: Beginner"
+  civilian:
+    - [Monster Lore, 5]
+    - [Mysticism, 2]
+    - [Warfare, 8]
+    - [Spellcraft, 6]
+    - [Cooking, 8]
+    - [Tinkering, 5]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+    - Battle Formation
+    - Purgatory
+  combat:
+    - Momentum
+    - Edge Alignment
+    - Goliath
+    - Conditioned II
+    - Deflector
+    - Duelist
+    - Opportunist
+    - Routine
+  magic:
+    - Battle Meditation
+    - Blood Mage

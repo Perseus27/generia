@@ -1,0 +1,134 @@
+name: Aoyama Haruto 25
+id: aoyama-haruto-25
+info:
+  species: Human
+  level: 25
+  size: Medium
+  classes: [Fighter, Tempered I, Swordfighter, Sorcerer II, Specialist]
+  tags: [Summoned Hero, [Trained, 50]]
+notes: >
+  165 SP Base
+  [br]+100 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [9, 4, 2]
+  STR: [10, 5, 1]
+  DEX: [11, 5, 1]
+  INT: [5, 2]
+  WIL: [7, 3]
+  PER: [8, 4, 1]
+values:
+  EN: 20
+  MP: 10
+  MPR: 2
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Bastard Sword
+      q: 4
+      enchantments:
+        - Sharp I
+    - name: Dagger
+      q: 2
+  armor:
+    - name: Hood
+      q: 3
+    - name: Chain Armor
+      q: 3
+      enchantments:
+        - CON+2
+    - name: Chain Gauntlets
+      q: 3
+      enchantments:
+        - STR+1
+    - name: Chain Greaves
+      q: 3
+    - name: Amulet
+      q: 4
+    - name: Ring
+      disp: Ring of Perception
+      q: 1
+      enchantments:
+        - PER+1
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 1
+      enchantments:
+        - DEX+1
+  misc:
+    - ""
+actions:
+  skills:
+    - True Strike
+    - Whirl
+    - Quick Strike
+    - Mighty Strike
+    - "Stance: Parry"
+    - "Technique: Second Wind"
+    - Aimed Strike
+    - Counter
+    - Disarm
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Swift Parry
+  spells:
+    - Impact
+    - Skin of Bronze
+    - Bones of Steel
+    - Great Leap
+    - Killing Intent
+    - Looming Presence
+    - "[b]Sorcery[/b]"
+    - "[section:clr-dc]DC[/section]: [section:clr-value]20[/section]"
+    - "[section:clr-pa]PA[/section]/[section:clr-sa]SA[/section]: [section:clr-value]+10[/section]"
+    - "[section:clr-sd]SD[/section]: [section:clr-value]+14[/section]"
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Sorcerer: Intermediate"
+    - [Hope, 6]
+    - [Light, 4]
+    - "Tempering: Beginner"
+    - [Body, 4]
+    - [Soul, 4]
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 7]
+    - "Defensive: Beginner"
+  civilian:
+    - [Monster Lore, 5]
+    - [Mysticism, 2]
+    - [Warfare, 8]
+    - [Spellcraft, 6]
+    - [Cooking, 8]
+    - [Tinkering, 5]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  combat:
+    - Momentum
+    - Edge Alignment
+    - Goliath
+    - Conditioned I
+    - Deflector
+    - Duelist
+    - Opportunist
+    - Routine
+  magic:
+    - Battle Meditation

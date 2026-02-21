@@ -1,32 +1,32 @@
-name: Elenaria Silverleaf 15
-id: elenaria-silverleaf-15
+name: Elenaria Silverleaf 25
+id: elenaria-silverleaf-25
 info:
   species: Elf
-  level: 15
+  level: 25
   size: Medium
-  classes: [Wizard, Archer, Spellbow, Hermetician, Meteorician]
-  tags: [[Trained, 30]]
+  classes: [Wizard, Archer, Spellbow, Hermetician, Meteorician, Hunter, Deadshot]
+  tags: [[Trained, 50]]
 notes: >
-  105 SP Base
-  [br]+30 Bonus
-  [br]+30 Trained
+  165 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
   [br]Rest 0
 
 attributes:
-  CON: [5, 2]
+  CON: [7, 3]
   STR: [4, 2]
-  DEX: [9, 4, 2]
-  INT: [10, 5, 1]
-  WIL: [5, 2]
-  PER: [4, 2]
+  DEX: [11, 5, 2]
+  INT: [12, 6, 1]
+  WIL: [8, 4]
+  PER: [7, 3, 1]
 values:
   EN: 10
-  MP: 15
+  MP: 20
   MPR: 2
-  WL: 4
-  WT: 6
+  WL: 5
+  WT: 7
   TN: 3
-  MS: 6
+  MS: 8
 armor:
   head: 0
   torso: 0
@@ -37,40 +37,56 @@ armor:
 inventory:
   weapons:
     - name: Elven Bow
-      q: 2
+      q: 4
       enchantments:
         - [Focus, Wizard]
     - name: Elven Sword
-      q: 1
+      q: 2
     - name: Dagger
+      q: 2
     - name: Arrow, heavy
+      q: 1
   armor:
     - name: Hood
-      q: 2
+      q: 3
     - name: Padded Armor
-      q: 2
+      q: 3
     - name: Padded Gauntlets
-      q: 2
+      q: 3
       enchantments:
         - DEX+1
     - name: Padded Greaves
-      q: 1
+      q: 3
       enchantments:
         - DEX+1
     - name: Amulet
-      q: 3
+      disp: Lightning Amulet
+      q: 4
+      enchantments:
+        - [Element Reroll I, "[section:clr-value]Lightning[/section]"]
     - name: Ring
       disp: Ring of Intelligence
       q: 1
       enchantments:
         - INT+1
+    - name: Ring
+      disp: Ring of Perception
+      q: 1
+      enchantments:
+        - PER+1
   misc:
     - ""
 actions:
   skills:
+    - Heartseeker
+    - Careful Shot
     - Unpredictable Shot
+    - Ricochet
     - Aimed Shot
     - Hold Breath
+    - Find Weakness
+    - Overwatch
+    - Camouflage
   spells:
     - Bow Infusion
     - Thunder I
@@ -88,12 +104,12 @@ actions:
 proficiencies:
   magic:
     - "Hermetics: Intermediate"
-    - [Arcane, 3]
+    - [Arcane, 4]
     - "Meteorics: Intermediate"
-    - [Lightning, 4]
+    - [Lightning, 6]
   weapons:
-    - "Ranged: Intermediate"
-    - [Bow, 4]
+    - "Ranged: Adept"
+    - [Bow, 5]
     - "Slashing: Beginner"
     - [Sword, 1]
   civilian:
@@ -108,8 +124,12 @@ perks:
     - Arcane Flow
     - Harmony
   combat:
-    - ""
+    - Kill Chain
+    - On the Prowl
+    - Dodge Tank
+    - Routine
   magic:
     - Practiced Hermetician
     - Practiced Meteorician
     - Battle Meditation
+    - Focus I

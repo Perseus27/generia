@@ -1,32 +1,32 @@
-name: Fia 15
-id: fia-15
+name: Fia 35
+id: fia-35
 info:
   species: [Felis, Human]
-  level: 15
+  level: 35
   size: Medium
-  classes: [Nox, Bard, Charlatan, Troubadour]
-  tags: [[Trained, 30]]
+  classes: [Nox, Bard, Fighter, Charlatan, Troubadour, Puppet Master, Virtuoso]
+  tags: [[Trained, 50]]
 notes: >
-  105 SP Total
-  [br]+30 Bonus
-  [br]+30 Trained
-  [br]Rest 0
+  220 SP Total
+  [br]+70 Bonus
+  [br]+50 Trained
+  [br]Rest 83
 
 attributes:
-  CON: [5, 2]
-  STR: [4, 2]
-  DEX: [8, 4, 2]
-  INT: [5, 2]
-  WIL: [8, 4, 1]
-  PER: [8, 4]
+  CON: [7, 3]
+  STR: [6, 3, 1]
+  DEX: [14, 7, 3]
+  INT: [8, 4]
+  WIL: [14, 7, 3]
+  PER: [10, 5]
 values:
-  EN: 10
-  MP: 15
-  MPR: 3
-  WL: 5
-  WT: 6
+  EN: 15
+  MP: 20
+  MPR: 5
+  WL: 6
+  WT: 7
   TN: 3
-  MS: 6
+  MS: 8
 armor:
   head: 0
   torso: 0
@@ -37,40 +37,52 @@ armor:
 inventory:
   weapons:
     - name: Rapier
-      q: 2
+      q: 4
       enchantments:
         - Sharp I
     - name: Dagger
-      q: 2
+      q: 4
   armor:
     - name: Hood
-      q: 2
+      q: 4
     - name: Padded Armor
-      q: 2
-    - name: Padded Gauntlets
-      q: 2
-      enchantments:
-        - DEX+1
-    - name: Padded Greaves
-      q: 2
-      enchantments:
-        - DEX+1
-    - name: Amulet
-      disp: Amulet of Willpower
-      q: 3
+      q: 4
       enchantments:
         - WIL+1
+    - name: Padded Gauntlets
+      q: 4
+      enchantments:
+        - STR+1
+    - name: Padded Greaves
+      q: 4
+      enchantments:
+        - DEX+2
+    - name: Amulet
+      disp: Amulet of Willpower
+      q: 4
+      enchantments:
+        - WIL+2
     - name: Ring
       disp: Noxian Ring
-      q: 1
+      q: 2
       enchantments:
         - [Focus, Nox]
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 2
+      enchantments:
+        - DEX+1
   misc:
     - ""
 actions:
   skills:
-    - ""
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
   spells:
+    - Cut the Strings
+    - Enthrall
     - Stanza of Folly
     - Song of Heroism
     - Stanza of Healing
@@ -87,24 +99,24 @@ actions:
     - Shadow Thief
 proficiencies:
   magic:
-    - "Bard: Intermediate"
-    - [Cacophony, 3]
-    - [Euphony, 3]
-    - "Nox: Intermediate"
+    - "Bard: Adept"
+    - [Cacophony, 4]
+    - [Euphony, 4]
+    - "Nox: Adept"
     - [Night, 4]
-    - [Shadow, 1]
+    - [Shadow, 3]
   weapons:
     - "Stabbing: Beginner"
-    - [Sword, 3]
-    - [Dagger, 1]
+    - [Sword, 6]
+    - [Dagger, 3]
   civilian:
-    - [History, 3]
-    - [Mysticism, 4]
-    - [Spellcraft, 3]
-    - [Performance, 7]
-    - [Religion, 1]
-    - [Stealth, 4]
-    - [Stealing, 5]
+    - [History, 6]
+    - [Mysticism, 7]
+    - [Spellcraft, 5]
+    - [Performance, 12]
+    - [Religion, 3]
+    - [Stealth, 8]
+    - [Stealing, 10]
 perks:
   special:
     - Pursuit Hunter
@@ -113,8 +125,10 @@ perks:
     - Dodge Tank
     - Opportunist
   magic:
+    - Cabinet of Illusions
+    - Showtime
     - Mostly Harmless
     - Whispering Shadows
     - Astral Body I
     - Battle Meditation
-    - Focus I
+    - Focus II
