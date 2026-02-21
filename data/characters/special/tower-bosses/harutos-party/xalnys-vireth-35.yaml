@@ -4,13 +4,13 @@ info:
   species: Alb
   level: 35
   size: Medium
-  classes: [Acolyte, Fighter, Moon Priest, Moon Warden, Breaker, Augur]
+  classes: [Acolyte, Fighter, Moon Priest, Moon Warden, Breaker, Shieldbearer, Augur, Champion]
   tags: [[Trained, 50]]
 notes: >
   210 SP Total
   [br]+70 Bonus
   [br]+50 Trained
-  [br]Rest 80
+  [br]Rest 0
 
 attributes:
   CON: [11, 5, 2]
