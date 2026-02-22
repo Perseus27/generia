@@ -1,0 +1,125 @@
+name: Alben Wizard 25
+id: alben-wizard-25
+info:
+  species: Alb
+  level: 25
+  size: Medium
+  classes: [Wizard, Hermetician, Thermician, Magus]
+  tags: [[Trained, 50]]
+notes: >
+  [br]165 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 2
+
+attributes:
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [5, 2]
+  INT: [15, 7, 3]
+  WIL: [11, 5]
+  PER: [7, 3, 1]
+values:
+  EN: 10
+  MP: 30
+  MPR: 5
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Wizard's Staff
+      q: 2
+      enchantments:
+        - [Focus, Wizard]
+        - INT+2
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 3
+    - name: Leather Armor
+      q: 3
+      enchantments:
+        - AV+1
+    - name: Leather Gauntlets
+      q: 3
+    - name: Leather Greaves
+      q: 3
+    - name: Amulet
+      disp: Fire Amulet
+      enchantments:
+        - [Element Reroll I, "[section:clr-value]Fire[/section]"]
+      q: 4
+    - name: Ring
+      disp: Ring of Intelligence
+      enchantments:
+        - INT+1
+      q: 1
+    - name: Ring
+      disp: Ring of Perception
+      enchantments:
+        - PER+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - ""
+  spells:
+    - Ley Lines
+    - Displace
+    - Fireball I
+    - Frost Lance I
+    - Thermal Beam II
+    - Thermal Bolt II
+    - Mana Beam I
+    - Ice Shrapnel
+    - Arcane Barrier I
+    - Blink
+    - Counterspell
+    - Dimension Step
+    - Counter Shot
+  rituals:
+    - Hermetic Manipulation
+    - Thermal Manipulation
+    - Create Matrix Crystal
+proficiencies:
+  magic:
+    - "Hermetics: Adept"
+    - [Arcane, 5]
+    - [Light, 2]
+    - "Thermics: Intermediate"
+    - [Fire, 6]
+    - [ice, 4]
+  weapons:
+    - ""
+  civilian:
+    - [Arcana, 3]
+    - [Arithmetics, 1]
+    - [History, 1]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+
+  combat:
+    - ""
+
+  magic:
+    - Mighty Magics
+    - Practiced Hermetician
+    - Practiced Thermician
+    - Shield Mage
+    - Arcane Artillery
+    - Astral Body I
+    - Battle Meditation
+    - Cold Calculation
+    - Focus I

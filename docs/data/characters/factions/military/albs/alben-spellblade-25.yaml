@@ -1,0 +1,129 @@
+name: Alben Spellblade 25
+id: alben-spellblade-25
+info:
+  species: Alb
+  level: 25
+  size: Medium
+  classes: [Fighter, Wizard, Spellblade, Hermetician, Swordfighter, Specialist]
+  tags: [[Trained, 50]]
+notes: >
+  [br]165 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3]
+  STR: [6, 3, 1]
+  DEX: [12, 6, 2]
+  INT: [10, 5, 1]
+  WIL: [7, 3]
+  PER: [8, 4]
+values:
+  EN: 15
+  MP: 20
+  MPR: 3
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Elven Sword
+      q: 4
+      enchantments:
+        - [Focus, Wizard]
+        - DEX+2
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 3
+    - name: Chain Armor
+      enchantments:
+        - AV+1
+      q: 3
+    - name: Chain Gauntlets
+      q: 3
+    - name: Leather Greaves
+      q: 3
+    - name: Amulet
+      disp: Arcane Amulet
+      enchantments:
+        - [Element Reroll I, "[section:clr-value]Arcane[/section]"]
+      q: 4
+    - name: Ring
+      dsp: Ring of Strength
+      enchantments:
+        - STR+1
+      q: 1
+    - name: Ring
+      dsp: Ring of Intelligence
+      enchantments:
+        - INT+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - True Strike
+    - Quick Strike
+    - Mighty Strike
+    - "Technique: Second Wind"
+    - Charge
+    - Counter
+    - Disarm
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - Blade Infusion
+    - Mana Beam I
+    - Thermal Bolt I
+    - Arcane Barrier I
+    - Counter Shot
+    - Counterspell
+    - Dimension Step
+    - Flame Mantle
+    - Frost Breath
+  rituals:
+    - Hermetic Manipulation
+proficiencies:
+  magic:
+    - "Hermetics: Intermediate"
+    - [Arcane, 5]
+    - "Thermics: Intermediate"
+    - [Fire, 4]
+    - [Ice, 2]
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 6]
+    - "Defensive: Beginner"
+  civilian:
+    - [Arcana, 3]
+    - [Arithmetics, 1]
+    - [History, 1]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+
+  combat:
+    - Momentum
+    - Edge Alignment
+    - Deflector
+    - Opportunist
+    - Routine
+
+  magic:
+    - Practiced Hermetician
+    - Astral Body I
+    - Battle Meditation
