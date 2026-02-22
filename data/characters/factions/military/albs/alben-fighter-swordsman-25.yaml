@@ -1,0 +1,123 @@
+name: Alben Swordsman 25
+id: alben-fighter-swordsman-25
+info:
+  species: Alb
+  level: 25
+  size: Medium
+  classes: [Fighter, Tempered I, Swordfighter, Shieldbearer, Champion]
+  tags: [[Trained, 50]]
+notes: >
+  160 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [11, 5, 1]
+  STR: [11, 5, 3]
+  DEX: [11, 5, 1]
+  INT: [4, 2]
+  WIL: [7, 3]
+  PER: [4, 2]
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 9
+  TN: 5
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Elven Sword
+      q: 4
+      enchantments:
+        - Sharp I
+        - DEX+1
+    - name: Roundshield
+      q: 4
+    - name: Dagger
+  armor:
+    - name: Scale Helmet
+      q: 3
+    - name: Scale Armor
+      q: 3
+    - name: Scale Gauntlets
+      q: 3
+      enchantments:
+        - STR+1
+    - name: Scale Greaves
+      q: 3
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Strength
+      q: 2
+      enchantments:
+        - STR+2
+    - name: Ring
+      disp: Ring of Constitution
+      q: 1
+      enchantments:
+        - CON+1
+  misc:
+    - Adventurer's Pack II
+actions:
+  skills:
+    - Challenge
+    - Protect
+    - "Stance: Block"
+    - "Stance: Intercept"
+    - Mighty Strike
+    - Charge
+    - Aimed Strike
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Counter
+    - Disarm
+    - Steady Block
+    - Shield Bash
+  spells:
+    - Impact
+    - Skin of Bronze
+    - Bones of Steel
+    - Great Leap
+    - Stomp
+    - Killing Intent
+    - Looming Presence
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Tempering: Beginner"
+    - [Body, 5]
+    - [Soul, 5]
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 6]
+    - "Defensive: Adept"
+    - [Shield, 6]
+  civilian:
+    - [Monster Lore, 5]
+    - [Warfare, 8]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+  combat:
+    - Battlefield Control
+    - Edge Alignment
+    - Armor Familiarity I
+    - Conditioned I
+    - Juggernaut
+    - Opportunist
+  magic:
+    - ""

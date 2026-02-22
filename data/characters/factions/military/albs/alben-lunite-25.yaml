@@ -1,0 +1,123 @@
+name: Alben Lunite 25
+id: alben-lunite-25
+info:
+  species: Alb
+  level: 25
+  size: Medium
+  classes: [Acolyte, Fighter, Moon Priest, Moon Warden, Augur]
+  tags: [[Trained, 50]]
+notes: >
+  [br]150 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [9, 4]
+  STR: [4, 2]
+  DEX: [7, 3, 3]
+  INT: [11, 5]
+  WIL: [13, 6, 2]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 25
+  MPR: 5
+  WL: 6
+  WT: 8
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Flanged Mace
+      enchantments:
+        - DEX+2
+      q: 4
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 3
+    - name: Leather Armor
+      q: 3
+      enchantments:
+        - AV+1
+    - name: Leather Gauntlets
+      q: 3
+    - name: Leather Greaves
+      q: 3
+    - name: Amulet
+      disp: Lunite Amulet
+      enchantments:
+        - WIL+1
+        - [Focus, Acolyte]
+      q: 4
+    - name: Ring
+      disp: Ring of Willpower
+      enchantments:
+        - WIL+1
+      q: 1
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Counter
+  spells:
+    - Velum
+    - Sunlight Spear
+    - Blessing of Fortitude
+    - Healing
+    - Purify
+    - Prayer of Healing
+    - Blessing of Resilience
+    - Sanctuary
+    - Moonrise
+  rituals:
+    - Prayer to Luna
+    - Prophecy
+    - Sanare
+    - Mederi
+proficiencies:
+  magic:
+    - "Acolyte: Adept"
+    - [Luna, 6]
+  weapons:
+    - "Blunt: Beginner"
+    - [Club, 4]
+    - "Defensive: Beginner"
+  civilian:
+    - [Medicine, 1]
+    - [Rites, 2]
+    - [Warfare, 2]
+    - [Monster Lore, 1]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+
+  combat:
+    - Deflector
+    - Opportunist
+
+  magic:
+    - Moonlight Cloak
+    - Luna's Guiding Hand
+    - Misereor
+    - Astral Body I
+    - Battle Meditation
+    - Focus II

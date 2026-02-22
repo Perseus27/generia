@@ -1,0 +1,133 @@
+name: Alben Scout 25
+id: alben-scout-25
+info:
+  species: [Alb]
+  level: 25
+  size: Medium
+  classes: [Nox, Archer, Hunter, Assassin, Deadshot]
+  tags: [[Trained, 50]]
+notes: >
+  [br]170 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3]
+  STR: [6, 3, 1]
+  DEX: [12, 6, 2]
+  INT: [5, 2]
+  WIL: [7, 3]
+  PER: [12, 6, 2]
+values:
+  EN: 15
+  MP: 10
+  MPR: 2
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Elven Bow
+      q: 4
+      enchantments:
+        - Guiding Wind
+    - name: Arrow, heavy
+      q: 2
+    - name: Rapier
+      q: 4
+    - name: Dagger
+      q: 2
+  armor:
+    - name: Padded Helmet
+      q: 3
+      enchantments:
+        - PER+1        
+    - name: Padded Armor
+      q: 3
+    - name: Padded Gauntlets
+      q: 3
+      enchantments:
+        - STR+1
+    - name: Padded Greaves
+      q: 3
+    - name: Amulet
+      q: 2
+    - name: Ring
+      disp: Noxian Ring
+      q: 2
+      enchantments:
+        - [Focus, Nox]
+        - PER+1
+      disp: Ring of Dexterity
+      q: 2
+      enchantments:
+        - DEX+2
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - Heartseeker
+    - Quick Shot
+    - Ricochet
+    - Multishot
+    - Aimed Shot
+    - Careful Shot
+    - Unpredictable Shot
+    - Hold Breath
+    - Camouflage
+    - Overwatch
+    - Find Weakness
+    - Counter
+  spells:
+    - Shadow Strike
+    - Shadow Coating
+    - Shadow Cloak
+    - Shadow Summoning
+    - Terror
+    - Wings of Night
+    - Shadow Step
+    - Shadow Run
+    - Blur
+    - Noxian Bargain
+  rituals:
+    - Prayer to Nox
+proficiencies:
+  magic:
+    - "Nox: Intermediate"
+    - [Night, 5]
+  weapons:
+    - "Ranged: Intermediate"
+    - [Bow, 6]
+    - "Stabbing: Beginner"
+    - [Sword, 4]
+    - [Dagger, 4]
+  civilian:
+    - [Hunting, 3]
+    - [Rites, 1]
+    - [Stealing, 4]
+    - [Stealth, 5]
+    - [Survival, 1]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+
+  combat:
+    - Kill Chain
+    - On the Prowl
+    - Dodge Tank
+    - Opportunist
+    - Routine
+
+  magic:
+    - Withering Shadows
+    - Focus I

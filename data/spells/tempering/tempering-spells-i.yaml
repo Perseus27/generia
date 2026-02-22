@@ -116,6 +116,20 @@ utility:
     saved: >
       No effect.
 
+  - name: Rally
+    id: rally
+    tags: [TIER I, Soul, Utility, "Range: 20m", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[b]Strain 0[/b]"
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      The Tempered gives an ally an encouraging push with their soul, urging them forward.
+      [br][i]No effect on self.[/i]
+    effect: >
+      Target gains [url:status#AttackBonus]Attack Bonus[/url] [[section:clr-value]Soul[/section]]
+
   - name: Stomp
     id: stomp
     auto_type: [DC, CON]

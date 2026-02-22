@@ -1,0 +1,125 @@
+name: Alben Overseer 25
+id: alben-fighter-overseer-25
+info:
+  species: Alb
+  level: 25
+  size: Medium
+  classes: [Fighter, Tempered I, Slasher, Tempered II, Specialist]
+  tags: [[Trained, 50]]
+notes: >
+  160 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [9, 4]
+  STR: [11, 5, 3]
+  DEX: [12, 6, 2]
+  INT: [5, 2]
+  WIL: [8, 4]
+  PER: [4, 2]
+values:
+  EN: 30
+  MP: 10
+  MPR: 2
+  WL: 5
+  WT: 8
+  TN: 5
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Broadsword
+      disp: Overseer's Whip
+      q: 4
+      enchantments:
+        - Penetration I
+        - Sharp I
+    - name: Dagger
+      q: 2
+  armor:
+    - name: Chain Helmet
+      q: 3
+    - name: Chain Armor
+      q: 3
+    - name: Chain Gauntlets
+      q: 3
+      enchantments:
+        - STR+1
+    - name: Chain Greaves
+      q: 3
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Strength
+      q: 2
+      enchantments:
+        - STR+2
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 2
+      enchantments:
+        - DEX+2
+  misc:
+    - Adventurer's Pack II
+actions:
+  skills:
+    - True Strike
+    - Quick Strike
+    - Whirl
+    - "Technique: Second Wind"
+    - Mighty Strike
+    - Charge
+    - Aimed Strike
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Counter
+    - Disarm
+  spells:
+    - Crush
+    - Impact
+    - Skin of Bronze
+    - Bones of Steel
+    - Great Leap
+    - Stomp
+    - Rally
+    - Rallying Presence
+    - Command
+    - Killing Intent
+    - Looming Aura
+    - Looming Presence
+    - Fleshmending
+  rituals:
+    - Bonemending
+proficiencies:
+  magic:
+    - "Tempering: Intermediate"
+    - [Body, 5]
+    - [Soul, 5]
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 7]
+    - "Defensive: Beginner"
+  civilian:
+    - [Monster Lore, 6]
+    - [Warfare, 14]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+  combat:
+    - Momentum
+    - Edge Alignment
+    - Conditioned II
+    - Opportunist
+    - Routine
+  magic:
+    - ""

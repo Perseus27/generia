@@ -1,0 +1,131 @@
+name: Alben Bodyguard 25
+id: alben-fighter-bodyguard-25
+info:
+  species: Alb
+  level: 25
+  size: Medium
+  classes: [Fighter, Acolyte, Slasher, War Dancer, Moon Warden, Specialist]
+  tags: [[Trained, 50]]
+notes: >
+  155 SP Base
+  [br]+50 Bonus
+  [br]+50 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [9, 4]
+  STR: [9, 4, 2]
+  DEX: [12, 6, 2]
+  INT: [5, 2]
+  WIL: [10, 5]
+  PER: [4, 2]
+values:
+  EN: 25
+  MP: 10
+  MPR: 3
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: "[section:clr-bonus]10[/section]"
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Glaive
+      q: 4
+      enchantments:
+        - Penetration I
+        - Sharp I
+    - name: Dagger
+      q: 2
+  armor:
+    - name: Chain Helmet
+      q: 3
+    - name: Chain Armor
+      q: 3
+      enchantments:
+        - DEX+1
+    - name: Chain Gauntlets
+      q: 3
+      enchantments:
+        - STR+1
+    - name: Chain Greaves
+      q: 3
+      enchantments:
+        - Swiftstep
+    - name: Amulet
+      disp: Acolyte Amulet
+      q: 4
+      enchantments:
+        - [Focus, Acolyte]
+    - name: Ring
+      disp: Ring of Strength
+      q: 1
+      enchantments:
+        - STR+1
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 1
+      enchantments:
+        - DEX+1
+  misc:
+    - Adventurer's Pack II
+actions:
+  skills:
+    - True Strike
+    - Quick Strike
+    - Whirl
+    - "Technique: Second Wind"
+    - Mighty Strike
+    - Charge
+    - Aimed Strike
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Counter
+    - Swift Parry
+    - Disarm
+  spells:
+    - Sunlight Spear
+    - Blessing of Fortitude
+    - Prayer of Healing
+    - Healing
+    - Sanctuary
+    - Purify
+  rituals:
+    - Mederi
+    - Prayer to Luna
+proficiencies:
+  magic:
+    - "Acolyte: Intermediate"
+    - [Luna, 6]
+  weapons:
+    - "Slashing: Adept"
+    - [Polearm, 7]
+    - "Defensive: Beginner"
+  civilian:
+    - [Medicine, 4]
+    - [Monster Lore, 6]
+    - [Religion, 3]
+    - [Warfare, 14]
+perks:
+  special:
+    - Dark Heritage
+    - Dissonance
+  combat:
+    - Momentum
+    - Edge Alignment
+    - Zone of Control
+    - Conditioned I
+    - Deflector
+    - Opportunist
+    - Routine
+  magic:
+    - Luna's Guiding Hand
+    - Battle Meditation
+    - Focus I

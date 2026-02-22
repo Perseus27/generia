@@ -101,7 +101,7 @@ utility:
   - name: Looming Aura
     id: looming-aura
     auto_type: [DC, CON]
-    tags: [TIER II, Soul, Utility, "Radius: [[section:clr-value]Soul[/section]] m", "[section:clr-ZONE]ZONE[/section]"]
+    tags: [TIER II, Soul, Utility, "Radius: 2m", "[section:clr-ZONE]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"
     cost:
@@ -114,3 +114,17 @@ utility:
       [url:def#AttackAction]Attack Actions[/url] against targets other than the Tempered have [url:core#Disadvantage]Disadvantage 1[/url].
     saved: >
       No effect.
+
+  - name: Rallying Presence
+    id: rallying-presence
+    tags: [TIER I, Soul, Utility, "Radius: 2m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[b]Strain 1[/b]"
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The Tempered gives nearby allies an encouraging push with their soul, urging them forward.
+      [br][i]No effect on self.[/i]
+    effect: >
+      Targets gain [url:status#AttackBonus]Attack Bonus[/url] [[section:clr-value]Soul[/section]]
