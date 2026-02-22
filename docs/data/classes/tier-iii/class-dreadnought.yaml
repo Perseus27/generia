@@ -14,9 +14,7 @@ subclasses: []
 perks:
   combat:
     - [Blood Rage, "20 SP, X"]
-    - [Goliath, 20 SP]
     - [Conditioned I, 10 SP]
-    - [Forerunner, 10 SP]
   magic:
     - []
 
@@ -24,7 +22,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - []
+    - ["Blunt/Slashing: Adept", 30 SP]
 
 actions:
   skills:
