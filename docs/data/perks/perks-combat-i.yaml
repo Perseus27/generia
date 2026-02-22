@@ -10,8 +10,9 @@ content:
     description: >
       Encumbrance of [url:armor#HeavyArmor]heavy armor[/url] is reduced by [section:clr-value]1[/section] per piece.
       
-  - name: Blood Avenger
-    id: blood-avenger
+  - name: Avenger
+    id: avenger
+    alias: [Blood Avenger]
     sp-cost: 10
     requirements: –
     description: >
