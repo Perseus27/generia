@@ -86,6 +86,7 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-iii/class-banshee.yaml') }}
 {{ class_card('data/classes/tier-iii/class-champion.yaml') }}
 {{ class_card('data/classes/tier-iii/class-deadshot.yaml') }}
+{{ class_card('data/classes/tier-iii/class-dreadnought.yaml') }}
 {{ class_card('data/classes/tier-iii/class-elementalist.yaml') }}
 {{ class_card('data/classes/tier-iii/class-gunwright.yaml') }}
 {{ class_card('data/classes/tier-iii/class-legate.yaml') }}

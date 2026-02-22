@@ -38,6 +38,18 @@ tier2:
 tier3:
   - subheader:
     is_subheader: True
+    name: Dreadnought
+    id: dreadnought
+
+  - name: Battle Fury
+    id: battle-fury
+    tags: [Tier X, "[url:class3/class-dreadnought]Dreadnought[/url]", Utility, Concentration, "SP Cost: 20"]
+    description: >
+      The Dreadnought can only suffer [section:clr-value]one[/section] wound per incoming [url:def#Hit]hit[/url].
+      [br]Concentration saves for this skill are [url:core#Eased]eased[/url] by [[section:clr-attr]STR-MOD[/section]].
+
+  - subheader:
+    is_subheader: True
     name: Champion
     id: champion
 
