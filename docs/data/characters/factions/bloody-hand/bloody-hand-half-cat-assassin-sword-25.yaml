@@ -5,7 +5,7 @@ info:
   level: 25
   size: Medium
   classes: [Nox, Fighter, Duelist, Assassin]
-  tags: [Trained 30]
+  tags: [[Trained, 30]]
 notes: >
   [br]170 SP Base
   [br]+50 Bonus
