@@ -20,6 +20,26 @@ content:
 
   - subheader:
     is_subheader: True
+    name: Dreadnought
+    id: dreadnought
+
+  - name: Blood Rage
+    id: blood-rage
+    exclusive: True
+    sp-cost: 20
+    requirements: "[url:class3/class-dreadnought]Dreadnought[/url]"
+    description: >
+      Whenever the Dreadnought causes or suffers a wound, they gain [section:clr-value]one[/section] Rage point.
+      [br]Each Rage point may be used as a [url:def#FreeAction]Free Reaction[/url] to:
+      [ul]
+      [li][url:core#Reroll]Reroll[/url] [section:clr-value]one[/section] melee damage die[/li]
+      [li]Cleanse [section:clr-value]one[/section] mental [url:status]status effect[/url][/li]
+      [li]Cleanse all instances of [url:status#restrained]Restrained[/url] and [url:status#Slowed]Slowed[/url][/li]
+      [/ul]
+      [br]Rage points expire when combat ends.
+
+  - subheader:
+    is_subheader: True
     name: Deadshot
     id: deadshot
 

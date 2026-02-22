@@ -1,0 +1,35 @@
+name: Dreadnought
+id: class-dreadnought
+prefix: class3
+description: >
+  Few things on the battlefield are quite as terrifying as a Dreadnought. These blood-crazed warriors charge deep 
+  into enemy lines with little regard for their own safety – but somehow, they simply refuse to die no matter 
+  what you throw at them.
+
+prerequisites:
+  - Berserker
+
+subclasses: []
+
+perks:
+  combat:
+    - [Blood Rage, "20 SP, X"]
+    - [Goliath, 20 SP]
+    - [Conditioned I, 10 SP]
+    - [Forerunner, 10 SP]
+  magic:
+    - []
+
+proficiencies:
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - [Battle Fury, "20 SP, X"]
+    - [Quick Strike, 12 SP]
+    - [Bodycheck, 8 SP]
+  spells:
+    - []
