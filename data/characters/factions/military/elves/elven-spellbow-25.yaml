@@ -44,8 +44,8 @@ inventory:
     - name: Elven Sword
       q: 2
     - name: Dagger
-    - name: Heavy Arrow
-      damage: 1d8 Arrow
+    - name: Arrow, heavy
+      q: 2
   armor:
     - name: Padded Helmet
       q: 3
