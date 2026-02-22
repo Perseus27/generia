@@ -41,6 +41,20 @@ items:
     - Precise
     - Short
 
+- name: Elven Spear
+  type: Polearm
+  damage: [2d6, Sharp]
+  skill: Pierce
+  hr: 1.0
+  dr: 1.0
+  weight: 1
+  size: 18x1
+  rarity: 1
+  price: 1
+  tags:
+    - Conduit
+    - [Flexible, "[i]Long[/i]"]
+
 - name: Lance
   type: Polearm
   damage: [2d8, Sharp]
