@@ -13,8 +13,6 @@ subclasses:
 perks:
   combat:
     - [Bloodlust, "20 SP, X"]
-    - [Avenger, 10 SP]
-    - [Opportunist, 10 SP]
   magic:
     - []
 
@@ -22,7 +20,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - []
+    - ["Blunt/Slashing: Intermediate", 20 SP]
 
 actions:
   skills:
