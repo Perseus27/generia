@@ -54,11 +54,11 @@ inventory:
       q: 4
       enchantments:
         - CON+2
-    - name: Chain Gauntlets
+    - name: Scale Gauntlets
       q: 4
       enchantments:
         - STR+2
-    - name: Chain Greaves
+    - name: Scale Greaves
       q: 4
     - name: Amulet
       disp: Acolyte Amulet
