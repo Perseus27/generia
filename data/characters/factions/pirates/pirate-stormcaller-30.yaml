@@ -1,0 +1,106 @@
+name: Stormcaller 30
+id: pirate-stormcaller-30
+info:
+  species: [Human, Alb]
+  level: 30
+  size: Medium
+  classes: [Sorcerer, Fighter, Sorcerer II, Sorcerer III]
+  tags: [–]
+notes: >
+  [b]NOTE:[/b] [section:announce-red]Class Sorcerer III not fully implemented. May require later adjustment.[/section]
+  [br]200 SP Base
+  [br]+60 Bonus
+  [br]REST 2
+
+attributes:
+  CON: [9, 4]
+  STR: [6, 3]
+  DEX: [10, 5, 2]
+  INT: [7, 3]
+  WIL: [9, 4]
+  PER: [14, 7]
+values:
+  EN: 15
+  MP: 20
+  MPR: 4
+  WL: 5
+  WT: 8
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Cutlass
+      q: 4
+    - name: Dagger
+  armor:
+    - name: Padded Helmet
+      q: 3
+    - name: Padded Armor
+      q: 3
+    - name: Padded Gauntlets
+      q: 3
+    - name: Padded Greaves
+      q: 3
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - "[section:clr-dc]DC[/section]: [section:clr-value]14[/section]"
+    - "[section:clr-pa]PA[/section]/[section:clr-sa]SA[/section]: [section:clr-value]+14[/section]"
+    - "[section:clr-sd]SD[/section]: [section:clr-value]+17[/section]"
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Sorcerer: Adept"
+    - [Storm, 7]
+    - [Air, 4]
+    - [Lightning, 4]
+  weapons:
+    - "Slashing: Beginner"
+    - [Sword, 4]
+  civilian:
+    - [Monster Lore, 2]
+    - [Mysticism, 5]
+    - [Spellcraft, 6]
+    - [Warfare, 1]
+perks:
+  special:
+    - Dissonance
+    - Pursuit Hunter
+
+  combat:
+    - Dodge Tank
+    - Opportunist
+
+  magic:
+    - Blood Mage
+    - Precision Casting
+    - Shield Mage
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

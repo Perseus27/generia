@@ -8,6 +8,7 @@
 [br][url:/generia/stats/characters/factions/guard]Guard[/url]
 [br][url:/generia/stats/characters/factions/horde]Horde[/url]
 [br][url:/generia/stats/characters/factions/nergadai]Nergadai[/url]
+[br][url:/generia/stats/characters/factions/pirates]Pirates[/url]
 [h4]Military[/h4]
 [url:/generia/stats/characters/factions/military/elves]Elves[/url]
 [br][url:/generia/stats/characters/factions/military/albs]Albs[/url]

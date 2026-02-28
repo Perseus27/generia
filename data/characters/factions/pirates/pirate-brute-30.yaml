@@ -1,0 +1,126 @@
+name: Brute 30
+id: pirate-brute-30
+info:
+  species: [Human, Orc]
+  level: 30
+  size: Medium
+  classes: [Marauder, Fighter, Tempered I, Berserker, Swordfighter, Dreadnought]
+  tags: [–]
+notes: >
+  [br]190 SP Base
+  [br]+60 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [14, 7]
+  STR: [13, 6, 2]
+  DEX: [10, 5]
+  INT: [3, 1]
+  WIL: [7, 3]
+  PER: [5, 2]
+values:
+  EN: 30
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 10
+  TN: 5
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Katana
+      disp: Huge Cutlass
+      q: 4
+    - name: Brass Knuckles
+      q: 4
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 3
+    - name: Leather Armor
+      q: 3
+    - name: Leather Gauntlets
+      q: 3
+    - name: Leather Greaves
+      q: 3
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Strength
+      enchantments:
+        - STR+1
+      q: 1
+    - name: Ring
+      disp: Ring of Strength
+      enchantments:
+        - STR+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - Battle Fury
+    - Quick Strike
+    - Whirl
+    - Mighty Strike
+    - Charge
+    - Swing
+    - Daredevil
+    - Bodycheck
+    - Disarm
+    - Leg Sweep
+    - "Technique: Second Wind"
+    - Shove
+    - Feint
+    - Counter
+  spells:
+    - Impact
+    - Skin of Bronze
+    - Bones of Steel
+    - Great Leap
+    - Killing Intent
+    - Looming Presence
+    - Toxin Purge
+  rituals:
+    - Bonemending
+proficiencies:
+  magic:
+    - "Tempering: Beginner"
+    - [Body, 4]
+    - [Soul, 4]
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 7]
+    - "Natural: Beginner"
+    - [Primitive, 5]
+    - "Defensive: Beginner"
+  civilian:
+    - [Athletics, 8]
+    - [Monster Lore, 4]
+    - [Survival, 5]
+    - [Warfare, 6]
+perks:
+  special:
+    - Pursuit Hunter
+    - Stalwart
+
+  combat:
+    - Blood Rage
+    - Bloodlust
+    - Edge Alignment
+    - Conditioned I
+    - Powerful Blows
+    - Goliath
+    - Forerunner
+    - Opportunist
+    - Pugilist
+
+  magic:
+    - ""
