@@ -23,12 +23,10 @@ perks:
 
 proficiencies:
   civilian:
-    - [Arcana 2, 3 SP]
-    - [Tinkering 1, 1 SP]
+    - [Spellcraft 2, 3 SP]
+    - [Tinkering 2, 3 SP]
   magic:
     - ["Alchemist: Beginner", 10 SP]
-    - [Mechanics 1, 1 SP]
-    - [Pharmacy 1, 1 SP]
   weapons:
     - []
 
