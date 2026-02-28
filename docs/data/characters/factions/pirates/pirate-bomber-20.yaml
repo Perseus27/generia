@@ -1,0 +1,114 @@
+name: Bomber 20
+id: pirate-bomber-20
+info:
+  species: [Human, Alb]
+  level: 20
+  size: Medium
+  classes: [Alchemist, Fighter, Arsenalist]
+  tags: [–]
+notes: >
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [7, 3]
+  STR: [5, 2]
+  DEX: [8, 4, 1]
+  INT: [12, 6]
+  WIL: [7, 3]
+  PER: [5, 2]
+values:
+  EN: 15
+  MP: 25
+  MPR: 3
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Transmuted Handgun
+    - name: Transmuted Shotgun
+    - name: Transmuted Grenade Launcher
+    - name: Cutlass
+      q: 3
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 2
+    - name: Leather Armor
+      q: 2
+    - name: Leather Gauntlets
+      q: 2
+    - name: Leather Greaves
+      q: 2
+    - name: Amulet
+      q: 2
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+    - name: Ring
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - Bioactive Incense
+    - Explosive Rounds
+    - Basic Ammunition II
+    - Elemental Ammunition II
+    - Therapeutic Ammunition II
+    - Toxic Ammunition I
+    - Fire Grenade II
+    - Fragmentation Grenade II
+    - Healing Grenade II
+    - Improvised Remedy II
+    - Improvised Poison I
+    - Emergency Shield I
+  rituals:
+    - Accumulation
+    - Desintegration
+    - Transmutation
+    - "Construction: Handgun"
+    - "Construction: Grenade Launcher"
+    - "Construction: Shotgun"
+proficiencies:
+  magic:
+    - "Alchemist: Intermediate"
+    - [Mechanics, 6]
+    - [Pharmacy, 4]
+  weapons:
+    - "Slashing: Beginner"
+    - [Sword, 2]
+  civilian:
+    - [Spellcraft, 4]
+    - [Monster Lore, 2]
+    - [Tinkering, 8]
+    - [Warfare, 1]
+perks:
+  special:
+    - Dissonance
+    - Pursuit Hunter
+
+  combat:
+    - ""
+
+  magic:
+    - Astral Body I
+    - Focus I
+    - Intensity

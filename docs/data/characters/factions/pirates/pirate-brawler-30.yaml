@@ -1,0 +1,117 @@
+name: Brawler 30
+id: pirate-brawler-30
+info:
+  species: [Human]
+  level: 30
+  size: Medium
+  classes: [Marauder, Shaman, Monk. Wayfarer]
+  tags: [–]
+notes: >
+  [br]190 SP Base
+  [br]+60 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [10, 5]
+  STR: [10, 5]
+  DEX: [14, 7, 2]
+  INT: [5, 2]
+  WIL: [10, 5]
+  PER: [5, 2]
+values:
+  EN: 20
+  MP: 10
+  MPR: 3
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Brass Knuckles
+      q: 4
+    - name: Dagger
+  armor:
+    - name: Padded Helmet
+      q: 3
+    - name: Padded Armor
+      q: 3
+    - name: Padded Gauntlets
+      q: 3
+    - name: Padded Greaves
+      q: 3
+    - name: Amulet
+      disp: Shaman Amulet
+      q: 4
+      enchantments:
+        - [Focus, Shaman]
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 2
+      enchantments:
+        - DEX+1
+    - name: Ring
+      disp: Ring of Dexterity
+      q: 1
+      enchantments:
+        - DEX+1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - Mighty Strike
+    - Multistrike
+    - Careful Strike
+    - Charge
+    - Swing
+    - Disarm
+    - Feint
+    - Counter
+    - Swift Parry
+  spells:
+    - Manifest
+    - Inner World
+    - "Summon: Lesser Elemental"
+    - Elemental Wrath
+    - Lesser Elemental Favor
+    - Wave of Healing
+    - Lesser Cleansing Flame
+    - Elemental Guidance
+  rituals:
+    - Elemental Manipulation
+proficiencies:
+  magic:
+    - "Shaman: Intermediate"
+    - [Binding, 7]
+  weapons:
+    - "Blunt: Beginner"
+    - "Natural: Adept"
+    - [Primitive, 7]
+  civilian:
+    - [Athletics, 8]
+    - [Mysticism, 6]
+    - [Spellcraft, 4]
+    - [Survival, 5]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - Dancer
+    - Deflector
+    - Dodge Tank
+    - Opportunist
+    - Pugilist
+
+  magic:
+    - Clarity
+    - Astral Body I
+    - Battle Meditation

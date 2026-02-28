@@ -1,0 +1,122 @@
+name: Bomber 30
+id: pirate-bomber-30
+info:
+  species: [Human, Alb]
+  level: 30
+  size: Medium
+  classes: [Alchemist, Fighter, Arsenalist, Gunwright]
+  tags: [–]
+notes: >
+  [br]190 SP Base
+  [br]+60 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [9, 4]
+  STR: [6, 3]
+  DEX: [10, 5, 2]
+  INT: [16, 8]
+  WIL: [7, 3]
+  PER: [5, 2]
+values:
+  EN: 15
+  MP: 30
+  MPR: 3
+  WL: 5
+  WT: 8
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Transmuted Handgun
+    - name: Transmuted Shotgun
+    - name: Transmuted Grenade Launcher
+    - name: Transmuted Rifle
+    - name: Cutlass
+      q: 4
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 3
+    - name: Leather Armor
+      q: 3
+    - name: Leather Gauntlets
+      q: 3
+    - name: Leather Greaves
+      q: 3
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - Multishot
+    - Unpredictable Shot
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - Elemental Infusion
+    - Bioactive Incense
+    - Explosive Rounds
+    - Basic Ammunition III
+    - Elemental Ammunition III
+    - Therapeutic Ammunition II
+    - Toxic Ammunition I
+    - Fire Grenade II
+    - Fragmentation Grenade II
+    - Healing Grenade II
+    - Improvised Remedy II
+    - Improvised Poison I
+    - Emergency Shield I
+  rituals:
+    - Accumulation
+    - Desintegration
+    - Transmutation
+    - "Construction: Rifle"
+    - "Construction: Shotgun"
+    - "Construction: Handgun"
+proficiencies:
+  magic:
+    - "Alchemist: Adept"
+    - [Mechanics, 7]
+    - [Pharmacy, 4]
+  weapons:
+    - "Slashing: Beginner"
+    - [Sword, 3]
+  civilian:
+    - [Spellcraft, 5]
+    - [Monster Lore, 3]
+    - [Tinkering, 10]
+    - [Warfare, 2]
+perks:
+  special:
+    - Dissonance
+    - Pursuit Hunter
+
+  combat:
+    - Routine
+
+  magic:
+    - High-Energy Munitions
+    - Astral Body I
+    - Focus I
+    - Intensity

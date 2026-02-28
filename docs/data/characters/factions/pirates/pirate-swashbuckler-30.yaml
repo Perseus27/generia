@@ -1,0 +1,120 @@
+name: Swashbuckler 20
+id: pirate-swashbuckler-20
+info:
+  species: [Alb, Human]
+  level: 20
+  size: Medium
+  classes: [Fighter, Archer, Swordfighter, Specialist]
+  tags: [–]
+notes: >
+  [br]190 SP Base
+  [br]+60 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [11, 5]
+  STR: [10, 5]
+  DEX: [15, 7, 2]
+  INT: [4, 2]
+  WIL: [7, 3]
+  PER: [6, 3]
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 9
+  TN: 5
+  MS: 10
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Cutlass
+      q: 4
+    - name: Light Crossbow
+      q: 4
+    - name: Bolt, light
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 3
+    - name: Leather Armor
+      q: 3
+    - name: Leather Gauntlets
+      q: 3
+    - name: Leather Greaves
+      q: 3
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - True Strike
+    - Quick Strike
+    - Whirl
+    - Mighty Strike
+    - Charge
+    - Disarm
+    - Feint
+    - Leg Sweep
+    - Shove
+    - "Technique: Second Wind"
+    - Counter
+    - Aimed Shot
+    - Unpredictable Shot
+    - Hold Breath
+  spells:
+    - ""
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Slashing: Adept"
+    - [Sword, 7]
+    - "Ranged: Beginner"
+    - [Crossbow, 5]
+    - "Defensive: Beginner"
+  civilian:
+    - [Athletics, 8]
+    - [Hunting, 6]
+    - [Monster Lore, 6]
+    - [Survival, 7]
+    - [Warfare, 8]
+perks:
+  special:
+    - Dark Heritage
+    - Pursuit Hunter
+
+  combat:
+    - Momentum
+    - Edge Alignment
+    - Goliath
+    - Swashbuckler
+    - Conditioned I
+    - Dancer
+    - Deflector
+    - Duelist
+    - Opportunist
+    - Routine
+
+  magic:
+    - ""

@@ -1,0 +1,118 @@
+name: Harpooneer 30
+id: pirate-harpooneer-30
+info:
+  species: [Human, Orc]
+  level: 30
+  size: Medium
+  classes: [Fighter, Marauder, Spearfighter, Specialist]
+  tags: [–]
+notes: >
+  [br]190 SP Base
+  [br]+60 Bonus
+  [br]REST 75
+
+attributes:
+  CON: [11, 5]
+  STR: [14, 7, 1]
+  DEX: [12, 6, 1]
+  INT: [3, 1]
+  WIL: [7, 3]
+  PER: [5, 2]
+values:
+  EN: 30
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 9
+  TN: 5
+  MS: 8
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Spear
+      disp: Harpoon
+      q: 4
+    - name: Cutlass
+      q: 4
+    - name: Dagger
+  armor:
+    - name: Leather Helmet
+      q: 3
+    - name: Leather Armor
+      q: 3
+    - name: Leather Gauntlets
+      q: 3
+    - name: Leather Greaves
+      q: 3
+    - name: Amulet
+      q: 3
+    - name: Ring
+      disp: Ring of Strength
+      enchantments:
+        - STR+1
+      q: 1
+    - name: Ring
+      disp: Ring of Dexterity
+      enchantments:
+        - DEX+1
+      q: 1
+  misc:
+    - name: Adventurer's Pack II
+actions:
+  skills:
+    - True Strike
+    - Quick Strike
+    - Whirl
+    - Multistrike
+    - Charge
+    - Swing
+    - Daredevil
+    - Disarm
+    - Feint
+    - Leg Sweep
+    - Shove
+    - "Technique: Second Wind"
+    - Counter
+  spells:
+    - ""
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Stabbing: Adept"
+    - [Polearm, 7]
+    - "Slashing: Intermediate"
+    - [Sword, 5]
+    - "Natural: Beginner"
+    - [Primitive, 2]
+    - "Defensive: Beginner"
+  civilian:
+    - [Athletics, 4]
+    - [Monster Lore, 4]
+    - [Warfare, 6]
+perks:
+  special:
+    - Pursuit Hunter
+    - Stalwart
+
+  combat:
+    - Momentum
+    - Bloodlust
+    - Spearhead
+    - Goliath
+    - Powerful Blows
+    - Conditioned I
+    - Deflector
+    - Opportunist
+    - Routine
+
+  magic:
+    - ""
