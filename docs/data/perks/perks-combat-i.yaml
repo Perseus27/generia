@@ -87,7 +87,7 @@ content:
     sp-cost: 10
     requirements: Melee weapon
     description: >
-      When a target leaves your weapon’s reach, you may execute a [url:def#MeleeAttack]melee attack[/url] as a [url:def#Reaction]reaction[/url].
+      When a creature leaves your weapon's range, you may execute a [url:def#MeleeAttack]melee attack[/url] as a [url:def#Reaction]reaction[/url].
 
   - name: Pack Tactics
     id: pack-tactics
