@@ -1,7 +1,7 @@
 name: Bomber 30
 id: pirate-bomber-30
 info:
-  species: [Human, Alb]
+  species: [Dwarf]
   level: 30
   size: Medium
   classes: [Alchemist, Fighter, Arsenalist, Gunwright]
@@ -109,8 +109,8 @@ proficiencies:
     - [Warfare, 2]
 perks:
   special:
-    - Dissonance
-    - Pursuit Hunter
+    - Stocky
+    - Unyielding
 
   combat:
     - Routine

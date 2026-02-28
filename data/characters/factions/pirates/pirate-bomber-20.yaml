@@ -1,7 +1,7 @@
 name: Bomber 20
 id: pirate-bomber-20
 info:
-  species: [Human, Alb]
+  species: [Dwarf]
   level: 20
   size: Medium
   classes: [Alchemist, Fighter, Arsenalist]
@@ -102,8 +102,8 @@ proficiencies:
     - [Warfare, 1]
 perks:
   special:
-    - Dissonance
-    - Pursuit Hunter
+    - Stocky
+    - Unyielding
 
   combat:
     - ""
