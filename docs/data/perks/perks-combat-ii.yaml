@@ -31,12 +31,33 @@ content:
     description: >
       When rolling damage with ranged weapons, you may reroll [section:clr-value]one[/section] die if its result is below that die’s average.
 
+  - name: Dual Wielding
+    id: dual-wielding
+    sp-cost: 20
+    requirements: Two one-handed melee weapons
+    description: >
+      Unmodified [url:def#MeleeAttack]melee attacks[/url] and [url:wskills]Weapon Skills[/url] have [url:core#Advantage]Advantage 1[/url].
+
   - name: Goliath
     id: goliath
     sp-cost: 20
     requirements: Melee weapon
     description: >
       When rolling damage with melee weapons, you may reroll one die if its result is below that die’s average.
+
+  - name: Mage Slayer
+    id: mage-slayer
+    sp-cost: 20
+    requirements: –
+    description: >
+      When a creature in your weapon's range casts a spell, you may execute a [url:def#BasicAttack]basic attack[/url] as a [url:def#Reaction]reaction[/url].
+
+  - name: Powerful Blows
+    id: powerful-blows
+    sp-cost: 20
+    requirements: Two-handed weapon
+    description: >
+      [url:def#Parry]Parry[/url] and [url:def#Block]block[/url] rolls against your unmodified [url:def#MeleeAttacks]melee attacks[/url] and [url:wskills]Weapon Skills[/url] have [url:core#Disadvantage]Disadvantage 1[/url].
 
   - name: Retaliator
     id: retaliator
@@ -51,3 +72,10 @@ content:
     requirements: Ranged weapon
     description: >
       [url:def#RangedAttack]Ranged attacks[/url] at long range are [url:core#Eased]eased[/url] by [[section:clr-attr]PER-MOD[/section]].
+
+  - name: Swashbuckler
+    id: swashbuckler
+    sp-cost: 20
+    requirements: Single one-handed melee weapon
+    description: >
+      [url:core#Advantage]Advantage 1[/url] on [url:def#Parry]parry[/url] rolls.
