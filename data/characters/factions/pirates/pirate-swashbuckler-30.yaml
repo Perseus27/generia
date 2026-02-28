@@ -1,8 +1,8 @@
-name: Swashbuckler 20
-id: pirate-swashbuckler-20
+name: Swashbuckler 30
+id: pirate-swashbuckler-30
 info:
   species: [Alb, Human]
-  level: 20
+  level: 30
   size: Medium
   classes: [Fighter, Archer, Swordfighter, Specialist]
   tags: [–]
