@@ -24,9 +24,9 @@ title: Pixies
 # Pixies
 
 ## Level 10
-{{ creature('data/creatures/fey/pixie-caster-10.yaml') }}
-{{ creature('data/creatures/fey/pixie-fighter-10.yaml') }}
+{{ creature('data/creatures/fey/pixies/pixie-caster-10.yaml') }}
+{{ creature('data/creatures/fey/pixies/pixie-fighter-10.yaml') }}
 
 ## Level 20
-{{ creature('data/creatures/fey/pixie-caster-20.yaml') }}
-{{ creature('data/creatures/fey/pixie-fighter-20.yaml') }}
+{{ creature('data/creatures/fey/pixies/pixie-caster-20.yaml') }}
+{{ creature('data/creatures/fey/pixies/pixie-fighter-20.yaml') }}
