@@ -1,0 +1,72 @@
+name: Nymph Mage 35
+id: nymph-mage-35
+info:
+  species: Fey
+  level: 35
+  size: Medium
+  tags: [[Flying, 10], Freecaster, Sapient]
+notes: >
+  An unpredictable nature spirit. Ruthless and dangerous.
+  [br]This particular nymph may cast any Hermetics and Meteorics spells of Tier III and lower.
+
+attributes:
+  CON: [11, 5]
+  STR: [4, 2]
+  DEX: [8, 4]
+  INT: [16, 8]
+  WIL: [11, 5]
+  PER: [8, 4]
+values:
+  EN: 10
+  MP: 30
+  MPR: 5
+  WL: 5
+  WT: 9
+  TN: 4
+  MS: 6
+armor:
+  head: 4
+  torso: 6
+  arms: 5
+  legs: 5
+  md: 5
+  er: 4
+loot:
+  - "Nymph Staff (Focus Wizard, Random Tier I Enchantment)"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Wizard Staff
+      type: Melee Attack
+      auto: Caster Staff
+    - name: Wizard Spell PA/SA
+      type: PA/SA
+      auto: [PA, INT]
+      prof: Wizard
+    - name: Wizard Spell DC
+      type: DC
+      auto: [DC, INT]
+      prof: Wizard
+    - name: Wizard Spell SD
+      type: SD
+      auto: [SD, [INT, PER]]
+      prof: Wizard
+    - name: Fog and Smoke
+      type: Reaction
+      effect: >
+        The nymph becomes mist-like for the rest of this turn, gaining [url:status#Resistant]Resistant[/url] [i]Physical[/i].
+        [br][i]Only once per Phase.[/i]
+      cost: ""
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Mighty Magics, Practiced Hermetician, Practiced Meteorician, Astral Body I, Battle Meditation, Focus II, Precision Casting]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Wizard, 6, INT]
+        - [Staff, 4]
+    - name: Fey Soul
+      type: Passive
+      effect:
+        - MD is increased by [section:clr-attr]WIL-MOD[/section].

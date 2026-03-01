@@ -1,0 +1,60 @@
+name: Nymph Reaper 25
+id: nymph-reaper-25
+info:
+  species: Fey
+  level: 25
+  size: Medium
+  tags: [[Flying, 10], Freecaster, Sapient]
+notes: >
+  An unpredictable nature spirit. Ruthless and dangerous.
+  [br]This particular nymph may use any skills of Tier III and lower, if appropriate for their weapon.
+  They are considered an [i]Adept[/i] with their chosen weapon.
+
+attributes:
+  CON: [11, 5]
+  STR: [12, 6]
+  DEX: [9, 4]
+  INT: [5, 2]
+  WIL: [8, 4]
+  PER: [4, 2]
+values:
+  EN: 20
+  MP: 10
+  MPR: 2
+  WL: 5
+  WT: 9
+  TN: 4
+  MS: 6
+armor:
+  head: 5
+  torso: 7
+  arms: 6
+  legs: 6
+  md: 4
+  er: 0
+loot:
+  - "Nymph Glaive (Random Tier I Enchantment)"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Scythe
+      type: Melee Attack
+      auto: Glaive
+    - name: Fog and Smoke
+      type: Reaction
+      effect: >
+        The nymph becomes mist-like for the rest of this turn, gaining [url:status#Resistant]Resistant[/url] [i]Physical[/i].
+        [br][i]Only once per Phase.[/i]
+      cost: ""
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Momentum, Edge Alignment, Goliath, Mage Slayer, Deflector, Opportunist]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Universal, 5]
+    - name: Fey Soul
+      type: Passive
+      effect:
+        - MD is increased by [section:clr-attr]WIL-MOD[/section].

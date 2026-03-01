@@ -1,0 +1,60 @@
+name: Nymph Lasher 35
+id: nymph-lasher-35
+info:
+  species: Fey
+  level: 35
+  size: Medium
+  tags: [[Flying, 12], Freecaster, Sapient]
+notes: >
+  An unpredictable nature spirit. Ruthless and dangerous.
+  [br]This particular nymph may use any skills of Tier III and lower, if appropriate for their weapon.
+  They are considered an [i]Adept[/i] with their chosen weapon.
+
+attributes:
+  CON: [13, 6]
+  STR: [10, 5]
+  DEX: [14, 7]
+  INT: [5, 2]
+  WIL: [10, 5]
+  PER: [7, 3]
+values:
+  EN: 20
+  MP: 10
+  MPR: 3
+  WL: 5
+  WT: 10
+  TN: 4
+  MS: 8
+armor:
+  head: 6
+  torso: 8
+  arms: 7
+  legs: 7
+  md: 5
+  er: 0
+loot:
+  - "Nymph Whip (Random Tier I Enchantment)"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Whip
+      type: Melee Attack
+      auto: Saber
+    - name: Fog and Smoke
+      type: Reaction
+      effect: >
+        The nymph becomes mist-like for the rest of this turn, gaining [url:status#Resistant]Resistant[/url] [i]Physical[/i].
+        [br][i]Only once per Phase.[/i]
+      cost: ""
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Edge Alignment, Goliath, Mage Slayer, Swashbuckler, Deflector, Opportunist]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Universal, 6]
+    - name: Fey Soul
+      type: Passive
+      effect:
+        - MD is increased by [section:clr-attr]WIL-MOD[/section].
