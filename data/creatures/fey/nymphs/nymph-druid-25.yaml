@@ -1,0 +1,68 @@
+name: Nymph Druid 25
+id: nymph-druid-25
+info:
+  species: Fey
+  level: 25
+  size: Medium
+  tags: [[Flying, 10], Freecaster, Sapient]
+notes: >
+  An unpredictable nature spirit. Ruthless and dangerous.
+  [br]This particular nymph may cast any Druid spells (Flora) of Tier III and lower.
+
+attributes:
+  CON: [9, 4]
+  STR: [4, 2]
+  DEX: [10, 5]
+  INT: [7, 3]
+  WIL: [13, 6]
+  PER: [6, 3]
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 6
+  WT: 8
+  TN: 3
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 6
+  er: 4
+loot:
+  - "Nymph Shillelagh (Focus Druid, Random Tier I Enchantment)"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Shillelagh
+      type: Melee Attack
+      auto: Shillelagh
+    - name: Druid Spell PA/SA
+      type: PA/SA
+      auto: [PA, WIL]
+      prof: Druid
+    - name: Druid Spell DC
+      type: DC
+      auto: [DC, WIL]
+      prof: Druid
+    - name: Fog and Smoke
+      type: Reaction
+      effect: >
+        The nymph becomes mist-like for the rest of this turn, gaining [url:status#Resistant]Resistant[/url] [i]Physical[/i].
+        [br][i]Only once per Phase.[/i]
+      cost: ""
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Rot and Renewal, "Wildgrowth: Permanence", Astral Body I, Battle Meditation, Focus II]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Druid, 5, WIL]
+        - [Staff, 3]
+    - name: Fey Soul
+      type: Passive
+      effect:
+        - MD is increased by [section:clr-attr]WIL-MOD[/section].

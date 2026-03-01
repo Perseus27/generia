@@ -1,0 +1,64 @@
+name: Nymph Rogue 35
+id: nymph-rogue-35
+info:
+  species: Fey
+  level: 35
+  size: Medium
+  tags: [[Flying, 14], Freecaster, Sapient]
+notes: >
+  An unpredictable nature spirit. Ruthless and dangerous.
+  [br]This particular nymph may cast any Nox spells of Tier III and lower.
+
+attributes:
+  CON: [10, 5]
+  STR: [6, 3]
+  DEX: [16, 8]
+  INT: [5, 2]
+  WIL: [9, 4]
+  PER: [12, 6]
+values:
+  EN: 15
+  MP: 10
+  MPR: 3
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: 10
+armor:
+  head: 4
+  torso: 6
+  arms: 5
+  legs: 5
+  md: 4
+  er: 4
+loot:
+  - "Nymph Stiletto (Random Tier I Enchantment)"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Daggers
+      type: Melee Attack
+      auto: Stiletto
+    - name: Nox Spell DC
+      type: DC
+      auto: [DC, PER]
+      prof: Nox
+    - name: Fog and Smoke
+      type: Reaction
+      effect: >
+        The nymph becomes mist-like for the rest of this turn, gaining [url:status#Resistant]Resistant[/url] [i]Physical[/i].
+        [br][i]Only once per Phase.[/i]
+      cost: ""
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [One with the Shadows, Withering Shadows, Spearhead, Dancer, Dual Wielding, Deflector, Dodge Tank, Duelist, Opportunist, Focus I]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - [Dagger, 6]
+        - [Nox, 4, PER]
+    - name: Fey Soul
+      type: Passive
+      effect:
+        - MD is increased by [section:clr-attr]WIL-MOD[/section].
