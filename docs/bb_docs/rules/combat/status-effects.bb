@@ -14,7 +14,7 @@ The status effect’s [section:clr-dc]Determined Check (DC)[/section] equals:
 [/ul]
 [h4|Removal]Removal[/h4]
 When an effect is actively dispelled/removed (e.g., by a spell), use the above [b][section:clr-dc]DC[/section][/b] as the check difficulty.
-[br]When removing ([i]"cleansing"[/i]) a status effect from an unwilling target, the [section:clr-dc]DC[/section] is increased by [section:clr-value]10[/section].
+[br]When removing ([i]cleansing[/i]) a status effect from an unwilling target, the [section:clr-dc]DC[/section] is increased by [section:clr-value]10[/section].
 
 [h2|Classification]Classification[/h2]
 Each status effect belongs to one or more classifications. There are various spells, perks, items and other effects that interact with certain classifications, but not necessarily others.
