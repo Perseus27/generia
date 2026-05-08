@@ -12,8 +12,9 @@ The status effect’s [section:clr-dc]Determined Check (DC)[/section] equals:
 [li]for physical origin (e.g., [i][url:#Stunned]stunned[/url][/i] by a blunt weapon): [b]10 + [section:clr-attr]STR-MOD[/section][/b][/li]
 [li]or another value, if specified in the effect description.[/li]
 [/ul]
-[h4]Removal[/h4]
+[h4|Removal]Removal[/h4]
 When an effect is actively dispelled/removed (e.g., by a spell), use the above [b][section:clr-dc]DC[/section][/b] as the check difficulty.
+[br]When removing ([i]"cleansing"[/i]) a status effect from an unwilling target, the [section:clr-dc]DC[/section] is increased by [section:clr-value]10[/section].
 
 [h2|Classification]Classification[/h2]
 Each status effect belongs to one or more classifications. There are various spells, perks, items and other effects that interact with certain classifications, but not necessarily others.
