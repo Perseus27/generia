@@ -181,6 +181,9 @@ nav:
       - Druid:
         - character/spellcasting-traditions/druid/what-is-a-druid.md
         - character/spellcasting-traditions/druid/druid-spells.md
+      - Invoker:
+        - character/spellcasting-traditions/invoker/what-is-an-invoker.md
+        - character/spellcasting-traditions/invoker/invoker-spells.md
       - Nox:
         - character/spellcasting-traditions/nox/what-is-a-nox.md
         - character/spellcasting-traditions/nox/nox-spells.md

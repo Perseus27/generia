@@ -1,0 +1,264 @@
+name: Invoker Spells II
+id: invoker-spells-ii
+id_appendix: II
+prefix: invokerS
+
+offensive:
+  - name: Divine Blast II
+    id: divine-blast-ii
+    auto_type: [SA, WIL]
+    tags: [TIER II, Faith, Offensive, "Range: 20m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      A ranged spell attack based on the patron deity's powers.
+    effect: >
+      [section:clr-roll]3d6[/section] [section:clr-emph]Element[/section]
+    saved: Damage halved.
+    saved10: No effect.
+
+  - name: Divine Bolt II
+    id: divine-bolt-ii
+    auto_type: [PA, WIL]
+    tags: [TIER II, Faith, Offensive, "Range: 20m"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      A ranged projectile attack based on the patron deity's powers.
+    effect: >
+      [section:clr-roll]3d8[/section] [section:clr-emph]Element[/section]
+
+  - name: Divine Burst I
+    id: divine-burst-i
+    auto_type: [SA, WIL]
+    tags: [TIER II, Faith, Offensive, "Range: 20m", "Radius: 2m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      A ranged area-of-effect spell attack based on the patron deity's powers.
+    effect: >
+      [section:clr-roll]2d6[/section] [section:clr-emph]Element[/section]
+    saved: Damage halved.
+    saved10: No effect.
+
+  - name: Divine Strike II
+    id: divine-strike-ii
+    tags: [TIER II, Reaction, "Range: Weapon"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      The damage type of the next [url:def#BasicAttack]basic attack[/url] within this turn is changed to one of the patron deity's elements.
+    effect: >
+      Damage type becomes [section:clr-emph]Element[/section].
+
+
+defensive:
+  - name: Divine Barrier II
+    id: divine-barrier-ii
+    tags: [TIER II, Faith, Reaction, "[section:clr-support]SUPPORT[/section]", "Range: 20m"]
+    auto_type: [SD, WIL, PER]
+    type:
+      - "[section:clr-sd]SD[/section] [section:clr-attr]WIL[/section]+[section:clr-attr]PER[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Reduces incoming damage in a way appropriate for the patron deity's powers.
+      [br]Lasts for the rest of the turn or until destroyed. Excess damage carries over.
+    effect: >
+      [section:clr-roll]2d4[/section] + [[section:clr-value]Potency[/section]] Protection
+
+  - name: Divine Protection II
+    id: divine-protection-ii
+    tags: [TIER II, Faith, Defensive, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Grants a magical shield in a way appropriate for the patron deity's powers.
+    effect: >
+      [section:clr-roll]2d6[/section] + [[section:clr-value]Potency[/section]] Protection
+
+  - name: Mass Protection I
+    id: mass-protection-i
+    tags: [TIER II, Faith, Defensive, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section] per target"
+    description: >
+      Grants up to [[section:clr-value]Faith[/section]] targets in range a magical shield in a way appropriate for the patron deity's powers.
+    effect: >
+      [section:clr-roll]1d6[/section] + [[section:clr-value]Potency[/section]] Protection
+
+
+utility:
+  - name: Bane Aura
+    id: bane-aura
+    tags: [TIER II, Faith, Utility, "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "([section:clr-conc]CONCENTRATION[/section])", "Range: 20m"]
+    auto_type: [DC, WIL]
+    type:
+      - "[section:clr-DC]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]2–4 MP[/section]"
+    description: >
+      Afflicts any targets of the caster's choosing within the radius with a negative [url:status]status effect[/url] based on the patron deity's powers.
+      [br]May or may not be cast with Concentration, depending on the effect and common sense.
+      [br]Mana cost depends on the strength of the strength of the effect, again based on common sense.
+    effect: >
+      Applies a negative [url:status]status effect[/url].
+
+  - name: Boon Aura
+    id: boon-aura
+    tags: [TIER II, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "([section:clr-conc]CONCENTRATION[/section])", "Radius: 4m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2–4 MP[/section]"
+    description: >
+      Grants any targets of the caster's choosing within the radius a positive [url:status]status effect[/url] based on the patron deity's powers.
+      [br]May or may not be cast with Concentration, depending on the effect and common sense.
+      [br]Mana cost depends on the strength of the strength of the effect, again based on common sense.
+      [br][i]If the target is unwilling, cast as [section:clr-dc]DC[/section] instead (see [url:invokerS#bane-aura]Bane Aura[/url]).[/i]
+    effect: >
+      Applies a positive [url:status]status effect[/url].
+
+  - name: Divine Command
+    id: divine-command
+    tags: [TIER II, Faith, Utility, "[section:clr-control]CONTROL[/section]", "Range: 20m"]
+    auto_type: [DC, WIL]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Issues a brief supernatural command backed by the authority, terror, beauty, or symbolism of the patron deity.
+      [br]The command must be reasonably simple and should not force obviously suicidal behavior.
+    effect: >
+      Target is compelled to follow a brief command.
+    saved: No effect.
+
+  - name: Divine Movement
+    id: divine-movement
+    tags: [TIER II, Faith, Utility, "[section:clr-movement]MOVEMENT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Move up to [[section:clr-value]Faith + Potency[/section]] meters in a magical manner fitting for the patron deity's powers.
+      [br][i]Only works if the patron deity's powers could reasonably produce movement effects.[/i]
+    effect: >
+      Caster changes location.
+
+  - name: Divine Passage
+    id: divine-passage
+    tags: [TIER II, Faith, Utility, "[section:clr-movement]MOVEMENT[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2–4 MP[/section]"
+    description: >
+      Allows the caster and up to [[section:clr-value]Faith[/section]] targets within range to bypass, cross, enter, or escape an obstacle in a way fitting the patron deity's powers.
+      [br][i]Examples: Slipping through shadows, walking over water, passing through flame, being carried by wind...[/i]
+    effect: >
+      Target bypasses or crosses an obstacle through divine means.
+
+  - name: Imbuement II
+    id: imbuement-ii
+    tags: [TIER II, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Imbues a target within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
+    effect: >
+      [section:clr-attr]Attribute MOD[/section] is increased by [section:clr-value]2[/section].
+
+  - name: Manifest Domain
+    id: manifest-domain
+    tags: [TIER II, Faith, Utility, "([section:clr-conc]CONCENTRATION[/section])", "Range: 16m", "Radius: 2–4m"]
+    auto_type: [DC, WIL]
+    type:
+      - "[section:clr-surecast]SURECAST[/section] / [section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]2–6 MP[/section]"
+    description: >
+      Transforms an area to reflect the patron deity's domain and/or elements.
+    effect: >
+      Cost, effect, and duration are negotiable.
+
+  - name: Mass Imbuement I
+    id: mass-imbuement-i
+    tags: [TIER II, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section] per target"
+    description: >
+      Imbues up to [[section:clr-values]Faith[/section]] targets within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
+    effect: >
+      [section:clr-attr]Attribute MOD[/section] is increased by [section:clr-value]1[/section].
+
+  - name: Mass Purification
+    id: mass-purification
+    auto_type: [DC+, WIL]
+    tags: [TIER II, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-control]CONTROL[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section] per target"
+    description: >
+      Attempts to [url:status#Removal]cleanse[/url] a specified status effect from up to [[section:clr-value]Faith[/section]] targets in range.
+      [br][i]Only works if the patron deity's powers could reasonably produce cleansing effects.[/i]
+    effect: >
+      Specified status effect is removed.
+
+  - name: Restoration II
+    id: restoration-ii
+    tags: [TIER II, Faith, Utility, HEAL, "Range: 16m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      Heals a target within range.
+      [br][i]Only works if the patron deity's powers could reasonably produce restorative effects.[/i]
+    effect: >
+      [section:clr-roll]3d6[/section] [section:clr-heal]Healing[/section].
+
+  - name: Mass Restoration I
+    id: mass-restoration-i
+    tags: [TIER II, Faith, Utility, HEAL, "Range: 16m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section] per target"
+    description: >
+      Heals up to [[section:clr-value]Faith[/section]] targets within range.
+      [br][i]Only works if the patron deity's powers could reasonably produce restorative effects.[/i]
+    effect: >
+      [section:clr-roll]2d6[/section] [section:clr-heal]Healing[/section].
+
+ritual:
+  - name: Conjure Servant
+    id: conjure-servant
+    tags: [TIER II, Out of Combat]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cast_time: 1 Phase
+    description: >
+      Conjures a minor divine servant that can take any form related to the patron deity's powers.
+      [br]It is incapable of entering combat and will simply return to the deity's domain if attacked, from where it can be re-conjured.
+      [br]Conjured servants are capable of carrying out mundane tasks befitting their deity's domain, like tending crops for agricultural gods or carrying supplies for a god of war.
+    effect: >
+      Summons a divine servant.

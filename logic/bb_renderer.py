@@ -40,6 +40,7 @@ class BB_Renderer:
             'alchemistS':   '/generia/character/spellcasting-traditions/alchemist/alchemist-spells',
             'bardS'     :   '/generia/character/spellcasting-traditions/bard/bard-spells',
             'druidS'    :   '/generia/character/spellcasting-traditions/druid/druid-spells',
+            'invokerS'  :   '/generia/character/spellcasting-traditions/invoker/invoker-spells',
             'noxS'      :   '/generia/character/spellcasting-traditions/nox/nox-spells',
             'shamanS'   :   '/generia/character/spellcasting-traditions/shaman/shaman-spells',
             'sorcererS' :   '/generia/character/spellcasting-traditions/sorcerer/sorcerer-spells',
