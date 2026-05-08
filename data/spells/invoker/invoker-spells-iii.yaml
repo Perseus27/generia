@@ -1,0 +1,140 @@
+name: Invoker Spells III
+id: invoker-spells-iii
+id_appendix: III
+prefix: invokerS
+
+offensive:
+  - name: Divine Blast III
+    id: divine-blast-iii
+    auto_type: [SA, WIL]
+    tags: [TIER III, Faith, Offensive, "Range: 20m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      A ranged spell attack based on the patron deity's powers.
+    effect: >
+      [section:clr-roll]4d6[/section] [section:clr-emph]Element[/section]
+    saved: Damage halved.
+    saved10: No effect.
+
+  - name: Divine Bolt III
+    id: divine-bolt-iii
+    auto_type: [PA, WIL]
+    tags: [TIER II, Faith, Offensive, "Range: 20m"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      A ranged projectile attack based on the patron deity's powers.
+    effect: >
+      [section:clr-roll]4d8[/section] [section:clr-emph]Element[/section]
+
+  - name: Divine Burst II
+    id: divine-burst-ii
+    auto_type: [SA, WIL]
+    tags: [TIER III, Faith, Offensive, "Range: 20m", "Radius: 2m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]5 MP[/section]"
+    description: >
+      A ranged area-of-effect spell attack based on the patron deity's powers.
+    effect: >
+      [section:clr-roll]3d6[/section] [section:clr-emph]Element[/section]
+    saved: Damage halved.
+    saved10: No effect.
+
+  - name: Divine Strike III
+    id: divine-strike-iii
+    tags: [TIER III, Free Action, "Range: Weapon"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The damage type of all following [url:def#BasicAttack]basic attacks[/url] within this turn is changed to one of the patron deity's elements.
+    effect: >
+      Damage type becomes [section:clr-emph]Element[/section].
+
+
+defensive:
+  - name: Divine Barrier III
+    id: divine-barrier-iii
+    tags: [TIER III, Faith, Reaction, "[section:clr-support]SUPPORT[/section]", "Range: 20m"]
+    auto_type: [SD, WIL, PER]
+    type:
+      - "[section:clr-sd]SD[/section] [section:clr-attr]WIL[/section]+[section:clr-attr]PER[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      Reduces incoming damage in a way appropriate for the patron deity's powers.
+      [br]Lasts for the rest of the turn or until destroyed. Excess damage carries over.
+    effect: >
+      [section:clr-roll]3d4[/section] + [[section:clr-value]Potency[/section]] Protection
+
+  - name: Divine Protection III
+    id: divine-protection-iii
+    tags: [TIER III, Faith, Defensive, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      Grants a magical shield in a way appropriate for the patron deity's powers.
+    effect: >
+      [section:clr-roll]3d6[/section] + [[section:clr-value]Potency[/section]] Protection
+
+
+utility:
+  - name: Imbuement III
+    id: imbuement-iii
+    tags: [TIER III, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      Imbues a target within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
+    effect: >
+      [section:clr-attr]Attribute MOD[/section] is increased by [section:clr-value]3[/section].
+
+  - name: Mass Imbuement II
+    id: mass-imbuement-ii
+    tags: [TIER III, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section] per target"
+    description: >
+      Imbues up to [[section:clr-values]Faith[/section]] targets within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
+    effect: >
+      [section:clr-attr]Attribute MOD[/section] is increased by [section:clr-value]2[/section].
+
+  - name: Mass Restoration II
+    id: mass-restoration-ii
+    tags: [TIER III, Faith, Utility, HEAL, "Range: 16m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section] per target"
+    description: >
+      Heals up to [[section:clr-value]Faith[/section]] targets within range.
+      [br][i]Only works if the patron deity's powers could reasonably produce restorative effects.[/i]
+    effect: >
+      [section:clr-roll]3d6[/section] [section:clr-heal]Healing[/section].
+
+  - name: Restoration III
+    id: restoration-iii
+    tags: [TIER III, Faith, Utility, HEAL, "Range: 16m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      Heals a target within range.
+      [br][i]Only works if the patron deity's powers could reasonably produce restorative effects.[/i]
+    effect: >
+      [section:clr-roll]4d6[/section] [section:clr-heal]Healing[/section].

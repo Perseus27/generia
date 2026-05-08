@@ -55,6 +55,9 @@
 [h4][url:/generia/character/spellcasting-traditions/druid/what-is-a-druid]Druid[/url][/h4]
 [url:druidS#TierI]Tier I[/url], [url:druidS#TierII]Tier II[/url], [url:druidS#TierIII]Tier III[/url], [url:druidS#TierX]Tier X[/url]
 
+[h4][url:/generia/character/spellcasting-traditions/invoker/what-is-an-invoker]Invoker[/url][/h4]
+[url:invokerS#TierI]Tier I[/url], [url:invokerS#TierII]Tier II[/url], [url:invokerS#TierIII]Tier III[/url], [url:invokerS#TierX]Tier X[/url]
+
 [h4][url:/generia/character/spellcasting-traditions/nox/what-is-a-nox]Nox[/url][/h4]
 [url:noxS#TierI]Tier I[/url], [url:noxS#TierII]Tier II[/url], [url:noxS#TierIII]Tier III[/url], [url:noxS#TierX]Tier X[/url]
 
