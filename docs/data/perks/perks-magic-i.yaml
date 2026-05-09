@@ -32,6 +32,20 @@ content:
       By spending [i]Concentration[/i] and [section:clr-mp]1 MP[/section] per spell tier, you may roll any [url:def#PA]projectile attack[/url] or [url:def#SA]spell attack[/url] as a [section:clr-dc]DC+[/section] check instead.
       This roll is [url:core#Eased]eased[/url] by [section:clr-value]4[/section] per [url:core#Advantage]Advantage[/url] stage and [url:core#Hindered]hindered[/url] by [section:clr-value]4[/section] per [url:core#Disadvantage]Disadvantage[/url] stage.
       
+  - name: Contained Surge
+    id: contained-surge
+    sp-cost: 10
+    requirements: –
+    description: >
+      When a spell effect die [url:core#Explosion]explodes[/url], you may choose to forfeit the explosion to regain [section:clr-roll-noex]1d4[/section] [section:clr-mp]MP[/section].
+      
+  - name: Emergency Healer
+    id: emergency-healer
+    sp-cost: 10
+    requirements: –
+    description: >
+      When casting a spell with the [section:clr-heal]HEAL[/section] keyword, effect die [url:core#Explosion]explode[/url] one point earlier if the target is below half of its [url:values#WL]Wound Limit[/url].
+      
   - name: Focus I
     id: focus-i
     sp-cost: 10
@@ -52,3 +66,10 @@ content:
     requirements: –
     description: >
       Once per Phase, you may as a [url:def#FreeAction]Free Action[/url] gain [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] in exchange for one point of [url:values#Exhaustion]Exhaustion[/url].
+      
+  - name: Stable Mind
+    id: stable-mind
+    sp-cost: 10
+    requirements: –
+    description: >
+      If you did not move in any way for one turn, gain [url:status#ClearMind]Clear Mind[/url] until the start of your next turn.
