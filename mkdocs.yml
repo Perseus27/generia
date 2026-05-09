@@ -93,6 +93,7 @@ nav:
         - character/classes/tier-i/class-bard.md
         - character/classes/tier-i/class-druid.md
         - character/classes/tier-i/class-fighter.md
+        - character/classes/tier-i/class-invoker.md
         - character/classes/tier-i/class-marauder.md
         - character/classes/tier-i/class-nox.md
         - character/classes/tier-i/class-shaman.md
@@ -110,6 +111,7 @@ nav:
         - character/classes/tier-ii/class-field-archer.md
         - character/classes/tier-ii/class-hermetician.md
         - character/classes/tier-ii/class-hunter.md
+        - character/classes/tier-ii/class-invoker-ii.md
         - character/classes/tier-ii/class-kinetician.md
         - character/classes/tier-ii/class-medic.md
         - character/classes/tier-ii/class-meteorician.md
@@ -142,6 +144,7 @@ nav:
         - character/classes/tier-iii/class-deadshot.md
         - character/classes/tier-iii/class-elementalist.md
         - character/classes/tier-iii/class-gunwright.md
+        - character/classes/tier-iii/class-invoker-iii.md
         - character/classes/tier-iii/class-legate.md
         - character/classes/tier-iii/class-magister.md
         - character/classes/tier-iii/class-magus.md

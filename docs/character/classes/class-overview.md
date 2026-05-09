@@ -36,6 +36,7 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-i/class-shaman.yaml') }}
 {{ class_card('data/classes/tier-i/class-wizard.yaml') }}
 ### Advanced Classes
+{{ class_card('data/classes/tier-i/class-invoker.yaml') }}
 {{ class_card('data/classes/tier-i/class-sorcerer.yaml') }}
 {{ class_card('data/classes/tier-i/class-tempering-first-stage.yaml') }}
 
@@ -75,6 +76,7 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-ii/class-war-dancer.yaml') }}
 {{ class_card('data/classes/tier-ii/class-wildkeeper.yaml') }}
 ### Advanced Classes
+{{ class_card('data/classes/tier-ii/class-invoker-ii.yaml') }}
 {{ class_card('data/classes/tier-ii/class-sorcerer-ii.yaml') }}
 {{ class_card('data/classes/tier-ii/class-tempering-second-stage.yaml') }}
 
@@ -101,3 +103,5 @@ title: Classes – Overview
 {{ class_card('data/classes/tier-iii/class-templar.yaml') }}
 {{ class_card('data/classes/tier-iii/class-virtuoso.yaml') }}
 {{ class_card('data/classes/tier-iii/class-wayfarer.yaml') }}
+### Advanced Classes
+{{ class_card('data/classes/tier-iii/class-invoker-iii.yaml') }}

@@ -1,0 +1,39 @@
+name: Invoker
+id: class-invoker
+prefix: class1
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/invoker/what-is-an-invoker]What is an Invoker?[/url]
+
+description: >
+  [section:clr-malus]WARNING: ADVANCED CLASS[/section]
+  [br]Invokers call upon the powers of their patron deity to cast faith-based spells that are as varied as the gods themselves.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Invoker II
+
+perks:
+  combat:
+    - []
+  magic:
+    - [Battle Meditation, 10 SP]
+
+proficiencies:
+  civilian:
+    - [Mysticism 2, 3 SP]
+    - [Spellcraft 1, 1 SP]
+  magic:
+    - ["Invoker: Beginner", 10 SP]
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - [Spell Budget, 16 SP]
+
+starter_set:
+  - []
