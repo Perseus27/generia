@@ -25,7 +25,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - ["Slashing [sup]or[/sup] Stabbing Weapons: Intermediate", "20 SP"]
+    - ["Slashing/Stabbing Weapons: Intermediate", "20 SP"]
 
 actions:
   skills:
