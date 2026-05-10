@@ -19,6 +19,7 @@ perks:
     - []
   magic:
     - [Astral Body II, 20 SP]
+    - [Focus II, 20 SP]
     - ["[url:perksM#arcane-artillery]Arcane Artillery[/url]/[url:perksM#emergency-healer]Emergency Healer[/url]/[url:perksM#stable-mind]Stable Mind[/url]" , 10 SP]
 
 proficiencies:
@@ -31,4 +32,4 @@ actions:
   skills:
     - []
   spells:
-    - [Spell Budget, 40 SP]
+    - [Spell Budget, 20 SP]
