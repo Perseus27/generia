@@ -101,9 +101,9 @@ defensive:
 
 
 utility:
-  - name: Bane Aura
-    id: bane-aura
-    tags: [TIER II, Faith, Utility, "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "([section:clr-conc]CONCENTRATION[/section])", "Range: 20m"]
+  - name: Bane Aura I
+    id: bane-aura-i
+    tags: [TIER II, Faith, Utility, "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "([section:clr-conc]CONCENTRATION[/section])", "Radius: 4m"]
     auto_type: [DC, WIL]
     type:
       - "[section:clr-DC]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
@@ -116,8 +116,8 @@ utility:
     effect: >
       Applies a negative [url:status]status effect[/url].
 
-  - name: Boon Aura
-    id: boon-aura
+  - name: Boon Aura I
+    id: boon-aura-i
     tags: [TIER II, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "([section:clr-conc]CONCENTRATION[/section])", "Radius: 4m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -225,7 +225,7 @@ utility:
 
   - name: Restoration II
     id: restoration-ii
-    tags: [TIER II, Faith, Utility, HEAL, "Range: 16m"]
+    tags: [TIER II, Faith, Utility, "[section:clr-heal]HEAL[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -238,7 +238,7 @@ utility:
 
   - name: Mass Restoration I
     id: mass-restoration-i
-    tags: [TIER II, Faith, Utility, HEAL, "Range: 16m"]
+    tags: [TIER II, Faith, Utility, "[section:clr-heal]HEAL[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -248,6 +248,7 @@ utility:
       [br][i]Only works if the patron deity's powers could reasonably produce restorative effects.[/i]
     effect: >
       [section:clr-roll]2d6[/section] [section:clr-heal]Healing[/section].
+
 
 ritual:
   - name: Conjure Servant
