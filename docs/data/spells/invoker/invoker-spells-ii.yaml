@@ -230,7 +230,7 @@ utility:
     cost:
       - "[section:clr-mp]1 MP[/section] per target"
     description: >
-      Imbues up to [[section:clr-values]Faith[/section]] targets within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
+      Imbues up to [[section:clr-value]Faith[/section]] targets within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
     effect: >
       [section:clr-attr]Attribute MOD[/section] is increased by [section:clr-value]1[/section].
 

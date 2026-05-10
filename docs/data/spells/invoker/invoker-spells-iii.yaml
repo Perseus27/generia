@@ -133,7 +133,7 @@ utility:
 
   - name: Divine Edict
     id: divine-edict
-    tags: [TIER II, Faith, Utility, "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Radius: 12m"]
+    tags: [TIER III, Faith, Utility, "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Radius: 12m"]
     auto_type: [DC, WIL]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
@@ -167,7 +167,7 @@ utility:
     cost:
       - "[section:clr-mp]2 MP[/section] per target"
     description: >
-      Imbues up to [[section:clr-values]Faith[/section]] targets within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
+      Imbues up to [[section:clr-value]Faith[/section]] targets within range with divine energies, temporarily raising an [section:clr-attr]attribute MOD[/section] relating to the patron deity's powers.
     effect: >
       [section:clr-attr]Attribute MOD[/section] is increased by [section:clr-value]2[/section].
 
