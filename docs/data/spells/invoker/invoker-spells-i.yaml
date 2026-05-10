@@ -85,7 +85,7 @@ utility:
     description: >
       Afflicts a target within range with a negative [url:status]status effect[/url] based on the patron deity's powers.
       [br]May or may not be cast with Concentration, depending on the effect and common sense.
-      [br]Mana cost depends on the strength of the strength of the effect, again based on common sense.
+      [br]Mana cost depends on the strength of the effect, again based on common sense.
     effect: >
       Applies a negative [url:status]status effect[/url].
 
@@ -99,7 +99,7 @@ utility:
     description: >
       Grants a target within range a positive [url:status]status effect[/url] based on the patron deity's powers.
       [br]May or may not be cast with Concentration, depending on the effect and common sense.
-      [br]Mana cost depends on the strength of the strength of the effect, again based on common sense.
+      [br]Mana cost depends on the strength of the effect, again based on common sense.
       [br][i]If the target is unwilling, cast as [section:clr-dc]DC[/section] instead (see [url:invokerS#divine-bane]Divine Bane[/url]).[/i]
     effect: >
       Applies a positive [url:status]status effect[/url].
