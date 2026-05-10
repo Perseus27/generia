@@ -131,6 +131,22 @@ utility:
     effect: >
       Applies a positive [url:status]status effect[/url].
 
+  - name: Divine Edict
+    id: divine-edict
+    tags: [TIER II, Faith, Utility, "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Radius: 12m"]
+    auto_type: [DC, WIL]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      Explicitly forbids all nearby creatures to perform a specific action under the authority of the patron deity.
+      [br]The action must be related to the patron deity's domains or elements.
+    effect: >
+      Creatures in the area cannot execute the action.
+    saved: Action has [url:core#Disadvantage]Disadvantage 1[/url].
+    saved10: No effect.
+
   - name: Imbuement III
     id: imbuement-iii
     tags: [TIER III, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]

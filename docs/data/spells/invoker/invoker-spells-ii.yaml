@@ -99,6 +99,19 @@ defensive:
     effect: >
       [section:clr-roll]1d6[/section] + [[section:clr-value]Potency[/section]] Protection
 
+  - name: Mass Ward
+    id: mass-ward
+    tags: [TIER II, Faith, Defensive, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section] per target"
+    description: >
+      Hinders specified hostile actions against up to [[section:clr-value]Faith[/section]] targets in a way appropriate for the patron deity's powers.
+      [br][i]Only applies if the specified actions would reasonably fall within the deity's domains or directly oppose them.[/i]
+    effect: >
+      Specific actions are [url:core#Hindered]hindered[/url] by [[section:clr-value]Potency[/section]].
+
 
 utility:
   - name: Bane Aura I
@@ -171,6 +184,18 @@ utility:
       [br][i]Examples: Slipping through shadows, walking over water, passing through flame, being carried by wind...[/i]
     effect: >
       Target bypasses or crosses an obstacle through divine means.
+
+  - name: Divine Veil
+    id: divine-veil
+    tags: [TIER II, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section] per target"
+    description: >
+      Magically veils up to [[section:clr-value]Faith[/section]] targets in a domain of the patron deity to ease any actions related to that domain.
+    effect: >
+      Specific effects are negotiable.
 
   - name: Imbuement II
     id: imbuement-ii
