@@ -157,7 +157,7 @@ utility:
 
   - name: Restoration I
     id: restoration-i
-    tags: [TIER I, Faith, Utility, HEAL, "Range: 16m"]
+    tags: [TIER I, Faith, Utility, "[section:clr-heal]HEAL[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:

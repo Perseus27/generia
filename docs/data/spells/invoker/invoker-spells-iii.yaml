@@ -22,7 +22,7 @@ offensive:
   - name: Divine Bolt III
     id: divine-bolt-iii
     auto_type: [PA, WIL]
-    tags: [TIER II, Faith, Offensive, "Range: 20m"]
+    tags: [TIER III, Faith, Offensive, "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
     cost:
@@ -87,8 +87,50 @@ defensive:
     effect: >
       [section:clr-roll]3d6[/section] + [[section:clr-value]Potency[/section]] Protection
 
+  - name: Mass Protection II
+    id: mass-protection-ii
+    tags: [TIER III, Faith, Defensive, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section] per target"
+    description: >
+      Grants up to [[section:clr-value]Faith[/section]] targets in range a magical shield in a way appropriate for the patron deity's powers.
+    effect: >
+      [section:clr-roll]2d6[/section] + [[section:clr-value]Potency[/section]] Protection
+
 
 utility:
+  - name: Bane Aura II
+    id: bane-aura-ii
+    tags: [TIER III, Faith, Utility, "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "([section:clr-conc]CONCENTRATION[/section])", "Radius: 8m"]
+    auto_type: [DC, WIL]
+    type:
+      - "[section:clr-DC]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]"
+    cost:
+      - "[section:clr-mp]3–6 MP[/section]"
+    description: >
+      Afflicts any targets of the caster's choosing within the radius with a negative [url:status]status effect[/url] based on the patron deity's powers.
+      [br]May or may not be cast with Concentration, depending on the effect and common sense.
+      [br]Mana cost depends on the strength of the strength of the effect, again based on common sense.
+    effect: >
+      Applies a negative [url:status]status effect[/url].
+
+  - name: Boon Aura II
+    id: boon-aura-ii
+    tags: [TIER III, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "([section:clr-conc]CONCENTRATION[/section])", "Radius: 8m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]3–6 MP[/section]"
+    description: >
+      Grants any targets of the caster's choosing within the radius a positive [url:status]status effect[/url] based on the patron deity's powers.
+      [br]May or may not be cast with Concentration, depending on the effect and common sense.
+      [br]Mana cost depends on the strength of the strength of the effect, again based on common sense.
+      [br][i]If the target is unwilling, cast as [section:clr-dc]DC[/section] instead (see [url:invokerS#bane-aura]Bane Aura[/url]).[/i]
+    effect: >
+      Applies a positive [url:status]status effect[/url].
+
   - name: Imbuement III
     id: imbuement-iii
     tags: [TIER III, Faith, Utility, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
@@ -115,7 +157,7 @@ utility:
 
   - name: Mass Restoration II
     id: mass-restoration-ii
-    tags: [TIER III, Faith, Utility, HEAL, "Range: 16m"]
+    tags: [TIER III, Faith, Utility, "[section:clr-heal]HEAL[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -128,7 +170,7 @@ utility:
 
   - name: Restoration III
     id: restoration-iii
-    tags: [TIER III, Faith, Utility, HEAL, "Range: 16m"]
+    tags: [TIER III, Faith, Utility, "[section:clr-heal]HEAL[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -138,3 +180,16 @@ utility:
       [br][i]Only works if the patron deity's powers could reasonably produce restorative effects.[/i]
     effect: >
       [section:clr-roll]4d6[/section] [section:clr-heal]Healing[/section].
+
+
+ritual:
+  - name: Shape the World
+    id: shape-the-world
+    tags: [TIER III, Out of Combat, "Radius: [[section:clr-value]Faith[/section] × 10] m"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cast_time: 1 Phase
+    description: >
+      Calls the divine essence of the patron deity into the mortal world to shape a large area in its image.
+    effect: >
+      Specific effects, cost, and duration are negotiable.
