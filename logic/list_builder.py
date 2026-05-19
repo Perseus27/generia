@@ -1,6 +1,7 @@
 class List_Builder:
     def __init__(self, autolinker):
         self.autolinker = autolinker
+        self._link_cache = {}
 
 
     def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False, class_list=False, prof_list=False, format_exclusives=False): # br, comma, li, commabr
@@ -173,6 +174,10 @@ class List_Builder:
 
 
     def get_link(self, s, to_link, format_exclusive=False):
+        cache_key = (to_link, s, format_exclusive)
+        if cache_key in self._link_cache:
+            return self._link_cache[cache_key]
+
         link = False
         if to_link == "class":
             link = self.autolinker.link_class(s)
@@ -188,4 +193,6 @@ class List_Builder:
             link = self.autolinker.link_tag(s)
         elif to_link == "ench":
             link = self.autolinker.link_ench(s)
+
+        self._link_cache[cache_key] = link
         return link
