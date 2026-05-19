@@ -72,6 +72,19 @@ defensive:
     effect: >
       [section:clr-roll]1d6[/section] + [[section:clr-value]Potency[/section]] Protection
 
+  - name: Divine Ward
+    id: divine-ward
+    tags: [TIER I, Faith, Defensive, "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Hinders specified hostile actions against the target in a way appropriate for the patron deity's powers.
+      [br][i]Only applies if the specified actions would reasonably fall within the deity's domains or directly oppose them.[/i]
+    effect: >
+      Specific actions are [url:core#Hindered]hindered[/url] by [[section:clr-value]Potency[/section]].
+
 
 utility:
   - name: Divine Bane
@@ -116,6 +129,20 @@ utility:
       [br]The spell does not provide exact knowledge, only a general impression of presence, direction, or intensity.
     effect: >
       Reveals nearby domain-related presences.
+
+  - name: Divine Tool
+    id: divine-tool
+    tags: [TIER I, Faith, Utility, "Duration: 1 Hour"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1–2 MP[/section]"
+    description: >
+      Conjures a tool related to the patron deity's powers.
+      [br]The tool must be portable and usable by a single person and may or may not have magical properties.
+      [br][i]Examples: A weapon for a god of war, a scalpel for a god of healing, a torch for a god of fire...[/i]
+    effect: >
+      Conjures a divine tool. Specific magical effects are negotiable.
 
   - name: Guidance
     id: guidance
@@ -168,6 +195,19 @@ utility:
     effect: >
       [section:clr-roll]2d6[/section] [section:clr-heal]Healing[/section].
 
+  - name: Sacred Ground
+    id: sacred-ground
+    tags: [TIER I, Faith, Utility, "[section:clr-control]CONTROL[/section]", "[section:clr-support]SUPPORT[/section]", "Radius: [[section:clr-value]Faith[/section]] m", "Duration: 1 Phase"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Sanctifies the ground directly below the caster to cause effects based on the patron deity's powers.
+      [br]If the effects are negative, apply saves as appropriate ([section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]???[/section]).
+    effect: >
+      Area around the caster is sanctified.
+
 
 ritual:
   - name: Mark of Faith
@@ -192,3 +232,15 @@ ritual:
     effect: >
       Effect, duration, and any costs are negotiable.
       [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
+
+  - name: Shelter
+    id: shelter
+    tags: [TIER I, Out of Combat]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cast_time: 1–4 Phases
+    description: >
+      Create a safe refuge based on the patron deity's powers.
+    effect: >
+      Specific effect, duration, and any costs are negotiable.
+
