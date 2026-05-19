@@ -133,8 +133,8 @@ class Autolinker:
             for subcat in self.get_all_spells_from_file(y):
                 for s in subcat:
                     if x == s.get("name") or x in s.get("alias", []):
-                        if i.get("auto_type", False):
-                            return i
+                        if s.get("auto_type", False):
+                            return s
 
     
     def get_all_perks_from_file(self, f):
