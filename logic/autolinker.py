@@ -46,96 +46,86 @@ class Autolinker:
             yaml.safe_load(path.read_text(encoding="utf-8"))
             for path in sorted(self.WEAPON_DIR.rglob("*.yaml"))
         ]
+        self.class_index = self._build_index(self.class_yamls, self._class_entry_data)
+        self.perk_index = self._build_index(self.perk_yamls, self._perk_entry_data)
+        self.skill_index = self._build_index(self.skill_yamls, self._skill_entry_data)
+        self.spell_index = self._build_index(self.spell_yamls, self._spell_entry_data)
+        self.tag_index = self._build_index(self.tag_yamls, self._tag_entry_data)
+        self.ench_index = self._build_index(self.ench_yamls, self._ench_entry_data)
+        self.armor_index = self._build_index(self.armor_yamls, self._item_entry_data)
+        self.weapon_index = self._build_index(self.weapon_yamls, self._item_entry_data)
 
 
     def link_class(self, x, overview=False):
-        for c in self.class_yamls:
-            if c.get("name") == x or x in c.get("alias", []):
-                if overview:
-                    return f"#{c.get('id')}"
-                else:
-                    return f"{c.get('prefix')}/{c.get('id')}"
+        c = self.class_index.get(self._normalize_key(x))
+        if c:
+            if overview:
+                return f"#{c.get('id')}"
+            else:
+                return f"{c.get('prefix')}/{c.get('id')}"
         return False
     
     def link_perk(self, x, check_exclusive=False):
-        for y in self.perk_yamls:
-            prefix = y.get("prefix")
-            for p in self.get_all_perks_from_file(y):
-                name = p.get("name")
-                if name == x or x in p.get("alias", []):
-                        if check_exclusive:
-                            return [f"{prefix}#{p.get('id', name)}", p.get("exclusive"), False]
-                        else:
-                            return f"{prefix}#{p.get('id', name)}"
+        p = self.perk_index.get(self._normalize_key(x))
+        if p:
+            if check_exclusive:
+                return [f"{p['prefix']}#{p['item'].get('id', p['item'].get('name'))}", p["item"].get("exclusive"), False]
+            else:
+                return f"{p['prefix']}#{p['item'].get('id', p['item'].get('name'))}"
         return False
 
     def link_skill(self, x, check_exclusive=False):
-        for y in self.skill_yamls:
-            prefix = y.get("prefix")
-            for subcat in self.get_all_skills_from_file(y):
-                for i in subcat:
-                    name = i.get("name")
-                    if name == x or x in i.get("alias", []):
-                        if check_exclusive:
-                            return [f"{prefix}#{i.get('id', name)}", any(x in ["TIER X", "Tier X"] for x in i.get("tags", []))]
-                        else:
-                            return f"{prefix}#{i.get('id', name)}"
+        i = self.skill_index.get(self._normalize_key(x))
+        if i:
+            skill_item = i["item"]
+            if check_exclusive:
+                return [f"{i['prefix']}#{skill_item.get('id', skill_item.get('name'))}", any(tag in ["TIER X", "Tier X"] for tag in skill_item.get("tags", []))]
+            else:
+                return f"{i['prefix']}#{skill_item.get('id', skill_item.get('name'))}"
         return False
 
     def link_spell(self, x, check_exclusive=False):
-        for y in self.spell_yamls:
-            prefix = y.get("prefix")
-            for subcat in self.get_all_spells_from_file(y):
-                for i in subcat:
-                    name = i.get("name")
-                    if name == x or x in i.get("alias", []):
-                        if check_exclusive:
-                            return [f"{prefix}#{i.get('id', name)}", any(x in ["TIER X", "Tier X"] for x in i.get("tags", []))]
-                        else:
-                            return f"{prefix}#{i.get('id', name)}"
+        i = self.spell_index.get(self._normalize_key(x))
+        if i:
+            spell_item = i["item"]
+            if check_exclusive:
+                return [f"{i['prefix']}#{spell_item.get('id', spell_item.get('name'))}", any(tag in ["TIER X", "Tier X"] for tag in spell_item.get("tags", []))]
+            else:
+                return f"{i['prefix']}#{spell_item.get('id', spell_item.get('name'))}"
         return False
     
     def link_tag(self, x):
-        for y in self.tag_yamls:
-            prefix = y.get("prefix")
-            for p in self.get_all_contents_from_file(y):
-                name = p.get("name")
-                if name == x or x in p.get("alias", []):
-                    return f"{prefix}#{p.get('id', name)}"
+        p = self.tag_index.get(self._normalize_key(x))
+        if p:
+            return f"{p['prefix']}#{p['item'].get('id', p['item'].get('name'))}"
         return self.link_ench(x)
     
     def link_ench(self, x):
-        for y in self.ench_yamls:
-            prefix = y.get("prefix")
-            for p in self.get_all_contents_from_file(y):
-                name = p.get("name")
-                if name == x or x in p.get("alias", []):
-                    return f"{prefix}#{p.get('id', name)}"
+        p = self.ench_index.get(self._normalize_key(x))
+        if p:
+            return f"{p['prefix']}#{p['item'].get('id', p['item'].get('name'))}"
         return False
     
     
     def fetch_armor_data(self, x):
-        for y in self.armor_yamls:
-            for a in self.get_all_items_from_file(y):
-                if x == a.get("name") or x in a.get("alias", []):
-                    return a
+        a = self.armor_index.get(self._normalize_key(x))
+        if a:
+            return a["item"]
         return False
 
     def fetch_weapon_data(self, x):
-        for y in self.weapon_yamls:
-            for w in self.get_all_items_from_file(y):
-                if x == w.get("name") or x in w.get("alias", []):
-                    return w
+        w = self.weapon_index.get(self._normalize_key(x))
+        if w:
+            return w["item"]
         return False
     
     def fetch_spell_data_if_auto(self, x):
-        for y in self.spell_yamls:
-            for subcat in self.get_all_spells_from_file(y):
-                for i in subcat:
-                    if x == i.get("name") or x in i.get("alias", []):
-                        if i.get("auto_type", False):
-                            return i
-                        return False
+        i = self.spell_index.get(self._normalize_key(x))
+        if i:
+            spell_item = i["item"]
+            if spell_item.get("auto_type", False):
+                return spell_item
+            return False
         return False
     
     def is_spell_exclusive(self, x):
@@ -174,4 +164,73 @@ class Autolinker:
     
     def get_all_items_from_file(self, f):
         return f.get("items", [])
+
+    def _normalize_key(self, value):
+        if value is None:
+            return ""
+        return str(value).strip().lower()
+
+    def _iter_names(self, item):
+        name = item.get("name")
+        if name:
+            yield name
+        for alias in item.get("alias", []) or []:
+            if alias:
+                yield alias
+
+    def _build_index(self, docs, entry_builder):
+        index = {}
+        for doc in docs:
+            for name, payload in entry_builder(doc):
+                key = self._normalize_key(name)
+                if key and key not in index:
+                    index[key] = payload
+        return index
+
+    def _class_entry_data(self, doc):
+        for name in self._iter_names(doc):
+            yield name, doc
+
+    def _perk_entry_data(self, doc):
+        prefix = doc.get("prefix")
+        for perk in self.get_all_perks_from_file(doc):
+            payload = {"prefix": prefix, "item": perk}
+            for name in self._iter_names(perk):
+                yield name, payload
+
+    def _skill_entry_data(self, doc):
+        prefix = doc.get("prefix")
+        for subcat in self.get_all_skills_from_file(doc):
+            for skill in subcat:
+                payload = {"prefix": prefix, "item": skill}
+                for name in self._iter_names(skill):
+                    yield name, payload
+
+    def _spell_entry_data(self, doc):
+        prefix = doc.get("prefix")
+        for subcat in self.get_all_spells_from_file(doc):
+            for spell in subcat:
+                payload = {"prefix": prefix, "item": spell}
+                for name in self._iter_names(spell):
+                    yield name, payload
+
+    def _tag_entry_data(self, doc):
+        prefix = doc.get("prefix")
+        for item in self.get_all_contents_from_file(doc):
+            payload = {"prefix": prefix, "item": item}
+            for name in self._iter_names(item):
+                yield name, payload
+
+    def _ench_entry_data(self, doc):
+        prefix = doc.get("prefix")
+        for item in self.get_all_contents_from_file(doc):
+            payload = {"prefix": prefix, "item": item}
+            for name in self._iter_names(item):
+                yield name, payload
+
+    def _item_entry_data(self, doc):
+        for item in self.get_all_items_from_file(doc):
+            payload = {"item": item}
+            for name in self._iter_names(item):
+                yield name, payload
     
