@@ -216,3 +216,5 @@ nav:
   - Player Materials: 
     - stats/index.md
     - Character Builder: util/character-builder.html
+  - The World:
+    - world/gods.md
