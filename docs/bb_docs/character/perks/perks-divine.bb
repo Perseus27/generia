@@ -10,7 +10,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 [h1]The Pantheon of Light[/h1]
 [container:orgblock-transparent]
 [h2|Sol]Sol, The Eternal Sun[/h2]
-[b]Domains:[/b] Sun, Light, Fire, Dominance, Righteousness, War
 
 [container:perk][h2|Purgatory]Purgatory[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -21,7 +20,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Luna]Luna, The Gentle Moon[/h2]
-[b]Domains:[/b] Moon, Light, Healing, Protection, Prophecy, Night
 
 [container:perk][h2|Deliverance]Deliverance[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -32,7 +30,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Andoras]Andoras, The Banner On High[/h2]
-[b]Domains:[/b] Warfare, Strategy, Honorable Combat
 
 [container:perk][h2|BattleFormation]Battle Formation[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -43,7 +40,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Aurelia]Aurelia, Lady of the Golden Fields[/h2]
-[b]Domains:[/b] Agriculture, Fertility, Hospitality
 
 [container:perk][h2|BountyOfTheFields]Bounty of the Fields[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -55,7 +51,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Marca]Marca, The Silvered Tongue[/h2]
-[b]Domains:[/b] Trade, Profit, Dialogue, Travel
 
 [container:perk][h2|ProfitSense]Profit Sense[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -67,7 +62,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 [h1]Neutral Gods[/h1]
 [container:orgblock-transparent]
 [h2|Nox]Nox, The Shadow-Veiled Lady[/h2]
-[b]Domains:[/b] Shadow, Night, Darkness, Stealth, Secrets, Crime, Fear
 
 [container:perk][h2|MutedPresence]Muted Presence[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -78,7 +72,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Pheos]Pheos, Song of the Wind[/h2]
-[b]Domains:[/b] Wind, Freedom, Wandering, Travel, Music
 
 [container:perk][h2|Unbound]Unbound[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -89,7 +82,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Gwydion]Gwydion, Sage of Eld[/h2]
-[b]Domains:[/b] Magic, Knowledge, Secrets
 
 [container:perk][h2|ExternalComputation]External Computation[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -100,7 +92,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|TuHut]Tu'hut, The Thrice-Greatest[/h2]
-[b]Domains:[/b] Alchemy, Science, Wisdom, Knowledge, Medicine
 
 [container:perk][h2|ExperimentalFormula]Experimental Formula[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -112,7 +103,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 [h1]Hostile Gods[/h1]
 [container:orgblock-transparent]
 [h2|Bellona]Bellona, Blood and Steel[/h2]
-[b]Domains:[/b] Violence, War, Slaughter, Rampage
 
 [container:perk][h2|Unhinged]Unhinged[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -129,7 +119,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Eredor]Eredor, The Fading Glimmer[/h2]
-[b]Domains:[/b] Death, Sickness, Decay
 
 [container:perk][h2|EredorsTouch]Eredor's Touch[/h2]
 [b][i]SP Cost:[/i][/b] 10
@@ -140,7 +129,6 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 
 [container:orgblock-transparent]
 [h2|Thalor]Thalor, Sovereign of the Deep[/h2]
-[b]Domains:[/b] Ocean, Water, Dominance, Depth
 
 [container:perk][h2|DepthsEmbrace]Depth's Embrace[/h2]
 [b][i]SP Cost:[/i][/b] 10
