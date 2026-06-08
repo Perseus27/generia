@@ -15,7 +15,7 @@ headers:
 items:
 - name: Dagger
   type: Dagger
-  damage: [2d6, Sharp]
+  damage: [2d4, Sharp]
   skill: Butcher
   hr: 1.5
   dr: 0.5
@@ -29,7 +29,7 @@ items:
 
 - name: Knife
   type: Dagger
-  damage: [2d6, Sharp]
+  damage: [2d4, Sharp]
   skill: Butcher
   hr: 1.0
   dr: 0.0
@@ -43,7 +43,7 @@ items:
 
 - name: Rondel Dagger
   type: Dagger
-  damage: [2d6, Sharp]
+  damage: [2d4, Sharp]
   skill: Butcher
   hr: 0.5
   dr: 1.5

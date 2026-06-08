@@ -15,7 +15,7 @@ headers:
 items:
 - name: Parrying Dagger
   type: Dagger
-  damage: [2d6, Sharp]
+  damage: [2d4, Sharp]
   skill: Butcher
   hr: 1.0
   dr: 0.0
@@ -29,7 +29,7 @@ items:
 
 - name: Stiletto
   type: Dagger
-  damage: [2d6, Sharp]
+  damage: [2d4, Sharp]
   skill: Pierce
   hr: 1.5
   dr: 0.5
