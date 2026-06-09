@@ -99,11 +99,11 @@ proficiencies:
     - [Sword, 4]
     - [Dagger, 4]
   civilian:
-    - "Hunting 2"
-    - "Rites 1"
-    - "Stealing 3"
-    - "Stealth 4"
-    - "Survival 1"
+    - [Hunting, 2]
+    - [Rites, 1]
+    - [Stealing, 3]
+    - [Stealth, 4]
+    - [Survival, 1]
 perks:
   special:
     - Dissonance
