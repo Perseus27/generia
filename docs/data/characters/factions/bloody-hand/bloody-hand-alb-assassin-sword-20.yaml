@@ -94,11 +94,11 @@ proficiencies:
     - "Ranged: Beginner"
     - "Defensive: Beginner"
   civilian:
-    - "Monster Lore 1"
-    - "Rites 1"
-    - "Stealing 2"
-    - "Stealth 3"
-    - "Warfare 2"
+    - [Monster Lore, 1]
+    - [Rites, 1]
+    - [Stealing, 2]
+    - [Stealth, 3]
+    - [Warfare, 2]
 perks:
   special:
     - Dissonance
