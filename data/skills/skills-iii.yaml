@@ -7,12 +7,14 @@ offensive:
     id: flash-of-steel
     tags: [Tier III, Offensive, "Range: [url:values#MS]MS[/url]"]
     cost:
-      - "[section:clr-encost]2 EN[/section]"
+      - "[section:clr-encost]1 EN per target[/section]"
+      - "Hidden Action: [section:clr-attr]DEX[/section]"
     description: >
-      Executes consecutive [url:def#MeleeAttack]melee attacks[/url] against up to [[section:clr-attr]DEX-MOD[/section]] targets.
-      [br]Targets may stand at most [url:values#MS]MS[/url] meters apart to chain the attacks.
-      [br]The user must choose to end the ability on any square in weapon range of the final target.
-      [br]Total [section:clr-en]EN[/section] cost is multiplied with the number of targets.
+      Executes consecutive [url:def#MeleeAttack]melee attacks[/url] against up to [[section:clr-attr]DEX-MOD[/section]] 
+      different targets while performing an unmodified, free [url:def#MovementAction]Movement Action[/url].
+      [br]Requires at least one square of movement between each attack.
+      [br]Only creatures who pass the [url:def#HiddenAction]Hidden Action[/url] check may execute reactive attacks from 
+      [url:perksC#opportunist]Opportunist[/url] and similar sources.
 
   - name: Heavy Blow
     id: heavy-blow

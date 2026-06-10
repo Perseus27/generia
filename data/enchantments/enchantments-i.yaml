@@ -78,6 +78,13 @@ content:
     description: >
       [section:clr-conc]Concentration[/section] saves caused by blocked attacks have [url:core#Advantage]Advantage 1[/url].
 
+  - name: Softstep
+    id: softstep
+    medium: [Armor (Legs)]
+    description:
+      This piece of armor grants its wearer [url:core#Advantage]Advantage 1[/url] on [i]Stealth[/i] checks made while moving.
+    attunement: 5
+
   - name: Swiftstep
     id: swiftstep
     medium: [Armor (Legs)]
