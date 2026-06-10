@@ -4,21 +4,21 @@ info:
   species: Human
   level: 20
   size: Medium
-  classes: [Nox, Fighter, Duelist, Assassin]
+  classes: [Nox, Fighter, Stabber, Assassin]
   tags: [[Trained, 20]]
 notes: >
   [br]140 SP Base
   [br]+40 Bonus
   [br]+20 Trained
-  [br]Rest 2
+  [br]Rest 7
 
 attributes:
   CON: [7, 3]
-  STR: [6, 3]
-  DEX: [11, 5]
+  STR: [6, 3, 1]
+  DEX: [11, 5, 1]
   INT: [5, 2]
   WIL: [5, 2]
-  PER: [10, 5]
+  PER: [10, 5, 1]
 values:
   EN: 15
   MP: 10
@@ -36,28 +36,45 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Rapier"
+    - name: Rapier
       q: 2
-    - name: "Dagger"
+      enchantments:
+        - Reroll I
+    - name: Dagger
       q: 2
-    - name: "Throwing Knife"
-    - name: "Knife"
-  armor:
-    - name: "Padded Helmet"
-    - name: "Padded Armor"
+      enchantments:
+        - DEX+1
+    - name: Throwing Knife
       q: 1
-    - name: "Padded Gauntlets"
-    - name: "Padded Greaves"
-    - name: "Amulet"
+  armor:
+    - name: Padded Helmet
+      q: 1
+      enchantments:
+        - PER+1
+    - name: Padded Armor
       q: 2
-    - name: "Ring"
+      enchantments:
+        - AV+2
+    - name: Padded Gauntlets
+      q: 1
+      enchantments:
+        - STR+1
+    - name: Padded Greaves
+      q: 1
+      enchantments:
+        - Softstep
+    - name: Amulet
+      q: 2
+    - name: Ring
       q: 1
       enchantments:
         - [Focus, Nox]
-    - name: "Ring"
+    - name: Ring
       q: 1
+      enchantments:
+        - MD+1
   misc:
-    - name: "Adventurer's Pack II"
+    - name: Adventurer's Pack II
 actions:
   skills:
     - Multistrike
@@ -105,9 +122,10 @@ perks:
     - Pursuit Hunter
 
   combat:
-    - Lone Fighter
-    - Goliath
+    - Spearhead
+    - Dodge Tank
+    - Duelist
     - Opportunist
 
   magic:
-    - Withering Shadow
+    - Withering Shadows

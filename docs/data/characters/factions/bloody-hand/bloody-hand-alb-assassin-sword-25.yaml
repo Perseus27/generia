@@ -4,21 +4,21 @@ info:
   species: [Alb, Human]
   level: 25
   size: Medium
-  classes: [Nox, Fighter, Duelist, Assassin]
+  classes: [Nox, Fighter, Stabber, Assassin]
   tags: [[Trained, 30]]
 notes: >
   [br]170 SP Base
   [br]+50 Bonus
   [br]+30 Trained
-  [br]Rest 0
+  [br]Rest 17 (saving for Shadow)
 
 attributes:
   CON: [7, 3]
-  STR: [6, 3]
-  DEX: [12, 6]
+  STR: [6, 3, 1]
+  DEX: [12, 6, 2]
   INT: [5, 2]
   WIL: [7, 3]
-  PER: [12, 6]
+  PER: [12, 6, 1]
 values:
   EN: 15
   MP: 10
@@ -36,33 +36,49 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: "Rapier"
+    - name: Rapier
+      q: 3
+      enchantments:
+        - Reroll I
+    - name: Dagger
+      q: 3
+      enchantments:
+        - DEX+1
+    - name: Throwing Knife
       q: 2
-    - name: "Dagger"
-      q: 2
-    - name: "Throwing Knife"
-    - name: "Knife"
   armor:
-    - name: "Padded Helmet"
-    - name: "Padded Armor"
+    - name: Padded Helmet
       q: 2
-    - name: "Padded Gauntlets"
-      q: 1
-    - name: "Padded Greaves"
-      q: 1
-    - name: "Amulet"
+      enchantments:
+        - PER+1
+    - name: Padded Armor
+      q: 3
+      enchantments:
+        - AV+2
+    - name: Padded Gauntlets
       q: 2
-    - name: "Ring"
-      q: 1
+      enchantments:
+        - STR+1
+    - name: Padded Greaves
+      q: 2
+      enchantments:
+        - DEX+1
+        - Softstep
+    - name: Amulet
+      q: 3
+    - name: Ring
+      q: 2
       enchantments:
         - [Focus, Nox]
-    - name: "Ring"
+    - name: Ring
       q: 1
+      enchantments:
+        - MD+1
   misc:
-    - name: "Adventurer's Pack II"
+    - name: Adventurer's Pack II
 actions:
   skills:
-    - Flash of Steel
+    - Quick Strike
     - "Stance: Dodge"
     - Multistrike
     - Aimed Strike
@@ -87,21 +103,22 @@ actions:
     - Noxian Bargain
   rituals:
     - Prayer to Nox
+    - See the Unseen
 proficiencies:
   magic:
     - "Nox: Intermediate"
     - [Night, 5]
   weapons:
     - "Stabbing: Intermediate"
-    - [Sword, 4]
-    - [Dagger, 4]
+    - [Sword, 5]
+    - [Dagger, 5]
     - "Ranged: Beginner"
     - "Defensive: Beginner"
   civilian:
     - [Monster Lore, 1]
     - [Rites, 1]
-    - [Stealing, 2]
-    - [Stealth, 3]
+    - [Stealing, 3]
+    - [Stealth, 4]
     - [Warfare, 2]
 perks:
   special:
@@ -109,12 +126,11 @@ perks:
     - Pursuit Hunter
 
   combat:
-    - Lone Fighter
+    - Spearhead
     - Dodge Tank
-    - Forerunner
-    - Goliath
+    - Duelist
     - Opportunist
 
   magic:
-    - Withering Shadow
+    - Withering Shadows
     - Focus I
