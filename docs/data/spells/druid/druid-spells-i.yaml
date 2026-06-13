@@ -92,6 +92,7 @@ utility:
 
   - name: Root Grip
     id: root-grip
+    alias: [Root Grasp]
     auto_type: [DC, WIL]
     tags: [TIER I, Flora, Utility, "Range: 8m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
     type:
