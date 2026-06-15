@@ -60,7 +60,7 @@ defensive:
       Erects a barrier around the Wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
     effect: >
       [section:clr-roll]1d8[/section] Protection
-      [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
+      [br][i]Barrier is [url:status#resistant]resistant[/url] against Physical[/i]
 
   - name: Tensile Shield II
     id: tensile-shield-ii

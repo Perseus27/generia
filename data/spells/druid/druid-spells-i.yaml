@@ -92,6 +92,7 @@ utility:
 
   - name: Root Grip
     id: root-grip
+    alias: [Root Grasp]
     auto_type: [DC, WIL]
     tags: [TIER I, Flora, Utility, "Range: 8m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
     type:
@@ -119,8 +120,9 @@ ritual:
     effect: >
       Effect, duration, and any costs are negotiated; enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
 
-  - name: Anchor/Release Beast Soul
-    id: anchor-release-beast-soul
+  - name: Anchor Beast Soul
+    id: anchor-beast-soul
+    alias: [Anchor Beast Soul, Anchor/Release Beast Soul, Release Beast Soul]
     tags: [TIER I, Fauna, Out of Combat]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

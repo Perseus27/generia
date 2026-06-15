@@ -1,0 +1,72 @@
+name: Lena Brandt, Initial Stats
+id: lena-brandt-6a
+info:
+  species: Human
+  level: 6
+  size: Medium
+  classes: [Wizard]
+  tags: [–]
+notes: >
+  50 SP Base
+  [br]+0 Bonus
+  [br]REST 30
+
+attributes:
+  CON: [3, 1]
+  STR: [2, 1]
+  DEX: [3, 1]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 5
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - Wizard's Staff
+      enchantments:
+        - [Focus, Wizard]
+  armor:
+    - Robe
+  misc:
+    - ""
+actions:
+  skills:
+    - ""
+  spells:
+    - Mana Beam I
+    - "[i]Elemental Bolt Pending[/i]"
+  rituals:
+    - Hermetic Manipulation
+proficiencies:
+  magic:
+    - "Hermetics: Beginner"
+    - "[i]Spell School Pending[/i]"
+  weapons:
+    - ""
+  civilian:
+    - [Arithmetics, 1]
+    - [History, 1]
+    - [Spellcraft, 3]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - ""
+
+  magic:
+    - ""
