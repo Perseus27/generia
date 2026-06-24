@@ -56,7 +56,7 @@ proficiencies:
   magic:
     - "Sorcerer: Beginner"
     - [Concept, 2]
-    - [Fire, 2]
+    - [Fire, 1]
   weapons:
     - ""
   civilian:
