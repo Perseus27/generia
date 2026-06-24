@@ -49,7 +49,7 @@ actions:
     - "[section:clr-sd]SD[/section]: [section:clr-value]+6[/section]"
     - Overcharged Spell
     - Safe Spell
-    - "[i]Two Personal Spells Pending[/i]"
+    - "[i]Two Signature Spells Pending[/i]"
   rituals:
     - ""
 proficiencies:
