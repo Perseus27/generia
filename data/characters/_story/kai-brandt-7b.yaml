@@ -35,7 +35,10 @@ armor:
   er: 0
 inventory:
   weapons:
-    - name: Wizard's Staff
+    - name: Longsword
+      disp: Focus Sword
+      enchantments:
+        - [Focus, Wizard]
     - name: Knife
   armor:
     - name: Robe
