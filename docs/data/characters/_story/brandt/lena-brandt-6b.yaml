@@ -1,25 +1,25 @@
-name: Laura Brandt, Initial Stats
-id: laura-brandt-7a
+name: Lena Brandt, Init Done
+id: lena-brandt-6b
 info:
   species: Human
-  level: 7
+  level: 6
   size: Medium
-  classes: [Druid]
+  classes: [Wizard]
   tags: [–]
 notes: >
   50 SP Base
   [br]+0 Bonus
-  [br]REST 30
+  [br]REST 8
 
 attributes:
   CON: [3, 1]
-  STR: [4, 2]
+  STR: [2, 1]
   DEX: [3, 1]
   INT: [5, 2]
-  WIL: [6, 3]
-  PER: [4, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
 values:
-  EN: 10
+  EN: 5
   MP: 10
   MPR: 2
   WL: 4
@@ -35,37 +35,35 @@ armor:
   er: 0
 inventory:
   weapons:
-    - Shillelagh
+    - name: Wizard's Staff
       enchantments:
-        - [Focus, Druid]
+        - [Focus, Wizard]
   armor:
-    - name: Padded Armor
-      disp: Druid Mantle
-    - name: Cloth Gauntlets
-      disp: Druid Gloves
-    - name: Cloth Greaves
-      disp: Druid Pants
+    - name: Robe
   misc:
     - ""
 actions:
   skills:
     - ""
   spells:
-    - Grasping Vines
-    - "Theriomorph: Aspect"
-    - Wildgrowth
-    - Regrowth
+    - Mana Beam I
+    - Meteoric Bolt I
+    - Meteoric Barrier I
   rituals:
-    - Rooting
-    - Anchor Beast Soul
+    - Hermetic Manipulation
+    - Meteoric Manipulation
 proficiencies:
   magic:
-    - "Druid: Beginner"
+    - "Hermetics: Beginner"
+    - [Arcane, 1]
+    - "Meteorics: Beginner"
+    - [Lightning, 2]
   weapons:
     - ""
   civilian:
-    - [Botany, 2]
-    - [Zoology, 2]
+    - [Arithmetics, 1]
+    - [History, 1]
+    - [Spellcraft, 3]
 perks:
   special:
     - Efficient Metabolism
@@ -75,4 +73,4 @@ perks:
     - ""
 
   magic:
-    - ""
+    - Battle Meditation

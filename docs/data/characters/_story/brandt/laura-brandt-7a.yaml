@@ -1,10 +1,10 @@
-name: Lena Brandt, Initial Stats
-id: lena-brandt-6a
+name: Laura Brandt, Initial Stats
+id: laura-brandt-7a
 info:
   species: Human
-  level: 6
+  level: 7
   size: Medium
-  classes: [Wizard]
+  classes: [Druid]
   tags: [–]
 notes: >
   50 SP Base
@@ -13,13 +13,13 @@ notes: >
 
 attributes:
   CON: [3, 1]
-  STR: [2, 1]
+  STR: [4, 2]
   DEX: [3, 1]
   INT: [5, 2]
-  WIL: [5, 2]
-  PER: [5, 2]
+  WIL: [6, 3]
+  PER: [4, 2]
 values:
-  EN: 5
+  EN: 10
   MP: 10
   MPR: 2
   WL: 4
@@ -35,31 +35,37 @@ armor:
   er: 0
 inventory:
   weapons:
-    - Wizard's Staff
+    - name: Shillelagh
       enchantments:
-        - [Focus, Wizard]
+        - [Focus, Druid]
   armor:
-    - Robe
+    - name: Padded Armor
+      disp: Druid Mantle
+    - name: Cloth Gauntlets
+      disp: Druid Gloves
+    - name: Cloth Greaves
+      disp: Druid Pants
   misc:
     - ""
 actions:
   skills:
     - ""
   spells:
-    - Mana Beam I
-    - "[i]Elemental Bolt Pending[/i]"
+    - Grasping Vines
+    - "Theriomorph: Aspect"
+    - Wildgrowth
+    - Regrowth
   rituals:
-    - Hermetic Manipulation
+    - Rooting
+    - Anchor Beast Soul
 proficiencies:
   magic:
-    - "Hermetics: Beginner"
-    - "[i]Spell School Pending[/i]"
+    - "Druid: Beginner"
   weapons:
     - ""
   civilian:
-    - [Arithmetics, 1]
-    - [History, 1]
-    - [Spellcraft, 3]
+    - [Botany, 2]
+    - [Zoology, 2]
 perks:
   special:
     - Efficient Metabolism
