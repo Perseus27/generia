@@ -1,5 +1,5 @@
-name: Lena Brandt, Init Done
-id: lena-brandt-6b
+name: Lena Brandt, Initial Stats
+id: lena-brandt-6a
 info:
   species: Human
   level: 6
@@ -9,7 +9,7 @@ info:
 notes: >
   50 SP Base
   [br]+0 Bonus
-  [br]REST 8
+  [br]REST 30
 
 attributes:
   CON: [3, 1]
@@ -35,11 +35,11 @@ armor:
   er: 0
 inventory:
   weapons:
-    - Wizard's Staff
+    - name: Wizard's Staff
       enchantments:
         - [Focus, Wizard]
   armor:
-    - Robe
+    - name: Robe
   misc:
     - ""
 actions:
@@ -47,17 +47,13 @@ actions:
     - ""
   spells:
     - Mana Beam I
-    - Meteoric Bolt I
-    - Meteoric Barrier I
+    - "[i]Elemental Bolt Pending[/i]"
   rituals:
     - Hermetic Manipulation
-    - Meteoric Manipulation
 proficiencies:
   magic:
     - "Hermetics: Beginner"
-    - [Arcane, 1]
-    - "Meteorics: Beginner"
-    - [Lightning, 2]
+    - "[i]Spell School Pending[/i]"
   weapons:
     - ""
   civilian:
@@ -73,4 +69,4 @@ perks:
     - ""
 
   magic:
-    - Battle Meditation
+    - ""
