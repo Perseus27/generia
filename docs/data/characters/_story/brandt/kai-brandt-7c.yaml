@@ -1,0 +1,92 @@
+name: Kai Brandt, Ch. 8
+id: kai-brandt-7c
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes: [Sorcerer, Wizard, Fighter]
+  tags: [–]
+notes: >
+  60 SP Base
+  [br]+5 Quest
+  [br]REST 0
+
+attributes:
+  CON: [4, 2]
+  STR: [4, 2]
+  DEX: [5, 2]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [5, 2]
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Longsword
+      disp: Focus Sword
+      enchantments:
+        - [Focus, Wizard]
+    - name: Knife
+  armor:
+    - name: Robe
+  misc:
+    - ""
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - Mana Beam I
+    - Thermal Bolt I
+    - "[section:clr-dc]DC[/section]: [section:clr-value]14[/section]"
+    - "[section:clr-pa]PA[/section]/[section:clr-sa]SA[/section]: [section:clr-value]+4[/section]"
+    - "[section:clr-sd]SD[/section]: [section:clr-value]+6[/section]"
+    - Overcharged Spell
+    - Safe Spell
+    - "[i]Two Signature Spells Pending[/i]"
+  rituals:
+    - Hermetic Manipulation
+proficiencies:
+  magic:
+    - "Sorcerer: Beginner"
+    - [Concept, 2]
+    - [Fire, 1]
+    - "Hermetics: Beginner"
+    - "Thermics: Beginner"
+    - [Fire, 1]
+  weapons:
+    - "Slashing: Beginner"
+    - [Sword, 1]
+    - "Defensive: Beginner"
+  civilian:
+    - [Arithmetics, 1]
+    - [Athletics, 1]
+    - [History, 1]
+    - [Monster Lore, 1]
+    - [Spellcraft, 3]
+    - [Warfare, 2]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - ""
+
+  magic:
+    - Battle Meditation
