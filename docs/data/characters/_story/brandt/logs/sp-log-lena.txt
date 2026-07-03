@@ -1,0 +1,17 @@
+INIT (6b)
+30 SP
+	-10 Battle Meditation
+	-1 Arcane 1
+	-3 Lightning 2
+	-4 Meteoric Barrier I
+	-4 Meteoric Manipulation
+8 SP
+
+Chapter 7
+	+5 (Cow Quest)
+13 SP
+
+Chapter 8 (6c)
+	-4 Counter Shot
+	-4 Zap I
+5 SP

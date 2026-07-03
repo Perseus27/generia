@@ -1,0 +1,13 @@
+INIT (7b)
+36 SP
+	-20 Wizard
+16 SP
+
+Chapter 7
+	+5 (Cow Quest)
+21 SP
+
+Chapter 8 (7c)
+	-20 Fighter
+	-1 Sword
+0 SP
