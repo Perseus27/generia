@@ -13,6 +13,7 @@ title: Lena Brandt
   </div>
 </template>
 
+# Lena Brandt
 
 # Chapter 8
 {{ character('data/characters/_story/brandt/lena-brandt-6c.yaml') }}

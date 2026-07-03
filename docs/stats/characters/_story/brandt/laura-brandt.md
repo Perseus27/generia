@@ -6,14 +6,15 @@ title: Laura Brandt
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#laura-brandt-7b">Laura, Level 7</a>
+    <a href="#laura-brandt-7b">Laura, Ch. 5</a>
     <br><a href="#laura-brandt-7a">Laura, Initial Stats</a>
     </p>
   </div>
 </template>
 
+# Laura Brandt
 
-# Level 7
+# Chapter 5
 {{ character('data/characters/_story/brandt/laura-brandt-7b.yaml') }}
 
 # Initial Stats

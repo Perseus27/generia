@@ -13,6 +13,8 @@ title: Kai Brandt
   </div>
 </template>
 
+# Kai Brandt
+
 # Chapter 8
 {{ character('data/characters/_story/brandt/kai-brandt-7c.yaml') }}
 
