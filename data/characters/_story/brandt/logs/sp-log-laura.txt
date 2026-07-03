@@ -1,0 +1,12 @@
+INIT (7b)
+
+30 SP
+	-10 Battle Meditation
+	-4 Thorn Whip
+	-6 Flora 3
+	-4 Root Grip
+6 SP
+
+Chapter 7
+	+5 (Cow Quest)
+11 SP

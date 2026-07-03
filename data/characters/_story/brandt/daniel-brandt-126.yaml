@@ -1,0 +1,66 @@
+name: Daniel Brandt, Returned
+id: daniel-brandt-126
+info:
+  species: Human
+  level: 126
+  size: Medium
+  classes: [Wizard]
+  tags: [–]
+notes: >
+  725 SP Base
+  [br]+??? Bonus
+  [br]REST ???
+
+attributes:
+  CON: [20, 10]
+  STR: [10, 5]
+  DEX: [16, 8]
+  INT: [28, 14]
+  WIL: [23, 11]
+  PER: [18, 9]
+values:
+  EN: 20
+  MP: 50
+  MPR: 10
+  WL: 14
+  WT: 7
+  TN: 5
+  MS: 10
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Knife
+  armor:
+    - name: Thick Clothing
+  misc:
+    - ""
+actions:
+  skills:
+    - ""
+  spells:
+    - ""
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - ""
+  civilian:
+    - [Spellcraft, "???"]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - ""
+
+  magic:
+    - ""
