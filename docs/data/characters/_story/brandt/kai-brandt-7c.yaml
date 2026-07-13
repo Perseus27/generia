@@ -1,4 +1,4 @@
-name: Kai Brandt, Ch. 8
+name: Kai Brandt, Ch. 11
 id: kai-brandt-7c
 info:
   species: Human
@@ -41,7 +41,15 @@ inventory:
         - [Focus, Wizard]
     - name: Knife
   armor:
-    - name: Robe
+    - name: Leather Helmet
+      disp: Military Helmet
+      q: 1
+    - name: Chain Armor
+      disp: Plate Carrier
+    - name: Leather Gauntlets
+      disp: Arm Protectors
+    - name: Leather Greaves
+      disp: Leg Protectors
   misc:
     - ""
 actions:

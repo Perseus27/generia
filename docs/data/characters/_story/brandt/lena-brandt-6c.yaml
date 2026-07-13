@@ -1,4 +1,4 @@
-name: Lena Brandt, Ch. 8
+name: Lena Brandt, Ch. 11
 id: lena-brandt-6c
 info:
   species: Human
@@ -39,7 +39,11 @@ inventory:
       enchantments:
         - [Focus, Wizard]
   armor:
-    - name: Robe
+    - name: Leather Helmet
+      disp: Military Helmet
+      q: 1
+    - name: Chain Armor
+      disp: Plate Carrier
   misc:
     - ""
 actions:
