@@ -50,6 +50,12 @@ inventory:
       disp: Arm Protectors
     - name: Leather Greaves
       disp: Leg Protectors
+    - name: Ring
+      disp: Improvised Ring
+    - name: Ring
+      disp: Improvised Ring
+    - name: Amulet
+      disp: Improvised Amulet
   misc:
     - ""
 actions:
