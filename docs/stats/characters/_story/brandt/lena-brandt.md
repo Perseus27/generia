@@ -6,7 +6,7 @@ title: Lena Brandt
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#lena-brandt-6c">Lena, Ch. 8</a>
+    <a href="#lena-brandt-6c">Lena, Ch. 11</a>
     <br><a href="#lena-brandt-6b">Lena, Ch. 5</a>
     <br><a href="#lena-brandt-6a">Lena, Initial Stats</a>
     </p>
@@ -15,7 +15,7 @@ title: Lena Brandt
 
 # Lena Brandt
 
-# Chapter 8
+# Chapter 11
 {{ character('data/characters/_story/brandt/lena-brandt-6c.yaml') }}
 
 # Chapter 5

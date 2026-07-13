@@ -6,7 +6,7 @@ title: Kai Brandt
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#kai-brandt-7b">Kai, Ch. 8</a>
+    <a href="#kai-brandt-7b">Kai, Ch. 11</a>
     <br><a href="#kai-brandt-7c">Kai, Ch. 5</a>
     <br><a href="#kai-brandt-7a">Kai, Initial Stats</a>
     </p>
@@ -15,7 +15,7 @@ title: Kai Brandt
 
 # Kai Brandt
 
-# Chapter 8
+# Chapter 11
 {{ character('data/characters/_story/brandt/kai-brandt-7c.yaml') }}
 
 # Chapter 5
