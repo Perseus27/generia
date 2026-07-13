@@ -52,10 +52,13 @@ inventory:
       disp: Leg Protectors
     - name: Ring
       disp: Improvised Ring
+      q: 1
     - name: Ring
       disp: Improvised Ring
+      q: 1
     - name: Amulet
       disp: Improvised Amulet
+      q: 1
   misc:
     - ""
 actions:
