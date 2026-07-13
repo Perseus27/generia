@@ -44,6 +44,12 @@ inventory:
       q: 1
     - name: Chain Armor
       disp: Plate Carrier
+    - name: Ring
+      disp: Improvised Ring
+    - name: Ring
+      disp: Improvised Ring
+    - name: Amulet
+      disp: Improvised Amulet
   misc:
     - ""
 actions:
