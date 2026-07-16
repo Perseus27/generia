@@ -7,7 +7,9 @@ info:
   classes: [Wizard]
   tags: [–]
 notes: >
-  50 SP Base
+  20/700 EXP
+  [br]
+  [br]50 SP Base
   [br]+5 Quest
   [br]REST 5
 
@@ -42,8 +44,8 @@ inventory:
     - name: Leather Helmet
       disp: Military Helmet
       q: 1
-    - name: Chain Armor
-      disp: Plate Carrier
+    - name: Leather Armor
+      disp: Light Plate Carrier
     - name: Ring
       disp: Improvised Ring
       q: 1
