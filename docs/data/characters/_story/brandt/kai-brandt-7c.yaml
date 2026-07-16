@@ -7,7 +7,9 @@ info:
   classes: [Sorcerer, Wizard, Fighter]
   tags: [–]
 notes: >
-  60 SP Base
+  20/800 EXP
+  [br]
+  [br]60 SP Base
   [br]+5 Quest
   [br]REST 0
 
@@ -45,7 +47,7 @@ inventory:
       disp: Military Helmet
       q: 1
     - name: Chain Armor
-      disp: Plate Carrier
+      disp: Heavy Plate Carrier
     - name: Leather Gauntlets
       disp: Arm Protectors
     - name: Leather Greaves
