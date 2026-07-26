@@ -15,3 +15,10 @@ Chapter 8 (6c)
 	-4 Counter Shot
 	-4 Zap I
 5 SP
+
+Chapter 16 (6d)
+	+5 (Farm Defense Quest)
+	-4 Air Burst
+	-2 Arcane 2
+	-3 Lightning 3
+1 SP
