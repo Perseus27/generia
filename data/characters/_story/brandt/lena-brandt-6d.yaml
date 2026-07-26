@@ -1,0 +1,94 @@
+name: Lena Brandt, Ch. 16
+id: lena-brandt-6d
+info:
+  species: Human
+  level: 6
+  size: Medium
+  classes: [Wizard]
+  tags: [–]
+notes: >
+  183/700 EXP
+  [br]
+  [br]50 SP Base
+  [br]+10 Quest
+  [br]REST 1
+
+attributes:
+  CON: [3, 1]
+  STR: [2, 1]
+  DEX: [3, 1]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 5
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Wizard's Staff
+      enchantments:
+        - [Focus, Wizard]
+  armor:
+    - name: Leather Helmet
+      disp: Military Helmet
+      q: 1
+    - name: Leather Armor
+      disp: Light Plate Carrier
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Amulet
+      disp: Improvised Amulet
+      q: 1
+  misc:
+    - ""
+actions:
+  skills:
+    - ""
+  spells:
+    - Mana Beam I
+    - Meteoric Bolt I
+    - Zap I
+    - Meteoric Barrier I
+    - Counter Shot
+    - Air Burst
+  rituals:
+    - Hermetic Manipulation
+    - Meteoric Manipulation
+proficiencies:
+  magic:
+    - "Hermetics: Beginner"
+    - [Arcane, 2]
+    - "Meteorics: Beginner"
+    - [Lightning, 3]
+  weapons:
+    - ""
+  civilian:
+    - [Arithmetics, 1]
+    - [History, 1]
+    - [Spellcraft, 3]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - ""
+
+  magic:
+    - Battle Meditation
