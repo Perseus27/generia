@@ -40,8 +40,8 @@ actions:
     - []
   spells:
     - [Mana Beam I, 4 SP]
-    - [Hermetic Manipulation, 4 SP]
     - ["[url:kinetics#kinetic-bolt-i]Kinetic[/url]/[url:meteorics#meteoric-bolt-i]Meteoric[/url]/[url:thermics#thermal-bolt-i]Thermal[/url]/[url:hermetics#mana-bolt-i]Mana[/url] Bolt I", 4 SP]
+    - [Create Matrix Crystal, 4 SP]
 
 starter_set:
   - name: Wizard's Staff
