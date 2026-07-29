@@ -11,7 +11,7 @@ notes: >
   [br]
   [br]50 SP Base
   [br]+10 Quest
-  [br]REST 1
+  [br]REST 5
 
 attributes:
   CON: [3, 1]
@@ -68,8 +68,7 @@ actions:
     - Counter Shot
     - Air Burst
   rituals:
-    - Hermetic Manipulation
-    - Meteoric Manipulation
+    - Create Matrix Crystal
 proficiencies:
   magic:
     - "Hermetics: Beginner"

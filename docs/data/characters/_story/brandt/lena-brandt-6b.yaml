@@ -9,7 +9,7 @@ info:
 notes: >
   50 SP Base
   [br]+0 Bonus
-  [br]REST 8
+  [br]REST 12
 
 attributes:
   CON: [3, 1]
@@ -50,8 +50,7 @@ actions:
     - Meteoric Bolt I
     - Meteoric Barrier I
   rituals:
-    - Hermetic Manipulation
-    - Meteoric Manipulation
+    - Create Matrix Crystal
 proficiencies:
   magic:
     - "Hermetics: Beginner"
