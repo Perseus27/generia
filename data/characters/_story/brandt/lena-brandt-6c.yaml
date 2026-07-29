@@ -11,7 +11,7 @@ notes: >
   [br]
   [br]50 SP Base
   [br]+5 Quest
-  [br]REST 5
+  [br]REST 9
 
 attributes:
   CON: [3, 1]
@@ -67,8 +67,7 @@ actions:
     - Meteoric Barrier I
     - Counter Shot
   rituals:
-    - Hermetic Manipulation
-    - Meteoric Manipulation
+    - Create Matrix Crystal
 proficiencies:
   magic:
     - "Hermetics: Beginner"

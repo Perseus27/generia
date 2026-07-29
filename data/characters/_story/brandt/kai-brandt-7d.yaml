@@ -77,10 +77,10 @@ actions:
     - "[section:clr-sd]SD[/section]: [section:clr-value]+6[/section]"
     - Overcharged Spell
     - Safe Spell
-    - ["Look at Me", "[section:clr-dc]DC 14[/section]"]
+    - ["Look at Me", "[section:clr-dc]14[/section]"]
     - "[i]One Signature Spell Pending[/i]"
   rituals:
-    - Hermetic Manipulation
+    - Create Matrix Crystal
 proficiencies:
   magic:
     - "Sorcerer: Beginner"

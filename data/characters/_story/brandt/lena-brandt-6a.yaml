@@ -49,7 +49,7 @@ actions:
     - Mana Beam I
     - "[i]Elemental Bolt Pending[/i]"
   rituals:
-    - Hermetic Manipulation
+    - Create Matrix Crystal
 proficiencies:
   magic:
     - "Hermetics: Beginner"
