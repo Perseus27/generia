@@ -68,8 +68,7 @@ actions:
     - Counter Shot
     - Air Burst
   rituals:
-    - Hermetic Manipulation
-    - Meteoric Manipulation
+    - Create Matrix Crystal
 proficiencies:
   magic:
     - "Hermetics: Beginner"
