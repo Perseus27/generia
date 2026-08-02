@@ -9,7 +9,7 @@ info:
 notes: >
   [br]55 SP Base
   [br]+5 Bonus
-  [br]REST 12
+  [br]REST 2
 
 attributes:
   CON: [4, 2]
@@ -91,3 +91,4 @@ perks:
 
   magic:
     - Battle Meditation
+    - Focus I
