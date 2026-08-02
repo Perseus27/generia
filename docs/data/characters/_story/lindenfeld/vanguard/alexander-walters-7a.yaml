@@ -1,0 +1,95 @@
+name: Alexander Walters, Ch. 23
+id: alexander-walters-7a
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes: [Fighter]
+  tags: [–]
+notes: >
+  [br]55 SP Base
+  [br]+5 Bonus
+  [br]REST 2
+
+attributes:
+  CON: [5, 2]
+  STR: [5, 2]
+  DEX: [5, 2]
+  INT: [3, 1]
+  WIL: [4, 2]
+  PER: [3, 1]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Spear
+    - name: Roundshield
+    - name: Knife
+  armor:
+    - name: Leather Helmet
+      disp: Military Helmet
+      q: 1
+    - name: Chain Armor
+      disp: Heavy Plate Carrier
+    - name: Leather Gauntlets
+      disp: Arm Protectors
+    - name: Leather Greaves
+      disp: Leg Protectors
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Amulet
+      disp: Improvised Amulet
+      q: 1
+  misc:
+    - ""
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Counter
+    - Shield Bash
+  spells:
+    - ""
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Stabbing: Beginner"
+    - [Spear, 4]
+    - "Defensive: Beginner"
+    - [Shield, 4]
+  civilian:
+    - [Athletics, 2]
+    - [Monster Lore, 1]
+    - [Warfare, 2]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - Opportunist
+
+  magic:
+    - ""
