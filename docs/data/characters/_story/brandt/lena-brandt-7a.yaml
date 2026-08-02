@@ -46,6 +46,10 @@ inventory:
       q: 1
     - name: Leather Armor
       disp: Light Plate Carrier
+    - name: Cloth Gauntlets
+      disp: Light Arm Protectors
+    - name: Cloth Greaves
+      disp: Light Leg Protectors
     - name: Ring
       disp: Improvised Ring
       q: 1
