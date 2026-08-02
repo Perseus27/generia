@@ -76,7 +76,7 @@ proficiencies:
     - ""
   weapons:
     - "Stabbing: Beginner"
-    - [Spear, 4]
+    - [Polearm, 4]
     - "Defensive: Beginner"
     - [Shield, 4]
   civilian:
