@@ -5,6 +5,9 @@
 [url:/generia/stats/characters/_story/brandt/kai-brandt]Kai[/url]
 [br][url:/generia/stats/characters/_story/brandt/laura-brandt]Laura[/url]
 [br][url:/generia/stats/characters/_story/brandt/lena-brandt]Lena[/url]
+[h2]Lindenfeld: Vanguard[/h2]
+[url:/generia/stats/characters/_story/lindenfeld/vanguard/marie-neumann]Marie[/url]
+[br][url:/generia/stats/characters/_story/lindenfeld/vanguard/alexander-walters]Alexander[/url]
 [/container]
 [/container]
 
