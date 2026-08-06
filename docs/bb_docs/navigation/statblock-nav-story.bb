@@ -14,8 +14,12 @@
 
 [container:home-links-right]
 [container:home-linkblock]
-[h2]Pets & Summons[/h2]
-PLACEHOLDER
+[h2]Public[/h2]
+[url:/generia/stats/characters/_story/_public/ch3]Chapter 3[/url]
+[br][url:/generia/stats/characters/_story/_public/ch4]Chapter 4[/url]
+[br][url:/generia/stats/characters/_story/_public/ch11]Chapter 11[/url]
+[br][url:/generia/stats/characters/_story/_public/ch16]Chapter 16[/url]
+[br][url:/generia/stats/characters/_story/_public/ch23]Chapter 23[/url]
 [/container]
 [/container]
 [/container]
