@@ -14,7 +14,7 @@ perks:
   combat:
     - []
   magic:
-    - ["Wildgrowth: Permanence", "10 SP, X"]
+    - [Sustained Growth, "10 SP, X"]
     - [Focus I, 10 SP]
 
 proficiencies:
