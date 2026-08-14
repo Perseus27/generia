@@ -193,8 +193,9 @@ content:
     name: Treewarden
     id: treewarden
 
-  - name: "Wildgrowth: Permanence"
-    id: wildgrowth-permanence
+  - name: Sustained Growth
+    alias: ["Wildgrowth: Permanence"]
+    id: sustained-growth
     sp-cost: 10
     requirements: "[url:class2/class-treewarden]Treewarden[/url]"
     description: >
