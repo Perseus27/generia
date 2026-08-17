@@ -1,15 +1,15 @@
-name: Laura Brandt, Ch. 4
-id: laura-brandt-7b
+name: Laura Brandt, Ch. 31
+id: laura-brandt-8a
 info:
   species: Human
-  level: 7
+  level: 8
   size: Medium
-  classes: [Druid]
+  classes: [Druid, Treewarden]
   tags: [–]
 notes: >
   60 SP Base
-  [br]+5 Quest
-  [br]REST 21
+  [br]+10 Quest
+  [br]REST 0
 
 attributes:
   CON: [4, 2]
@@ -51,6 +51,8 @@ actions:
   skills:
     - ""
   spells:
+    - Field of Flowers
+    - Field of Thorns
     - Thorn Whip
     - Root Grip
     - Grasping Vines
@@ -58,7 +60,6 @@ actions:
     - Wildgrowth
     - Regrowth
   rituals:
-    - Rooting
     - Anchor Beast Soul
 proficiencies:
   magic:
@@ -78,4 +79,6 @@ perks:
     - ""
 
   magic:
+    - Sustained Growth
     - Battle Meditation
+    - Focus I
