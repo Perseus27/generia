@@ -26,3 +26,24 @@ Chapter 21 (7a)
 	+5 (Unspecified Goblin Quest)
 	+5 Level 7
 15 SP
+
+Chapter 25
+	+5 (Gnoll Bridge Quest)
+20 SP
+
+Chapter 28
+	+5 (Dog Rescue Quest)
+25 SP
+
+Chapter 29
+	+5 (Defend Waterworks Quest)
+	-26 Meteorician
+4 SP
+
+Chapter 31
+	+5 (Tree Spring Quest)
+9 SP
+
+Chapter 32
+	-4 Zap II
+5 SP
