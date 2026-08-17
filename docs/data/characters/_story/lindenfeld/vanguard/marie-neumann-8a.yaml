@@ -1,0 +1,98 @@
+name: Marie Neumann, Ch. 32
+id: marie-neumann-8a
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes: [Druid, Treewarden]
+  tags: [–]
+notes: >
+  [br]60 SP Base
+  [br]+20 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [4, 2]
+  STR: [3, 1]
+  DEX: [5, 2]
+  INT: [5, 2]
+  WIL: [7, 3]
+  PER: [3, 1]
+values:
+  EN: 10
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Shillelagh
+      enchantments:
+        - [Focus, Druid]
+  armor:
+    - name: Leather Helmet
+      disp: Military Helmet
+      q: 1
+    - name: Leather Armor
+      disp: Light Plate Carrier
+    - name: Cloth Gauntlets
+      disp: Light Arm Protectors
+    - name: Cloth Greaves
+      disp: Light Leg Protectors
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Amulet
+      disp: Improvised Amulet
+      q: 1
+  misc:
+    - ""
+actions:
+  skills:
+    - ""
+  spells:
+    - Field of Flowers
+    - Field of Thorns
+    - Thorn Whip
+    - Regrowth
+    - Grasping Vines
+    - Root Grip
+    - Barkskin
+    - "Theriomorph: Aspect"
+    - Wildgrowth
+  rituals:
+    - Anchor Beast Soul
+proficiencies:
+  magic:
+    - "Druid: Intermediate"
+    - [Flora, 4]
+  weapons:
+    - ""
+  civilian:
+    - [Botany, 2]
+    - [Zoology, 2]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - ""
+
+  magic:
+    - "Wildgrowth: Permanence"
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

@@ -1,0 +1,100 @@
+name: Lena Brandt, Ch. 32
+id: lena-brandt-7b
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes: [Wizard, Meteorician]
+  tags: [–]
+notes: >
+  534/800 EXP
+  [br]
+  [br]55 SP Base
+  [br]+30 Quest
+  [br]REST 5
+
+attributes:
+  CON: [3, 1]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Wizard's Staff
+      enchantments:
+        - [Focus, Wizard]
+  armor:
+    - name: Leather Helmet
+      disp: Military Helmet
+      q: 1
+    - name: Leather Armor
+      disp: Light Plate Carrier
+    - name: Cloth Gauntlets
+      disp: Light Arm Protectors
+    - name: Cloth Greaves
+      disp: Light Leg Protectors
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Ring
+      disp: Improvised Ring
+      q: 1
+    - name: Amulet
+      disp: Improvised Amulet
+      q: 1
+  misc:
+    - ""
+actions:
+  skills:
+    - ""
+  spells:
+    - Thunder I
+    - Levitation
+    - Mana Beam I
+    - Meteoric Bolt I
+    - Zap II
+    - Meteoric Barrier I
+    - Counter Shot
+    - Air Burst
+  rituals:
+    - Create Matrix Crystal
+proficiencies:
+  magic:
+    - "Meteorics: Intermediate"
+    - [Lightning, 3]
+    - "Hermetics: Beginner"
+    - [Arcane, 2]
+  weapons:
+    - ""
+  civilian:
+    - [Arithmetics, 1]
+    - [History, 1]
+    - [Spellcraft, 4]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - ""
+
+  magic:
+    - Practiced Meteorician
+    - Battle Meditation
