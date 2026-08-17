@@ -24,3 +24,25 @@ Chapter 21 (7e)
 Chapter 23 (8a)
 	+5 Level 8
 10 SP
+
+Chapter 25
+	+5 (Gnoll Bridge Quest)
+15 SP
+
+Chapter 27
+	-10 Opportunist
+	-4 Counter
+1 SP
+
+Chapter 28
+	+5 (Dog Rescue Quest)
+6 SP
+
+Chapter 29
+	+5 (Defend Waterworks Quest)
+11 SP
+
+Chapter 31
+	+5 (Tree Spring Quest)
+	-16 Swordfighter
+0 SP
