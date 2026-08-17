@@ -165,6 +165,21 @@ utility:
     effect: >
       [url:status#Regeneration]Regeneration 1/2[/url]
 
+  - name: Field of Roots
+    id: field-of-roots
+    auto_type: [DC, WIL]
+    tags: [TIER II, Flora, Utility, "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      Multiple roots burst beneath foes in the area, wrapping their ankles.
+    effect: >
+      Targets are [url:status#Restrained]Restrained[/url].
+    saved: "[url:status#Slowed]Slowed 1[/url]."
+    saved10: No effect.
+
   - name: Field of Thorns
     id: field-of-thorns
     auto_type: [DC, WIL]
@@ -236,21 +251,6 @@ utility:
     effect: >
       Direct touch inflicts [url:status#Poisoned]Poisoned 2[/url].
       [br]Unarmed basic attacks inflict [i]Poisoned 2[/i] on hit.
-
-  - name: Root Field
-    id: root-field
-    auto_type: [DC, WIL]
-    tags: [TIER II, Flora, Utility, "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", Vegetation / Staff Spell]
-    type:
-      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
-    cost:
-      - "[section:clr-mp]4 MP[/section]"
-    description: >
-      Multiple roots burst beneath foes in the area, wrapping their ankles.
-    effect: >
-      Targets are [url:status#Restrained]Restrained[/url].
-    saved: "[url:status#Slowed]Slowed 1[/url]."
-    saved10: No effect.
 
 
 ritual:
