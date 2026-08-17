@@ -20,6 +20,7 @@
 [br][url:/generia/stats/characters/_story/_public/ch11]Chapter 11[/url]
 [br][url:/generia/stats/characters/_story/_public/ch16]Chapter 16[/url]
 [br][url:/generia/stats/characters/_story/_public/ch23]Chapter 23[/url]
+[br][url:/generia/stats/characters/_story/_public/ch32]Chapter 32[/url]
 [/container]
 [/container]
 [/container]
