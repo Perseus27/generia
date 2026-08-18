@@ -189,13 +189,10 @@ utility:
     cost:
       - "[section:clr-mp]3 MP[/section]"
     description: >
-      Thorny brambles fill the area.
+      Toxic brambles fill the area.
     effect: >
-      [section:clr-roll]2d6[/section] Sharp (Legs)
-      [br]On hit: [url:status#Poisoned]Poisoned 1[/url]
-      [br][url:status#Slowed]Slowed[/url]
-    saved: No damage.
-    saved10: No effect.
+      [url:status#Poisoned]Poisoned 1[/url]
+    saved: No effect.
 
   - name: Panic
     id: panic
