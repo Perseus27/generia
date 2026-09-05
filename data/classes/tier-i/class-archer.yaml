@@ -30,8 +30,8 @@ proficiencies:
 
 actions:
   skills:
-    - [Aimed Shot, 4 SP]
     - [Unpredictable Shot, 4 SP]
+    - [Pocket Sand, 4 SP]
     - [Hold Breath, 8 SP]
   spells:
     - []

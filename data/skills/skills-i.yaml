@@ -93,22 +93,6 @@ utility:
       [i]Requires two-handed weapon.[/i]
 
 reaction:
-  - name: Aimed Shot
-    id: aimed-shot
-    tags: [Tier I, Reaction]
-    cost:
-      - "[section:clr-encost]1 EN[/section]"
-    description: >
-      The next [url:def#RangedAttack]ranged attack[/url] within this turn targets a specific hit zone, but has [url:core#Disadvantage]Disadvantage 1[/url] when targeting arms or legs and [url:core#Disadvantage]Disadvantage 2[/url] when targeting the head. 
-
-  - name: Aimed Strike
-    id: aimed-strike
-    tags: [Tier I, Reaction]
-    cost:
-      - "[section:clr-encost]1 EN[/section]"
-    description: >
-      The next [url:def#MeleeAttack]melee attack[/url] within this turn targets a specific hit zone, but has [url:core#Disadvantage]Disadvantage 1[/url] when targeting arms or legs and [url:core#Disadvantage]Disadvantage 2[/url] when targeting the head. 
-
   - name: Counter
     id: counter
     tags: [Tier I, Reaction, "Range: Weapon"]
