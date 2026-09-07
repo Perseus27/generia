@@ -104,7 +104,7 @@ ritual:
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
-      Summons a shadowy key out of the Veiled Lady's personal collection.
+      Summons a shadowy key out of the Veiled Lady's vast collection.
     effect: >
       Unlocks one non-magical lock, then dissolves.
 
