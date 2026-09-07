@@ -95,6 +95,19 @@ utility:
     saved: No effect.
 
 ritual:
+  - name: Borrowed Key
+    id: borrowed-key
+    tags: [TIER I, Nox, Out of Combat]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cast_time: 10 seconds
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Summons a shadowy key out of the Veiled Lady's personal collection.
+    effect: >
+      Unlocks one non-magical lock, then dissolves.
+
   - name: Prayer to Nox
     id: prayer-to-nox
     tags: [TIER I, Nox, Out of Combat]
