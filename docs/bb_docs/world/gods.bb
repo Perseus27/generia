@@ -176,7 +176,7 @@ Bellona embodies the gruesome side of the battlefield – violence, bloodlust, s
 
 [container:orgblock]
 [h4|Eredor]Eredor, The Fading Glimmer[/h4]
-Eredor is an ancient, powerful god, feared more than revered. He governs over the inevitabilities of mortal life: Sickness, decay, and death.
+Eredor is an ancient, powerful god, feared more than revered. He governs over the inevitabilities of mortal life: sickness, decay, and death.
 [br]Many of his followers are broken, nihilistic souls, spreading suffering throughout the world just because they can. Others, however, have made it their mission to ease the pain brought upon the undeserving; attending them in their final days and grieving for the lives they could have had.
 [br][b]Domains:[/b] [section:clr-emph]Death, Sickness, Decay, Grief[/section]
 [br][b]Elements:[/b] [section:clr-emph]Shadow, Water[/section]
