@@ -13,7 +13,7 @@ While the gods themselves do not particularly care about elements as such, they 
 
 [h2]Coming up with new Gods[/h2]
 Since Generia is deliberately kept open for homebrewed input, the creation of new deities should be handled very liberally by each group of players. Generally speaking, if you want a god to exist to fulfill a class or character fantasy, just invent one.
-[br]The only major issue to keep in mind is domain overlap. If there is significant overlap between the newly designed god and an already existing one, make sure that those gods' relationship is either hierarchical or adversarial. For example, Andoras is a subordinate god of Sol who is essentially "leasing" the domains of [section:clr-emph]War[/section] and [section:clr-emph]Conquest[/section], whereas Sol routinely clashes with Thalor over their claim for [section:clr-emph]Dominance[/section].
+[br]The only major issue to keep in mind is domain overlap. If there is significant overlap between the newly designed god and an already existing one, make sure that those gods' relationship is either hierarchical or adversarial. For example, Andoras and Iudica are subordinate gods of Sol who are essentially "leasing" the domains of [section:clr-emph]War[/section] and [section:clr-emph]Justice[/section], whereas Sol routinely clashes with Thalor over their claim to [section:clr-emph]Dominance[/section].
 [br]This is also the reason why you should not give a god too many domains, as that would result in major tensions with other deities and always carry the risk of [i]shattering[/i], i.e., one deity splitting up into multiple parts with a smaller set of domains each. Keep it simple and contained.
 [br]That said, gods do [i]not[/i] compete for elements, so you are free to do as you please in that regard.
 
@@ -53,7 +53,7 @@ Aurelia is an ancient goddess of agriculture and fertility. By sheer number of f
 
 [container:orgblock]
 [h4|Andoras]Andoras, The Banner On High[/h4]
-Andoras governs over honorable warfare and strategy. Even though his domains overlap severely with Sol's, he gladly plays the part of the sun god's loyal general – and Sol greatly appreciates his service.
+Andoras governs honorable warfare and strategy. Even though his domains overlap severely with Sol's, he gladly plays the part of the sun god's loyal general – and Sol greatly appreciates his service.
 [br]Andoras' followers are almost exclusively members of the military, from foot soldier to field marshal.
 [br][b]Domains:[/b] [section:clr-emph]War, Honor, Strategy, Discipline[/section]
 [br][b]Elements:[/b] [section:clr-emph]Stone, Water[/section]
@@ -71,7 +71,7 @@ A domestic goddess of home, family, warmth, hearty meals, childbirth, and househ
 
 [container:orgblock]
 [h4|Morgulok]Morgulok, Ten Thousand Hammers[/h4]
-Morgulok's origins lay deep beneath the mountains in dwarven forgeholds, but as their industry spread throughout the continent, so did their god.
+Morgulok's origins lie deep beneath the mountains in dwarven forgeholds, but as their industry spread throughout the continent, so did their god.
 [br]He does not have priests or temples, as he considers unproductive worship to be a waste of skill. Instead, those who have truly proven themselves in their craft with years of consistent hard work may earn his favor, and through their tireless labor, Morgulok is exalted.
 [br][b]Domains:[/b] [section:clr-emph]Manual Labor, Industry, Endurance, Conformity[/section]
 [br][b]Elements:[/b] [section:clr-emph]Stone, Fire[/section]
@@ -80,7 +80,7 @@ Morgulok's origins lay deep beneath the mountains in dwarven forgeholds, but as 
 
 [container:orgblock]
 [h4|Iudica]Iudica, The Scales of Judgement[/h4]
-Known as one of Sol and Luna's many children, Iudica rose to prominence as societies grew in size and complexity. She governs over procedural justice – impartial law and binding contracts.
+Known as one of Sol and Luna's many children, Iudica rose to prominence as societies grew in size and complexity. She governs procedural justice – impartial law and binding contracts.
 [br]She is often invoked by magistrates, councillors, inquisitors, and all those who rely on well-defined rules and precedent.
 [br][b]Domains:[/b] [section:clr-emph]Law, Justice, Oaths, Contracts[/section]
 [br][b]Elements:[/b] [section:clr-emph]Light, Stone, Arcane[/section]
