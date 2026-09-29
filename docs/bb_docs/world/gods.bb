@@ -66,7 +66,7 @@ A domestic goddess of home, family, warmth, hearty meals, childbirth, and househ
 [br]Her priests bless marriages, births, kitchens, homes, and communal feasts. Her shrines are rarely grand temples; they are hearthstones, door charms, and family altars.
 [br][b]Domains:[/b] [section:clr-emph]Hearth, Family, Childbirth, Home[/section]
 [br][b]Elements:[/b] [section:clr-emph]Fire, Light, Water[/section]
-[br][b]Rivals:[/b] [url:#Eredor]Eredor[/url], [url:#Nox]Nox[/url], [url:#Lissa]Lissa[/url]
+[br][b]Rivals:[/b] [url:#Eredor]Eredor[/url], [url:#Lissa]Lissa[/url]
 [/container]
 
 [container:orgblock]
