@@ -20,6 +20,9 @@ content:
     
   - name: Muted Presence
     id: MutedPresence
+
+  - name: "Night's Veil"
+    id: NightsVeil
     
   - name: Unbound
     id: Unbound
