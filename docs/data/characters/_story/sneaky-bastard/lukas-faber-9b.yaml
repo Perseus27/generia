@@ -1,0 +1,89 @@
+name: Lukas Faber, Ch. 15
+id: lukas-faber-9b
+info:
+  species: Human
+  level: 9
+  size: Medium
+  classes: [Archer, Nox, Hunter]
+  tags: [–]
+notes: >
+  EXP: 447/1000
+  [br]
+  [br]70 SP Base
+  [br]+10 Quests
+  [br]REST -8
+
+attributes:
+  CON: [4, 2]
+  STR: [5, 2]
+  DEX: [6, 2]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [6, 3]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Hunting Bow
+    - name: Arrow, light
+      q: 1
+    - name: Knife
+  armor:
+    - name: Thick Clothing
+  misc:
+    - ""
+actions:
+  skills:
+    - "Precise Shot: Head"
+    - Camouflage
+    - Careful Shot
+    - Pocket Sand
+    - Unpredictable Shot
+    - Hold Breath
+    - Overwatch
+  spells:
+    - Shadow Strike
+    - Shadow Cloak
+    - Blur
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - "Nox: Beginner"
+    - [Night, 1]
+  weapons:
+    - "Ranged: Intermediate"
+    - [Bow, 3]
+    - "Stabbing: Beginner"
+    - [Dagger, 2]
+  civilian:
+    - [Athletics, 3]
+    - [Hunting, 2]
+    - [Religion, 1]
+    - [Survival, 1]
+    - [Stealth, 4]
+    - [Stealing, 2]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - On the Prowl
+    - Dodge Tank
+
+  magic:
+    - Focus I
