@@ -42,7 +42,18 @@ inventory:
       q: 1
     - name: Knife
   armor:
-    - name: Thick Clothing
+    - name: Padded Helmet
+      disp: Bump Helmet
+      q: 1
+    - name: Padded Armor
+      disp: Protective Vest
+      q: 1
+    - name: Padded Gauntlets
+      disp: Riot Bracers
+      q: 1
+    - name: Padded Greaves
+      disp: Riot Greaves
+      q: 1
   misc:
     - ""
 actions:
