@@ -1,0 +1,56 @@
+Chapter 2
+	754/800
+Chapter 3
+	+90 (Marauder Deniz)
+	-> 44/900
+Chapter 8
+	+80 (Fighter Erkan)
+	-> 124/900
+Chapter 9
+	+100 (Berserker)
+	-> 224/900
+Chapter 10
+	+11 (Gnoll Fighter)
+	+10 (Gnoll Hunter)
+	+10 (Gnoll Slasher)
+	+10 (Gnoll Fighter)
+	+11 (Gnoll Slasher)
+	+10 (Gnoll Slasher)
+	+10 (Gnoll Fighter)
+	+11 (Gnoll Fighter)
+	+10 (Gnoll Butcher)
+	-> 317/900
+Chapter 11
+	+50 (Marauder)
+	+45 (Fighter)
+	+55 (Swordfighter)
+	+50 (Marauder)
+	+100 (Fighter)
+	+100 (Druid)
+	+90 (Fighter)
+	+90 (Marauder)
+	+100 (Fighter)
+	-> 97/1000
+Chapter 13
+	+80 (Shaman)
+	+90 (Fighter)
+	+90 (Bard)
+	-> 357/1000
+Chapter 14
+	+90 (Marauder)
+	-> 447/1000
+Chapter 16
+	+30 (Goblins)
+	-> 477/1000
+Chapter 17
+	+90 (Marauder)
+	+80 (Archer)
+	+18 (Goblins)
+	-> 665/1000
+Chapter 20
+	+90 (Fighter)
+	+90 (Marauder)
+	-> 845/1000
+Chapter 21
+	+32 (Goblins)
+	-> 877/1000

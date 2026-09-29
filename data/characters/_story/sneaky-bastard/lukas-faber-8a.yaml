@@ -1,0 +1,81 @@
+name: Lukas Faber, Ch. 4
+id: lukas-faber-8a
+info:
+  species: Human
+  level: 8
+  size: Medium
+  classes: [Archer]
+  tags: [–]
+notes: >
+  EXP: 44/900
+  [br]
+  [br]65 SP Base
+  [br]+0 Quests
+  [br]REST 6
+
+attributes:
+  CON: [4, 2]
+  STR: [4, 2]
+  DEX: [6, 2]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [5, 2]
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  er: 0
+inventory:
+  weapons:
+    - name: Hunting Bow
+    - name: Arrow, primitive
+    - name: Knife
+  armor:
+    - name: Thick Clothing
+  misc:
+    - ""
+actions:
+  skills:
+    - "Precise Shot: Head"
+    - Camouflage
+    - Careful Shot
+    - Pocket Sand
+    - Unpredictable Shot
+    - Hold Breath
+  spells:
+    - ""
+  rituals:
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Ranged: Beginner"
+    - [Bow, 3]
+    - "Stabbing: Beginner"
+    - [Dagger, 2]
+  civilian:
+    - [Athletics, 3]
+    - [Hunting, 2]
+    - [Survival, 1]
+    - [Stealth, 3]
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+
+  combat:
+    - Dodge Tank
+
+  magic:
+    - ""
