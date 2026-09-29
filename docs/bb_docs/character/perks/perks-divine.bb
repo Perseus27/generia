@@ -72,7 +72,7 @@ While the gods of the [b]Pantheon of Light[/b] and their followers dominate the 
 [container:perk][h2|NightsVeil]Night's Veil[/h2]
 [b][i]SP Cost:[/i][/b] 10
 [br][b]DESCRIPTION:[/b]
-[br]You may wrap yourself an intangigle cloak of darkness at will. It doesn't offer any protection, but it can completely obscure your stature, face, and other visual identifiers. If your face is covered, it may also distort your voice if you so wish.
+[br]You may wrap yourself an intangible cloak of darkness at will. It doesn't offer any protection, but it can completely obscure your stature, face, and other visual identifiers. If your face is covered, it may also distort your voice if you so wish.
 [br]You can freely modify the appearance of the cloak, as long as its dimensions are within reason.
 [/container]
 [/container]
